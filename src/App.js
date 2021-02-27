@@ -248,8 +248,8 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Old people and Nobel-Prize winning economists lie about the
-            following
+            <a href="https://en.wikipedia.org/wiki/Cronus">Old people</a> and
+            Nobel-Prize winning economists lie about the following
           </i>
           <div
             style={{
