@@ -33,12 +33,22 @@ class RealRealGDP extends React.Component {
               transition: "0.3s ease-in"
             }}
           >
-            <a
-              className="charttitle"
-              href="https://fred.stlouisfed.org/graph/?g=Br2V"
-            >
-              <b>trueGDPbyNonDebt</b>
-            </a>
+            <div style={{ display: "flex" }}>
+              <a
+                className="charttitle"
+                style={{ fontWeight: "bolder", textIndent: "10px" }}
+                href="https://fred.stlouisfed.org/graph/?g=Br2V"
+              >
+                trueGDPbyNonDebt
+              </a>
+              <a
+                className="charttitle"
+                style={{ fontWeight: "bolder" }}
+                href="https://froth.app"
+              >
+                froth.app
+              </a>
+            </div>
 
             {/*<iframe
             src="https://fred.stlouisfed.org/graph/graph-landing.php?g=o0KQ&width=670&height=300"
