@@ -1,20 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-@font-face {
-  font-family: Nunito, sans-serif;
-  src: url(./Fonts/Nunito-Regular.ttf) format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 * {
   cursor: pointer;
   margin: 0;
-  font-family: Nunito, sans-serif;
-  /*font-variant: normal;
-  src: url(./Fonts/Nunito-Regular.ttf);*/
-
-  /*-webkit-font-smoothing: antialiased;*/
 }
 html {
   scroll-behavior: smooth;
@@ -23,7 +10,6 @@ html {
   display: flex;
   display: fixed;
   flex-direction: column;
-  font-family: Nunito, sans-serif;
   text-align: center;
   align-items: center;
   padding: 10px;
