@@ -282,7 +282,7 @@ export default class App extends React.Component {
             only income
             <br />
             <br />
-            you van lend to somebody but don't expect to keep the borrowers'
+            you can lend to somebody but don't expect to keep the borrowers'
             consumers' down payments or not be sued for stress and counterfeit
           </div>
           <RealRealGDP />
