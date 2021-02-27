@@ -242,6 +242,15 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Old people and Nobel-Prize winning economists lie about the
+            following
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
