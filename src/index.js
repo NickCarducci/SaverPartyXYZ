@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Fonts/Nunito-Regular.ttf";
 import { CSSTransition } from "react-transition-group";
 
 import App from "./App";
