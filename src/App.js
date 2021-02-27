@@ -242,6 +242,26 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "flex",
+              justifyContent: "center",
+              flexWrap: "wrap",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            David Wildstein is so stupid has a "conservative" on his show saying
+            we have to pay back debt, how? it is 13:1 debt:cash. You are so
+            stupid. This would be illegal by precedence not just technically if
+            the dollar was considered market-share of an organization like I do
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
