@@ -264,7 +264,10 @@ export default class App extends React.Component {
             <a href="macrotrends.net/countries/USA/united-states/death-rate">
               Population stats
             </a>{" "}
-            have been delayed for 1.5 months now to keep the big lie going
+            have been delayed for 1.5 months now to keep the big lie going  <br />
+            Shouldn’t we be worried about dependence too? This is all happening
+            so fast, except total population stats are delayed 1.5 months so
+            far.., so that isn’t fast
             <br />            <br />
 
             David Wildstein is so stupid has a "conservative" on his show saying
