@@ -37,6 +37,7 @@ export default class App extends React.Component {
     this.host = React.createRef();
     this.fintech = React.createRef();
     this.gdp1 = React.createRef();
+    this.foreignpolicy = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -260,7 +261,18 @@ export default class App extends React.Component {
             David Wildstein is so stupid has a "conservative" on his show saying
             we have to pay back debt, how? it is 13:1 debt:cash. You are so
             stupid. This would be illegal by precedence not just technically if
-            the dollar was considered market-share of an organization like I do
+            the dollar was considered
+            <span
+              style={{ textDecoration: "underline" }}
+              onClick={() => {
+                this.foreignpolicy.current.scrollIntoView("smooth");
+                this.setState({ highlightFP: true });
+                setTimeout(() => this.setState({ highlightFP: false }), 10000);
+              }}
+            >
+              market-share
+            </span>{" "}
+            of an organization like I do
           </div>
           <i
             style={{
@@ -2897,7 +2909,18 @@ export default class App extends React.Component {
           >
             America first by gdp (m2) is the wrong direction if calculating
             wealth appreciation by net exports (a.k.a. net imports).{" "}
-            <span>
+            <span
+              ref={this.foreignpolicy}
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightFP ? "white" : "",
+                backgroundColor: this.state.highlightFP ? "navy" : "",
+                opacity: this.state.highlightFP !== null ? "1" : "0",
+                fontSize: this.state.highlightFP !== null ? "" : "0px"
+              }}
+            >
               if your idea of foreign policy is to keep foreigners to getting
               actual assets by forcing our citizens to use counterfeit asset
               certificates, you're retarded chris salcedo
