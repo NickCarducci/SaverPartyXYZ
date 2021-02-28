@@ -258,6 +258,11 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="macrotrends.net/countries/USA/united-states/death-rate">
+              Population stats
+            </a>{" "}
+            have been delayed for 1.5 months now to keep the big lie going
+            <br />
             David Wildstein is so stupid has a "conservative" on his show saying
             we have to pay back debt, how? it is 13:1 debt:cash. You are so
             stupid. This would be illegal by precedence not just technically if
