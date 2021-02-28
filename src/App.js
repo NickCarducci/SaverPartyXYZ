@@ -852,8 +852,11 @@ export default class App extends React.Component {
             as borrowers instigates on us by ignoring previous physical therapy
             for the same thing. I didn't get disability because I was too smart
             and then started applying and the time-lapsed to talk back to the
-            unloving-disowned people running this dollar-corporation. If Iran
-            earns in dollars from an indebted institution, is it their dollars?
+            unloving-disowned people running this dollar-corporation.
+            <br />
+            <br />
+            He also said he stitches people up all the time, but my injury was
+            jagged, but he didn't care.
           </div>
           <a
             href="https://wavv.art/United_States_of_America"
