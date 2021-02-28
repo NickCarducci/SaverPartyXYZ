@@ -38,6 +38,7 @@ export default class App extends React.Component {
     this.fintech = React.createRef();
     this.gdp1 = React.createRef();
     this.foreignpolicy = React.createRef();
+    this.nsfFraud = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -258,18 +259,59 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Planetary studies show obliquity of the earth’s rotation matches
+            with the 41k-year cycle of lowering ice shelves and C02 release, so
+            this may be caused by the angle towards the sun. I’m sure the
+            <span
+              style={{ textDecoration: "underline" }}
+              onClick={() => {
+                this.nsfFraud.current.scrollIntoView("smooth");
+                this.setState({ highlightNSFFraud: true });
+                setTimeout(
+                  () => this.setState({ highlightNSFFraud: false }),
+                  10000
+                );
+              }}
+            >
+              heat-locking of the C02
+            </span>{" "}
+            release compounds this phenomenon too, though
+            <br />
+            <br />
+            <a href="https://www.carbonbrief.org/explainer-how-the-rise-and-fall-of-co2-levels-influenced-the-ice-ages?fbclid=IwAR1QS2_Akp2aZyTJuLVsFAVhPaxrBRG2BtRpyT8g55J8DtPXHBuKrtEtQeE">
+               this article
+            </a>{" "}
+            touches on obliquity which is not spin but the axis spinning like a
+            falling top/dradel, 41k years
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "flex",
+              justifyContent: "center",
+              flexWrap: "wrap",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             condensation rises
-             <br />
+            <br />
             <br />
             <a href="macrotrends.net/countries/USA/united-states/death-rate">
               Population stats
             </a>{" "}
-            have been delayed for 1.5 months now to keep the big lie going  <br />
+            have been delayed for 1.5 months now to keep the big lie going
+            <br />
             Shouldn’t we be worried about dependence too? This is all happening
             so fast, except total population stats are delayed 1.5 months so
             far.., so that isn’t fast
-            <br />            <br />
-
+            <br />
+            <br />
             David Wildstein is so stupid has a "conservative" on his show saying
             we have to pay back debt, how? it is 13:1 debt:cash. You are so
             stupid. This would be illegal by precedence not just technically if
@@ -523,18 +565,47 @@ export default class App extends React.Component {
             ? Nick Carducci.sh
             <br />
             <br />
-            Dear Nicholas,
-            <br />
-            Thank you for submitting your company's Program Pitch to America's
-            Seed Fund powered by the National Science Foundation.
-            <br />
-            Upon reviewing your submitted Project Pitch, I regret to inform you
-            that you are not invited to submit a full proposal to the NSF
-            SBIR/STTR Phase I program.
-            <br />
-            "The proposed project does not appear to focus on a technical
-            innovation that is creative, original or potentially
-            transformative."
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+                alignItems: "center",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              <span
+                ref={this.nsfFraud}
+                style={{
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightNSFFraud ? "white" : "",
+                  backgroundColor: this.state.highlightNSFFraud ? "navy" : "",
+                  opacity: this.state.highlightNSFFraud !== null ? "1" : "0",
+                  fontSize: this.state.highlightNSFFraud !== null ? "" : "0px"
+                }}
+              >
+                Dear Nicholas,
+              </span>
+              <br />
+              Thank you for submitting your company's Program Pitch to America's
+              Seed Fund powered by the National Science Foundation.
+              <br />
+              Upon reviewing your submitted Project Pitch, I regret to inform
+              you that you are not invited to submit a full proposal to the NSF
+              SBIR/STTR Phase I program.
+              <br />
+              "The proposed project does not appear to focus on a technical
+              innovation that is creative, original or potentially
+              transformative."
+            </div>
             <br />
             <br />I also invented the{" "}
             <a href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/226631196">
