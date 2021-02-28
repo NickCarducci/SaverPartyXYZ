@@ -288,6 +288,18 @@ export default class App extends React.Component {
             remarkable that it was done when it was only skipped testing? That’s
             not remarkable in a good way or a recent triumph of medical science
             as he portrays. B-cells are fragile
+            <br />
+            <br />
+            your B-cells do it right away... it is a trade-off between the 0-9mo
+            smell morbidity/dying and B-cell oncogenesis/dying, I’m sure both
+            are equally as likely..., but I like natural things. Takes some time
+            for an infected person to gestate and become contagious + politifact
+            says it requires spittle to travel which has been proven not to
+            float{" "}
+            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+              https://pubmed.ncbi.nlm.nih.gov/17542834/
+            </a>{" "}
+            so it is an individual decision.
           </div>
           <i
             style={{
