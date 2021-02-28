@@ -3850,7 +3850,10 @@ export default class App extends React.Component {
             in a nebulizer, which may have been dust. the only study like this
             did not specify, but even water sprayed is not how people talk. the
             study of spittle specifically only showed a 1ft release, which fell
-            immediately. it likely is transferred by eating poisoned meat
+            immediately. it likely is transferred by eating poisoned meat{" "}
+            <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
+              in reaction to the trade war
+            </a>
             <br />
             Twelve percent of China’s population is age 65 or above. That share
             is 16 percent in the United States, 6 percent in India, and 3
