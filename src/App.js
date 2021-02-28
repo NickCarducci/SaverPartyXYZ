@@ -554,6 +554,8 @@ export default class App extends React.Component {
             </a>{" "}
             design. Do not plagiarize me Nick Carducci.sh
             <br />
+            <a href="https://magnate.company">magnate</a>
+            <br />
             <br />
             Christina, Is it not creative, original or transformative? Because
             it is creative, it is original, and it can transform the entire
