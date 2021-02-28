@@ -262,7 +262,8 @@ export default class App extends React.Component {
               Population stats
             </a>{" "}
             have been delayed for 1.5 months now to keep the big lie going
-            <br />
+            <br />            <br />
+
             David Wildstein is so stupid has a "conservative" on his show saying
             we have to pay back debt, how? it is 13:1 debt:cash. You are so
             stupid. This would be illegal by precedence not just technically if
