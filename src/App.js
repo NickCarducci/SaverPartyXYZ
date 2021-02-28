@@ -282,6 +282,12 @@ export default class App extends React.Component {
               market-share
             </span>{" "}
             of an organization like I do
+            <br />
+            <br />
+            Isn’t it dangerous for Sanjay Gupta to mislead people saying it is
+            remarkable that it was done when it was only skipped testing? That’s
+            not remarkable in a good way or a recent triumph of medical science
+            as he portrays. B-cells are fragile
           </div>
           <i
             style={{
