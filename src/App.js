@@ -313,7 +313,10 @@ export default class App extends React.Component {
             <br />
             In order to file a cease & desist they have to prove it to stop
             opinion and they required a court order to give up an audit. I am an
-            election tech <a href="https://thumbprint.us">competitor</a>
+            election tech{" "}
+            <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
+              competitor
+            </a>
           </div>
           <div
             style={{
@@ -404,10 +407,13 @@ export default class App extends React.Component {
               Unemployment insurance
             </span>{" "}
             generally is so those employees keep paying finance (counterfeit in
-            contract or colonialism) "free" but split-dollar market share labor
-            for business, labor and pre-revenue inventors and artists just get
-            their equity stolen and given to others. it's illegal but not under
-            this regime's precedence
+            contract or colonialism) "free" but{" "}
+            <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
+              split-dollar (the big lie)
+            </a>{" "}
+            market share labor for business, labor and pre-revenue inventors and
+            artists just get their equity stolen and given to others. it's
+            illegal but not under this regime's precedence
           </div>
           <div
             style={{
