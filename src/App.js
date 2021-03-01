@@ -244,7 +244,6 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          {" "}
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -259,11 +258,41 @@ export default class App extends React.Component {
           >
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=480&show_text=true&height=501&appId"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
               width="480"
-              height="501"
+              height="440"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
+            <br />
+            Authorities in Germany and Belgium seized more than 23,000 kilograms
+            (50,700 pounds) of cocaine, worth billions of dollars, in an
+            international operation that resulted in one arrest, officials said
+            Wednesday, calling it the largest amount of cocaine ever seized in
+            Europe.
+            <br />
+            Would be a lot cheaper if it were legalized instead of cornered in
+            the prescription market (adhd medicine...)
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{ border: "none", overflow: "hidden", width: "480px" }}
+            ></iframe>
+            <br />
             "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
             to purchase items at businesses... and multiple diamond
             [investments]"... The fed uses our equity-split on shares of
@@ -2166,9 +2195,9 @@ export default class App extends React.Component {
           >
             <iframe
               title="covid passports could devilver a 'summer of joy' bubble"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNJ.com%2Fposts%2F10158544839661234&width=480&show_text=true&height=505&appId"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNJ.com%2Fposts%2F10158544839661234&width=300&show_text=true&height=444&appId"
               width="480"
-              height="501"
+              height="440"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
           </div>
@@ -2364,9 +2393,9 @@ export default class App extends React.Component {
           >
             <iframe
               title="covid passports could devilver a 'summer of joy' bubble"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=480&show_text=true&height=549&appId"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
               width="480"
-              height="501"
+              height="440"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
             <br />
@@ -3154,9 +3183,9 @@ export default class App extends React.Component {
           <br />
           <iframe
             title="s"
-            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159175313274712&width=480&show_text=true&height=524&appId"
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159175313274712&width=300&show_text=true&height=444&appId"
             width="480"
-            height="501"
+            height="440"
             style={{ border: "none", overflow: "hidden", width: "480px" }}
           ></iframe>
           <br />
@@ -3662,7 +3691,7 @@ export default class App extends React.Component {
             ref={this.navbar}
             style={{
               position: "absolute",
-              transform: "translate(400%,-100%)",
+              transform: "translate(440%,-100%)",
               color: "grey"
             }}
           >
@@ -4361,7 +4390,7 @@ export default class App extends React.Component {
             with an arrow pointing up claiming the wearer has no good brain
             <br />
             {/*<div id="t1318204966461444096" />*/}
-            You know what is better than a 501(c)3? One that’s owned by every
+            You know what is better than a 440(c)3? One that’s owned by every
             living person
             <br />
             <br />
