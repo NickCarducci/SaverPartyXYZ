@@ -258,7 +258,7 @@ export default class App extends React.Component {
             }}
           >
             <span
-              style={{ fontWeight: "bolder" }}
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
@@ -276,7 +276,7 @@ export default class App extends React.Component {
             </a>
             , unless{" "}
             <span
-              style={{ fontWeight: "bolder" }}
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.italy.current.scrollIntoView("smooth");
                 this.setState({ highlightItaly: true });
