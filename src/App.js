@@ -4126,9 +4126,7 @@ export default class App extends React.Component {
             <span
               style={{
                 fontWeight: "bolder",
-                textDecoration: "underline",
-                textDecoration: "underline",
-                fontWeight: "bold"
+                textDecoration: "underline"
               }}
               onClick={() => this.scrolllto.current.scrollIntoView("smooth")}
             >
