@@ -39,6 +39,7 @@ export default class App extends React.Component {
     this.gdp1 = React.createRef();
     this.foreignpolicy = React.createRef();
     this.nsfFraud = React.createRef();
+    this.italy = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -244,6 +245,52 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <span
+              style={{ fontWeight: "bolder" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+                setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              Socialism
+            </span>{" "}
+            leads to capitalism{" "}
+            <a href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea">
+              without promises/with payout schedules
+            </a>
+            , unless{" "}
+            <span
+              style={{ fontWeight: "bolder" }}
+              onClick={() => {
+                this.italy.current.scrollIntoView("smooth");
+                this.setState({ highlightItaly: true });
+                setTimeout(
+                  () => this.setState({ highlightItaly: false }),
+                  10000
+                );
+              }}
+            >
+              someone campaigns on it
+            </span>{" "}
+            and makes communism/colonialism/quotas or prisoners’ dilemma
+            duress-pooling again
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -1484,7 +1531,18 @@ export default class App extends React.Component {
             operators as I have began publishing my, "Banking is not a Business"
             pre-prints.
             <br />
-            U.S. schools teach Italy joined because hair color!
+            <span
+              ref={this.italy}
+              style={{
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlightItaly ? "white" : "",
+                backgroundColor: this.state.highlightItaly ? "navy" : "",
+                transition: ".3s ease-out"
+              }}
+            >
+              U.S. schools teach Italy joined because hair color!
+            </span>
             <br />
             supply-side masked as altruism. ban invoices of borrowers'
             customers' money, rent-colonist interventionist non-producing
