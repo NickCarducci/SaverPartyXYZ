@@ -198,10 +198,6 @@ export default class App extends React.Component {
     document.getElementById("t1332375252538707972").style.position = "relative";
     document.getElementById("t1332375252538707972").style.width = "100%";
   };
-
-  componentWillUnmount = () => {
-    clearTimeout(this.resizer);
-  };
   componentDidUpdate = () => {
     if (
       this.state.lastWidth !== window.innerWidth ||
@@ -1546,9 +1542,17 @@ export default class App extends React.Component {
               Third Reich who campaigned on ending financial discrimination by
               non-jews
             </a>
-            , off the air, a scourge through insurance companies owned by Jewish
-            operators as I have began publishing my, "Banking is not a Business"
-            pre-prints.
+            , off the air, a scourge through insurance companies owned by{" "}
+            <a
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+              href="https://froth.app/debt"
+            >
+              Jewish
+            </a>
+            &nbsp; operators as I have began publishing my, "Banking is not a
+            Business" pre-prints.
             <br />
             <span
               ref={this.italy}
@@ -4974,4 +4978,3 @@ export default class App extends React.Component {
     );
   }
 }
-
