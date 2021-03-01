@@ -260,6 +260,29 @@ export default class App extends React.Component {
             those who lost there jobs and businesses who lost income is
             anti-competitive insurance fraud, regardless if the late population
             stats are abnormal (they aren't)
+            <br />
+            landlord, lender and invoicer get the money right? That’s what the
+            money is for - to bail them out
+            <br />
+            a court would laugh a prosecutor out the room and demand that down
+            payments be repaired for borrower's customers if it were corporate
+            shares instead of dollars during reposession. current debt:cash is
+            13:1. it is counterfeit in the contract
+            <br />
+            <span
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+              }}
+            >
+              Unemployment insurance
+            </span>{" "}
+            generally is so those employees keep paying finance (counterfeit in
+            contract or colonialism) "free" but split-dollar market share labor
+            for business, labor and pre-revenue inventors and artists just get
+            their equity stolen and given to others. it's illegal but not under
+            this regime's precedence
           </div>
           <div
             style={{
