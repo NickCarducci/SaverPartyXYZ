@@ -318,6 +318,18 @@ export default class App extends React.Component {
             <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
               competitor
             </a>
+            <br />
+            CNN reported CPAC survey that 55% of [a sample of] those at CPAC
+            voted for Trump, and 77 WABC reported (a survey?) 97% “supported him
+            as president” #polling
+            <br />
+            Wow CNN just clicked somebody they had for complaining about a Biden
+            pick. Must be tough to get by their producers an idea unscreened and
+            they interfered in the election & public opinion/detests
+            <br />
+            Do you have proof that the virus is spread without symptoms? WNYC
+            nope how many long haulers are there? Why is annual population stats
+            late 2 months?
           </div>
           <div
             style={{
