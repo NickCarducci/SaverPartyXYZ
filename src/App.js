@@ -250,39 +250,16 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
           >
-            Planetary studies show obliquity of the earth’s rotation matches
-            with the 41k-year cycle of lowering ice shelves and C02 release, so
-            this may be caused by the angle towards the sun. I’m sure the
-            <span
-              style={{ textDecoration: "underline" }}
-              onClick={() => {
-                this.nsfFraud.current.scrollIntoView("smooth");
-                this.setState({ highlightNSFFraud: true });
-                setTimeout(
-                  () => this.setState({ highlightNSFFraud: false }),
-                  10000
-                );
-              }}
-            >
-              heat-locking of the C02
-            </span>{" "}
-            release compounds this phenomenon too, though
-            <br />
-            <br />
-            <a href="https://www.carbonbrief.org/explainer-how-the-rise-and-fall-of-co2-levels-influenced-the-ice-ages?fbclid=IwAR1QS2_Akp2aZyTJuLVsFAVhPaxrBRG2BtRpyT8g55J8DtPXHBuKrtEtQeE">
-               this article
-            </a>{" "}
-            touches on obliquity which is not spin but the axis spinning like a
-            falling top/dradel, 41k years
+            splitting dollars of entrepreneurs and labor without consent for
+            those who lost there jobs and businesses who lost income is
+            anti-competitive insurance fraud, regardless if the late population
+            stats are abnormal (they aren't)
           </div>
           <div
             style={{
@@ -290,17 +267,13 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
           >
             condensation rises
-            <br />
             <br />
             <a href="macrotrends.net/countries/USA/united-states/death-rate">
               Population stats
@@ -346,6 +319,43 @@ export default class App extends React.Component {
             </a>{" "}
             so it is an individual decision.
           </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Planetary studies show obliquity of the earth’s rotation matches
+            with the 41k-year cycle of lowering ice shelves and C02 release, so
+            this may be caused by the angle towards the sun. I’m sure the
+            <span
+              style={{ textDecoration: "underline" }}
+              onClick={() => {
+                this.nsfFraud.current.scrollIntoView("smooth");
+                this.setState({ highlightNSFFraud: true });
+                setTimeout(
+                  () => this.setState({ highlightNSFFraud: false }),
+                  10000
+                );
+              }}
+            >
+              heat-locking of the C02
+            </span>{" "}
+            release compounds this phenomenon too, though
+            <br />
+            <br />
+            <a href="https://www.carbonbrief.org/explainer-how-the-rise-and-fall-of-co2-levels-influenced-the-ice-ages?fbclid=IwAR1QS2_Akp2aZyTJuLVsFAVhPaxrBRG2BtRpyT8g55J8DtPXHBuKrtEtQeE">
+               this article
+            </a>{" "}
+            touches on obliquity which is not spin but the axis spinning like a
+            falling top/dradel, 41k years
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -361,10 +371,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -378,10 +385,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -405,10 +409,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
