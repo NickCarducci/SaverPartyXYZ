@@ -257,6 +257,11 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            adverse long-term side effects to vaccines are extroadinarily rare,
+            like covid morbidity or death.
+            <br />
+            no proof asymptomatic, pre-gestation in host are contageous
+            <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -398,6 +403,7 @@ export default class App extends React.Component {
             13:1. it is counterfeit in the contract
             <br />
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.IRS.current.scrollIntoView("smooth");
                 this.setState({ highlightIRS: true });
@@ -444,7 +450,7 @@ export default class App extends React.Component {
             stupid. This would be illegal by precedence not just technically if
             the dollar was considered
             <span
-              style={{ textDecoration: "underline" }}
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.foreignpolicy.current.scrollIntoView("smooth");
                 this.setState({ highlightFP: true });
@@ -489,7 +495,7 @@ export default class App extends React.Component {
             with the 41k-year cycle of lowering ice shelves and C02 release, so
             this may be caused by the angle towards the sun. I’m sure the
             <span
-              style={{ textDecoration: "underline" }}
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.nsfFraud.current.scrollIntoView("smooth");
                 this.setState({ highlightNSFFraud: true });
@@ -653,6 +659,7 @@ export default class App extends React.Component {
             <br />
             Kudlow likes{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.gdp1.current.scrollIntoView("smooth");
                 this.setState({ highlightGDP: true });
@@ -785,6 +792,7 @@ export default class App extends React.Component {
           >
             Savers are disenfranchised by current{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
                 this.setState({ highlightFintech: true });
@@ -833,7 +841,7 @@ export default class App extends React.Component {
             after, which is not surprising because that is how long it takes to
             make my own{" "}
             <span
-              style={{ textDecoration: "underline" }}
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.host.current.scrollIntoView("smooth");
                 this.setState({ highlightHost: true });
@@ -853,6 +861,7 @@ export default class App extends React.Component {
             <br />
             <br />
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.host.current.scrollIntoView("smooth");
                 this.setState({ highlightHost: true });
@@ -872,6 +881,7 @@ export default class App extends React.Component {
               CNN says "hesitancy" is something they must "get around," like
               appropriate public health approval process undercut for the&nbsp;
               <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.bcell.current.scrollIntoView("smooth");
                   this.setState({ highlightBcell: true });
@@ -1163,6 +1173,7 @@ export default class App extends React.Component {
           >
             Marjorie getting elected after suggesting{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.flag.current.scrollIntoView("smooth");
                 this.setState({ highlightFlag: true });
@@ -1194,6 +1205,7 @@ export default class App extends React.Component {
             population in first world countries and the virus was being
             experimented with recklessly in Wuhan by NIH. Btw, you people are
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.host.current.scrollIntoView("smooth");
                 this.setState({ highlightHost: true });
@@ -1208,6 +1220,7 @@ export default class App extends React.Component {
             and carbon monoxide poisoning with these masks and vaccines/grafts
             are{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.decide.current.scrollIntoView("smooth");
                 this.setState({ highlightDecide: true });
@@ -1774,6 +1787,8 @@ export default class App extends React.Component {
                   this.setState({ utahVsHouston: !this.state.utahVsHouston })
                 }
                 style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline",
                   borderLeft: "1px solid blue",
                   borderBottom: "1px solid blue",
                   zIndex: "1",
@@ -1955,6 +1970,7 @@ export default class App extends React.Component {
               <br />
               The US is not the enemy; bold-holders &{" "}
               <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
                   this.setState({ highlightIRS: true });
@@ -2048,6 +2064,7 @@ export default class App extends React.Component {
             bonds are contracts wagering actual dollar-owners' cash (borrowers'
             customers' down payments lost in traditional{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.bail.current.scrollIntoView("smooth");
                 this.setState({ highlightBail: true });
@@ -2062,6 +2079,7 @@ export default class App extends React.Component {
             ), how else do you overcome tyranny other than insurrection by riot
             or destroying tea?{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.tea.current.scrollIntoView("smooth");
                 this.setState({ highlightTea: true });
@@ -2096,6 +2114,7 @@ export default class App extends React.Component {
             forgone for retail in unecesary third party data share. By
             government malfeasance and neglect the&nbsp;
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.UUID.current.scrollIntoView("smooth");
                 this.setState({ highlightUUID: true });
@@ -2445,6 +2464,7 @@ export default class App extends React.Component {
             <br />
             buying property to rent is colonialism, the first of its{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.spittle.current.scrollIntoView("smooth");
                 this.setState({ highlightSpittle: true });
@@ -2491,6 +2511,7 @@ export default class App extends React.Component {
             vaccine and remember the new virus for next time.” No precautions
             about fragility of&nbsp;
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.bcell.current.scrollIntoView("smooth");
                 this.setState({ highlightBcell: true });
@@ -2512,6 +2533,7 @@ export default class App extends React.Component {
           >
             Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.biden.current.scrollIntoView("smooth");
                 this.setState({ highlightBiden: true });
@@ -2543,6 +2565,7 @@ export default class App extends React.Component {
             "We short our police officers" - 2 ways to read that short utility
             or want future trade to{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.setState({ highlightVault: true });
                 setTimeout(
@@ -2799,7 +2822,10 @@ export default class App extends React.Component {
             }}
           >
             If you look at P in GDP as a variable, it is 1 and C + I + G +{" "}
-            <span onClick={() => this.gdp.current.scrollIntoView("smooth")}>
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => this.gdp.current.scrollIntoView("smooth")}
+            >
               NE
             </span>{" "}
             is .01
@@ -2997,6 +3023,7 @@ export default class App extends React.Component {
             </a>{" "}
             networks to not pay out pensions at this{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.spittle.current.scrollIntoView("smooth");
                 this.setState({ highlightSpittle: true });
@@ -3013,6 +3040,8 @@ export default class App extends React.Component {
           <i
             onClick={() => (window.location.href = "https://froth.app")}
             style={{
+              fontWeight: "bolder",
+              textDecoration: "underline",
               color: "blue",
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics"
@@ -3040,6 +3069,8 @@ export default class App extends React.Component {
             ref={this.vault}
             onClick={() => (window.location.href = "https://vaults.biz")}
             style={{
+              fontWeight: "bolder",
+              textDecoration: "underline",
               transition: ".3s ease-in",
               color: this.state.highlightVault ? "white" : "blue",
               backgroundColor: this.state.highlightVault ? "lightBlue" : "",
@@ -3279,6 +3310,8 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
+              fontWeight: "bolder",
+              textDecoration: "underline",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -3345,7 +3378,7 @@ export default class App extends React.Component {
           recipients blue collar, dude their money is made by involuntary
           shareholder actions (
           <span
-            style={{ fontWeight: "bolder" }}
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.marx.current.scrollIntoView("smooth");
               this.setState({ highlightMarx: true });
@@ -3563,6 +3596,8 @@ export default class App extends React.Component {
         monopsonization of medicine
         <div
           style={{
+            fontWeight: "bolder",
+            textDecoration: "underline",
             width: "100%",
             maxWidth: "600px"
           }}
@@ -4090,6 +4125,8 @@ export default class App extends React.Component {
             aren’t getting an equal application of law.{" "}
             <span
               style={{
+                fontWeight: "bolder",
+                textDecoration: "underline",
                 textDecoration: "underline",
                 fontWeight: "bold"
               }}
@@ -4142,6 +4179,8 @@ export default class App extends React.Component {
             this.setState({ openElement: !this.state.openElement })
           }
           style={{
+            fontWeight: "bolder",
+            textDecoration: "underline",
             left: "0px",
             borderRadius: "30px",
             width: "30px",
@@ -4521,7 +4560,13 @@ export default class App extends React.Component {
               //}
             }}
             style={
-              !this.state.openForm ? { cursor: "pointer" } : { display: "none" }
+              !this.state.openForm
+                ? {
+                    fontWeight: "bolder",
+                    textDecoration: "underline",
+                    cursor: "pointer"
+                  }
+                : { display: "none" }
             }
           >
             <br />
@@ -4553,6 +4598,8 @@ export default class App extends React.Component {
                 this.invite.current.scrollIntoView(false);
               }}
               style={{
+                fontWeight: "bolder",
+                textDecoration: "underline",
                 color: "white",
                 position: "absolute",
                 right: "33px",
@@ -4929,3 +4976,4 @@ export default class App extends React.Component {
     );
   }
 }
+
