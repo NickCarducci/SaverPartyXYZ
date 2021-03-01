@@ -244,6 +244,31 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          {" "}
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=480&show_text=true&height=501&appId"
+              width="480"
+              height="501"
+              style={{ border: "none", overflow: "hidden", width: "480px" }}
+            ></iframe>
+            "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
+            to purchase items at businesses... and multiple diamond
+            [investments]"... The fed uses our equity-split on shares of
+            corporate competitors of mine...
+          </div>{" "}
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
