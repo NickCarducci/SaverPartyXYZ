@@ -304,6 +304,13 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            People should be free to choose with full information what is
+            completely within their rights, fines are inherent conflicted
+            interests & license to break laws that people cannot afford it are
+            subject to and should never be applied except between aggrieved
+            private parties - after warning for first infraction of evidenced
+            issues.
+            <br />
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGOODHQ%2Fposts%2F10157982552613059&width=300&show_text=true&height=444&appId"
