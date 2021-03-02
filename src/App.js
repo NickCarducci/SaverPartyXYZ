@@ -41,6 +41,7 @@ export default class App extends React.Component {
     this.nsfFraud = React.createRef();
     this.italy = React.createRef();
     this.populism = React.createRef();
+    this.nonprofit = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -242,6 +243,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            laws don't matter anymore
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -254,6 +263,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <br />
             <a href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345">
               Cory Booker
             </a>{" "}
@@ -530,12 +540,54 @@ export default class App extends React.Component {
               style={{ height: "400px" }}
               src="https://www.dl.dropboxusercontent.com/s/pwmdkft5plxmjyx/DefenseOfIndividual.png?dl=0"
             />
-            <a href="https://wavv.art/forumuZKbR4dhW5dYDMPrxhAU">
-              violent-extremism
-            </a>
-            defense of individual non-liability by association [of other
-            individuals] unless stated intent of self or acknowledgement of
-            organizational intent
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              <a href="https://wavv.art/forumuZKbR4dhW5dYDMPrxhAU">
+                violent-extremism
+              </a>
+              defense of individual non-liability by association [of other
+              individuals] unless stated intent of self or acknowledgement of
+              organizational intent
+              <br />
+              This FBI senate hearing official says they will be targeting
+              anyone who likes the oath keepers or proud boys, who I am seeking
+              information of their website stated intents rather than actions of
+              its members. Looks like some chapters are{" "}
+              <span
+                ref={this.marx}
+                style={{
+                  padding: "4px 10px",
+                  borderRadius: "15px",
+                  color: this.state.highlightMarx ? "white" : "",
+                  backgroundColor: this.state.highlightMarx ? "navy" : "",
+                  transition: ".3s ease-out"
+                }}
+              >
+                501c3
+              </span>
+              &nbsp; so that's weird. get your story straight govenor
+              <br />
+              <br />
+              in connection with the 6th is all this guy cares about. not here
+              to defend city hall buildings. They steal for their own
+              protection, our reps (racially-motivated violent extremism) vs
+              domestic terrorism vs academic vs legal
+              <br />
+              <br />
+              don't touch my stuff. "The United States' decline" stated as
+              intent of people means nothing. He means bond holders/ slave
+              owners
+            </div>
             <br />
             <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
               wavv.art/forumV0cKS0LBcAVCNYwCASKq
@@ -1823,9 +1875,22 @@ export default class App extends React.Component {
             remediation, walked into Baltimore City to form a nonprofit. Little
             did he know at the time and for years after, that the ownership
             devolves to the colonists in power instead of the people, if the
-            organizational legal structure is taken over the initial mission to
-            create a “mock direct democracy for the citizens of Baltimore and
-            beyond.”{" "}
+            organizational &nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.nonprofit.current.scrollIntoView("smooth");
+                this.setState({ highlight501c3: true });
+                setTimeout(
+                  () => this.setState({ highlight501c3: false }),
+                  10000
+                );
+              }}
+            >
+              legal structure
+            </span>
+            &nbsp; is taken over the initial mission to create a “mock direct
+            democracy for the citizens of Baltimore and beyond.”{" "}
             <a href="https://www.youtube.com/watch?v=12V9rV_bp_M">
               (Sortition, Ben)
             </a>
@@ -5592,3 +5657,4 @@ export default class App extends React.Component {
     );
   }
 }
+
