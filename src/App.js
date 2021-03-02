@@ -253,6 +253,17 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumYpLlRfmzVVHxRSi7KWR0">
+              wavv.art/forumYpLlRfmzVVHxRSi7KWR0
+            </a>
+            <br />
+            <a href="https://wavv.art/forumDk8F0qsHuImA3ca57uq0">
+              wavv.art/forumDk8F0qsHuImA3ca57uq0{" "}
+            </a>
+            <a href="https://wavv.art/forum8XjrcSJrbPkNPUqzeR5x">
+              wavv.art/forum8XjrcSJrbPkNPUqzeR5x
+            </a>
+            <br />
             <a href="https://wavv.art/forumJdem5lb2P53ytIYHUJlW">
               wavv.art/forumJdem5lb2P53ytIYHUJlW
             </a>
@@ -265,8 +276,10 @@ export default class App extends React.Component {
               wavv.art/forumCNfCMTq3pfWeFrUUsM9L
             </a>
             <br />
-            alcohol impairs motor always, not weed which is a performance
-            enhancer for some
+            <a href="https://wavv.art/forum8adEPBy05rX8IoDvoQYB">
+              alcohol impairs motor always, not weed which is a performance
+              enhancer for some
+            </a>
             <br />
             <a href="https://www.youtube.com/watch?v=Gp5WEeQi6jE">
               2006 Geraldo Opium US-Afghanistan report
@@ -297,6 +310,10 @@ export default class App extends React.Component {
             defense of individual non-liability by association [of other
             individuals] unless stated intent of self or acknowledgement of
             organizational intent
+            <br />
+            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
+              wavv.art/forumV0cKS0LBcAVCNYwCASKq
+            </a>
             <br />
             <a href="https://wavv.art/forumjcAzW2dy5QhEwpvp8E5m">
               wavv.art/forumjcAzW2dy5QhEwpvp8E5m
@@ -330,8 +347,28 @@ export default class App extends React.Component {
               wavv.art/forumNjqOMVBkAPvnkRndZcnh
             </a>
             <br />
+            <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
+              wavv.art/forumSPcWzET32uuUgtnQ43Gi
+            </a>
+            <br />
             <a href="https//wavv.art/forumsi2UUJphbODBvWuniTWG">
               wavv.art/forumsi2UUJphbODBvWuniTWG
+            </a>
+            <br />
+            <a href="https://wavv.art/forumXYlMQr0kzcAp5VvGtxH2">
+              wavv.art/forumXYlMQr0kzcAp5VvGtxH2
+            </a>
+            <br />
+            <a href="https://wavv.art/forumiG3YJlFur8gEms6FJhW4">
+              wavv.art/forumiG3YJlFur8gEms6FJhW4
+            </a>
+            <br />
+            <a href="https://wavv.art/forumA7TodqbwpSFCo2iWFMPG">
+              wavv.art/forumA7TodqbwpSFCo2iWFMPG{" "}
+            </a>
+            <br />
+            <a href="https://wavv.art/forumpOYRNm6heVePfXKWqnX0">
+              wavv.art/forumpOYRNm6heVePfXKWqnX0
             </a>
           </div>
           <div
@@ -1129,6 +1166,10 @@ export default class App extends React.Component {
               free-riding exclusion in the economy without visible
               symptoms/evidence
               <br />
+              <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
+                wavv.art/forumMqCyVEXOjfYPErd902Vp
+              </a>
+              <br />
               given 2020 deaths are so abnormally low, but higher due to old-age
               population (not the virus), the other reason must be the fear
               instilled by Wolf Blitzer and putting sick & old people together
@@ -1675,6 +1716,9 @@ export default class App extends React.Component {
             in being elastic. In either case, you have no right to promise
             Lendio my money, you scourge
             <br />
+            <a href="https://wavv.art/forumHuT6DNKNABiHUPM8JgBz">
+              wavv.art/forumHuT6DNKNABiHUPM8JgBz
+            </a>
             <br />
             Me to Lendio
             <br />
@@ -2442,6 +2486,10 @@ export default class App extends React.Component {
             HOMELESS IS NOT BECAUSE OF MENTAL HEALTH IT IS BECAUSE OF MORTGAGES,
             PROPERTY TAX, RENT & OTHER FINANCIAL COSTS
             <br />
+            <a href="https://wavv.art/forumVdJokbkLJWv5LF37ARmq">
+              wavv.art/forumVdJokbkLJWv5LF37ARmq
+            </a>
+            <br />
             Insurance is market-intervention akin to colonialism and therefore
             involuntary by duress, the funding for government insurance is
             untreated in the same contract law as corporate shares. We buy-in
@@ -2971,6 +3019,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumndUyfK0JYWVglK4qa62R">
+              wavv.art/forumndUyfK0JYWVglK4qa62R
+            </a>
             <span
               style={{
                 padding: "4px 10px",
@@ -3482,6 +3533,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumvAieCnwTuLHYJWmhFelq">
+              wavv.art/forumvAieCnwTuLHYJWmhFelq
+            </a>
+            <br />
             America first by gdp (m2) is the wrong direction if calculating
             wealth appreciation by net exports (a.k.a. net imports).{" "}
             <span
@@ -3500,6 +3555,11 @@ export default class App extends React.Component {
               actual assets by forcing our citizens to use counterfeit asset
               certificates, you're retarded chris salcedo
             </span>{" "}
+            <br />
+            <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
+              wavv.art/forum4eM79h0dyP3FVsfDan0G
+            </a>
+            <br />
             investment that isn't a violation of corporate equity and contract
             law in the way repossession in bankruptcy keeps the down payments is
             involuntary servitude of the{" "}
@@ -3512,7 +3572,12 @@ export default class App extends React.Component {
               borrower's customers by price & lost down payments, let alone time
               lost
             </span>
-            . In order to remove cross-party risk from the investment, the
+            .
+            <br />
+            <a href="https://wavv.art/forum4WxM6N6JYDuWx6Q9IqyB">
+              wavv.art/forum4WxM6N6JYDuWx6Q9IqyB
+            </a>
+            <br /> In order to remove cross-party risk from the investment, the
             payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE WILLING
             AND ABLE in royalty contracts w/max-profit, which I am working on
             that as well. seeking investors cause I have a lot going on
@@ -3693,7 +3758,16 @@ export default class App extends React.Component {
           <br />
           Insurance companies like Car Shield do not provide service or purchase
           service, they force those who want service to pay in advance to keep
-          up with price-inelasticity. That is involuntary servitude
+          up with price-inelasticity & for invoices to boot. That is involuntary
+          servitude
+          <br />
+          <a href="https://wavv.art/forumtkBMXXfLklz04JVLd8sN">
+            wavv.art/forumtkBMXXfLklz04JVLd8sN
+          </a>
+          <br />
+          <a href="https://wavv.art/forumC49WDIBFRmpaO05ukNoo">
+            wavv.art/forumC49WDIBFRmpaO05ukNoo
+          </a>
         </div>
         <div
           style={{
@@ -4328,6 +4402,10 @@ export default class App extends React.Component {
               in reaction to the trade war
             </a>
             <br />
+            <a href="https://wavv.art/forumAnwTeKQ7MJZlbGtknlur">
+              wavv.art/forumAnwTeKQ7MJZlbGtknlur
+            </a>
+            <br />
             Twelve percent of China’s population is age 65 or above. That share
             is 16 percent in the United States, 6 percent in India, and 3
             percent in Nigeria.
@@ -4343,6 +4421,10 @@ export default class App extends React.Component {
             <br />
             i think this is why instagram recently voided all class action
             lawsuits in their inclusion terms
+            <br />
+            <a href="https://wavv.art/forumur7AXXUYTzAVWHyPvjVS">
+              wavv.art/forumur7AXXUYTzAVWHyPvjVS
+            </a>
             <br />
             Amendment 13 protects free speech privately and arousal-orientation
             per non-monopsomous inclusion in supply, not just demand (and
@@ -5256,4 +5338,3 @@ export default class App extends React.Component {
     );
   }
 }
-
