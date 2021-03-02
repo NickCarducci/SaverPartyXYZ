@@ -2381,6 +2381,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumyaPOR5EzNIENE6dMU4UD">
+              wavv.art/forumyaPOR5EzNIENE6dMU4UD
+            </a>
+            <br />
             Your power to prevent me from inclusion in the economy{" "}
             <a
               ref={this.decide}
