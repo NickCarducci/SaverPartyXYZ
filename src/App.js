@@ -715,6 +715,9 @@ export default class App extends React.Component {
             and if you don't want to go public you can pay no corporate tax,
             only income
             <br />
+            <a href="https://wavv.art/forumbNoJuNX58U3nX3dK5mPA">
+              wavv.art/forumbNoJuNX58U3nX3dK5mPA
+            </a>
             <br />
             you can lend to somebody but don't expect to keep the borrowers'
             consumers' down payments or not be sued for stress and counterfeit
