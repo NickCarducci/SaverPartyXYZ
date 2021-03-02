@@ -254,7 +254,10 @@ export default class App extends React.Component {
             }}
           >
             only in 2018 did I learn where dollars come{" "}
-            <a href="https://vaults.biz">from...</a>
+            <a href="https://vaults.biz">from...</a> after spending $250k on JHU
+            economics
+            <br />
+            <a href="https://wavv.art/test3">wavv.art/test3</a>
             <br />
             <a
               style={{ fontSize: "12px", color: "black" }}
