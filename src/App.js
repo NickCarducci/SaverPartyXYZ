@@ -253,6 +253,24 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            My remedy of harm done, and to put the toothpaste back into the tube
+            (repair depositary), would be to reverse all transations to
+            cash:debt ratio at that time, so that all buyers pay what they
+            should have paid if lenders were not able to contract an unrequited
+            third party's money in the borrowers' consumers
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             Stimulous (ignoring harm done in price-inelasticity inflation,
             monetary inflation/involuntary servitude) cannot relieve anything if
             finance is banned
