@@ -258,8 +258,8 @@ export default class App extends React.Component {
             <a href="https://wavv.art/United_States_of_America">
               wavv.art/United_States_of_America
             </a>
-            <br/>
-            <br/>
+            <br />
+            <br />
             @cnn brooke don't call me white, frivalous cunt, I am olive and that
             has nothing to do with my personality only my body, why does that
             matter for you or systems at all if not numerated except to
@@ -1392,6 +1392,26 @@ export default class App extends React.Component {
             debt will prevent investors from lending to bonds that are able to
             be cashed out. immigration and dilution of dollar-share will not
             bankrupt the country
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              flexDirection: "column",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            If everyone else is lying about what they can do in promising other
+            peoples’ money I can too as well as short those with these
+            price-fixed valuations
+            <br /> <br />I can do this for my knee as I learn to code for job
+            without commute
           </div>
           <i
             style={{
