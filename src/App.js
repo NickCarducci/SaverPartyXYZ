@@ -253,6 +253,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumJuVk5CVuo4PpIesU2Qlz">
+              wavv.art/forumJuVk5CVuo4PpIesU2Qlz
+            </a>
             <img
               alt="defense of individual non-liability by association unless stated intent"
               style={{ height: "400px" }}
