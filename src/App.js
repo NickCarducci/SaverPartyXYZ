@@ -277,6 +277,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
+              wordBreak: "break-word",
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
               margin: "10px 0px",
@@ -292,7 +293,24 @@ export default class App extends React.Component {
             <br />
             no proof asymptomatic, pre-gestation in host are contageous
             <br />
-            eat rises, weight fall/electrons pull. No proof spittle floats in
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              Vaccines/grafts do not protect others because you can exclude
+              symptomatic but have no evidence for asymptomatic & gestation is
+              required to be contageous
+            </div>
+            <br />
+            heat rises, weight fall/electrons pull. No proof spittle floats in
             the middle and that goes against planetary science/weather systems
             and physics. Here is 0/10 transmission by being in room without mask
             &nbsp;
