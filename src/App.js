@@ -272,7 +272,7 @@ export default class App extends React.Component {
             wants the latter, all three supply-side political parties want the
             former
             <br />
-            "Debt is 140% of GDP," Rep is an idiot that must be GDP /year only
+            "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year only
             <br />
             <a href="https://wavv.art/United_States_of_America">
               wavv.art/United_States_of_America
