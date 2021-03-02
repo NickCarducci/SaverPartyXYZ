@@ -253,6 +253,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            only in 2018 did I learn where dollars come{" "}
+            <a href="https://vaults.biz">from...</a>
+            <br />
             <a
               style={{ fontSize: "12px", color: "black" }}
               href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
@@ -273,11 +276,12 @@ export default class App extends React.Component {
             self-harm is not your choice to stop if fully-informed, but this is
             harm to others unrequited
             <br />
-            Honorable Gene Dodardo is an idiot if he is not a consumer, retarded
-            if he is one, or nefariously lying understanding that it is not the
-            case that, "SBA loans helps small businesses," when in fact it
-            obviously prohibits price-elasticity and the same product could be
-            had for a much lower price without it.
+            Honorable Gene Dodardo (Government Accountability Office what a
+            crock of shit/fraud to prohibit [settled] trade) is an idiot if he
+            is not a consumer, retarded if he is one, or nefariously lying
+            understanding that it is not the case that, "SBA loans helps small
+            businesses," when in fact it obviously prohibits price-elasticity
+            and the same product could be had for a much lower price without it.
             <br />
             trade is an exchange of mutual benefits, loans are predatory and are
             to keep paying lenders, rentiers, colonists, and instigators of
