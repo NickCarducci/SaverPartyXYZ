@@ -241,6 +241,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Monetary Inflation only happens quickly when debts are paid like
+            Great Depression
+            <br />
+            stupid to have any finance, competing with consumers
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
