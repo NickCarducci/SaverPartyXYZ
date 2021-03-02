@@ -259,9 +259,6 @@ export default class App extends React.Component {
             "The United States' decline" stated as intent of people means
             nothing
             <br />
-            "The United States' decline" stated as intent of people means
-            nothing
-            <br />
             He means bond holders/ slave owners
             <a href="https://wavv.art/forumJuVk5CVuo4PpIesU2Qlz">
               wavv.art/forumJuVk5CVuo4PpIesU2Qlz
@@ -273,6 +270,10 @@ export default class App extends React.Component {
             />
             defense of individual non-liability by association unless stated
             intent
+            <br />
+            <a href="https://wavv.art/forumjcAzW2dy5QhEwpvp8E5m">
+              wavv.art/forumjcAzW2dy5QhEwpvp8E5m
+            </a>
           </div>
           <div
             style={{
@@ -1014,6 +1015,9 @@ export default class App extends React.Component {
               as well
             </span>
             <br />
+            <a href="https://wavv.art/forummN2OxZAJO3IEXZVNEPX3">
+              wavv.art/forummN2OxZAJO3IEXZVNEPX3
+            </a>
             <br />
             Sanjay says he is amazed we could make 3 "vaccines" (grafts) that
             quickly, does he mean in its public health approval? Because it is
@@ -2116,6 +2120,9 @@ export default class App extends React.Component {
             >
               weed/pharmaceuticals is a currency competitor
               <br />
+              <a href="https://wavv.art/forumeAjLbTpdQ2N6rOh2lNkD">
+                wavv.art/forumeAjLbTpdQ2N6rOh2lNkD
+              </a>
               <br />
               is it a performance enhancer or bad for you? It makes work easy
               like small doses of cocaine does in adderall, but it does not
