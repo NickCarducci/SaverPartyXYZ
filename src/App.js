@@ -253,6 +253,12 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumjHnjLh0PdHK71jKeBDBU">
+              wavv.art/forumjHnjLh0PdHK71jKeBDBU
+            </a>
+            "The United States' decline" stated as intent of people means
+            nothing
+            <br />
             "The United States' decline" stated as intent of people means
             nothing
             <br />
