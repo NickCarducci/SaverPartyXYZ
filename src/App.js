@@ -5144,6 +5144,10 @@ export default class App extends React.Component {
         Where is mconnel going to go? he is taking the pubs down with him -
         slave owner dems need a new insurrectionist against treasonous finance
         3;3;1 <a href="https://micro-theory.com">Micro-Theory.com</a>
+        <br />
+        <a href="https://wavv.art/forumptd8BTCtfc4aHAc36QSR">
+          wavv.art/forumptd8BTCtfc4aHAc36QSR
+        </a>
       </div>
     );
   }
