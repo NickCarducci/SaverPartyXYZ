@@ -253,6 +253,54 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Don’t tax to pay for things && or allow people to trade with
+            promises of other peoples’ assets, let prices fall and tax for
+            things where a free rider cannot be avoided && it is for that
+            business’ security (not hedging with cross-party risk...), not
+            trading commodities or stock... (A) just bailing out bad bets with
+            $.01 transaction tax these debt transactions need to be reversed
+            like ACTUALLY cancelled/forbidden but the non-debt purchases need to
+            be reversed to cash:debt prices as well. (B) Not this fraudulent
+            “canceling” by paying it off by dollar-share split
+            <br />
+            To be sure, the pursuit of happiness should not be at the expense of
+            others. It means we get what we give. (C) Trade is an exchange of
+            benefits, supplying [alone] is the competition - which should be
+            based not on counterfeit by invoice or abetting duressful purchases
+            as a broker by pool or expiration. While the Will Smith movie
+            celebrates{" "}
+            <span
+              onClick={() => {
+                this.setState({ openForm: false, scrolled: false });
+                this.invite.current.scrollIntoView(false);
+              }}
+            >
+              2% of the population
+            </span>{" "}
+            that has 1100% of the assets, 98% are being colonized, but not by
+            race! We’ve made so much progress.
+            <br />
+            Capital gains or loss is not a tangible loss. It is your fault for
+            not trading when an offer was available at the price you prefer (D)
+            tax this instead
+            <br />
+            <br />
+            Education may help the individual when it is not done for everyone.
+            The best move for people is in protecting their bargaining position
+            <br />
+            Two steps back for everyone, one step forward for one
+            <br />
+            Wealth is about relativity to one another until it is about the
+            utility of the asset
+            <br />
+            Education can be either a trade secret, stifle discovery, or speed
+            up open source. 1/3 is bad, especially if it can be accomplished
+            online
+            <br />
+            <br />
+            Citadel claiming ownership as sustaining "prices and being proud of
+            their team" IS CONFESSION
+            <br />
             Dodaro, please look at tax reciepts when analysing our ability to
             pay down debt or default to cash:debt, not the GDP - new money - new
             debt
@@ -263,7 +311,6 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Chicken or 
             Chicken or{" "}
             <a href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR0yCu8W_XONeAnFNEucUiy8mQNlIHE6f67H1vr49KiI2_gHO_ow995-1xY">
               egg
@@ -288,7 +335,8 @@ export default class App extends React.Component {
             wants the latter, all three supply-side political parties want the
             former
             <br />
-            "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year only
+            "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year
+            only
             <br />
             <a href="https://wavv.art/United_States_of_America">
               wavv.art/United_States_of_America
@@ -301,8 +349,8 @@ export default class App extends React.Component {
             individuals within them?
             <br />
             only in 2018 did I learn where dollars come{" "}
-            <a href="https://vaults.biz">from...</a> after spending $250k on JHU
-            <a href="https://micro-theory.com">economics</a>
+            <a href="https://vaults.biz">from</a> ... after spending $250k on
+            JHU <a href="https://micro-theory.com">economics</a>
             <br />
             <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
               wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
@@ -313,13 +361,14 @@ export default class App extends React.Component {
               href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
             >
               CNN (no thwart of bad info, Dr. Davidson) claims masks do not
-              cause humidity on face and worsen/prolong virus.{" "}
-            </a>{" "}
+              cause humidity on face and worsen/prolong virus.
+            </a>
+            {"  "}
             "Why not send money out for [graft]?" so that prices are found
             naturally so people can afford it and not owe the money again, and
             we know B-cells can cause oncogenesis when abnornal/dysregulated by
             not acting normally like using your own mRNA to form antibodies in
-            reaction to a non-human part to fight, not be guided.
+            reaction to a non-human part to fight, not be guided.{"  "}
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7264927/?fbclid=IwAR3YJK5KeMMHKlePeZN0lQb0cZz6tAb2SQZO9bKJl9jEE6aQIE08nbUgUNE">
               It is only proposed as an unconfirmed solution to not be oncogenic
               by "culturing" B-cells or creating a grandiose "universal B-cell"
@@ -4333,7 +4382,8 @@ export default class App extends React.Component {
           <br />
           1. Taxes are slavery
           <br />
-          2. Sales tax is efficient, under $2k buys:
+          2. Sales tax is efficient, under{" "}
+          <a href="https://vaults.biz">$2k buys</a>:
           <br />
           first grand is $60, second is $30 (6%, 3%)
           <br />
