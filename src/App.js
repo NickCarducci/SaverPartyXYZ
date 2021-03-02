@@ -267,6 +267,14 @@ export default class App extends React.Component {
             prisoners' dilemma pooling from losing out their usurped income that
             they are used to
             <br />
+            Not only do we owe it back but it is an antitrust case against the
+            government advertising this as helpful instead of anticompetitive
+            for government and asset accumulation by lending usurped funds and
+            payout schedule in contract beyond a willing/able customer, and only
+            raises price - it obviously does not help and to say otherwise is
+            reprehensible if intentful or not for a government official
+            (Comptroller General) to hold as true.
+            <br />
             <iframe
               title="Dr Seuss cultural zoo"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
