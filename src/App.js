@@ -257,7 +257,9 @@ export default class App extends React.Component {
             <a href="https://vaults.biz">from...</a> after spending $250k on JHU
             economics
             <br />
-            <a href="https://wavv.art/test3">wavv.art/test3</a>
+            <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
+              wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
+            </a>
             <br />
             <a
               style={{ fontSize: "12px", color: "black" }}
