@@ -280,6 +280,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forum6sY714uTNQJogsqUU5t1">
+              wavv.art/forum6sY714uTNQJogsqUU5t1
+            </a>
             My remedy of harm done, and to put the toothpaste back into the tube
             (repair depositary), would be to reverse all transations to
             cash:debt ratio at that time, so that all buyers pay what they
@@ -337,8 +340,10 @@ export default class App extends React.Component {
               required to be contageous
             </div>
             <br />
-            <a href="https://wavv.art/forumVzdEpAkIklybHUWXHGq5">wavv.art/forumVzdEpAkIklybHUWXHGq5</a>
-            <br/>
+            <a href="https://wavv.art/forumVzdEpAkIklybHUWXHGq5">
+              wavv.art/forumVzdEpAkIklybHUWXHGq5
+            </a>
+            <br />
             heat rises, weight fall/electrons pull. No proof spittle floats in
             the middle and that goes against planetary science/weather systems
             and physics. Here is 0/10 transmission by being in room without mask
@@ -425,15 +430,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            People should be free to choose with full information what is
-            completely within their rights, fines are inherent conflicted
-            interests & license to break laws that people cannot afford it are
-            subject to and should never be applied except between aggrieved
-            private parties - after warning for first infraction of evidenced
-            issues.
-            <br />
-            Parent choice of mutilation cannot be reversed but drugs can be
-            <br />
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGOODHQ%2Fposts%2F10157982552613059&width=300&show_text=true&height=444&appId"
@@ -506,6 +502,15 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            People should be free to choose with full information what is
+            completely within their rights, fines are inherent conflicted
+            interests & license to break laws that people cannot afford it are
+            subject to and should never be applied except between aggrieved
+            private parties - after warning for first infraction of evidenced
+            issues.
+            <br />
+            Parent choice of mutilation cannot be reversed but drugs can be
+            <br />
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
@@ -565,6 +570,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
+              wordBreak: "break-word",
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
               margin: "10px 0px",
@@ -638,7 +644,7 @@ export default class App extends React.Component {
           >
             Planetary studies show obliquity of the earth’s rotation matches
             with the 41k-year cycle of lowering ice shelves and C02 release, so
-            this may be caused by the angle towards the sun. I’m sure the
+            this may be caused by the angle towards the sun. I’m sure the{" "}
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -2377,11 +2383,14 @@ export default class App extends React.Component {
             In contrast with other companies like the above, toting privacy
             these chats ACTUALLY retain end-to-end encryption when backed up (in
             the cloud), keyBox for your first device, share your box & open
-            thread + children-document keys with your accounts' keys. To access
-            your boxes on the cloud (a) Never destoy this device (b) 1. Click
-            the button. 2. Visit your original device. 3. Then, come back. 4.
-            Never destroy the auxilliary device. or (c) 1. Save the key in a
-            file, then drop it into a new device.
+            thread + children-document{" "}
+            <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
+              keys with your accounts' keys
+            </a>
+            . To access your boxes on the cloud (a) Never destoy this device (b)
+            1. Click the button. 2. Visit your original device. 3. Then, come
+            back. 4. Never destroy the auxilliary device. or (c) 1. Save the key
+            in a file, then drop it into a new device.
             <br />
             this satisfies both Article 3;3 for Amendment 1 by way of privacy
             for the unconvicted & an intranet for the convicted, both accessed
