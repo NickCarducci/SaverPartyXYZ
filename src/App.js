@@ -253,6 +253,26 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <img
+              alt="defense of individual non-liability by association unless stated intent"
+              style={{ height: "400px" }}
+              src="https://www.dl.dropboxusercontent.com/s/pwmdkft5plxmjyx/DefenseOfIndividual.png?dl=0"
+            />
+            defense of individual non-liability by association unless stated
+            intent
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             My remedy of harm done, and to put the toothpaste back into the tube
             (repair depositary), would be to reverse all transations to
             cash:debt ratio at that time, so that all buyers pay what they
