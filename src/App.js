@@ -5729,6 +5729,10 @@ export default class App extends React.Component {
         <a href="https://wavv.art/forumptd8BTCtfc4aHAc36QSR">
           wavv.art/forumptd8BTCtfc4aHAc36QSR
         </a>
+        <br />
+        fighting income-inequality with finance/involuntary dollar/market-share
+        split is not the way to keep equity level with labor's worth in living
+        costs
       </div>
     );
   }
