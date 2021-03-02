@@ -260,7 +260,7 @@ export default class App extends React.Component {
             <br />
             only in 2018 did I learn where dollars come{" "}
             <a href="https://vaults.biz">from...</a> after spending $250k on JHU
-            economics
+            <a href="https://micro-theory.com">economics</a>
             <br />
             <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
               wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
