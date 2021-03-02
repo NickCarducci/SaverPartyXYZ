@@ -260,6 +260,9 @@ export default class App extends React.Component {
             <br />
             like calling a graft a non-human-part vaccine. croak, please before
             you hurt someone
+            <br />
+            Unspoken collusion by supply-side product luddites. "Advent of zoom"
+            it is WebX with a better brand... shikes
           </div>
           <i
             style={{
