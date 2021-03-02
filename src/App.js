@@ -281,8 +281,26 @@ export default class App extends React.Component {
             race! We’ve made so much progress.
             <br />
             Capital gains or loss is not a tangible loss. It is your fault for
-            not trading when an offer was available at the price you prefer (D)
-            tax this instead
+            not trading when an offer was available at the price you prefer. It
+            is a{" "}
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.spittle.current.scrollIntoView("smooth");
+                this.setState({ highlightSpittle: true });
+                setTimeout(
+                  () => this.setState({ highlightSpittle: false }),
+                  10000
+                );
+              }}
+            >
+              valuation
+            </span>{" "}
+            of last trade and not all shares outstanding can afford that price
+            or{" "}
+            <a href="https://nationalsecuritycasino.com">
+              are even included in the outstanding lot sometimes
+            </a>
             <br />
             <br />
             Education may help the individual when it is not done for everyone.
@@ -4281,6 +4299,7 @@ export default class App extends React.Component {
           shares the claimant would be laughed out of court. THIS IS FRAUD
         </div>
         <div
+          ref={this.spittle}
           style={{
             padding: "20px",
             display: "inline-block",
@@ -4300,21 +4319,20 @@ export default class App extends React.Component {
           share power waged in contract, moot), and retail is traded against.
           Shortselling without borrowing wouldn't be able to abdicate
           third-party risk from mixing the terms, it would be a bicameral option
-          to end the contract with an individual seller... You can really only
-          certify but not bar unless there is prove-able harm or it is
-          prohibitive to not do it. In this case, neither is harm proven with
-          evidence that spittle from talking floats, nor is it prohibitive for
-          people who don’t want to be around people wearing masks. Their
-          preference for others is more onerous than people who prefer sneezing
-          into their elbow. Masks are as reckless as NIH & Fauci getting paid
-          dollar split to experiment with virus in anti-human rights China  We
-          need tort reform in the process of barring or citing cease & desist. A
-          warning from a complaint that a court can lay instead of bonds and
-          fines, before an incident occurs{" "}
-          <a
-            ref={this.spittle}
-            href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
-          >
+          to end the contract with an individual seller... <br />
+          <br />
+          You can really only certify but not bar unless there is prove-able
+          harm or it is prohibitive to not do it. <br />
+          <br />
+          In this case, neither is harm proven with evidence that spittle from
+          talking floats, nor is it prohibitive for people who don’t want to be
+          around people wearing masks. Their preference for others is more
+          onerous than people who prefer sneezing into their elbow. Masks are as
+          reckless as NIH & Fauci getting paid dollar split to experiment with
+          virus in anti-human rights China  We need tort reform in the process
+          of barring or citing cease & desist. A warning from a complaint that a
+          court can lay instead of bonds and fines, before an incident occurs{" "}
+          <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
             https://pubmed.ncbi.nlm.nih.gov/17542834/
           </a>
           <span
