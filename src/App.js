@@ -4473,18 +4473,31 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Not making mvp data access a default is evident nefarious intent SEC:
-          "[Give your unique id immediately to brokers (not just us), but if you
-          own more than {">"}5%, you can wait 3 months.]" (If trading your
-          company, at any ownership percentage, you must build and report in the
-          open or wait three months upon stopping work to trade) You cannot
-          manipulate stocks more than selling without borrowing (stimulus checks
-          are price-inelasticity fraud), <b>shorting</b> is not destructive on
-          it's own and it is not just short-selling. It is borrowing (usurped
-          share power waged in contract, moot), and retail is traded against.
-          Shortselling without borrowing wouldn't be able to abdicate
-          third-party risk from mixing the terms, it would be a bicameral option
-          to end the contract with an individual seller... <br />
+          <span
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightSpittle ? "white" : "",
+              backgroundColor: this.state.highlightSpittle ? "navy" : "",
+              opacity: this.state.highlightSpittle !== null ? "1" : "0",
+              fontSize: this.state.highlightSpittle !== null ? "" : "0px"
+            }}
+          >
+            Not making mvp data access a default is evident nefarious intent
+            SEC: "[Give your unique id immediately to brokers (not just us), but
+            if you own more than {">"}5%, you can wait 3 months.]" (If trading
+            your company, at any ownership percentage, you must build and report
+            in the open or wait three months upon stopping work to trade) You
+            cannot manipulate stocks more than selling without borrowing
+            (stimulus checks are price-inelasticity fraud), <b>shorting</b> is
+            not destructive on it's own and it is not just short-selling. It is
+            borrowing (usurped share power waged in contract, moot), and retail
+            is traded against. Shortselling without borrowing wouldn't be able
+            to abdicate third-party risk from mixing the terms, it would be a
+            bicameral option to end the contract with an individual seller...
+          </span>{" "}
+          <br />
           <br />
           You can really only certify but not bar unless there is prove-able
           harm or it is prohibitive to not do it. <br />
