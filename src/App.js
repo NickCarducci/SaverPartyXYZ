@@ -325,13 +325,11 @@ export default class App extends React.Component {
             others. It means we get what we give. (C) Trade is an exchange of
             benefits, supplying [alone] is the competition - which should be
             based not on counterfeit by invoice or abetting duressful purchases
-            as a broker by pool or expiration. While the
+            as a broker by pool or expiration. While the{" "}
+            <a href="https://froth.app">Will Smith (bottom of page)</a> movie
+            celebrates{" "}
             <a href="https://www.bls.gov/news.release/empsit.t19.htm">
-              Will Smith
-            </a>{" "}
-            movie celebrates{" "}
-            <a href="https://froth.app">
-              2% of the population (bottom of page)
+              2% of the population
             </a>{" "}
             that has 1100% of the assets, 98% are being colonized, but not by
             race! We’ve made so much progress.
