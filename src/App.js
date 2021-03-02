@@ -337,6 +337,8 @@ export default class App extends React.Component {
               required to be contageous
             </div>
             <br />
+            <a href="https://wavv.art/forumVzdEpAkIklybHUWXHGq5">wavv.art/forumVzdEpAkIklybHUWXHGq5</a>
+            <br/>
             heat rises, weight fall/electrons pull. No proof spittle floats in
             the middle and that goes against planetary science/weather systems
             and physics. Here is 0/10 transmission by being in room without mask
