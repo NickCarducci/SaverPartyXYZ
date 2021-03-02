@@ -560,11 +560,14 @@ export default class App extends React.Component {
             <br />
             <br />
             your B-cells do it right away... it is a trade-off between the 0-9mo
-            smell morbidity/dying and B-cell oncogenesis/dying, I’m sure both
-            are equally as likely..., but I like natural things. Takes some time
-            for an infected person to gestate and become contagious + politifact
-            says it requires spittle to travel which has been proven not to
-            float{" "}
+            smell morbidity/dying and{" "}
+            <a href="https://www.immunology.org/public-information/bitesized-immunology/immune-dysfunction/b-cell-mediated-disease">
+              B-cell
+            </a>{" "}
+            oncogenesis/dying, I’m sure both are equally as likely..., but I
+            like natural things. Takes some time for an infected person to
+            gestate and become contagious + politifact says it requires spittle
+            to travel which has been proven not to float{" "}
             <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
               https://pubmed.ncbi.nlm.nih.gov/17542834/
             </a>{" "}
