@@ -1203,6 +1203,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumn6cCt1uxDAY0mqIVNV2b">
+              wavv.art/forumn6cCt1uxDAY0mqIVNV2b
+            </a>
+            <br />
             Paying my lenders/invoices(bills)/market-colonizers(rentiers
             {/*},price-producers*/}) doesn't help me when they usurped the
             contract and forced me into it by prisoners' dilemma-duress
