@@ -241,6 +241,29 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="Dr Seuss cultural zoo"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{ border: "none", overflow: "hidden", width: "480px" }}
+            ></iframe>
+            ethnic-based economies and targeting in financial damages/exclusion
+            <br />
+            Why do you want us to talk about color but not culture? F off
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -550,8 +573,8 @@ export default class App extends React.Component {
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGOODHQ%2Fposts%2F10157982552613059&width=300&show_text=true&height=444&appId"
-              width="480"
-              height="440"
+              width="300"
+              height="444"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
             <br />
@@ -593,8 +616,8 @@ export default class App extends React.Component {
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
-              width="480"
-              height="440"
+              width="300"
+              height="444"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
             <br />
@@ -2634,8 +2657,8 @@ export default class App extends React.Component {
             <iframe
               title="covid passports could devilver a 'summer of joy' bubble"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNJ.com%2Fposts%2F10158544839661234&width=300&show_text=true&height=444&appId"
-              width="480"
-              height="440"
+              width="300"
+              height="444"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
           </div>
@@ -2833,8 +2856,8 @@ export default class App extends React.Component {
             <iframe
               title="covid passports could devilver a 'summer of joy' bubble"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
-              width="480"
-              height="440"
+              width="300"
+              height="444"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
             <br />
@@ -3651,8 +3674,8 @@ export default class App extends React.Component {
           <iframe
             title="s"
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159175313274712&width=300&show_text=true&height=444&appId"
-            width="480"
-            height="440"
+            width="300"
+            height="444"
             style={{ border: "none", overflow: "hidden", width: "480px" }}
           ></iframe>
           <br />
@@ -4171,7 +4194,7 @@ export default class App extends React.Component {
             ref={this.navbar}
             style={{
               position: "absolute",
-              transform: "translate(440%,-100%)",
+              transform: "translate(444%,-100%)",
               color: "grey"
             }}
           >
@@ -4886,7 +4909,7 @@ export default class App extends React.Component {
             with an arrow pointing up claiming the wearer has no good brain
             <br />
             {/*<div id="t1318204966461444096" />*/}
-            You know what is better than a 440(c)3? One that’s owned by every
+            You know what is better than a 444(c)3? One that’s owned by every
             living person
             <br />
             <br />
