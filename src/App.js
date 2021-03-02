@@ -258,7 +258,8 @@ export default class App extends React.Component {
             Cancel all debt don't let Wolf Blitzer pay them with
             dollar/market-share involuntary split
             <br />
-            like calling a graft a fucking vaccine. croak, please
+            like calling a graft a non-human-part vaccine. croak, please before
+            you hurt someone
           </div>
           <i
             style={{
