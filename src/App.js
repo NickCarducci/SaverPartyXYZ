@@ -453,6 +453,10 @@ export default class App extends React.Component {
             voted for Trump, and 77 WABC reported (a survey?) 97% “supported him
             as president” #polling
             <br />
+            <a href="https://wavv.art/oldBudget7ySOemzKPDtd0WZYqqix">
+              wavv.art/oldBudget7ySOemzKPDtd0WZYqqix
+            </a>
+            <br />
             Wow CNN just clicked somebody they had for complaining about a Biden
             pick. Must be tough to get by their producers an idea unscreened and
             they interfered in the election & public opinion/detests
