@@ -253,10 +253,63 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Stimulous (ignoring harm done in price-inelasticity inflation,
+            monetary inflation/involuntary servitude) cannot relieve anything if
+            finance is banned
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             adverse long-term side effects to vaccines are extroadinarily rare,
             like covid morbidity or death.
             <br />
             no proof asymptomatic, pre-gestation in host are contageous
+            <br />
+            eat rises, weight fall/electrons pull. No proof spittle floats in
+            the middle and that goes against planetary science/weather systems
+            and physics. Here is 0/10 transmission by being in room without mask
+            &nbsp;
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+            >
+              https://pubmed.ncbi.nlm.nih.gov/17542834/
+            </a>
+            , and politifact consultants say covid requires spittle to transmit
+            &nbsp;
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8"
+            >
+              https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8
+            </a>
+            , which makes sense to Brownian motion only capable by oxygen or the
+            like-sized particles &nbsp;
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk"
+            >
+              https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk
+            </a>
+            &nbsp;
+            <br />
+            Also I think mold allows virus to survive before infection in a mask
+            and prolonging the pandemic &nbsp;
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
+            >
+              https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms.
+            </a>{" "}
             <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -272,7 +325,10 @@ export default class App extends React.Component {
               Socialism
             </span>{" "}
             leads to capitalism{" "}
-            <a href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea">
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea"
+            >
               without promises/with payout schedules
             </a>
             , unless{" "}
