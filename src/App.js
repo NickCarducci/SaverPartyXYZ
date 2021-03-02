@@ -448,7 +448,32 @@ export default class App extends React.Component {
             per required and doesn't cause dependency if making your own like
             sparring to train instead of guiding your punches into
             abnormality/oncogenesis reaction to a non-human part to fight, not
-            be guided.{" no evidence I'm sick and I think you're racist  "}
+            be guided.
+            {" no evidence I'm sick and I think you're racist " +
+              "transfer only happens when symptoms are there is the only proof you have to exclude not based on anything but public health  " +
+              "YOU HAVE NO PROOF AND 1918 flu was hunger deaths from debt."}
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
+              <img
+                style={{
+                  height: "300px",
+                  border: this.state.highlightIRS ? "3px solid blue" : "",
+                  borderRadius: "10px",
+                  padding: "10px"
+                }}
+                alt="always, not just sneeze https://pubmed.ncbi.nlm.nih.gov/17542834/"
+                src="https://www.dl.dropboxusercontent.com/s/yt1089433ca2ixp/measles.jpeg?dl=0"
+              />
+              <img
+                style={{
+                  height: "300px",
+                  border: this.state.highlightIRS ? "3px solid blue" : "",
+                  borderRadius: "10px",
+                  padding: "10px"
+                }}
+                alt="sneeze only"
+                src="https://www.dl.dropboxusercontent.com/s/bsr9axf89v6xbf0/sneezemeazles.jpeg?dl=0"
+              />
+            </div>
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7264927/?fbclid=IwAR3YJK5KeMMHKlePeZN0lQb0cZz6tAb2SQZO9bKJl9jEE6aQIE08nbUgUNE">
               It is only proposed as an unconfirmed solution to not be oncogenic
               by "culturing" B-cells or creating a grandiose "universal B-cell"
