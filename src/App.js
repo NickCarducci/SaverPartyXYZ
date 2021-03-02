@@ -253,6 +253,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            "The United States' decline" stated as intent of people means
+            nothing
+            <br />
+            He means bond holders/ slave owners
             <a href="https://wavv.art/forumJuVk5CVuo4PpIesU2Qlz">
               wavv.art/forumJuVk5CVuo4PpIesU2Qlz
             </a>
