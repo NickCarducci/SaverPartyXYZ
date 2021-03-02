@@ -253,8 +253,27 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://wavv.art/forumJdem5lb2P53ytIYHUJlW">
+              wavv.art/forumJdem5lb2P53ytIYHUJlW
+            </a>
+            <br />
             <a href="https://wavv.art/forum8k3HLT6PwYMnXrhXsQTV">
               Rumson Pot Entrapment to Shoot-On-Site
+            </a>
+            <br />
+            <a href="https://wavv.art/forumCNfCMTq3pfWeFrUUsM9L">
+              wavv.art/forumCNfCMTq3pfWeFrUUsM9L
+            </a>
+            <br />
+            alcohol impairs motor always, not weed which is a performance
+            enhancer for some
+            <br />
+            <a href="https://www.youtube.com/watch?v=Gp5WEeQi6jE">
+              2006 Geraldo Opium US-Afghanistan report
+            </a>
+            <br />
+            <a href="https://wavv.art/forumDeaYpuCa0N0yIqAKqMYH">
+              wavv.art/forumDeaYpuCa0N0yIqAKqMYH
             </a>
             <br />
             <a href="https://wavv.art/forumjHnjLh0PdHK71jKeBDBU">
@@ -272,12 +291,47 @@ export default class App extends React.Component {
               style={{ height: "400px" }}
               src="https://www.dl.dropboxusercontent.com/s/pwmdkft5plxmjyx/DefenseOfIndividual.png?dl=0"
             />
+            <a href="https://wavv.art/forumuZKbR4dhW5dYDMPrxhAU">
+              violent-extremism
+            </a>
             defense of individual non-liability by association [of other
             individuals] unless stated intent of self or acknowledgement of
             organizational intent
             <br />
             <a href="https://wavv.art/forumjcAzW2dy5QhEwpvp8E5m">
               wavv.art/forumjcAzW2dy5QhEwpvp8E5m
+            </a>
+            <br />
+            <a href="https://wavv.art/forumDim2tow35OwiDRWOltIW">
+              wavv.art/forumDim2tow35OwiDRWOltIW
+            </a>
+            <br />
+            <a href="https://wavv.art/forumj07LxKWJCmOJJyRqtPaG">
+              wavv.art/forumj07LxKWJCmOJJyRqtPaG
+            </a>
+            <br />
+            <a href="https://wavv.art/forum0vBZijMK4x4VtCq1b2G8">
+              wavv.art/forum0vBZijMK4x4VtCq1b2G8
+            </a>
+            <br />
+            <a href="https://wavv.art/forumUttTsPXqpfMTUm59i0uj">
+              wavv.art/forumUttTsPXqpfMTUm59i0uj
+            </a>
+            <br />
+            <a href="https://wavv.art/forumlVJsnJWIze2xW6IT7gYQ">
+              wavv.art/forumlVJsnJWIze2xW6IT7gYQ
+            </a>
+            <br />
+            <a href="https://wavv.art/forumOZBsvHNJjyEvORXwHy3R">
+              wavv.art/forumOZBsvHNJjyEvORXwHy3R
+            </a>
+            <br />
+            <a href="https://wavv.art/forumNjqOMVBkAPvnkRndZcnh">
+              wavv.art/forumNjqOMVBkAPvnkRndZcnh
+            </a>
+            <br />
+            <a href="https//wavv.art/forumsi2UUJphbODBvWuniTWG">
+              wavv.art/forumsi2UUJphbODBvWuniTWG
             </a>
           </div>
           <div
@@ -300,6 +354,9 @@ export default class App extends React.Component {
             cash:debt ratio at that time, so that all buyers pay what they
             should have paid if lenders were not able to contract an unrequited
             third party's money in the borrowers' consumers
+            <a href="https://wavv.art/forumOfLIgMkKt8BYOEoJCEmo">
+              wavv.art/forumOfLIgMkKt8BYOEoJCEmo
+            </a>
           </div>
           <div
             style={{
@@ -949,6 +1006,10 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
               alt="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
             />
+            <br />
+            <a href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f">
+              wavv.art/forumqWvK2fk3GcFligVsTZ0f
+            </a>
           </div>
           <i
             style={{
@@ -1434,6 +1495,10 @@ export default class App extends React.Component {
             servitude/free-rider line to support what I abject herein or it is
             blatant plagerism. If founded by Trump, it would be fraud as well
             since he has spent more than anybody thinks
+            <br />
+            <a href="https://wavv.art/forumEMwj7hKqQ2mZu5poZdPk">
+              wavv.art/forumEMwj7hKqQ2mZu5poZdPk
+            </a>
           </div>
           <i
             style={{
@@ -2416,6 +2481,10 @@ export default class App extends React.Component {
             1. Click the button. 2. Visit your original device. 3. Then, come
             back. 4. Never destroy the auxilliary device. or (c) 1. Save the key
             in a file, then drop it into a new device.
+            <br />
+            <a href="https://wavv.art/forumaQspKZdVsS59uV3TNkfI">
+              wavv.art/forumaQspKZdVsS59uV3TNkfI
+            </a>
             <br />
             this satisfies both Article 3;3 for Amendment 1 by way of privacy
             for the unconvicted & an intranet for the convicted, both accessed
