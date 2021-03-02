@@ -255,6 +255,24 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            "Radical libertarianism; drug/chemical abuse." Let them own houses
+            then maybe they wouldn't want to trip balls. In any case you
+            shouldn't concern yourself with how someone spends their lives. For
+            one, I am delaying gratification and getting market share by
+            copyright
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             Cancel all debt don't let Wolf Blitzer pay them with
             dollar/market-share involuntary split
             <br />
