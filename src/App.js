@@ -327,14 +327,9 @@ export default class App extends React.Component {
             based not on counterfeit by invoice or abetting duressful purchases
             as a broker by pool or expiration. While the Will Smith movie
             celebrates{" "}
-            <span
-              onClick={() => {
-                this.setState({ openForm: false, scrolled: false });
-                this.invite.current.scrollIntoView(false);
-              }}
-            >
+            <a href="https://www.bls.gov/news.release/empsit.t19.htm">
               2% of the population
-            </span>{" "}
+            </a>{" "}
             that has 1100% of the assets, 98% are being colonized, but not by
             race! We’ve made so much progress.
             <br />
