@@ -40,6 +40,7 @@ export default class App extends React.Component {
     this.foreignpolicy = React.createRef();
     this.nsfFraud = React.createRef();
     this.italy = React.createRef();
+    this.populism = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -253,6 +254,33 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345">
+              Cory Booker
+            </a>{" "}
+            calls stealing in contract with bonds contributions
+            <br />
+            WE DO NOT &nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.populism.current.scrollIntoView("smooth");
+                this.setState({ highlightPopulism: true });
+                setTimeout(
+                  () => this.setState({ highlightPopulism: false }),
+                  10000
+                );
+              }}
+            >
+              CONSENT
+            </span>
+            CONSENT
+            <br />
+            CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
+            <br />
+            It's a trap in price inelasticity, impossible solvency and
+            slavery/counterfeit
+            <br />
+            <br />
             Don’t tax to pay for things && or allow people to trade with
             promises of other peoples’ assets, let prices fall and tax for
             things where a free rider cannot be avoided && it is for that
@@ -1403,7 +1431,14 @@ export default class App extends React.Component {
               </a>
               <br />
               <a
-                style={{ color: "black" }}
+                ref={this.populism}
+                style={{
+                  padding: "4px 10px",
+                  borderRadius: "15px",
+                  color: this.state.highlightItaly ? "white" : "black",
+                  backgroundColor: this.state.highlightItaly ? "navy" : "",
+                  transition: ".3s ease-out"
+                }}
                 href="https://www.isidewith.com/poll/488729614"
               >
                 Should the government make cuts to public spending in order to
