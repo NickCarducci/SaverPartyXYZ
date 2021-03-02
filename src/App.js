@@ -444,8 +444,11 @@ export default class App extends React.Component {
             "Why not send money out for [graft]?" so that prices are found
             naturally so people can afford it and not owe the money again, and
             we know B-cells can cause oncogenesis when abnornal/dysregulated by
-            not acting normally like using your own mRNA to form antibodies in
-            reaction to a non-human part to fight, not be guided.{"  "}
+            not acting normally like using your own mRNA to form antibodies as
+            per required and doesn't cause dependency if making your own like
+            sparring to train instead of guiding your punches into
+            abnormality/oncogenesis reaction to a non-human part to fight, not
+            be guided.{" no evidence I'm sick and I think you're racist  "}
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7264927/?fbclid=IwAR3YJK5KeMMHKlePeZN0lQb0cZz6tAb2SQZO9bKJl9jEE6aQIE08nbUgUNE">
               It is only proposed as an unconfirmed solution to not be oncogenic
               by "culturing" B-cells or creating a grandiose "universal B-cell"
