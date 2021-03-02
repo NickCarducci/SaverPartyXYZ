@@ -241,6 +241,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Chicken or egg?
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -253,6 +261,12 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            "There used to be 5 retired for 1 working person, now there is 2
+            working people for one retired person," says Dodaro. Do we want to
+            lessen payments to retired or get more people retired? Saver Party
+            wants the latter, all three supply-side political parties want the
+            former
+            <br />
             "Debt is 140% of GDP," Rep is an idiot that must be GDP /year only
             <br />
             <a href="https://wavv.art/United_States_of_America">
