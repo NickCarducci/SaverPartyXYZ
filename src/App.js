@@ -253,9 +253,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            @cnn don't call me white cunt I am olive and that has nothing to do with
-            my personality only my body, why does that matter for you or systems
-            at all if not numerated except to individuals within them?
+            @cnn brooke don't call me white, frivalous cunt, I am olive and that
+            has nothing to do with my personality only my body, why does that
+            matter for you or systems at all if not numerated except to
+            individuals within them?
             <br />
             only in 2018 did I learn where dollars come{" "}
             <a href="https://vaults.biz">from...</a> after spending $250k on JHU
