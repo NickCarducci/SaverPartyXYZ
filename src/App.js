@@ -253,6 +253,17 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Honorable Gene Dodardo is an idiot if he is not a consumer, retarded
+            if he is one, or nefariously lying understanding that it is not the
+            case that, "SBA loans helps small businesses," when in fact it
+            obviously prohibits price-elasticity and the same product could be
+            had for a much lower price without it.
+            <br />
+            trade is an exchange of mutual benefits, loans are predatory and are
+            to keep paying lenders, rentiers, colonists, and instigators of
+            prisoners' dilemma pooling from losing out their usurped income that
+            they are used to
+            <br />
             <iframe
               title="Dr Seuss cultural zoo"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
