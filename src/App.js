@@ -1804,6 +1804,10 @@ export default class App extends React.Component {
             {" "}
             SBA,
             <br />
+            <a href="https://wavv.art/forum5LEZmTtTE1orAqJ1HrRC">
+              wavv.art/forum5LEZmTtTE1orAqJ1HrRC
+            </a>
+            <br />
             Paycheck Protection Program is *free labor*, you are doing very
             little in way of making up for disenfranchising *bootstrapping
             entrepreneurs* and *labor*. I expect reparations for the damages to
