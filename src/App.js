@@ -268,8 +268,9 @@ export default class App extends React.Component {
               style={{ height: "400px" }}
               src="https://www.dl.dropboxusercontent.com/s/pwmdkft5plxmjyx/DefenseOfIndividual.png?dl=0"
             />
-            defense of individual non-liability by association unless stated
-            intent
+            defense of individual non-liability by association [of other
+            individuals] unless stated intent of self or acknowledgement of
+            organizational intent
             <br />
             <a href="https://wavv.art/forumjcAzW2dy5QhEwpvp8E5m">
               wavv.art/forumjcAzW2dy5QhEwpvp8E5m
@@ -1464,6 +1465,10 @@ export default class App extends React.Component {
             beyond.”{" "}
             <a href="https://www.youtube.com/watch?v=12V9rV_bp_M">
               (Sortition, Ben)
+            </a>
+            <br />
+            <a href="https://johnshopkins.academia.edu/NickCarducci">
+              johnshopkins.academia.edu/NickCarducci
             </a>
           </div>
           <div
