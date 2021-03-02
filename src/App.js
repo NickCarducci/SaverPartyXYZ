@@ -325,10 +325,13 @@ export default class App extends React.Component {
             others. It means we get what we give. (C) Trade is an exchange of
             benefits, supplying [alone] is the competition - which should be
             based not on counterfeit by invoice or abetting duressful purchases
-            as a broker by pool or expiration. While the Will Smith movie
-            celebrates{" "}
+            as a broker by pool or expiration. While the
             <a href="https://www.bls.gov/news.release/empsit.t19.htm">
-              2% of the population
+              Will Smith
+            </a>{" "}
+            movie celebrates{" "}
+            <a href="https://froth.app">
+              2% of the population (bottom of page)
             </a>{" "}
             that has 1100% of the assets, 98% are being colonized, but not by
             race! We’ve made so much progress.
@@ -5236,7 +5239,7 @@ export default class App extends React.Component {
           <div
             onClick={() => {
               this.setState({ openForm: true, alsoed: false, scrolled: true });
-              this.navbar.current.scrollIntoView(false);
+              this.navbar.current.scrollIntoView("smooth");
               //const answer = this.isInViewport();
               //if (!answer) {
               console.log(
@@ -5288,7 +5291,7 @@ export default class App extends React.Component {
             <div
               onClick={() => {
                 this.setState({ openForm: false, scrolled: false });
-                this.invite.current.scrollIntoView(false);
+                this.invite.current.scrollIntoView("smooth");
               }}
               style={{
                 fontWeight: "bolder",
@@ -5673,4 +5676,3 @@ export default class App extends React.Component {
     );
   }
 }
-
