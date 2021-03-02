@@ -253,7 +253,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Debt is 140% of GDP, Rep is an idiot that must be GDP /year only
+            "Debt is 140% of GDP," Rep is an idiot that must be GDP /year only
             <br/>
             <br/>
             @cnn brooke don't call me white, frivalous cunt, I am olive and that
