@@ -254,6 +254,10 @@ export default class App extends React.Component {
             }}
           >
             "Debt is 140% of GDP," Rep is an idiot that must be GDP /year only
+            <br />
+            <a href="https://wavv.art/United_States_of_America">
+              wavv.art/United_States_of_America
+            </a>
             <br/>
             <br/>
             @cnn brooke don't call me white, frivalous cunt, I am olive and that
