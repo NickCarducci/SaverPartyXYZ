@@ -1,15 +1,13 @@
-
 * {
   cursor: pointer;
   margin: 0;
-}
-html {
-  scroll-behavior: smooth;
+  font-family: Nunito, sans-serif;
 }
 .App {
   display: flex;
   display: fixed;
   flex-direction: column;
+  font-family: Nunito, sans-serif;
   text-align: center;
   align-items: center;
   padding: 10px;
