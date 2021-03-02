@@ -253,6 +253,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            self-harm is not your choice to stop if fully-informed, but this is
+            harm to others unrequited
+            <br />
             Honorable Gene Dodardo is an idiot if he is not a consumer, retarded
             if he is one, or nefariously lying understanding that it is not the
             case that, "SBA loans helps small businesses," when in fact it
