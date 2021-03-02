@@ -2198,6 +2198,10 @@ export default class App extends React.Component {
                 wavv.art/forumeAjLbTpdQ2N6rOh2lNkD
               </a>
               <br />
+              <a href="https://wavv.art/forumhotkZrqDfXFbouxqqld8">
+                wavv.art/forumhotkZrqDfXFbouxqqld8
+              </a>
+              <br />
               is it a performance enhancer or bad for you? It makes work easy
               like small doses of cocaine does in adderall, but it does not
               dehydrate you. It was scary the first night I did it, and it can
@@ -4332,7 +4336,13 @@ export default class App extends React.Component {
             </a>
             <br />
             stop blaming others for advice, youtube put up videos of kids
-            kissing random girls and all of them liking it
+            kissing random girls and{" "}
+            <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
+              all of them liking it
+            </a>
+            <br />
+            i think this is why instagram recently voided all class action
+            lawsuits in their inclusion terms
             <br />
             Amendment 13 protects free speech privately and arousal-orientation
             per non-monopsomous inclusion in supply, not just demand (and
@@ -5246,3 +5256,4 @@ export default class App extends React.Component {
     );
   }
 }
+
