@@ -273,7 +273,6 @@ export default class App extends React.Component {
             >
               CONSENT
             </span>
-            CONSENT
             <br />
             CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
             <br />
@@ -357,8 +356,11 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Chicken or{" "}
             <a href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR0yCu8W_XONeAnFNEucUiy8mQNlIHE6f67H1vr49KiI2_gHO_ow995-1xY">
+              Chicken
+            </a>{" "}
+            or{" "}
+            <a href="https://justcapital.com/news/companies-that-have-the-most-workers-earning-a-living-wage-have-higher-returns-on-assets/">
               egg
             </a>
             ?
