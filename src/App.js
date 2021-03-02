@@ -247,7 +247,12 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Chicken or egg?
+            Chicken or 
+            Chicken or{" "}
+            <a href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR0yCu8W_XONeAnFNEucUiy8mQNlIHE6f67H1vr49KiI2_gHO_ow995-1xY">
+              egg
+            </a>
+            ?
           </i>
           <div
             style={{
