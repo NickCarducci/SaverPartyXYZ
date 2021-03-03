@@ -45,6 +45,7 @@ export default class App extends React.Component {
     this.baltimore = React.createRef();
     this.royalty = React.createRef();
     this.cease = React.createRef();
+    this.desist = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -1083,6 +1084,14 @@ export default class App extends React.Component {
             ></iframe>
             <br />
             <span
+              onClick={() => {
+                this.desist.current.scrollIntoView("smooth");
+                this.setState({ highlightDesist: true });
+                setTimeout(
+                  () => this.setState({ highlightDesist: false }),
+                  10000
+                );
+              }}
               style={{
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -3916,9 +3925,17 @@ export default class App extends React.Component {
             ok in calculus, so why do they teach that in economics? {"/*"} ok
           </div>{" "}
           <i
+            ref={this.desist}
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
+              textEmphasis: "italics",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightDesist ? "white" : "",
+              backgroundColor: this.state.highlightDesist ? "navy" : "",
+              opacity: this.state.highlightDesist !== null ? "1" : "0",
+              fontSize: this.state.highlightDesist !== null ? "" : "0px"
             }}
           >
             cease and decist
