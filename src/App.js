@@ -1836,8 +1836,16 @@ export default class App extends React.Component {
             <br />
             Paying my lenders/invoices(bills)/market-colonizers(rentiers
             {/*},price-producers*/}) doesn't help me when they usurped the
-            contract and forced me into it by prisoners' dilemma-duress
+            contract and forced me into it by prisoners' dilemma-duress to pay
+            the invoice and be subject to coagulated demand capacity of
+            cross-party risk, gambling on life-events and matching the pool's
+            capacity instead of the{" "}
+            <a href="https://micro-theory.com">
+              individual marginal price-discretion
+            </a>
             <br />
+            “When the characters had growing expenses, we made saving on
+            insurance, easy.” Hahahaha <a href="https://usaa.com">USAA</a>
             <br />
             As you can see from the photo, my muscle (flexed) is malformed and
             my patella locks upwards, and this Medicare doctor has the gaul to
