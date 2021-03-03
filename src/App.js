@@ -5090,7 +5090,23 @@ export default class App extends React.Component {
           convict record for e2e encryption or not thumbprint.us/privacy), as
           should they provide a billfeed by api by staleness. The video
           debunking it says dominion doesn’t own smartmatic, “or anything like
-          that.” That’s a lie, dominion owns sequoia which bought and sold{" "}
+          that.”
+          <br />
+          <br />
+          <span
+            style={{
+              padding: "20px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "100%",
+              maxWidth: "600px"
+            }}
+          >
+            How many times are you going to say “stand,” Rudy, you old crypt
+            Your exec. assist or you were in the Box Office for 9/11
+          </span>
+                           <br/>
+ That’s a lie, dominion owns sequoia which bought and sold{" "}
           <b>smartmatic</b>, who was founded by friends of Chavez and only
           changed ownership after public outcry. People don’t sell a company
           without payment or a deal to route proceeds.. A person's debt is their
