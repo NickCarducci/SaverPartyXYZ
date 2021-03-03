@@ -256,6 +256,11 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+          positivity (as a grade) for markets is{" "}
+          <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
+            efficiency, not price
+          </a>
+          <br />
             <img
               style={{
                 width: "90%",
