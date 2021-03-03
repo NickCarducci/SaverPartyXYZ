@@ -256,6 +256,11 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            give warning by unpaid consultants, non-profit freemium ngo service;
+            no prohibition except self/asset court-party risk
+            <br />
+            no prescriptions
+            <br />
             <a href="https://linkedin.com/in/nickcarducci">
               linkedin.com/in/nickcarducci
             </a>
@@ -604,13 +609,16 @@ export default class App extends React.Component {
             reprehensible if intentful or not for a government official
             (Comptroller General) to hold as true.
             <br />
-            <iframe
-              title="Dr Seuss cultural zoo"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
-              width="300"
-              height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
-            ></iframe>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
+              <iframe
+                title="Dr Seuss cultural zoo"
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
+                width="300"
+                height="444"
+                style={{ border: "none", overflow: "hidden", width: "480px" }}
+              ></iframe>
+            </div>
+            <br />
             you're normal, its a wide distribution
             <br />
             <br />
