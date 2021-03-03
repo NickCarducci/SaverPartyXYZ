@@ -267,7 +267,21 @@ export default class App extends React.Component {
               alt="PPP lending/stealing fraud for financial ends"
             />
             <br />
-            covid relief for finance fraud
+            covid relief for finance fraud/prohibit price-elasticity + enslave +
+            &nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.populism.current.scrollIntoView("smooth");
+                this.setState({ highlightPopulism: true });
+                setTimeout(
+                  () => this.setState({ highlightPopulism: false }),
+                  10000
+                );
+              }}
+            >
+              unrequited
+            </span>
             <br />
             give warning by unpaid consultants, non-profit freemium ngo service;
             no prohibition except self/asset court-party risk
@@ -377,7 +391,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Cancel all debt don't let Wolf Blitzer pay them with
+            Cancel all debt, don't let Wolf Blitzer pay them with
             dollar/market-share involuntary split
             <br />
             like calling a graft a non-human-part vaccine. croak, please before
@@ -411,7 +425,7 @@ export default class App extends React.Component {
             <a href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345">
               Cory Booker
             </a>{" "}
-            calls stealing in contract with bonds contributions
+            calls stealing in contract with bonds, contributions
             <br />
             WE DO NOT &nbsp;
             <span
