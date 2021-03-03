@@ -256,6 +256,17 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <img
+              style={{
+                width: "90%",
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
+              alt="PPP lending/stealing fraud for financial ends"
+            />
+            <br />
             give warning by unpaid consultants, non-profit freemium ngo service;
             no prohibition except self/asset court-party risk
             <br />
