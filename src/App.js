@@ -3299,10 +3299,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.spittle.current.scrollIntoView("smooth");
-                this.setState({ highlightSpittle: true });
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
                 setTimeout(
-                  () => this.setState({ highlightSpittle: false }),
+                  () => this.setState({ highlightMarx: false }),
                   10000
                 );
               }}
