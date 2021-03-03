@@ -273,6 +273,10 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
+            Open-carry is threat wavv.art/forumV0cKS0LBcAVCNYwCASKq G-d is judge
+            of soul Territory is self
+            <br />
+            <br />
             China: U.S. GDP was 10%, then 1/7th, now 3/4
             <br />
             Population 4.5x
