@@ -50,6 +50,7 @@ export default class App extends React.Component {
     this.valuation = React.createRef();
     this.politics = React.createRef();
     this.cityhall = React.createRef();
+    this.citadel = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -337,7 +338,21 @@ export default class App extends React.Component {
             <br />
             when we found numbers
             <br />
-            accountants, bookies, & scalps
+            <a href="https://micro-theory.com"> accountants</a>,{" "}
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.citadel.current.scrollIntoView("smooth");
+                this.setState({ highlightCitadel: true });
+                setTimeout(
+                  () => this.setState({ highlightCitadel: false }),
+                  10000
+                );
+              }}
+            >
+              bookies
+            </span>
+            , &<a href="https://nationalsecuritycasino.com">scalps</a>
             <br />
             <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
               anticompetitve-cornering of assets as "state property"
@@ -632,8 +647,23 @@ export default class App extends React.Component {
             online
             <br />
             <br />
-            Citadel claiming ownership as sustaining "prices and being proud of
-            their team" IS CONFESSION
+            <span
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightCitadel ? "white" : "",
+                backgroundColor: this.state.highlightCitadel
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightCitadel !== null ? "1" : "0",
+                fontSize: this.state.highlightCitadel !== null ? "" : "0px"
+              }}
+              ref={this.citadel}
+            >
+              Citadel claiming ownership as sustaining "prices and being proud
+              of their team" IS CONFESSION
+            </span>
             <br />
             Dodaro, please look at tax reciepts when analysing our ability to
             pay down debt or default to cash:debt, not the GDP - new money - new
