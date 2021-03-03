@@ -42,6 +42,7 @@ export default class App extends React.Component {
     this.italy = React.createRef();
     this.populism = React.createRef();
     this.nonprofit = React.createRef();
+    this.nextspittle = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -386,6 +387,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
             <br />
             <a href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345">
               Cory Booker
@@ -855,15 +857,19 @@ export default class App extends React.Component {
             no proof asymptomatic, pre-gestation in host are contageous
             <br />
             <div
+              ref={this.nextspittle}
               style={{
                 fontFamily: '"Hi Melody", cursive',
                 color: "grey",
                 margin: "10px 0px",
                 padding: "10px",
                 display: "inline-block",
-                border: "1px dotted",
+                border: this.state.highlightSpittleNext
+                  ? "1px blue solid"
+                  : "1px grey dotted",
                 width: "calc(100% - 20px)",
-                maxWidth: "600px"
+                maxWidth: "600px",
+                transition: ".3s ease-in"
               }}
             >
               Vaccines/grafts do not protect others because you can exclude
@@ -1284,17 +1290,23 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
+              display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
           >
-            they love allowing others to go into debt, then the borrower getting
-            to use the asset and charge them
+            <br />
+            <img
+              style={{ height: "400px" }}
+              src="https://www.dl.dropboxusercontent.com/s/o1a2npco584swxg/IMG_3268.png?dl=0"
+              alt="Ron Paul wants private banks, insurance, rentier-colonization, and prisoners’ dilemma duress-pooling instead of commodity sdr and it shows"
+            />
+            <br />
+            sdr (security depository receipt)
+            <br />
+            live streamed from your local&nbsp;
+            <a href="https://vaults.biz">vault</a>
             <br />
             they love rent and being colonized instead of letting trade settle
             at lower price
@@ -1302,28 +1314,44 @@ export default class App extends React.Component {
             they love allowing insurance to pool their demand capacity and risk
             and instigating themselves to prisoners' dilemma of duress
             <br />
-            <img
-              alt="they love allowing others to go into debt, then the borrower getting to use the asset and charge them"
-              style={{ height: "400px" }}
-              src="https://www.dl.dropboxusercontent.com/s/pubarh5zthcb3i8/NonLibertarianDebt.png?dl=0"
-            />
-            <img
-              alt="they love rent and being colonized instead of letting trade settle at lower price"
-              style={{ height: "400px" }}
-              src="https://www.dl.dropboxusercontent.com/s/lb7fy13iuqa5qhr/NotLibertarianRent.png?dl=0"
-            />
-            <img
-              alt="they love allowing insurance to pool their demand capacity and risk and instigating themselves to prisoners' dilemma of duress"
-              style={{ height: "400px" }}
-              src="https://www.dl.dropboxusercontent.com/s/py86mb7fvqb0xk4/NotLibertarianInsurance.png?dl=0"
-            />
-            <img
-              alt="they love allowing insurance to pool their demand capacity and risk and instigating themselves to prisoners' dilemma of duress"
-              style={{ height: "400px" }}
-              src="https://www.dl.dropboxusercontent.com/s/pj8exndau26sbmi/NonLibertarianInsurance.png?dl=0"
-            />
-            <br />
-            why are you hitting yourselves?
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+                alignItems: "center",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              <img
+                alt="they love allowing others to go into debt, then the borrower getting to use the asset and charge them"
+                style={{ height: "400px" }}
+                src="https://www.dl.dropboxusercontent.com/s/pubarh5zthcb3i8/NonLibertarianDebt.png?dl=0"
+              />
+              <img
+                alt="they love rent and being colonized instead of letting trade settle at lower price"
+                style={{ height: "400px" }}
+                src="https://www.dl.dropboxusercontent.com/s/lb7fy13iuqa5qhr/NotLibertarianRent.png?dl=0"
+              />
+              <img
+                alt="they love allowing insurance to pool their demand capacity and risk and instigating themselves to prisoners' dilemma of duress"
+                style={{ height: "400px" }}
+                src="https://www.dl.dropboxusercontent.com/s/py86mb7fvqb0xk4/NotLibertarianInsurance.png?dl=0"
+              />
+              <img
+                alt="they love allowing insurance to pool their demand capacity and risk and instigating themselves to prisoners' dilemma of duress"
+                style={{ height: "400px" }}
+                src="https://www.dl.dropboxusercontent.com/s/pj8exndau26sbmi/NonLibertarianInsurance.png?dl=0"
+              />
+              <br />
+              why are you hitting yourselves?
+            </div>
           </div>
           <div
             style={{
