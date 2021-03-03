@@ -46,6 +46,7 @@ export default class App extends React.Component {
     this.royalty = React.createRef();
     this.cease = React.createRef();
     this.desist = React.createRef();
+    this.flop = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -803,6 +804,19 @@ export default class App extends React.Component {
               >
                 (election tech competition, bond vigilantees, anticompetitive)
               </span>
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.flop.current.scrollIntoView("smooth");
+                  this.setState({ highlightCease: true });
+                  setTimeout(
+                    () => this.setState({ highlightCease: false }),
+                    10000
+                  );
+                }}
+              >
+                (Trump flop)
+              </span>
               <br />
               you cannot claim someone can be violent for grievances without a
               previously-violent offense.{" "}
@@ -1106,8 +1120,21 @@ export default class App extends React.Component {
               {" "}
               In order to file a cease & desist
             </span>{" "}
-            they have to prove it to stop opinion and they required a court
-            order to give up an audit. I am an election tech{" "}
+            they have to prove it to{" "}
+            <span
+              onClick={() => {
+                this.flop.current.scrollIntoView("smooth");
+                this.setState({ highlightFlop: true });
+                setTimeout(
+                  () => this.setState({ highlightFlop: false }),
+                  10000
+                );
+              }}
+            >
+              stop opinion
+            </span>{" "}
+            and they required a court order to give up an audit. I am an
+            election tech{" "}
             <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
               competitor
             </a>
@@ -1266,7 +1293,7 @@ export default class App extends React.Component {
             David Wildstein is so stupid has a "conservative" on his show saying
             we have to pay back debt, how? it is 13:1 debt:cash. You are so
             stupid. This would be illegal by precedence not just technically if
-            the dollar was considered
+            the dollar was considered{" "}
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -4697,13 +4724,14 @@ export default class App extends React.Component {
             and not to cough in the direction of the air sampler. The air of the
             corridor within the critical care unit was also tested and was PCR
             negative for SARS-CoV.{" "}
-            <b>
-              Air samples from 2 isolation rooms in the critical care unit
-              (occupied by patients with SARS being given respiratory support on
-              ventilators) were PCR negative, as were samples from another room
-              occupied by a patient on a ventilator who did not have SARS"
-            </b>
-          </div>
+          </div>{" "}
+          <b>
+            Air samples from 2 isolation rooms in the critical care unit
+            (occupied by patients with SARS being given respiratory support on
+            ventilators) were PCR negative, as were samples from another room
+            occupied by a patient on a ventilator who did not have SARS"
+          </b>
+          <br />
           lies? hate? supreme court allows nazi to roam chicago, robbie parker
           is visibly preparing to act, and bbc world announces Solomon building
           collapses while it is there still (building 7, Ventura). The hijackers
@@ -4722,7 +4750,28 @@ export default class App extends React.Component {
           witnesses to fraud, more than witnesses to crossing the Antarctic I’m
           banned from twitter for calling jack a fully-capable, self-harmer for
           dropping my impressions 100-0 when I was complaining about calling an
-          election of unshuffled, mutually-exclusive events, on Election Day!
+          <span /*
+              onClick={() => {
+                this.desist.current.scrollIntoView("smooth");
+                this.setState({ highlightDesist: true });
+                setTimeout(
+                  () => this.setState({ highlightDesist: false }),
+                  10000
+                );
+              }}*/
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightFlop ? "white" : "",
+              backgroundColor: this.state.highlightFlop ? "navy" : "",
+              opacity: this.state.highlightFlop !== null ? "1" : "0",
+              fontSize: this.state.highlightFlop !== null ? "" : "0px"
+            }}
+            ref={this.flop}
+          >
+            election of unshuffled, mutually-exclusive events, on Election Day!
+          </span>
           Statistical Sin of the Holyest. State-issued GovID application
           programming interface should be provided by the government (with
           convict record for e2e encryption or not thumbprint.us/privacy), as
