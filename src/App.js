@@ -2141,7 +2141,8 @@ export default class App extends React.Component {
             The anti-freedomers are going to be the future homeschoolers lmao
             you need to realize deaths were expected to raise since 2013 old age
             population in first world countries and the virus was being
-            experimented with recklessly in Wuhan by NIH. Btw, you people are
+            experimented with recklessly in Wuhan by NIH. Btw, you people 
+            are&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
