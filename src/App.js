@@ -267,7 +267,7 @@ export default class App extends React.Component {
             <br />
             mortgages are deathcontracts
             <br />
-            in the location
+            in the Latin
             <br />
             when we found numbers
             <br />
