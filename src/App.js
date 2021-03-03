@@ -43,6 +43,7 @@ export default class App extends React.Component {
     this.populism = React.createRef();
     this.nonprofit = React.createRef();
     this.nextspittle = React.createRef();
+    this.baltimore = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -256,16 +257,29 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            copyright so on lock it is an entire market, government user
-            competing with many many many advantages
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.baltimore.current.scrollIntoView("smooth");
+                this.setState({ highlightBaltimore: true });
+                setTimeout(
+                  () => this.setState({ highlightBaltimore: false }),
+                  10000
+                );
+              }}
+            >
+              copyright
+            </span>{" "}
+            so on lock it is an entire market, government user competing with
+            many many many advantages
             <br />
             but the niche is the directory not just a nationalistic vibe
-            <br/>
-          positivity (as a grade) for markets is{" "}
-          <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
-            efficiency, not price
-          </a>
-          <br />
+            <br />
+            positivity (as a grade) for markets is{" "}
+            <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
+              efficiency, not price
+            </a>
+            <br />
             <img
               style={{
                 width: "90%",
@@ -2089,9 +2103,17 @@ export default class App extends React.Component {
             </a>
           </div>
           <i
+            ref={this.baltimore}
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
+              textEmphasis: "italics",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightBaltimore ? "white" : "",
+              backgroundColor: this.state.highlightBaltimore ? "navy" : "",
+              opacity: this.state.highlightBaltimore !== null ? "1" : "0",
+              fontSize: this.state.highlightBaltimore !== null ? "" : "0px"
             }}
           >
             Defunct non-profit, ensure the mission is upheld by all people
