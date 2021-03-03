@@ -52,6 +52,7 @@ export default class App extends React.Component {
     this.cityhall = React.createRef();
     this.citadel = React.createRef();
     this.nra = React.createRef();
+    this.china = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -254,6 +255,11 @@ export default class App extends React.Component {
           }}
         >
           <div
+            onClick={() => {
+              this.china.current.scrollIntoView("smooth");
+              this.setState({ highlightChina: true });
+              setTimeout(() => this.setState({ highlightChina: false }), 10000);
+            }}
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
@@ -262,7 +268,9 @@ export default class App extends React.Component {
               display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              fontWeight: "bolder",
+              textDecoration: "underline"
             }}
           >
             China: U.S. GDP was 10%, then 1/7th, now 3/4
@@ -4195,8 +4203,24 @@ export default class App extends React.Component {
             gets it, I think covid hospitalizations have decreased 50% in the
             past month because he is in office
             <br />
-            With division you get a ratio, but to add differing variables is not
-            ok in calculus, so why do they teach that in economics? {"/*"} ok
+            <span
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightChina ? "white" : "",
+                backgroundColor: this.state.highlightChina
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightChina !== null ? "1" : "0",
+                fontSize: this.state.highlightChina !== null ? "" : "0px"
+              }}
+              ref={this.china}
+            >
+              With division you get a ratio, but to add differing variables is
+              not ok in calculus, so why do they teach that in economics? {"/*"}{" "}
+              ok
+            </span>
           </div>{" "}
           <i
             ref={this.desist}
