@@ -5195,7 +5195,10 @@ export default class App extends React.Component {
             it would be better to ban invoices and renting out more than one can
             live in at one time
             <br />
-            if you teach your teachers something they fail you
+            if you teach your teachers something they&nbsp;
+            <a href="https://open.spotify.com/track/1hOSO8FbW0l1heJm1BiTWi?si=KV6Jx-CMRlKAPDZJRG7DFg">
+              fail you
+            </a>
             <br />
             you can only exclude based on health if there are visible symtoms or
             the tests are non-invasive. Otherwise they cause duress to not be
