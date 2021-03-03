@@ -5251,6 +5251,7 @@ export default class App extends React.Component {
             ref={this.spittle}
             style={{
               position: "relative",
+              margin: "4px 10px",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
