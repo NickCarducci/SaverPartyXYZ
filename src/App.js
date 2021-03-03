@@ -47,6 +47,7 @@ export default class App extends React.Component {
     this.cease = React.createRef();
     this.desist = React.createRef();
     this.flop = React.createRef();
+    this.valuation = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -506,10 +507,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.spittle.current.scrollIntoView("smooth");
-                this.setState({ highlightSpittle: true });
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
                 setTimeout(
-                  () => this.setState({ highlightSpittle: false }),
+                  () => this.setState({ highlightValuation: false }),
                   10000
                 );
               }}
@@ -1111,7 +1112,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightCease ? "white" : "",
-                backgroundColor: this.state.highlightCease ? "navy" : "",
+                backgroundColor: this.state.highlightCease
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightCease !== null ? "1" : "0",
                 fontSize: this.state.highlightCease !== null ? "" : "0px"
               }}
@@ -1639,7 +1642,9 @@ export default class App extends React.Component {
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightNSFFraud ? "white" : "",
-                  backgroundColor: this.state.highlightNSFFraud ? "navy" : "",
+                  backgroundColor: this.state.highlightNSFFraud
+                    ? "rgb(20,100,205)"
+                    : "",
                   opacity: this.state.highlightNSFFraud !== null ? "1" : "0",
                   fontSize: this.state.highlightNSFFraud !== null ? "" : "0px"
                 }}
@@ -1840,7 +1845,9 @@ export default class App extends React.Component {
                   padding: "4px 10px",
                   borderRadius: "15px",
                   color: this.state.highlightItaly ? "white" : "black",
-                  backgroundColor: this.state.highlightItaly ? "navy" : "",
+                  backgroundColor: this.state.highlightItaly
+                    ? "rgb(20,100,205)"
+                    : "",
                   transition: ".3s ease-out"
                 }}
                 href="https://www.isidewith.com/poll/488729614"
@@ -2141,7 +2148,7 @@ export default class App extends React.Component {
             The anti-freedomers are going to be the future homeschoolers lmao
             you need to realize deaths were expected to raise since 2013 old age
             population in first world countries and the virus was being
-            experimented with recklessly in Wuhan by NIH. Btw, you people 
+            experimented with recklessly in Wuhan by NIH. Btw, you people
             are&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -2214,7 +2221,9 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightBaltimore ? "white" : "",
-              backgroundColor: this.state.highlightBaltimore ? "navy" : "",
+              backgroundColor: this.state.highlightBaltimore
+                ? "rgb(20,100,205)"
+                : "",
               opacity: this.state.highlightBaltimore !== null ? "1" : "0",
               fontSize: this.state.highlightBaltimore !== null ? "" : "0px"
             }}
@@ -2256,7 +2265,9 @@ export default class App extends React.Component {
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightRoyalty ? "white" : "",
-                backgroundColor: this.state.highlightRoyalty ? "navy" : "",
+                backgroundColor: this.state.highlightRoyalty
+                  ? "rgb(20,100,205)"
+                  : "",
                 transition: ".3s ease-out"
               }}
             >
@@ -2541,7 +2552,9 @@ export default class App extends React.Component {
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "",
-                backgroundColor: this.state.highlightItaly ? "navy" : "",
+                backgroundColor: this.state.highlightItaly
+                  ? "rgb(20,100,205)"
+                  : "",
                 transition: ".3s ease-out"
               }}
             >
@@ -2885,7 +2898,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightGDP ? "white" : "",
-                backgroundColor: this.state.highlightGDP ? "navy" : "",
+                backgroundColor: this.state.highlightGDP
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightGDP !== null ? "1" : "0",
                 fontSize: this.state.highlightGDP !== null ? "" : "0px"
               }}
@@ -2954,7 +2969,9 @@ export default class App extends React.Component {
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightFlag ? "white" : "",
-                  backgroundColor: this.state.highlightFlag ? "navy" : "",
+                  backgroundColor: this.state.highlightFlag
+                    ? "rgb(20,100,205)"
+                    : "",
                   opacity: this.state.highlightFlag !== null ? "1" : "0",
                   fontSize: this.state.highlightFlag !== null ? "" : "0px"
                 }}
@@ -3135,7 +3152,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail ? "navy" : "",
+                backgroundColor: this.state.highlightBail
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightBail !== null ? "1" : "0",
                 fontSize: this.state.highlightBail !== null ? "" : "0px"
               }}
@@ -3152,7 +3171,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail ? "navy" : "",
+                backgroundColor: this.state.highlightBail
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightBail ? "1" : "0",
                 fontSize: this.state.highlightBail ? "" : "0px"
               }}
@@ -3257,7 +3278,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightDecide ? "white" : "",
-                backgroundColor: this.state.highlightDecide ? "navy" : "",
+                backgroundColor: this.state.highlightDecide
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightDecide ? "1" : "0",
                 fontSize: this.state.highlightDecide ? "" : "0px"
               }}
@@ -3352,7 +3375,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightTea ? "white" : "",
-                backgroundColor: this.state.highlightTea ? "navy" : "",
+                backgroundColor: this.state.highlightTea
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightTea !== null ? "1" : "0",
                 fontSize: this.state.highlightTea !== null ? "" : "0px"
               }}
@@ -3430,7 +3455,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightHost ? "white" : "",
-                backgroundColor: this.state.highlightHost ? "navy" : "",
+                backgroundColor: this.state.highlightHost
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightHost !== null ? "1" : "0",
                 fontSize: this.state.highlightHost !== null ? "" : "0px"
               }}
@@ -3719,7 +3746,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightFintech ? "white" : "",
-                backgroundColor: this.state.highlightFintech ? "navy" : "",
+                backgroundColor: this.state.highlightFintech
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightFintech !== null ? "1" : "0",
                 fontSize: this.state.highlightFintech !== null ? "" : "0px"
               }}
@@ -3781,7 +3810,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightUUID ? "white" : "",
-                backgroundColor: this.state.highlightUUID ? "navy" : "",
+                backgroundColor: this.state.highlightUUID
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightUUID !== null ? "1" : "0",
                 fontSize: this.state.highlightUUID !== null ? "" : "0px"
               }}
@@ -3937,7 +3968,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBiden ? "white" : "",
-                backgroundColor: this.state.highlightBiden ? "navy" : "",
+                backgroundColor: this.state.highlightBiden
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightBiden !== null ? "1" : "0",
                 fontSize: this.state.highlightBiden !== null ? "" : "0px"
               }}
@@ -3961,7 +3994,9 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightDesist ? "white" : "",
-              backgroundColor: this.state.highlightDesist ? "navy" : "",
+              backgroundColor: this.state.highlightDesist
+                ? "rgb(20,100,205)"
+                : "",
               opacity: this.state.highlightDesist !== null ? "1" : "0",
               fontSize: this.state.highlightDesist !== null ? "" : "0px"
             }}
@@ -4024,7 +4059,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBcell ? "white" : "",
-                backgroundColor: this.state.highlightBcell ? "navy" : "",
+                backgroundColor: this.state.highlightBcell
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightBcell !== null ? "1" : "0",
                 fontSize: this.state.highlightBcell !== null ? "" : "0px"
               }}
@@ -4047,10 +4084,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.spittle.current.scrollIntoView("smooth");
-                this.setState({ highlightSpittle: true });
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
                 setTimeout(
-                  () => this.setState({ highlightSpittle: false }),
+                  () => this.setState({ highlightValuation: false }),
                   10000
                 );
               }}
@@ -4244,7 +4281,9 @@ export default class App extends React.Component {
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightFP ? "white" : "",
-                backgroundColor: this.state.highlightFP ? "navy" : "",
+                backgroundColor: this.state.highlightFP
+                  ? "rgb(20,100,205)"
+                  : "",
                 opacity: this.state.highlightFP !== null ? "1" : "0",
                 fontSize: this.state.highlightFP !== null ? "" : "0px"
               }}
@@ -4351,7 +4390,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: "white",
-              backgroundColor: "navy"
+              backgroundColor: "rgb(20,100,205)"
             }}
             onClick={() =>
               this.setState({ openrelief: !this.state.openrelief })
@@ -4748,7 +4787,7 @@ export default class App extends React.Component {
           voters, projecting is especially irrelevant if unshuffled, and
           Dominion has a history of dealing with companies that have rigged
           Venezuelan elections, and there is video of secret counting, 1000s of
-          witnesses to fraud, more than witnesses to crossing the Antarctic 
+          witnesses to fraud, more than witnesses to crossing the Antarctic
           I’m&nbsp;
           <a href="https://vaults.biz">banned from twitter</a> for calling jack
           a fully-capable, self-harmer for dropping my impressions 100-0 when I
@@ -4767,7 +4806,9 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightFlop ? "white" : "",
-              backgroundColor: this.state.highlightFlop ? "navy" : "",
+              backgroundColor: this.state.highlightFlop
+                ? "rgb(20,100,205)"
+                : "",
               opacity: this.state.highlightFlop !== null ? "1" : "0",
               fontSize: this.state.highlightFlop !== null ? "" : "0px"
             }}
@@ -4805,7 +4846,6 @@ export default class App extends React.Component {
           shares the claimant would be laughed out of court. THIS IS FRAUD
         </div>
         <div
-          ref={this.spittle}
           style={{
             padding: "20px",
             display: "inline-block",
@@ -4815,14 +4855,18 @@ export default class App extends React.Component {
           }}
         >
           <span
+            ref={this.valuation}
             style={{
+              position: "relative",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
-              color: this.state.highlightSpittle ? "white" : "",
-              backgroundColor: this.state.highlightSpittle ? "navy" : "",
-              opacity: this.state.highlightSpittle !== null ? "1" : "0",
-              fontSize: this.state.highlightSpittle !== null ? "" : "0px"
+              color: this.state.highlightValuation ? "white" : "",
+              backgroundColor: this.state.highlightValuation
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightValuation !== null ? "1" : "0",
+              fontSize: this.state.highlightValuation !== null ? "" : "0px"
             }}
           >
             Not making mvp data access a default is evident nefarious intent
@@ -4848,19 +4892,24 @@ export default class App extends React.Component {
           around people wearing masks. Their preference for others is more
           onerous than people who prefer sneezing into their elbow. Masks are as
           reckless as NIH & Fauci getting paid dollar split to experiment with
-          virus in anti-human rights China  We need tort reform in the process
-          of barring or citing cease & desist. A warning from a complaint that a
-          court can lay instead of bonds and fines, before an incident occurs{" "}
+          virus in anti-human rights China XXX We need tort reform in the
+          process of barring or citing cease & desist. A warning from a
+          complaint that a court can lay instead of bonds and fines, before an
+          incident occurs{" "}
           <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
             https://pubmed.ncbi.nlm.nih.gov/17542834/
           </a>
           <span
+            ref={this.spittle}
             style={{
+              position: "relative",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightSpittle ? "white" : "",
-              backgroundColor: this.state.highlightSpittle ? "navy" : "",
+              backgroundColor: this.state.highlightSpittle
+                ? "rgb(20,100,205)"
+                : "",
               opacity: this.state.highlightSpittle !== null ? "1" : "0",
               fontSize: this.state.highlightSpittle !== null ? "" : "0px"
             }}
@@ -5433,7 +5482,9 @@ export default class App extends React.Component {
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightMarx ? "white" : "",
-                backgroundColor: this.state.highlightMarx ? "navy" : "",
+                backgroundColor: this.state.highlightMarx
+                  ? "rgb(20,100,205)"
+                  : "",
                 transition: ".3s ease-out"
               }}
             >
