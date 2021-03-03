@@ -263,6 +263,27 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            My (NC) estimates for party compilation 2022 and 2024. Supply-side
+            (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
+            (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
+            call https://www.facebook.com/IVN/posts/10156682244587465
+            <br />
+            https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
+            <br />
+            https://www.isidewith.com/poll/488729614
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             blm vs trump; FBI (J. Sanborn) says,{" "}
             <span
               onClick={() => {
