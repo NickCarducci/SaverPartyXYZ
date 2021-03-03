@@ -256,6 +256,29 @@ export default class App extends React.Component {
           }}
         >
           <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Existing within a market/vault/currency stewardship purveying
+            corporations/debt instead of royalty-contract w/max/profit
+            vaults.biz allows you to go public but you pay a Double-Tax on
+            Income (threatened-upon us by not price-prisoners’ dilemma duress
+            pooling but literal jail/confiscation in 1937 saverparty .xyz wayy
+            bottom of page). The weird thing is Oath Keeper chapters are 501c3?
+            I relinquished mine for thumbprint.us to serve intention for mock
+            direct democracy for Baltimore “and beyond” now sole proprietorship
+            with royalty contracts w/max-profit (no promises, only
+            profit-schedules[adminWidthdrawal/sale,skew,max] options)
+          </div>
+          <div
             onClick={() => {
               this.china.current.scrollIntoView("smooth");
               this.setState({ highlightChina: true });
