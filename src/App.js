@@ -713,13 +713,14 @@ export default class App extends React.Component {
               information of their website stated intents rather than actions of
               its members. Looks like some chapters are{" "}
               <span
-                ref={this.marx}
-                style={{
-                  padding: "4px 10px",
-                  borderRadius: "15px",
-                  color: this.state.highlightMarx ? "white" : "",
-                  backgroundColor: this.state.highlightMarx ? "navy" : "",
-                  transition: ".3s ease-out"
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.nonprofit.current.scrollIntoView("smooth");
+                  this.setState({ highlight501c3: true });
+                  setTimeout(
+                    () => this.setState({ highlight501c3: false }),
+                    10000
+                  );
                 }}
               >
                 501c3
@@ -2058,14 +2059,13 @@ export default class App extends React.Component {
             devolves to the colonists in power instead of the people, if the
             organizational &nbsp;
             <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.nonprofit.current.scrollIntoView("smooth");
-                this.setState({ highlight501c3: true });
-                setTimeout(
-                  () => this.setState({ highlight501c3: false }),
-                  10000
-                );
+              ref={this.nonprofit}
+              style={{
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlight501c3 ? "white" : "",
+                backgroundColor: this.state.highlight501c3 ? "navy" : "",
+                transition: ".3s ease-out"
               }}
             >
               legal structure
