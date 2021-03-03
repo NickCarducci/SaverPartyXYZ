@@ -261,6 +261,26 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Insightful and inciteful are pronounced the same
+            <br />
+            lunatics by mooney
+            <br />
+            mortgages are deathcontracts
+            <br />
+            in the location
+            <br />
+            when we found numbers
+            <br />
+            accountants, bookies, & scalps
+            <br />
+            <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+              anticompetitve-cornering of assets as "state property"
+            </a>{" "}
+            is a{" "}
+            <a href="https://nationalsecuritycasino.com">
+              jurisprudential, national-security issue
+            </a>
+            <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
