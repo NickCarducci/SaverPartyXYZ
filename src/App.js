@@ -300,6 +300,8 @@ export default class App extends React.Component {
             diplomatic-immunity/expiration-limitation exists in an actual court
             of law
             <br />
+            she "doesn't <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">charge for tests," is a lie</a>
+            <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
