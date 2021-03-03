@@ -3500,6 +3500,7 @@ export default class App extends React.Component {
             <a
               ref={this.decide}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
