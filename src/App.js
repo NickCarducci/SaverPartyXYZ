@@ -265,6 +265,22 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            China: U.S. GDP was 10%, then 1/7th, now 3/4
+            <br />
+            Population 4.5x
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             My (NC) estimates for party compilation 2022 and 2024. Supply-side
             (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
             (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
