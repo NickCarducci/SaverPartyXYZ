@@ -825,6 +825,12 @@ export default class App extends React.Component {
                 Holy Christ
               </a>
               <br />
+              Gun sales should be{" "}
+              <a href="https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf">
+                registered
+              </a>{" "}
+              but no shoot first without intent + date + convicted of violence
+              <br />
               <br />
               defense of individual non-liability by association [of other
               individuals] unless stated intent of self or acknowledgement of
