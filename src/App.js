@@ -292,8 +292,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Open-carry is threat wavv.art/forumV0cKS0LBcAVCNYwCASKq G-d is judge
-            of soul Territory is self
+            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
+              Open-carry is threat
+            </a>{" "}
+            G-d is judge of soul Territory is self
             <br />
             <br />
             <span
