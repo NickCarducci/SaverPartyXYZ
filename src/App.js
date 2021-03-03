@@ -49,6 +49,7 @@ export default class App extends React.Component {
     this.flop = React.createRef();
     this.valuation = React.createRef();
     this.politics = React.createRef();
+    this.cityhall = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -262,6 +263,35 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            blm vs trump; FBI (J. Sanborn) says,{" "}
+            <span
+              onClick={() => {
+                this.cityhall.current.scrollIntoView("smooth");
+                this.setState({ highlightCityHall: true });
+                setTimeout(
+                  () => this.setState({ highlightCityHall: false }),
+                  10000
+                );
+              }}
+            >
+              "not different"
+            </span>
+            , cites 100 people OVER A SUMMER and general cites heli using civil
+            disturbance enumerated outlays (bayonnets, heli's), >=250 ppl IN ONE
+            DAY
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -300,7 +330,10 @@ export default class App extends React.Component {
             diplomatic-immunity/expiration-limitation exists in an actual court
             of law
             <br />
-            she "doesn't <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">charge for tests," is a lie</a>
+            she "doesn't{" "}
+            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+              charge for tests," is a lie
+            </a>
             <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -897,10 +930,25 @@ export default class App extends React.Component {
               &nbsp; so that's weird. get your story straight govenor
               <br />
               <br />
-              in connection with the 6th is all this guy cares about. not here
-              to defend city hall buildings. They steal for their own
-              protection, our reps (racially-motivated violent extremism) vs
-              domestic terrorism vs academic vs legal
+              in connection with the 6th is all [FBI] cares about.
+              <span
+                style={{
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightCityHall ? "white" : "",
+                  backgroundColor: this.state.highlightCityHall
+                    ? "rgb(20,100,205)"
+                    : "",
+                  opacity: this.state.highlightCityHall !== null ? "1" : "0",
+                  fontSize: this.state.highlightCityHall !== null ? "" : "0px"
+                }}
+                ref={this.cityhall}
+              >
+                not here to defend city hall buildings. They steal for their own
+                protection, our reps (racially-motivated violent extremism) vs
+                domestic terrorism vs academic vs legal
+              </span>
               <br />
               <br />
               don't touch my stuff. "The United States' decline" stated as
