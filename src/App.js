@@ -2271,7 +2271,10 @@ export default class App extends React.Component {
             would take 7-8 years to recover deep-tissue skeletal muscle. This
             may be close to the outpouring of bone marrow from my knee, so the
             delivery mechanism is likely not strong, and NEED bone marrow store
-            from my pelvis.
+            from my pelvis. Or, 5 years I may be able to work it back with
+            physical therapy/lean-strength training without my the
+            swelling/joint/ankle pain/auxilliary-effects (I'll try to squat 3x20
+            again in 15 days...)
             <br />
             <br />
             Incompassionate Rube. And for government (Horizon NJ Family Care
