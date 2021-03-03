@@ -610,9 +610,26 @@ export default class App extends React.Component {
             sparring to train instead of guiding your punches into
             abnormality/oncogenesis reaction to a non-human part to fight, not
             be guided.
-            {" no evidence I'm sick and I think you're racist " +
-              "transfer only happens when symptoms are there is the only proof you have to exclude not based on anything but public health  " +
-              "YOU HAVE NO PROOF AND 1918 flu was hunger deaths from debt."}
+            <br />
+            no evidence I'm sick and I think you're racist
+            <br />
+            transfer only happens when symptoms are there is the only proof you
+            have to exclude not based on anything but public health
+            <br />{" "}
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.spittle.current.scrollIntoView("smooth");
+                this.setState({ highlightSpittle: true });
+                setTimeout(
+                  () => this.setState({ highlightSpittle: false }),
+                  10000
+                );
+              }}
+            >
+              YOU HAVE NO PROOF
+            </span>
+            &nbsp;AND 1918 flu was hunger deaths from debt.
             <div style={{ display: "flex", flexWrap: "wrap" }}>
               <img
                 style={{
@@ -3955,7 +3972,6 @@ export default class App extends React.Component {
                 );
               }}
             >
-              {" "}
               point
             </span>
           </div>
