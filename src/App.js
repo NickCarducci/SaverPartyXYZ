@@ -282,6 +282,7 @@ export default class App extends React.Component {
             </a>
             <div
               style={{
+                position: "relative",
                 display: "flex",
                 flexWrap: "wrap",
                 justifyContent: "center"
