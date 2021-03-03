@@ -54,6 +54,7 @@ export default class App extends React.Component {
     this.nra = React.createRef();
     this.china = React.createRef();
     this.ftc = React.createRef();
+    this.brookings = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -279,11 +280,6 @@ export default class App extends React.Component {
             profit-schedules[adminWidthdrawal/sale,skew,max] options)
           </div>
           <div
-            onClick={() => {
-              this.china.current.scrollIntoView("smooth");
-              this.setState({ highlightChina: true });
-              setTimeout(() => this.setState({ highlightChina: false }), 10000);
-            }}
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
@@ -292,18 +288,31 @@ export default class App extends React.Component {
               display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              fontWeight: "bolder",
-              textDecoration: "underline"
+              maxWidth: "600px"
             }}
           >
             Open-carry is threat wavv.art/forumV0cKS0LBcAVCNYwCASKq G-d is judge
             of soul Territory is self
             <br />
             <br />
-            China: U.S. GDP was 10%, then 1/7th, now 3/4
-            <br />
-            Population 4.5x
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.china.current.scrollIntoView("smooth");
+                this.setState({ highlightChina: true });
+                setTimeout(
+                  () => this.setState({ highlightChina: false }),
+                  10000
+                );
+              }}
+            >
+              China: U.S. GDP was 10%, then 1/7th, now 3/4
+              <br />
+              Population 4.5x
+            </span>
           </div>
           <div
             style={{
@@ -4271,9 +4280,20 @@ export default class App extends React.Component {
                   ? "rgb(20,100,205)"
                   : "",
                 opacity: this.state.highlightChina !== null ? "1" : "0",
-                fontSize: this.state.highlightChina !== null ? "" : "0px"
+                fontSize: this.state.highlightChina !== null ? "" : "0px",
+
+                fontWeight: "bolder",
+                textDecoration: "underline"
               }}
               ref={this.china}
+              onClick={() => {
+                this.brookings.current.scrollIntoView("smooth");
+                this.setState({ highlightBrookings: true });
+                setTimeout(
+                  () => this.setState({ highlightBrookings: false }),
+                  10000
+                );
+              }}
             >
               With division you get a ratio, but to add differing variables is
               not ok in calculus, so why do they teach that in economics? {"/*"}{" "}
@@ -5131,8 +5151,8 @@ export default class App extends React.Component {
             How many times are you going to say “stand,” Rudy, you old crypt
             Your exec. assist or you were in the Box Office for 9/11
           </span>
-                           <br/>
- That’s a lie, dominion owns sequoia which bought and sold{" "}
+          <br />
+          That’s a lie, dominion owns sequoia which bought and sold{" "}
           <b>smartmatic</b>, who was founded by friends of Chavez and only
           changed ownership after public outcry. People don’t sell a company
           without payment or a deal to route proceeds.. A person's debt is their
@@ -5823,12 +5843,29 @@ export default class App extends React.Component {
             not allowing entrance to tourists based not on symptoms or
             non-invasive testing is slavery of give but no take
             <br />
-            The Brookings Institution / NPR advocates for baby bonds, not ubi to
-            close a 10x white wealth gap, while there is 11x gap between finance
-            versus other sectors of employment while only being 5% of 60%
-            employed, or about 2% total. black people are 13% of population.
-            talk about missing the Forest for the Trees #macroeconomics #money
-            #markets #economy #socialjustice ____ #pricefixing
+            <span
+              ref={this.brookings}
+              style={{
+                position: "relative",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightBrookings ? "white" : "",
+                backgroundColor: this.state.highlightBrookings
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightBrookings !== null ? "1" : "0",
+                fontSize: this.state.highlightBrookings !== null ? "" : "0px"
+              }}
+            >
+              The Brookings Institution / NPR advocates for baby bonds
+            </span>
+            , not ubi to close a 10x white wealth gap, while there is 11x gap
+            between finance versus other sectors of employment while only being
+            5% of 60% employed, or about 2% total. black people are 13% of
+            population. talk about missing the Forest for the Trees
+            #macroeconomics #money #markets #economy #socialjustice ____
+            #pricefixing
             <br />
             supreme court saying nazi could walk chicago is wrong because there
             is probable-evidence-of-evidence of motive to do them harm
