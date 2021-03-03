@@ -4747,7 +4747,8 @@ export default class App extends React.Component {
           voters, projecting is especially irrelevant if unshuffled, and
           Dominion has a history of dealing with companies that have rigged
           Venezuelan elections, and there is video of secret counting, 1000s of
-          witnesses to fraud, more than witnesses to crossing the Antarctic I’m
+          witnesses to fraud, more than witnesses to crossing the Antarctic 
+          I’m&nbsp;
           <a href="https://vaults.biz">banned from twitter</a> for calling jack
           a fully-capable, self-harmer for dropping my impressions 100-0 when I
           was complaining about calling an
