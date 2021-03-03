@@ -48,6 +48,7 @@ export default class App extends React.Component {
     this.desist = React.createRef();
     this.flop = React.createRef();
     this.valuation = React.createRef();
+    this.politics = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -261,6 +262,20 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.politics.current.scrollIntoView("smooth");
+                this.setState({ highlightPolitics: true });
+                setTimeout(
+                  () => this.setState({ highlightPolitics: false }),
+                  10000
+                );
+              }}
+            >
+              Science
+            </span>
+            <br />
             Insightful and inciteful are pronounced the same
             <br />
             lunatics by mooney
@@ -2736,9 +2751,24 @@ export default class App extends React.Component {
           >
             strange name... how do you administer a business without interfering
             <br />
-            every issue in politics is a decision between a civil right and a
-            special interest; a "political decision" can be described as the
-            latter or a campaign decision
+            <span
+              ref={this.politics}
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightPolitics ? "white" : "",
+                backgroundColor: this.state.highlightPolitics
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightPolitics !== null ? "1" : "0",
+                fontSize: this.state.highlightPolitics !== null ? "" : "0px"
+              }}
+            >
+              every issue in politics is a decision between a civil right and a
+              special interest; a "political decision" can be described as the
+              latter or a campaign decision
+            </span>
             <span
               style={{
                 fontFamily: '"Hi Melody", cursive',
