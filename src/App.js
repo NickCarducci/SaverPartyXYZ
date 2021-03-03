@@ -1283,8 +1283,9 @@ export default class App extends React.Component {
           >
             condensation rises
             <br />
-            <a href="macrotrends.net/countries/USA/united-states/death-rate">
-              Population stats
+            <a href="https://froth.app">Population</a>{" "}
+            <a href="https://macrotrends.net/countries/USA/united-states/death-rate">
+              stats
             </a>{" "}
             have been delayed for 1.5 months now to keep the big lie going
             <br />
