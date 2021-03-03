@@ -55,6 +55,7 @@ export default class App extends React.Component {
     this.china = React.createRef();
     this.ftc = React.createRef();
     this.brookings = React.createRef();
+    this.booker = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -653,7 +654,21 @@ export default class App extends React.Component {
           >
             <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
             <br />
-            <a href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345">
+            <a
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightBooker ? "white" : "",
+                backgroundColor: this.state.highlightBooker
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightBooker !== null ? "1" : "0",
+                fontSize: this.state.highlightBooker !== null ? "" : "0px"
+              }}
+              ref={this.booker}
+              href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
+            >
               Cory Booker
             </a>{" "}
             calls stealing in contract with bonds, contributions
@@ -5835,6 +5850,7 @@ export default class App extends React.Component {
               padding: "20px",
               display: "inline-block",
               border: "1px dotted",
+
               width: "100%",
               maxWidth: "600px"
             }}
@@ -5844,6 +5860,14 @@ export default class App extends React.Component {
             non-invasive testing is slavery of give but no take
             <br />
             <span
+              onClick={() => {
+                this.booker.current.scrollIntoView("smooth");
+                this.setState({ highlightBooker: true });
+                setTimeout(
+                  () => this.setState({ highlightBooker: false }),
+                  10000
+                );
+              }}
               ref={this.brookings}
               style={{
                 position: "relative",
@@ -5855,7 +5879,9 @@ export default class App extends React.Component {
                   ? "rgb(20,100,205)"
                   : "",
                 opacity: this.state.highlightBrookings !== null ? "1" : "0",
-                fontSize: this.state.highlightBrookings !== null ? "" : "0px"
+                fontSize: this.state.highlightBrookings !== null ? "" : "0px",
+                fontWeight: "bolder",
+                textDecoration: "underline"
               }}
             >
               The Brookings Institution / NPR advocates for baby bonds
