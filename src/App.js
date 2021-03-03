@@ -51,6 +51,7 @@ export default class App extends React.Component {
     this.politics = React.createRef();
     this.cityhall = React.createRef();
     this.citadel = React.createRef();
+    this.nra = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -299,8 +300,8 @@ export default class App extends React.Component {
               "not different"
             </span>
             , cites 100 people OVER A SUMMER and general cites heli using civil
-            disturbance enumerated outlays (bayonnets, heli's), >=250 ppl IN ONE
-            DAY
+            disturbance enumerated outlays (bayonnets, heli's), {">"}=250 ppl IN
+            ONE DAY
           </div>
           <div
             style={{
@@ -353,6 +354,21 @@ export default class App extends React.Component {
               bookies
             </span>
             , &<a href="https://nationalsecuritycasino.com">scalps</a>
+            <br />
+            <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
+              precedence
+            </a>{" "}
+            can be&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.nra.current.scrollIntoView("smooth");
+                this.setState({ highlightNRA: true });
+                setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+              }}
+            >
+              asinine
+            </span>
             <br />
             <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
               anticompetitve-cornering of assets as "state property"
@@ -888,10 +904,10 @@ export default class App extends React.Component {
             <a href="https://wavv.art/forumjHnjLh0PdHK71jKeBDBU">
               wavv.art/forumjHnjLh0PdHK71jKeBDBU
             </a>
-            "The United States' decline" stated as intent of people means
+            &nbsp; "The United States' decline" stated as intent of people means
             nothing
             <br />
-            He means bond holders/ slave owners
+            He means bond holders/ slave owners&nbsp;
             <a href="https://wavv.art/forumJuVk5CVuo4PpIesU2Qlz">
               wavv.art/forumJuVk5CVuo4PpIesU2Qlz
             </a>
@@ -950,11 +966,27 @@ export default class App extends React.Component {
                 Holy Christ
               </a>
               <br />
-              Gun sales should be{" "}
-              <a href="https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf">
-                registered
-              </a>{" "}
-              but no shoot first without intent + date + convicted of violence
+              <span
+                style={{
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightNRA ? "white" : "",
+                  backgroundColor: this.state.highlightNRA
+                    ? "rgb(20,100,205)"
+                    : "",
+                  opacity: this.state.highlightNRA !== null ? "1" : "0",
+                  fontSize: this.state.highlightNRA !== null ? "" : "0px"
+                }}
+                ref={this.nra}
+              >
+                {" "}
+                law-abiding can be asinine... Gun sales should be{" "}
+                <a href="https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf">
+                  registered
+                </a>{" "}
+                but no shoot first without intent + date + convicted of violence
+              </span>
               <br />
               <br />
               defense of individual non-liability by association [of other
