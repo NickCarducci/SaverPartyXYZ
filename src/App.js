@@ -436,6 +436,7 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -757,6 +758,7 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -1060,6 +1062,7 @@ export default class App extends React.Component {
               <br />
               <span
                 style={{
+                  margin: "4px 10px",
                   padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
@@ -1379,6 +1382,7 @@ export default class App extends React.Component {
                 );
               }}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -1667,6 +1671,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
+              margin: "4px 10px",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -1911,6 +1916,7 @@ export default class App extends React.Component {
                 ref={this.nsfFraud}
                 style={{
                   padding: "4px 10px",
+                  margin: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightNSFFraud ? "white" : "",
@@ -2114,6 +2120,7 @@ export default class App extends React.Component {
               <a
                 ref={this.populism}
                 style={{
+                  margin: "4px 10px",
                   padding: "4px 10px",
                   borderRadius: "15px",
                   color: this.state.highlightItaly ? "white" : "black",
@@ -2490,6 +2497,7 @@ export default class App extends React.Component {
           <i
             ref={this.baltimore}
             style={{
+              margin: "4px 10px",
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
               padding: "4px 10px",
@@ -2537,6 +2545,7 @@ export default class App extends React.Component {
                 );
               }}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightRoyalty ? "white" : "",
@@ -2824,6 +2833,7 @@ export default class App extends React.Component {
             <span
               ref={this.italy}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "",
@@ -2987,6 +2997,7 @@ export default class App extends React.Component {
             <span
               ref={this.politics}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -3186,6 +3197,7 @@ export default class App extends React.Component {
             <span
               ref={this.gdp1}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -3257,6 +3269,7 @@ export default class App extends React.Component {
               If
               <span
                 style={{
+                  margin: "4px 10px",
                   padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
@@ -3440,6 +3453,7 @@ export default class App extends React.Component {
             <span
               ref={this.bail}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -3664,6 +3678,7 @@ export default class App extends React.Component {
             <span
               ref={this.tea}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -4609,6 +4624,7 @@ export default class App extends React.Component {
             <span
               ref={this.foreignpolicy}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -5134,6 +5150,7 @@ export default class App extends React.Component {
                 );
               }}*/
             style={{
+              margin: "4px 10px",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -5205,6 +5222,7 @@ export default class App extends React.Component {
           <span
             ref={this.valuation}
             style={{
+              margin: "4px 10px",
               position: "relative",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -5831,6 +5849,7 @@ export default class App extends React.Component {
             <span
               ref={this.marx}
               style={{
+                margin: "4px 10px",
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightMarx ? "white" : "",
@@ -5874,6 +5893,7 @@ export default class App extends React.Component {
               ref={this.brookings}
               style={{
                 position: "relative",
+                margin: "4px 10px",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
