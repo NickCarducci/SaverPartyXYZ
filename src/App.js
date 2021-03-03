@@ -281,6 +281,7 @@ export default class App extends React.Component {
             <br />
             Population 4.5x
           </div>
+
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
