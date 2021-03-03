@@ -4748,8 +4748,9 @@ export default class App extends React.Component {
           Dominion has a history of dealing with companies that have rigged
           Venezuelan elections, and there is video of secret counting, 1000s of
           witnesses to fraud, more than witnesses to crossing the Antarctic I’m
-          banned from twitter for calling jack a fully-capable, self-harmer for
-          dropping my impressions 100-0 when I was complaining about calling an
+          <a href="https://vaults.biz">banned from twitter</a> for calling jack
+          a fully-capable, self-harmer for dropping my impressions 100-0 when I
+          was complaining about calling an
           <span /*
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
@@ -5191,8 +5192,8 @@ export default class App extends React.Component {
               }}
             >
               with debt appreciates by malfeasant and corrupt jurisprudence that
-              the money can be paid back{" "}
-            </span>
+              the money can be paid back
+            </span>{" "}
             which is impossible but they allow them to prosecute and cash out at
             price-fixed counterfeit levels of success anyway
           </div>
@@ -5225,6 +5226,7 @@ export default class App extends React.Component {
             >
               None of us consented
             </span>
+            &nbsp;
             <a href="https://vaults.biz">vaults.biz</a>
           </div>
           <div
