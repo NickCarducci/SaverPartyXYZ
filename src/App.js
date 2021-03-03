@@ -256,7 +256,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            copyright so on lock it is an entire market, government user competing with many many many advantages
+            copyright so on lock it is an entire market, government user
+            competing with many many many advantages
+            <br />
+            but the niche is the directory not just a nationalistic vibe
             <br/>
           positivity (as a grade) for markets is{" "}
           <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
