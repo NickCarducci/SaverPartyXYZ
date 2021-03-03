@@ -786,6 +786,15 @@ export default class App extends React.Component {
               <a href="https://wavv.art/forumuZKbR4dhW5dYDMPrxhAU">
                 violent-extremism
               </a>
+              <br />
+              <br />
+              you cannot claim someone can be violent for grievances without a
+              previously-violent offense.{" "}
+              <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
+                Holy Christ
+              </a>
+              <br />
+              <br />
               defense of individual non-liability by association [of other
               individuals] unless stated intent of self or acknowledgement of
               organizational intent
