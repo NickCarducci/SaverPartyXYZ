@@ -243,6 +243,55 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <a href="https://linkedin.com/in/nickcarducci">
+              linkedin.com/in/nickcarducci
+            </a>
+            <a href="https://vianickcarducci.medium.com">
+              vianickcarducci.medium.com
+            </a>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center"
+              }}
+            >
+              <img
+                alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
+                style={{ position: "relative", width: "33%" }}
+                src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
+              />
+              <img
+                style={{ position: "relative", width: "33%" }}
+                src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
+                alt="are we counting borrowed or deeds?"
+              />
+              <img
+                style={{ position: "relative", width: "33%" }}
+                src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
+                alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
+              />
+              <br />
+              the loans are now scrouging the gringos but just numerically
+              because u.s. courts are malfeasant
+              <br />
+              1000% asset ownership, 5000% asset ownership is finance (1300%
+              bond:cash, 2% financial sector getting population….), 100/2=50x
+              who is the real enemy
+            </div>
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
