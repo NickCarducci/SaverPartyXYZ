@@ -53,6 +53,7 @@ export default class App extends React.Component {
     this.citadel = React.createRef();
     this.nra = React.createRef();
     this.china = React.createRef();
+    this.ftc = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -281,7 +282,6 @@ export default class App extends React.Component {
             <br />
             Population 4.5x
           </div>
-
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -399,7 +399,21 @@ export default class App extends React.Component {
               asinine
             </span>
             <br />
-            <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            <a
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightFTC ? "white" : "",
+                backgroundColor: this.state.highlightFTC
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightFTC !== null ? "1" : "0",
+                fontSize: this.state.highlightFTC !== null ? "" : "0px"
+              }}
+              ref={this.ftc}
+              href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
+            >
               anticompetitve-cornering of assets as "state property"
             </a>{" "}
             is a{" "}
@@ -3656,7 +3670,19 @@ export default class App extends React.Component {
             first-bid later negotiation process.
             <br />
             duress is force, israelis cannot call their green pass a sovereign
-            choice. exclusion is free-rider slavery
+            choice. exclusion is free-rider slavery (let business decide not
+            based on the best price&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.ftc.current.scrollIntoView("smooth");
+                this.setState({ highlightFTC: true });
+                setTimeout(() => this.setState({ highlightFTC: false }), 10000);
+              }}
+            >
+              (without fixing)
+            </span>
+            )
             <br />
             it probably spreads by not washing hands or letting it fester in a
             mask, but the evidence shows that it doesn’t transmit if you are
