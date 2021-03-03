@@ -844,9 +844,9 @@ export default class App extends React.Component {
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.flop.current.scrollIntoView("smooth");
-                  this.setState({ highlightCease: true });
+                  this.setState({ highlightFlop: true });
                   setTimeout(
-                    () => this.setState({ highlightCease: false }),
+                    () => this.setState({ highlightFlop: false }),
                     10000
                   );
                 }}
