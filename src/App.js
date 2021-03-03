@@ -41,9 +41,9 @@ export default class App extends React.Component {
     this.nsfFraud = React.createRef();
     this.italy = React.createRef();
     this.populism = React.createRef();
-    this.nonprofit = React.createRef();
     this.nextspittle = React.createRef();
     this.baltimore = React.createRef();
+    this.royalty = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -280,6 +280,7 @@ export default class App extends React.Component {
               efficiency, not price
             </a>
             <br />
+            <br />
             <img
               style={{
                 width: "90%",
@@ -290,6 +291,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
               alt="PPP lending/stealing fraud for financial ends"
             />
+            <br />
             <br />
             covid relief for finance fraud/prohibit price-elasticity + enslave +
             &nbsp;
@@ -778,10 +780,10 @@ export default class App extends React.Component {
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
-                  this.nonprofit.current.scrollIntoView("smooth");
-                  this.setState({ highlight501c3: true });
+                  this.royalty.current.scrollIntoView("smooth");
+                  this.setState({ highlightRoyalty: true });
                   setTimeout(
-                    () => this.setState({ highlight501c3: false }),
+                    () => this.setState({ highlightRoyalty: false }),
                     10000
                   );
                 }}
@@ -1295,15 +1297,19 @@ export default class App extends React.Component {
             Less jobs means lower prices and easier life
           </div>
           <div
+            ref={this.royalty}
             style={{
-              fontFamily: '"Hi Melody", cursive',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightRoyalty ? "white" : "",
+              backgroundColor: this.state.highlightRoyalty
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightRoyalty !== null ? "1" : "0",
+              fontSize: this.state.highlightRoyalty !== null ? "" : "0px"
             }}
           >
             Do not let any corrupt congressperson tell you you cannot get
@@ -1313,7 +1319,12 @@ export default class App extends React.Component {
             and if you don't want to go public you can pay no corporate tax,
             only income
             <br />
-            <a href="https://wavv.art/forumbNoJuNX58U3nX3dK5mPA">
+            <a
+              style={{
+                color: this.state.highlightRoyalty ? "white" : ""
+              }}
+              href="https://wavv.art/forumbNoJuNX58U3nX3dK5mPA"
+            >
               wavv.art/forumbNoJuNX58U3nX3dK5mPA
             </a>
             <br />
@@ -2141,12 +2152,19 @@ export default class App extends React.Component {
             devolves to the colonists in power instead of the people, if the
             organizational &nbsp;
             <span
-              ref={this.nonprofit}
+              onClick={() => {
+                this.royalty.current.scrollIntoView("smooth");
+                this.setState({ highlightRoyalty: true });
+                setTimeout(
+                  () => this.setState({ highlightRoyalty: false }),
+                  10000
+                );
+              }}
               style={{
                 padding: "4px 10px",
                 borderRadius: "15px",
-                color: this.state.highlight501c3 ? "white" : "",
-                backgroundColor: this.state.highlight501c3 ? "navy" : "",
+                color: this.state.highlightRoyalty ? "white" : "",
+                backgroundColor: this.state.highlightRoyalty ? "navy" : "",
                 transition: ".3s ease-out"
               }}
             >
