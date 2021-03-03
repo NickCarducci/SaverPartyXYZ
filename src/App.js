@@ -267,6 +267,8 @@ export default class App extends React.Component {
               alt="PPP lending/stealing fraud for financial ends"
             />
             <br />
+            covid relief for finance fraud
+            <br />
             give warning by unpaid consultants, non-profit freemium ngo service;
             no prohibition except self/asset court-party risk
             <br />
