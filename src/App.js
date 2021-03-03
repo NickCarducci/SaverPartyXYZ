@@ -611,6 +611,9 @@ export default class App extends React.Component {
               height="444"
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
+            you're normal, its a wide distribution
+            <br />
+            <br />
             ethnic-based economies and targeting in financial damages/exclusion
             <br />
             Why do you want us to talk about color but not culture? F off
@@ -1040,6 +1043,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            you're normal, its a wide distribution
+            <br />
+            <br />
             People should be free to choose with full information what is
             completely within their rights, fines are inherent conflicted
             interests & license to break laws that people cannot afford it are
