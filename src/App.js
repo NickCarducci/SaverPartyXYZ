@@ -44,6 +44,7 @@ export default class App extends React.Component {
     this.nextspittle = React.createRef();
     this.baltimore = React.createRef();
     this.royalty = React.createRef();
+    this.cease = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -787,6 +788,20 @@ export default class App extends React.Component {
                 violent-extremism
               </a>
               <br />
+              anarchist, antigovernment extremist{" "}
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.cease.current.scrollIntoView("smooth");
+                  this.setState({ highlightCease: true });
+                  setTimeout(
+                    () => this.setState({ highlightCease: false }),
+                    10000
+                  );
+                }}
+              >
+                (election tech competition, bond vigilantees, anticompetitive)
+              </span>
               <br />
               you cannot claim someone can be violent for grievances without a
               previously-violent offense.{" "}
@@ -1067,9 +1082,23 @@ export default class App extends React.Component {
               style={{ border: "none", overflow: "hidden", width: "480px" }}
             ></iframe>
             <br />
-            In order to file a cease & desist they have to prove it to stop
-            opinion and they required a court order to give up an audit. I am an
-            election tech{" "}
+            <span
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightCease ? "white" : "",
+                backgroundColor: this.state.highlightCease ? "navy" : "",
+                opacity: this.state.highlightCease !== null ? "1" : "0",
+                fontSize: this.state.highlightCease !== null ? "" : "0px"
+              }}
+              ref={this.cease}
+            >
+              {" "}
+              In order to file a cease & desist
+            </span>{" "}
+            they have to prove it to stop opinion and they required a court
+            order to give up an audit. I am an election tech{" "}
             <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
               competitor
             </a>
