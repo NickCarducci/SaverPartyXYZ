@@ -831,7 +831,7 @@ export default class App extends React.Component {
             matter for you or systems at all if not numerated except to
             individuals within them?
             <br />
-            only in 2018 did I learn where dollars come{" "}
+            only in 2018 did I learn where dollars DID NOT COME FROM G-D{" "}
             <a href="https://vaults.biz">from</a> ... after spending $250k on
             JHU <a href="https://micro-theory.com">economics</a>
             <br />
