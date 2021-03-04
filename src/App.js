@@ -266,7 +266,8 @@ export default class App extends React.Component {
               //textDecoration: "underline"
             }}
           >
-            Neanderthals invented the wheel or whatever
+           Eat My Ass Jen Psaki, "We will get vaccines into arms";
+             Neanderthals invented the wheel or whatever
           </i>
           <div
             style={{
