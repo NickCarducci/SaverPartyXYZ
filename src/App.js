@@ -283,6 +283,10 @@ export default class App extends React.Component {
               available
             </span>
             , there never was
+            <br />
+            <br />
+            $618 million/yr for cybersecurity risk mitigation. how is this not
+            anticompetitive?
           </div>
           <i
             style={{
