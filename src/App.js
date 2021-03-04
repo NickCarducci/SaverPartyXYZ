@@ -260,6 +260,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <a href="https://nationalsecuritycasino.com">
+            <i
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              Sluts,
+            </i>
+          </a>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -272,8 +284,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Sluts,
-            <br />
             It is not a public health emergency [funding] does a pandemic
             require without finance
             <br />
