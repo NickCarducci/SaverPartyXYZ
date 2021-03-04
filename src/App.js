@@ -933,6 +933,9 @@ export default class App extends React.Component {
             think this off/on priocess will depreciate magnetism. My
             solutionwith negative outer rim that turns in to accelerate or mount
             is scaleable to cell, device or auto
+            <br />
+            <br />
+            accelerate, mount or just radius thickness...
           </div>
           <i
             style={{
