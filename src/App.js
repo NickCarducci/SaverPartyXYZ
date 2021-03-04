@@ -264,6 +264,19 @@ export default class App extends React.Component {
             }}
           >
             I was raised a homebuilder to pay off my own mortgage
+            <br />
+            I grew up building houses to pay for a mortgage that only retained
+            value because courts don’t adjudicate at once.
+            <br />
+            I grew up building houses to pay for a mortgage that only retained
+            value because courts don’t adjudicate at once. Don’t promise my
+            money to your lender, thief
+            <br />
+            <br />
+            Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
+            B-cell oncogenesis) when the problem is forming mold in your mask
+            and ceasing that self-deprecation might stop your prediction of
+            B.1.1.7 doubling 3/4/2021
           </i>
           <div
             style={{
