@@ -259,6 +259,25 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(50% - 30px)",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/37jktk3nozsk3hc/dorothy.jpeg?dl=0"
+            />
+          </div>{" "}
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
