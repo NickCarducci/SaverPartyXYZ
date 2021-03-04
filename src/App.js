@@ -262,7 +262,7 @@ export default class App extends React.Component {
         >
             NYC pussies you cannot make someone paint their property or make
             them do labor unless they are roman servants since we don't just do
-            3% sales ta under $2k goes on spoof-able geohash
+            3% sales tax under $2k goes on spoof-able geohash
             <br />
 HR.1 proposes not giving interest on bonds to international aid & comfort?  That is admittance that it is involuntary slavery
             <br/>
