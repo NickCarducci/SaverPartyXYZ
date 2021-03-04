@@ -258,6 +258,16 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
+            }}
+          >
+            Neanderthals invented the wheel or whatever
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
