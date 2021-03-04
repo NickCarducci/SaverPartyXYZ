@@ -260,7 +260,7 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-            NYC pussies you cannot make someone paint their property or make
+            NYC: you cannot make someone paint their property or make
             them do labor unless they are roman servants since we don't just do
             3% sales tax under $2k goes on spoof-able geohash
             <br />
