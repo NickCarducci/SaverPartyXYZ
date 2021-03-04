@@ -2971,7 +2971,7 @@ export default class App extends React.Component {
             }}
           >
             Kudlow - "don't let anyone tell you not to invest. we are on the
-            precipice of a hugre bull market." is he a Certified Financial
+            precipice of a huge bull market." is he a Certified Financial
             Goober giving advice to millions on tv like that to buy?
             <br />
             Ben Carson is{" "}
