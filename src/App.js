@@ -260,7 +260,91 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          {" "}
+          <div
+            style={{
+              height: "min-content",
+              width: "100%",
+              display: "flex",
+              flexWrap: "wrap"
+            }}
+          >
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/7z1s020l40g8zyb/HR11.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/8h8o8fv28ntsau0/HR12.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/clzmkhsu2c7amzv/HR13.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/qon89qz9lvvor8l/HR14.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
