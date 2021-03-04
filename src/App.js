@@ -267,6 +267,33 @@ export default class App extends React.Component {
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
+          >
+            Doubt about Racketeering
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            imo it only removes any liability protection of his advertisements,
+            otherwise his commentary/good products is a public service
+            <br />
+            but that should be even handed for any figure regardless of Delaware
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightInsurance: true });
