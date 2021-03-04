@@ -323,23 +323,46 @@ export default class App extends React.Component {
           <div
             style={{
               height: "min-content",
-              fontWeight: "bolder",
-              textDecoration: "underline",
-              flexWrap: "wrap",
               width: "100%",
               display: "flex"
             }}
           >
-            <img
-              style={{ position: "relative", width: "50%", height: "auto" }}
-              src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
-              alt="ETF lending/stealing fraud for financial ends"
-            />
-            <img
-              style={{ position: "relative", width: "50%", height: "auto" }}
-              src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
-              alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
-            />
+            <div
+              style={{
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  position: "relative",
+                  border: "3px solid blue",
+                  width: "calc(50% - 26px)",
+                  height: "auto",
+                  borderRadius: "10px",
+                  padding: "10px"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
+                alt="ETF lending/stealing fraud for financial ends"
+              />
+            </div>
+            <div
+              style={{
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  position: "relative",
+                  border: "3px solid blue",
+                  width: "calc(50% - 26px)",
+                  height: "auto",
+                  borderRadius: "10px",
+                  padding: "10px"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
+                alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
+              />
+            </div>
           </div>
           <i
             style={{
@@ -836,11 +859,21 @@ export default class App extends React.Component {
         >
         */}
             <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-              <img
-                style={{ position: "relative", width: "100%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
-                alt="PPP lending/stealing fraud for financial ends"
-              />
+              <div
+                style={{
+                  position: "relative"
+                }}
+              >
+                <img
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "auto"
+                  }}
+                  src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
+                  alt="PPP lending/stealing fraud for financial ends"
+                />
+              </div>
             </div>
             <br />
             <br />
@@ -892,25 +925,42 @@ export default class App extends React.Component {
             <div
               style={{
                 display: "flex",
-                position: "relative",
-                justifyContent: "center"
+                position: "relative"
               }}
             >
-              <img
-                alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
-                style={{ position: "relative", width: "33%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
-              />
-              <img
-                style={{ position: "relative", width: "33%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
-                alt="are we counting borrowed or deeds?"
-              />
-              <img
-                style={{ position: "relative", width: "33%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
-                alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
-              />
+              <div
+                style={{
+                  position: "relative"
+                }}
+              >
+                <img
+                  alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
+                  style={{ position: "relative", width: "33%", height: "auto" }}
+                  src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
+                />
+              </div>
+              <div
+                style={{
+                  position: "relative"
+                }}
+              >
+                <img
+                  style={{ position: "relative", width: "33%", height: "auto" }}
+                  src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
+                  alt="are we counting borrowed or deeds?"
+                />
+              </div>
+              <div
+                style={{
+                  position: "relative"
+                }}
+              >
+                <img
+                  style={{ position: "relative", width: "33%", height: "auto" }}
+                  src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
+                  alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
+                />
+              </div>
               <br />
               the loans are now scrouging the gringos but just numerically
               because u.s. courts are malfeasant
@@ -1249,10 +1299,16 @@ export default class App extends React.Component {
               YOU HAVE NO PROOF
             </span>
             &nbsp;AND 1918 flu was hunger deaths from debt.
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div
+              style={{
+                display: "flex",
+                position: "relative"
+              }}
+            >
               <img
                 style={{
-                  height: "300px",
+                  width: "calc(50% - 26px)",
+                  height: "auto",
                   border: this.state.highlightIRS ? "3px solid blue" : "",
                   borderRadius: "10px",
                   padding: "10px"
@@ -1262,7 +1318,8 @@ export default class App extends React.Component {
               />
               <img
                 style={{
-                  height: "300px",
+                  width: "calc(50% - 26px)",
+                  height: "auto",
                   border: this.state.highlightIRS ? "3px solid blue" : "",
                   borderRadius: "10px",
                   padding: "10px"
@@ -2184,9 +2241,9 @@ export default class App extends React.Component {
                 style={{ height: "400px" }}
                 src="https://www.dl.dropboxusercontent.com/s/pj8exndau26sbmi/NonLibertarianInsurance.png?dl=0"
               />
-              <br />
-              why are you hitting yourselves?
             </div>
+            <br />
+            why are you hitting yourselves?
           </div>
           <div
             style={{
@@ -2329,11 +2386,13 @@ export default class App extends React.Component {
             , if Apple Watch uses it they owe me royalty since I cannot afford
             the patent fees
             <br />
-            <img
-              style={{ height: "300px" }}
-              src="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
-              alt="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
-            />
+            <div style={{ position: "relative" }}>
+              <img
+                style={{ height: "auto", width: "100%" }}
+                src="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
+                alt="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
+              />
+            </div>
             <br />
             <a href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f">
               wavv.art/forumqWvK2fk3GcFligVsTZ0f
@@ -2628,10 +2687,9 @@ export default class App extends React.Component {
           >
             My 5-year trial with SSA Disability / Medicare Orthopedic
           </i>
-          <div style={{ position: "flex" }}>
-            {" "}
+          <div style={{ position: "relative" }}>
             <img
-              style={{ width: "600px" }}
+              style={{ width: "100%", height: "auto" }}
               src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
               alt="vastus medialis (teardrop muscle)"
             />
@@ -4528,20 +4586,9 @@ export default class App extends React.Component {
             because of the removal of Glass Steagal mileading call of valuation
             that cannot pay out that amount as a "savings" value
           </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", cursive',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
+          <div style={{ position: "relative" }}>
             <img
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "auto" }}
               alt="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
               src="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
             />
@@ -4732,6 +4779,13 @@ export default class App extends React.Component {
             cease and decist
             <br />
           </i>
+          <div style={{ position: "relative" }}>
+            <img
+              style={{ width: "100%", height: "auto" }}
+              alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+            />{" "}
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -4744,11 +4798,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            <img
-              style={{ width: "100%" }}
-              alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
-              src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
-            />
             What is not true (only permitted in cease & desist when verifiable),
             is not verifiable (evidence of truth)
           </div>{" "}
@@ -5821,9 +5870,7 @@ export default class App extends React.Component {
           <div
             style={{
               position: "relative",
-              height: "min-content",
-              border: "3px solid",
-              width: "min-content"
+              border: "3px solid"
             }}
           >
             <img
@@ -6133,16 +6180,12 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            width: "100%",
-            maxWidth: "500px",
-            display: "flex",
-            alignItems: "flex-start"
+            position: "relative"
           }}
         >
           <img
             alt="finance was public opinion not hair color"
             style={{
-              display: "flex",
               width: "100%",
               height: "auto",
               position: "relative"
@@ -6652,11 +6695,17 @@ export default class App extends React.Component {
           principle back from the seller for the same product at a higher price
           for both curves...
         </div>
-        <img
-          style={{ width: "90%", maxWidth: "800px" }}
-          src="https://www.dl.dropboxusercontent.com/s/ohyyc9wensqjmar/interest%20dead%20weight%20%282%29.png?dl=0"
-          alt="err"
-        />
+        <div
+          style={{
+            position: "relative"
+          }}
+        >
+          <img
+            style={{ width: "90%", maxWidth: "800px" }}
+            src="https://www.dl.dropboxusercontent.com/s/ohyyc9wensqjmar/interest%20dead%20weight%20%282%29.png?dl=0"
+            alt="err"
+          />
+        </div>
         <br />
         <div style={{ textDecoration: "underline" }}>
           Duress earn back from seller, timed. Agreement to give money that
@@ -6857,23 +6906,34 @@ export default class App extends React.Component {
           }
         />
         <div>
-          <img
-            style={{ height: "300px" }}
-            src="https://www.dl.dropboxusercontent.com/s/di3vvdp7out75fx/GoldBondWarning.jpg?dl=0"
-            alt="imprisonment or insurmountable fine if you do not buy military-contract bonds"
-          />
-
-          <img
-            ref={this.IRS}
+          <div
             style={{
-              height: "300px",
-              border: this.state.highlightIRS ? "3px solid blue" : "",
-              borderRadius: "10px",
-              padding: "10px"
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/7kna7kxss5vxx96/SocialSecurityWarning.jpeg?dl=0"
-            alt="imprisonment or insurmountable fine if you do not invest in public companies and keep down payments of your borrowers' customers' after reposession"
-          />
+          >
+            <img
+              style={{ height: "300px" }}
+              src="https://www.dl.dropboxusercontent.com/s/di3vvdp7out75fx/GoldBondWarning.jpg?dl=0"
+              alt="imprisonment or insurmountable fine if you do not buy military-contract bonds"
+            />
+
+            <div
+              style={{
+                position: "relative"
+              }}
+            ></div>
+            <img
+              ref={this.IRS}
+              style={{
+                height: "300px",
+                border: this.state.highlightIRS ? "3px solid blue" : "",
+                borderRadius: "10px",
+                padding: "10px"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/7kna7kxss5vxx96/SocialSecurityWarning.jpeg?dl=0"
+              alt="imprisonment or insurmountable fine if you do not invest in public companies and keep down payments of your borrowers' customers' after reposession"
+            />
+          </div>
         </div>
         <div ref={this.scrolllto} />
         <br />
@@ -6911,4 +6971,3 @@ export default class App extends React.Component {
     );
   }
 }
-
