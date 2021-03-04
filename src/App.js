@@ -342,6 +342,21 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              "In a free market the government does not sanction corporations,
+              therefore there are no corporations in a free market."
+            </div>
             Existing within a market/vault/currency stewardship purveying
             corporations/debt instead of royalty-contract w/max/profit
             vaults.biz allows you to go public but you pay a Double-Tax on
