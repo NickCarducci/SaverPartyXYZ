@@ -258,6 +258,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
+              Stimulous for low-population areas (must be paid back, supports
+              "savings" accounts' accounting fraud
+            </a>
+          </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
