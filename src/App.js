@@ -260,6 +260,20 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+          Sluts,<br/>
+          It is not a public health emergency does a pandemic require without finance<br/><br/>
             NYC: you cannot make someone paint their property or make
             them do labor unless they are roman servants since we don't just do
             3% sales tax under $2k goes on spoof-able geohash
@@ -269,7 +283,7 @@ export default class App extends React.Component {
             clearer possible confession of motive to indulge in involuntary
             dollar/equity/vault/market-share split? That is admittance that it
             is involuntary slavery
-            <br />
+           </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
