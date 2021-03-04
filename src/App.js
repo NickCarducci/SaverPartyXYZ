@@ -263,12 +263,28 @@ export default class App extends React.Component {
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
             }}
           >
             Doubt about Racketeering
+            <br />
+            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage
+            organ-harvest/culture
+            <br />
+            that's like dollar beer or vampirism, guiding your punches
+            <br />
+            we can battle with any non-manmade virus{" "}
+            <i
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder"
+              }}
+            >
+              I am sure
+            </i>
           </i>
           <div
             style={{
