@@ -28,7 +28,7 @@ class RealRealGDP extends React.Component {
               position: "relative",
               flexDirection: "column",
               fontSize: "16px",
-              width: "1000px",
+              width: "900px",
               height: "min-content",
               transition: "0.3s ease-in"
             }}
@@ -49,7 +49,6 @@ class RealRealGDP extends React.Component {
                 froth.app
               </a>
             </div>
-
             {/*<iframe
             src="https://fred.stlouisfed.org/graph/graph-landing.php?g=o0KQ&width=670&height=300"
             scrolling="no"
@@ -64,7 +63,14 @@ class RealRealGDP extends React.Component {
               style={{ height: "500px" }}
             />
           </div>
-          <div className="chartlabels">
+          <div
+            className="chartlabels"
+            style={{
+              transform: "translateX(-290px)",
+              backgroundColor: "rgb(255,255,255)",
+              height: "min-content"
+            }}
+          >
             v2 - GDP/m2-currencym1 (trueVelocity) * currencym1 = trueGDP, not
             "real gdp" which doesn't account for unspent monetary-inflation
             (potential price-inelasticity inflation)
