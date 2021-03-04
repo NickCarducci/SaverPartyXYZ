@@ -323,6 +323,8 @@ export default class App extends React.Component {
             B.1.1.7 doubling 3/4/2021
             <br />
             Without debt, the rich will want to kill us
+          <br />
+          <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">oy</a>
           </i>
           <div
             style={{
