@@ -286,7 +286,7 @@ export default class App extends React.Component {
               //textDecoration: "underline"
             }}
           >
-           Eat My Ass Jen Psaki, "We will get vaccines into arms";
+           <a href="https://moldmask.co">Eat My Ass Jen Psaki</a>, "We will get vaccines into arms";
              Neanderthals invented the wheel or whatever
           </i>
           <div
