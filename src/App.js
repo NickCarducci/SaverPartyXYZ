@@ -257,6 +257,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            I was raised a homebuilder to pay off my own mortgage
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -269,12 +277,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            <a href="http://chng.it/D9dxm2mWW4">
-              Petition to stop supermarkets wasting food, bad stewardship of our
-              opportunities, G-d given shit
-            </a>
-            <br />
-            <br />
             Existing within a market/vault/currency stewardship purveying
             corporations/debt instead of royalty-contract w/max/profit
             vaults.biz allows you to go public but you pay a Double-Tax on
@@ -285,6 +287,12 @@ export default class App extends React.Component {
             direct democracy for Baltimore “and beyond” now sole proprietorship
             with royalty contracts w/max-profit (no promises, only
             profit-schedules[adminWidthdrawal/sale,skew,max] options)
+            <br />
+            <br />
+            <a href="http://chng.it/D9dxm2mWW4">
+              Petition to stop supermarkets wasting food, bad stewardship of our
+              opportunities, G-d given shit
+            </a>
           </div>
           <div
             style={{
