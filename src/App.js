@@ -260,6 +260,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+HR.1 proposes not giving interest on bonds to international aid & comfort?  That is admittance that it is involuntary slavery
+            <br/>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
