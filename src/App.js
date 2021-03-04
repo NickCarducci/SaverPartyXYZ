@@ -273,7 +273,7 @@ export default class App extends React.Component {
             }}
           >
           Sluts,<br/>
-          It is not a public health emergency does a pandemic [funding] require without finance<br/><br/>
+          It is not a public health emergency [funding] does a pandemic require without finance<br/><br/>
             NYC: you cannot make someone paint their property or make
             them do labor unless they are roman servants since we don't just do
             3% sales tax under $2k goes on spoof-able geohash
