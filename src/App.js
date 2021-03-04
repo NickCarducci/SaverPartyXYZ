@@ -272,18 +272,22 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-          Sluts,<br/>
-          It is not a public health emergency [funding] does a pandemic require without finance<br/><br/>
-            NYC: you cannot make someone paint their property or make
-            them do labor unless they are roman servants since we don't just do
-            3% sales tax under $2k goes on spoof-able geohash
+            Sluts,
+            <br />
+            It is not a public health emergency [funding] does a pandemic
+            require without finance
+            <br />
+            <br />
+            NYC: you cannot make someone paint their property or make them do
+            labor unless they are roman servants since we don't just do 3% sales
+            tax under $2k goes on spoof-able geohash
             <br />
             HR.1 proposes not giving interest on bonds to international aid &
             comfort, but still give outlays to "disadvantaged borrowers" for no
             clearer possible confession of motive to indulge in involuntary
             dollar/equity/vault/market-share split? That is admittance that it
             is involuntary slavery
-           </div>
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -292,6 +296,16 @@ export default class App extends React.Component {
               //textDecoration: "underline"
             }}
           >
+            NYC: you cannot make someone paint their property or make them do
+            labor unless they are roman servants since we don't just do 3% sales
+            tax under $2k goes on spoof-able geohash
+            <br />
+            HR.1 proposes not giving interest on bonds to international aid &
+            comfort, but still give outlays to "disadvantaged borrowers" for no
+            clearer possible confession of motive to indulge in involuntary
+            dollar/equity/vault/market-share split? That is admittance that it
+            is involuntary slavery
+            <br />
             <a
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
@@ -306,32 +320,23 @@ export default class App extends React.Component {
             for{" "}
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
           </i>
-          <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+          <div
+            style={{
+              height: "min-content",
+              fontWeight: "bolder",
+              textDecoration: "underline",
+              flexWrap: "wrap",
+              width: "100%",
+              display: "flex"
+            }}
+          >
             <img
-              style={{
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline",
-                width: "90%",
-                border: "3px solid blue",
-                borderRadius: "10px",
-                padding: "10px"
-              }}
+              style={{ position: "relative", width: "50%", height: "auto" }}
               src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
               alt="ETF lending/stealing fraud for financial ends"
             />
             <img
-              style={{
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline",
-                width: "90%",
-                border: "3px solid blue",
-                borderRadius: "10px",
-                padding: "10px"
-              }}
+              style={{ position: "relative", width: "50%", height: "auto" }}
               src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
               alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
             />
@@ -832,16 +837,7 @@ export default class App extends React.Component {
         */}
             <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
               <img
-                style={{
-                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                  textEmphasis: "italics",
-                  fontWeight: "bolder",
-                  textDecoration: "underline",
-                  width: "90%",
-                  border: "3px solid blue",
-                  borderRadius: "10px",
-                  padding: "10px"
-                }}
+                style={{ position: "relative", width: "100%", height: "auto" }}
                 src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
                 alt="PPP lending/stealing fraud for financial ends"
               />
@@ -3017,8 +3013,8 @@ export default class App extends React.Component {
             }}
           >
             Kudlow - "don't let anyone tell you not to invest. we are on the
-            precipice of a huge bull market." is he a Certified Financial
-            Goober giving advice to millions on tv like that to buy?
+            precipice of a huge bull market." is he a Certified Financial Goober
+            giving advice to millions on tv like that to buy?
             <br />
             Ben Carson is{" "}
             <a href="https://vianickcarducci.medium.com">retarded</a>, ownership
