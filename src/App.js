@@ -663,6 +663,13 @@ export default class App extends React.Component {
             <br />
             Unspoken collusion by supply-side product luddites. "Advent of zoom"
             it is WebX with a better brand... shikes
+            <br />
+            turntide is just take-home nuclear reactor motor
+            <br />
+            Using a rotor uses kinetic energy to loop power (magnate.company). I
+            think this off/on priocess will depreciate magnetism. My
+            solutionwith negative outer rim that turns in to accelerate or mount
+            is scaleable to cell, device or auto
           </div>
           <i
             style={{
