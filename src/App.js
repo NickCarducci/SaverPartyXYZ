@@ -267,6 +267,8 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
+            Competition is only appropriate for the definition of the marginal utility:cost market with investment in profit sharing on non-general income prisoners' duress pooling in prohibiting price-elasticity and abetting further counterfeit-invoice contracts, notedly involuntary-labor
+            <br/><br/>
             <a href="https://www.researchgate.net/project/Class-action-suit">
               ARREARS ARE MOOT FOR IMPOSSIBILITY
             </a>
