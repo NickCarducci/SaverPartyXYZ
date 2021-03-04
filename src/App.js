@@ -271,8 +271,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Socially and economically disadvantaged individuals taken from
-            savers and bypassing artists or pre-revenue inventors
+           Socially and economically disadvantaged individuals taken from savers and bypassing artists, pre-revenue inventors, volunteers or nonprofits (29-year old polish-Italian American male)
             <br />
             <br />
             minority depository institution illegal, depositary
