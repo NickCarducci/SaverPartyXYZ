@@ -740,20 +740,30 @@ export default class App extends React.Component {
             </a>
             <br />
             <br />
-            <img
-              style={{
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline",
-                width: "90%",
-                border: "3px solid blue",
-                borderRadius: "10px",
-                padding: "10px"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
-              alt="PPP lending/stealing fraud for financial ends"
-            />
+            {/* <div
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "min-content"
+          }}
+        >
+        */}
+            <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+              <img
+                style={{
+                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  textEmphasis: "italics",
+                  fontWeight: "bolder",
+                  textDecoration: "underline",
+                  width: "90%",
+                  border: "3px solid blue",
+                  borderRadius: "10px",
+                  padding: "10px"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
+                alt="PPP lending/stealing fraud for financial ends"
+              />
+            </div>
             <br />
             <br />
             <div
@@ -803,24 +813,23 @@ export default class App extends React.Component {
             </a>
             <div
               style={{
-                position: "relative",
                 display: "flex",
-                flexWrap: "wrap",
+                position: "relative",
                 justifyContent: "center"
               }}
             >
               <img
                 alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
-                style={{ position: "relative", width: "33%" }}
+                style={{ position: "relative", width: "33%", height: "auto" }}
                 src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
               />
               <img
-                style={{ position: "relative", width: "33%" }}
+                style={{ position: "relative", width: "33%", height: "auto" }}
                 src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
                 alt="are we counting borrowed or deeds?"
               />
               <img
-                style={{ position: "relative", width: "33%" }}
+                style={{ position: "relative", width: "33%", height: "auto" }}
                 src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
                 alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
               />
@@ -6821,3 +6830,4 @@ export default class App extends React.Component {
     );
   }
 }
+
