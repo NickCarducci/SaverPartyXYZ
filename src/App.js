@@ -407,7 +407,7 @@ export default class App extends React.Component {
             labor unless they are roman servants since we don't just do 3% sales
             tax under $2k goes on spoof-able geohash
             <br />
-            HR.1 proposes not giving interest on bonds to international aid &
+            H.R. 748 proposes not giving interest on bonds to international aid &
             comfort, but still give outlays to "disadvantaged borrowers" for no
             clearer possible confession of motive to indulge in involuntary
             dollar/equity/vault/market-share split? That is admittance that it
