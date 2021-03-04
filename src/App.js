@@ -270,6 +270,8 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Ireland requesting from U.K. money they have no right to give out because of a "contract," what fucking idiots hoidy hoiy
+            <br/>
             <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
               Stimulous for low-population areas (must be paid back, supports
               "savings" accounts' accounting fraud
