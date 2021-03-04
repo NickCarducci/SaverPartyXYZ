@@ -609,7 +609,7 @@ export default class App extends React.Component {
               jurisprudential, national-security issue
             </a>
             <br />
-            Circle-back Pisaki thinks a
+            Circle-back Psaki thinks a
             diplomatic-immunity/expiration-limitation exists in an actual court
             of law
             <br />
