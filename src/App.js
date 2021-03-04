@@ -339,17 +339,18 @@ export default class App extends React.Component {
           >
             <div
               style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 20px)",
                 position: "relative"
               }}
             >
               <img
                 style={{
-                  position: "relative",
-                  border: "3px solid blue",
-                  width: "calc(50% - 26px)",
-                  height: "auto",
-                  borderRadius: "10px",
-                  padding: "10px"
+                  width: "calc(100% - 26px)",
+                  height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
                 alt="ETF lending/stealing fraud for financial ends"
@@ -357,17 +358,18 @@ export default class App extends React.Component {
             </div>
             <div
               style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 20px)",
                 position: "relative"
               }}
             >
               <img
                 style={{
-                  position: "relative",
-                  border: "3px solid blue",
-                  width: "calc(50% - 26px)",
-                  height: "auto",
-                  borderRadius: "10px",
-                  padding: "10px"
+                  width: "calc(100% - 26px)",
+                  height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
                 alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
