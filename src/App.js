@@ -258,6 +258,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            AARP Profile: Summary • OpenSecretswww.opensecrets.org › orgs › aarp
+            › summary
+            <br />
+            AARP organization profile. Contributions in the 2020 cycle: $216510.
+            Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
