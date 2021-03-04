@@ -261,6 +261,25 @@ export default class App extends React.Component {
         >
           <div
             style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Socially and economically disadvantaged individuals taken from
+            savers and bypassing artists or pre-revenue inventors
+            <br />
+            <br />
+            minority depository institution illegal, depositary
+            security-receipts ok
+          </div>
+          <div
+            style={{
               border: "3px solid blue",
               borderRadius: "10px",
               padding: "10px",
