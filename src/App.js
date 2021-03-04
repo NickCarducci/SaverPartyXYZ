@@ -254,8 +254,7 @@ export default class App extends React.Component {
       <div ref={this.forSize} className="App">
         <div
           style={{
-            padding: "20px",
-            border: "1px dotted",
+      top:"0px,
             width: "100%",
             maxWidth: "600px"
           }}
