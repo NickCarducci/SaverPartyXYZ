@@ -260,6 +260,20 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            <a href="https://www.researchgate.net/project/Class-action-suit">
+              ARREARS ARE MOOT FOR IMPOSSIBILITY
+            </a>
+            , justice department conspires with itself and claims jurisprudence
+            over itself
+          </i>
           <div
             style={{
               height: "min-content",
