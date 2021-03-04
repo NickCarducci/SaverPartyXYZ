@@ -262,6 +262,31 @@ export default class App extends React.Component {
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            COVID 19 Diagnosis without symptoms can be held under quarantine my
+            ass
+          </i>
+          <br />
+          <a href="https://www.govtrack.us/congress/bills/116/hr748">
+            Let's not negotitiage&nbsp;
+            <i
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              The Ask: H.R. 748
+            </i>
+          </a>
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics"
               //fontWeight: "bolder",
               //textDecoration: "underline"
