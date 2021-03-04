@@ -275,10 +275,10 @@ export default class App extends React.Component {
             <br />
             David Turk
             <br />
-            The analysis revealed that NETL injected a total of $202 million
+            "The analysis revealed that NETL injected a total of $202 million
             directly into those states' economies in 2017. ... It was determined
             that NETL had a total estimated impact of $408 million on the three
-            state economies in 2017.
+            state economies in 2017."
             <br />
             NETL OVERVIEW - OSTI.GOV
           </div>
