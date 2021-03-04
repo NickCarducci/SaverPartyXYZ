@@ -259,6 +259,31 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Not another dollar is&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+              }}
+            >
+              available
+            </span>
+            , there never was
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
