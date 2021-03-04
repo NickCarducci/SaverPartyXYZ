@@ -274,6 +274,43 @@ export default class App extends React.Component {
               );
             }}
           >
+            The Beast System
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            There are many leftists who believe criminal justice reform includes
+            barring criminals or unadjunicated harm from national and{" "}
+            <a href="https://wavv.art/United_States_of_America">
+              consumer courts
+            </a>{" "}
+            from economies
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jewels.current.scrollIntoView("smooth");
+              this.setState({ highlightJewels: true });
+              setTimeout(
+                () => this.setState({ highlightJewels: false }),
+                10000
+              );
+            }}
+          >
             Montana: The Family Jewels
           </i>
           <div
