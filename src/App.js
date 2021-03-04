@@ -270,7 +270,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            AARP Profile: Summary • OpenSecretswww.opensecrets.org › orgs › aarp
+            <a href="https://en.wikipedia.org/wiki/Denis_McDonough">AARP Profile</a>: Summary • OpenSecretswww.opensecrets.org › orgs › aarp
             › summary
             <br />
             AARP organization profile. Contributions in the 2020 cycle: $216510.
