@@ -56,6 +56,7 @@ export default class App extends React.Component {
     this.ftc = React.createRef();
     this.brookings = React.createRef();
     this.booker = React.createRef();
+    this.jewels = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -257,6 +258,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jewels.current.scrollIntoView("smooth");
+              this.setState({ highlightJewels: true });
+              setTimeout(
+                () => this.setState({ highlightJewels: false }),
+                10000
+              );
+            }}
+          >
+            Montana: The Family Jewels
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -302,8 +321,8 @@ export default class App extends React.Component {
             B-cell oncogenesis) when the problem is forming mold in your mask
             and ceasing that self-deprecation might stop your prediction of
             B.1.1.7 doubling 3/4/2021
-    <br/>
-          Without debt, the rich will want to kill us
+            <br />
+            Without debt, the rich will want to kill us
           </i>
           <div
             style={{
@@ -662,6 +681,13 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            Cancel all debt, don't let Wolf Blitzer pay them with
+            dollar/market-share involuntary split
+            <br />
+            like calling a graft a non-human-part vaccine. croak, please before
+            you hurt someone
+            <br />
+            <br />
             "Radical libertarianism; drug/chemical abuse." Let them own houses
             then maybe they wouldn't want to trip balls. In any case you
             shouldn't concern yourself with how someone spends their lives. For
@@ -671,21 +697,25 @@ export default class App extends React.Component {
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
+              flexDirection: "column",
+              alignItems: "center",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightJewels ? "white" : "grey",
+              backgroundColor: this.state.highlightJewels
+                ? "rgb(100,170,205)"
+                : "",
+              opacity: this.state.highlightJewels !== null ? "1" : "0",
+              fontSize: this.state.highlightJewels !== null ? "" : "0px"
             }}
+            ref={this.jewels}
           >
-            Cancel all debt, don't let Wolf Blitzer pay them with
-            dollar/market-share involuntary split
-            <br />
-            like calling a graft a non-human-part vaccine. croak, please before
-            you hurt someone
-            <br />
             Unspoken collusion by supply-side product luddites. "Advent of zoom"
             it is WebX with a better brand... shikes
             <br />
