@@ -271,7 +271,13 @@ export default class App extends React.Component {
             Doubt about Racketeering
             <br />
             Fauci says take ANY Vaccine, even J&Johnson 1985 vintage
-            organ-harvest/culture
+            <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
+              organ-harvest/culture
+            </a>
+            <iframe
+              title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+              src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+            ></iframe>
             <br />
             that's like dollar beer or vampirism, guiding your punches
             <br />
