@@ -260,6 +260,22 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          {" "}
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            If I were to manage your pensions, I would do
+            <br />
+            <a href="https://stocktwits.com/nmc123">
+              60% CASH, 20% TBT, 10%VXX, 10%SLV
+            </a>
+          </i>
+          <br />
           <a href="https://nationalsecuritycasino.com">
             <i
               style={{
@@ -297,11 +313,15 @@ export default class App extends React.Component {
             clearer possible confession of motive to indulge in involuntary
             dollar/equity/vault/market-share split? That is admittance that it
             is involuntary slavery
-            <br/>
-            <br/>
-            It also mentions liability on public health for drug addicts well rocket mortgage and rentiers drive us into the streets
-      <br/>
-      PAY FOR IT YOURSELF. As I like to say about a good economy is that you can dishwash yourself a house, as a bookkeeper for a homebuilding company with family fortgage and experience dishwashing/serving
+            <br />
+            <br />
+            It also mentions liability on public health for drug addicts well
+            rocket mortgage and rentiers drive us into the streets
+            <br />
+            PAY FOR IT YOURSELF. As I like to say about a good economy is that
+            you can dishwash yourself a house, as a bookkeeper for a
+            homebuilding company with family fortgage and experience
+            dishwashing/serving{" "}
           </div>
           <i
             style={{
