@@ -277,6 +277,8 @@ export default class App extends React.Component {
             B-cell oncogenesis) when the problem is forming mold in your mask
             and ceasing that self-deprecation might stop your prediction of
             B.1.1.7 doubling 3/4/2021
+    <br/>
+          Without debt, the rich will want to kill us
           </i>
           <div
             style={{
