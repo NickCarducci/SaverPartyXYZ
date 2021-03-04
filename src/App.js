@@ -288,6 +288,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            old, obeise, sloppy-hicks to get their subsidies to pay property tax
+            (you do not need stated intent to prosecute this number/accounting
+            based conclusion)
+            <br />
             "On balance, good thing or bad thing?"
             <br />
             Prohibiting price-inelasticity
