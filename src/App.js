@@ -320,7 +320,7 @@ export default class App extends React.Component {
             <br />
             PAY FOR IT YOURSELF. As I like to say about a good economy is that
             you can dishwash yourself a house, as a bookkeeper for a
-            homebuilding company with family fortgage and experience
+            homebuilding company with family mortgage and experience
             dishwashing/serving{" "}
           </div>
           <i
