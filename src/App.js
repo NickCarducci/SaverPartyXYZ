@@ -57,6 +57,8 @@ export default class App extends React.Component {
     this.brookings = React.createRef();
     this.booker = React.createRef();
     this.jewels = React.createRef();
+    this.insurance = React.createRef();
+    this.covidrelief = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -258,6 +260,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightInsurance: true });
+              setTimeout(
+                () => this.setState({ highlightInsurance: false }),
+                10000
+              );
+            }}
+          >
+            Insurance
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -270,8 +290,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Ireland requesting from U.K. money they have no right to give out because of a "contract," what fucking idiots hoidy hoiy
-            <br/>
+            Ireland requesting from U.K. money they have no right to give out
+            because of a "contract," what fucking idiots hoidy hoiy
+            <br />
             <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
               Stimulous for low-population areas (must be paid back, supports
               "savings" accounts' accounting fraud
@@ -286,8 +307,8 @@ export default class App extends React.Component {
               //textDecoration: "underline"
             }}
           >
-           <a href="https://moldmask.co">Eat My Ass Jen Psaki</a>, "We will get vaccines into arms";
-             Neanderthals invented the wheel or whatever
+            <a href="https://moldmask.co">Eat My Ass Jen Psaki</a>, "We will get
+            vaccines into arms"; Neanderthals invented the wheel or whatever
           </i>
           <div
             style={{
@@ -301,8 +322,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            <a href="https://en.wikipedia.org/wiki/Denis_McDonough">AARP Profile</a>: Summary • OpenSecretswww.opensecrets.org › orgs › aarp
-            › summary
+            <a href="https://en.wikipedia.org/wiki/Denis_McDonough">
+              AARP Profile
+            </a>
+            : Summary • OpenSecretswww.opensecrets.org › orgs › aarp › summary
             <br />
             AARP organization profile. Contributions in the 2020 cycle: $216510.
             Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
@@ -416,8 +439,10 @@ export default class App extends React.Component {
             B.1.1.7 doubling 3/4/2021
             <br />
             Without debt, the rich will want to kill us
-          <br />
-          <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">oy</a>
+            <br />
+            <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
+              oy
+            </a>
           </i>
           <div
             style={{
@@ -640,9 +665,8 @@ export default class App extends React.Component {
               jurisprudential, national-security issue
             </a>
             <br />
-            Circle-back Psaki thinks a
-            diplomatic-immunity/expiration-limitation exists in an actual court
-            of law
+            Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
+            exists in an actual court of law
             <br />
             she "doesn't{" "}
             <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
@@ -675,6 +699,10 @@ export default class App extends React.Component {
             <br />
             <img
               style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline",
                 width: "90%",
                 border: "3px solid blue",
                 borderRadius: "10px",
@@ -685,8 +713,26 @@ export default class App extends React.Component {
             />
             <br />
             <br />
-            covid relief for finance fraud/prohibit price-elasticity + enslave +
-            &nbsp;
+            <div
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              ref={this.insurance}
+              onClick={() => {
+                this.covidrelief.current.scrollIntoView("smooth");
+                this.setState({ highlightCovidRelief: true });
+                setTimeout(
+                  () => this.setState({ highlightCovidRelief: false }),
+                  10000
+                );
+              }}
+            >
+              covid relief
+            </div>{" "}
+            for finance fraud/prohibit price-elasticity + enslave + &nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -3267,6 +3313,7 @@ export default class App extends React.Component {
             controllers
           </div>
           <div
+            ref={this.covidrelief}
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
