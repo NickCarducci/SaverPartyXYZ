@@ -260,6 +260,28 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
+            }}
+          >
+            <a
+              onClick={() => {
+                this.ftc.current.scrollIntoView("smooth");
+                this.setState({ highlightFTC: true });
+                setTimeout(() => this.setState({ highlightFTC: false }), 10000);
+              }}
+              href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
+            >
+              Cornering
+            </a>{" "}
+            the <a href="http://vaults.biz">Labor Market (not-counterfeit)</a>{" "}
+            for{" "}
+            <a href="https://wavv.art/United_States_of_America">Con gress</a>
+          </i>
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <img
               style={{
