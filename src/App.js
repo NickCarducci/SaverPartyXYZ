@@ -254,7 +254,7 @@ export default class App extends React.Component {
       <div ref={this.forSize} className="App">
         <div
           style={{
-      top:"0px",
+            top: "0px",
             width: "100%",
             maxWidth: "600px"
           }}
@@ -271,7 +271,9 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-           Socially and economically disadvantaged individuals taken from savers and bypassing artists, pre-revenue inventors, volunteers or nonprofits (29-year old polish-Italian American male)
+            Socially and economically disadvantaged individuals taken from
+            savers and bypassing artists, pre-revenue inventors, volunteers or
+            nonprofits (29-year old polish-Italian American male)
             <br />
             <br />
             minority depository institution illegal, depositary
@@ -304,8 +306,13 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
-            Competition is only appropriate for the definition of the marginal utility:cost market with investment in profit sharing on non-general income prisoners' duress pooling in prohibiting price-elasticity and abetting further counterfeit-invoice contracts, notedly involuntary-labor
-            <br/><br/>
+            Competition is only appropriate for the definition of the marginal
+            utility:cost market with investment in profit sharing on non-general
+            income prisoners' duress pooling in prohibiting price-elasticity and
+            abetting further counterfeit-invoice contracts, notedly
+            involuntary-labor
+            <br />
+            <br />
             <a href="https://www.researchgate.net/project/Class-action-suit">
               ARREARS ARE MOOT FOR IMPOSSIBILITY
             </a>
@@ -444,9 +451,9 @@ export default class App extends React.Component {
             labor unless they are roman servants since we don't just do 3% sales
             tax under $2k goes on spoof-able geohash
             <br />
-            H.R. 748 proposes not giving interest on bonds to international aid &
-            comfort, but still give outlays to "disadvantaged borrowers" for no
-            clearer possible confession of motive to indulge in involuntary
+            H.R. 748 proposes not giving interest on bonds to international aid
+            & comfort, but still give outlays to "disadvantaged borrowers" for
+            no clearer possible confession of motive to indulge in involuntary
             dollar/equity/vault/market-share split? That is admittance that it
             is involuntary slavery
             <br />
@@ -1101,47 +1108,47 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              <div
-                style={{
-                  position: "relative"
-                }}
-              >
+              <div style={{ width: "33%", position: "relative" }}>
                 <img
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "auto"
+                  }}
                   alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
-                  style={{ position: "relative", width: "33%", height: "auto" }}
                   src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
                 />
               </div>
-              <div
-                style={{
-                  position: "relative"
-                }}
-              >
+              <div style={{ width: "33%", position: "relative" }}>
                 <img
-                  style={{ position: "relative", width: "33%", height: "auto" }}
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "auto"
+                  }}
                   src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
                   alt="are we counting borrowed or deeds?"
                 />
               </div>
-              <div
-                style={{
-                  position: "relative"
-                }}
-              >
+              <div style={{ width: "33%", position: "relative" }}>
                 <img
-                  style={{ position: "relative", width: "33%", height: "auto" }}
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "auto"
+                  }}
                   src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
                   alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
                 />
               </div>
-              <br />
-              the loans are now scrouging the gringos but just numerically
-              because u.s. courts are malfeasant
-              <br />
-              1000% asset ownership, 5000% asset ownership is finance (1300%
-              bond:cash, 2% financial sector getting population….), 100/2=50x
-              who is the real enemy
             </div>
+            <br />
+            the loans are now scrouging the gringos but just numerically because
+            u.s. courts are malfeasant
+            <br />
+            1000% asset ownership, 5000% asset ownership is finance (1300%
+            bond:cash, 2% financial sector getting population….), 100/2=50x who
+            is the real enemy
           </div>
           <i
             style={{
