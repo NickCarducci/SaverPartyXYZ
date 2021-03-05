@@ -263,7 +263,14 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >If you didn't interfere and adjunicate in favor of invoices, people would be able to afford heart surgery, bookie
+        >
+      Polls cannot be construed as representative of population in court, ask any statistician
+      <br/>
+          If you didn't interfere and adjunicate in favor of invoices, people
+          would be <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">able to afford heart surgery, bookie</a>
+          <br/>
+          the only crisis is in 1xbook assets that only have 1:13 if adjunicated now<br/>
+          if debt and Bernie Sanders didn't exists, the rich would kill us
         <br />
         <br />
           Bernie Sanders opening remarks, "Why are we responding by dollar-counterfeit, because a few people asked!"
