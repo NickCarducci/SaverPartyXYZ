@@ -63,6 +63,7 @@ export default class App extends React.Component {
     this.experts = React.createRef();
     this.stats = React.createRef();
     this.employmentHouse = React.createRef();
+    this.colonization = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -265,7 +266,21 @@ export default class App extends React.Component {
         >
           <br />
           "Allow small business to retain their workforce," is admitted
-          collusion from this guy. "It worked!" he exclaims.
+          collusion from this guy.&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.colonization.current.scrollIntoView("smooth");
+              this.setState({ highlightColonization: true });
+              setTimeout(
+                () => this.setState({ highlightColonization: false }),
+                10000
+              );
+            }}
+          >
+            "It worked!"
+          </span>
+          &nbsp;he exclaims.
           <img
             alt=""
             style={{
@@ -4481,8 +4496,27 @@ export default class App extends React.Component {
                 ></iframe>
               </div>
             </div>
-            <a href="https://foiegras.life">
+            <a
+              ref={this.colonization}
+              href="https://foiegras.life"
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightColonization ? "white" : "",
+                backgroundColor: this.state.highlightColonization
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightColonization !== null ? "1" : "0",
+                fontSize: this.state.highlightColonization !== null ? "" : "0px"
+              }}
+            >
               underserved is the claims of supply-side colonists
+              <br />
+              forgivable loans means more stealing of equity to help inevitable
+              impossibility by unrequited dollar-owner waged in counterfeit
+              contract refusal
             </a>
             <br />
             Debt clock
