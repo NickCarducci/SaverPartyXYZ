@@ -61,6 +61,7 @@ export default class App extends React.Component {
     this.insurance = React.createRef();
     this.covidrelief = React.createRef();
     this.experts = React.createRef();
+    this.stats = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -294,7 +295,16 @@ export default class App extends React.Component {
             <br />
             CNN gaslighting every viewer that 62% (of 330,000,000) want this
             (sample of under 3,000 people, without shuffling to boot). Add more
-            results say 63% don't want this.
+            results say{" "}
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => this.stats.current.scrollIntoView("smooth")}
+            >
+              63% don't want this.
+            </span>
             <br />
             <img
               alt=""
@@ -311,10 +321,10 @@ export default class App extends React.Component {
             the hand of state sanctioned, paid, conflictedly-interested experts
             <br />
             Communist-Wall street Democrats are killing us to match their own
-            speculation over the years. There isn't enough and you hve no civil
-            right to make more credit
-            <br/>
-            <br/>
+            speculation over the years and promise more than we are able. There
+            isn't enough and you hve no civil right to make more credit
+            <br />
+            <br />
             You have no court-confirmable proof that covid kills regardless the
             unrequited consent of unemployment insurance arrangement (see
             absolute bottom of page)
@@ -1326,6 +1336,7 @@ export default class App extends React.Component {
             </span>
           </div>
           <div
+            ref={this.stats}
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
