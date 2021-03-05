@@ -268,7 +268,8 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
-            This is: Trickle-Down Economics
+            This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
+            PAYMENTS/LANDLORD BACK-RENT/MEDICAL INVOICE WISHES
           </i>
           <div
             style={{
