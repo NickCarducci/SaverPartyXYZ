@@ -542,7 +542,9 @@ export default class App extends React.Component {
             </span>
             &nbsp;paid, are experts biased - and of their and their dependents'
             (not beneficiarys') burdens/deadlines of inadequate service or
-            instigating catch22 in due process timelines to boot
+            instigating catch22 in due process timelines to boot (also, how do
+            you prove "willful neglect" in filing lackidasical govtech &
+            threshold-burdened-processes devoid of equal help of law)
           </div>{" "}
           <i
             style={{
