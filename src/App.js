@@ -264,7 +264,7 @@ export default class App extends React.Component {
           }}
         >
           "1 in 4 do not have internet at home," you can regulate companies that
-          are whole markets, ...moldmask
+          are whole markets, ...moldmask Patty Murray
           <br />
           <img
             alt=""
