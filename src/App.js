@@ -271,8 +271,20 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
-            The key to world peace is no finance. Not mental health services by the hand of state sanctioned, paid, conflictedly-interested experts
-            <br/>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/7udciedv0gx1xgd/Medicaid.jpeg?dl=0"
+            />
+            <br />
+            Medicade fraud to keep prices up
+            <br />
+            The key to world peace is no finance. Not mental health services by
+            the hand of state sanctioned, paid, conflictedly-interested experts
+            <br />
             Communist-Wall street Democrats are killing us to match their own
             speculation over the years. There isn't enough and you hve no civil
             right to make more credit
