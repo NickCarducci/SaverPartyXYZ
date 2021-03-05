@@ -267,7 +267,22 @@ export default class App extends React.Component {
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
-          >WHAT THE FUCK IS AN INVOLUNTARY FURLOUGH
+          >
+            WHAT&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.spittle.current.scrollIntoView("smooth");
+                this.setState({ highlightSpittle: true });
+                setTimeout(
+                  () => this.setState({ highlightSpittle: false }),
+                  10000
+                );
+              }}
+            >
+              THE FUCK
+            </span>
+            &nbsp;IS AN INVOLUNTARY FURLOUGH
             <br/>If you explain it in 5 more words watch you incriminate your actions<br/>
       <br/>
             This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
