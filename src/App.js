@@ -271,6 +271,10 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            This bill is fraud to pay off taxes with no evidence of harm and no
+            equal application of law by the nature of insurance generally and
+            here
+            <br />
             Since everyone is doing it challenge, I have been turned down and I
             never stalked anybody
           </div>
@@ -478,7 +482,9 @@ export default class App extends React.Component {
             cause-favoritism) my ass
           </i>
           <br />
-          <a href="https://www.govtrack.us/congress/bills/116/hr748">
+          <a
+            href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf" //"https://www.govtrack.us/congress/bills/116/hr748"
+          >
             Let's not negotitiage&nbsp;
             <i
               style={{
@@ -488,7 +494,7 @@ export default class App extends React.Component {
                 textDecoration: "underline"
               }}
             >
-              The Ask: H.R. 748
+              The Ask: H.R. 1
             </i>
           </a>
           <div
@@ -743,11 +749,11 @@ export default class App extends React.Component {
             labor unless they are roman servants since we don't just do 3% sales
             tax under $2k goes on spoof-able geohash
             <br />
-            H.R. 748 proposes not giving interest on bonds to international aid
-            & comfort, but still give outlays to "disadvantaged borrowers" for
-            no clearer possible confession of motive to indulge in involuntary
-            dollar/equity/vault/market-share split? That is admittance that it
-            is involuntary slavery
+            H.R. 1 (748?) proposes not giving interest on bonds to international
+            aid & comfort, but still give outlays to "disadvantaged borrowers"
+            for no clearer possible confession of motive to indulge in
+            involuntary dollar/equity/vault/market-share split? That is
+            admittance that it is involuntary slavery
             <br />
             <br />
             It also mentions liability on public health for drug addicts well
