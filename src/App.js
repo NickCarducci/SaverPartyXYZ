@@ -285,6 +285,8 @@ export default class App extends React.Component {
             do," Bernie says&nbsp; (a lie)
           </span>
           <br />
+          He is such a Putz he says that Restaurant Owners want minimum wage because 140k servers want it
+          <br />
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
           them who need it [because their invoices instead of banning invoices
           for prohibiting settlement/price-inelasticity]," says{" "}
