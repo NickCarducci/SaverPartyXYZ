@@ -271,6 +271,20 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            You have no court-confirmable proof that covid kills regardless the
+            unrequited consent of unemployment insurance arrangement (see
+            absolute bottom of page)
+            <br />
+            "Investment-grade bonds," Are made that way by the very institution
+            lending these out. Relying on ythe collusion in which it is the
+            prosecution's (mine) duty to cite, the democrat aides admit to here
+            in HR.1
+            <br />
+            “Special financial assistance,” would be to help negotiate original
+            principle without credit found market marginal utility:cost price,
+            not favor the lender or overreaching landlord
+            <br />
+            <br />
             "133% of poverty line," poverty line is made up by surveys you
             fucking bitch
             <img
