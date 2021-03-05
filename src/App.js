@@ -7,11 +7,14 @@ import DebtToSales from "./debttosales";
 import TsyOperating from "./tsyoperating";
 import EmploymentHours from "./employmenthours";
 import RealRealGDP from "./realRealGDP";
+import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      width: window.innerWidth,
+      height: window.innerHeight,
       utahVsHouston: true,
       openrelief: false,
       openForm: false,
@@ -68,7 +71,25 @@ export default class App extends React.Component {
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
+  componentWillUnmount() {
+    clearTimeout(this.mounting);
+    clearTimeout(this.resizeTimer);
+    window.removeEventListener("resize", this.refresh);
+  }
+  refresh = () => {
+    clearTimeout(this.resizeTimer);
+    this.resizeTimer = setTimeout(() => {
+      let width = window.innerWidth; // * 0.01;
+      let height = window.innerHeight; // * 0.01;
+      this.setState({
+        width,
+        height
+      });
+    }, 200);
+  };
   componentDidMount = () => {
+    this.refresh();
+    window.addEventListener("resize", this.refresh);
     const t1334325432687226881 = document.createElement("t1334325432687226881");
     t1334325432687226881.type = "text/html";
     t1334325432687226881.async = true;
@@ -438,6 +459,8 @@ export default class App extends React.Component {
           -The Great Depression happened because the government paid off bonds
           <br />
           prices and opportunities can no longer sustain what was borrowed
+          <br />
+          <BalancedPortfolioAgainstDollars width={this.state.width} />
           <br />
           -But we would get the exact same world without it, at lower prices
           <br />
