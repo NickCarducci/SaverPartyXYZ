@@ -285,6 +285,10 @@ export default class App extends React.Component {
             , there never was
             <br />
             <br />
+            we don't want "covered loans" to bail our our usurped invoices you
+            allow
+            <br />
+            <br />
             $618 million/yr for cybersecurity risk mitigation. how is this not
             anticompetitive?
           </div>
