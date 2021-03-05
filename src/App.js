@@ -64,6 +64,7 @@ export default class App extends React.Component {
     this.stats = React.createRef();
     this.employmentHouse = React.createRef();
     this.colonization = React.createRef();
+    this.trueGDP = React.createContext();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -288,18 +289,25 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
           />
           <br />
-      Polls cannot be construed as representative of population in court, ask any statistician
-      <br/>        <br/>
-
+          Polls cannot be construed as representative of population in court,
+          ask any statistician
+          <br />
+          <br />
           If you didn't interfere and adjunicate in favor of invoices, people
-          would be <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">able to afford heart surgery, bookie</a>
-          <br/>        <br/>
-
-          the only crisis is in 1xbook assets that only have 1:13 if adjunicated now<br/>
+          would be{" "}
+          <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">
+            able to afford heart surgery, bookie
+          </a>
+          <br />
+          <br />
+          the only crisis is in 1xbook assets that only have 1:13 if adjunicated
+          now
+          <br />
           if debt and Bernie Sanders didn't exists, the rich would kill us
-        <br />
-        <br />
-          Bernie Sanders opening remarks, "Why are we responding by dollar-counterfeit, because a few people asked!"
+          <br />
+          <br />
+          Bernie Sanders opening remarks, "Why are we responding by
+          dollar-counterfeit, because a few people asked!"
           <br />
           <br />
           "Allow small business to retain their workforce," is admitted
@@ -384,6 +392,7 @@ export default class App extends React.Component {
               You have no proof covid kills
             </a>
           </i>
+          <br />
           <i
             style={{
               color: "rgb(178, 90, 197)",
@@ -3041,7 +3050,9 @@ export default class App extends React.Component {
             you can lend to somebody but don't expect to keep the borrowers'
             consumers' down payments or not be sued for stress and counterfeit
           </div>
-          <RealRealGDP />
+          <div ref={this.trueGDP}>
+            <RealRealGDP />
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -4095,8 +4106,20 @@ export default class App extends React.Component {
             what'd you miss? suck my dick. all negative points on your stocks,
             you can blame it on me
             <br />
-            higher gdp is not better economy you gluttonous slut Elizabeth Kate
-            Claman, it is mostly invoices/counterfeit
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.trueGDP.current.scrollIntoView("smooth");
+                this.setState({ highlightTrueGDP: true });
+                setTimeout(
+                  () => this.setState({ highlightTrueGDP: false }),
+                  10000
+                );
+              }}
+            >
+              higher gdp is not better economy you gluttonous slut
+            </span>
+            &nbsp;Elizabeth Kate Claman, it is mostly invoices/counterfeit
             <br />
             Curtis Swila and Democrats must be conspiring, giving stimulous and
             enforcing collection by landlords/debtors. Most apparent fraud to
@@ -4578,7 +4601,20 @@ export default class App extends React.Component {
               }}
             >
               {" "}
-              m1v1===m2v2===GDP means that v1 is made up and GDP is mostly debt
+              m1v1===m2v2===GDP means that v1 is made up&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.trueGDP.current.scrollIntoView("smooth");
+                  this.setState({ highlightTrueGDP: true });
+                  setTimeout(
+                    () => this.setState({ highlightTrueGDP: false }),
+                    10000
+                  );
+                }}
+              >
+                &nbsp;and GDP is mostly debt
+              </span>
             </span>
             <br />
             <a
@@ -5945,14 +5981,27 @@ export default class App extends React.Component {
             time, all other actions are methods to this end, and realizations of
             investor behavior - not market-colonialism in violation of Amendment
             13 - is to follow this reconciliation. Economist should also, I ask,
-            be honest about the m1v1===m2v2===GDP===C+I+G+NE+P equation. The
-            cash is not there to speed up again, unless it is dollar-split. In
-            corporate share law, you can't steal it, but the Fed can do it by
-            precedence. This is violation of Amendment 14 I believe as an
-            inequal protection of each owner, dollar and corporate share. As an
-            aside, the pricing of corporate shares is hidden by FINRA and SEC
-            currently, as Treasury Shares are outstanding, but not in the price
-            calculation of earnings or owned-asset value per share
+            be&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.trueGDP.current.scrollIntoView("smooth");
+                this.setState({ highlightTrueGDP: true });
+                setTimeout(
+                  () => this.setState({ highlightTrueGDP: false }),
+                  10000
+                );
+              }}
+            >
+              honest about the m1v1===m2v2===GDP===C+I+G+NE+P equation
+            </span>
+            . The cash is not there to speed up again, unless it is
+            dollar-split. In corporate share law, you can't steal it, but the
+            Fed can do it by precedence. This is violation of Amendment 14 I
+            believe as an inequal protection of each owner, dollar and corporate
+            share. As an aside, the pricing of corporate shares is hidden by
+            FINRA and SEC currently, as Treasury Shares are outstanding, but not
+            in the price calculation of earnings or owned-asset value per share
           </div>
           <i
             style={{
@@ -6563,11 +6612,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          velocity of money (m1) is MADE UP. gdp is all debt promises being
-          re-promised. cancelling by this corrupt congress is bailing out bonds,
-          not actually adjudicating the merits of contracts that promise other
-          people's money and servitude. If credit contracts promised corporate
-          shares the claimant would be laughed out of court. THIS IS FRAUD
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+              setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            velocity of money (m1) is MADE UP
+          </span>
+          . gdp is all debt promises being re-promised. cancelling by this
+          corrupt congress is bailing out bonds, not actually adjudicating the
+          merits of contracts that promise other people's money and servitude.
+          If credit contracts promised corporate shares the claimant would be
+          laughed out of court. THIS IS FRAUD
         </div>
         <div
           style={{
@@ -7767,10 +7829,23 @@ export default class App extends React.Component {
           </div>
 
           <div style={styleToApply}>
-            Growth GDP - Debt - money is changes fixed for only natural
-            redistribution. Growth is merely growing population, debt, money or
-            at best natural redistribution - none of that is necessarily “good”
-            in fact most of a growing economy is BAD
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.trueGDP.current.scrollIntoView("smooth");
+                this.setState({ highlightTrueGDP: true });
+                setTimeout(
+                  () => this.setState({ highlightTrueGDP: false }),
+                  10000
+                );
+              }}
+            >
+              Growth GDP - Debt - money is changes fixed for only natural
+              redistribution
+            </span>
+            . Growth is merely growing population, debt, money or at best
+            natural redistribution - none of that is necessarily “good” in fact
+            most of a growing economy is BAD
           </div>
           <div style={styleToApply}>
             m1 = $7t
