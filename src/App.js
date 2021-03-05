@@ -263,6 +263,27 @@ export default class App extends React.Component {
         >
           <div
             style={{
+              //border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            "133% of poverty line," poverty line is made up by surveys you
+            fucking bitch
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
+            />
+          </div>{" "}
+          <div
+            style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
               margin: "10px 0px",
