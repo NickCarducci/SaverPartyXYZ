@@ -271,12 +271,17 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            The key to world peace is no finance. Not mental health services by the hand of state sanctioned, paid, conflictedly-interested experts
+            <br/>
+            Communist-Wall street Democrats are killing us
+            <br/>
+            <br/>
             You have no court-confirmable proof that covid kills regardless the
             unrequited consent of unemployment insurance arrangement (see
             absolute bottom of page)
             <br />
             "Investment-grade bonds," Are made that way by the very institution
-            lending these out. Relying on ythe collusion in which it is the
+            lending these out. Relying on the collusion in which it is the
             prosecution's (mine) duty to cite, the democrat aides admit to here
             in HR.1
             <br />
