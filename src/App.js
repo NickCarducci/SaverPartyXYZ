@@ -261,6 +261,19 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i>
+            <a
+              style={{
+                color: "rgb(218, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://moldmask.co"
+            >
+              You have no proof covid kills
+            </a>
+          </i>
           <div
             style={{
               //border: "3px solid blue",
@@ -278,7 +291,7 @@ export default class App extends React.Component {
             to excuse theft and benefit bond-holders/buyers instead of
             LETTING PRICES FALL
             <br />
-            CNN gaslighting every viewer that 62% (330,000,000) want this
+            CNN gaslighting every viewer that 62% (of 330,000,000) want this
             (sample of under 3,000 people). Add more results say 63% don't want
             this.  
             <br />
