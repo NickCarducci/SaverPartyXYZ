@@ -276,7 +276,7 @@ export default class App extends React.Component {
           />
           <br />
           Wyden says, "Covid has put people out of work, that is immoral and
-          unnacceptable"
+          unnacceptable... we must make sure grocery stores are paid"
           <br />
           covid is not the killer using death-print analysis
           <br />
