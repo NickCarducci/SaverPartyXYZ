@@ -287,9 +287,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          <a href="https://wavv.art/test3">
-            Not taking credit you fucking slut, working for market(copyright,
-            not depositary) share</a>
+          <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
+          <span style={{ fontSize: "6px" }}>fucking</span>
+          slut,{" "}
+          <a href="https://thumbprint.us">working for market(copyright,</a>
+          not <a href="https://vaults.biz">depositary</a>) share instead of
+          entrapping myself into <a href="https://stripe.com">Stripe.com</a>
           <br/>
           <br/>
           Judges cannot judge what is right for bail, they'rn't impartial - as
