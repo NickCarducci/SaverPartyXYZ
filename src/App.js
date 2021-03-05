@@ -261,6 +261,31 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        <div
+          style={{
+            fontFamily: '"Hi Melody", cursive',
+            color: "grey",
+            margin: "10px 0px",
+            padding: "10px",
+            display: "inline-block",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px"
+          }}
+        >  <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+        ANJBECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR SPECIFIED DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES 
+      </a>
+      <br/>9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.—
+10 No credit shall be allowed under this section to the
+11 Government of the United States or to any agency
+12 or instrumentality thereof. The preceding sentence
+13 shall not apply to any organization described in sec14 tion 501(c)(1) of the Internal Revenue Code of 1986
+15 and exempt from tax under section 501(a) of such
+16 Code.’’
+      <br/>
+      <br/>
+          No government agency can get this credit but they can get the settled funds... instead of the customers that those funds were split from? Unless 501c3 that has owner upon death of board in the government that is insolvent and commuting anticompetitive violations ongoing
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
