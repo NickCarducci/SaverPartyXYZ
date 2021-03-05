@@ -263,7 +263,7 @@ export default class App extends React.Component {
         >
           <div
             style={{
-              border: "3px solid blue",
+              //border: "3px solid blue",
               borderRadius: "10px",
               padding: "10px",
               height: "min-content",
