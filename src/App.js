@@ -417,12 +417,8 @@ export default class App extends React.Component {
             Secretary to make 22 payments to such taxpayers under subsection (g)
             23 (including the determination of the amount of such 24 payment) if
             such information is not otherwise avail25 able to the Secretary, and
-            VerDate Nov 24 2008 16:34 Feb 18, 2021 Jkt 000000 PO 00000 Frm 00467
-            Fmt 6652 Sfmt 6201
-            C:\USERS\KLMERYWEATHER\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\YA
-            February 18, 2021 (4:34 p.m.) G:\M\17\YARMUT\YARMUT_003.XML
-            g:\VHLC\021821\021821.236.xml (789706|25) 468 1 ‘‘(2) regulations or
-            other guidance to ensure to 2 the maximum extent administratively
+            VerDate Nov 24 2008 16:34 Feb 18, 2021 ‘‘(2) regulations or other
+            guidance to ensure to 2 the maximum extent administratively
             practicable 3 that, in determining the amount of any credit under 4
             subsection (a) and any credit or refund under sub5 section (g), an
             individual is not taken into account 6 more than once, including by
