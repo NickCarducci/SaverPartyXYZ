@@ -282,7 +282,8 @@ export default class App extends React.Component {
             >
               available
             </span>
-            , there never was
+            , there never was; "mortgage/rent" is explicitly cited as reason and
+            only eligibility for slush
             <br />
             <br />
             we don't want "covered loans" to bail our our usurped invoices you
