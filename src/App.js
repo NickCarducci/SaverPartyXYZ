@@ -271,6 +271,9 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            If you just keep equalizing tax credits with or without children you just disadvantage people who are too busy and likely have more productive uses of time
+            <br/>
+            <br/>
             ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
             GENERAL.—The amount of the credit 6 allowed under this section to
             any taxpayer for any 7 taxable year shall be reduced (but not below
