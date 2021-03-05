@@ -261,6 +261,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        <div
+          style={{
+            borderRadius: "10px",
+            padding: "10px",
+            height: "min-content",
+            width: "calc(100% - 30px)",
+            position: "relative"
+          }}
+        >
+          Since everyone is doing it challenge, I have been turned down and I never stalked anybody
+          </div>
           <div
             style={{
               border: "3px solid blue",
