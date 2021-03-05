@@ -273,7 +273,9 @@ export default class App extends React.Component {
           >
             The key to world peace is no finance. Not mental health services by the hand of state sanctioned, paid, conflictedly-interested experts
             <br/>
-            Communist-Wall street Democrats are killing us
+            Communist-Wall street Democrats are killing us to match their own
+            speculation over the years. There isn't enough and you hve no civil
+            right to make more credit
             <br/>
             <br/>
             You have no court-confirmable proof that covid kills regardless the
