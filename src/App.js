@@ -359,7 +359,8 @@ export default class App extends React.Component {
             }}
           >
             Socially and economically disadvantaged individuals taken from
-            savers and bypassing artists, pre-revenue inventors, volunteers or
+            savers and bypassing artists, pre-revenue inventors, volunteers
+            or&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
