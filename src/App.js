@@ -471,6 +471,14 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
           />
           <br />
+          <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
+            https://www.nber.org/system/files/chapters/c1567/c1567.pdf
+          </a>
+          <br />
+          <a href="https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm">
+            https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm
+          </a>
+          <br />
           -But we would get the exact same world without it, at lower prices
           <br />
           -"Protect Pensions [like a loanshark]," Bernieeeeeee
