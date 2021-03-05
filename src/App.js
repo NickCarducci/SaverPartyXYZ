@@ -544,7 +544,9 @@ export default class App extends React.Component {
             (not beneficiarys') burdens/deadlines of inadequate service or
             instigating catch22 in due process timelines to boot (also, how do
             you prove "willful neglect" in filing lackidasical govtech &
-            threshold-burdened-processes devoid of equal help of law)
+            threshold-burdened-processes devoid of equal help of law).
+            <br/>
+            dependency eligibility sustains inequality
           </div>{" "}
           <i
             style={{
