@@ -271,6 +271,25 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/p1r1s50ct7y85cw/Guilt.jpeg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
             "on a noncompetitive basis to speed up the process... this agreement
             is"
             <br />
