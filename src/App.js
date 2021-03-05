@@ -342,7 +342,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/05bkahoqfhcyuzu/TheAsk.jpeg?dl=0"
             />
           </div>
-          <div
+           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
@@ -356,7 +356,20 @@ export default class App extends React.Component {
           >
             Socially and economically disadvantaged individuals taken from
             savers and bypassing artists, pre-revenue inventors, volunteers or
-            nonprofits (29-year old polish-Italian American male)
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.baltimore.current.scrollIntoView("smooth");
+                this.setState({ highlightBaltimore: true });
+                setTimeout(
+                  () => this.setState({ highlightBaltimore: false }),
+                  10000
+                );
+              }}
+            >
+              nonprofits
+            </span>{" "}
+            (29-year old polish-Italian American male)
             <br />
             <br />
             minority depository institution illegal, depositary
