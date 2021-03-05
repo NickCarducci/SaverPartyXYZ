@@ -67,7 +67,8 @@ export default class App extends React.Component {
     this.stats = React.createRef();
     this.employmentHouse = React.createRef();
     this.colonization = React.createRef();
-    this.trueGDP = React.createContext();
+    this.trueGDP = React.createRef();
+    this.education = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -286,6 +287,20 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.education.current.scrollIntoView("smooth");
+              this.setState({ highlightEducation: true });
+              setTimeout(
+                () => this.setState({ highlightEducation: false }),
+                10000
+              );
+            }}
+          >
+            Lawyer for myself, why scare people out of self-sufficiency
+          </span>
+          <br />
           Governor Wisconsin, it is not your right to forbid be in there
           under&nbsp;<a href="https://humanharvest.info">duress</a>, you do not
           own that land the citizens do and those are INDIVIDUAL RESTRAINING
@@ -2132,17 +2147,35 @@ export default class App extends React.Component {
             </a>
             <br />
             <br />
-            Education may help the individual when it is not done for everyone.
-            The best move for people is in protecting their bargaining position
-            <br />
-            Two steps back for everyone, one step forward for one
-            <br />
-            Wealth is about relativity to one another until it is about the
-            utility of the asset
-            <br />
-            Education can be either a trade secret, stifle discovery, or speed
-            up open source. 1/3 is bad, especially if it can be accomplished
-            online
+            <span
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightEducation ? "white" : "",
+                backgroundColor: this.state.highlightEducation
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightEducation !== null ? "1" : "0",
+                fontSize: this.state.highlightEducation !== null ? "" : "0px"
+              }}
+              ref={this.education}
+            >
+              {" "}
+              Education may help the individual when it is not done for
+              everyone. The best move for people is in protecting their
+              bargaining position
+              <br />
+              Two steps back for everyone, one step forward for one
+              <br />
+              Wealth is about relativity to one another until it is about the
+              utility of the asset
+              <br />
+              Education can be either a trade secret, stifle discovery, or speed
+              up open source. 1/3 is bad, especially if it can be accomplished
+              online
+            </span>
             <br />
             <br />
             <span
