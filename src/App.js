@@ -261,17 +261,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          Garcetti (LA), you have NO PROOF you "saved lives"
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            Garcetti (LA), you have NO PROOF you "saved lives"
           </div>
           <div
             style={{
@@ -521,6 +521,28 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/37jktk3nozsk3hc/dorothy.jpeg?dl=0"
             />
+            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+              “Eligibility of assistance... beneficiary?”
+            </a>
+            <br />
+            <span>Insurer decide appropriation</span>
+            <br />
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              experts
+            </span>
+            &nbsp;paid, are experts biased - and of their and their dependents'
+            (not beneficiarys') burdens/deadlines of inadequate service or
+            instigating catch22 in due process timelines to boot
           </div>{" "}
           <i
             style={{
