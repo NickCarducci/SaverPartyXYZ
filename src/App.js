@@ -456,11 +456,20 @@ export default class App extends React.Component {
           <br />
           -"50ppl {">"} 1/2Ppl," Sanders says.
           <br />
+          <BalancedPortfolioAgainstDollars width={this.state.width} />
+          <br />
           -The Great Depression happened because the government paid off bonds
           <br />
           prices and opportunities can no longer sustain what was borrowed
           <br />
-          <BalancedPortfolioAgainstDollars width={this.state.width} />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
+          />
           <br />
           -But we would get the exact same world without it, at lower prices
           <br />
