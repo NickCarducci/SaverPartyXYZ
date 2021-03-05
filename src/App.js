@@ -317,16 +317,6 @@ export default class App extends React.Component {
               The Ask: H.R. 748
             </i>
           </a>
-          <i
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
-              //fontWeight: "bolder",
-              //textDecoration: "underline"
-            }}
-          >
-            The Ask
-          </i>
           <div
             style={{
               border: "3px solid blue",
@@ -346,7 +336,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/05bkahoqfhcyuzu/TheAsk.jpeg?dl=0"
             />
           </div>
-           <div
+          <div
             style={{
               fontFamily: '"Hi Melody", cursive',
               color: "grey",
@@ -907,13 +897,17 @@ export default class App extends React.Component {
             </div>
             Existing within a market/vault/currency stewardship purveying
             corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz allows you to go public but you pay a Double-Tax on
-            Income (threatened-upon us by not price-prisoners’ dilemma duress
-            pooling but literal jail/confiscation in 1937 saverparty .xyz wayy
-            bottom of page). The weird thing is Oath Keeper chapters are 501c3?
-            I relinquished mine for thumbprint.us to serve intention for mock
-            direct democracy for Baltimore “and beyond” now sole proprietorship
-            with royalty contracts w/max-profit (no promises, only
+            vaults.biz{" "}
+            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
+              allows you to go public but you pay a Double-Tax on Income
+              (threatened-upon us by not price-prisoners’ dilemma duress pooling
+              but literal jail/confiscation in 1937 saverparty .xyz wayy bottom
+              of page)
+            </a>
+            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
+            mine for thumbprint.us to serve intention for mock direct democracy
+            for Baltimore “and beyond” now sole proprietorship with royalty
+            contracts w/max-profit (no promises, only
             profit-schedules[adminWidthdrawal/sale,skew,max] options)
             <br />
             <br />
