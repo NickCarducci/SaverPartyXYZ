@@ -287,7 +287,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          <a href="https://wavv.art/test3">Not taking credit you fucking slut, working for market share</a>
+          <a href="https://wavv.art/test3">
+            Not taking credit you fucking slut, working for market(copyright,
+            not depositary) share</a>
           <br/>
           <br/>
           Judges cannot judge what is right for bail, they'rn't impartial - as
