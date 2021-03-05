@@ -286,6 +286,8 @@ export default class App extends React.Component {
             >
               money to the kids
             </a>
+            <br/>
+            "Miss Fernandez has a $16,000 bill, and this will help her," says Chuck Schumer
           </i>
           <br />
           <i>
