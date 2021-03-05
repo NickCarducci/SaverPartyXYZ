@@ -261,16 +261,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-        <div
-          style={{
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          Since everyone is doing it challenge, I have been turned down and I never stalked anybody
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            Since everyone is doing it challenge, I have been turned down and I
+            never stalked anybody
           </div>
           <div
             style={{
@@ -305,6 +307,8 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
+              wordBreak: "break-all",
+              display: "inline-block",
               border: "3px solid blue",
               borderRadius: "10px",
               padding: "10px",
@@ -313,6 +317,32 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+              FIXING THE GAME
+            </a>
+            ‘‘(h) REGULATIONS. —The Secretary shall prescribe 16 such
+            regulations or other guidance as may be necessary 17 or appropriate
+            to carry out the purposes of this section, 18 including— 19 ‘‘(1)
+            regulations or other guidance providing 20 taxpayers the opportunity
+            to provide the Secretary 21 information sufficient to allow the
+            Secretary to make 22 payments to such taxpayers under subsection (g)
+            23 (including the determination of the amount of such 24 payment) if
+            such information is not otherwise avail25 able to the Secretary, and
+            VerDate Nov 24 2008 16:34 Feb 18, 2021 Jkt 000000 PO 00000 Frm 00467
+            Fmt 6652 Sfmt 6201
+            C:\USERS\KLMERYWEATHER\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\YA
+            February 18, 2021 (4:34 p.m.) G:\M\17\YARMUT\YARMUT_003.XML
+            g:\VHLC\021821\021821.236.xml (789706|25) 468 1 ‘‘(2) regulations or
+            other guidance to ensure to 2 the maximum extent administratively
+            practicable 3 that, in determining the amount of any credit under 4
+            subsection (a) and any credit or refund under sub5 section (g), an
+            individual is not taken into account 6 more than once, including by
+            different taxpayers and 7 including by reason of a change in joint
+            return sta8 tus or dependent status between the taxable year for 9
+            which an advance refund amount is determined and 10 the taxable year
+            for which a credit under subsection 11 (a) is determined.
+            <br />
+            <br />
             "on a noncompetitive basis to speed up the process... this agreement
             is"
             <br />
@@ -556,7 +586,7 @@ export default class App extends React.Component {
             instigating catch22 in due process timelines to boot (also, how do
             you prove "willful neglect" in filing lackidasical govtech &
             threshold-burdened-processes devoid of equal help of law).
-            <br/>
+            <br />
             dependency eligibility sustains inequality
           </div>{" "}
           <i
