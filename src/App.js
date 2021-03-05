@@ -286,8 +286,13 @@ export default class App extends React.Component {
             >
               money to the kids
             </a>
-            <br/>
-            "Miss Fernandez has a $16,000 bill, and this will help her," says Chuck Schumer
+            <br />
+            "Miss Fernandez has a $16,000 bill, and this will help her," says
+            Chuck Schumer. As a&nbsp;
+            <a href="https://www.researchgate.net/project/Class-action-suit">
+              class-action bancrupcty lawyer for myself
+            </a>
+            , I'd say that is the last thing she would want to do.
           </i>
           <br />
           <i>
