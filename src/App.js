@@ -287,6 +287,33 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            Hold on Mom,
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            I need to go listen to the Senate discuss our equity since no other
+            party will
+          </div>
+          <br />
+          <br />
           <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
           <span style={{ fontSize: "6px" }}>fucking</span>
           slut,{" "}
