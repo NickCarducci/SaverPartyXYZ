@@ -264,7 +264,7 @@ export default class App extends React.Component {
           <i>
             <a
               style={{
-                color: "rgb(218, 90, 197)",
+                color: "rgb(178, 90, 197)",
                 backgroundColor: "rgb(200, 230, 255)",
                 fontWeight: "bolder",
                 textDecoration: "underline"
