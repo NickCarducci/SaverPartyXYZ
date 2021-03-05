@@ -669,7 +669,7 @@ export default class App extends React.Component {
             <br />
             <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
-              ANJBECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN
+              ABJECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN
               HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR
               SPECIFIED DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES
             </a>
