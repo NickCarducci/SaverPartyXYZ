@@ -264,6 +264,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Bernie Sanders opening remarks, "Why are we responding by dollar-counterfeit, because a few people asked!"
+          <br />
           <br />
           "Allow small business to retain their workforce," is admitted
           collusion from this guy.&nbsp;
