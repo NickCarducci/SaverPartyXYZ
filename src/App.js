@@ -271,9 +271,20 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
-            This bill is fraud to pay off taxes with no evidence of harm and no
-            equal application of law by the nature of insurance generally and
-            here
+            ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
+            GENERAL.—The amount of the credit 6 allowed under this section to
+            any taxpayer for any 7 taxable year shall be reduced (but not below
+            zero) by 8 the aggregate amount of payments made under sec9 tion
+            7527A to such taxpayer during such taxable 10 year. Any failure to
+            so reduce the credit shall be 11 treated as arising out of a
+            mathematical or clerical 12 error and assessed according to section
+            6213(b)(1). <br />
+            <br />
+            <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+              This bill is fraud to pay off taxes
+            </a>
+            &nbsp;with no evidence of harm and no equal application of law by
+            the nature of insurance generally and here
             <br />
             Since everyone is doing it challenge, I have been turned down and I
             never stalked anybody
