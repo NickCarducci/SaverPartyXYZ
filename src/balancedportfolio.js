@@ -1785,7 +1785,6 @@ class BalancedPortfolioAgainstDollars extends React.Component {
   }
   handleTooltipMove = (e, lowestDates, highestDates) => {
     const tooltipLeft = e.pageX - this.wholething.current.offsetLeft;
-    console.log(tooltipLeft);
     this.setState({
       tooltipMove: true,
       tooltipLeft
@@ -1798,7 +1797,6 @@ class BalancedPortfolioAgainstDollars extends React.Component {
           lowestDates + (tooltipLeft / width) * (highestDates - lowestDates)
         ) + "-01-01"
       ).toLocaleDateString();
-      console.log(tooltipLeft);
       this.setState({
         tooltipMove: false,
         tooltipDate
@@ -1917,7 +1915,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 width: "min-content)",
                 justifyContent: "center",
                 alignItems: "center",
-                backgroundColor: "rgb(130,30,190)"
+                backgroundColor: "rgb(25,20,50)"
               }}
             >
               top500Public
@@ -1933,7 +1931,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 width: "min-content",
                 justifyContent: "center",
                 alignItems: "center",
-                backgroundColor: "rgb(50,120,255)"
+                backgroundColor: "rgb(25,20,50)"
               }}
             >
               sovereignBondReturn
@@ -1949,7 +1947,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 width: "min-content)",
                 justifyContent: "center",
                 alignItems: "center",
-                backgroundColor: "rgb(255,120,50)"
+                backgroundColor: "rgb(25,20,50)"
               }}
             >
               corporateBondReturn
@@ -1965,7 +1963,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 width: "min-content)",
                 justifyContent: "center",
                 alignItems: "center",
-                backgroundColor: "rgb(75,170,40)"
+                backgroundColor: "rgb(25,20,50)"
               }}
             >
               tBill3moReturn
