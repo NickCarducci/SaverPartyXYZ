@@ -273,7 +273,7 @@ export default class App extends React.Component {
           >
             “Necessary investment in broadband infrastructure” necessary for
             what? Unnamed.... & just assumed is necessary by the House Gluttons
-            to excuse theft and benefit bond-holders and buyers instead of
+            to excuse theft and benefit bond-holders/buyers instead of
             LETTING PRICES FALL
             <br />
             CNN gaslighting every viewer that 62% (330,000,000) want this
