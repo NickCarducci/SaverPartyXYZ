@@ -267,7 +267,16 @@ export default class App extends React.Component {
           <br/>
           prices and opportunities can no longer sustain what was borrowed
           <br/>
-          But we would get the exact same world without it, at lower prices<br/>
+          But we would get the exact same world without it, at lower prices
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
+          />{" "}<br/>
           <i>
             <a
               style={{
