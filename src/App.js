@@ -272,7 +272,20 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            We will just have to reverse it to cash:debt ratio anyway (1:13)
+            We will just have to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.defense.current.scrollIntoView("smooth");
+                this.setState({ highlightDefense: true });
+                setTimeout(
+                  () => this.setState({ highlightDefense: false }),
+                  10000
+                );
+              }}
+            >
+              reverse it to cash:debt ratio anyway (1:13)
+            </span>
             <br />
             Not another dollar is&nbsp;
             <span
@@ -314,8 +327,8 @@ export default class App extends React.Component {
               fontSize: this.state.highlightDefense !== null ? "" : "0px"
             }}
           >
-            COVID 19 Diagnosis without symptoms can be held under quarantine my
-            ass
+            COVID 19 Diagnosis without symptoms can be held under quarantine (or
+            cause-favoritism) my ass
           </i>
           <br />
           <a href="https://www.govtrack.us/congress/bills/116/hr748">
