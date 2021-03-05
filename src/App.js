@@ -270,7 +270,7 @@ export default class App extends React.Component {
               width: "calc(100% - 26px)",
               height: "auto"
             }}
-            src="https://www.dropbox.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
+            src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
           />
           <br />
       Polls cannot be construed as representative of population in court, ask any statistician
