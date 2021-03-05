@@ -287,6 +287,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Judges cannot judge what is right for bail, they'rn't impartial - as
+          in they get the bail.
+          <br />
+          Bail for judges'n't for consumers/community - the service at its most
+          efficient as to keep everyone happiest, individually, for the
+          complainants only; class action is for precedence, but we all assume
+          it gets less than each individual case would.
+          <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
