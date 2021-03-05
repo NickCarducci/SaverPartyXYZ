@@ -263,6 +263,10 @@ export default class App extends React.Component {
           }}
         >
 
+          "50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
+          <br/>
+          "50ppl {">"} 1/2ppl," Sanders says.
+          <br/>
           The Great Depression happened because the government paid off bonds
           <br/>
           prices and opportunities can no longer sustain what was borrowed
