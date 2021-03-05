@@ -260,6 +260,22 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            Why are we lending to veterans to compete with other consumers of
+            education and the veteran themselves except to secrete more equity
+            from unrequited and uneducated savers about what is happening and
+            why pertaining to price-inelasticity inflation and monetary
+            inflation by nonconsensual dollar/market/valut-share infiltration
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
