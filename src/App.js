@@ -261,6 +261,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        <div
+          style={{
+            border: "3px solid blue",
+            borderRadius: "10px",
+            padding: "10px",
+            height: "min-content",
+            width: "calc(100% - 30px)",
+            position: "relative"
+          }}
+        >
+          Garcetti (LA), you have NO PROOF you "saved lives"
+          </div>
           <div
             style={{
               //border: "3px solid blue",
