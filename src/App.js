@@ -264,6 +264,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          I like this, if I were to be on this page
+          <br />
+          <a href="https://www.democrats.senate.gov/about-senate-dems/our-caucus">
+            I would be sure to have one covering the mic and whispering to
+            somebody
+          </a>
+          <br />
+          <br />
           Fauci: "All three "vaccines" work virtually 100% in preventing death
           [on a virus that passes without harm virtually 100%]," he remarks
           about the antibody formation appearing at this moment from&nbsp;
