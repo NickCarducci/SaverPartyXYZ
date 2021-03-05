@@ -276,6 +276,10 @@ export default class App extends React.Component {
             to excuse theft and benefit bond-holders and buyers instead of
             LETTING PRICES FALL
             <br />
+            CNN gaslighting every viewer that 62% (330,000,000) want this
+            (sample of under 3,000 people). Add more results say 63% don't want
+            this.  
+            <br />
             <img
               alt=""
               style={{
