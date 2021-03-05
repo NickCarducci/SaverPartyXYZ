@@ -291,8 +291,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
             }}
           >
             Hold on Mom,
