@@ -558,7 +558,7 @@ export default class App extends React.Component {
             >
               Chuck Schhumer - If you want child support
             </a>{" "}
-            as cited reason for unemployment insurance, then give the
+            as cited reason for unemployment insurance, then give the&nbsp;
             <a
               style={{
                 color: "rgb(178, 90, 197)",
