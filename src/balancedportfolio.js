@@ -1918,7 +1918,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 backgroundColor: "rgb(25,20,50)"
               }}
             >
-              top500Public
+              top500PublicReturn
             </div>
             <div
               style={{
