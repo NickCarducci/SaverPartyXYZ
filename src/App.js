@@ -263,7 +263,9 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >If you didn't interfere and adjunicate in favor of invoices, people would be able to afford heart surgery, bookie
+        <br />
+        <br />
           Bernie Sanders opening remarks, "Why are we responding by dollar-counterfeit, because a few people asked!"
           <br />
           <br />
