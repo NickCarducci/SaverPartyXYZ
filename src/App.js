@@ -292,7 +292,7 @@ export default class App extends React.Component {
             <br />
             <br />
             This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
-            PAYMENTS/LANDLORD BACK-RENT/MEDICAL INVOICE WISHES
+            PAYMENTS/LANDLORD BACK-RENT-or-TAX/MEDICAL INVOICE WISHES
           </i>
           <div
             style={{
