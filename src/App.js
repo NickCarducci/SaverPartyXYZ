@@ -263,6 +263,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <br />
+          "Allow small business to retain their workforce," is admitted
+          collusion from this guy. "It worked!" he exclaims.
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
+          />
           <i>
             <a
               style={{
@@ -276,6 +287,11 @@ export default class App extends React.Component {
               Maria Cantwell (Washington)
             </a>
           </i>
+          <br />
+          PPP is not helpful. competition from pre-revenue inventors helps. Now
+          the country is further price-fixing their bonds and "savings" accounts
+          backed by itself and having revolving doors of employment with its
+          "unbiased" ratings agencies
           <img
             alt=""
             style={{
@@ -284,11 +300,6 @@ export default class App extends React.Component {
             }}
             src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
           />
-          <br />
-          PPP is not helpful. competition from pre-revenue inventors helps. Now
-          the country is further price-fiing their bonds and "savings" accounts
-          backed by itself and having revolving doors of employment with its
-          "unbiased" ratings agencies
           <br />
           "1 in 4 do not have internet at home," you can regulate companies that
           are whole markets, ...moldmask Patty Murray
