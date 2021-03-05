@@ -393,7 +393,7 @@ export default class App extends React.Component {
               reverse it to cash:debt ratio anyway (1:13)
             </span>
             <br />
-            Not another dollar is&nbsp;
+            Not another credit is&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
