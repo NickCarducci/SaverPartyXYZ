@@ -271,6 +271,11 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            “Necessary investment in broadband infrastructure” necessary for
+            what? Unnamed.... & just assumed is necessary by the House Gluttons
+            to excuse theft and benefit bond-holders and buyers instead of
+            LETTING PRICES FALL
+            <br />
             <img
               alt=""
               style={{
