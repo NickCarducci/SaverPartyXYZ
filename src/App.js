@@ -62,6 +62,7 @@ export default class App extends React.Component {
     this.covidrelief = React.createRef();
     this.experts = React.createRef();
     this.stats = React.createRef();
+    this.employmentHouse = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -262,6 +263,44 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              color: "rgb(178, 90, 197)",
+              backgroundColor: "rgb(200, 230, 255)",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            href="https://moldmask.co"
+          >
+            Many do essential work, but are not{" "}
+            <span
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.employmentHouse.current.scrollIntoView("smooth");
+                this.setState({ highlightEmploymentHouse: true });
+                setTimeout(
+                  () => this.setState({ highlightEmploymentHouse: false }),
+                  10000
+                );
+              }}
+            >
+              paid a living wage
+            </span>
+          </i>
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/3xqlyc22ka383fs/LivingWage.jpeg?dl=0"
+          />{" "}
+          <br />
           -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
           <br />
           -"50ppl {">"} 1/2Ppl," Sanders says.
@@ -285,7 +324,8 @@ export default class App extends React.Component {
             do," Bernie says&nbsp; (a lie)
           </span>
           <br />
-          He is such a Putz he says that Restaurant Owners want minimum wage because 140k servers want it
+          He is such a Putz he says that Restaurant Owners want minimum wage
+          because 140k servers want it
           <br />
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
           them who need it [because their invoices instead of banning invoices
@@ -7640,15 +7680,17 @@ export default class App extends React.Component {
         <div id="t1333518304867217412" />
         <div id="t1333904053886128128" />
         <div id="t1332375252538707972" />
-        <EmploymentHours
-          gonow={() =>
-            setTimeout(() => {
-              this.scrolllto &&
-                this.scrolllto.current &&
-                this.scrolllto.current.scrollIntoView("smooth");
-            }, 300)
-          }
-        />
+        <div ref={this.employmentHouse}>
+          <EmploymentHours
+            gonow={() =>
+              setTimeout(() => {
+                this.scrolllto &&
+                  this.scrolllto.current &&
+                  this.scrolllto.current.scrollIntoView("smooth");
+              }, 300)
+            }
+          />
+        </div>
         <div>
           <div
             style={{
