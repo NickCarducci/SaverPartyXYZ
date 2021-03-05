@@ -266,6 +266,32 @@ export default class App extends React.Component {
             <a
               style={{
                 color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(20, 20, 25)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://www.schumer.senate.gov/"
+            >
+              Chuck Schhumer - If you want child support
+            </a>{" "}
+            as cited reason for unemployment insurance, then give the
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(20, 230, 55)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://en.wikipedia.org/wiki/Cronus"
+            >
+              money to the kids
+            </a>
+          </i>
+          <br />
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
                 backgroundColor: "rgb(200, 230, 255)",
                 fontWeight: "bolder",
                 textDecoration: "underline"
