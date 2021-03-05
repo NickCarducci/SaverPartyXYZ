@@ -262,16 +262,32 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-
           "50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
-          <br/>
-          "50ppl {">"} 1/2ppl," Sanders says.
-          <br/>
+          <br />
+          "50ppl {">"} 1/2Ppl," Sanders says.
+          <br />
           The Great Depression happened because the government paid off bonds
-          <br/>
+          <br />
           prices and opportunities can no longer sustain what was borrowed
-          <br/>
+          <br />
           But we would get the exact same world without it, at lower prices
+          <br />
+          "Protect Pensions [like a loanshark]," Bernieeeeeee
+          <br />
+          "The majority of people want to do," Bernie says
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.stats.current.scrollIntoView("smooth")}
+          >
+            (a lie)
+          </span>
+          <br />
+          "[Pubs], throw people off medicare, [we can] provide [steal], this to
+          them [their invoices instead of banning invoices for prohibiting
+          settlement/price-inelasticity"
           <br />
           <img
             alt=""
@@ -280,7 +296,8 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
-          />{" "}<br/>
+          />{" "}
+          <br />
           <i>
             <a
               style={{
