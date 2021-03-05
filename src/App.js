@@ -271,6 +271,8 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            We will just have to reverse it to cash:debt ratio anyway (1:13)
+            <br />
             Not another dollar is&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
