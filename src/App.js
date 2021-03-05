@@ -271,7 +271,7 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
-            Trump-haters are violent and harrass with subjective insults
+            Trump-haters are violent and harrass with subjective insults, damaging my mental state
             <br/>
             “Necessary investment in broadband infrastructure” necessary for
             what? Unnamed.... & just assumed is necessary by the House Gluttons
