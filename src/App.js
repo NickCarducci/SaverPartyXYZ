@@ -462,6 +462,9 @@ export default class App extends React.Component {
           <br />
           prices and opportunities can no longer sustain what was borrowed
           <br />
+          Pure reconciliation for lenders. they price banks at 1x book but book
+          is 13x what is possible without making counterfeit contracts reality
+          <br />
           <img
             alt=""
             style={{
