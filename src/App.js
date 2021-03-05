@@ -271,6 +271,11 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
+            "on a noncompetitive basis to speed up the process... this agreement
+            is"
+            <br />
+            this is highly illegal
+            <br />
             Why are we lending to veterans to compete with other consumers of
             education and the veteran themselves except to secrete more equity
             from unrequited and uneducated savers about what is happening and
