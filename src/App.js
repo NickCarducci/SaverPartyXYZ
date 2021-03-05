@@ -283,8 +283,14 @@ export default class App extends React.Component {
               THE FUCK
             </span>
             &nbsp;IS AN INVOLUNTARY FURLOUGH
-            <br/>If you explain it in 5 more words watch you incriminate your actions<br/>
-      <br/>
+            <br />
+            If you explain it in 5 more words watch you incriminate your actions
+            <br />
+            by counterfeit, price-inelasticity or inequal application of law
+            [funds, shareholder rights being dollars, assets or other property;
+            and the freedom-of-expression to the owner thereof]
+            <br />
+            <br />
             This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
             PAYMENTS/LANDLORD BACK-RENT/MEDICAL INVOICE WISHES
           </i>
