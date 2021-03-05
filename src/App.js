@@ -284,16 +284,17 @@ export default class App extends React.Component {
               position: "relative"
             }}
           >
-            Trump-haters are violent and harrass with subjective insults, damaging my mental state
-            <br/>
+            Trump-haters are violent and harrass with subjective insults,
+            damaging my mental state
+            <br />
             “Necessary investment in broadband infrastructure” necessary for
             what? Unnamed.... & just assumed is necessary by the House Gluttons
-            to excuse theft and benefit bond-holders/buyers instead of
-            LETTING PRICES FALL
+            to excuse theft and benefit bond-holders/buyers instead of LETTING
+            PRICES FALL
             <br />
             CNN gaslighting every viewer that 62% (of 330,000,000) want this
-            (sample of under 3,000 people). Add more results say 63% don't want
-            this.  
+            (sample of under 3,000 people, without shuffling to boot). Add more
+            results say 63% don't want this.
             <br />
             <img
               alt=""
