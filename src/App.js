@@ -286,8 +286,8 @@ export default class App extends React.Component {
           </span>
           <br />
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
-          them [their invoices instead of banning invoices for prohibiting
-          settlement/price-inelasticity"
+          them who need it [because their invoices instead of banning invoices
+          for prohibiting settlement/price-inelasticity"
           <br />
           It will "help low-income find work" (Against Amendment 14)
           <br />
