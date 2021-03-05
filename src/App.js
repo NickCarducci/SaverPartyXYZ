@@ -263,6 +263,33 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/2qno8y9qgq93cpq/Immoral.jpeg?dl=0"
+          />
+          <br />
+          Wyden says, "Covid has put people out of work, that is immoral and
+          unnacceptable"
+          <br />
+          covid is not the killer using death-print analysis
+          <br />
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://moldmask.co"
+            >
+              You have no proof covid kills
+            </a>
+          </i>
           <i
             style={{
               color: "rgb(178, 90, 197)",
@@ -377,6 +404,11 @@ export default class App extends React.Component {
             </a>
             , I'd say that is the last thing she would want to do.
           </i>
+          <br />
+          Wyden says, "Covid has put people out of work, that is immoral and
+          unnacceptable"
+          <br />
+          covid is not the killer using death-print analysis
           <br />
           <i>
             <a
@@ -7757,3 +7789,4 @@ export default class App extends React.Component {
     );
   }
 }
+
