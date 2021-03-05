@@ -263,6 +263,33 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://www.senate.gov/states/WA/intro.htm"
+            >
+              Maria Cantwell (Washington)
+            </a>
+          </i>
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
+          />
+          <br />
+          PPP is not helpful. competition from pre-revenue inventors helps. Now
+          the country is further price-fiing their bonds and "savings" accounts
+          backed by itself and having revolving doors of employment with its
+          "unbiased" ratings agencies
+          <br />
           "1 in 4 do not have internet at home," you can regulate companies that
           are whole markets, ...moldmask Patty Murray
           <br />
