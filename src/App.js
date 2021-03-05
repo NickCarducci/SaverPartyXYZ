@@ -288,8 +288,9 @@ export default class App extends React.Component {
             </a>
           </i>
           <br />
-          PPP is not helpful. competition from pre-revenue inventors helps. Now
-          the country is further price-fixing their bonds and "savings" accounts
+          PPP is not helpful (raises price/utility, helps bond-holders, competes
+          with demand). competition from pre-revenue inventors helps. Now the
+          country is further price-fixing their bonds and "savings" accounts
           backed by itself and having revolving doors of employment with its
           "unbiased" ratings agencies
           <img
