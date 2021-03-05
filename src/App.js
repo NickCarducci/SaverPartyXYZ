@@ -274,7 +274,7 @@ export default class App extends React.Component {
           <br />
           "Protect Pensions [like a loanshark]," Bernieeeeeee
           <br />
-          "The majority of people want to do," Bernie says
+          "The majority of people want to do," Bernie says&nbsp;
           <span
             style={{
               fontWeight: "bolder",
@@ -288,6 +288,10 @@ export default class App extends React.Component {
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
           them [their invoices instead of banning invoices for prohibiting
           settlement/price-inelasticity"
+          <br />
+          It will "help low-income find work" (Against Amendment 14)
+          <br />
+          Classified Ads sites do that
           <br />
           <img
             alt=""
