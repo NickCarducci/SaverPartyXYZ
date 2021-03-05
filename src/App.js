@@ -273,6 +273,11 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            "Recovery startup business" - any business started after Dems locked
+            us down without evidence to expunge a great lay-off wave for
+            unemployment insurance claims, which we never agreed to
+            <br />
+            <br />
             This only helps government in mirrorcode tax and only helps those
             who should have saved while thye had jobs, if you want to help the
             disadvantaged you should pay the 40% unemployed or just don't take
