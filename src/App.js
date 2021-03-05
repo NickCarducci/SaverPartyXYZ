@@ -273,7 +273,13 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            {" "}
+            This only helps government in mirrorcode tax and only helps those
+            who should have saved while thye had jobs, if you want to help the
+            disadvantaged you should pay the 40% unemployed or just don't take
+            it from them to start with. This bill is to pay off bond-holders who
+            can never have what they are price-fixed anyway
+            <br />
+            <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
               ANJBECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN
               HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR
