@@ -263,6 +263,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          "1 in 4 do not have internet at home," you can regulate companies that
+          are whole markets, ...moldmask
+          <br />
           <img
             alt=""
             style={{
@@ -7789,4 +7792,3 @@ export default class App extends React.Component {
     );
   }
 }
-
