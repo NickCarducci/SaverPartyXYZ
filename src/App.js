@@ -60,6 +60,7 @@ export default class App extends React.Component {
     this.jewels = React.createRef();
     this.insurance = React.createRef();
     this.covidrelief = React.createRef();
+    this.experts = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -288,10 +289,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.spittle.current.scrollIntoView("smooth");
-                this.setState({ highlightSpittle: true });
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
                 setTimeout(
-                  () => this.setState({ highlightSpittle: false }),
+                  () => this.setState({ highlightExperts: false }),
                   10000
                 );
               }}
@@ -3681,17 +3682,25 @@ export default class App extends React.Component {
             first-bid later negotiation process.
           </div>
           <div
+            ref={this.experts}
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
               margin: "10px 0px",
-              padding: "10px",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightExperts ? "white" : "grey",
+              backgroundColor: this.state.highlightExperts
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightExperts !== null ? "1" : "0",
+              fontSize: this.state.highlightExperts !== null ? "" : "0px"
             }}
           >
             behavior can reduce pain, says Vivek Murthy. kinda like a doctor
@@ -3702,8 +3711,8 @@ export default class App extends React.Component {
             bipartisanship is evidence of conspiracy. you have no proof people
             want that... all you are doing anyway is making the same services
             more expensive like fattening a duck for consumption in
-            foiegras.life. levine keeps asking for funding DO IT yourself stop
-            taking from us for no change except price
+            foiegras.life. Miss Levine keeps asking for funding DO IT yourself
+            stop taking from us for no change except price
           </div>
           <i
             style={{
