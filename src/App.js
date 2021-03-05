@@ -262,6 +262,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+
+          The Great Depression happened because the government paid off bonds
+          <br/>
+          prices and opportunities can no longer sustain what was borrowed
+          <br/>
+          But we would get the exact same world without it, at lower prices<br/>
           <i>
             <a
               style={{
