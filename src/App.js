@@ -18,6 +18,7 @@ export default class App extends React.Component {
       openElement: false,
       why: false
     };
+    this.defense = React.createRef();
     this.navbar = React.createRef();
     this.invite = React.createRef();
     this.forSize = React.createRef();
@@ -296,11 +297,21 @@ export default class App extends React.Component {
             anticompetitive?
           </div>
           <i
+            ref={this.defense}
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
-              textDecoration: "underline"
+              textDecoration: "underline",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightDefense ? "white" : "",
+              backgroundColor: this.state.highlightDefense
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightDefense !== null ? "1" : "0",
+              fontSize: this.state.highlightDefense !== null ? "" : "0px"
             }}
           >
             COVID 19 Diagnosis without symptoms can be held under quarantine my
@@ -1127,6 +1138,8 @@ export default class App extends React.Component {
             <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
               efficiency, not price
             </a>
+            <br />
+            THIS IS MY COMMUNITY NAVIGATOR CUNT
             <br />
             <br />
             {/* <div
