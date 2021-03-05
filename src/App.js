@@ -262,19 +262,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
+          -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
           <br />
-          "50ppl {">"} 1/2Ppl," Sanders says.
+          -"50ppl {">"} 1/2Ppl," Sanders says.
           <br />
-          The Great Depression happened because the government paid off bonds
+          -The Great Depression happened because the government paid off bonds
           <br />
           prices and opportunities can no longer sustain what was borrowed
           <br />
-          But we would get the exact same world without it, at lower prices
+          -But we would get the exact same world without it, at lower prices
           <br />
-          "Protect Pensions [like a loanshark]," Bernieeeeeee
-          <br />
-          "The majority of people want to do," Bernie says&nbsp;
+          -"Protect Pensions [like a loanshark]," Bernieeeeeee
+          <br />{" "}
           <span
             style={{
               fontWeight: "bolder",
@@ -282,7 +281,8 @@ export default class App extends React.Component {
             }}
             onClick={() => this.stats.current.scrollIntoView("smooth")}
           >
-            (a lie)
+            - "[$1.9t "Covid Relief" is what the] majority of people want to
+            do," Bernie says&nbsp; (a lie)
           </span>
           <br />
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
