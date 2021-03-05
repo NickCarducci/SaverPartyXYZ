@@ -268,7 +268,7 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >WHAT THE FUCK IS AN INVOLUNTARY FURLOUGH
-            <br/>If you eplain it in 5 more words watch you incriminate your actions<br/>
+            <br/>If you explain it in 5 more words watch you incriminate your actions<br/>
       <br/>
             This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
             PAYMENTS/LANDLORD BACK-RENT/MEDICAL INVOICE WISHES
