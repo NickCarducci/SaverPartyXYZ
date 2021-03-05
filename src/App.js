@@ -274,7 +274,7 @@ export default class App extends React.Component {
             "on a noncompetitive basis to speed up the process... this agreement
             is"
             <br />
-            this is highly illegal
+            this is highly illegal... I do not care... I do not consent
             <br />
             Why are we lending to veterans to compete with other consumers of
             education and the veteran themselves except to secrete more equity
