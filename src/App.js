@@ -286,6 +286,11 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Governor Wisconsin, it is not your right to forbid be in there
+          under&nbsp;<a href="https://humanharvest.info">duress</a>, you do not
+          own that land the citizens do and those are INDIVIDUAL RESTRAINING
+          ORDERS
+          <br />
           I like this, if I were to be on this page
           <br />
           <a href="https://www.democrats.senate.gov/about-senate-dems/our-caucus">
