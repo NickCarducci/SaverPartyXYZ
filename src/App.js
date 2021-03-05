@@ -264,6 +264,13 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Fauci: "All three "vaccines" work virtually 100% in preventing death
+          [on a virus that passes without harm virtually 100%]," he remarks
+          about the antibody formation appearing at this moment from
+          <a href="https://humanharvest.info">human-part/spliced grafts</a> to
+          be the same as making your own
+          <br />
+          <br />
           <img
             alt=""
             style={{
