@@ -1777,7 +1777,7 @@ const historicaldata = [
     corpBondBaaValueLastTrade: 53736.05
   }
 ];
-const employmentdata = [
+/*const employmentdata = [
   {
     date: "Jan 1939",
     emp: "3,988"
@@ -5474,7 +5474,7 @@ const employmentdata = [
     date: "Dec 2015",
     emp: "22,040"
   }
-];
+];*/
 class BalancedPortfolioAgainstDollars extends React.Component {
   constructor(props) {
     super(props);
