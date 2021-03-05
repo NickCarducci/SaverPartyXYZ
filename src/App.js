@@ -263,17 +263,31 @@ export default class App extends React.Component {
         >
           <div
             style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
               padding: "10px",
-              height: "min-content",
-              width: "calc(100% - 30px)",
-              position: "relative"
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
             }}
           >
-            If you just keep equalizing tax credits with or without children you just disadvantage people who are too busy and likely have more productive uses of time
-            <br/>
-            <br/>
+            Collective bargain is not prisoners’ duress pooling on gift card
+            pools subject to invoice waging unrequited funds, instead of bulk
+            gift certificate purchase <br />
+            <br />
+            Stolen funds herein used for qualified payment sick leave paragraph
+            1A awaiting for test of covid19 (another fraud of payment, for covid
+            undefined, antibodies? Those have been noted to be evidence
+            consummate of normal cold as well)
+            <br />
+            <br />
+            If you just keep equalizing tax credits with or without children you
+            just disadvantage people who are too busy and likely have more
+            productive uses of time
+            <br />
+            <br />
             ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
             GENERAL.—The amount of the credit 6 allowed under this section to
             any taxpayer for any 7 taxable year shall be reduced (but not below
