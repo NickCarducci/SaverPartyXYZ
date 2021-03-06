@@ -297,18 +297,26 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
-          <i
-            onClick={() => this.stats.current.scrollIntoView("smooth")}
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-          >
-          The Results Are In
-          </i></span>
-          <br/>
+            <i
+              onClick={() => {
+                this.stats.current.scrollIntoView("smooth");
+                this.setState({ highlightStats: true });
+                setTimeout(
+                  () => this.setState({ highlightStats: false }),
+                  10000
+                );
+              }}
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              The Results Are In
+            </i>
+          </span>
+          <br />
           The analysis of GDP trying to fix for reality is that, even if you did
           capture every productSkew net-, percentage-change, you would not
           capture&nbsp;
@@ -325,7 +333,9 @@ export default class App extends React.Component {
           <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
           <br />
           "I promised the American people that help is on the way" -&nbsp;
-          <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">Joe Biden</a>
+          <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
+            Joe Biden
+          </a>
           <br />
           <Employ2Pop />
           <br />
@@ -534,7 +544,12 @@ export default class App extends React.Component {
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
-            onClick={() => this.stats.current.scrollIntoView("smooth")}
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
+
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
           >
             really do want it
           </span>
@@ -1007,7 +1022,12 @@ export default class App extends React.Component {
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
-            onClick={() => this.stats.current.scrollIntoView("smooth")}
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
+
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
           >
             - "[$1.9t "Covid Relief" is what the] majority of people want to
             do," Bernie says&nbsp; (a lie)
@@ -2147,13 +2167,20 @@ export default class App extends React.Component {
             ref={this.stats}
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
               display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              margin: "4px 10px",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightStats ? "white" : "grey",
+              backgroundColor: this.state.highlightStats
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightStats !== null ? "1" : "0",
+              fontSize: this.state.highlightStats !== null ? "" : "0px"
             }}
           >
             My (NC) estimates for party compilation 2022 and 2024. Supply-side
