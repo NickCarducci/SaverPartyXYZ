@@ -294,7 +294,8 @@ export default class App extends React.Component {
           <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
           <a href="https://moldmask.co">moldmask.co</a>
           <br />
-          MOLDMASK.CO Mold Mask a 2052 product <br />
+          2052 products © 2021
+          <br />
           <br />
           If it can suppress the virus without a person interacting with the
           “vaccine”/graft or the virus, then it has a single source on the earth
