@@ -2357,7 +2357,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -2511,7 +2511,13 @@ export default class App extends React.Component {
                 fontFamily: '"Pacifico", cursive', //sans-serif no diff
                 textEmphasis: "italics",
                 fontWeight: "bolder",
-                textDecoration: "underline"
+                textDecoration: "underline",
+                color: this.state.highlightInsurance ? "white" : "grey",
+                backgroundColor: this.state.highlightInsurance
+                  ? "rgb(170,100,205)"
+                  : "",
+                opacity: this.state.highlightInsurance !== null ? "1" : "0",
+                fontSize: this.state.highlightInsurance !== null ? "" : "0px"
               }}
               ref={this.insurance}
               onClick={() => {
