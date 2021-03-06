@@ -290,7 +290,7 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          We don't need an expansion of currencyComponentOfM1 to openElement
+          We don't need an expansion of currencyComponentOfM1 to open
           <br />
           we need profit-share economy that WAITS for customers before paying
           income
