@@ -291,6 +291,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          The analysis of GDP trying to fix for reality is that, even if you did
+          capture every productSkew net-, percentage-change, you would not
+          capture&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => this.gdp.current.scrollIntoView("smooth")}
+          >
+            price-inelasticity inflation
+          </span>
+          , only monetary-inflation, is bunk!
+          <br />
+          <br />
           "House Democrats work for the people" -&nbsp;
           <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
           <br />
