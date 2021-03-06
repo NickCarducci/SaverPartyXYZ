@@ -673,6 +673,11 @@ export default class App extends React.Component {
             to excuse theft and benefit bond-holders/buyers instead of LETTING
             PRICES FALL
             <br />
+            <br />
+            this is not competitive domestically-I will be suing every
+            congressperson that votes yes
+            <br />
+            <br />
             CNN gaslighting every viewer that 62% (of 330,000,000) want this
             (sample of under 3,000 people, without shuffling to boot). Add more
             results say{" "}
