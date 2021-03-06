@@ -288,6 +288,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Please cite sample size on the show CNN, Chris
+          <br />
+          <br />
           Leftists rely on imagination of owning my equity as sustinence
           <br/>
           It is all going to go back to those before involuntary dollar-split
