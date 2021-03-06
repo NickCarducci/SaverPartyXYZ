@@ -291,6 +291,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <img
+            alt=""
+            style={{
+              width: "calc(50% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
+          />
+          <img
+            alt=""
+            style={{
+              width: "calc(50% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
+          />
+          <br />
+          <br />
           Either all of you are complicit or I am due the first Nobel Prize in
           Economics, Stats because CNN keeps using polls this is what the&nbsp;
           <span
