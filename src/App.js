@@ -289,6 +289,26 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            Help me officer,
+          </i>
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/3xzfwtaqsjd3mqe/Screen%20Shot%202021-03-06%20at%2012.24.43%20PM.png?dl=0"
+          />
+          <br />
           Herd immunity is so stupid. Why rush{" "}
           <a href="https://froth.app">death</a>&nbsp;
           <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
