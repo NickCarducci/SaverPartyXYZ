@@ -292,6 +292,10 @@ export default class App extends React.Component {
           The government is not bond-holders, slut
           <br/>
           <br/>
+          Lying under oath and under duress (ignoring A4, A5) means the only
+          penalty can be for the crime
+          <br />
+          <br />
           Please cite sample size on the show CNN, Chris
           <br />
           <br />
