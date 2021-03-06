@@ -75,6 +75,7 @@ export default class App extends React.Component {
     this.jhuecon = React.createRef();
     this.collective = React.createRef();
     this.ronInsurance = React.createRef();
+    this.livingWage = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -1093,34 +1094,24 @@ export default class App extends React.Component {
             </a>
           </i>
           <br />
+          <i>Many do essential work</i>, but are not{" "}
           <i
             style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(200, 230, 255)",
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
-            href="https://moldmask.co"
+            onClick={() => {
+              this.employmentHouse.current.scrollIntoView("smooth");
+              this.setState({ highlightEmploymentHouse: true });
+              setTimeout(
+                () => this.setState({ highlightEmploymentHouse: false }),
+                10000
+              );
+            }}
           >
-            Many do essential work, but are not{" "}
-            <span
-              style={{
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.employmentHouse.current.scrollIntoView("smooth");
-                this.setState({ highlightEmploymentHouse: true });
-                setTimeout(
-                  () => this.setState({ highlightEmploymentHouse: false }),
-                  10000
-                );
-              }}
-            >
-              paid a living wage
-            </span>
+            paid a living wage
           </i>
           <img
             alt=""
@@ -1137,12 +1128,29 @@ export default class App extends React.Component {
           <br />
           <BalancedPortfolioAgainstDollars width={this.state.width} />
           <br />
-          -The Great Depression happened because the government paid off bonds
-          <br />
-          prices and opportunities can no longer sustain what was borrowed
-          <br />
-          Pure reconciliation for lenders. they price banks at 1x book but book
-          is 13x what is possible without making counterfeit contracts reality
+          <span
+            style={{
+              margin: "4px 10px",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightLivingWage ? "white" : "",
+              backgroundColor: this.state.highlightLivingWage
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightLivingWage !== null ? "1" : "0",
+              fontSize: this.state.highlightLivingWage !== null ? "" : "0px"
+            }}
+            ref={this.livingWage}
+          >
+            -The Great Depression happened because the government paid off bonds
+            <br />
+            prices and opportunities can no longer sustain what was borrowed
+            <br />
+            Pure reconciliation for lenders. they price banks at 1x book but
+            book is 13x what is possible without making counterfeit contracts
+            reality
+          </span>{" "}
           <br />
           <img
             alt=""
@@ -8904,8 +8912,20 @@ export default class App extends React.Component {
         </a>
         <br />
         fighting income-inequality with finance/involuntary dollar/market-share
-        split is not the way to keep equity level with labor's worth in living
-        costs
+        split is not the way to&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.livingWage.current.scrollIntoView("smooth");
+            this.setState({ highlightLivingWage: true });
+            setTimeout(
+              () => this.setState({ highlightLivingWage: false }),
+              10000
+            );
+          }}
+        >
+          keep equity level with labor's worth in living costs
+        </span>
       </div>
     );
   }
