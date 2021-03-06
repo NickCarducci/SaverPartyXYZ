@@ -289,12 +289,13 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Most people have been hired back before the pandemic was over, that means the firing is not for covid
-        <br />
-        <br />
+          Most people have been hired back before the pandemic was over, that
+          means the firing is not for covid
+          <br />
+          <br />
           The government is not bond-holders, slut
-          <br/>
-          <br/>
+          <br />
+          <br />
           Lying under oath and under duress (ignoring A4, A5) means the only
           penalty can be for the crime
           <br />
@@ -2370,7 +2371,8 @@ export default class App extends React.Component {
               wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
             </a>
             <br />
-            "We now know, and we have known, that [G-d is dead]" - Don Lemon, CNN (March 5, 2021)
+            "We now know, and we have known, that [G-d is dead]" - Don Lemon,
+            CNN (March 5, 2021)
             <br />
             <a
               style={{ fontSize: "12px", color: "black" }}
