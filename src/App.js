@@ -289,6 +289,33 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/8f6sv7ub1dyixm1/Screen%20Shot%202021-03-06%20at%2012.24.20%20PM.png?dl=0"
+          />
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/8tsrzdyu1ar8i7o/Screen%20Shot%202021-03-06%20at%2012.34.30%20PM.png?dl=0"
+          />
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/83kl4edk6jckgx6/Screen%20Shot%202021-03-06%20at%2012.33.16%20PM.png?dl=0"
+          />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
