@@ -289,7 +289,9 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >CNN: "Let's hope this bill gets us there." Where?
+          <br/>
+          <br/>
           Lying about public opinion to pay off lenders that know debt is 13
           times more than cash
           <br />
