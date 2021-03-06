@@ -289,6 +289,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Most people have been hired back before the pandemic was over, that means the firing is not for covid
+        <br />
+        <br />
           The government is not bond-holders, slut
           <br/>
           <br/>
