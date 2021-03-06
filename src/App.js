@@ -290,7 +290,9 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >"No fault of their own," - Biden straight from Medical Industry Complex lobby. Ban invoices you fucking retard
+          <br/>
+          <br/>
           You can’t still believe they don’t want to spend. Same party on outstanding bills
 <br/>
 Nick Carducci spending isn’t the problem, it’s what they are spending on an lying about it.
