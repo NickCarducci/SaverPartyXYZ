@@ -292,9 +292,24 @@ export default class App extends React.Component {
           }}
         >
           Either all of you are complicit or I am due the first Nobel Prize in
-          Economics, Stats because CNN keeps using polls this is what the
-          American People want, they are stating as fact without saying the
-          sample size. this is highly illegal, just like the&nbsp;
+          Economics, Stats because CNN keeps using polls this is what the&nbsp;
+          <span
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            American People
+          </span>
+          &nbsp;want, they are stating as fact without saying the sample size.
+          this is highly illegal, just like the&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
