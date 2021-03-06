@@ -290,9 +290,40 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          you don't buy a house when you borrow, you take from consumers more
+          than can be produced at by competing with consumers and cornering
+          supply like a monopsony conspiring with the squatting-borrower and the
+          owner taking and keeping down-payments. Without this operation,
+          investment would be&nbsp;<a href="https://vaults.biz">profit-share</a>
+          <br />
+          <br />
+          reduce fees always has a catch not on the front page, should be
+          mandatory to have minimal viable product in terms of data-share or
+          auxilliary effects, expecially&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jhuecon.current.scrollIntoView("smooth");
+              this.setState({ highlightJHUECON: true });
+              setTimeout(
+                () => this.setState({ highlightJHUECON: false }),
+                10000
+              );
+            }}
+          >
+            intentionally-suppressed
+          </span>
+          <br />
+          <br />
           CNN: "Let's hope this bill gets us there."&nbsp;
           <a href="https://humanharvest.info">
-            Where, to make sure no 1985-vintage aborted fetus investment/ghost city is wasted/paid
+            Where, to make sure no 1985-vintage aborted fetus investment/ghost
+            city is wasted/paid
           </a>
           ?
           <br />
@@ -2651,16 +2682,32 @@ export default class App extends React.Component {
             matter for you or systems at all if not numerated except to
             individuals within them?
             <br />
-            only in 2018 did I learn where dollars DID NOT COME FROM G-D{" "}
-            <a href="https://vaults.biz">from</a> ... after spending $250k on
-            JHU <a href="https://micro-theory.com">economics</a>
-            <br />
-            <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
-              wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
-            </a>
-            <br />
-            "We now know, and we have known, that [G-d is dead]" - Don Lemon,
-            CNN (March 5, 2021)
+            <span
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightJHUECON ? "white" : "",
+                backgroundColor: this.state.highlightJHUECON
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightJHUECON !== null ? "1" : "0",
+                fontSize: this.state.highlightJHUECON !== null ? "" : "0px"
+              }}
+              ref={this.jhuecon}
+            >
+              only in 2018 did I learn where dollars DID NOT COME FROM G-D{" "}
+              <a href="https://vaults.biz">from</a> ... after spending $250k on
+              JHU <a href="https://micro-theory.com">economics</a>
+              <br />
+              <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
+                wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
+              </a>
+              <br />
+              "We now know, and we have known, that [G-d is dead]" - Don Lemon,
+              CNN (March 5, 2021)
+            </span>
             <br />
             <a
               style={{ fontSize: "12px", color: "black" }}
