@@ -290,12 +290,26 @@ export default class App extends React.Component {
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
+              textEmphasis: "italics"
               //fontWeight: "bolder",
               //textDecoration: "underline"
             }}
           >
-            Hold on Mom,
+            Hold on&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+                setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              Marx
+            </span>
+            ,
           </i>
           <div
             style={{
