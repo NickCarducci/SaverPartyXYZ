@@ -289,6 +289,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          The government is not bond-holders, slut
+          <br/>
+          <br/>
           Please cite sample size on the show CNN, Chris
           <br />
           <br />
