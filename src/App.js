@@ -608,7 +608,7 @@ export default class App extends React.Component {
           <br />
           This bitch saying you save money $2t in taxes without spending it
           without taxing it... is admittance that spending is not tax-payer
-          funded
+          funded&nbsp;
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
