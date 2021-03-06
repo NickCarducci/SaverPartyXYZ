@@ -295,7 +295,6 @@ export default class App extends React.Component {
           <br />
           <Employ2Pop />
         <br/>
-        <br/>
           "No fault of their own," - Biden straight from Medical Industry
           Complex lobby. Ban invoices you fucking retard
           <br />
