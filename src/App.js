@@ -8845,6 +8845,10 @@ export default class App extends React.Component {
         <div id="t1333904053886128128" />
         <div id="t1332375252538707972" />
         <div ref={this.employmentHouse} />
+        Home value + interest expected === Bondvalue === 13*cash
+        <br/>
+        debt/cash === 13/1 or 13:1 or 1300%
+        <br/>
         <EmploymentHours
           gonow={() =>
             setTimeout(() => {
