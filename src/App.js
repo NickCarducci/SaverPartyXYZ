@@ -312,7 +312,7 @@ export default class App extends React.Component {
           >
             use it themselves
           </span>
-          . Usually, if the market is competitive and not decrepit after a
+          . Prices drop if the market is competitive and not decrepit after a
           century of finance and creating&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
