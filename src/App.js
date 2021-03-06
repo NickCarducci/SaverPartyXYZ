@@ -292,15 +292,19 @@ export default class App extends React.Component {
           <br />
           <br />
           Leftists rely on imagination of owning my equity as sustinence
-          <br/>
+          <br />
           It is all going to go back to those before involuntary dollar-split
           happened since the first contracted fractional reserve, so I can laugh
           about it on the way to peace
           <br />
           <br />
-          I have had some douche reach out to help to restructure (to be clear, this is easy) my files and act like a founder then un-linkedin me
-<br/>
-I have had Biden's michael antiporta's linkedin lackidasical installation of login.gov local-ID api for better elections -connect do the same<br/>
+          I have had some douche reach out to help to restructure (to be clear,
+          this is easy) my files and act like a founder then un-linkedin me
+          <br />
+          I have had Biden's michael antiporta's linkedin lackidasical
+          installation of login.gov local-ID api for better elections -connect
+          do the same
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -571,7 +575,11 @@ I have had Biden's michael antiporta's linkedin lackidasical installation of log
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
-          />
+          />{" "}
+          <br />
+          <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
+            https://www.sjsu.edu/faculty/watkins/depmon.htm
+          </a>
           <br />
           <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
             https://www.nber.org/system/files/chapters/c1567/c1567.pdf
@@ -7413,7 +7421,7 @@ I have had Biden's michael antiporta's linkedin lackidasical installation of log
           Carducci.sh
         </div>
         <div
-          style={{ 
+          style={{
             justifyContent: "center",
             display: "flex",
             flexWrap: "wrap",
