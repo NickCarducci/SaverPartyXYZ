@@ -291,7 +291,7 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-        "House Democrats work for the people" - Some bitch on CNN
+        "House Democrats work for the people" -&nbsp;<a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
           <br />
           <Employ2Pop />
         <br/>
