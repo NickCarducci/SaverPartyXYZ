@@ -289,8 +289,67 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          This bitch saying you save money $2t in taxes without spending it without taxing it... is admittance that spending is not tax-payer funded
-        
+          wouldn’t you rather ban invoices instead? It is technically already
+          illegal, but not by precedence yet. doctor's take more than customers
+          are&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightInsurance: true });
+              setTimeout(
+                () => this.setState({ highlightInsurance: false }),
+                10000
+              );
+            }}
+          >
+            willing and able
+          </span>
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(50% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
+          />
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            Lending is not helping, forgiveness is theft, anticompetitive and
+            unequal law for labor, pre-revenue entrepreneurs and artists
+          </i>
+          <br />
+          <iframe
+            title="Lending is not helping, forgiveness is theft, anticompetitive and unequal law for labor, pre-revenue entrepreneurs and artists"
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimorebizjournal%2Fposts%2F10164993696840716&width=300&show_text=true&height=444&appId"
+            width="300"
+            height="444"
+            style={{ border: "none", overflow: "hidden", width: "480px" }}
+          ></iframe>{" "}
+          <br />
+          Does no one at the Baltimore business journal understand that prices
+          are elastic for the same utility... if you did you’d know that this
+          doesn’t help...
+          <br />
+          That it can only pay financial obligations is abject fraud too. Better
+          to let finance lose, not force dollar-owners to pay and let labor,
+          pre-revenue inventors and artists not get applied the same laws. The
+          Great Depression was caused by paying of debt instead of defaulting
+          (and banning it)
+          <br />
           <img
             alt=""
             style={{
@@ -299,11 +358,15 @@ export default class App extends React.Component {
             }}
             src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
           />
+          <br />
+          This bitch saying you save money $2t in taxes without spending it
+          without taxing it... is admittance that spending is not tax-payer
+          funded
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
-              //fontWeight: "bolder",
+              textEmphasis: "italics",
+              fontWeight: "bolder"
               //textDecoration: "underline"
             }}
           >
