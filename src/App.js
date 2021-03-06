@@ -300,9 +300,13 @@ export default class App extends React.Component {
           option to keep the&nbsp;<a href="https://magnate.company">lights</a>{" "}
           on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
           <br />
-          If you cannot pay, and they refuse service, they are prohibiting trade
-          by owning & restricting a barrier-to-entry as supplier (monopsony),
-          unless they&nbsp;
+          If you cannot pay, and they&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            refuse service
+          </a>
+          , they are prohibiting trade by owning & restricting a
+          barrier-to-entry as supplier (monopsony), especially if they
+          don't&nbsp;
           <span
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
