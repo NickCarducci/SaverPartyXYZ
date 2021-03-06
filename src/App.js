@@ -290,7 +290,11 @@ export default class App extends React.Component {
           }}
         >
           Most people have been hired back before the pandemic was over, that
-          means the firing is not for covid
+          means the firing is not for covid (ignoring the unequal application of
+          law for labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's &
+          artists in favor of government-501c3-nonprofits/corporations,
+          involuntary market/vault/share/dollar-split & impossibility - this is
+          still fraud if unemployment insurance wasn't breaking Amendment 14/13)
           <br />
           <br />
           The government is not bond-holders, slut. Certainly not Wells Fargo.
