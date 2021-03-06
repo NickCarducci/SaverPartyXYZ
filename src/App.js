@@ -295,6 +295,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          California Assemblypeople making threats of strike to not get national money
+          <br/>
           "People say, 'Will I lose my home?''," Biden remarks.
           <br />
           <span
