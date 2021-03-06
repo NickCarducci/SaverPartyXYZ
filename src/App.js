@@ -295,7 +295,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "calc(50% - 26px)",
+                width: "50%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
@@ -303,7 +303,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "calc(50% - 26px)",
+                width: "50%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
@@ -311,7 +311,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "calc(50% - 26px)",
+                width: "50%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
@@ -319,7 +319,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "calc(50% - 26px)",
+                width: "50%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
@@ -327,7 +327,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "calc(50% - 26px)",
+                width: "50%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
