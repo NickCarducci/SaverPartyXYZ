@@ -290,7 +290,11 @@ export default class App extends React.Component {
         >
           Leftists rely on imagination of owning my equity as sustinence
           <br/>
-          <br/>
+          It is all going to go back to those before involuntary dollar-split
+          happened since the first contracted fractional reserve, so I can laugh
+          about it on the way to peace
+          <br />
+          <br />
           I have had some douche reach out to help to restructure my files and act like a founder then un-linkedin me
 <br/>
 I have had Biden's michael antiporta's linkedin lackidasical installation of login.gov local-ID api for better elections -connect do the same<br/>
