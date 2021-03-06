@@ -289,6 +289,16 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          This bitch saying you save money $2t in taxes without spending it without taxing it... is admittance that spending is not tax-payer funded
+        
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
+          />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
