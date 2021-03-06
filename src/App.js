@@ -8,6 +8,7 @@ import TsyOperating from "./tsyoperating";
 import EmploymentHours from "./employmenthours";
 import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
+import Employ2Pop from "./employ2pop";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -301,6 +302,8 @@ export default class App extends React.Component {
             Gallup polls n=2700
           </a>
           &nbsp;phone calls to random people who answer the phone
+          <br />
+          <Employ2Pop />
           <br />
           <br />
           It is all going to go back to those before involuntary dollar-split
