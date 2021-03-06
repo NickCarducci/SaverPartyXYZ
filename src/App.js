@@ -20,7 +20,8 @@ export default class App extends React.Component {
       openrelief: false,
       openForm: false,
       openElement: false,
-      why: false
+      why: false,
+      showM1: true
     };
     this.defense = React.createRef();
     this.navbar = React.createRef();
@@ -295,8 +296,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          California Assemblypeople making threats of strike to not get national money
-          <br/>
+          California Assemblypeople making threats of strike to not get national
+          money
+          <br />
           "People say, 'Will I lose my home?''," Biden remarks.
           <br />
           <span
@@ -1152,7 +1154,7 @@ export default class App extends React.Component {
             Pure reconciliation for lenders. they price banks at 1x book but
             book is 13x what is possible without making counterfeit contracts
             reality
-          </span>{" "}
+          </span>
           <br />
           <img
             alt=""
@@ -8845,19 +8847,36 @@ export default class App extends React.Component {
         <div id="t1333904053886128128" />
         <div id="t1332375252538707972" />
         <div ref={this.employmentHouse} />
+        {!this.state.showM1 ? (
+          <div
+            style={{
+              height: "min-content",
+              marginTop: "10px",
+              color: "rgb(70,140,250)",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.setState({ showM1: true })}
+          >
+            <div>chart of 365day/year employment hours/employed persons &</div>
+            <div>wages to home prices</div>
+          </div>
+        ) : (
+          <div
+            style={{
+              marginTop: "10px",
+              color: "rgb(70,140,250)",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.setState({ showM1: false })}
+          >
+            &times;close
+          </div>
+        )}
         Home value + interest expected === Bondvalue === 13*cash
-        <br/>
+        <br />
         debt/cash === 13/1 or 13:1 or 1300%
-        <br/>
-        <EmploymentHours
-          gonow={() =>
-            setTimeout(() => {
-              this.scrolllto &&
-                this.scrolllto.current &&
-                this.scrolllto.current.scrollIntoView("smooth");
-            }, 300)
-          }
-        />
+        <br />
+        <EmploymentHours showM1={this.state.showM1} />
         <div>
           <div
             style={{
@@ -8936,3 +8955,4 @@ export default class App extends React.Component {
     );
   }
 }
+
