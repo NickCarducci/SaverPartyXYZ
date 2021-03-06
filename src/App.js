@@ -290,8 +290,8 @@ export default class App extends React.Component {
           }}
         >
           wouldn’t you rather ban invoices instead? It is technically already
-          illegal, but not by precedence yet. doctor's take more than customers
-          are&nbsp;
+          illegal, but not by precedence yet. doctor's take more than they are
+          able to under customers are&nbsp;
           <span
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -328,8 +328,8 @@ export default class App extends React.Component {
           &nbsp;claims it is not opinion the virus will spread without&nbsp;
           <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
           must do it to not be forced to <a href="https://moldmask.co">mask</a>
-          ], it only does spreads if you have symptoms or don't your wash
-          hands/face.
+          ]... If you want the facts: it only does spreads if you have symptoms
+          or don't your wash hands/face.
           <br />
           <i
             style={{
@@ -353,7 +353,10 @@ export default class App extends React.Component {
           <br />
           Does no one at the Baltimore business journal understand that prices
           are elastic for the same utility... if you did you’d know that this
-          doesn’t help...
+          doesn’t help... only{" "}
+          <a href="https://www.investopedia.com/terms/a/ask.asp">
+            one side of the market, the ask.
+          </a>
           <br />
           That it can only pay financial obligations is abject fraud too. Better
           to let finance lose, not force dollar-owners to pay and let labor,
