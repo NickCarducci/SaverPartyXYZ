@@ -296,7 +296,10 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          CNN selling to listeners that government-backed loans is the only option, that is false
+          CNN selling to listeners that government-backed loans is the only option, that is false.
+          <br />
+          If you cannot pay, and they refuse service, they are prohibiting trade
+          by owning barrier to entry as supplier (monopsony)
           <br/>
           <br/>
           California Assemblypeople making threats of strike to not get national
