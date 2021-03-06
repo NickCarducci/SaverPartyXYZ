@@ -324,6 +324,14 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
             />
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
+            />
           </div>
           <br />
           <br />
