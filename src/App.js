@@ -306,6 +306,9 @@ export default class App extends React.Component {
           "House Democrats work for the people" -&nbsp;
           <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
           <br />
+          "I promised the American people that help is on the way" -&nbsp;
+          <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">Joe Biden</a>
+          <br />
           <Employ2Pop />
           <br />
           "No fault of their own," - Biden straight from Medical Industry
