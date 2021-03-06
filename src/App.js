@@ -296,6 +296,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          CNN selling to listeners that government-backed loans is the only option, that is false
+          <br/>
+          <br/>
           California Assemblypeople making threats of strike to not get national
           money
           <br />
