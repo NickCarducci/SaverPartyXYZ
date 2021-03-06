@@ -295,7 +295,19 @@ export default class App extends React.Component {
           Economics, Stats because CNN keeps using polls this is what the
           American People want, they are stating as fact without saying the
           sample size. this is highly illegal, just like the calling on Election
-          Day
+          Day. Also&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.nsfFraud.current.scrollIntoView("smooth");
+                this.setState({ highlightNSFFraud: true });
+                setTimeout(
+                  () => this.setState({ highlightNSFFraud: false }),
+                  10000
+                );
+              }}
+            >
+              physics
+            </span>
           <br />
           <br />
           The Bill has been negotiated to pay backrent-wishes!! Those prices
