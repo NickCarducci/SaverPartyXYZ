@@ -293,7 +293,14 @@ export default class App extends React.Component {
           <br />
           Leftists rely on imagination of owning my equity as sustinence
           <br />
-          <a href="https://www.vanhollen.senate.gov/">Unemployment slave songs</a>&nbsp;are their Gallup polls n=2700
+          <a href="https://www.vanhollen.senate.gov/">
+            Unemployment slave songs
+          </a>
+          &nbsp;are their&nbsp;
+          <a href="https://news.gallup.com/opinion/chairman/181469/big-lie-unemployment.aspx">
+            Gallup polls n=2700
+          </a>
+          &nbsp;phone calls to random people who answer the phone
           <br />
           <br />
           It is all going to go back to those before involuntary dollar-split
