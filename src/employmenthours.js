@@ -1,7 +1,7 @@
 import React from "react";
 
 class EmploymentHours extends React.Component {
-  state = { showM1: true };
+  state = {};
   render() {
     return (
       <div
@@ -15,7 +15,7 @@ class EmploymentHours extends React.Component {
           fontSize: "16px",
           width: "100%",
           transition: ".3s ease-out",
-          height: this.state.showM1 ? "750px" : "100px"
+          height: this.props.showM1 ? "750px" : "100px"
         }}
       >
         <div
@@ -26,40 +26,10 @@ class EmploymentHours extends React.Component {
             left: "0px"
           }}
         >
-          {!this.state.showM1 ? (
-            <div
-              style={{
-                height: "min-content",
-                marginTop: "10px",
-                color: "rgb(70,140,250)",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.props.gonow();
-                this.setState({ showM1: true });
-              }}
-            >
-              <div>
-                chart of 365day/year employment hours/employed persons &
-              </div>
-              <div>wages to home prices</div>
-            </div>
-          ) : (
-            <div
-              style={{
-                marginTop: "10px",
-                color: "rgb(70,140,250)",
-                textDecoration: "underline"
-              }}
-              onClick={() => this.setState({ showM1: false })}
-            >
-              &times;close
-            </div>
-          )}
           <iframe
             style={{
               width: "550px",
-              height: this.state.showM1 ? "700px" : "0px"
+              height: "700px"
             }}
             title="total dollars held"
             src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=xRYU&width=500&height=600`}
