@@ -299,6 +299,10 @@ export default class App extends React.Component {
         >
           Unemployment Benefits Fraud for 13x book-valued-finance
         </i>
+        <br/>
+        "Good to see you.  If you were here, I wouldn't steal your equity"
+        <br/>
+        <br/>
           wouldn’t you rather ban invoices instead? It is technically already
           illegal, but not by precedence yet. doctor's take more than they are
           able to under customers are&nbsp;
