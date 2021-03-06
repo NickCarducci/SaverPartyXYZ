@@ -294,6 +294,8 @@ export default class App extends React.Component {
           The Bill has been negotiated to pay backrent-wishes!! Those prices
           were fixed since&nbsp;
           <a href="https://micro-theory.com">demand couldn't handle them</a>
+          <br />
+          <br />
           <span
             style={{
               fontWeight: "bolder",
