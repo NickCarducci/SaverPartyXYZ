@@ -300,9 +300,32 @@ export default class App extends React.Component {
           option "to keep the lights on," that is false.
           <br />
           If you cannot pay, and they refuse service, they are prohibiting trade
-          by owning barrier to entry as supplier (monopsony)
-          <br/>
-          <br/>
+          by owning barrier to entry as supplier (monopsony), unless they use it
+          themselves. Usually, if the market is competitive and not decrepit
+          after a century of finance and creating&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.valuation.current.scrollIntoView("smooth");
+              this.setState({ highlightValuation: true });
+              setTimeout(
+                () => this.setState({ highlightValuation: false }),
+                10000
+              );
+            }}
+          >
+            cross-party risk
+          </span>
+          , then producers compete with eachother and prices drop without&nbsp;
+          <a href="https://nationalsecuritycasino.com">
+            mono-polization of actors
+          </a>
+          &nbsp;in the market that are not a&nbsp;
+          <a href="https://micro-theory.com">producer or consumer</a>, or
+          investor that&nbsp;
+          <a href="https://vaults.biz">waits for customer to take royalty</a>
+          <br />
+          <br />
           California Assemblypeople making threats of strike to not get national
           money
           <br />
@@ -8962,4 +8985,3 @@ export default class App extends React.Component {
     );
   }
 }
-
