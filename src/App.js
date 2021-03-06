@@ -297,7 +297,8 @@ export default class App extends React.Component {
           }}
         >
           CNN selling to listeners that, "government-backed loans is the only
-          option to keep the lights on," that is false.
+          option to keep the&nbsp;<a href="https://magnate.company">lights</a>{" "}
+          on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
           <br />
           If you cannot pay, and they refuse service, they are prohibiting trade
           by owning barrier to entry as supplier (monopsony), unless they&nbsp;
