@@ -286,11 +286,16 @@ export default class App extends React.Component {
       <div ref={this.forSize} className="App">
         <div
           style={{
+            wordBreak: "break-word",
             top: "0px",
             width: "100%",
             maxWidth: "600px"
           }}
-        >socialism devolves into hunger/communism, or resolves into no promises/only profit-schedule
+        >
+          socialism either: (1) devolves into
+          hunger/communism/corporatism/monopsonies-infiltrating-insurance, or
+          (2) resolves into no promises/only profit-schedule.
+          <br />
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <img
               alt=""
