@@ -7400,7 +7400,7 @@ export default class App extends React.Component {
           Carducci.sh
         </div>
         <div
-          style={{
+          style={{ 
             justifyContent: "center",
             display: "flex",
             flexWrap: "wrap",
@@ -7410,39 +7410,57 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px"
             }}
           >
-            <br />
-            The term for "fully-capable yet self-harming" is non-existent and
-            linguistically-deconstructing the word "retard" by its affixes
-            describes one that is not necessarily already a tard but is often
-            destructive of themselves or others per societal symbiosis.
-            <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
-              https://www.lexico.com/grammar/prefixes-and-suffixes
-            </a>{" "}
-            To suggest otherwise mischaracterizes tards as not being
-            self-preserving, describing them to always be retarding themselves
-            or their society.
-            <br />
-            stop saying printing delays pain of foreclosure the pain is in the
-            prohibition of price-elasticity and impossibility of debt to allow
-            usurpers to use assets on false pretenses of ownership of assets
-            they promise
-            <br />
-            growth of an economy by shares only increase wealth disparity;
-            growth by population lessens wealth disparity
-            <br />
-            unemployment rate is a phone survey of 2k people that aren't out
-            looking for work who have time, the employment rate is 60%. bailing
-            out their bills prohibit trade and fix-prices at tangible and
-            opportunity costs based not on what the promiser actually owns
-            <br />
-            claims that you are protected by insurance is wrong, they abett
-            invoices, promises made with money that the promiser does not have
+            <span
+              style={{
+                padding: "20px",
+                display: "inline-block",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              <br />
+              The term for "fully-capable yet self-harming" is non-existent and
+              linguistically-deconstructing the word "retard" by its affixes
+              describes one that is not necessarily already a tard but is often
+              destructive of themselves or others per societal symbiosis.
+              <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
+                https://www.lexico.com/grammar/prefixes-and-suffixes
+              </a>{" "}
+              To suggest otherwise mischaracterizes tards as not being
+              self-preserving, describing them to always be retarding themselves
+              or their society.
+              <br />
+            </span>
+            <span
+              style={{
+                padding: "20px",
+                display: "inline-block",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              {" "}
+              stop saying printing delays pain of foreclosure the pain is in the
+              prohibition of price-elasticity and impossibility of debt to allow
+              usurpers to use assets on false pretenses of ownership of assets
+              they promise
+              <br />
+              growth of an economy by shares only increase wealth disparity;
+              growth by population lessens wealth disparity
+              <br />
+              unemployment rate is a phone survey of 2k people that aren't out
+              looking for work who have time, the employment rate is 60%.
+              bailing out their bills prohibit trade and fix-prices at tangible
+              and opportunity costs based not on what the promiser actually owns
+              <br />
+              claims that you are protected by insurance is wrong, they abett
+              invoices, promises made with money that the promiser does not have
+            </span>
             <br />
             <span
               ref={this.marx}
