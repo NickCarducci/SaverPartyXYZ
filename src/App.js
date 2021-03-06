@@ -289,7 +289,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          They are the same party pertaining to outstanding bills instead of civil rights
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/78l0j7ds9ej1pwr/Screen%20Shot%202021-03-06%20at%2012.54.06%20PM.png?dl=0"
+          />
+          <br />
+          They are the same party pertaining to outstanding bills instead of
+          civil rights
           <img
             alt=""
             style={{
