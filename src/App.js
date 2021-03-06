@@ -291,22 +291,40 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          <img
-            alt=""
-            style={{
-              width: "calc(50% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
-          />
-          <img
-            alt=""
-            style={{
-              width: "calc(50% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
-          />
+          <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
+            />
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
+            />
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
+            />
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
+            />
+          </div>
           <br />
           <br />
           Either all of you are complicit or I am due the first Nobel Prize in
