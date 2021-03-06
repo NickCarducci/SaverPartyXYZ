@@ -73,6 +73,7 @@ export default class App extends React.Component {
     this.congressVsCongress = React.createRef();
     this.squatting = React.createRef();
     this.jhuecon = React.createRef();
+    this.collective = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -1369,15 +1370,21 @@ export default class App extends React.Component {
             />
           </div>{" "}
           <div
+            ref={this.collective}
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              color: this.state.highlightCollective ? "white" : "grey",
+              backgroundColor: this.state.highlightCollective
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightCollective !== null ? "1" : "0",
+              fontSize: this.state.highlightCollective !== null ? "" : "0px"
             }}
           >
             Collective bargain is not prisoners’ duress pooling on gift card
@@ -2506,31 +2513,52 @@ export default class App extends React.Component {
             </div>
             <br />
             <br />
-            <div
-              style={{
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline",
-                color: this.state.highlightInsurance ? "white" : "grey",
-                backgroundColor: this.state.highlightInsurance
-                  ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightInsurance !== null ? "1" : "0",
-                fontSize: this.state.highlightInsurance !== null ? "" : "0px"
-              }}
-              ref={this.insurance}
-              onClick={() => {
-                this.covidrelief.current.scrollIntoView("smooth");
-                this.setState({ highlightCovidRelief: true });
-                setTimeout(
-                  () => this.setState({ highlightCovidRelief: false }),
-                  10000
-                );
-              }}
-            >
-              covid relief
-            </div>{" "}
+            <div style={{ display: "flex" }}>
+              {" "}
+              <span
+                style={{
+                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  textEmphasis: "italics",
+                  fontWeight: "bolder",
+                  textDecoration: "underline",
+                  color: this.state.highlightInsurance ? "white" : "grey",
+                  backgroundColor: this.state.highlightInsurance
+                    ? "rgb(170,100,205)"
+                    : "",
+                  opacity: this.state.highlightInsurance !== null ? "1" : "0",
+                  fontSize: this.state.highlightInsurance !== null ? "" : "0px"
+                }}
+                ref={this.insurance}
+                onClick={() => {
+                  this.covidrelief.current.scrollIntoView("smooth");
+                  this.setState({ highlightCovidRelief: true });
+                  setTimeout(
+                    () => this.setState({ highlightCovidRelief: false }),
+                    10000
+                  );
+                }}
+              >
+                covid relief
+              </span>
+              <i
+                style={{
+                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  textEmphasis: "italics",
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  this.collective.current.scrollIntoView("smooth");
+                  this.setState({ highlightCollective: true });
+                  setTimeout(
+                    () => this.setState({ highlightCollective: false }),
+                    10000
+                  );
+                }}
+              >
+                Insurance
+              </i>
+            </div>
             for finance fraud/prohibit price-elasticity + enslave + &nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
