@@ -839,6 +839,13 @@ export default class App extends React.Component {
             to excuse theft and benefit bond-holders/buyers instead of LETTING
             PRICES FALL
             <br />
+            Using debt (promises of other peoples' assets) is ILLEGAL
+            Connecticut... to use it competitively is even worse for
+            monopolization around government not providers but regulators. In
+            monopoly regulation that constitutes a market in itself, like
+            internet cableways, you can price-target like the UK does but not
+            undercut assets for you and not market producers of targeted-price.
+            <br />
             <br />
             this is not competitive domestically-I will be suing every
             congressperson that votes yes
@@ -8380,3 +8387,4 @@ export default class App extends React.Component {
     );
   }
 }
+
