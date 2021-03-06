@@ -289,6 +289,25 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
+            }}
+          >
+            Party in the U.S.A.
+          </i>
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/3mx73fdmmdryddj/PartyInUSA.jpg?dl=0"
+          />{" "}
+          <br />
           Most people have been hired back before the pandemic was over, that
           means the firing is not for covid (ignoring the unequal application of
           law for labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's &
