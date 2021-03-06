@@ -69,6 +69,7 @@ export default class App extends React.Component {
     this.colonization = React.createRef();
     this.trueGDP = React.createRef();
     this.education = React.createRef();
+    this.congressVsCongress = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -342,8 +343,8 @@ export default class App extends React.Component {
           <a href="https://thumbprint.us">working for market(copyright,</a>
           not <a href="https://vaults.biz">depositary</a>) share instead of
           entrapping myself into <a href="https://stripe.com">Stripe.com</a>
-          <br/>
-          <br/>
+          <br />
+          <br />
           Judges cannot judge what is right for bail, they'rn't impartial - as
           in they get the bail.
           <br />
@@ -2145,7 +2146,7 @@ export default class App extends React.Component {
             </a>{" "}
             calls stealing in contract with bonds, contributions
             <br />
-            WE DO NOT &nbsp;
+            WE DO NOT&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -3547,106 +3548,134 @@ export default class App extends React.Component {
                 );
               }}
             >
-              <span style={{ textDecoration: "underline" }}>
-                TAKE OFF YOUR MASK
-              </span>
-              <br />
-              doctors wouldn't misguide if US bonds weren't owned by genocidal
-              China, to which Biden says, "Xi gets it." Gets what?
-              <br />
-              CNN says "hesitancy" is something they must "get around," like
-              appropriate public health approval process undercut for the&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.bcell.current.scrollIntoView("smooth");
-                  this.setState({ highlightBcell: true });
-                  setTimeout(
-                    () => this.setState({ highlightBcell: false }),
-                    10000
-                  );
-                }}
-              >
-                grafts
-              </span>
-              <br />
-              the virus is just as deadly as the flu, even if you could force
-              people to risk unforseen side-effects to not be a slave by
-              free-riding exclusion in the economy without visible
-              symptoms/evidence
-              <br />
-              <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
-                wavv.art/forumMqCyVEXOjfYPErd902Vp
-              </a>
-              <br />
-              given 2020 deaths are so abnormally low, but higher due to old-age
-              population (not the virus), the other reason must be the fear
-              instilled by Wolf Blitzer and putting sick & old people together
-              <br />
-              Would like to see a chart of population of people above 90 but
-              the macrotrends.net/countries/USA/united-states/death-rate source
-              is not updated, 1.5 months later than advertised (yearly, UN) so I
-              imagine that isn’t either.
-              <br />
-              <br />
-              CNN also says there are only 22 experts, I must note that this is
-              the purported opinion of liars. You have a conflicted interest of
-              experts there, I bet they would all vote to not bring bonds to
-              half (for stress/prohibit settlement) of cash:debt levels as well
-              because they want people to have cancer by interfering with their
-              natural genesis of antibodies so they don’t have to pay social
-              security from their already max-1:11 possible return on
-              investment, while driving up the bill for medical invoices more.
-              Why else would they be so reckless, without evidence and with such
-              high survival/no-morbidity? This is textbook communism/corporatism
-              for bonds and profit, not socialism. Socialism would reduce to
+              TAKE OFF YOUR MASK
+            </span>
+            <br />
+            doctors wouldn't misguide if US bonds weren't owned by genocidal
+            China, to which Biden says, "Xi gets it." Gets what?
+            <br />
+            CNN says "hesitancy" is something they must "get around," like
+            appropriate public health approval process undercut for the&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.bcell.current.scrollIntoView("smooth");
+                this.setState({ highlightBcell: true });
+                setTimeout(
+                  () => this.setState({ highlightBcell: false }),
+                  10000
+                );
+              }}
+            >
+              grafts
+            </span>
+            <br />
+            the virus is just as deadly as the flu, even if you could force
+            people to risk unforseen side-effects to not be a slave by
+            free-riding exclusion in the economy without visible
+            symptoms/evidence
+            <br />
+            <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
+              wavv.art/forumMqCyVEXOjfYPErd902Vp
+            </a>
+            <br />
+            given 2020 deaths are so abnormally low, but higher due to old-age
+            population (not the virus), the other reason must be the fear
+            instilled by Wolf Blitzer and putting sick & old people together
+            <br />
+            Would like to see a chart of population of people above 90 but
+            the macrotrends.net/countries/USA/united-states/death-rate source is
+            not updated, 1.5 months later than advertised (yearly, UN) so I
+            imagine that isn’t either.
+            <br />
+            <br />
+            CNN also says there are only 22 experts, I must note that this is
+            the purported opinion of liars. You have a conflicted interest of
+            experts there,{" "}
+            <span
+              ref={this.congressVsCongress}
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlightCVC ? "white" : "black",
+                backgroundColor: this.state.highlightCVC
+                  ? "rgb(20,100,205)"
+                  : "",
+                transition: ".3s ease-out"
+              }}
+            >
+              I bet they would all vote to not bring bonds to half (for
+              stress/prohibit settlement) of cash:debt levels as well because
+              they want people to have cancer by interfering with their natural
+              genesis of antibodies so they don’t have to pay social security
+              from their already max-1:11 possible return on investment, while
+              driving up the bill for medical invoices more. Why else would they
+              be so reckless, without evidence and with such high
+              survival/no-morbidity? This is textbook communism/corporatism for
+              bonds and profit, not socialism. Socialism would reduce to
               capitalism without promises/with payout schedules, capitalism with
               promises/without payout schedules reduces into chaos/cross-party
               risk:[foreclosure wave, prepaid && mixed
               demand]/communism/corporatism evidently looking at the US/CNN
               unit, misleading people to their deaths. I bet as many people will
               die from rushed side-effects that would normally die from
-              flu/covid.
-              <br />
-              <a
-                style={{ color: "black" }}
-                href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
-              >
-                Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013)
-              </a>
-              <br />
-              <a
-                ref={this.populism}
-                style={{
-                  margin: "4px 10px",
-                  padding: "4px 10px",
-                  borderRadius: "15px",
-                  color: this.state.highlightItaly ? "white" : "black",
-                  backgroundColor: this.state.highlightItaly
-                    ? "rgb(20,100,205)"
-                    : "",
-                  transition: ".3s ease-out"
-                }}
-                href="https://www.isidewith.com/poll/488729614"
-              >
-                Should the government make cuts to public spending in order to
-                reduce the national debt? 63% Yes/ 37% No (n=13,737,124 )
-              </a>
-              <br />I am just asking you to follow the science
-              <br />
-              <br />
-              Government funding is not "funding from the government."" It is
-              not their money/equity! It is stolen
-              <br />
-              <br />
-              Strong militia/terror groups are supported by governments that use
-              non-asset trade with promises/invoices/money. Thus, if you want
-              world peace, protect power of individuals to give power to good
-              people by settled-trade and fair-competition with other producers,
-              not consumers by signing them to contracts that are impossible and
-              require the consent unrequited by people with the waged money to
-              surpass a penalty instigated on those very same customers of the
-              borrower. Biden’s plan is to{" "}
+              flu/covid.{" "}
+            </span>
+            <br />
+            <a
+              style={{ color: "black" }}
+              href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
+            >
+              Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013)
+            </a>
+            <br />
+            <a
+              ref={this.populism}
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlightItaly ? "white" : "black",
+                backgroundColor: this.state.highlightItaly
+                  ? "rgb(20,100,205)"
+                  : "",
+                transition: ".3s ease-out"
+              }}
+              href="https://www.isidewith.com/poll/488729614"
+            >
+              Should the government make cuts to public spending in order to
+              reduce the national debt? 63% Yes/ 37% No (n=13,737,124 )
+            </a>
+            <br />I am just asking you to follow the science
+            <br />
+            <br />
+            Government funding is not "funding from the government."" It is not
+            their money/equity! It is stolen
+            <br />
+            <br />
+            Strong militia/terror groups are supported by governments that use
+            non-asset trade with promises/invoices/money. Thus, if you want
+            world peace, protect power of individuals to give power to good
+            people by settled-trade and fair-competition with other producers,
+            not consumers by signing them to contracts that are impossible and
+            require the consent unrequited by people with the waged money to
+            surpass a penalty instigated on those very same customers of the
+            borrower.
+            <span
+              ref={this.congressVsCongress}
+              style={{
+                margin: "4px 10px",
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlightCVC ? "white" : "black",
+                backgroundColor: this.state.highlightCVC
+                  ? "rgb(20,100,205)"
+                  : "",
+                transition: ".3s ease-out"
+              }}
+            >
+              Biden’s plan is to{" "}
               <span style={{ textDecoration: "underline" }}>
                 further separate us with bonds and money
               </span>
@@ -7424,8 +7453,21 @@ export default class App extends React.Component {
               Marx was not communist, colonist or
               slave-driver/interferer/rentier, he was an end-the-fed guy
               <br />
-              He doesn't want big government, he wanted people to earn equity
-              from work, not lending
+              He doesn't want&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.congressVsCongress.current.scrollIntoView("smooth");
+                  this.setState({ highlightCVC: true });
+                  setTimeout(
+                    () => this.setState({ highlightCVC: false }),
+                    10000
+                  );
+                }}
+              >
+                big government
+              </span>
+              , he wanted people to earn equity from work, not lending
             </span>
           </div>
           <div
