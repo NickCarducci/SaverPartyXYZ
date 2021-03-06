@@ -1324,11 +1324,25 @@ export default class App extends React.Component {
             unemployment insurance claims, which we never agreed to
             <br />
             <br />
-            This only helps government in mirrorcode tax and only helps those
-            who should have saved while thye had jobs, if you want to help the
-            disadvantaged you should pay the 40% unemployed or just don't take
-            it from them to start with. This bill is to pay off bond-holders who
-            can never have what they are price-fixed anyway
+            This only helps government in&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
+                setTimeout(
+                  () => this.setState({ highlightValuation: false }),
+                  10000
+                );
+              }}
+            >
+              mirrorcode
+            </span>
+            &nbsp;tax and only helps those who should have saved while thye had
+            jobs, if you want to help the disadvantaged you should pay the 40%
+            unemployed or just don't take it from them to start with. This bill
+            is to pay off bond-holders who can never have what they are
+            price-fixed anyway
             <br />
             <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
