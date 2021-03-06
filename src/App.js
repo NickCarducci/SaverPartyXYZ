@@ -7489,7 +7489,6 @@ export default class App extends React.Component {
         <div
           style={{
             padding: "20px",
-            display: "inline-block",
             border: "1px dotted",
             width: "100%",
             maxWidth: "600px"
