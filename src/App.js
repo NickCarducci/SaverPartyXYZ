@@ -319,9 +319,12 @@ export default class App extends React.Component {
             use it themselves
           </span>
           . Before that is necessary and appropriately resolved as an
-          involuntary-servitude by duress of little option to avoid harm or
-          danger, prices drop if the market is competitive and not decrepit
-          after a century of finance and creating&nbsp;
+          involuntary-servitude by&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            duress of little option to avoid harm or danger
+          </a>
+          , prices drop if the market is competitive and not decrepit after a
+          century of finance and creating&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
