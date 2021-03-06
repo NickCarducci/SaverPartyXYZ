@@ -294,11 +294,9 @@ export default class App extends React.Component {
           <br />
           <br />
           Lying about public opinion to pay off lenders, that know debt is 13
-          times more than cash. If I were them, I would&nbsp;
-          <a href="https://www.opensecrets.org/parties/">
-            lobby this way if not altruistic and utilitarian/in both supply and
-            demand of economy/not self-harming
-          </a>
+          times more than cash. If I were them, not altruistic, utilitarian/in
+          both supply-and-demand of economy andnot self-harming, I would&nbsp;
+          <a href="https://www.opensecrets.org/parties/">lobby this way</a>
           &nbsp;and plagerize&nbsp;
           <a href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch">
             enemies
