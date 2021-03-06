@@ -291,10 +291,11 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "House Democrats work for the people" - Some bitch on CNN
+        "House Democrats work for the people" - Some bitch on CNN
           <br />
-          <BalancedPortfolioAgainstDollars width={this.state.width} />
-          <br/>
+          <Employ2Pop />
+        <br/>
+        <br/>
           "No fault of their own," - Biden straight from Medical Industry
           Complex lobby. Ban invoices you fucking retard
           <br />
@@ -660,8 +661,6 @@ export default class App extends React.Component {
           </a>
           &nbsp;phone calls to random people who answer the phone
           <br />
-          <Employ2Pop />
-          <br />
           <br />
           It is all going to go back (
           <a href="https://www.researchgate.net/project/Class-action-suit">
@@ -932,6 +931,8 @@ export default class App extends React.Component {
           -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
           <br />
           -"50ppl {">"} 1/2Ppl," Sanders says.
+          <br />
+          <BalancedPortfolioAgainstDollars width={this.state.width} />
           <br />
           -The Great Depression happened because the government paid off bonds
           <br />
