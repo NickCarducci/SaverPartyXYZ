@@ -3676,9 +3676,12 @@ export default class App extends React.Component {
               }}
             >
               Biden’s plan is to{" "}
-              <span style={{ textDecoration: "underline" }}>
+              <a
+                href="https://froth.app"
+                style={{ textDecoration: "underline" }}
+              >
                 further separate us with bonds and money
-              </span>
+              </a>
               , bombing them, and giving the unproductive, violent actors the
               space and opportunity to thrive without being PRODUCTive
             </span>
