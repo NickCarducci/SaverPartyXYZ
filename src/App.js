@@ -290,6 +290,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          We don't need an expansion of currencyComponentOfM1 to openElement
+          <br />
+          we need profit-share economy that WAITS for customers before paying
+          income
+          <br />
+          <br />
           you don't buy a house when you borrow, you take from consumers more
           than can be produced at by competing with consumers and cornering
           supply like a monopsony conspiring with the squatting-borrower and the
