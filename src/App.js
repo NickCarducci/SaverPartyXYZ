@@ -291,16 +291,20 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-        "House Democrats work for the people" -&nbsp;<a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
+          "House Democrats work for the people" -&nbsp;
+          <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
           <br />
           <Employ2Pop />
-        <br/>
+          <br />
           "No fault of their own," - Biden straight from Medical Industry
           Complex lobby. Ban invoices you fucking retard
           <br />
           <br />
-          You can’t still believe they don’t want to spend. Same party on
-          outstanding bills
+          You can’t still believe they don’t want to spend. &nbsp;
+          <a href="https://johnshopkins.academia.edu/NickCarducci">
+            Same party
+          </a>{" "}
+          on outstanding bills
           <br />
           Nick Carducci spending isn’t the problem, it’s what they are spending
           on an lying about it.
