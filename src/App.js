@@ -289,11 +289,20 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >CNN: "Let's hope this bill gets us there." Where?
-          <br/>
-          <br/>
-          Lying about public opinion to pay off lenders that know debt is 13
-          times more than cash
+        >
+          CNN: "Let's hope this bill gets us there." Where?
+          <br />
+          <br />
+          Lying about public opinion to pay off lenders, that know debt is 13
+          times more than cash. If I were them, I would&nbsp;
+          <a href="https://www.opensecrets.org/parties/">
+            lobby this way if not altruistic and utilitarian/in both supply and
+            demand of economy/not self-harming
+          </a>
+          &nbsp;and plagerize&nbsp;
+          <a href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch">
+            enemies
+          </a>
           <br />
           they owe consumers original principal and more for stress to
           borrowers', then reverse purchases for all consumers to that years'
