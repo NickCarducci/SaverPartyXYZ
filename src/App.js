@@ -290,9 +290,14 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >Either all of you are complicit or I am due the first Nobel Prize in Economics
-          <br/>
-          <br/>
+        >
+          Either all of you are complicit or I am due the first Nobel Prize in
+          Economics, state because CNN keeps using polls this is what the
+          American People want, they are stating as fact without saying the
+          sample size. this is highly illegal, just like the calling on Election
+          Day
+          <br />
+          <br />
           The Bill has been negotiated to pay backrent-wishes!! Those prices
           were fixed since&nbsp;
           <a href="https://micro-theory.com">demand couldn't handle them</a>
