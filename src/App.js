@@ -300,9 +300,20 @@ export default class App extends React.Component {
           option "to keep the lights on," that is false.
           <br />
           If you cannot pay, and they refuse service, they are prohibiting trade
-          by owning barrier to entry as supplier (monopsony), unless they use it
-          themselves. Usually, if the market is competitive and not decrepit
-          after a century of finance and creating&nbsp;
+          by owning barrier to entry as supplier (monopsony), unless they&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.navbar.current.scrollIntoView("smooth")}
+          >
+            use it themselves
+          </span>
+          . Usually, if the market is competitive and not decrepit after a
+          century of finance and creating&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
