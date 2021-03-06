@@ -293,6 +293,9 @@ export default class App extends React.Component {
           <br />
           Leftists rely on imagination of owning my equity as sustinence
           <br />
+          Unemployment slave songs are their Gallup polls n=2700
+          <br />
+          <br />
           It is all going to go back to those before involuntary dollar-split
           happened since the first contracted fractional reserve, so I can laugh
           about it on the way to peace
