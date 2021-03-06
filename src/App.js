@@ -289,6 +289,7 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          They are the same party pertaining to outstanding bills instead of civil rights
           <img
             alt=""
             style={{
