@@ -293,7 +293,14 @@ export default class App extends React.Component {
           means the firing is not for covid
           <br />
           <br />
-          The government is not bond-holders, slut
+          The government is not bond-holders, slut. Certainly not Wells Fargo.
+          <br />
+          They have no right to do this and they are abusing their power to win
+          in the market expunging usurped contracts/invoices, property-to-rent,
+          back-tax/rent and insurance prisoners' dilemma duress pooling of
+          demand capacity obligations
+          <br />
+          Passing this bill is complicity to fraud, as described below.
           <br />
           <br />
           Lying under oath and under duress (ignoring A4, A5) means the only
