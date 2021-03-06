@@ -71,6 +71,7 @@ export default class App extends React.Component {
     this.trueGDP = React.createRef();
     this.education = React.createRef();
     this.congressVsCongress = React.createRef();
+    this.squatting = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -289,6 +290,45 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Lying about public opinion to pay off lenders that know debt is 13
+          times more than cash
+          <br />
+          they owe consumers original principal and more for stress to
+          borrowers', then reverse purchases for all consumers to that years'
+          cash:debt ratio, then pay them for stress and lost opportunity
+          for&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.squatting.current.scrollIntoView("smooth");
+              this.setState({ highlightSquatting: true });
+              setTimeout(
+                () => this.setState({ highlightSquatting: false }),
+                10000
+              );
+            }}
+          >
+            squatting
+          </span>
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/pr0c01fft2lclds/Screen%20Shot%202021-03-06%20at%201.01.41%20PM.png?dl=0"
+          />{" "}
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/dlhp9wcee037ap5/Screen%20Shot%202021-03-06%20at%2012.59.53%20PM.png?dl=0"
+          />{" "}
+          <br />
           <img
             alt=""
             style={{
@@ -2247,6 +2287,7 @@ export default class App extends React.Component {
               vianickcarducci.medium.com
             </a>
             <div
+              ref={this.squatting}
               style={{
                 display: "flex",
                 position: "relative"
@@ -8493,3 +8534,4 @@ export default class App extends React.Component {
     );
   }
 }
+
