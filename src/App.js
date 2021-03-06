@@ -293,6 +293,28 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          "People say, 'Will I lose my home?''," Biden remarks.
+          <br />
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.employmentHouse.current.scrollIntoView("smooth");
+              this.setState({ highlightEmploymentHouse: true });
+              setTimeout(
+                () => this.setState({ highlightEmploymentHouse: false }),
+                10000
+              );
+            }}
+          >
+            Not their home
+          </span>
+          <br />
+          <br />
           socialism either: (1)&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -8785,17 +8807,16 @@ export default class App extends React.Component {
         <div id="t1333518304867217412" />
         <div id="t1333904053886128128" />
         <div id="t1332375252538707972" />
-        <div ref={this.employmentHouse}>
-          <EmploymentHours
-            gonow={() =>
-              setTimeout(() => {
-                this.scrolllto &&
-                  this.scrolllto.current &&
-                  this.scrolllto.current.scrollIntoView("smooth");
-              }, 300)
-            }
-          />
-        </div>
+        <div ref={this.employmentHouse} />
+        <EmploymentHours
+          gonow={() =>
+            setTimeout(() => {
+              this.scrolllto &&
+                this.scrolllto.current &&
+                this.scrolllto.current.scrollIntoView("smooth");
+            }, 300)
+          }
+        />
         <div>
           <div
             style={{
