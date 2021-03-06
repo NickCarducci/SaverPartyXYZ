@@ -288,6 +288,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Leftists rely on imagination of owning my equity as sustinence
+          <br/>
+          <br/>
           I have had some douche reach out to help to restructure my files and act like a founder then un-linkedin me
 <br/>
 I have had Biden's michael antiporta's linkedin lackidasical installation of login.gov local-ID api for better elections -connect do the same<br/>
