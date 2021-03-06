@@ -324,9 +324,13 @@ export default class App extends React.Component {
           <Employ2Pop />
           <br />
           <br />
-          It is all going to go back to those before involuntary dollar-split
-          happened since the first contracted fractional reserve, so I can laugh
-          about it on the way to peace
+          It is all going to go back (
+          <a href="https://www.researchgate.net/project/Class-action-suit">
+            at once
+          </a>
+          ) to those before involuntary dollar-split happened since the first
+          contracted fractional reserve, so I can laugh about it on the way to
+          peace
           <br />
           <br />
           I have had some douche reach out to help to restructure (to be clear,
