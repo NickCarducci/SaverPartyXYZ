@@ -290,7 +290,11 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          CNN: "Let's hope this bill gets us there." Where?
+          CNN: "Let's hope this bill gets us there."&nbsp;
+          <a href="https://humanharvest.info">
+            Where, to make sure no 1985-vintage aborted fetus investment/ghost city is wasted
+          </a>
+          ?
           <br />
           <br />
           Lying about public opinion to pay off lenders, that know debt is 13
