@@ -5481,11 +5481,22 @@ class BalancedPortfolioAgainstDollars extends React.Component {
     this.state = {};
     this.wholething = React.createRef();
   }
-  handleTooltipMove = (e, lowestDates, highestDates) => {
+  handleTooltipMove = (
+    e,
+    lowestDates,
+    highestDates,
+    highestValues,
+    lowestValues
+  ) => {
     const tooltipLeft = e.pageX - this.wholething.current.offsetLeft;
+    const tooltipValue =
+      (highestValues - lowestValues) *
+      ((e.pageY - this.wholething.current.offsetTop) /
+        this.wholething.current.offsetTop);
     this.setState({
       tooltipMove: true,
-      tooltipLeft
+      tooltipLeft,
+      tooltipValue
     });
     var width = Math.min(600, this.props.width - 60);
     clearTimeout(this.stopTooltip);
@@ -5699,19 +5710,33 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 }}
               >
                 {this.state.tooltipDate}
+                <br />
+                {this.state.tooltipValue}
               </div>
             )}
           </div>
           <div ref={this.wholething}>
             <svg
               onMouseMove={(e) => {
-                this.handleTooltipMove(e, lowestDates, highestDates);
+                this.handleTooltipMove(
+                  e,
+                  lowestDates,
+                  highestDates,
+                  highestValues,
+                  lowestValues
+                );
               }}
               onMouseLeave={() =>
                 this.setState({ tooltipLeft: null, tooltipDate: null })
               }
               onDrag={(e) => {
-                this.handleTooltipMove(e, lowestDates, highestDates);
+                this.handleTooltipMove(
+                  e,
+                  lowestDates,
+                  highestDates,
+                  highestValues,
+                  lowestValues
+                );
               }}
               onDragExit={() =>
                 this.setState({ tooltipLeft: null, tooltipDate: null })
