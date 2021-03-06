@@ -296,12 +296,13 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          CNN selling to listeners that, "government-backed loans is the only
+          CNN soliciting listeners that, "government-backed loans is the only
           option to keep the&nbsp;<a href="https://magnate.company">lights</a>{" "}
           on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
           <br />
           If you cannot pay, and they refuse service, they are prohibiting trade
-          by owning barrier to entry as supplier (monopsony), unless they&nbsp;
+          by owning & restricting a barrier-to-entry as supplier (monopsony),
+          unless they&nbsp;
           <span
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -313,8 +314,10 @@ export default class App extends React.Component {
           >
             use it themselves
           </span>
-          . Prices drop if the market is competitive and not decrepit after a
-          century of finance and creating&nbsp;
+          . Before that is necessary and appropriately resolved as an
+          involuntary-servitude by duress of little option to avoid harm or
+          danger, prices drop if the market is competitive and not decrepit
+          after a century of finance and creating&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
