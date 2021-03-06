@@ -289,20 +289,46 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-        <i
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-        >
-          Unemployment Benefits Fraud for 13x book-valued-finance
-        </i>
-        <br/>
-        "Good to see you.  If you were here, I wouldn't steal your equity"
-        <br/>
-        <br/>
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            MONMOUTH POLL 62% want higher prices/more debt
+            <br />
+            ISIDEWITH (much higher sample size) 63% don't want this.
+          </i>
+          <br />
+          CNN: "If the majority of americans&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.stats.current.scrollIntoView("smooth")}
+          >
+            really do want it
+          </span>
+          &nbsp;what is the hesitancy"
+          <br />
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            Unemployment Benefits Fraud for 13x book-valued-finance
+          </i>
+          <br />
+          "Good to see you. If you were here, I wouldn't steal your equity"
+          <br />
+          <br />
           wouldn’t you rather ban invoices instead? It is technically already
           illegal, but not by precedence yet. doctor's take more than they are
           able to under customers are&nbsp;
@@ -863,20 +889,6 @@ export default class App extends React.Component {
             <br />
             this is not competitive domestically-I will be suing every
             congressperson that votes yes
-            <br />
-            <br />
-            CNN gaslighting every viewer that 62% (of 330,000,000) want this
-            (sample of under 3,000 people, without shuffling to boot). Add more
-            results say{" "}
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => this.stats.current.scrollIntoView("smooth")}
-            >
-              63% don't want this.
-            </span>
             <br />
             <img
               alt=""
@@ -1928,6 +1940,12 @@ export default class App extends React.Component {
             https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
             <br />
             https://www.isidewith.com/poll/488729614
+            <br />
+            <br />
+            <br />
+            CNN gaslighting every viewer that 62% (of 330,000,000) want this
+            (sample of under 3,000 people, without shuffling to boot). Add more
+            results like isidewith or thumbprint.us
           </div>
           <div
             style={{
@@ -8401,4 +8419,3 @@ export default class App extends React.Component {
     );
   }
 }
-
