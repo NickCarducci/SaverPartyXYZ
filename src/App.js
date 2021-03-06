@@ -286,15 +286,7 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        ><img
-        alt=""
-        style={{
-          width: "calc(100% - 26px)",
-          height: "auto"
-        }}
-        src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
-      />
-      <br/>
+        >
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -319,6 +311,14 @@ export default class App extends React.Component {
             </span>
             ,
           </i>
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
+          />
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
