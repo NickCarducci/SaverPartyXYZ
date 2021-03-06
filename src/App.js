@@ -297,7 +297,9 @@ export default class App extends React.Component {
               //textDecoration: "underline"
             }}
           >
-            MONMOUTH POLL 62% want higher prices/more debt
+            MONMOUTH POLL of 842 adults, 62% want higher prices/more debt
+            <br />
+            CNN cites this
             <br />
             ISIDEWITH (much higher sample size) 63% don't want this.
           </i>
