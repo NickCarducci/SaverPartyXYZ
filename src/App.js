@@ -291,6 +291,19 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          You can’t still believe they don’t want to spend. Same party on outstanding bills
+<br/>
+Nick Carducci spending isn’t the problem, it’s what they are spending on an lying about it.
+<br/>
+
+Clarence Coggins spending my money without my consent between borrower and lender is a problem I’m pissed
+<br/>
+
+Nick Carducci if the money went back to the borrower there would be less to be pissed at.
+<br/>
+
+Clarence Coggins the borrower’s customers deserve that money, those borrowers became monopsony && colonized
+          <br/><br/>
           We don't need an expansion of currencyComponentOfM1 to open
           <br />
           we need profit-share economy that WAITS for customers before paying
