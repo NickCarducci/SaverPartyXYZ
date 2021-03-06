@@ -290,7 +290,9 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >Either all of you are complicit or I am due the first Nobel Prize in Economics
+          <br/>
+          <br/>
           The Bill has been negotiated to pay backrent-wishes!! Those prices
           were fixed since&nbsp;
           <a href="https://micro-theory.com">demand couldn't handle them</a>
