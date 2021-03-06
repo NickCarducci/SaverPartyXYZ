@@ -320,6 +320,13 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
           />
           <br />
+          “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
+          &nbsp;claims it is not opinion the virus will spread without&nbsp;
+          <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
+          must do it to not be forced to <a href="https://moldmask.co">mask</a>
+          ], it only does spreads if you have symptoms or don't your wash
+          hands/face.
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
