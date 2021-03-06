@@ -289,6 +289,16 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Herd immunity is so stupid. Why rush{" "}
+          <a href="https://froth.app">death</a>&nbsp;
+          <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
+          <a href="https://moldmask.co">moldmask.co</a>
+          <br />
+          MOLDMASK.CO Mold Mask a 2052 product <br />
+          <br />
+          If it can suppress the virus without a person interacting with the
+          “vaccine”/graft or the virus, then it has a single source on the earth
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
