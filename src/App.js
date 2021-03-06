@@ -292,7 +292,7 @@ export default class App extends React.Component {
           }}
         >
           Either all of you are complicit or I am due the first Nobel Prize in
-          Economics, state because CNN keeps using polls this is what the
+          Economics, Stats because CNN keeps using polls this is what the
           American People want, they are stating as fact without saying the
           sample size. this is highly illegal, just like the calling on Election
           Day
