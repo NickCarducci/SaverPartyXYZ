@@ -290,7 +290,7 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >socialism devolves into hunger/communism, or resolves into no promises/only profit-schedule
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <img
               alt=""
