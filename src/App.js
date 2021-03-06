@@ -293,7 +293,7 @@ export default class App extends React.Component {
           <br />
           Leftists rely on imagination of owning my equity as sustinence
           <br />
-          Unemployment slave songs are their Gallup polls n=2700
+          <a href="https://www.vanhollen.senate.gov/">Unemployment slave songs</a>&nbsp;are their Gallup polls n=2700
           <br />
           <br />
           It is all going to go back to those before involuntary dollar-split
