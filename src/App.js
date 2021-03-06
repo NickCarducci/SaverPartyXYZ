@@ -292,7 +292,7 @@ export default class App extends React.Component {
         >
           CNN: "Let's hope this bill gets us there."&nbsp;
           <a href="https://humanharvest.info">
-            Where, to make sure no 1985-vintage aborted fetus investment/ghost city is wasted
+            Where, to make sure no 1985-vintage aborted fetus investment/ghost city is wasted/paid
           </a>
           ?
           <br />
