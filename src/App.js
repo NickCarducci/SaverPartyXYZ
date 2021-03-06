@@ -291,6 +291,24 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+          <i
+            onClick={() => this.stats.current.scrollIntoView("smooth")}
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+          The Results Are In
+          </i></span>
+          <br/>
           The analysis of GDP trying to fix for reality is that, even if you did
           capture every productSkew net-, percentage-change, you would not
           capture&nbsp;
