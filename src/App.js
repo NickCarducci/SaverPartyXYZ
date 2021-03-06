@@ -74,6 +74,7 @@ export default class App extends React.Component {
     this.squatting = React.createRef();
     this.jhuecon = React.createRef();
     this.collective = React.createRef();
+    this.ronInsurance = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -1423,9 +1424,22 @@ export default class App extends React.Component {
               fontSize: this.state.highlightCollective !== null ? "" : "0px"
             }}
           >
-            Collective bargain is not prisoners’ duress pooling on gift card
-            pools subject to invoice waging unrequited funds, instead of bulk
-            gift certificate purchase <br />
+            Collective bargain is bulk gift certificate purchases, not&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.ronInsurance.current.scrollIntoView("smooth");
+                this.setState({ highlightRonInsurance: true });
+                setTimeout(
+                  () => this.setState({ highlightRonInsurance: false }),
+                  10000
+                );
+              }}
+            >
+              prisoners’ dilemma, duress-pooling on gift card pools
+            </span>
+            , subject to invoice to boot - waging unrequited funds
+            <br />
             <br />
             Stolen funds herein used for qualified payment sick leave paragraph
             1A awaiting for test of covid19 (another fraud of payment, for covid
@@ -3962,8 +3976,21 @@ export default class App extends React.Component {
             they love rent and being colonized instead of letting trade settle
             at lower price
             <br />
-            they love allowing insurance to pool their demand capacity and risk
-            and instigating themselves to prisoners' dilemma of duress
+            they love allowing{" "}
+            <span
+              ref={this.ronInsurance}
+              style={{
+                color: this.state.highlightRonInsurance ? "white" : "grey",
+                backgroundColor: this.state.highlightRonInsurance
+                  ? "rgb(170,100,205)"
+                  : "",
+                opacity: this.state.highlightRonInsurance !== null ? "1" : "0",
+                fontSize: this.state.highlightRonInsurance !== null ? "" : "0px"
+              }}
+            >
+              insurance to pool their demand capacity and risk and instigating
+              themselves to prisoners' dilemma of duress
+            </span>
             <br />
             <div
               style={{
