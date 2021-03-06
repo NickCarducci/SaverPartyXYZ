@@ -72,6 +72,7 @@ export default class App extends React.Component {
     this.education = React.createRef();
     this.congressVsCongress = React.createRef();
     this.squatting = React.createRef();
+    this.jhuecon = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
