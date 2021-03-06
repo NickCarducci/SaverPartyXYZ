@@ -310,6 +310,10 @@ export default class App extends React.Component {
           >
             willing and able
           </span>
+          &nbsp;to give, insurance binds us to meet these asks, preventing
+          settled trade ignoring the&nbsp;
+          <a href="https://micro-theory.com">counterfeit-in-contract</a>
+          &nbsp;case
           <br />
           <img
             alt=""
