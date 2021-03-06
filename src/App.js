@@ -292,9 +292,38 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          socialism either: (1) devolves into
-          hunger/communism/corporatism/monopsonies-infiltrating-insurance, or
-          (2) resolves into no promises/only profit-schedule.
+          socialism either: (1)&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.marx.current.scrollIntoView("smooth");
+              this.setState({ highlightMarx: true });
+              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
+            }}
+          >
+            devolves
+          </span>
+          &nbsp;into hunger/communism/corporatism/
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightInsurance: true });
+              setTimeout(
+                () => this.setState({ highlightInsurance: false }),
+                10000
+              );
+            }}
+          >
+            monopsonies-infiltrating-insurance
+          </span>
+          , or (2) resolves into no promises/only{" "}
+          <a href="https://vaults.biz">profit-schedule</a>.
           <br />
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <img
