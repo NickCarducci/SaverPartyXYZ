@@ -471,9 +471,10 @@ export default class App extends React.Component {
           years
           <br />
           <br />
-          Either Manchin doesn't understand price-elasticity or he is lying and
-          guilty of intending to harm AND mislead by saying, "Covid Relief Bill
-          will help Americans for a long time."
+          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
+          &nbsp;doesn't understand price-elasticity or he is lying and guilty of
+          intending to harm AND mislead by saying, "Covid Relief Bill will help
+          Americans for a long time."
           <br />
           Manchin continues, "$300/week was enough, so no one misses a paycheck"
           <br />
