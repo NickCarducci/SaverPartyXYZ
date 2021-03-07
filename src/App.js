@@ -1577,7 +1577,6 @@ export default class App extends React.Component {
           </div>{" "}
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -1587,14 +1586,25 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            "Recovery startup business" - any business started after Dems locked
-            us down without evidence to expunge a great lay-off wave for
-            unemployment insurance claims, which we never agreed to
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              "Recovery startup business"
+            </span>
+            &nbsp;- any business started after Dems locked us down without
+            evidence to expunge a great lay-off wave for unemployment insurance
+            claims, which we never agreed to
             <br />
             <br />
             This only helps government in&nbsp;
             <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
               onClick={() => {
                 this.valuation.current.scrollIntoView("smooth");
                 this.setState({ highlightValuation: true });
@@ -1618,12 +1628,20 @@ export default class App extends React.Component {
               HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR
               SPECIFIED DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES
             </a>
-            <br />9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.— 10 No credit shall be
-            allowed under this section to the 11 Government of the United States
-            or to any agency 12 or instrumentality thereof. The preceding
-            sentence 13 shall not apply to any organization described in sec14
-            tion 501(c)(1) of the Internal Revenue Code of 1986 15 and exempt
-            from tax under section 501(a) of such 16 Code.’’
+            <br />
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.— 10 No credit shall be
+              allowed under this section to the 11 Government of the United
+              States or to any agency 12 or instrumentality thereof. The
+              preceding sentence 13 shall not apply to any organization
+              described in sec14 tion 501(c)(1) of the Internal Revenue Code of
+              1986 15 and exempt from tax under section 501(a) of such 16
+              Code.’’
+            </span>
             <br />
             <br />
             No government agency can get this credit but they can get the
@@ -1654,7 +1672,6 @@ export default class App extends React.Component {
           <div
             ref={this.collective}
             style={{
-              fontFamily: '"Hi Melody", cursive',
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
@@ -1669,7 +1686,14 @@ export default class App extends React.Component {
               fontSize: this.state.highlightCollective !== null ? "" : "0px"
             }}
           >
-            Collective bargain is bulk gift certificate purchases, not&nbsp;
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              Collective bargain
+            </span>
+            &nbsp;is bulk gift certificate purchases, not&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -1697,14 +1721,21 @@ export default class App extends React.Component {
             productive uses of time
             <br />
             <br />
-            ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
-            GENERAL.—The amount of the credit 6 allowed under this section to
-            any taxpayer for any 7 taxable year shall be reduced (but not below
-            zero) by 8 the aggregate amount of payments made under sec9 tion
-            7527A to such taxpayer during such taxable 10 year. Any failure to
-            so reduce the credit shall be 11 treated as arising out of a
-            mathematical or clerical 12 error and assessed according to section
-            6213(b)(1). <br />
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
+              GENERAL.—The amount of the credit 6 allowed under this section to
+              any taxpayer for any 7 taxable year shall be reduced (but not
+              below zero) by 8 the aggregate amount of payments made under sec9
+              tion 7527A to such taxpayer during such taxable 10 year. Any
+              failure to so reduce the credit shall be 11 treated as arising out
+              of a mathematical or clerical 12 error and assessed according to
+              section 6213(b)(1).
+            </span>{" "}
+            <br />
             <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
               This bill is fraud to pay off taxes
