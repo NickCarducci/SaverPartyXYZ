@@ -5067,7 +5067,18 @@ export default class App extends React.Component {
               demand]/communism/corporatism evidently looking at the US/CNN
               unit, misleading people to their deaths. I bet as many people will
               die from rushed side-effects that would normally die from
-              flu/covid.{" "}
+              &nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.oldFlu.current.scrollIntoView("smooth");
+                  this.setState({ highlightOldFlu: true });
+                  setTimeout(
+                    () => this.setState({ highlightOldFlu: false }),
+                    10000
+                  );
+                }}
+              >flu/covid</span>.{" "}
             </span>
             <br />
             <a
