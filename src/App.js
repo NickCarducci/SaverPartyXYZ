@@ -296,7 +296,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Officer of Government Ethics vs Accountabilty.  Do they do civil war re-enactments?
+          Officer of Government Ethics vs Accountabilty. Do they do civil war
+          re-enactments? being a free-rider works employee, you have to serve
+          the best interests of citizens or it is a violation of civil rights in
+          colonialism and the penumbrum of ownership relationships be it people
+          themselves, their homes or their entries into supply or labor for
+          demand.
           <i>
             <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
           </i>
