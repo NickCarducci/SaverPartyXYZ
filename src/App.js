@@ -810,6 +810,7 @@ Either Manchin doesn't understand price-elasticity or he is lying and guilty of 
             Joe Biden
           </a>
           <br />
+          <br />
           <Employ2Pop />
           <br />
           "No fault of their own," - Biden straight from Medical Industry
