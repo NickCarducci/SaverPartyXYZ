@@ -1641,7 +1641,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              wordBreak: "break-all",
+              wordBreak: "break-word",
               display: "inline-block",
               border: "3px solid blue",
               borderRadius: "10px",
