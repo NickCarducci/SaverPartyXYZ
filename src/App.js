@@ -1349,8 +1349,29 @@ export default class App extends React.Component {
           </div>
           <br />
           This bitch saying you save money $2t in taxes without spending it
-          without taxing it... is admittance that spending is not tax-payer
+          without taxing it... is admittance that spending is not&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.fishInBarrel.current.scrollIntoView("smooth");
+                this.setState({ highlightFishInBarrel: true });
+                setTimeout(() => this.setState({ highlightFishInBarrel: false }), 10000);
+              }}
+            >tax-payer</span>
           funded&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+              setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+          >
+            Party
+          </span>
+          &nbsp;in the&nbsp;
           <a
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -1360,7 +1381,7 @@ export default class App extends React.Component {
             }}
             href="https://nationalsecuritycasino.com"
           >
-            Party in the U.S.A.
+            U.S.A.
           </a>
           <div style={{ position: "relative" }}>
             {" "}
@@ -4605,14 +4626,24 @@ export default class App extends React.Component {
             hidden designs/test-results and close a trade.
             <br />
             <br />
-            This can be accomplished without compromising retail positions, by
+            <span
+              ref={this.fishInBarrel}
+              style={{
+                color: this.state.highlightFishInBarrel ? "white" : "grey",
+                backgroundColor: this.state.highlightFishInBarrel
+                  ? "rgb(170,100,205)"
+                  : "",
+                opacity: this.state.highlightFishInBarrel !== null ? "1" : "0",
+                fontSize: this.state.highlightFishInBarrel !== null ? "" : "0px"
+              }}
+            >This can be accomplished without compromising retail positions, by
             providing SEC with UUID for portfolios but require brokers to
             anonymize these trades so portfolio information cannot be compiled
             and traded against expiring options out of the money like&nbsp;
             <a href="https://nationalsecuritycasino.com">
               shooting fish in a barrel
             </a>
-            .
+            .</span>
           </div>
           <i
             style={{
@@ -7176,12 +7207,12 @@ export default class App extends React.Component {
               }}
               ref={this.fintech}
             >
-              Allpoint and Greendot oligopoly prevents me
-            </span>{" "}
-            from extending payable services because it requires me to take
-            counterfeit offers with cross-party down-payment
-            malfeasant-jurisprudence risk in requiring that I accept credit to
-            accept debit, and banks that cost $10/mo instead of ATM networks
+              Allpoint and Greendot oligopoly prevents me from extending payable
+              services because it requires me to take counterfeit offers with
+              cross-party down-payment malfeasant-jurisprudence risk in
+              requiring that I accept credit to accept debit, and banks that
+              cost $10/mo instead of ATM networks
+            </span>
           </div>
           <i
             style={{
