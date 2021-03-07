@@ -6141,9 +6141,13 @@ export default class App extends React.Component {
               programs are obviously to not let lenders lose.
               <br />I am publishing this on saverparty.xyz and telling people to
               short the treasury and all lenders as well as treasury share stock
-              before Boeing dropped "due to covid."  Correlation begs the
-              accusation for an apparent lie and conspiracy to hide information
-              from people who look at price/book or earnings.
+              before&nbsp;
+              <a href="https://nationalsecuritycasino.com">
+                Boeing dropped "due to covid."
+              </a>
+              &nbsp;&nbsp;Correlation begs the accusation for an apparent lie
+              and conspiracy to hide information from people who look at
+              price/book or earnings.
               <br />
               Nick Carducci.sh
               <br />
