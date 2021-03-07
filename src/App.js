@@ -307,7 +307,7 @@ export default class App extends React.Component {
           >
             laws have to be justice-oriented in order for the equal application
             of unequal laws to be applied - price-fixing is not justice
-          </i>
+          </i><br/><br/>
           Officer of Government Ethics vs&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
