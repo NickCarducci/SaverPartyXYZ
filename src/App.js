@@ -4957,9 +4957,20 @@ export default class App extends React.Component {
               wavv.art/forumMqCyVEXOjfYPErd902Vp
             </a>
             <br />
-            given 2020 deaths are so abnormally low, but higher due to old-age
-            population (not the virus), the other reason must be the fear
-            instilled by Wolf Blitzer and putting sick & old people together
+            given 2020 deaths are so abnormally low, but higher due to&nbsp;
+            <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+              old-age population
+            </a>
+            &nbsp;(not the&nbsp;
+            <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm">
+              96%-similar
+            </a>
+            &nbsp;to&nbsp;
+            <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
+              Sars-Cov-1 virus
+            </a>
+            ), the other reason must be the fear instilled by Wolf Blitzer and
+            putting sick & old people together
             <br />
             Would like to see a chart of population of people above 90 but
             the macrotrends.net/countries/USA/united-states/death-rate source is
@@ -5348,11 +5359,13 @@ export default class App extends React.Component {
                   this.state.highlightGrandmaMentality !== null ? "" : "0px"
               }}
             >
-              use a tissue, wash your hands,&nbsp;<a href="https://moldmask.co">take off your masks</a>
+              use a tissue, wash your hands,&nbsp;
+              <a href="https://moldmask.co">take off your masks</a>
               <br />
-              don't take a&nbsp;<a href="https://humanharvest.info">"vaccine"/graft</a> that could cause malformation/cancer with
-              normal life expectancy. They don't want to pay for larger,
-              first-world old-age population
+              don't take a&nbsp;
+              <a href="https://humanharvest.info">"vaccine"/graft</a> that could
+              cause malformation/cancer with normal life expectancy. They don't
+              want to pay for larger, first-world old-age population
               <br />
               couples who pass at the same time is correlative evidence that it
               is mostly mental, and CNN can be attributable to my grandma's
