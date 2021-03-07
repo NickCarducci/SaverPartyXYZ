@@ -1351,16 +1351,17 @@ export default class App extends React.Component {
           This bitch saying you save money $2t in taxes without spending it
           without taxing it... is admittance that spending is not tax-payer
           funded&nbsp;
-          <i
+          <a
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder"
               //textDecoration: "underline"
             }}
+            href="https://nationalsecuritycasino.com"
           >
             Party in the U.S.A.
-          </i>
+          </a>
           <div style={{ position: "relative" }}>
             {" "}
             <img
