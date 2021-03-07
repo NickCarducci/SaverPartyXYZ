@@ -77,6 +77,7 @@ export default class App extends React.Component {
     this.collective = React.createRef();
     this.ronInsurance = React.createRef();
     this.livingWage = React.createRef();
+    this.goa = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -296,16 +297,27 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Officer of Government Ethics vs Accountabilty. Do they do civil war
-          re-enactments? Being a free-rider works employee, you have to serve
-          the best interests of citizens or it is a violation of civil rights in
-          colonialism and the penumbrum of ownership relationships, be it people
-          themselves, their homes or their entries into supply or labor for
-          demand. It is taken from 3% sales tax under $2k if there is an
-          immutable free-rider customer, but if it is not - and is by
-          counterfeit/debt/invoice - then it is worse, as it is monopsony of
-          rawest fixed-input cost due upon it price and quality-defect without
-          the option for competition from verifiably unbiased and&nbsp;
+          Officer of Government Ethics vs&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.goa.current.scrollIntoView("smooth");
+              this.setState({ highlightGOA: true });
+              setTimeout(() => this.setState({ highlightGOA: false }), 10000);
+            }}
+          >
+            Accountabilty
+          </span>
+          . Do they do civil war re-enactments? Being a free-rider works
+          employee, you have to serve the best interests of citizens or it is a
+          violation of civil rights in colonialism and the penumbrum of
+          ownership relationships, be it people themselves, their homes or their
+          entries into supply or labor for demand. It is taken from 3% sales tax
+          under $2k if there is an immutable free-rider customer, but if it is
+          not - and is by counterfeit/debt/invoice - then it is worse, as it is
+          monopsony of rawest fixed-input cost due upon it price and
+          quality-defect without the option for competition from verifiably
+          unbiased and&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -3208,25 +3220,42 @@ export default class App extends React.Component {
             self-harm is not your choice to stop if fully-informed, but this is
             harm to others unrequited
             <br />
-            Honorable Gene Dodardo (Government Accountability Office what a
-            crock of shit/fraud to prohibit [settled] trade) is an idiot if he
-            is not a consumer, retarded if he is one, or nefariously lying
-            understanding that it is not the case that, "SBA loans helps small
-            businesses," when in fact it obviously prohibits price-elasticity
-            and the same product could be had for a much lower price without it.
-            <br />
-            trade is an exchange of mutual benefits, loans are predatory and are
-            to keep paying lenders, rentiers, colonists, and instigators of
-            prisoners' dilemma pooling from losing out their usurped income that
-            they are used to
-            <br />
-            Not only do we owe it back but it is an antitrust case against the
-            government advertising this as helpful instead of anticompetitive
-            for government and asset accumulation by lending usurped funds and
-            payout schedule in contract beyond a willing/able customer, and only
-            raises price - it obviously does not help and to say otherwise is
-            reprehensible if intentful or not for a government official
-            (Comptroller General) to hold as true.
+            <span
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightGOA ? "white" : "",
+                backgroundColor: this.state.highlightGOA
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightGOA !== null ? "1" : "0",
+                fontSize: this.state.highlightGOA !== null ? "" : "0px"
+              }}
+              ref={this.goa}
+            >
+              Honorable Gene Dodardo (Government Accountability Office what a
+              crock of shit/fraud to prohibit [settled] trade) is an idiot if he
+              is not a consumer, retarded if he is one, or nefariously lying
+              understanding that it is not the case that, "SBA loans helps small
+              businesses," when in fact it obviously prohibits price-elasticity
+              and the same product could be had for a much lower price without
+              it.
+              <br />
+              trade is an exchange of mutual benefits, loans are predatory and
+              are to keep paying lenders, rentiers, colonists, and instigators
+              of prisoners' dilemma pooling from losing out their usurped income
+              that they are used to
+              <br />
+              Not only do we owe it back but it is an antitrust case against the
+              government advertising this as helpful instead of anticompetitive
+              for government and asset accumulation by lending usurped funds and
+              payout schedule in contract beyond a willing/able customer, and
+              only raises price - it obviously does not help and to say
+              otherwise is reprehensible if intentful or not for a government
+              official (Comptroller General) to hold as true.
+            </span>
             <br />
             <div style={{ display: "flex", flexWrap: "wrap" }}>
               <iframe
