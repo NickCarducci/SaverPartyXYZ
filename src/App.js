@@ -310,7 +310,7 @@ export default class App extends React.Component {
           "We did, we got it done"
           <br />
           <br />
-          So regressive and anticompetitive
+          So regressive, abjectly-illegal, and anticompetitive
           <br />
           <div 
             style={{
