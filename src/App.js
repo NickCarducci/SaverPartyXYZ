@@ -302,13 +302,13 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "Power of compound interest," ex-Senator Phil Gramm says on Conversations with Nancy Brinker.
-          <br/>
-
+          "Power of compound interest," ex-Senator Phil Gramm says on
+          Conversations with Nancy Brinker.
+          <br />
           "The debt will be there until Jesus comes back," he continues.
-          <br/>
-
-          "Interest rates will be at historic lows [5yr gov bond 5% post-war [1950-2000] until then"
+          <br />
+          "Interest rates will be at historic lows, unlike 5yr gov bond 5% post-war
+          [1950-2000] until then"
           <br/><br/>
           "Where is it&nbsp;
           <span
