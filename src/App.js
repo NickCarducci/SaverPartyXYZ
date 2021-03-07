@@ -83,8 +83,8 @@ export default class App extends React.Component {
     this.newsy = React.createRef();
     this.Oooreily = React.createRef();
     this.homebuilder = React.createRef();
-    this.covidKills=React.createRef()
-    this.grandmaMentality = React.createRef()
+    this.covidKills = React.createRef();
+    this.grandmaMentality = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -325,7 +325,9 @@ export default class App extends React.Component {
               );
             }}
           >
-          200k/year deaths</span>&nbsp;is more important than&nbsp;
+            200k/year deaths
+          </span>
+          &nbsp;is more important than&nbsp;
           <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
             80k/year missing children
           </a>
@@ -502,7 +504,7 @@ export default class App extends React.Component {
           </a>
           <br />
           CNN: "[This bill provides] aid for state and local government [bonds]"
-          - Jake Tepper filling in for Reliable Sources with Brian Stelter
+          - Jake Tepper, State of the Union, CNN
           <br />
           A Democrat says she only cares about current working lives is
           admittance of conspiring to build trust
@@ -1829,45 +1831,48 @@ export default class App extends React.Component {
             isn't enough and you hve no civil right to make more credit
             <br />
             <br />
-            
-          <span
-            ref={this.covidKills}
-            style={{
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightCovidKills ? "white" : "grey",
-              backgroundColor: this.state.highlightCovidKills
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightCovidKills !== null ? "1" : "0",
-              fontSize: this.state.highlightCovidKills !== null ? "" : "0px"
-            }}
-          >You have no court-confirmable proof that&nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.grandmaMentality.current.scrollIntoView("smooth");
-            this.setState({ highlightGrandmaMentality: true });
-            setTimeout(
-              () => this.setState({ highlightGrandmaMentality: false }),
-              10000
-            );
-          }}
-        >covid kills</span>&nbsp;regardless the
-            unrequited consent of unemployment insurance arrangement (see
-            absolute bottom of page)
-            <br />
-            "Investment-grade bonds," Are made that way by the very institution
-            lending these out. Relying on the collusion in which it is the
-            prosecution's (mine) duty to cite, the democrat aides admit to here
-            in HR.1
-            <br />
-            “Special financial assistance,” would be to help negotiate original
-            principle without credit found market marginal utility:cost price,
-            not favor the lender or overreaching landlord
+            <span
+              ref={this.covidKills}
+              style={{
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px",
+                color: this.state.highlightCovidKills ? "white" : "grey",
+                backgroundColor: this.state.highlightCovidKills
+                  ? "rgb(170,100,205)"
+                  : "",
+                opacity: this.state.highlightCovidKills !== null ? "1" : "0",
+                fontSize: this.state.highlightCovidKills !== null ? "" : "0px"
+              }}
+            >
+              You have no court-confirmable proof that&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.grandmaMentality.current.scrollIntoView("smooth");
+                  this.setState({ highlightGrandmaMentality: true });
+                  setTimeout(
+                    () => this.setState({ highlightGrandmaMentality: false }),
+                    10000
+                  );
+                }}
+              >
+                covid kills
+              </span>
+              &nbsp;regardless the unrequited consent of unemployment insurance
+              arrangement (see absolute bottom of page)
+              <br />
+              "Investment-grade bonds," Are made that way by the very
+              institution lending these out. Relying on the collusion in which
+              it is the prosecution's (mine) duty to cite, the democrat aides
+              admit to here in HR.1
+              <br />
+              “Special financial assistance,” would be to help negotiate
+              original principle without credit found market marginal
+              utility:cost price, not favor the lender or overreaching landlord
             </span>
             <br />
             <br />
@@ -5324,32 +5329,35 @@ export default class App extends React.Component {
             <br />
             CNN calling vaccines/grafts, platforms now
             <br />
-            
-          <span
-            ref={this.grandmaMentality}
-            style={{
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightGrandmaMentality ? "white" : "grey",
-              backgroundColor: this.state.highlightGrandmaMentality
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightGrandmaMentality !== null ? "1" : "0",
-              fontSize: this.state.highlightGrandmaMentality !== null ? "" : "0px"
-            }}
-          >use a tissue, wash your hands, take off your masks
-            <br />
-            don't take a "vaccine" that could cause malformation/cancer with
-            normal life expectancy. They don't want to pay for larger,
-            first-world old-age population
-            <br />
-            couples who pass at the same time is correlative evidence that it is
-            mostly mental, and CNN can be attributable to my grandma's friends'
-            deaths</span>
+            <span
+              ref={this.grandmaMentality}
+              style={{
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px",
+                color: this.state.highlightGrandmaMentality ? "white" : "grey",
+                backgroundColor: this.state.highlightGrandmaMentality
+                  ? "rgb(170,100,205)"
+                  : "",
+                opacity:
+                  this.state.highlightGrandmaMentality !== null ? "1" : "0",
+                fontSize:
+                  this.state.highlightGrandmaMentality !== null ? "" : "0px"
+              }}
+            >
+              use a tissue, wash your hands, take off your masks
+              <br />
+              don't take a "vaccine" that could cause malformation/cancer with
+              normal life expectancy. They don't want to pay for larger,
+              first-world old-age population
+              <br />
+              couples who pass at the same time is correlative evidence that it
+              is mostly mental, and CNN can be attributable to my grandma's
+              friends' deaths
+            </span>
             <br />
             <br />
             The anti-freedomers are going to be the future homeschoolers lmao
