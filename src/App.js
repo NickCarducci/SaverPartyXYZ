@@ -300,6 +300,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          "For families, businesses, [price-fixing] and state and local governments" - Chris Wallace
+        <br/>
           <div 
             style={{
               width: "100%",
