@@ -299,8 +299,26 @@ export default class App extends React.Component {
           Ron Desantis sounds like he wants to run a business being forced to
           use their product,&nbsp;
           <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-            ban zuckerberg and others
+            "ban zuckerberg and others,"
           </a>
+          &nbsp;he says.&nbsp;
+          <a href="https://johnshopkins.academia.edu/NickCarducci">
+            I have been working on this product since 2012
+          </a>
+          &nbsp;because no one could do the job and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
+              setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
+            }}
+          >
+            protect civil rights
+          </span>
           <br />
           <br />
           CNN soliciting listeners that, "government-backed loans is the only
