@@ -2358,7 +2358,7 @@ export default class App extends React.Component {
             because of a "contract," what fucking idiots hoidy hoiy
             <br />
             <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
-              Stimulous for low-population areas (must be paid back, supports
+              Stimulus for low-population areas (must be paid back, supports
               "savings" accounts' accounting fraud
             </a>
           </div>
@@ -3695,7 +3695,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Stimulous (ignoring harm done in price-inelasticity inflation,
+            Stimulus (ignoring harm done in price-inelasticity inflation,
             monetary inflation/involuntary servitude) cannot relieve anything if
             finance is banned
           </div>
@@ -3846,6 +3846,8 @@ export default class App extends React.Component {
                 );
               }}
               style={{
+                fontWeight: "bolder",
+                textDecoration: "underline",
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -3864,6 +3866,7 @@ export default class App extends React.Component {
             </span>{" "}
             they have to prove it to{" "}
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.flop.current.scrollIntoView("smooth");
                 this.setState({ highlightFlop: true });
@@ -4336,7 +4339,7 @@ export default class App extends React.Component {
             >
               GDP
             </span>{" "}
-            "growth but not stimulous," your measure is off retard
+            "growth but not Stimulus," your measure is off retard
             <br />
             you're only harming yourself and all of us
             <br />
@@ -4910,7 +4913,7 @@ export default class App extends React.Component {
           >
             "conservatives" at CPAC are retarded, as they only harm themselves
             (and others), or colonizers and have no demand or production in the
-            trade in asking for stimulous for usurped invoice contracts and rent
+            trade in asking for Stimulus for usurped invoice contracts and rent
             instead of allowing prices to be found by natural capacity, made
             from diluting their own dollars and others' by unrequited
             share-split.
@@ -5310,7 +5313,7 @@ export default class App extends React.Component {
             </span>
             &nbsp;Elizabeth Kate Claman, it is mostly invoices/counterfeit
             <br />
-            Curtis Swila and Democrats must be conspiring, giving stimulous and
+            Curtis Swila and Democrats must be conspiring, giving Stimulus and
             enforcing collection by landlords/debtors. Most apparent fraud to
             conspire to prohibit-trade in price elasticity or reposession/down
             payment reconciliation for borrowers' customers there can possibly
@@ -5338,14 +5341,13 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            lenders do not want bankruptcy, but they want stimulous for
-            borrowers instead of the protection I can provide with legal
-            arguments below, because then the debt can no longer enslave the
-            colonized-borrowers' customers down payments, or compete (by adding
-            utility other than counterfeiting contracts to themselves of an
-            unrequited dollar owner and self since it is more than principal
-            without waiting customers' willingness and ability at the natural
-            price)&nbsp;
+            lenders do not want bankruptcy, but they want Stimulus for borrowers
+            instead of the protection I can provide with legal arguments below,
+            because then the debt can no longer enslave the colonized-borrowers'
+            customers down payments, or compete (by adding utility other than
+            counterfeiting contracts to themselves of an unrequited dollar owner
+            and self since it is more than principal without waiting customers'
+            willingness and ability at the natural price)&nbsp;
             <a
               style={{
                 fontFamily: '"Hi Melody", cursive'
@@ -8561,7 +8563,7 @@ export default class App extends React.Component {
             open-carry is also an exhibited threat
             <br />
             <b style={{ textDecoration: "underline" }}>
-              Any further stimulous is bail out for usurpers, whom forced us
+              Any further Stimulus is bail out for usurpers, whom forced us
               under duress or without consent at all to promise someone else's
               money.
             </b>{" "}
