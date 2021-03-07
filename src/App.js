@@ -300,8 +300,26 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Biden: "I promised I would get government to work for the American people, and this bill will do that," says Joe Biden
-          <br/>
+          Biden: "I promised I would get government to work for the American
+          people, and this bill will do that," says Joe Biden
+          <br />
+          <a
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+            href="https://wavv.art/United_States_of_America"
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dropbox.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
+            />
+          </a>
+          <br />
           CNN: "[This bill provides] aid for state and local government [bonds]"
           - Jake Tepper filling in for Reliable Sources with Brian Stelter
           <br />
