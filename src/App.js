@@ -297,7 +297,7 @@ export default class App extends React.Component {
           }}
         >
           Officer of Government Ethics vs Accountabilty. Do they do civil war
-          re-enactments? being a free-rider works employee, you have to serve
+          re-enactments? Being a free-rider works employee, you have to serve
           the best interests of citizens or it is a violation of civil rights in
           colonialism and the penumbrum of ownership relationships be it people
           themselves, their homes or their entries into supply or labor for
