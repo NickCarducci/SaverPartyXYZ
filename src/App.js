@@ -316,7 +316,7 @@ export default class App extends React.Component {
                 width: "100%",
                 height: "auto"
               }}
-              src="https://www.dropbox.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
             />
           </a>
           <br />
