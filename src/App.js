@@ -299,11 +299,15 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >Manchin: "$300, no one misses a paycheck"
-          <br/>
-          <br/>
-          "For families, businesses, [price-fixing] and state and local governments" - Chris Wallace
-        <br/>
+        >
+          Manchin: "$300, no one misses a paycheck"
+          <br />
+          <br />
+          "For families, businesses, [price-fixing] and state and local
+          governments... Why couldn't you work with Republicans" - Chris Wallace
+          <br />
+          "We did, we got it done"
+          <br />
           <div 
             style={{
               width: "100%",
