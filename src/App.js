@@ -299,9 +299,27 @@ export default class App extends React.Component {
           Officer of Government Ethics vs Accountabilty. Do they do civil war
           re-enactments? Being a free-rider works employee, you have to serve
           the best interests of citizens or it is a violation of civil rights in
-          colonialism and the penumbrum of ownership relationships be it people
+          colonialism and the penumbrum of ownership relationships, be it people
           themselves, their homes or their entries into supply or labor for
-          demand.
+          demand. It is taken from 3% sales tax under $2k if there is an
+          immutable free-rider customer, but if it is not - and is by
+          counterfeit/debt/invoice - then it is worse, as it is monopsony of
+          rawest fixed-input cost due upon it price and quality-defect without
+          the option for competition from verifiably unbiased and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
+              setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
+            }}
+          >
+            civilly-minded, civic-tech
+          </span>
+          .
           <i>
             <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
           </i>
