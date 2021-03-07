@@ -2178,7 +2178,7 @@ export default class App extends React.Component {
           >
             Doubt about Racketeering
             <br />
-            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage
+            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
             <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
               organ-harvest/culture
             </a>
