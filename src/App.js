@@ -3058,7 +3058,9 @@ export default class App extends React.Component {
             former
             <br />
             "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year
-            only
+            only... debt is a negative balance and gdp is the amount of times
+            money is created or promised (not paid to debt, usually lent out
+            again, which counts as gdp again)
             <br />
             <a href="https://wavv.art/United_States_of_America">
               wavv.art/United_States_of_America
