@@ -3181,7 +3181,7 @@ export default class App extends React.Component {
               by "culturing" B-cells or creating a grandiose "universal B-cell"
             </a>
             <br />
-            self-harm is not your choice to stop if fully-informed, but this is
+            self-harm [of-age] is not your choice to stop if fully-informed, but this is
             harm to others unrequited
             <br />
             <span
@@ -9225,3 +9225,4 @@ export default class App extends React.Component {
     );
   }
 }
+
