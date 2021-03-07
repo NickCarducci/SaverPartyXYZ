@@ -86,6 +86,7 @@ export default class App extends React.Component {
     this.covidKills = React.createRef();
     this.grandmaMentality = React.createRef();
     this.oldFlu = React.createRef();
+    this.employmentOfOne = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -986,7 +987,9 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
-          <Employ2Pop />
+          <div ref={this.employmentOfOne}>
+            <Employ2Pop />
+          </div>
           <br />
           "No fault of their own," - Biden straight from Medical Industry
           Complex lobby. Ban invoices you fucking retard
@@ -1370,9 +1373,17 @@ export default class App extends React.Component {
             />
           </div>
           <br />
-          Most people have been hired back before the pandemic was over, that
-          means the firing is not for covid (ignoring the unequal application of
-          law for labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's &
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() =>
+              this.employmentOfOne.current.scrollIntoView("smooth")
+            }
+          >
+            Most people
+          </span>
+          &nbsp;have been hired back before the pandemic was over, that means
+          the firing is not for covid (ignoring the unequal application of law
+          for labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's &
           artists in favor of government-501c3-nonprofits/corporations,
           involuntary market/vault/share/dollar-split & impossibility - this is
           still fraud if unemployment insurance wasn't breaking Amendment 14/13)
@@ -5066,8 +5077,7 @@ export default class App extends React.Component {
               risk:[foreclosure wave, prepaid && mixed
               demand]/communism/corporatism evidently looking at the US/CNN
               unit, misleading people to their deaths. I bet as many people will
-              die from rushed side-effects that would normally die from
-              &nbsp;
+              die from rushed side-effects that would normally die from &nbsp;
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
@@ -5078,7 +5088,10 @@ export default class App extends React.Component {
                     10000
                   );
                 }}
-              >flu/covid</span>.{" "}
+              >
+                flu/covid
+              </span>
+              .{" "}
             </span>
             <br />
             <a
