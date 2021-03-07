@@ -449,6 +449,51 @@ export default class App extends React.Component {
             />
           </div>
           <br />
+          <span
+            style={{
+              display: "inline-block",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightLivingWage ? "white" : "",
+              backgroundColor: this.state.highlightLivingWage
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightLivingWage !== null ? "1" : "0",
+              fontSize: this.state.highlightLivingWage !== null ? "" : "0px"
+            }}
+            ref={this.livingWage}
+          >
+            -The Great Depression happened because the government paid off bonds
+            <br />
+            prices and opportunities can no longer sustain what was borrowed
+            <br />
+            Pure reconciliation for lenders. they price banks at 1x book but
+            book is 13x what is possible without making counterfeit contracts
+            reality
+          </span>
+          <br />
+          <img
+            alt=""
+            style={{
+              width: "calc(100% - 26px)",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
+          />{" "}
+          <br />
+          <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
+            https://www.sjsu.edu/faculty/watkins/depmon.htm
+          </a>
+          <br />
+          <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
+            https://www.nber.org/system/files/chapters/c1567/c1567.pdf
+          </a>
+          <br />
+          <a href="https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm">
+            https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm
+          </a>
+          <br />
           <br />
           Either all of you are complicit or I am due the first Nobel Prize in
           Economics, Stats because CNN keeps using polls this is what the&nbsp;
@@ -1187,51 +1232,6 @@ export default class App extends React.Component {
           -"50ppl {">"} 1/2Ppl," Sanders says.
           <br />
           <BalancedPortfolioAgainstDollars width={this.state.width} />
-          <br />
-          <span
-            style={{
-              display: "inline-block",
-              padding: "4px 10px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightLivingWage ? "white" : "",
-              backgroundColor: this.state.highlightLivingWage
-                ? "rgb(20,100,205)"
-                : "",
-              opacity: this.state.highlightLivingWage !== null ? "1" : "0",
-              fontSize: this.state.highlightLivingWage !== null ? "" : "0px"
-            }}
-            ref={this.livingWage}
-          >
-            -The Great Depression happened because the government paid off bonds
-            <br />
-            prices and opportunities can no longer sustain what was borrowed
-            <br />
-            Pure reconciliation for lenders. they price banks at 1x book but
-            book is 13x what is possible without making counterfeit contracts
-            reality
-          </span>
-          <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
-          />{" "}
-          <br />
-          <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
-            https://www.sjsu.edu/faculty/watkins/depmon.htm
-          </a>
-          <br />
-          <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
-            https://www.nber.org/system/files/chapters/c1567/c1567.pdf
-          </a>
-          <br />
-          <a href="https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm">
-            https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm
-          </a>
           <br />
           -But we would get the exact same world without it, at lower prices
           <br />
@@ -7690,8 +7690,7 @@ export default class App extends React.Component {
         <br />
         when buy Greenland IRS
         <br />
-        <h1
-            ref={this.navbar}>Saver Party</h1>
+        <h1 ref={this.navbar}>Saver Party</h1>
         demand-side conservatism (consent, no supply intervention by
         non-producing, scalping, serfdoms, leases and allow prices to be met and
         exactly settled by producers and consumers)
