@@ -307,7 +307,9 @@ export default class App extends React.Component {
           >
             laws have to be justice-oriented in order for the equal application
             of unequal laws to be applied - price-fixing is not justice
-          </i><br/><br/>
+          </i>
+          <br />
+          <br />
           Officer of Government Ethics vs&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -488,55 +490,80 @@ export default class App extends React.Component {
           <a href="https://vaults.biz">profit-schedule</a>.
           <br />
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-            <div style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
               <img
                 alt=""
                 style={{
-                  width: "50%",
+                  width: "100%",
                   height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
               />
             </div>
-            <div style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
               {" "}
               <img
                 alt=""
                 style={{
-                  width: "50%",
+                  width: "100%",
                   height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
               />
             </div>
-            <div style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
               {" "}
               <img
                 alt=""
                 style={{
-                  width: "50%",
+                  width: "100%",
                   height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
               />
             </div>
-            <div style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
               {" "}
               <img
                 alt=""
                 style={{
-                  width: "50%",
+                  width: "100%",
                   height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
               />
             </div>
-            <div style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
               {" "}
               <img
                 alt=""
                 style={{
-                  width: "50%",
+                  width: "100%",
                   height: "auto"
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
@@ -2761,6 +2788,7 @@ export default class App extends React.Component {
             <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
               <div
                 style={{
+                  width: "100%",
                   position: "relative"
                 }}
               >
