@@ -3181,8 +3181,8 @@ export default class App extends React.Component {
               by "culturing" B-cells or creating a grandiose "universal B-cell"
             </a>
             <br />
-            self-harm [of-age] is not your choice to stop if fully-informed, but this is
-            harm to others unrequited
+            self-harm [of-age] is not your choice to stop if fully-informed, but
+            this is harm to others unrequited
             <br />
             <span
               style={{
@@ -4344,7 +4344,14 @@ export default class App extends React.Component {
             Kevin Hasset says money is something you can exchange for goods;
             more accruately, and to fix for split/reverse-split not-appropriated
             appropriately, it is{" "}
-            <span style={{ textDecoration: "underline" }}>
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.foreignpolicy.current.scrollIntoView("smooth");
+                this.setState({ highlightFP: true });
+                setTimeout(() => this.setState({ highlightFP: false }), 10000);
+              }}
+            >
               market-share
             </span>{" "}
             Kudlow calling him the smartest guy in the world means Kudlow isn't
@@ -9225,4 +9232,3 @@ export default class App extends React.Component {
     );
   }
 }
-
