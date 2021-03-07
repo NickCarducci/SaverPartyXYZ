@@ -6293,7 +6293,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontWeight: "normal",
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -6306,6 +6306,7 @@ export default class App extends React.Component {
             <span
               ref={this.tea}
               style={{
+                fontWeight: "bolder",
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -6326,7 +6327,14 @@ export default class App extends React.Component {
             </span>
             <br />
             <br />
-            "I can say that shit", exclaims{" "}
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              "I can say that shit",
+            </span>
+            &nbsp;exclaims{" "}
             <a href="https://en.wikipedia.org/wiki/Cronus">
               Judge Janine Pirro
             </a>{" "}
@@ -6381,7 +6389,7 @@ export default class App extends React.Component {
             <br />
             it probably spreads by not washing hands or letting it fester in a
             mask, but the evidence shows that it doesn’t transmit if you are
-            just in a room with someone, here is the link a third time
+            just in a room with someone, here is the link a third time&nbsp;
             <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
               https://pubmed.ncbi.nlm.nih.gov/17542834/
             </a>{" "}
@@ -6435,7 +6443,7 @@ export default class App extends React.Component {
             mutates (variants) in reaction to antibodies & making them naturally
             vs mRNA graft both take 2 weeks
           </div>
-          <i
+          <span
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics"
@@ -6472,7 +6480,7 @@ export default class App extends React.Component {
             everything except thumbprint.us web-app on
             linkedin.com/in/nickcarducci facebook.com/nick.carducci, invest
             today!)
-          </i>
+          </span>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
