@@ -296,8 +296,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Officer of Government Ethics vs Accountabilty.  Do they do civil war re-enactments?
           <i>
-            <h2>Human Rights in a time of corruption and greed</h2>
+            <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
           </i>
           Ron Desantis sounds like he wants to run a business being forced to
           use their product,&nbsp;
