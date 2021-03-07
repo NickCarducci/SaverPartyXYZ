@@ -296,6 +296,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i>
+            <h2>Human Rights in a time of corruption and greed</h2>
+          </i>
           Ron Desantis sounds like he wants to run a business being forced to
           use their product,&nbsp;
           <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
