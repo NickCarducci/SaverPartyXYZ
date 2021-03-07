@@ -504,7 +504,7 @@ export default class App extends React.Component {
           </a>
           <br />
           CNN: "[This bill provides] aid for state and local government [bonds]"
-          - Jake Tepper, State of the Union, CNN
+          - Jake Tapper, State of the Union, CNN
           <br />
           A Democrat says she only cares about current working lives is
           admittance of conspiring to build trust
@@ -5348,9 +5348,9 @@ export default class App extends React.Component {
                   this.state.highlightGrandmaMentality !== null ? "" : "0px"
               }}
             >
-              use a tissue, wash your hands, take off your masks
+              use a tissue, wash your hands,&nbsp;<a href="https://moldmask.co">take off your masks</a>
               <br />
-              don't take a "vaccine" that could cause malformation/cancer with
+              don't take a&nbsp;<a href="https://humanharvest.info">"vaccine"/graft</a> that could cause malformation/cancer with
               normal life expectancy. They don't want to pay for larger,
               first-world old-age population
               <br />
