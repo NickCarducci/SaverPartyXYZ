@@ -81,6 +81,7 @@ export default class App extends React.Component {
     this.takingCredit = React.createRef();
     this.electionTech = React.createRef();
     this.newsy = React.createRef();
+    this.Oooreily = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -300,27 +301,50 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "Where is it coming from," queries Maria Barteloma<br/>
-          "Your children and grandchildren," replies Graham.<br/><br/>
-          Heart disease reduced for coffee-drinkers, maybe it is drinking 8-cups of water
-          <br/>
-          <br/>
-        <a
-          href="https://thumbprint.us"
-          style={{
-            //fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            //textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          Nick Carducci vs. the People
-        </a><br/>
-          Thumbprint.us is now being plagerized and competed with for the people in recent legislation (cheating) after turning down funding for 9 years
-        <br />
+          "Where is it coming from," queries Maria Barteloma
           <br />
-Either Manchin doesn't understand price-elasticity or he is lying and guilty of intending to harm AND mislead by saying, "Covid Relief Bill will help Americans for a long time."
-          <br/>
+          "Your children and&nbsp;<span 
+            onClick={() => {
+              this.Oooreily.current.scrollIntoView("smooth");
+              this.setState({ highlightOooreily: true });
+              setTimeout(
+                () => this.setState({ highlightOooreily: false }),
+                10000
+              );
+            }}
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}>grandchildren</span>," replies Graham.
+          <br />
+          <br />
+          Heart disease reduced for coffee-drinkers, maybe it is drinking 8-cups
+          of water
+          <br />
+          <br />
+          <a
+            href="https://thumbprint.us"
+            style={{
+              //fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              //textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            Nick Carducci vs. the People
+          </a>
+          <br />
+          Thumbprint.us is now being plagerized and competed with for the people
+          in recent legislation (cheating) after turning down funding for 9
+          years
+          <br />
+          <br />
+          Either Manchin doesn't understand price-elasticity or he is lying and
+          guilty of intending to harm AND mislead by saying, "Covid Relief Bill
+          will help Americans for a long time."
+          <br />
           Manchin continues, "$300/week was enough, so no one misses a paycheck"
           <br />
           <br />
@@ -332,18 +356,22 @@ Either Manchin doesn't understand price-elasticity or he is lying and guilty of 
           <br />
           So regressive, abjectly-illegal, and anticompetitive
           <br />
-          <div 
+          <div
             style={{
               width: "100%",
               position: "relative"
-            }}><img
+            }}
+          >
+            <img
               alt=""
               style={{
                 width: "100%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
-          /></div><br/>
+            />
+          </div>
+          <br />
           Biden: "I promised I would get government to work for the American
           people, and this bill will do that," says Joe Biden
           <br />
@@ -4916,7 +4944,6 @@ Either Manchin doesn't understand price-elasticity or he is lying and guilty of 
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
@@ -4924,9 +4951,17 @@ Either Manchin doesn't understand price-elasticity or he is lying and guilty of 
               alignItems: "center",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
+              maxWidth: "600px",
+                color: this.state.highlightOooreily ? "white" : "grey",
+                backgroundColor: this.state.highlightOooreily
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightOooreily !== null ? "1" : "0",
+                fontSize: this.state.highlightOooreily !== null ? "" : "0px"
+              }}
+              ref={this.Oooreily}
+            >
+          
             If Iran earns in dollars from an indebted institution, is it their
             dollars?
             <br />
@@ -9448,4 +9483,3 @@ Either Manchin doesn't understand price-elasticity or he is lying and guilty of 
     );
   }
 }
-
