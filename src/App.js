@@ -7690,7 +7690,8 @@ export default class App extends React.Component {
         <br />
         when buy Greenland IRS
         <br />
-        <h1>Saver Party</h1>
+        <h1
+            ref={this.navbar}>Saver Party</h1>
         demand-side conservatism (consent, no supply intervention by
         non-producing, scalping, serfdoms, leases and allow prices to be met and
         exactly settled by producers and consumers)
@@ -7703,7 +7704,6 @@ export default class App extends React.Component {
           }}
         >
           <div
-            ref={this.navbar}
             style={{
               position: "absolute",
               transform: "translate(444%,-100%)",
