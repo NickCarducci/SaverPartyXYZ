@@ -299,14 +299,18 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
-          Manchin: "$300, no one misses a paycheck"
+        >Either Manchin does understand price-elasticity or he is lying and guilty of intending to harm AND mislead by saying, "Covid Relief Bill will help Americans for a long time."
+          <br/>
+          Manchin continues, "$300/week was enough, so no one misses a paycheck"
           <br />
           <br />
           "For families, businesses, [price-fixing] and state and local
           governments... Why couldn't you work with Republicans" - Chris Wallace
           <br />
           "We did, we got it done"
+          <br />
+          <br />
+          So regressive and anticompetitive
           <br />
           <div 
             style={{
