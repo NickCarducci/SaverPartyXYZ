@@ -299,7 +299,9 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >
+        >Manchin: "$300, no one misses a paycheck"
+          <br/>
+          <br/>
           "For families, businesses, [price-fixing] and state and local governments" - Chris Wallace
         <br/>
           <div 
