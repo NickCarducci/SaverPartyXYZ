@@ -302,6 +302,34 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        325,100,000 people in U.S., 2017<br/>
+         23% Unauthorized Immigrants<br/>
+        5% Temp resident<br/>
+        27% Perm resident<br/>
+        45% Immigrant<br/>
+        "Unauthorized immigrants were 23% of the 45.6 million foreign-born residents in the U.S. in 2017." -&nbsp;<a href="https://www.pewresearch.org/fact-tank/2019/06/12/us-unauthorized-immigrant-population-2017/">Pew est.</a>
+        <a
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+          href="https://www.pnas.org/content/pnas/suppl/2020/12/01/2014704117.DCSupplemental/pnas.2014704117.sapp.pdf"
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
+         /></a> 
+         <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">src</a>
+         <br/>
+         281,000/10,488,000 violent vs illegal immigrants (2.6792%)
+         <br/>
+         709,487/325,100,000-10,488,000 violent vs illegal immigrants (.2255%)
+         <br/>
+          <br/>
           "Power of compound interest," ex-Senator Phil Gramm says on
           Conversations with Nancy Brinker.
           <br />
