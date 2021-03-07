@@ -300,6 +300,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Biden: "I promised I would get government to work for the American people, and this bill will do that," says Joe Biden
+          <br/>
           CNN: "[This bill provides] aid for state and local government [bonds]"
           - Jake Tepper filling in for Reliable Sources with Brian Stelter
           <br />
