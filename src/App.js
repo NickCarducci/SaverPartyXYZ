@@ -2421,8 +2421,6 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
