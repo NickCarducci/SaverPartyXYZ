@@ -411,7 +411,7 @@ export default class App extends React.Component {
           &nbsp;in the market that are not a&nbsp;
           <a href="https://micro-theory.com">producer, consumer</a>, or investor
           that&nbsp;
-          <a href="https://vaults.biz">waits for customer</a> to take royalty
+          <a href="https://vaults.biz">waits for customer</a> to take royalty.
           <br />
           <br />
           if inequality isn't too great and swaths of supply isn't being horded,
@@ -477,46 +477,60 @@ export default class App extends React.Component {
           <a href="https://vaults.biz">profit-schedule</a>.
           <br />
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
-            />
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
-            />
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
-            />
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
-            />
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
-            />
+            <div style={{ position: "relative" }}>
+              <img
+                alt=""
+                style={{
+                  width: "50%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
+              />
+            </div>
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "50%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
+              />
+            </div>
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "50%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
+              />
+            </div>
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "50%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
+              />
+            </div>
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "50%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
+              />
+            </div>
           </div>
           <br />
           <span
@@ -543,14 +557,17 @@ export default class App extends React.Component {
             reality
           </span>
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
-          />{" "}
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
+            />
+          </div>
           <br />
           <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
             https://www.sjsu.edu/faculty/watkins/depmon.htm
@@ -757,61 +774,71 @@ export default class App extends React.Component {
             squatting
           </span>
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/pr0c01fft2lclds/Screen%20Shot%202021-03-06%20at%201.01.41%20PM.png?dl=0"
-          />{" "}
-          <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/dlhp9wcee037ap5/Screen%20Shot%202021-03-06%20at%2012.59.53%20PM.png?dl=0"
-          />{" "}
-          <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/78l0j7ds9ej1pwr/Screen%20Shot%202021-03-06%20at%2012.54.06%20PM.png?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/pr0c01fft2lclds/Screen%20Shot%202021-03-06%20at%201.01.41%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/dlhp9wcee037ap5/Screen%20Shot%202021-03-06%20at%2012.59.53%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/78l0j7ds9ej1pwr/Screen%20Shot%202021-03-06%20at%2012.54.06%20PM.png?dl=0"
+            />
+          </div>
           <br />
           They are the same party pertaining to outstanding bills instead of
           civil rights
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8f6sv7ub1dyixm1/Screen%20Shot%202021-03-06%20at%2012.24.20%20PM.png?dl=0"
-          />
-          <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8tsrzdyu1ar8i7o/Screen%20Shot%202021-03-06%20at%2012.34.30%20PM.png?dl=0"
-          />
-          <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/83kl4edk6jckgx6/Screen%20Shot%202021-03-06%20at%2012.33.16%20PM.png?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8f6sv7ub1dyixm1/Screen%20Shot%202021-03-06%20at%2012.24.20%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8tsrzdyu1ar8i7o/Screen%20Shot%202021-03-06%20at%2012.34.30%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/83kl4edk6jckgx6/Screen%20Shot%202021-03-06%20at%2012.33.16%20PM.png?dl=0"
+            />
+          </div>
           <br />
           <i
             style={{
@@ -824,14 +851,17 @@ export default class App extends React.Component {
             Help me officer,
           </i>
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3xzfwtaqsjd3mqe/Screen%20Shot%202021-03-06%20at%2012.24.43%20PM.png?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3xzfwtaqsjd3mqe/Screen%20Shot%202021-03-06%20at%2012.24.43%20PM.png?dl=0"
+            />
+          </div>
           <br />
           Herd immunity is so stupid. Why rush{" "}
           <a href="https://froth.app">death</a>&nbsp;
@@ -924,14 +954,17 @@ export default class App extends React.Component {
           <a href="https://micro-theory.com">counterfeit-in-contract</a>
           &nbsp;case
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(50% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
+            />
+          </div>
           <br />
           “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
           &nbsp;claims it is not opinion the virus will spread without&nbsp;
@@ -973,14 +1006,17 @@ export default class App extends React.Component {
           Great Depression was caused by paying of debt instead of defaulting
           (and banning it)
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
+            />
+          </div>
           <br />
           This bitch saying you save money $2t in taxes without spending it
           without taxing it... is admittance that spending is not tax-payer
@@ -995,14 +1031,17 @@ export default class App extends React.Component {
           >
             Party in the U.S.A.
           </i>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3mx73fdmmdryddj/PartyInUSA.jpg?dl=0"
-          />{" "}
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3mx73fdmmdryddj/PartyInUSA.jpg?dl=0"
+            />
+          </div>
           <br />
           Most people have been hired back before the pandemic was over, that
           means the firing is not for covid (ignoring the unequal application of
@@ -1081,14 +1120,17 @@ export default class App extends React.Component {
             </span>
             ,
           </i>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
+            />
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", cursive',
@@ -1156,14 +1198,17 @@ export default class App extends React.Component {
           be the same as making your own
           <br />
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
+            />
+          </div>
           <br />
           Polls cannot be construed as representative of population in court,
           ask any statistician
@@ -1202,14 +1247,17 @@ export default class App extends React.Component {
             "It worked!"
           </span>
           &nbsp;he exclaims.
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
+            />
+          </div>
           <i>
             <a
               style={{
@@ -1229,26 +1277,32 @@ export default class App extends React.Component {
           country is further price-fixing their bonds and "savings" accounts
           backed by itself and having revolving doors of employment with its
           "unbiased" ratings agencies
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
+            />
+          </div>
           <br />
           "1 in 4 do not have internet at home," you can regulate companies that
           are whole markets, ...moldmask Patty Murray
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/2qno8y9qgq93cpq/Immoral.jpeg?dl=0"
-          />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/2qno8y9qgq93cpq/Immoral.jpeg?dl=0"
+            />
+          </div>
           <br />
           Wyden says, "Covid has put people out of work, that is immoral and
           unnacceptable... we must make sure grocery stores are paid"
@@ -1288,14 +1342,17 @@ export default class App extends React.Component {
           >
             paid a living wage
           </i>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3xqlyc22ka383fs/LivingWage.jpeg?dl=0"
-          />{" "}
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3xqlyc22ka383fs/LivingWage.jpeg?dl=0"
+            />
+          </div>
           <br />
           -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
           <br />
@@ -1335,14 +1392,17 @@ export default class App extends React.Component {
           <br />
           Classified Ads sites do that
           <br />
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
-          />{" "}
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
+            />
+          </div>
           <br />
           <i>
             <a
@@ -1424,14 +1484,17 @@ export default class App extends React.Component {
             this is not competitive domestically-I will be suing every
             congressperson that votes yes
             <br />
-            <img
-              alt=""
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/7udciedv0gx1xgd/Medicaid.jpeg?dl=0"
-            />
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/7udciedv0gx1xgd/Medicaid.jpeg?dl=0"
+              />
+            </div>
             <br />
             Medicade fraud to keep prices up
             <br />
@@ -1459,14 +1522,17 @@ export default class App extends React.Component {
             <br />
             "133% of poverty line," poverty line is made up by surveys you
             fucking bitch
-            <img
-              alt=""
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
-            />
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
+              />
+            </div>
           </div>{" "}
           <div
             style={{
