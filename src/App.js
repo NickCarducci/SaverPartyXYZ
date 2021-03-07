@@ -83,6 +83,8 @@ export default class App extends React.Component {
     this.newsy = React.createRef();
     this.Oooreily = React.createRef();
     this.homebuilder = React.createRef();
+    this.covidKills=React.createRef()
+    this.grandmaMentality = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -306,7 +308,24 @@ export default class App extends React.Component {
           <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
             Arthel Neville
           </a>
-          &nbsp;think 200k/year deaths is more important than&nbsp;
+          &nbsp;think&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.covidKills.current.scrollIntoView("smooth");
+              this.setState({ highlightCovidKills: true });
+              setTimeout(
+                () => this.setState({ highlightCovidKills: false }),
+                10000
+              );
+            }}
+          >
+          200k/year deaths</span>&nbsp;is more important than&nbsp;
           <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
             80k/year missing children
           </a>
@@ -328,37 +347,45 @@ export default class App extends React.Component {
           <br />
           45% Immigrant
           <br />
-        "Unauthorized immigrants were 23% of the 45.6 million foreign-born residents in the U.S. in 2017." -&nbsp;<a href="https://www.pewresearch.org/fact-tank/2019/06/12/us-unauthorized-immigrant-population-2017/">Pew est.</a>
-        <a
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-          href="https://www.pnas.org/content/pnas/suppl/2020/12/01/2014704117.DCSupplemental/pnas.2014704117.sapp.pdf"
-        >
-          <img
-            alt=""
+          "Unauthorized immigrants were 23% of the 45.6 million foreign-born
+          residents in the U.S. in 2017." -&nbsp;
+          <a href="https://www.pewresearch.org/fact-tank/2019/06/12/us-unauthorized-immigrant-population-2017/">
+            Pew est.
+          </a>
+          <a
             style={{
               width: "100%",
-              height: "auto"
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
-         /></a> 
-         <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">src</a>
-         <br/>
-         281,000/10,488,000 violent vs illegal immigrants (2.6792%)
-         <br/>
-         709,487/325,100,000-10,488,000 violent vs Citizen or resident (.2255%)
-         <br/>
-          <br/>
+            href="https://www.pnas.org/content/pnas/suppl/2020/12/01/2014704117.DCSupplemental/pnas.2014704117.sapp.pdf"
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
+            />
+          </a>
+          <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">
+            src
+          </a>
+          <br />
+          281,000/10,488,000 violent vs illegal immigrants (2.6792%)
+          <br />
+          709,487/325,100,000-10,488,000 violent vs Citizen or resident (.2255%)
+          <br />
+          <br />
           "Power of compound interest," ex-Senator Phil Gramm says on
           Conversations with Nancy Brinker.
           <br />
           "The debt will be there until Jesus comes back," he continues.
           <br />
-          "Interest rates will be at historic lows, unlike 5yr gov bond 5% post-war
-          [1950-2000] until then"
-          <br/><br/>
+          "Interest rates will be at historic lows, unlike 5yr gov bond 5%
+          post-war [1950-2000] until then"
+          <br />
+          <br />
           "Where is it&nbsp;
           <span
             style={{
@@ -1802,7 +1829,34 @@ export default class App extends React.Component {
             isn't enough and you hve no civil right to make more credit
             <br />
             <br />
-            You have no court-confirmable proof that covid kills regardless the
+            
+          <span
+            ref={this.covidKills}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightCovidKills ? "white" : "grey",
+              backgroundColor: this.state.highlightCovidKills
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightCovidKills !== null ? "1" : "0",
+              fontSize: this.state.highlightCovidKills !== null ? "" : "0px"
+            }}
+          >You have no court-confirmable proof that&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.grandmaMentality.current.scrollIntoView("smooth");
+            this.setState({ highlightGrandmaMentality: true });
+            setTimeout(
+              () => this.setState({ highlightGrandmaMentality: false }),
+              10000
+            );
+          }}
+        >covid kills</span>&nbsp;regardless the
             unrequited consent of unemployment insurance arrangement (see
             absolute bottom of page)
             <br />
@@ -1814,6 +1868,7 @@ export default class App extends React.Component {
             “Special financial assistance,” would be to help negotiate original
             principle without credit found market marginal utility:cost price,
             not favor the lender or overreaching landlord
+            </span>
             <br />
             <br />
             "133% of poverty line," poverty line is made up by surveys you
@@ -5269,7 +5324,24 @@ export default class App extends React.Component {
             <br />
             CNN calling vaccines/grafts, platforms now
             <br />
-            use a tissue, wash your hands, take off your masks
+            
+          <span
+            ref={this.grandmaMentality}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightGrandmaMentality ? "white" : "grey",
+              backgroundColor: this.state.highlightGrandmaMentality
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightGrandmaMentality !== null ? "1" : "0",
+              fontSize: this.state.highlightGrandmaMentality !== null ? "" : "0px"
+            }}
+          >use a tissue, wash your hands, take off your masks
             <br />
             don't take a "vaccine" that could cause malformation/cancer with
             normal life expectancy. They don't want to pay for larger,
@@ -5277,7 +5349,7 @@ export default class App extends React.Component {
             <br />
             couples who pass at the same time is correlative evidence that it is
             mostly mental, and CNN can be attributable to my grandma's friends'
-            deaths
+            deaths</span>
             <br />
             <br />
             The anti-freedomers are going to be the future homeschoolers lmao
