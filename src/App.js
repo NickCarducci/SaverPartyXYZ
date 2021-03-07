@@ -370,13 +370,13 @@ export default class App extends React.Component {
             mono-polization of actors
           </a>
           &nbsp;in the market that are not a&nbsp;
-          <a href="https://micro-theory.com">producer or consumer</a>, or
-          investor that&nbsp;
-          <a href="https://vaults.biz">waits for customer to take royalty</a>
+          <a href="https://micro-theory.com">producer, consumer</a>, or investor
+          that&nbsp;
+          <a href="https://vaults.biz">waits for customer</a> to take royalty
           <br />
           <br />
-          California Assemblypeople making threats of strike to not get national
-          money
+          California Assemblypeople making threats of strike not teaching their
+          kids if they cannot get national money
           <br />
           "People say, 'Will I lose my home?''," Biden remarks.
           <br />
