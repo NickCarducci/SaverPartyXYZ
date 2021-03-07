@@ -299,6 +299,8 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          CNN: "[This bill provides] aid for state and local government [bonds]" - the fill in for Reliable Sources with Brian Stelter
+          <br/>
           <i
             onClick={() => {
               this.takingCredit.current.scrollIntoView("smooth");
