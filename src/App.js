@@ -78,6 +78,7 @@ export default class App extends React.Component {
     this.ronInsurance = React.createRef();
     this.livingWage = React.createRef();
     this.goa = React.createRef();
+    this.takingCredit = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -297,7 +298,11 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          <i
+          <i onClick={() => {
+              this.takingCredit.current.scrollIntoView("smooth");
+              this.setState({ highlightTakingCredit: true });
+              setTimeout(() => this.setState({ highlightTakingCredit: false }), 10000);
+            }}
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
@@ -1189,7 +1194,22 @@ export default class App extends React.Component {
           </div>
           <br />
           <br />
-          <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
+          <span
+            ref={this.takingCredit}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightTakingCredit ? "white" : "grey",
+              backgroundColor: this.state.highlightTakingCredit
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightTakingCredit !== null ? "1" : "0",
+              fontSize: this.state.highlightTakingCredit !== null ? "" : "0px"
+            }}><a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
           <span style={{ fontSize: "6px" }}>fucking</span>
           slut,{" "}
           <a href="https://thumbprint.us">working for market(copyright,</a>
@@ -1204,7 +1224,7 @@ export default class App extends React.Component {
           efficient as to keep everyone happiest, individually, for the
           complainants only; class action is for precedence, but we all assume
           it gets less than each individual case would.
-          <br />
+        </span>  <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
