@@ -79,6 +79,7 @@ export default class App extends React.Component {
     this.livingWage = React.createRef();
     this.goa = React.createRef();
     this.takingCredit = React.createRef();
+    this.electionTech = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -298,10 +299,14 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          <i onClick={() => {
+          <i
+            onClick={() => {
               this.takingCredit.current.scrollIntoView("smooth");
               this.setState({ highlightTakingCredit: true });
-              setTimeout(() => this.setState({ highlightTakingCredit: false }), 10000);
+              setTimeout(
+                () => this.setState({ highlightTakingCredit: false }),
+                10000
+              );
             }}
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -356,8 +361,20 @@ export default class App extends React.Component {
           <i>
             <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
           </i>
-          Ron Desantis sounds like he wants to run a business being forced to
-          use their product,&nbsp;
+          <br />
+          Ron Desantis&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.flop.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+            }}
+          >
+            sounds like
+          </span>
+          &nbsp;he wants to run a business being forced to use their
+          product,&nbsp;
           <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
             "ban zuckerberg and others,"
           </a>
@@ -1209,22 +1226,25 @@ export default class App extends React.Component {
                 : "",
               opacity: this.state.highlightTakingCredit !== null ? "1" : "0",
               fontSize: this.state.highlightTakingCredit !== null ? "" : "0px"
-            }}><a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
-          <span style={{ fontSize: "6px" }}>fucking</span>
-          slut,{" "}
-          <a href="https://thumbprint.us">working for market(copyright,</a>
-          not <a href="https://vaults.biz">depositary</a>) share instead of
-          entrapping myself into <a href="https://stripe.com">Stripe.com</a>
+            }}
+          >
+            <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
+            <span style={{ fontSize: "6px" }}>fucking</span>
+            slut,{" "}
+            <a href="https://thumbprint.us">working for market(copyright,</a>
+            not <a href="https://vaults.biz">depositary</a>) share instead of
+            entrapping myself into <a href="https://stripe.com">Stripe.com</a>
+            <br />
+            <br />
+            Judges cannot judge what is right for bail, they'rn't impartial - as
+            in they get the bail.
+            <br />
+            Bail for judges'n't for consumers/community - the service at its
+            most efficient as to keep everyone happiest, individually, for the
+            complainants only; class action is for precedence, but we all assume
+            it gets less than each individual case would.
+          </span>{" "}
           <br />
-          <br />
-          Judges cannot judge what is right for bail, they'rn't impartial - as
-          in they get the bail.
-          <br />
-          Bail for judges'n't for consumers/community - the service at its most
-          efficient as to keep everyone happiest, individually, for the
-          complainants only; class action is for precedence, but we all assume
-          it gets less than each individual case would.
-        </span>  <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -7749,6 +7769,7 @@ export default class App extends React.Component {
           </a>
           <div
             style={{
+              fontWeight: "normal",
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
@@ -7792,16 +7813,7 @@ export default class App extends React.Component {
           fraud. Islam doesn't want debt which is promising (not borrowing or
           using) other people's money. No evidence [virus from wuhan]? Where
           else would it be from && have such an delta of impact. Deduction is
-          evidence as much as correlative statistics.. Haha fair and square?
-          Voter harvesting is sample bias. Calling <b>elections</b> dissuade
-          voters, projecting is especially irrelevant if unshuffled, and
-          Dominion has a history of dealing with companies that have rigged
-          Venezuelan elections, and there is video of secret counting, 1000s of
-          witnesses to fraud, more than witnesses to crossing the Antarctic
-          I’m&nbsp;
-          <a href="https://vaults.biz">banned from twitter</a> for calling jack
-          a fully-capable, self-harmer for dropping my impressions 100-0 when I
-          was complaining about calling an
+          evidence as much as correlative statistics.. <br />
           <span /*
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
@@ -7812,6 +7824,7 @@ export default class App extends React.Component {
                 );
               }}*/
             style={{
+              fontWeight: "normal",
               display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -7825,7 +7838,33 @@ export default class App extends React.Component {
             }}
             ref={this.flop}
           >
-            election of unshuffled, mutually-exclusive events, on Election Day!
+            Haha fair and square? Voter harvesting is sample bias. Calling{" "}
+            <b>elections</b> dissuade voters, projecting is especially
+            irrelevant if&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.electionTech.current.scrollIntoView("smooth");
+                this.setState({ highlightElectionTech: true });
+                setTimeout(
+                  () => this.setState({ highlightElectionTech: false }),
+                  10000
+                );
+              }}
+            >
+              unshuffled, and Dominion
+            </span>
+            &nbsp;has a&nbsp;
+            <a href="https://maloney.house.gov/media-center/press-releases/smartmatic-announces-sale-sequoia-voting-systems">
+              history of dealing with
+            </a>
+            &nbsp;companies that have rigged Venezuelan elections, and there is
+            video of secret counting, 1000s of witnesses to fraud, more than
+            witnesses to crossing the Antarctic I’m&nbsp;
+            <a href="https://vaults.biz">banned from twitter</a> for calling
+            jack a fully-capable, self-harmer for dropping my impressions 100-0
+            when I was complaining about calling an election of unshuffled,
+            mutually-exclusive events, on Election Day!
           </span>
           Statistical Sin of the Holyest. State-issued GovID application
           programming interface should be provided by the government (with
@@ -8676,12 +8715,21 @@ export default class App extends React.Component {
             what is possible for all to be)
           </div>
           <div
+            ref={this.electionTech}
             style={{
               padding: "20px",
               display: "inline-block",
               border: "1px dotted",
               width: "100%",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightElectionTech ? "white" : "",
+              backgroundColor: this.state.highlightElectionTech
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightElectionTech !== null ? "1" : "0",
+              fontSize: this.state.highlightElectionTech !== null ? "" : "0px"
             }}
           >
             <br />
