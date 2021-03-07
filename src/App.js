@@ -1349,14 +1349,20 @@ export default class App extends React.Component {
           </div>
           <br />
           This bitch saying you save money $2t in taxes without spending it
-          without taxing it... is admittance that spending is not&nbsp;<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.fishInBarrel.current.scrollIntoView("smooth");
-                this.setState({ highlightFishInBarrel: true });
-                setTimeout(() => this.setState({ highlightFishInBarrel: false }), 10000);
-              }}
-            >tax-payer</span>
+          without taxing it... is admittance that spending is not&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fishInBarrel.current.scrollIntoView("smooth");
+              this.setState({ highlightFishInBarrel: true });
+              setTimeout(
+                () => this.setState({ highlightFishInBarrel: false }),
+                10000
+              );
+            }}
+          >
+            tax-payer
+          </span>
           funded&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -4636,14 +4642,16 @@ export default class App extends React.Component {
                 opacity: this.state.highlightFishInBarrel !== null ? "1" : "0",
                 fontSize: this.state.highlightFishInBarrel !== null ? "" : "0px"
               }}
-            >This can be accomplished without compromising retail positions, by
-            providing SEC with UUID for portfolios but require brokers to
-            anonymize these trades so portfolio information cannot be compiled
-            and traded against expiring options out of the money like&nbsp;
-            <a href="https://nationalsecuritycasino.com">
-              shooting fish in a barrel
-            </a>
-            .</span>
+            >
+              This can be accomplished without compromising retail positions, by
+              providing SEC with UUID for portfolios but require brokers to
+              anonymize these trades so portfolio information cannot be compiled
+              and traded against expiring options out of the money like&nbsp;
+              <a href="https://nationalsecuritycasino.com">
+                shooting fish in a barrel
+              </a>
+              .
+            </span>
           </div>
           <i
             style={{
@@ -5981,9 +5989,9 @@ export default class App extends React.Component {
             interests... congress asking people for more money by claiming
             bipartisanship is evidence of conspiracy. you have no proof people
             want that... all you are doing anyway is making the same services
-            more expensive like fattening a duck for consumption in
-            foiegras.life. Miss Levine keeps asking for funding DO IT yourself
-            stop taking from us for no change except price
+            more expensive like&nbsp;<a href="">fattening a duck</a>&nbsp;for
+            consumption in foiegras.life. Miss Levine keeps asking for funding
+            DO IT yourself stop taking from us for no change except price
           </div>
           <i
             style={{
