@@ -302,18 +302,32 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Why does&nbsp;<a href="https://en.wikipedia.org/wiki/Arthel_Neville">Arthel Neville</a>&nbsp;think 200k/year deaths is more important than 
-            <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
-             80k/year missing children
-            </a>.<br/>
-          "Risk averse" dunce from JHU telling you to use a mask unless&nbsp;<a href="https://humanharvest.info">"vaccinated"/grafted</a>&nbsp;instead of&nbsp;<a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or fall
-          <br/>
-          <br/>
-        325,100,000 people in U.S., 2017<br/>
-         23% Unauthorized Immigrants<br/>
-        5% Temp resident<br/>
-        27% Perm resident<br/>
-        45% Immigrant<br/>
+          Why does&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
+            Arthel Neville
+          </a>
+          &nbsp;think 200k/year deaths is more important than&nbsp;
+          <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
+            80k/year missing children
+          </a>
+          .<br />
+          "Risk averse" dunce from JHU telling you to use a mask unless&nbsp;
+          <a href="https://humanharvest.info">"vaccinated"/grafted</a>
+          &nbsp;instead of&nbsp;
+          <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or
+          fall
+          <br />
+          <br />
+          325,100,000 people in U.S., 2017
+          <br />
+          23% Unauthorized Immigrants
+          <br />
+          5% Temp resident
+          <br />
+          27% Perm resident
+          <br />
+          45% Immigrant
+          <br />
         "Unauthorized immigrants were 23% of the 45.6 million foreign-born residents in the U.S. in 2017." -&nbsp;<a href="https://www.pewresearch.org/fact-tank/2019/06/12/us-unauthorized-immigrant-population-2017/">Pew est.</a>
         <a
           style={{
