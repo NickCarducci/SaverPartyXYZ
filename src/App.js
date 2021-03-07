@@ -333,7 +333,7 @@ export default class App extends React.Component {
             80k/year missing children
           </a>
           .<br />
-          "Risk averse" dunce from JHU telling you to use a mask unless&nbsp;
+          <a href="https://video.foxnews.com/v/6237804187001#sp=show-clips">"Risk averse" dunce</a>&nbsp;from JHU telling you to use a mask unless&nbsp;
           <a href="https://humanharvest.info">"vaccinated"/grafted</a>
           &nbsp;instead of&nbsp;
           <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or
