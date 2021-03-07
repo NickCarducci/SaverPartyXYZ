@@ -300,6 +300,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Heart disease reduced for coffee-drinkers, maybe it is drinking 8-cups of water
+          <br/>
+          <br/>
         <a
           href="https://thumbprint.us"
           style={{
