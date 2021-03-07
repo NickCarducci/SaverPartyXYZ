@@ -305,6 +305,21 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div
+            style={{
+              zIndex: "1",
+              color: "white",
+              fontSize: "9px",
+              display: "flex",
+              position: "fixed",
+              padding: "4px 10px",
+              right: "0px",
+              top: "0px",
+              backgroundColor: "rgb(5,5,5)"
+            }}
+          >
+            EXPLICIT
+          </div>
           Why does&nbsp;
           <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
             Arthel Neville
