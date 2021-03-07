@@ -80,6 +80,7 @@ export default class App extends React.Component {
     this.goa = React.createRef();
     this.takingCredit = React.createRef();
     this.electionTech = React.createRef();
+    this.newsy = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -299,8 +300,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          CNN: "[This bill provides] aid for state and local government [bonds]" - Jake Tepper filling in for Reliable Sources with Brian Stelter
-          <br/>
+          CNN: "[This bill provides] aid for state and local government [bonds]"
+          - Jake Tepper filling in for Reliable Sources with Brian Stelter
+          <br />
+          A Democrat says she only cares about current working lives is
+          admittance of conspiring to build trust
+          <br />
           <i
             onClick={() => {
               this.takingCredit.current.scrollIntoView("smooth");
@@ -321,8 +326,22 @@ export default class App extends React.Component {
             of unequal laws to be applied - price-fixing is not justice
           </i>
           <br />
-          transmission of virus only travels by symptom, spittle/oils, and heat
-          rises
+          transmission of virus only travels by symptom,&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.newsy.current.scrollIntoView("smooth");
+
+              this.setState({ highlightNewsy: true });
+              setTimeout(() => this.setState({ highlightNewsy: false }), 10000);
+            }}
+          >
+            spittle/oils
+          </span>
+          , and heat rises
           <br />
           <br />
           Officer of Government Ethics vs&nbsp;
@@ -1031,12 +1050,31 @@ export default class App extends React.Component {
             />
           </div>
           <br />
-          “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
-          &nbsp;claims it is not opinion the virus will spread without&nbsp;
-          <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
-          must do it to not be forced to <a href="https://moldmask.co">mask</a>
-          ]... If you want the facts: it only does spreads if you have symptoms
-          or don't your wash hands/face.
+          <span
+            ref={this.newsy}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightNewsy ? "white" : "grey",
+              backgroundColor: this.state.highlightNewsy
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightNewsy !== null ? "1" : "0",
+              fontSize: this.state.highlightNewsy !== null ? "" : "0px"
+            }}
+          >
+            “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
+            &nbsp;claims it is not opinion the virus will spread without&nbsp;
+            <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
+            must do it to not be forced to{" "}
+            <a href="https://moldmask.co">mask</a>
+            ]... If you want the facts: it only does spreads if you have
+            symptoms or don't your wash hands/face.
+          </span>
           <br />
           <i
             style={{
@@ -9345,3 +9383,4 @@ export default class App extends React.Component {
     );
   }
 }
+
