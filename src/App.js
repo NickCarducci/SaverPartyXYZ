@@ -2918,168 +2918,6 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            laws don't matter anymore
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", cursive',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
-            <br />
-            <a
-              style={{
-                padding: "4px 10px",
-                transition: ".3s ease-in",
-                borderRadius: "15px",
-                color: this.state.highlightBooker ? "white" : "",
-                backgroundColor: this.state.highlightBooker
-                  ? "rgb(20,100,205)"
-                  : "",
-                opacity: this.state.highlightBooker !== null ? "1" : "0",
-                fontSize: this.state.highlightBooker !== null ? "" : "0px"
-              }}
-              ref={this.booker}
-              href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
-            >
-              Cory Booker
-            </a>{" "}
-            calls stealing in contract with bonds, contributions
-            <br />
-            WE DO NOT&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.populism.current.scrollIntoView("smooth");
-                this.setState({ highlightPopulism: true });
-                setTimeout(
-                  () => this.setState({ highlightPopulism: false }),
-                  10000
-                );
-              }}
-            >
-              CONSENT
-            </span>
-            <br />
-            CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
-            <br />
-            It's a trap in price inelasticity, impossible solvency and
-            slavery/counterfeit
-            <br />
-            <br />
-            Don’t tax to pay for things && or allow people to trade with
-            promises of other peoples’ assets, let prices fall and tax for
-            things where a free rider cannot be avoided && it is for that
-            business’ security (not hedging with cross-party risk...), not
-            trading commodities or stock... (A) just bailing out bad bets with
-            $.01 transaction tax these debt transactions need to be reversed
-            like ACTUALLY cancelled/forbidden but the non-debt purchases need to
-            be reversed to cash:debt prices as well. (B) Not this fraudulent
-            “canceling” by paying it off by dollar-share split
-            <br />
-            To be sure, the pursuit of happiness should not be at the expense of
-            others. It means we get what we give. (C) Trade is an exchange of
-            benefits, supplying [alone] is the competition - which should be
-            based not on counterfeit by invoice or abetting duressful purchases
-            as a broker by pool or expiration. While the{" "}
-            <a href="https://froth.app">Will Smith (bottom of page)</a> movie
-            celebrates{" "}
-            <a href="https://www.bls.gov/news.release/empsit.t19.htm">
-              2% of the population
-            </a>{" "}
-            that has 1100% of the assets, 98% are being colonized, but not by
-            race! We’ve made so much progress.
-            <br />
-            Capital gains or loss is not a tangible loss. It is your fault for
-            not trading when an offer was available at the price you prefer. It
-            is a{" "}
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.valuation.current.scrollIntoView("smooth");
-                this.setState({ highlightValuation: true });
-                setTimeout(
-                  () => this.setState({ highlightValuation: false }),
-                  10000
-                );
-              }}
-            >
-              valuation
-            </span>{" "}
-            of last trade and not all shares outstanding can afford that price
-            or{" "}
-            <a href="https://nationalsecuritycasino.com">
-              are even included in the outstanding lot sometimes
-            </a>
-            <br />
-            <br />
-            <span
-              style={{
-                display: "inline-block",
-                padding: "4px 10px",
-                transition: ".3s ease-in",
-                borderRadius: "15px",
-                color: this.state.highlightEducation ? "white" : "",
-                backgroundColor: this.state.highlightEducation
-                  ? "rgb(20,100,205)"
-                  : "",
-                opacity: this.state.highlightEducation !== null ? "1" : "0",
-                fontSize: this.state.highlightEducation !== null ? "" : "0px"
-              }}
-              ref={this.education}
-            >
-              {" "}
-              Education may help the individual when it is not done for
-              everyone. The best move for people is in protecting their
-              bargaining position
-              <br />
-              Two steps back for everyone, one step forward for one
-              <br />
-              Wealth is about relativity to one another until it is about the
-              utility of the asset
-              <br />
-              Education can be either a trade secret, stifle discovery, or speed
-              up open source. 1/3 is bad, especially if it can be accomplished
-              online
-            </span>
-            <br />
-            <br />
-            <span
-              style={{
-                display: "inline-block",
-                padding: "4px 10px",
-                transition: ".3s ease-in",
-                borderRadius: "15px",
-                color: this.state.highlightCitadel ? "white" : "",
-                backgroundColor: this.state.highlightCitadel
-                  ? "rgb(20,100,205)"
-                  : "",
-                opacity: this.state.highlightCitadel !== null ? "1" : "0",
-                fontSize: this.state.highlightCitadel !== null ? "" : "0px"
-              }}
-              ref={this.citadel}
-            >
-              Citadel claiming ownership as sustaining "prices and being proud
-              of their team" IS CONFESSION
-            </span>
-            <br />
-            Dodaro, please look at tax reciepts when analysing our ability to
-            pay down debt or default to cash:debt, not the GDP - new money - new
-            debt
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
             <a href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR0yCu8W_XONeAnFNEucUiy8mQNlIHE6f67H1vr49KiI2_gHO_ow995-1xY">
               Chicken
             </a>{" "}
@@ -3257,6 +3095,168 @@ export default class App extends React.Component {
               official (Comptroller General) to hold as true.
             </span>
             <br />
+            <i
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics"
+              }}
+            >
+              laws don't matter anymore
+            </i>
+            <div
+              style={{
+                fontFamily: '"Hi Melody", cursive',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+                display: "inline-block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
+              <br />
+              <a
+                style={{
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightBooker ? "white" : "",
+                  backgroundColor: this.state.highlightBooker
+                    ? "rgb(20,100,205)"
+                    : "",
+                  opacity: this.state.highlightBooker !== null ? "1" : "0",
+                  fontSize: this.state.highlightBooker !== null ? "" : "0px"
+                }}
+                ref={this.booker}
+                href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
+              >
+                Cory Booker
+              </a>{" "}
+              calls stealing in contract with bonds, contributions
+              <br />
+              WE DO NOT&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.populism.current.scrollIntoView("smooth");
+                  this.setState({ highlightPopulism: true });
+                  setTimeout(
+                    () => this.setState({ highlightPopulism: false }),
+                    10000
+                  );
+                }}
+              >
+                CONSENT
+              </span>
+              <br />
+              CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
+              <br />
+              It's a trap in price inelasticity, impossible solvency and
+              slavery/counterfeit
+              <br />
+              <br />
+              Don’t tax to pay for things && or allow people to trade with
+              promises of other peoples’ assets, let prices fall and tax for
+              things where a free rider cannot be avoided && it is for that
+              business’ security (not hedging with cross-party risk...), not
+              trading commodities or stock... (A) just bailing out bad bets with
+              $.01 transaction tax these debt transactions need to be reversed
+              like ACTUALLY cancelled/forbidden but the non-debt purchases need
+              to be reversed to cash:debt prices as well. (B) Not this
+              fraudulent “canceling” by paying it off by dollar-share split
+              <br />
+              To be sure, the pursuit of happiness should not be at the expense
+              of others. It means we get what we give. (C) Trade is an exchange
+              of benefits, supplying [alone] is the competition - which should
+              be based not on counterfeit by invoice or abetting duressful
+              purchases as a broker by pool or expiration. While the{" "}
+              <a href="https://froth.app">Will Smith (bottom of page)</a> movie
+              celebrates{" "}
+              <a href="https://www.bls.gov/news.release/empsit.t19.htm">
+                2% of the population
+              </a>{" "}
+              that has 1100% of the assets, 98% are being colonized, but not by
+              race! We’ve made so much progress.
+              <br />
+              Capital gains or loss is not a tangible loss. It is your fault for
+              not trading when an offer was available at the price you prefer.
+              It is a{" "}
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.valuation.current.scrollIntoView("smooth");
+                  this.setState({ highlightValuation: true });
+                  setTimeout(
+                    () => this.setState({ highlightValuation: false }),
+                    10000
+                  );
+                }}
+              >
+                valuation
+              </span>{" "}
+              of last trade and not all shares outstanding can afford that price
+              or{" "}
+              <a href="https://nationalsecuritycasino.com">
+                are even included in the outstanding lot sometimes
+              </a>
+              <br />
+              <br />
+              <span
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightEducation ? "white" : "",
+                  backgroundColor: this.state.highlightEducation
+                    ? "rgb(20,100,205)"
+                    : "",
+                  opacity: this.state.highlightEducation !== null ? "1" : "0",
+                  fontSize: this.state.highlightEducation !== null ? "" : "0px"
+                }}
+                ref={this.education}
+              >
+                {" "}
+                Education may help the individual when it is not done for
+                everyone. The best move for people is in protecting their
+                bargaining position
+                <br />
+                Two steps back for everyone, one step forward for one
+                <br />
+                Wealth is about relativity to one another until it is about the
+                utility of the asset
+                <br />
+                Education can be either a trade secret, stifle discovery, or
+                speed up open source. 1/3 is bad, especially if it can be
+                accomplished online
+              </span>
+              <br />
+              <br />
+              <span
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightCitadel ? "white" : "",
+                  backgroundColor: this.state.highlightCitadel
+                    ? "rgb(20,100,205)"
+                    : "",
+                  opacity: this.state.highlightCitadel !== null ? "1" : "0",
+                  fontSize: this.state.highlightCitadel !== null ? "" : "0px"
+                }}
+                ref={this.citadel}
+              >
+                Citadel claiming ownership as sustaining "prices and being proud
+                of their team" IS CONFESSION
+              </span>
+              <br />
+              Dodaro, please look at tax reciepts when analysing our ability to
+              pay down debt or default to cash:debt, not the GDP - new money -
+              new debt
+            </div>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
               <iframe
                 title="Dr Seuss cultural zoo"
