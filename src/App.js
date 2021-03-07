@@ -81,7 +81,8 @@ export default class App extends React.Component {
     this.takingCredit = React.createRef();
     this.electionTech = React.createRef();
     this.newsy = React.createRef();
-    this.Oooreily = React.createRef()
+    this.Oooreily = React.createRef();
+    this.homebuilder = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -301,9 +302,29 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "Where is it coming from," queries Maria Barteloma
+          "Where is it&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.homebuilder.current.scrollIntoView("smooth");
+              this.setState({ highlightHomebuilder: true });
+              setTimeout(
+                () => this.setState({ highlightHomebuilder: false }),
+                10000
+              );
+            }}
+          >
+            coming from
+          </span>
+          ?" queries Maria Barteloma
           <br />
-          "Your children and&nbsp;<span 
+          "Your children and&nbsp;
+          <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
               this.setState({ highlightOooreily: true });
@@ -317,7 +338,11 @@ export default class App extends React.Component {
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
-            }}>grandchildren</span>," replies Graham.
+            }}
+          >
+            grandchildren
+          </span>
+          ," replies Graham.
           <br />
           <br />
           Heart disease reduced for coffee-drinkers, maybe it is drinking 8-cups
@@ -2686,12 +2711,28 @@ export default class App extends React.Component {
             NETL OVERVIEW - OSTI.GOV
           </div>
           <i
+            ref={this.homebuilder}
             style={{
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightHomebuilder ? "white" : "grey",
+              backgroundColor: this.state.highlightHomebuilder
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightHomebuilder !== null ? "1" : "0",
+              fontSize: this.state.highlightHomebuilder !== null ? "" : "0px",
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            I was raised a homebuilder to pay off my own mortgage
+            I was raised a&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
+            &nbsp;to pay off my own mortgage
             <br />
             I grew up building houses to pay for a mortgage that only retained
             value because courts don’t adjudicate at once.
@@ -4952,16 +4993,15 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-                color: this.state.highlightOooreily ? "white" : "grey",
-                backgroundColor: this.state.highlightOooreily
-                  ? "rgb(20,100,205)"
-                  : "",
-                opacity: this.state.highlightOooreily !== null ? "1" : "0",
-                fontSize: this.state.highlightOooreily !== null ? "" : "0px"
-              }}
-              ref={this.Oooreily}
-            >
-          
+              color: this.state.highlightOooreily ? "white" : "grey",
+              backgroundColor: this.state.highlightOooreily
+                ? "rgb(20,100,205)"
+                : "",
+              opacity: this.state.highlightOooreily !== null ? "1" : "0",
+              fontSize: this.state.highlightOooreily !== null ? "" : "0px"
+            }}
+            ref={this.Oooreily}
+          >
             If Iran earns in dollars from an indebted institution, is it their
             dollars?
             <br />
