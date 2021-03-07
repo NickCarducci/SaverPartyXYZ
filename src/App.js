@@ -729,6 +729,10 @@ export default class App extends React.Component {
           If it can suppress the virus without a person interacting with the
           “vaccine”/graft or the virus, then it has a single source on the earth
           <br />
+          they do not help protect others, there is no proof you have covid
+          without symptoms
+          <br />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -1186,7 +1190,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              
               display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -2545,7 +2548,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -2954,7 +2956,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -2986,7 +2987,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -3056,7 +3056,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -3318,7 +3317,6 @@ export default class App extends React.Component {
               <br />
               <span
                 style={{
-                  
                   display: "inline-block",
                   padding: "4px 10px",
                   transition: ".3s ease-in",
@@ -3368,7 +3366,6 @@ export default class App extends React.Component {
               in connection with the 6th is all [FBI] cares about.
               <span
                 style={{
-                  
                   display: "inline-block",
                   padding: "4px 10px",
                   transition: ".3s ease-in",
@@ -3640,7 +3637,6 @@ export default class App extends React.Component {
                 );
               }}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -3930,7 +3926,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
-              
+
               display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -4211,7 +4207,7 @@ export default class App extends React.Component {
                 ref={this.nsfFraud}
                 style={{
                   padding: "4px 10px",
-                  
+
                   display: "inline-block",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
@@ -4394,7 +4390,6 @@ export default class App extends React.Component {
             <span
               ref={this.congressVsCongress}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -4433,7 +4428,6 @@ export default class App extends React.Component {
             <a
               ref={this.populism}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -4466,7 +4460,6 @@ export default class App extends React.Component {
             <span
               ref={this.congressVsCongress}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -4828,7 +4821,6 @@ export default class App extends React.Component {
           <i
             ref={this.baltimore}
             style={{
-              
               display: "inline-block",
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
               textEmphasis: "italics",
@@ -4877,7 +4869,6 @@ export default class App extends React.Component {
                 );
               }}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -5178,7 +5169,6 @@ export default class App extends React.Component {
             <span
               ref={this.italy}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -5351,7 +5341,6 @@ export default class App extends React.Component {
             <span
               ref={this.politics}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -5544,7 +5533,6 @@ export default class App extends React.Component {
               ref={this.colonization}
               href="https://foiegras.life"
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -5573,7 +5561,6 @@ export default class App extends React.Component {
             <span
               ref={this.gdp1}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -5659,7 +5646,6 @@ export default class App extends React.Component {
               If
               <span
                 style={{
-                  
                   display: "inline-block",
                   padding: "4px 10px",
                   transition: ".3s ease-in",
@@ -5844,7 +5830,6 @@ export default class App extends React.Component {
             <span
               ref={this.bail}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -5972,7 +5957,6 @@ export default class App extends React.Component {
             <a
               ref={this.decide}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -6071,7 +6055,6 @@ export default class App extends React.Component {
             <span
               ref={this.tea}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -7022,7 +7005,6 @@ export default class App extends React.Component {
             <span
               ref={this.foreignpolicy}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
@@ -7549,7 +7531,6 @@ export default class App extends React.Component {
                 );
               }}*/
             style={{
-              
               display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -7635,7 +7616,7 @@ export default class App extends React.Component {
             ref={this.valuation}
             style={{
               display: "inline-block",
-              
+
               position: "relative",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -7682,7 +7663,7 @@ export default class App extends React.Component {
             ref={this.spittle}
             style={{
               position: "relative",
-              
+
               display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
@@ -7705,7 +7686,7 @@ export default class App extends React.Component {
             vaccine efficacy cannot be judged by putting people in a room
             because that would be proof again that spittle doesn't transmit
           </span>
-        </div>{" "}
+        </div>
         <br />
         when buy Greenland IRS
         <br />
@@ -8275,7 +8256,6 @@ export default class App extends React.Component {
             <span
               ref={this.marx}
               style={{
-                
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
@@ -8333,7 +8313,7 @@ export default class App extends React.Component {
               ref={this.brookings}
               style={{
                 position: "relative",
-                
+
                 display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
