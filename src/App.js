@@ -583,12 +583,12 @@ export default class App extends React.Component {
           employee, you have to serve the best interests of citizens or it is a
           violation of civil rights in colonialism and the penumbrum of
           ownership relationships, be it people themselves, their homes or their
-          entries into supply or labor for demand. It is taken from 3% sales tax
-          under $2k if there is an immutable free-rider customer, but if it is
-          not - and is by counterfeit/debt/invoice - then it is worse, as it is
-          monopsony of rawest fixed-input cost due upon it price and
-          quality-defect without the option for competition from verifiably
-          unbiased and&nbsp;
+          entries into supply or labor for demand. It is taken from&nbsp;
+          <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;if there
+          is an immutable free-rider customer, but if it is not - and is by
+          counterfeit/debt/invoice - then it is worse, as it is monopsony of
+          rawest fixed-input cost due upon it price and quality-defect without
+          the option for competition from verifiably unbiased and&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -2584,8 +2584,9 @@ export default class App extends React.Component {
             <br />
             <br />
             NYC: you cannot make someone paint their property or make them do
-            labor unless they are roman servants since we don't just do 3% sales
-            tax under $2k goes on spoof-able geohash
+            labor unless they are roman servants since we don't just do&nbsp;
+            <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;goes on
+            spoof-able geohash
             <br />
             H.R. 1 (748?) proposes not giving interest on bonds to international
             aid & comfort, but still give outlays to "disadvantaged borrowers"
@@ -2601,25 +2602,6 @@ export default class App extends React.Component {
             you can dishwash yourself a house, as a bookkeeper for a
             homebuilding company with family mortgage and experience
             dishwashing/serving{" "}
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics"
-              //fontWeight: "bolder",
-              //textDecoration: "underline"
-            }}
-          >
-            NYC: you cannot make someone paint their property or make them do
-            labor unless they are roman servants since we don't just do 3% sales
-            tax under $2k goes on spoof-able geohash
-            <br />
-            HR.1 proposes not giving interest on bonds to international aid &
-            comfort, but still give outlays to "disadvantaged borrowers" for no
-            clearer possible confession of motive to indulge in involuntary
-            dollar/equity/vault/market-share split? That is admittance that it
-            is involuntary slavery
-            <br />
             <a
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
@@ -2633,7 +2615,7 @@ export default class App extends React.Component {
             the <a href="http://vaults.biz">Labor Market (not-counterfeit)</a>{" "}
             for{" "}
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
-          </i>
+          </div>
           <div
             style={{
               height: "min-content",
