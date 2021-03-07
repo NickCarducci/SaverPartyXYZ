@@ -309,7 +309,8 @@ export default class App extends React.Component {
             of unequal laws to be applied - price-fixing is not justice
           </i>
           <br />
-          transmission of virus only travels by symptom, spittle/oils, and heat rises
+          transmission of virus only travels by symptom, spittle/oils, and heat
+          rises
           <br />
           <br />
           Officer of Government Ethics vs&nbsp;
@@ -3138,28 +3139,42 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              <img
+              <div
                 style={{
-                  width: "calc(50% - 26px)",
-                  height: "auto",
-                  border: this.state.highlightIRS ? "3px solid blue" : "",
-                  borderRadius: "10px",
-                  padding: "10px"
+                  position: "relative"
                 }}
-                alt="always, not just sneeze https://pubmed.ncbi.nlm.nih.gov/17542834/"
-                src="https://www.dl.dropboxusercontent.com/s/yt1089433ca2ixp/measles.jpeg?dl=0"
-              />
-              <img
+              >
+                {" "}
+                <img
+                  style={{
+                    width: "calc(50% - 26px)",
+                    height: "auto",
+                    border: this.state.highlightIRS ? "3px solid blue" : "",
+                    borderRadius: "10px",
+                    padding: "10px"
+                  }}
+                  alt="always, not just sneeze https://pubmed.ncbi.nlm.nih.gov/17542834/"
+                  src="https://www.dl.dropboxusercontent.com/s/yt1089433ca2ixp/measles.jpeg?dl=0"
+                />
+              </div>
+              <div
                 style={{
-                  width: "calc(50% - 26px)",
-                  height: "auto",
-                  border: this.state.highlightIRS ? "3px solid blue" : "",
-                  borderRadius: "10px",
-                  padding: "10px"
+                  position: "relative"
                 }}
-                alt="sneeze only"
-                src="https://www.dl.dropboxusercontent.com/s/bsr9axf89v6xbf0/sneezemeazles.jpeg?dl=0"
-              />
+              >
+                {" "}
+                <img
+                  style={{
+                    width: "calc(50% - 26px)",
+                    height: "auto",
+                    border: this.state.highlightIRS ? "3px solid blue" : "",
+                    borderRadius: "10px",
+                    padding: "10px"
+                  }}
+                  alt="sneeze only"
+                  src="https://www.dl.dropboxusercontent.com/s/bsr9axf89v6xbf0/sneezemeazles.jpeg?dl=0"
+                />
+              </div>
             </div>
             <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7264927/?fbclid=IwAR3YJK5KeMMHKlePeZN0lQb0cZz6tAb2SQZO9bKJl9jEE6aQIE08nbUgUNE">
               It is only proposed as an unconfirmed solution to not be oncogenic
