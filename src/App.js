@@ -300,6 +300,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        <a
+          href="https://thumbprint.us"
+          style={{
+            //fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            //textEmphasis: "italics",
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+        >
+          Nick Carducci vs. the People
+        </a><br/>
           Thumbprint.us is now being plagerized and competed with for the people in recent legislation (cheating) after turning down funding for 9 years
         <br />
           <br />
