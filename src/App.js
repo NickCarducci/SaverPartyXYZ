@@ -300,7 +300,7 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Thumbprint.us is now being plagerized and competed with for the people in recent legislation after turning down funding
+          Thumbprint.us is now being plagerized and competed with for the people in recent legislation (cheating) after turning down funding
         <br />
           <br />
 Either Manchin doesn't understand price-elasticity or he is lying and guilty of intending to harm AND mislead by saying, "Covid Relief Bill will help Americans for a long time."
