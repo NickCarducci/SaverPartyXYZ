@@ -4481,8 +4481,8 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            <a href="https://en.wikipedia.org/wiki/Cronus">Old people</a> and
-            Nobel-Prize winning economists lie about the following
+            <a href="https://en.wikipedia.org/wiki/Cronus">Old people</a>
+            &nbsp;and Nobel-Prize winning economists lie about the following
           </i>
           <div
             style={{
@@ -4992,7 +4992,20 @@ export default class App extends React.Component {
                 Sars-Cov-1 virus
               </a>
               ), the other reason must be the fear instilled by Wolf Blitzer and
-              putting sick & old people together
+              &nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.grandmaMentality.current.scrollIntoView("smooth");
+                  this.setState({ highlightGrandmaMentality: true });
+                  setTimeout(
+                    () => this.setState({ highlightGrandmaMentality: false }),
+                    10000
+                  );
+                }}
+              >
+                putting sick & old people together
+              </span>
             </span>
             <br />
             Would like to see a chart of population of people above 90 but
@@ -9709,3 +9722,4 @@ export default class App extends React.Component {
     );
   }
 }
+
