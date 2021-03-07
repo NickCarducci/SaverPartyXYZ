@@ -7322,6 +7322,7 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
+              display: "inline-block",
               fontWeight: "bolder",
               textDecoration: "underline",
               padding: "4px 10px",
@@ -7339,6 +7340,7 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
+              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
