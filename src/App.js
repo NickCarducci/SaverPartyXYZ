@@ -85,6 +85,7 @@ export default class App extends React.Component {
     this.homebuilder = React.createRef();
     this.covidKills = React.createRef();
     this.grandmaMentality = React.createRef();
+    this.oldFlu = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -4948,10 +4949,25 @@ export default class App extends React.Component {
               grafts
             </span>
             <br />
-            the virus is just as deadly as the flu, even if you could force
-            people to risk unforseen side-effects to not be a slave by
-            free-riding exclusion in the economy without visible
-            symptoms/evidence
+            
+            <span
+              ref={this.oldFlu}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                borderRadius: "15px",
+                color: this.state.highlightOldFlu ? "white" : "black",
+                backgroundColor: this.state.highlightOldFlu
+                  ? "rgb(20,100,205)"
+                  : "",
+                transition: ".3s ease-out"
+              }}
+            >The virus is just as deadly as the flu... even if you could force
+            people to&nbsp;<a href="https://foiegras.life">risk</a>&nbsp;
+            <a href="https://moldmask.co">unforseen</a>&nbsp;
+            <a href="https://humanharvest.info">side-effects</a>&nbsp;to not be
+            a slave by free-riding exclusion in the economy without visible
+            symptoms/evidence.&nbsp;<a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">Running out</a>&nbsp;of&nbsp;<a href="zippia.com/landlord-jobs/demographics/">old people</a>
             <br />
             <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
               wavv.art/forumMqCyVEXOjfYPErd902Vp
@@ -4971,6 +4987,7 @@ export default class App extends React.Component {
             </a>
             ), the other reason must be the fear instilled by Wolf Blitzer and
             putting sick & old people together
+            </span>
             <br />
             Would like to see a chart of population of people above 90 but
             the macrotrends.net/countries/USA/united-states/death-rate source is
@@ -5366,9 +5383,20 @@ export default class App extends React.Component {
               <a href="https://humanharvest.info">"vaccine"/graft</a> that could
               cause malformation/cancer with normal life expectancy. They don't
               want to pay for&nbsp;
-            <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+              <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.oldFlu.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFlu: true });
+                setTimeout(
+                  () => this.setState({ highlightOldFlu: false }),
+                  10000
+                );
+              }}
+            >
+                larger, first-world old-age population
             
-            larger, first-world old-age population</a>
+            </span>
               <br />
               couples who pass at the same time is correlative evidence that it
               is mostly mental, and CNN can be attributable to my grandma's
