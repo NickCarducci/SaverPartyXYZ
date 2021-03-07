@@ -5641,7 +5641,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 color: "rgb(255,120,50)",
                 fontSize: "14px",
                 display: "flex",
-                width: "min-content)",
+                width: "max-content)",
                 justifyContent: "center",
                 alignItems: "center",
                 backgroundColor: "rgb(25,20,50)"
@@ -5657,7 +5657,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 color: "rgb(5,230,50)",
                 fontSize: "14px",
                 display: "flex",
-                width: "min-content",
+                width: "max-content",
                 justifyContent: "center",
                 alignItems: "center",
                 backgroundColor: "rgb(25,20,50)"
@@ -5673,7 +5673,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 color: "rgb(195,70,240)",
                 fontSize: "14px",
                 display: "flex",
-                width: "min-content)",
+                width: "max-content)",
                 justifyContent: "center",
                 alignItems: "center",
                 backgroundColor: "rgb(25,20,50)"
@@ -5689,7 +5689,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
                 color: "rgb(230,230,230)",
                 fontSize: "14px",
                 display: "flex",
-                width: "min-content)",
+                width: "max-content)",
                 justifyContent: "center",
                 alignItems: "center",
                 backgroundColor: "rgb(25,20,50)"
