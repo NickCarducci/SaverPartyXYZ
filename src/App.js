@@ -309,6 +309,8 @@ export default class App extends React.Component {
             of unequal laws to be applied - price-fixing is not justice
           </i>
           <br />
+          transmission of virus only travels by symptom, spittle/oils, and heat rises
+          <br />
           <br />
           Officer of Government Ethics vs&nbsp;
           <span
