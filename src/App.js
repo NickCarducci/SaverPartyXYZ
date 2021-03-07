@@ -300,6 +300,18 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <div 
+            style={{
+              width: "100%",
+              position: "relative"
+            }}><img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
+          /></div><br/>
           Biden: "I promised I would get government to work for the American
           people, and this bill will do that," says Joe Biden
           <br />
