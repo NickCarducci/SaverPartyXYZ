@@ -327,7 +327,7 @@ export default class App extends React.Component {
          <br/>
          281,000/10,488,000 violent vs illegal immigrants (2.6792%)
          <br/>
-         709,487/325,100,000-10,488,000 violent vs illegal immigrants (.2255%)
+         709,487/325,100,000-10,488,000 violent vs Citizen or resident (.2255%)
          <br/>
           <br/>
           "Power of compound interest," ex-Senator Phil Gramm says on
