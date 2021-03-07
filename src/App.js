@@ -6137,8 +6137,21 @@ export default class App extends React.Component {
               payments to borrowers' customers' regardless of the harm done in
               opportunity cost of the non-borrower, and mistreatment of
               splitting procedure for dollars and corporate shares, and the
-              founding on the dollar by force in asset confiscation, but these
-              programs are obviously to not let lenders lose.
+              founding on the dollar by force in&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.IRS.current.scrollIntoView("smooth");
+                  this.setState({ highlightIRS: true });
+                  setTimeout(
+                    () => this.setState({ highlightIRS: false }),
+                    10000
+                  );
+                }}
+              >
+                asset confiscation
+              </span>
+              , but these programs are obviously to not let lenders lose.
               <br />I am publishing this on saverparty.xyz and telling people to
               short the treasury and all lenders as well as treasury share stock
               before&nbsp;
