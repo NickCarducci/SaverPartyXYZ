@@ -4949,7 +4949,6 @@ export default class App extends React.Component {
               grafts
             </span>
             <br />
-            
             <span
               ref={this.oldFlu}
               style={{
@@ -4962,31 +4961,38 @@ export default class App extends React.Component {
                   : "",
                 transition: ".3s ease-out"
               }}
-            >The virus is just as deadly as the flu... even if you could force
-            people to&nbsp;<a href="https://foiegras.life">risk</a>&nbsp;
-            <a href="https://moldmask.co">unforseen</a>&nbsp;
-            <a href="https://humanharvest.info">side-effects</a>&nbsp;to not be
-            a slave by free-riding exclusion in the economy without visible
-            symptoms/evidence.&nbsp;<a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">Running out</a>&nbsp;of&nbsp;<a href="zippia.com/landlord-jobs/demographics/">old people</a>
-            <br />
-            <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
-              wavv.art/forumMqCyVEXOjfYPErd902Vp
-            </a>
-            <br />
-            given 2020 deaths are so abnormally low, but higher due to&nbsp;
-            <a href="https://www.prb.org/countries-with-the-oldest-populations/">
-              old-age population
-            </a>
-            &nbsp;(not the&nbsp;
-            <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm">
-              96%-similar
-            </a>
-            &nbsp;to&nbsp;
-            <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
-              Sars-Cov-1 virus
-            </a>
-            ), the other reason must be the fear instilled by Wolf Blitzer and
-            putting sick & old people together
+            >
+              The virus is just as deadly as the flu... even if you could force
+              people to&nbsp;<a href="https://foiegras.life">risk</a>&nbsp;
+              <a href="https://moldmask.co">unforseen</a>&nbsp;
+              <a href="https://humanharvest.info">side-effects</a>&nbsp;to not
+              be a slave by free-riding exclusion in the economy without visible
+              symptoms/evidence.&nbsp;
+              <a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">
+                Running out
+              </a>
+              &nbsp;of&nbsp;
+              <a href="zippia.com/landlord-jobs/demographics/">old people</a>
+              <br />
+              <br />
+              <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
+                wavv.art/forumMqCyVEXOjfYPErd902Vp
+              </a>
+              <br />
+              given 2020 deaths are so abnormally low, but higher due to&nbsp;
+              <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+                old-age population
+              </a>
+              &nbsp;(not the&nbsp;
+              <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm">
+                96%-similar
+              </a>
+              &nbsp;to&nbsp;
+              <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
+                Sars-Cov-1 virus
+              </a>
+              ), the other reason must be the fear instilled by Wolf Blitzer and
+              putting sick & old people together
             </span>
             <br />
             Would like to see a chart of population of people above 90 but
@@ -5384,19 +5390,18 @@ export default class App extends React.Component {
               cause malformation/cancer with normal life expectancy. They don't
               want to pay for&nbsp;
               <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.oldFlu.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFlu: true });
-                setTimeout(
-                  () => this.setState({ highlightOldFlu: false }),
-                  10000
-                );
-              }}
-            >
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.oldFlu.current.scrollIntoView("smooth");
+                  this.setState({ highlightOldFlu: true });
+                  setTimeout(
+                    () => this.setState({ highlightOldFlu: false }),
+                    10000
+                  );
+                }}
+              >
                 larger, first-world old-age population
-            
-            </span>
+              </span>
               <br />
               couples who pass at the same time is correlative evidence that it
               is mostly mental, and CNN can be attributable to my grandma's
