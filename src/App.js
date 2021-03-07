@@ -297,7 +297,7 @@ export default class App extends React.Component {
           }}
         >
           Ron Desantis sounds like he wants to run a business being forced to
-          use their product,&nbs;
+          use their product,&nbsp;
           <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
             ban zuckerberg and others
           </a>
