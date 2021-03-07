@@ -297,6 +297,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          <i
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            laws have to be justice-oriented in order for the equal application
+            of unequal laws to be applied - price-fixing is not justice
+          </i>
           Officer of Government Ethics vs&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -4961,7 +4972,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            According to Chris Salcedo the Constitutionalist Patriot party is
+            According to Greg Kelly the Constitutionalist Patriot party is
             forthcoming, I can only assume this bastardizes the involuntary
             servitude/free-rider line to support what I abject herein or it is
             blatant plagerism. If founded by Trump, it would be fraud as well
@@ -5011,7 +5022,7 @@ export default class App extends React.Component {
             remediation, walked into Baltimore City to form a nonprofit. Little
             did he know at the time and for years after, that the ownership
             devolves to the colonists in power instead of the people, if the
-            organizational &nbsp;
+            organizational&nbsp;
             <span
               onClick={() => {
                 this.royalty.current.scrollIntoView("smooth");
@@ -5034,7 +5045,7 @@ export default class App extends React.Component {
             >
               legal structure
             </span>
-            &nbsp; is taken over the initial mission to create a “mock direct
+            &nbsp;is taken over the initial mission to create a “mock direct
             democracy for the citizens of Baltimore and beyond.”{" "}
             <a href="https://www.youtube.com/watch?v=12V9rV_bp_M">
               (Sortition, Ben)
