@@ -296,8 +296,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          Ron Desantis sounds like he wants to run a business being forced to
+          use their product,&nbs;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            ban zuckerberg and others
+          </a>
+          <br />
+          <br />
           CNN soliciting listeners that, "government-backed loans is the only
-          option to keep the&nbsp;<a href="https://magnate.company">lights</a>{" "}
+          option to keep the&nbsp;<a href="https://magnate.company">
+            lights
+          </a>{" "}
           on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
           <br />
           If you cannot pay, and they&nbsp;
