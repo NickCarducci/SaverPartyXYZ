@@ -414,6 +414,10 @@ export default class App extends React.Component {
           <a href="https://vaults.biz">waits for customer</a> to take royalty
           <br />
           <br />
+          if inequality isn't too great and swaths of supply isn't being horded,
+          there are enough producers (20+) to deliver competition
+          <br />
+          <br />
           California Assemblypeople making threats of strike not teaching their
           kids if they cannot get national money
           <br />
