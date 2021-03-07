@@ -299,7 +299,11 @@ export default class App extends React.Component {
             width: "100%",
             maxWidth: "600px"
           }}
-        >Either Manchin doesn't understand price-elasticity or he is lying and guilty of intending to harm AND mislead by saying, "Covid Relief Bill will help Americans for a long time."
+        >
+          Thumbprint.us is now being plagerized and competed with for the people in recent legislation after turning down funding
+        <br />
+          <br />
+Either Manchin doesn't understand price-elasticity or he is lying and guilty of intending to harm AND mislead by saying, "Covid Relief Bill will help Americans for a long time."
           <br/>
           Manchin continues, "$300/week was enough, so no one misses a paycheck"
           <br />
