@@ -4183,7 +4183,12 @@ export default class App extends React.Component {
             and physics. Here is 0/10 transmission by being in room without mask
             &nbsp;
             <a
-              style={{ fontSize: "12px", color: "black" }}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
               href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
             >
               https://pubmed.ncbi.nlm.nih.gov/17542834/
@@ -4191,7 +4196,12 @@ export default class App extends React.Component {
             , and politifact consultants say covid requires spittle to transmit
             &nbsp;
             <a
-              style={{ fontSize: "12px", color: "black" }}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
               href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8"
             >
               https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8
@@ -4199,7 +4209,12 @@ export default class App extends React.Component {
             , which makes sense to Brownian motion only capable by oxygen or the
             like-sized particles &nbsp;
             <a
-              style={{ fontSize: "12px", color: "black" }}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
               href="https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk"
             >
               https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk
@@ -4209,7 +4224,12 @@ export default class App extends React.Component {
             Also I think mold allows virus to survive before infection in a mask
             and prolonging the pandemic &nbsp;
             <a
-              style={{ fontSize: "12px", color: "black" }}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
               href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
             >
               https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms.
@@ -4497,14 +4517,30 @@ export default class App extends React.Component {
             <br />
             your B-cells do it right away... it is a trade-off between the 0-9mo
             smell morbidity/dying and{" "}
-            <a href="https://www.immunology.org/public-information/bitesized-immunology/immune-dysfunction/b-cell-mediated-disease">
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.immunology.org/public-information/bitesized-immunology/immune-dysfunction/b-cell-mediated-disease"
+            >
               B-cell
             </a>{" "}
             oncogenesis/dying, I’m sure both are equally as likely..., but I
             like natural things. Takes some time for an infected person to
             gestate and become contagious + politifact says it requires spittle
             to travel which has been proven not to float{" "}
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+            >
               https://pubmed.ncbi.nlm.nih.gov/17542834/
             </a>{" "}
             so it is an individual decision.
