@@ -89,6 +89,7 @@ export default class App extends React.Component {
     this.employmentOfOne = React.createRef();
     this.singleSourceOfTruth = React.createRef();
     this.jan2018 = React.createRef();
+    this.savingsRate = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -305,7 +306,7 @@ export default class App extends React.Component {
       border: "1px dotted",
       width: "calc(100% - 42px)",
       maxWidth: "600px"
-    }
+    };
     return (
       <div ref={this.forSize} className="App">
         <div
@@ -336,6 +337,26 @@ export default class App extends React.Component {
             height: "min-content"
           }}
         >
+          "
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.savingsRate.current.scrollIntoView("smooth");
+              this.setState({ highlightSavingsRate: true });
+              setTimeout(
+                () => this.setState({ highlightSavingsRate: false }),
+                10000
+              );
+            }}
+          >
+            Money is going to increase the savings rate
+          </span>
+          ," - Fox Business guest says without correction
           <div
             style={{
               display: "inline-block",
@@ -8511,9 +8532,7 @@ export default class App extends React.Component {
             be seeking renumeration for price-picking and counterfeit, not
             merely laugh at the borrower/lender collusion
           </span>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             Mortgages are illegal, you cannot promise somebody else's money{" "}
             <br />
             <br />
@@ -8553,9 +8572,7 @@ export default class App extends React.Component {
             </span>
             )
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             You should own it if for more than a year && it is implied your
             intent isn’t to be there if you rent {">"}1mo bed/bath/ovens more
             than 5, but to prohibit trade.
@@ -8564,9 +8581,7 @@ export default class App extends React.Component {
             involuntary servitude because it takes away from the opportunity of
             the saver to own it.
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             Do not say taxpayers pay for operations 12x existing money.
             Government spending is mostly a cost upon dollar-owners
             <br />
@@ -8584,9 +8599,7 @@ export default class App extends React.Component {
               wavv.art/forumC49WDIBFRmpaO05ukNoo
             </a>
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             monetary-inflation only happens if you allow debts to be reposessed
             <br />
             <br />
@@ -8607,9 +8620,7 @@ export default class App extends React.Component {
             which are themselves promises of other peoples money. The former is
             just duress
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             biden calling for full employment scares me
             <br />
             <br />
@@ -8619,16 +8630,12 @@ export default class App extends React.Component {
             dealing in usurped and forced promises of unrequited third party
             share and servitude. Let prices be elastic!
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             if you want to lift people out of poverty efficiently, why would you
             dollar-split to pay for impractical promises at 12:1 by 2020
             ($82t:$6t)
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             VALUATION IS NOT WEALTH AND YOU ARE TAKING ADVICE ON A
             NEGLECTFUL-HOMOCIDAL NIH, GRAFTS CAUSE CANCER FROM B-CELL
             DYSREGULATION YOU SHOULD MAKE YOUR OWN ANTIBODIES AND MRNA;
@@ -8636,9 +8643,7 @@ export default class App extends React.Component {
             FREE-RIDER OF THE EXCLUDER AND INVOLUNTARY SERVITUDE OF THE ONE
             EXCLUDED
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             Hello Alan, I will not harass and monopsonize the funeral
             arrangement market without being a buyer or seller preventing
             price-elasticity, especially when the contracts you broker aren't
@@ -8646,17 +8651,13 @@ export default class App extends React.Component {
             and therefore indentured servitude, on games without
             shuffled-randomness. Best, Nick Carducci.sh
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             the debt will never be paid and lenders will never stop lending to
             market-share/vault-share steward collusion. no amount of immigrants
             will bankrupt the country, but those bonds can never become cash at
             once . I want to live today.
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             A person's debt is their customers to burden unrequited, promised
             (not used or borrowed). We work towards no ends when debt exists
             <br />
@@ -8665,25 +8666,19 @@ export default class App extends React.Component {
             <br />
             marijuana laws are to stop dollar competition
           </div>{" "}
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             if we banned prohibiting price-elasticity in debt, invoices and
             renting out more than one can use themselves prices would drop to
             1/12 what it is now (current cash:debt ratio)
           </div>{" "}
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             also, ppp loans is an antitrust case, bootstrapping entrepreneurs
             are excluded, prices are fixed Insurance abet counterfeit
             dollar-shareholder right usurpation and force consumers to commit
             these crimes by being unable to attain these medical services
             without joining the pyramid scheme of crime
           </div>{" "}
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             The regulators have stated intent of wallstreetbets to spite short
             sellers generally, but the intent of trading against users is
             obvious in the way unique identifiers are not anonymized for 3
@@ -8737,9 +8732,7 @@ export default class App extends React.Component {
               directive by Jewish and Roman leaders.
             </div>
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             You can have opinion if the other has no proof, and then you will
             have to cease if it is proven, which can be appealed in the future,
             by the people. You bet.&nbsp;
@@ -8854,9 +8847,7 @@ export default class App extends React.Component {
             that.”
             <br />
             <br />
-            <span
-              style={tweetsStyle}
-            >
+            <span style={tweetsStyle}>
               How many times are you going to say “stand,” Rudy, you old crypt
               Your exec. assist or you were in the Box Office for 9/11
             </span>
@@ -8870,9 +8861,7 @@ export default class App extends React.Component {
             <b>dollar-split</b> to prevent price-elasticity Consumer
             Reports give me your page you do not understand this{" "}
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -8892,9 +8881,7 @@ export default class App extends React.Component {
             If credit contracts promised corporate shares the claimant would be
             laughed out of court. THIS IS FRAUD
           </div>
-          <div
-            style={tweetsStyle}
-          >
+          <div style={tweetsStyle}>
             <span
               ref={this.valuation}
               style={{
@@ -10050,8 +10037,8 @@ export default class App extends React.Component {
             over?
           </div>
           <div id="t1333475443064844289" />
-          <DebtToSales />
           <a
+            ref={this.savingsRate}
             href="https://froth.app"
             style={{
               textDecoration: "none",
@@ -10079,6 +10066,7 @@ export default class App extends React.Component {
             froth.app
           </a>
           <br />
+          <DebtToSales />
           <div
             //style={{ display: "flex", flexWrap: "wrap" }}
             style={{
