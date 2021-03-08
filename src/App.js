@@ -322,13 +322,48 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
-            "What is the crime in [benefits], allowing states to&nbsp;
+            "&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+              setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+          >
+            What
+          </span>
+          &nbsp;is the&nbsp;
+          <span
+            onClick={() => {
+              this.Oooreily.current.scrollIntoView("smooth");
+              this.setState({ highlightOooreily: true });
+              setTimeout(
+                () => this.setState({ highlightOooreily: false }),
+                10000
+              );
+            }}
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            crime
+          </span>
+          &nbsp;in [benefits], allowing states to&nbsp;
             <a href="https://vaults.biz">fully-reopen</a>," queries Jake Tapper
             about unemployment insurance & state + local bond-holder bailout
             abject fraud and unfair cornering of assets by competing with other
-            customers who do not borrow/collude with producers+lenders or do not have the collusion of the
-            market-share/equity stewards espoused by the Federal Reserve
-<br/><br/>
+            customers who do not borrow/collude with producers+lenders or do not
+            have the collusion of the market-share/equity stewards espoused by
+            the Federal Reserve
+            <br />
+            <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -449,7 +484,8 @@ export default class App extends React.Component {
           <br />
           281,000/10,488,000 violent vs illegal immigrants (2.6792%)
           <br />
-          709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
+          709,487/(325,100,000-10,488,000) violent vs Citizen or resident
+          (.2255%)
           <br />
           <br />
           "Power of compound interest," ex-Senator Phil Gramm says on
@@ -8028,19 +8064,22 @@ export default class App extends React.Component {
             >
               if your idea of foreign policy is to keep foreigners from getting
               actual assets by forcing our citizens to use counterfeit asset
-              certificates, you're&nbsp;<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-                setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-            retarded</span>&nbsp;(chris salcedo, 
-              Newsmax and Christine Romans, Early Start CNN)
+              certificates, you're&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.trueGDP.current.scrollIntoView("smooth");
+                  this.setState({ highlightTrueGDP: true });
+                  setTimeout(
+                    () => this.setState({ highlightTrueGDP: false }),
+                    10000
+                  );
+                }}
+              >
+                retarded
+              </span>
+              &nbsp;(chris salcedo, Newsmax and Christine Romans, Early Start
+              CNN)
             </span>{" "}
             <br />
             <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
