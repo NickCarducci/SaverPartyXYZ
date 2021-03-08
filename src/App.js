@@ -88,6 +88,7 @@ export default class App extends React.Component {
     this.oldFlu = React.createRef();
     this.employmentOfOne = React.createRef();
     this.singleSourceOfTruth = React.createRef();
+    this.jan2018 = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -1824,8 +1825,19 @@ export default class App extends React.Component {
             they do not help protect others, there is no proof you have covid
             without symptoms
           </span>
-          <br />
-          <br />
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.jan2018.current.scrollIntoView("smooth");
+              this.setState({ highlightJan2018: true });
+              setTimeout(
+                () => this.setState({ highlightJan2018: false }),
+                10000
+              );
+            }}
+          >
+            Financial Celibacy
+          </span>
           <span
             ref={this.takingCredit}
             style={{
@@ -8398,15 +8410,19 @@ export default class App extends React.Component {
             if you move people you are at fault
           </i>
           <div
+            ref={this.jan2018}
             style={{
               fontFamily: '"Hi Melody", cursive',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
               display: "inline-block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              color: this.state.highlightJan2018 ? "white" : "grey",
+              backgroundColor: this.state.highlightJan2018
+                ? "rgb(50,100,255)"
+                : ""
             }}
           >
             I was shorting the car market, expecting all this inventory to flood
