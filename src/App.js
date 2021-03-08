@@ -347,13 +347,13 @@ export default class App extends React.Component {
             <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
               parts of communism
             </a>
+            ;
             <br />
-            if capitalism is&nbsp;
+            if capitalism is without trading&nbsp;
             <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
-              without trading human labor or their future income as fungible
-              with assets/equity apprised as counterfeit
-            </a>
-            , it is&nbsp;
+              human labor, or their future income
+            </a>{" "}
+            as fungible with assets/equity apprised as counterfeit, it is&nbsp;
             <span
               style={{
                 fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -372,6 +372,7 @@ export default class App extends React.Component {
             >
               socialism with profit-schedule
             </span>
+            <br />
             "This plan will put money into the pockets of those who need this
             most [and we will allow prosecutions for
             back-taxes/rents/mortgages/impossible counterfeit-in-contracts to be
