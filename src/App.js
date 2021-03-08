@@ -335,8 +335,7 @@ export default class App extends React.Component {
             circumstance be seen, ever, only that it is impossible can be seen,
             but that circumstance can never happen i.e.&nbsp;
             <span style={{ color: "rgb(180,140,40)" }}>
-              you can never have an impossible circumstance, by definition of
-              circumstance, happen
+              you can never have happen an impossible circumstance, by definition,
             </span>{" "}
             - and under duress to compete-on-demand with other impossible
             counterfeit bids-by-promise to which renumeration is due for
