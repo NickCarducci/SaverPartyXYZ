@@ -326,6 +326,8 @@ export default class App extends React.Component {
             <br/>
             duress, involuntary-servitude, no-symptom exclusion by free-rider
             <br />
+            where does cash($6t,2020) go after it buys bonds($82t,2020)?
+            <br />
             <br />
             Contracts are void when terms are impossible, let alone any&nbsp;
             <span style={{ color: "purple" }}>
