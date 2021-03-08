@@ -3018,11 +3018,42 @@ export default class App extends React.Component {
             My (NC) estimates for party compilation 2022 and 2024. Supply-side
             (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
             (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
-            call https://www.facebook.com/IVN/posts/10156682244587465
+            call{" "}
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.facebook.com/IVN/posts/10156682244587465"
+            >
+              https://www.facebook.com/IVN/posts/10156682244587465
+            </a>
             <br />
-            https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc"
+            >
+              https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
+            </a>
             <br />
-            https://www.isidewith.com/poll/488729614
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.isidewith.com/poll/488729614"
+            >
+              https://www.isidewith.com/poll/488729614
+            </a>
             <br />
             <br />
             <br />
