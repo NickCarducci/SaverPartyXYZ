@@ -343,6 +343,12 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            <div>
+              "We purchased shots" -&nbsp;
+              <a href="https://en.wikipedia.org/wiki/Brett_Giroir">
+                Admiral Brett Giroir
+              </a>
+            </div>
             <a
               style={{
                 fontFamily: '"Hi Melody", cursive',
