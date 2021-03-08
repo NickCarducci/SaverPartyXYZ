@@ -1317,7 +1317,7 @@ export default class App extends React.Component {
           <a href="https://humanharvest.info">"vaccine"/graft</a>&nbsp;after 2
           weeks which is as much to make your own AFTER having symptoms])."
           <br />
-          ...but that is only if (2) symptom-less (1) test is proven, which (1)
+          ...but that is only if (2) symptom-less (1) test is proven [which (1)
           hasn't been (
           <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
             they are still using PCR
@@ -1326,13 +1326,13 @@ export default class App extends React.Component {
           <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
             in new March 2021 works
           </a>
-          ), (2) if&nbsp;
+          )], (2) if&nbsp;
           <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
             antibodies are different from cold's
           </a>
-          , (3)&nbsp;
+          , (3) if&nbsp;
           <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
-            if sequencing
+            sequencing
           </a>
           &nbsp;has been&nbsp;
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
