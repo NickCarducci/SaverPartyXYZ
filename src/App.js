@@ -393,23 +393,24 @@ export default class App extends React.Component {
             >
               "Stronger U.S. dollar makes exports more expensive," says CNN
             </span>
-            <br/>
-            
-          <a
-            style={{
-              width: "100%",
-              position: "relative"
-            }}
-            href="https://twitter.com/saverparty"
-          >
-            <img
-              alt=""
+            <br />
+            <a
               style={{
                 width: "100%",
-                height: "auto"
+                position: "relative"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/bvwrxav9rgrvukv/Screen%20Shot%202021-03-08%20at%2010.45.40%20AM.png?dl=0"
-           /></a> <br />
+              href="https://twitter.com/saverparty"
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/bgzlmx15ozereze/Screen%20Shot%202021-03-08%20at%2010.52.36%20AM.png?dl=0"
+              />
+            </a>{" "}
+            <br />
             <br />
             tax if there is an immutable free-rider customer, otherwise it is
             counterfeit, promises, fractional-reserves, false-advertisement or
@@ -4407,6 +4408,13 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
+            “Damaging to say things before credible, democracy allows you to say
+            whatever you want but proving it is different, Damaging to say
+            things before credible, democracy allows you to say whatever you
+            want but proving it is different, Damaging to say things before
+            credible, democracy allows you to say whatever you want but proving
+            it is different,” - Gov. Andrew Cuomo
+            <br />
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGOODHQ%2Fposts%2F10157982552613059&width=300&show_text=true&height=444&appId"
