@@ -329,7 +329,7 @@ export default class App extends React.Component {
             <br />
             Contracts are void when terms are impossible, let alone any&nbsp;
             <span style={{ color: "purple" }}>
-              counterfeit-in-contract exhibited (bet on yourself, as AJ Catsimatidis likes to describe it)
+              counterfeit-in-contract exhibited ("bet on yourself," as AJ Catsimatidis likes to describe it)
             </span>
             . Even if forseen (which they are not - how can an impossible
             circumstance be seen, ever, only that it is impossible can be seen,
