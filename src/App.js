@@ -323,13 +323,26 @@ export default class App extends React.Component {
           </div>
           <div>
             duress, involuntary-servitude, no-symptom exclusion by free-rider
-            <br/>
-            <br/>
-            Contracts are void when terms are impossible. Even if forseen (which
-            they are not and under duress to compete with other impossible
+            <br />
+            <br />
+            Contracts are void when terms are impossible, let alone any&nbsp;
+            <span style={{ color: "purple" }}>
+              counterfeit-in-contract exhibited
+            </span>
+            . Even if forseen (which they are not - how can an impossible
+            circumstance be seen, ever, only that it is impossible can be seen,
+            but that circumstance can never happen i.e.&nbsp;
+            <span style={{ color: "rgb(180,140,40)" }}>
+              you can never have an impossible circumstance, by definition of
+              circumstance, happen
+            </span>{" "}
+            - and under duress to compete-on-demand with other impossible
             counterfeit bids-by-promise to which renumeration is due for
-            affected third-parties i.e. borrowers' customers' down-payments + time wasted & stress),
-            servitude is defined as a state of action to some end, still.
+            affected third-parties i.e. borrowers' customers'&nbsp;
+            <span style={{ color: "blue" }}>
+              down-payments + time wasted & stress
+            </span>
+            ), servitude is defined as a state of action to some end, still.
           </div>
           <br />
           Why does&nbsp;
