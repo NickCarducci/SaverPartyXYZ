@@ -321,6 +321,14 @@ export default class App extends React.Component {
           >
             EXPLICIT
           </div>
+          <div>
+            Contracts are void when terms are impossible. Even if forseen (which
+            they are not and under duress to compete with other impossible
+            counterfeit bids-by-promise to which renumeration is due for
+            affected third-parties i.e. borrowers' customers' down-payments),
+            servitude is defined as a state of action to some end, still.
+          </div>
+          <br />
           Why does&nbsp;
           <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
             Arthel Neville
@@ -3681,7 +3689,6 @@ export default class App extends React.Component {
               <br />
               <a
                 style={{
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightBooker ? "white" : "",
@@ -6551,7 +6558,7 @@ export default class App extends React.Component {
                 height: "min-content",
                 borderTop: "2px dotted black",
                 borderBottom: "1.5px dotted black",
-                width: "min-content"
+                width: "max-content"
               }}
             >
               <img
@@ -7727,7 +7734,6 @@ export default class App extends React.Component {
             , risk of 0-6mo. loss of smell vs risk of cancer by{" "}
             <a
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBcell ? "white" : "",
@@ -9731,7 +9737,7 @@ export default class App extends React.Component {
             position: "relative",
             height: "min-content",
             border: "3px solid black",
-            width: "min-content"
+            width: "max-content"
           }}
         >
           <img
@@ -9741,7 +9747,12 @@ export default class App extends React.Component {
           />
         </a>
         <a
-          style={{ textDecoration: "none", fontSize: "14px", marginTop: "4px" }}
+          style={{
+            textDecoration: "none",
+            fontSize: "14px",
+            marginTop: "4px",
+            width: "max-content"
+          }}
           href="https://froth.app"
         >
           froth.app
