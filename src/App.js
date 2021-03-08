@@ -1075,7 +1075,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightLivingWage ? "white" : "",
               backgroundColor: this.state.highlightLivingWage
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightLivingWage !== null ? "1" : "0",
               fontSize: this.state.highlightLivingWage !== null ? "" : "0px"
@@ -2634,7 +2634,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightDefense ? "white" : "",
               backgroundColor: this.state.highlightDefense
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightDefense !== null ? "1" : "0",
               fontSize: this.state.highlightDefense !== null ? "" : "0px"
@@ -3204,7 +3204,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightHomebuilder ? "white" : "grey",
               backgroundColor: this.state.highlightHomebuilder
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightHomebuilder !== null ? "1" : "0",
               fontSize: this.state.highlightHomebuilder !== null ? "" : "0px",
@@ -3333,7 +3333,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightStats ? "white" : "grey",
               backgroundColor: this.state.highlightStats
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightStats !== null ? "1" : "0",
               fontSize: this.state.highlightStats !== null ? "" : "0px"
@@ -3489,7 +3489,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightFTC ? "white" : "",
                 backgroundColor: this.state.highlightFTC
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightFTC !== null ? "1" : "0",
                 fontSize: this.state.highlightFTC !== null ? "" : "0px"
@@ -3838,7 +3838,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightJHUECON ? "white" : "",
                 backgroundColor: this.state.highlightJHUECON
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightJHUECON !== null ? "1" : "0",
                 fontSize: this.state.highlightJHUECON !== null ? "" : "0px"
@@ -3952,7 +3952,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightGOA ? "white" : "",
                 backgroundColor: this.state.highlightGOA
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightGOA !== null ? "1" : "0",
                 fontSize: this.state.highlightGOA !== null ? "" : "0px"
@@ -4009,7 +4009,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightBooker ? "white" : "",
                   backgroundColor: this.state.highlightBooker
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightBooker !== null ? "1" : "0",
                   fontSize: this.state.highlightBooker !== null ? "" : "0px"
@@ -4096,7 +4096,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightEducation ? "white" : "",
                   backgroundColor: this.state.highlightEducation
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightEducation !== null ? "1" : "0",
                   fontSize: this.state.highlightEducation !== null ? "" : "0px"
@@ -4127,7 +4127,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightCitadel ? "white" : "",
                   backgroundColor: this.state.highlightCitadel
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightCitadel !== null ? "1" : "0",
                   fontSize: this.state.highlightCitadel !== null ? "" : "0px"
@@ -4291,7 +4291,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightNRA ? "white" : "",
                   backgroundColor: this.state.highlightNRA
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightNRA !== null ? "1" : "0",
                   fontSize: this.state.highlightNRA !== null ? "" : "0px"
@@ -4340,7 +4340,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightCityHall ? "white" : "",
                   backgroundColor: this.state.highlightCityHall
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightCityHall !== null ? "1" : "0",
                   fontSize: this.state.highlightCityHall !== null ? "" : "0px"
@@ -4640,7 +4640,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightCease ? "white" : "",
                 backgroundColor: this.state.highlightCease
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightCease !== null ? "1" : "0",
                 fontSize: this.state.highlightCease !== null ? "" : "0px"
@@ -4947,7 +4947,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightRoyalty ? "white" : "",
               backgroundColor: this.state.highlightRoyalty
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightRoyalty !== null ? "1" : "0",
               fontSize: this.state.highlightRoyalty !== null ? "" : "0px"
@@ -4985,14 +4985,14 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightGDP ? "white" : "",
                 backgroundColor: this.state.highlightGDP
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightGDP !== null ? "1" : "0",
                 fontSize: this.state.highlightGDP !== null ? "" : "0px"
               }}
             >
               <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
-                Price-elasticity
+                Price-inelasticity
               </a>
               <br />
               <br />
@@ -5009,8 +5009,9 @@ export default class App extends React.Component {
               In order to remove cross-party risk from the investment, the
               payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
               WILLING AND ABLE in royalty contracts w/max-profit, which I am
-              working on that as well. seeking investors cause I have a lot
-              going on&nbsp;<a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
+              &nbsp;<a href="https://carducci.sh">working</a>&nbsp;on that as
+              well. seeking investors cause I have a lot going on&nbsp;
+              <a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
               <a href="https://scopes.cc">scopebook</a>
             </span>
           </div>
@@ -5337,7 +5338,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightNSFFraud ? "white" : "",
                   backgroundColor: this.state.highlightNSFFraud
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightNSFFraud !== null ? "1" : "0",
                   fontSize: this.state.highlightNSFFraud !== null ? "" : "0px"
@@ -5513,7 +5514,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightOldFlu ? "white" : "black",
                 backgroundColor: this.state.highlightOldFlu
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -5638,7 +5639,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightCVC ? "white" : "black",
                 backgroundColor: this.state.highlightCVC
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -5694,7 +5695,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "black",
                 backgroundColor: this.state.highlightItaly
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -5726,7 +5727,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightCVC ? "white" : "black",
                 backgroundColor: this.state.highlightCVC
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -5790,7 +5791,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
               color: this.state.highlightOooreily ? "white" : "grey",
               backgroundColor: this.state.highlightOooreily
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightOooreily !== null ? "1" : "0",
               fontSize: this.state.highlightOooreily !== null ? "" : "0px"
@@ -6131,7 +6132,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightBaltimore ? "white" : "",
               backgroundColor: this.state.highlightBaltimore
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightBaltimore !== null ? "1" : "0",
               fontSize: this.state.highlightBaltimore !== null ? "" : "0px"
@@ -6176,7 +6177,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightRoyalty ? "white" : "",
                 backgroundColor: this.state.highlightRoyalty
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -6475,7 +6476,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "",
                 backgroundColor: this.state.highlightItaly
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 transition: ".3s ease-out"
               }}
@@ -6521,7 +6522,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightExperts ? "white" : "grey",
               backgroundColor: this.state.highlightExperts
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightExperts !== null ? "1" : "0",
               fontSize: this.state.highlightExperts !== null ? "" : "0px"
@@ -6649,7 +6650,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightPolitics ? "white" : "",
                 backgroundColor: this.state.highlightPolitics
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightPolitics !== null ? "1" : "0",
                 fontSize: this.state.highlightPolitics !== null ? "" : "0px"
@@ -6858,7 +6859,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightColonization ? "white" : "",
                 backgroundColor: this.state.highlightColonization
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightColonization !== null ? "1" : "0",
                 fontSize: this.state.highlightColonization !== null ? "" : "0px"
@@ -6886,7 +6887,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightGDP ? "white" : "",
                 backgroundColor: this.state.highlightGDP
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightGDP !== null ? "1" : "0",
                 fontSize: this.state.highlightGDP !== null ? "" : "0px"
@@ -6971,7 +6972,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightFlag ? "white" : "",
                   backgroundColor: this.state.highlightFlag
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightFlag !== null ? "1" : "0",
                   fontSize: this.state.highlightFlag !== null ? "" : "0px"
@@ -7155,7 +7156,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
                 backgroundColor: this.state.highlightBail
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightBail !== null ? "1" : "0",
                 fontSize: this.state.highlightBail !== null ? "" : "0px"
@@ -7174,7 +7175,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
                 backgroundColor: this.state.highlightBail
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightBail ? "1" : "0",
                 fontSize: this.state.highlightBail ? "" : "0px"
@@ -7282,7 +7283,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightDecide ? "white" : "",
                 backgroundColor: this.state.highlightDecide
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightDecide ? "1" : "0",
                 fontSize: this.state.highlightDecide ? "" : "0px"
@@ -7381,7 +7382,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightTea ? "white" : "",
                 backgroundColor: this.state.highlightTea
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightTea !== null ? "1" : "0",
                 fontSize: this.state.highlightTea !== null ? "" : "0px"
@@ -7480,7 +7481,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightHost ? "white" : "",
                 backgroundColor: this.state.highlightHost
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightHost !== null ? "1" : "0",
                 fontSize: this.state.highlightHost !== null ? "" : "0px"
@@ -7771,7 +7772,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightFintech ? "white" : "",
                 backgroundColor: this.state.highlightFintech
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightFintech !== null ? "1" : "0",
                 fontSize: this.state.highlightFintech !== null ? "" : "0px"
@@ -7835,7 +7836,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightUUID ? "white" : "",
                 backgroundColor: this.state.highlightUUID
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightUUID !== null ? "1" : "0",
                 fontSize: this.state.highlightUUID !== null ? "" : "0px"
@@ -7987,7 +7988,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightBiden ? "white" : "",
                 backgroundColor: this.state.highlightBiden
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightBiden !== null ? "1" : "0",
                 fontSize: this.state.highlightBiden !== null ? "" : "0px"
@@ -8007,7 +8008,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightChina ? "white" : "",
                 backgroundColor: this.state.highlightChina
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightChina !== null ? "1" : "0",
                 fontSize: this.state.highlightChina !== null ? "" : "0px",
@@ -8040,7 +8041,7 @@ export default class App extends React.Component {
               borderRadius: "15px",
               color: this.state.highlightDesist ? "white" : "",
               backgroundColor: this.state.highlightDesist
-                ? "rgb(20,100,205)"
+                ? "rgb(170,100,205)"
                 : "",
               opacity: this.state.highlightDesist !== null ? "1" : "0",
               fontSize: this.state.highlightDesist !== null ? "" : "0px"
@@ -8106,7 +8107,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightBcell ? "white" : "",
                 backgroundColor: this.state.highlightBcell
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightBcell !== null ? "1" : "0",
                 fontSize: this.state.highlightBcell !== null ? "" : "0px"
@@ -8342,7 +8343,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightFP ? "white" : "",
                 backgroundColor: this.state.highlightFP
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightFP !== null ? "1" : "0",
                 fontSize: this.state.highlightFP !== null ? "" : "0px"
@@ -8444,7 +8445,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: "white",
-              backgroundColor: "rgb(20,100,205)"
+              backgroundColor: "rgb(170,100,205)"
             }}
             onClick={() =>
               this.setState({ openrelief: !this.state.openrelief })
@@ -8862,7 +8863,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightFlop ? "white" : "",
                 backgroundColor: this.state.highlightFlop
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightFlop !== null ? "1" : "0",
                 fontSize: this.state.highlightFlop !== null ? "" : "0px"
@@ -8974,7 +8975,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightValuation ? "white" : "",
                 backgroundColor: this.state.highlightValuation
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightValuation !== null ? "1" : "0",
                 fontSize: this.state.highlightValuation !== null ? "" : "0px"
@@ -9022,7 +9023,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightSpittle ? "white" : "",
                 backgroundColor: this.state.highlightSpittle
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightSpittle !== null ? "1" : "0",
                 fontSize: this.state.highlightSpittle !== null ? "" : "0px"
@@ -9622,7 +9623,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightMarx ? "white" : "",
                   backgroundColor: this.state.highlightMarx
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   transition: ".3s ease-out"
                 }}
@@ -9681,7 +9682,7 @@ export default class App extends React.Component {
                   borderRadius: "15px",
                   color: this.state.highlightBrookings ? "white" : "",
                   backgroundColor: this.state.highlightBrookings
-                    ? "rgb(20,100,205)"
+                    ? "rgb(170,100,205)"
                     : "",
                   opacity: this.state.highlightBrookings !== null ? "1" : "0",
                   fontSize: this.state.highlightBrookings !== null ? "" : "0px",
@@ -9768,7 +9769,7 @@ export default class App extends React.Component {
                 borderRadius: "15px",
                 color: this.state.highlightElectionTech ? "white" : "",
                 backgroundColor: this.state.highlightElectionTech
-                  ? "rgb(20,100,205)"
+                  ? "rgb(170,100,205)"
                   : "",
                 opacity: this.state.highlightElectionTech !== null ? "1" : "0",
                 fontSize: this.state.highlightElectionTech !== null ? "" : "0px"
