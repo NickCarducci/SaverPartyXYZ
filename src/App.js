@@ -1407,99 +1407,6 @@ export default class App extends React.Component {
             />
           </div>
           <br />
-          Herd immunity is so stupid. Why rush{" "}
-          <a href="https://froth.app">death</a>&nbsp;
-          <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
-          <a href="https://moldmask.co">moldmask.co</a>
-          <br />
-          2052 products © 2021
-          <br />
-          <br />
-          "Fully-vaccinated: no mask, social-distance," says&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Rochelle_Walensky">
-            CDC Director, Dr. Rochelle P. Walensky
-          </a>
-          &nbsp;and continues, "if from 1 household and little co-mortality risk
-          [I don't care about morbidity anymore as reason to mask, and am not
-          confident in the&nbsp;
-          <a href="https://humanharvest.info">"vaccine"/graft</a>&nbsp;after 2
-          weeks which is as much to make your own AFTER having symptoms])."
-          <br />
-          ...but that is only if (2) symptom-less (1) test is proven [which (1)
-          hasn't been (
-          <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
-            they are still using PCR
-          </a>
-          &nbsp;even&nbsp;
-          <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
-            in new March 2021 works
-          </a>
-          )], (2) if&nbsp;
-          <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
-            antibodies are different from cold's
-          </a>
-          , (3) if&nbsp;
-          <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
-            sequencing
-          </a>
-          &nbsp;has been&nbsp;
-          <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
-            proven to be easy yet is ruled out as "pulling the trigger"
-          </a>{" "}
-          with a patterned-
-          <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
-            history of misonformation
-          </a>
-          &nbsp;
-          <a href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42">
-            and a warped notion of thinking it is ok to do so
-          </a>
-          and&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
-              setTimeout(
-                () => this.setState({ highlightExperts: false }),
-                10000
-              );
-            }}
-          >
-            experts are paid
-          </span>
-          &nbsp; and (4)&nbsp;
-          <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
-            if the virus' proteins themselves aren't different
-          </a>
-          <br />
-          <br />
-          <span
-            ref={this.singleSourceOfTruth}
-            style={{
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightSingleSource ? "white" : "grey",
-              backgroundColor: this.state.highlightSingleSource
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightSingleSource !== null ? "1" : "0",
-              fontSize: this.state.highlightSingleSource !== null ? "" : "0px"
-            }}
-          >
-            If Herd-immunity can suppress the virus without a person interacting
-            with the&nbsp;
-            <a href="https://humanharvest.info">“vaccine”/graft</a>&nbsp;or the
-            virus, then it has a single source on the earth
-            <br />
-            they do not help protect others, there is no proof you have covid
-            without symptoms
-          </span>
-          <br />
           <br />
           <i
             style={{
@@ -1824,6 +1731,99 @@ export default class App extends React.Component {
             I need to go listen to the Senate discuss our equity since no other
             party will
           </div>
+          <br />
+          Herd immunity is so stupid. Why rush{" "}
+          <a href="https://froth.app">death</a>&nbsp;
+          <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
+          <a href="https://moldmask.co">moldmask.co</a>
+          <br />
+          2052 products © 2021
+          <br />
+          <br />
+          "Fully-vaccinated: no mask, social-distance," says&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Rochelle_Walensky">
+            CDC Director, Dr. Rochelle P. Walensky
+          </a>
+          &nbsp;and continues, "if from 1 household and little co-mortality risk
+          [I don't care about morbidity anymore as reason to mask, and am not
+          confident in the&nbsp;
+          <a href="https://humanharvest.info">"vaccine"/graft</a>&nbsp;after 2
+          weeks which is as much to make your own AFTER having symptoms])."
+          <br />
+          ...but that is only if (2) symptom-less (1) test is proven [which (1)
+          hasn't been (
+          <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
+            they are still using PCR
+          </a>
+          &nbsp;even&nbsp;
+          <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
+            in new March 2021 works
+          </a>
+          )], (2) if&nbsp;
+          <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
+            antibodies are different from cold's
+          </a>
+          , (3) if&nbsp;
+          <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
+            sequencing
+          </a>
+          &nbsp;has been&nbsp;
+          <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
+            proven to be easy yet is ruled out as "pulling the trigger"
+          </a>{" "}
+          with a patterned-
+          <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
+            history of misonformation
+          </a>
+          &nbsp;
+          <a href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42">
+            and a warped notion of thinking it is ok to do so
+          </a>
+          and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.experts.current.scrollIntoView("smooth");
+              this.setState({ highlightExperts: true });
+              setTimeout(
+                () => this.setState({ highlightExperts: false }),
+                10000
+              );
+            }}
+          >
+            experts are paid
+          </span>
+          &nbsp; and (4)&nbsp;
+          <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
+            if the virus' proteins themselves aren't different
+          </a>
+          <br />
+          <br />
+          <span
+            ref={this.singleSourceOfTruth}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightSingleSource ? "white" : "grey",
+              backgroundColor: this.state.highlightSingleSource
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightSingleSource !== null ? "1" : "0",
+              fontSize: this.state.highlightSingleSource !== null ? "" : "0px"
+            }}
+          >
+            If Herd-immunity can suppress the virus without a person interacting
+            with the&nbsp;
+            <a href="https://humanharvest.info">“vaccine”/graft</a>&nbsp;or the
+            virus, then it has a single source on the earth
+            <br />
+            they do not help protect others, there is no proof you have covid
+            without symptoms
+          </span>
           <br />
           <br />
           <span
