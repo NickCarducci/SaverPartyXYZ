@@ -441,7 +441,7 @@ export default class App extends React.Component {
               </div>
             </div>{" "}
             <br />
-            There is no permenence in law Bill O'reilly you absolute retard
+            There is no permenence in law Bill O'reilly you&nbsp;<a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">absolute retard</a>
             <br />
             <span
               style={{
