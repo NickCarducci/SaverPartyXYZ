@@ -325,7 +325,7 @@ export default class App extends React.Component {
             Contracts are void when terms are impossible. Even if forseen (which
             they are not and under duress to compete with other impossible
             counterfeit bids-by-promise to which renumeration is due for
-            affected third-parties i.e. borrowers' customers' down-payments),
+            affected third-parties i.e. borrowers' customers' down-payments + time wasted & stress),
             servitude is defined as a state of action to some end, still.
           </div>
           <br />
