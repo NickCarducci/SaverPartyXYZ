@@ -4990,6 +4990,10 @@ export default class App extends React.Component {
                 fontSize: this.state.highlightGDP !== null ? "" : "0px"
               }}
             >
+              <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+                Price-elasticity
+              </a>
+              <br />
               <br />
               investment that isn't a violation of corporate equity and contract
               law in the way repossession in bankruptcy keeps the down payments
@@ -5003,7 +5007,8 @@ export default class App extends React.Component {
               the payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
               WILLING AND ABLE in royalty contracts w/max-profit, which I am
               working on that as well. seeking investors cause I have a lot
-              going on
+              going on&nbsp;<a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
+              <a href="https://scopes.cc">scopebook</a>
             </span>
           </div>
           <div ref={this.trueGDP}>
