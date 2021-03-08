@@ -90,6 +90,7 @@ export default class App extends React.Component {
     this.singleSourceOfTruth = React.createRef();
     this.jan2018 = React.createRef();
     this.savingsRate = React.createRef();
+    this.socialism = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -337,6 +338,29 @@ export default class App extends React.Component {
             height: "min-content"
           }}
         >
+          Finance is the worst parts of communism
+          <br />
+          if capitalism is without trading human labor as assets/equity, it
+          is&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.socialism.current.scrollIntoView("smooth");
+              this.setState({ highlightSocialism: true });
+              setTimeout(
+                () => this.setState({ highlightSocialism: false }),
+                10000
+              );
+            }}
+          >
+            >socialism with profit-schedule
+          </span>
+          <br />
           <div
             style={{
               display: "inline-block",
@@ -346,37 +370,44 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
-            "This plan will put money into the pockets of those who need this most [and we will allow prosecutions for back-taxes/rents/mortgages/impossible counterfeit-in-contracts to be paid]," smiles Kalama Harris, who once hid exculpatory evidence to blame anybody somebody for a crime/meet quota
-            <br/>
-            <br/>
+            "This plan will put money into the pockets of those who need this
+            most [and we will allow prosecutions for
+            back-taxes/rents/mortgages/impossible counterfeit-in-contracts to be
+            paid]," smiles Kalama Harris, who once hid exculpatory evidence to
+            blame anybody somebody for a crime/meet quota
+            <br />
+            <br />
             To combat&nbsp;
-          <span
+            <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() =>
                 this.employmentOfOne.current.scrollIntoView("smooth")
               }
-            >unemployment (#AmericanRescuePlan Fraud) </span>, states are urging the federal government to steal equity from their citizens to provide work training programs
-          <br />
-          "
-          <span
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.savingsRate.current.scrollIntoView("smooth");
-              this.setState({ highlightSavingsRate: true });
-              setTimeout(
-                () => this.setState({ highlightSavingsRate: false }),
-                10000
-              );
-            }}
-          >
-            Money is going to increase the savings rate
-          </span>
-          ," - Fox Business guest says without correction
+            >
+              unemployment (#AmericanRescuePlan Fraud){" "}
+            </span>
+            , states are urging the federal government to steal equity from
+            their citizens to provide work training programs
+            <br />"
+            <span
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.savingsRate.current.scrollIntoView("smooth");
+                this.setState({ highlightSavingsRate: true });
+                setTimeout(
+                  () => this.setState({ highlightSavingsRate: false }),
+                  10000
+                );
+              }}
+            >
+              Money is going to increase the savings rate
+            </span>
+            ," - Fox Business guest says without correction
             <div
               style={{
                 columnCount: "2",
@@ -441,7 +472,10 @@ export default class App extends React.Component {
               </div>
             </div>{" "}
             <br />
-            There is no permenence in law Bill O'reilly you&nbsp;<a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">absolute retard</a>
+            There is no permenence in law Bill O'reilly you&nbsp;
+            <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
+              absolute retard
+            </a>
             <br />
             <span
               style={{
@@ -992,38 +1026,57 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          socialism either: (1)&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.marx.current.scrollIntoView("smooth");
-              this.setState({ highlightMarx: true });
-              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
-            }}
-          >
-            devolves
-          </span>
-          &nbsp;into hunger/communism/corporatism/
           <span
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
+              display: "inline-block",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightSocialism ? "white" : "",
+              backgroundColor: this.state.highlightSocialism
+                ? "rgb(170,100,205)"
+                : "",
+              opacity: this.state.highlightSocialism !== null ? "1" : "0",
+              fontSize: this.state.highlightSocialism !== null ? "" : "0px"
             }}
-            onClick={() => {
-              this.insurance.current.scrollIntoView("smooth");
-              this.setState({ highlightInsurance: true });
-              setTimeout(
-                () => this.setState({ highlightInsurance: false }),
-                10000
-              );
-            }}
+            ref={this.socialism}
           >
-            monopsonies-infiltrating-insurance
+            socialism either: (1)&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+                setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              devolves
+            </span>
+            &nbsp;into hunger/communism/corporatism/
+            <span
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightInsurance: true });
+                setTimeout(
+                  () => this.setState({ highlightInsurance: false }),
+                  10000
+                );
+              }}
+            >
+              monopsonies-infiltrating-insurance
+            </span>
+            , or (2) resolves into no promises/only{" "}
+            <a href="https://vaults.biz">profit-schedule</a>.
           </span>
-          , or (2) resolves into no promises/only{" "}
-          <a href="https://vaults.biz">profit-schedule</a>.
           <br />
           <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <div
@@ -1199,6 +1252,8 @@ export default class App extends React.Component {
           >
             physics
           </span>
+          {/*<br/>
+          Rep. Raskin, "<a href="https://www.archives.gov/founding-docs/amendments-11-27">DJT's lawyers testified by letter that Republicans wanted to use Amendment 12<a/>"*/}
           <br />
           <br />
           The Bill has been negotiated to pay backrent-wishes!! Those prices
