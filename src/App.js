@@ -1325,7 +1325,7 @@ export default class App extends React.Component {
           <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
          in new March 2021 works</a>), (2)&nbsp;
           <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
-            antibodies are different from cold
+           if antibodies are different from cold's
           </a>
           , (3)&nbsp;
           <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
@@ -1334,7 +1334,7 @@ export default class App extends React.Component {
           &nbsp;has been&nbsp;
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
             proven to be easy
-          </a>{" "}
+          yet is ruled out as "pulling the trigger"</a>{" "}
           and (4)&nbsp;
           <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
             the virus proteins themselves arent different
