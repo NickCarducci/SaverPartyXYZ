@@ -322,6 +322,9 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
+         tax if there is an immutable free-rider customer, otherwise it is counterfeit, promises, fractional-reserves, false-advertisement or stealing
+            <br/>
+            <br/>
             No billionaires without bonds...
             <br/>
             duress, involuntary-servitude, no-symptom exclusion by free-rider
