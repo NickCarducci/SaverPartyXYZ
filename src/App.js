@@ -345,7 +345,7 @@ export default class App extends React.Component {
               }}
             >
               <a
-              href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers"
+                href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers"
                 style={{
                   width: "100%",
                   position: "relative"
@@ -381,9 +381,23 @@ export default class App extends React.Component {
                   position: "relative"
                 }}
               >
-                "Tangible, is this&nbsp;<a href="https://www.investopedia.com/terms/p/priceelasticity.asp"
->stimulus</a>&nbsp;[the numbers is too complicated for
-                people to understand]" CNN explains to people
+                "Tangible, is this&nbsp;
+                <span
+                  style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                  onClick={() => {
+                    this.gdp.current.scrollIntoView("smooth");
+
+                    this.setState({ highlightGDP: true });
+                    setTimeout(
+                      () => this.setState({ highlightGDP: false }),
+                      10000
+                    );
+                  }}
+                >
+                  stimulus
+                </span>
+                &nbsp;[the numbers is too complicated for people to understand]"
+                CNN explains to people
               </div>
             </div>{" "}
             <br />
@@ -1178,16 +1192,23 @@ export default class App extends React.Component {
             </i>
           </span>
           <br />
-          The analysis of GDP trying to fix for reality is that, even if you did
-          capture every productSkew net-, percentage-change, you would not
-          capture&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => this.gdp.current.scrollIntoView("smooth")}
-          >
-            price-inelasticity inflation
+          <span ref={this.inelasticity}>
+            The analysis of GDP trying to fix for reality is that, even if you
+            did capture every productSkew net-, percentage-change, you would not
+            capture&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.gdp.current.scrollIntoView("smooth");
+
+                this.setState({ highlightGDP: true });
+                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+              }}
+            >
+              price-inelasticity inflation
+            </span>
+            , only monetary-inflation, is bunk!
           </span>
-          , only monetary-inflation, is bunk!
           <br />
           <br />
           "House Democrats work for the people" -&nbsp;
@@ -4953,6 +4974,37 @@ export default class App extends React.Component {
             <br />
             you can lend to somebody but don't expect to keep the borrowers'
             consumers' down payments or not be sued for stress and counterfeit
+            <br />
+            <br />
+            <span
+              ref={this.gdp}
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightGDP ? "white" : "",
+                backgroundColor: this.state.highlightGDP
+                  ? "rgb(20,100,205)"
+                  : "",
+                opacity: this.state.highlightGDP !== null ? "1" : "0",
+                fontSize: this.state.highlightGDP !== null ? "" : "0px"
+              }}
+            >
+              <br />
+              investment that isn't a violation of corporate equity and contract
+              law in the way repossession in bankruptcy keeps the down payments
+              is involuntary servitude of the borrower's customers by price &
+              lost down payments, let alone time lost .
+              <br />
+              <a href="https://wavv.art/forum4WxM6N6JYDuWx6Q9IqyB">
+                wavv.art/forum4WxM6N6JYDuWx6Q9IqyB
+              </a>
+              <br /> In order to remove cross-party risk from the investment,
+              the payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
+              WILLING AND ABLE in royalty contracts w/max-profit, which I am
+              working on that as well. seeking investors cause I have a lot
+              going on
+            </span>
           </div>
           <div ref={this.trueGDP}>
             <RealRealGDP />
@@ -7822,7 +7874,12 @@ export default class App extends React.Component {
             If you look at P in GDP as a variable, it is 1 and C + I + G +{" "}
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => this.gdp.current.scrollIntoView("smooth")}
+              onClick={() => {
+                this.gdp.current.scrollIntoView("smooth");
+
+                this.setState({ highlightGDP: true });
+                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+              }}
             >
               NE
             </span>{" "}
@@ -8306,28 +8363,6 @@ export default class App extends React.Component {
             <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
               wavv.art/forum4eM79h0dyP3FVsfDan0G
             </a>
-            <br />
-            investment that isn't a violation of corporate equity and contract
-            law in the way repossession in bankruptcy keeps the down payments is
-            involuntary servitude of the{" "}
-            <span
-              ref={this.gdp}
-              style={{
-                textDecoration: "underline"
-              }}
-            >
-              borrower's customers by price & lost down payments, let alone time
-              lost
-            </span>
-            .
-            <br />
-            <a href="https://wavv.art/forum4WxM6N6JYDuWx6Q9IqyB">
-              wavv.art/forum4WxM6N6JYDuWx6Q9IqyB
-            </a>
-            <br /> In order to remove cross-party risk from the investment, the
-            payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE WILLING
-            AND ABLE in royalty contracts w/max-profit, which I am working on
-            that as well. seeking investors cause I have a lot going on
           </div>
           <i
             style={{
