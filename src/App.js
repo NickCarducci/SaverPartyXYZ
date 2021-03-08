@@ -4041,7 +4041,29 @@ export default class App extends React.Component {
                 the virus, then it has a single source on the earth
                 <br />
                 they do not help protect others, there is no proof you have
-                covid without symptoms
+                covid without symptoms.  But the aggregate data is&nbsp;
+                <span
+                  style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                  onClick={() => {
+                    this.oldFlu.current.scrollIntoView("smooth");
+                    this.setState({ highlightOldFlu: true });
+                    setTimeout(
+                      () => this.setState({ highlightOldFlu: false }),
+                      10000
+                    );
+                  }}
+                >questionable</span>&nbsp;in describing an&nbsp;
+                <span
+                  style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                  onClick={() => {
+                    this.oldFlu.current.scrollIntoView("smooth");
+                    this.setState({ highlightOldFlu: true });
+                    setTimeout(
+                      () => this.setState({ highlightOldFlu: false }),
+                      10000
+                    );
+                  }}
+                >abnormal death rate</span>.
               </span>
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -4092,26 +4114,27 @@ export default class App extends React.Component {
                 Bail for judges'n't for consumers/community - the service at its
                 most efficient as to keep everyone happiest, individually, for
                 the complainants only; class action is for precedence, but we
-                all assume it gets less than each individual case would.<br/>
-            <span
-              style={{
-                border:"1px dotted grey",
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.singleSourceOfTruth.current.scrollIntoView("smooth");
-                this.setState({ highlightSingleSource: true });
-                setTimeout(
-                  () => this.setState({ highlightSingleSource: false }),
-                  10000
-                );
-              }}
-            >
-              NO PROOF EVIDENCE NONSYMPOMATIC IS DANGEROUS
-            </span>
+                all assume it gets less than each individual case would.
+                <br />
+                <span
+                  style={{
+                    border: "1px dotted grey",
+                    fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                    textEmphasis: "italics",
+                    fontWeight: "bolder",
+                    textDecoration: "underline"
+                  }}
+                  onClick={() => {
+                    this.singleSourceOfTruth.current.scrollIntoView("smooth");
+                    this.setState({ highlightSingleSource: true });
+                    setTimeout(
+                      () => this.setState({ highlightSingleSource: false }),
+                      10000
+                    );
+                  }}
+                >
+                  NO PROOF EVIDENCE NONSYMPOMATIC IS DANGEROUS
+                </span>
               </span>{" "}
               <br />
               <span
@@ -5905,7 +5928,7 @@ export default class App extends React.Component {
                 prepaid && mixed demand]/communism/corporatism evidently looking
                 at the US/CNN unit, misleading people to their deaths. I bet as
                 many people will die from rushed side-effects that would
-                normally die from &nbsp;
+                normally die from&nbsp;
                 <span
                   style={{ fontWeight: "bolder", textDecoration: "underline" }}
                   onClick={() => {
