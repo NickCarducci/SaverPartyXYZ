@@ -381,7 +381,8 @@ export default class App extends React.Component {
                   position: "relative"
                 }}
               >
-                "Tangible is this stimulus [the numbers is too complicated for
+                "Tangible is this&nbsp;<a href="https://www.investopedia.com/terms/p/priceelasticity.asp"
+>stimulus</a>&nbsp;[the numbers is too complicated for
                 people to understand]" CNN explains to people
               </div>
             </div>{" "}
