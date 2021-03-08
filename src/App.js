@@ -4632,7 +4632,10 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                color: this.state.highlightRoyalty ? "white" : ""
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
               }}
               href="https://wavv.art/forumbNoJuNX58U3nX3dK5mPA"
             >
@@ -4696,7 +4699,15 @@ export default class App extends React.Component {
               providing SEC with UUID for portfolios but require brokers to
               anonymize these trades so portfolio information cannot be compiled
               and traded against expiring options out of the money like&nbsp;
-              <a href="https://nationalsecuritycasino.com">
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://nationalsecuritycasino.com"
+              >
                 shooting fish in a barrel
               </a>
               .
@@ -4738,7 +4749,17 @@ export default class App extends React.Component {
             sdr (security depository receipt)
             <br />
             live streamed from your local&nbsp;
-            <a href="https://vaults.biz">vault</a>
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://vaults.biz"
+            >
+              vault
+            </a>
             <br />
             they love rent and being colonized instead of letting trade settle
             at lower price
@@ -4848,7 +4869,17 @@ export default class App extends React.Component {
             just retarded by his actions but tarded
             <br />
             Hasset and Lindsay still looking at real growth instead of{" "}
-            <a href="https://froth.app">gdp-new money-new debt/p</a>
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://froth.app"
+            >
+              gdp-new money-new debt/p
+            </a>
           </div>
           <i
             style={{
@@ -4876,12 +4907,30 @@ export default class App extends React.Component {
             me when you can claim it is not creative and do it yourself? Well
             that means it would have been done already. I am the first to make
             the{" "}
-            <a href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch">
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch"
+            >
               circular-magnetic engine
             </a>{" "}
             design. Do not plagiarize me Nick Carducci.sh
             <br />
-            <a href="https://magnate.company">magnate</a>
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://magnate.company"
+            >
+              magnate
+            </a>
             <br />
             <br />
             Christina, Is it not creative, original or transformative? Because
@@ -4955,7 +5004,15 @@ export default class App extends React.Component {
               />
             </div>
             <br />
-            <a href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f">
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f"
+            >
               wavv.art/forumqWvK2fk3GcFligVsTZ0f
             </a>
           </div>
@@ -5029,7 +5086,15 @@ export default class App extends React.Component {
               as well
             </span>
             <br />
-            <a href="https://wavv.art/forummN2OxZAJO3IEXZVNEPX3">
+            <a
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://wavv.art/forummN2OxZAJO3IEXZVNEPX3"
+            >
               wavv.art/forummN2OxZAJO3IEXZVNEPX3
             </a>
             <br />
@@ -5085,11 +5150,44 @@ export default class App extends React.Component {
               }}
             >
               The virus is just as deadly as the flu... even if you could force
-              people to&nbsp;<a href="https://foiegras.life">risk</a>&nbsp;
-              <a href="https://moldmask.co">unforseen</a>&nbsp;
-              <a href="https://humanharvest.info">side-effects</a>&nbsp;to not
-              be a slave by free-riding exclusion in the economy without visible
-              symptoms/evidence.&nbsp;
+              people to&nbsp;
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://foiegras.life"
+              >
+                risk
+              </a>
+              &nbsp;
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://moldmask.co"
+              >
+                unforseen
+              </a>
+              &nbsp;
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://humanharvest.info"
+              >
+                side-effects
+              </a>
+              &nbsp;to not be a slave by free-riding exclusion in the economy
+              without visible symptoms/evidence.&nbsp;
               <a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">
                 Running out
               </a>
@@ -5102,15 +5200,39 @@ export default class App extends React.Component {
               </a>
               <br />
               given 2020 deaths are so abnormally low, but higher due to&nbsp;
-              <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://www.prb.org/countries-with-the-oldest-populations/"
+              >
                 old-age population
               </a>
               &nbsp;(not the&nbsp;
-              <a href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm">
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
+              >
                 96%-similar
               </a>
               &nbsp;to&nbsp;
-              <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
+              <a
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  border: "1px solid",
+                  color: "grey"
+                }}
+                href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
+              >
                 Sars-Cov-1 virus
               </a>
               ), the other reason must be the fear instilled by Wolf Blitzer and
@@ -5184,7 +5306,12 @@ export default class App extends React.Component {
             </span>
             <br />
             <a
-              style={{ color: "black" }}
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "black"
+              }}
               href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
             >
               Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013)
