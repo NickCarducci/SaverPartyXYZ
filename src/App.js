@@ -4041,7 +4041,7 @@ export default class App extends React.Component {
                 the virus, then it has a single source on the earth
                 <br />
                 they do not help protect others, there is no proof you have
-                covid without symptoms.  But the aggregate data is&nbsp;
+                covid without symptoms. But the aggregate data is&nbsp;
                 <span
                   style={{ fontWeight: "bolder", textDecoration: "underline" }}
                   onClick={() => {
@@ -4052,7 +4052,10 @@ export default class App extends React.Component {
                       10000
                     );
                   }}
-                >questionable</span>&nbsp;in describing an&nbsp;
+                >
+                  questionable
+                </span>
+                &nbsp;in describing an&nbsp;
                 <span
                   style={{ fontWeight: "bolder", textDecoration: "underline" }}
                   onClick={() => {
@@ -4063,7 +4066,10 @@ export default class App extends React.Component {
                       10000
                     );
                   }}
-                >abnormal death rate</span>.
+                >
+                  abnormal death rate
+                </span>
+                .
               </span>
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -5795,7 +5801,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://foiegras.life"
                 >
@@ -5807,7 +5813,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://moldmask.co"
                 >
@@ -5819,7 +5825,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://humanharvest.info"
                 >
@@ -5844,7 +5850,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://www.prb.org/countries-with-the-oldest-populations/"
                 >
@@ -5856,7 +5862,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
                 >
@@ -5868,7 +5874,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: "grey"
+                    color: this.state.highlightOldFlu ? "white" : "grey",
                   }}
                   href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
                 >
@@ -10606,3 +10612,4 @@ export default class App extends React.Component {
     );
   }
 }
+
