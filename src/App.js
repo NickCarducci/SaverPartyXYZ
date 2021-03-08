@@ -321,6 +321,8 @@ export default class App extends React.Component {
           >
             EXPLICIT
           </div>
+          G-d is judge (Himself), jury (people) and prosecutioner (angels,
+          cherubim)
           <div>
             "&nbsp;
             <span
