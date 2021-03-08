@@ -322,6 +322,9 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
+            duress, involuntary-servitude, no-symptom exclusion by free-rider
+            <br/>
+            <br/>
             Contracts are void when terms are impossible. Even if forseen (which
             they are not and under duress to compete with other impossible
             counterfeit bids-by-promise to which renumeration is due for
