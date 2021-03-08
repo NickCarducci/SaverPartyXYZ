@@ -8012,7 +8012,7 @@ export default class App extends React.Component {
                 fontSize: this.state.highlightFP !== null ? "" : "0px"
               }}
             >
-              if your idea of foreign policy is to keep foreigners to getting
+              if your idea of foreign policy is to keep foreigners from getting
               actual assets by forcing our citizens to use counterfeit asset
               certificates, you're retarded chris salcedo
             </span>{" "}
