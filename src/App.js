@@ -1315,9 +1315,28 @@ export default class App extends React.Component {
           <br />
           but that is only if symptomless test is proven, which&nbsp;
           <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
-            hasn't been proven</a>&nbsp;<a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">antibodies are different from cold</a>,
-          &nbsp;<a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">sequencing</a>&nbsp;
-          has been&nbsp;<a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">proven to be easy</a> and 
+            hasn't been proven (they are still
+          </a>
+          &nbsp;using&nbsp;
+          <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
+            PCR
+          </a>
+          &nbsp;even in new March 2021 works),&nbsp;
+          <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
+            antibodies are different from cold
+          </a>
+          , &nbsp;
+          <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
+            sequencing
+          </a>
+          &nbsp; has been&nbsp;
+          <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
+            proven to be easy
+          </a>{" "}
+          and&nbsp;
+          <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
+            the virus proteins themselves arent different
+          </a>
           <br />
           <br />
           If it can suppress the virus without a person interacting with the
