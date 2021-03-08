@@ -322,21 +322,25 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
-          <span
+            <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.foreignpolicy.current.scrollIntoView("smooth");
                 this.setState({ highlightFP: true });
                 setTimeout(() => this.setState({ highlightFP: false }), 10000);
               }}
-            >"Stronger U.S. dollar makes exports more expensive," says CNN</span>
-            <br/>
-            <br/>
-         tax if there is an immutable free-rider customer, otherwise it is counterfeit, promises, fractional-reserves, false-advertisement or stealing
-            <br/>
-            <br/>
+            >
+              "Stronger U.S. dollar makes exports more expensive," says CNN
+            </span>
+            <br />
+            <br />
+            tax if there is an immutable free-rider customer, otherwise it is
+            counterfeit, promises, fractional-reserves, false-advertisement or
+            stealing
+            <br />
+            <br />
             No billionaires without bonds...
-            <br/>
+            <br />
             duress, involuntary-servitude, no-symptom exclusion by free-rider
             <br />
             where does cash($6t,2020) go after it buys bonds($82t,2020)?
@@ -344,13 +348,15 @@ export default class App extends React.Component {
             <br />
             Contracts are void when terms are impossible, let alone any&nbsp;
             <span style={{ color: "purple" }}>
-              counterfeit-in-contract exhibited ("bet on yourself," as AJ Catsimatidis likes to describe it)
+              counterfeit-in-contract exhibited ("bet on yourself," as AJ
+              Catsimatidis likes to describe it)
             </span>
             . Even if forseen (which they are not - how can an impossible
             circumstance be seen, ever, only that it is impossible can be seen,
             but that circumstance can never happen i.e.&nbsp;
             <span style={{ color: "rgb(180,140,40)" }}>
-              you can never have happen an impossible circumstance, by definition,
+              you can never have happen an impossible circumstance, by
+              definition,
             </span>{" "}
             - and under duress to compete-on-demand with other impossible
             counterfeit bids-by-promise to which renumeration is due for
@@ -6204,7 +6210,8 @@ export default class App extends React.Component {
             interests... congress asking people for more money by claiming
             bipartisanship is evidence of conspiracy. you have no proof people
             want that... all you are doing anyway is making the same services
-            more expensive like&nbsp;<a href="https://foiegras.life">fattening a duck</a>&nbsp;for
+            more expensive like&nbsp;
+            <a href="https://foiegras.life">fattening a duck</a>&nbsp;for
             consumption in foiegras.life. Miss Levine keeps asking for funding
             DO IT yourself stop taking from us for no change except price
           </div>
@@ -8014,7 +8021,20 @@ export default class App extends React.Component {
             >
               if your idea of foreign policy is to keep foreigners from getting
               actual assets by forcing our citizens to use counterfeit asset
-              certificates, you're retarded chris salcedo
+              certificates, you're&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.trueGDP.current.scrollIntoView("smooth");
+                this.setState({ highlightTrueGDP: true });
+                setTimeout(
+                  () => this.setState({ highlightTrueGDP: false }),
+                  10000
+                );
+              }}
+            >
+            retarded</span>&nbsp;(chris salcedo, 
+              Newsmax and host of CNN show host monday morning 
+              9:50 am est 3/8 with jill raimondo)
             </span>{" "}
             <br />
             <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
