@@ -1339,7 +1339,22 @@ export default class App extends React.Component {
           &nbsp;has been&nbsp;
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
             proven to be easy yet is ruled out as "pulling the trigger"
-          </a>{" "}
+          </a>{" "}with a patterned-<a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">history of misonformation</a>&nbsp;
+          <a href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42">and a warped notion of thinking it is ok to do so
+          </a>and&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              experts are paid
+            </span>&nbsp;
           and (4)&nbsp;
           <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
             if the virus' proteins themselves aren't different
@@ -2047,7 +2062,19 @@ export default class App extends React.Component {
             Medicade fraud to keep prices up
             <br />
             The key to world peace is no finance. Not mental health services by
-            the hand of state sanctioned, paid, conflictedly-interested experts
+            the hand of&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >state sanctioned, paid, conflictedly-interested experts
+            </span>
             <br />
             Communist-Wall street Democrats are killing us to match their own
             speculation over the years and promise more than we are able. There
