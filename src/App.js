@@ -26,7 +26,6 @@ export default class App extends React.Component {
     this.defense = React.createRef();
     this.navbar = React.createRef();
     this.invite = React.createRef();
-    this.forSize = React.createRef();
     this.scrolllto = React.createRef();
     this.marx = React.createRef();
     this.spittle = React.createRef();
@@ -283,9 +282,6 @@ export default class App extends React.Component {
     });
   };
   render() {
-    //var size = this.forSize.current && this.forSize.current.offsetWidth;
-    //var fo = 0;
-    //const { lastWidth } = this.state;
     var styleToApply = {
       wordBreak: "break-word",
       width: "calc(100vw - 15px)",
@@ -309,7 +305,7 @@ export default class App extends React.Component {
       maxWidth: "600px"
     };
     return (
-      <div ref={this.forSize} className="App">
+      <div className="App">
         <div
           style={{
             zIndex: "1",
@@ -338,29 +334,6 @@ export default class App extends React.Component {
             height: "min-content"
           }}
         >
-          Finance is the worst parts of communism
-          <br />
-          if capitalism is without trading human labor as assets/equity, it
-          is&nbsp;
-          <span
-            style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.socialism.current.scrollIntoView("smooth");
-              this.setState({ highlightSocialism: true });
-              setTimeout(
-                () => this.setState({ highlightSocialism: false }),
-                10000
-              );
-            }}
-          >
-            >socialism with profit-schedule
-          </span>
-          <br />
           <div
             style={{
               display: "inline-block",
@@ -370,6 +343,35 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            Finance is the worst&nbsp;
+            <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
+              parts of communism
+            </a>
+            <br />
+            if capitalism is&nbsp;
+            <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
+              without trading human labor or their future income as fungible
+              with assets/equity apprised as counterfeit
+            </a>
+            , it is&nbsp;
+            <span
+              style={{
+                fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.socialism.current.scrollIntoView("smooth");
+                this.setState({ highlightSocialism: true });
+                setTimeout(
+                  () => this.setState({ highlightSocialism: false }),
+                  10000
+                );
+              }}
+            >
+              socialism with profit-schedule
+            </span>
             "This plan will put money into the pockets of those who need this
             most [and we will allow prosecutions for
             back-taxes/rents/mortgages/impossible counterfeit-in-contracts to be
@@ -10391,3 +10393,4 @@ export default class App extends React.Component {
     );
   }
 }
+
