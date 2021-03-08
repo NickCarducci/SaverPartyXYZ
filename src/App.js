@@ -322,6 +322,8 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
+            No billionaires without bonds...
+            <br/>
             duress, involuntary-servitude, no-symptom exclusion by free-rider
             <br />
             <br />
