@@ -1491,9 +1491,10 @@ export default class App extends React.Component {
               fontSize: this.state.highlightSingleSource !== null ? "" : "0px"
             }}
           >
-            If it can suppress the virus without a person interacting with the
-            “vaccine”/graft or the virus, then it has a single source on the
-            earth
+            If Herd-immunity can suppress the virus without a person interacting
+            with the&nbsp;
+            <a href="https://humanharvest.info">“vaccine”/graft</a>&nbsp;or the
+            virus, then it has a single source on the earth
             <br />
             they do not help protect others, there is no proof you have covid
             without symptoms
@@ -5008,23 +5009,22 @@ export default class App extends React.Component {
               <br />
               In order to remove cross-party risk from the investment, the
               payout to the investor needs to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.fintech.current.scrollIntoView("smooth");
-                this.setState({ highlightFintech: true });
-                setTimeout(
-                  () => this.setState({ highlightFintech: false }),
-                  10000
-                );
-              }}
-            >
-              WAIT FOR WHEN CUSTOMERS ARE
-              WILLING AND ABLE
-            </span>
-            &nbsp;in royalty contracts w/max-profit, which I am
-              &nbsp;<a href="https://carducci.sh">working</a>&nbsp;on that as
-              well. seeking investors cause I have a lot going on&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.fintech.current.scrollIntoView("smooth");
+                  this.setState({ highlightFintech: true });
+                  setTimeout(
+                    () => this.setState({ highlightFintech: false }),
+                    10000
+                  );
+                }}
+              >
+                WAIT FOR WHEN CUSTOMERS ARE WILLING AND ABLE
+              </span>
+              &nbsp;in royalty contracts w/max-profit, which I am &nbsp;
+              <a href="https://carducci.sh">working</a>&nbsp;on that as well.
+              seeking investors cause I have a lot going on&nbsp;
               <a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
               <a href="https://scopes.cc">scopebook</a>
             </span>
