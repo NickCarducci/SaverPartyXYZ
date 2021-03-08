@@ -317,8 +317,8 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            overflowX:"hidden",
-            overflowY:"auto",
+            overflowX: "hidden",
+            overflowY: "auto",
             display: "flex",
             flexDirection: "column",
             position: "absolute",
@@ -337,8 +337,36 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
-            "Tangible," CNN explains to people
-            <br/>
+            "Tangible is this stimulus [the numbers is too complicated for people to understand]" CNN explains to people
+            
+            <div
+              style={{
+                width: "30%",
+                position: "relative"
+              }}
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/o57saza2ve3mo0p/IMG_3051.png?dl=0"
+           /></div> 
+           <div
+             style={{
+               width: "30%",
+               position: "relative"
+             }}
+           >
+             <img
+               alt=""
+               style={{
+                 width: "100%",
+                 height: "auto"
+               }}
+               src="https://www.dl.dropboxusercontent.com/s/6fqa08lrp1rpagq/IMG_2575.jpeg?dl=0"
+          /></div> <br />
             There is no permenence in law Bill O'reilly you absolute retard
             <br />
             <span
