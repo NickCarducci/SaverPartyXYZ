@@ -393,7 +393,23 @@ export default class App extends React.Component {
             >
               "Stronger U.S. dollar makes exports more expensive," says CNN
             </span>
-            <br />
+            <br/>
+            
+          <a
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+            href="https://twitter.com/saverparty"
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/bvwrxav9rgrvukv/Screen%20Shot%202021-03-08%20at%2010.45.40%20AM.png?dl=0"
+           /></a> <br />
             <br />
             tax if there is an immutable free-rider customer, otherwise it is
             counterfeit, promises, fractional-reserves, false-advertisement or
