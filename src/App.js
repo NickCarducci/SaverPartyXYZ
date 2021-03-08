@@ -451,6 +451,14 @@ export default class App extends React.Component {
                 />
               </a>
               <div
+                onClick={() => {
+                  this.singleSourceOfTruth.current.scrollIntoView("smooth");
+                  this.setState({ highlightSingleSource: true });
+                  setTimeout(
+                    () => this.setState({ highlightSingleSource: false }),
+                    10000
+                  );
+                }}
                 style={{
                   width: "100%",
                   position: "relative"
@@ -5801,7 +5809,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://foiegras.life"
                 >
@@ -5813,7 +5821,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://moldmask.co"
                 >
@@ -5825,7 +5833,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://humanharvest.info"
                 >
@@ -5850,7 +5858,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://www.prb.org/countries-with-the-oldest-populations/"
                 >
@@ -5862,7 +5870,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
                 >
@@ -5874,7 +5882,7 @@ export default class App extends React.Component {
                     display: "inline-block",
                     padding: "4px 10px",
                     border: "1px solid",
-                    color: this.state.highlightOldFlu ? "white" : "grey",
+                    color: this.state.highlightOldFlu ? "white" : "grey"
                   }}
                   href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
                 >
@@ -10612,4 +10620,3 @@ export default class App extends React.Component {
     );
   }
 }
-
