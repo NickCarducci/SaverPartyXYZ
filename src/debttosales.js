@@ -4,7 +4,12 @@ class DebtToSales extends React.Component {
   render() {
     return (
       <div className="fullchart">
-        <div>
+        <div
+          style={{
+            overflowX: "auto",
+            overflowY: "hidden"
+          }}
+        >
           <a
             className="charttitle1"
             href="https://fred.stlouisfed.org/graph/?g=vApj"
@@ -14,12 +19,11 @@ class DebtToSales extends React.Component {
 
           <iframe
             title="total dollars held"
-            src="https://fred.stlouisfed.org/graph/graph-landing.php?g=vApj&width=860&height=900"
+            src="https://fred.stlouisfed.org/graph/graph-landing.php?g=vApj&width=600&height=900"
             scrolling="no"
             className="embed-container1"
           />
-        </div>
-        {/*}
+          {/*}
         <div className="chartlabels">
           Federal debt book value
           <br />
@@ -45,6 +49,7 @@ class DebtToSales extends React.Component {
           <br />
           Federal tax receipts
     </div>*/}
+        </div>
       </div>
     );
   }
