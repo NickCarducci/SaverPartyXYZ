@@ -284,7 +284,7 @@ export default class App extends React.Component {
     //var fo = 0;
     //const { lastWidth } = this.state;
     var styleToApply = {
-      wordBreak:"break-word",
+      wordBreak: "break-word",
       width: "calc(100vw - 15px)",
       display: "flex",
       maxWidth: "600px",
@@ -317,6 +317,8 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
+            overflowX:"hidden",
+            overflowY:"auto",
             display: "flex",
             flexDirection: "column",
             position: "absolute",
@@ -329,8 +331,8 @@ export default class App extends React.Component {
           <div
             style={{
               display: "inline-block",
-              top: "0px",
-              width: "100%",
+              marginTop: "20px",
+              width: "calc(100% - 5px)",
               maxWidth: "600px",
               height: "min-content"
             }}
