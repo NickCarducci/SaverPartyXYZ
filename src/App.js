@@ -346,6 +346,9 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            "This plan will put money into the pockets of those who need this most [and we will allow prosecutions for back-taxes/rents/mortgages/impossible counterfeit-in-contracts to be paid]," smiles Kalama Harris, who once hid exculpatory evidence to blame anybody somebody for a crime/meet quota
+            <br/>
+            <br/>
             To combat&nbsp;
           <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
