@@ -322,6 +322,16 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
+          <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.foreignpolicy.current.scrollIntoView("smooth");
+                this.setState({ highlightFP: true });
+                setTimeout(() => this.setState({ highlightFP: false }), 10000);
+              }}
+            >"Stronger U.S. dollar makes exports more expensive," says CNN</span>
+            <br/>
+            <br/>
          tax if there is an immutable free-rider customer, otherwise it is counterfeit, promises, fractional-reserves, false-advertisement or stealing
             <br/>
             <br/>
