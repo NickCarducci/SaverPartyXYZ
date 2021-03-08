@@ -346,14 +346,14 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
-          To combat&nbsp;
+            To combat&nbsp;
           <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() =>
-              this.employmentOfOne.current.scrollIntoView("smooth")
-            }
-          >unemployment</span>, states are urging the federal government to steal equity from their citizens to provide work training programs
-          <br/>
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() =>
+                this.employmentOfOne.current.scrollIntoView("smooth")
+              }
+            >unemployment (#AmericanRescuePlan Fraud) </span>, states are urging the federal government to steal equity from their citizens to provide work training programs
+          <br />
           "
           <span
             style={{
