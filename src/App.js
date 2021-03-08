@@ -338,6 +338,7 @@ export default class App extends React.Component {
             }}
           >
             There is no permenence in law Bill O'reilly you absolute retard
+            <br />
             <span
               style={{
                 fontFamily: '"Pacifico", cursive', //sans-serif no diff
