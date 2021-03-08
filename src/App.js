@@ -322,6 +322,7 @@ export default class App extends React.Component {
           >
             EXPLICIT
           </div>
+          There is no permenence in law Bill O'reilly you absolute retard<br/>
           <span
             style={{
               fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -339,7 +340,7 @@ export default class App extends React.Component {
             }}
           >
             Single-Source Virus
-          </span>
+          </span><br/>
           G-d is judge (Himself), jury (people) and prosecutioner (angels,
           cherubim) "&nbsp;
           <span
