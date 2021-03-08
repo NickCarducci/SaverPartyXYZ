@@ -1307,6 +1307,11 @@ export default class App extends React.Component {
           2052 products © 2021
           <br />
           <br />
+            "Fully-vaccinated: no mask, social-distance," says CDC Director, Dr. Rochelle P. Walensky and continues, "if from 1 household and little co-mortality risk [I don't care about morbidity anymore as reason to mask, and am not confident in the "vaccine"/graft after 2 weeks which is as much to make your own AFTER having symptoms])."
+            <br/>
+            but that is only if symptomless test is proven, which&nbsp;<a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">hasn't been proven it is different</a>
+            <br/>
+            <br/>
           If it can suppress the virus without a person interacting with the
           “vaccine”/graft or the virus, then it has a single source on the earth
           <br />
