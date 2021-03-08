@@ -340,7 +340,7 @@ export default class App extends React.Component {
             <div
               style={{
                 columnCount: "2",
-                width: "100%",
+                width: "calc(100% - 5px)",
                 position: "relative"
               }}
             >
