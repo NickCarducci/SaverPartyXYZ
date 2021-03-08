@@ -7,6 +7,9 @@
 * a {
   word-break: break-word;
 }
+* span {
+  word-break: break-word;
+}
 .App {
   display: flex;
   display: fixed;
