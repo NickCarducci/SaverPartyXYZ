@@ -343,6 +343,20 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            <a
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "inline-block",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }} href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
+              Confiscation/quota
+              </a>
+            <br/>
             Finance is the worst&nbsp;
             <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
               parts of communism
