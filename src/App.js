@@ -8033,8 +8033,7 @@ export default class App extends React.Component {
               }}
             >
             retarded</span>&nbsp;(chris salcedo, 
-              Newsmax and host of CNN show host monday morning 
-              9:50 am est 3/8 with jill raimondo)
+              Newsmax and Christine Romans, Early Start CNN)
             </span>{" "}
             <br />
             <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
