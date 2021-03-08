@@ -6188,7 +6188,7 @@ export default class App extends React.Component {
             interests... congress asking people for more money by claiming
             bipartisanship is evidence of conspiracy. you have no proof people
             want that... all you are doing anyway is making the same services
-            more expensive like&nbsp;<a href="">fattening a duck</a>&nbsp;for
+            more expensive like&nbsp;<a href="https://foiegras.life">fattening a duck</a>&nbsp;for
             consumption in foiegras.life. Miss Levine keeps asking for funding
             DO IT yourself stop taking from us for no change except price
           </div>
