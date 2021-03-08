@@ -322,8 +322,13 @@ export default class App extends React.Component {
             EXPLICIT
           </div>
           <div>
-            "What is the crime in [benefits], allowing states to fully-reopen," queries Jake Tapper about unemployment insurance & state + local bond-holder bailout abject fraud and unfair cornering of assets by competing with other customers who do not borrow or do not have the collusion of the market-share/equity stewards espoused by the Federal Reserve
-            <br/><br/>
+            "What is the crime in [benefits], allowing states to&nbsp;
+            <a href="https://vaults.biz">fully-reopen</a>," queries Jake Tapper
+            about unemployment insurance & state + local bond-holder bailout
+            abject fraud and unfair cornering of assets by competing with other
+            customers who do not borrow or do not have the collusion of the
+            market-share/equity stewards espoused by the Federal Reserve
+<br/><br/>
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
