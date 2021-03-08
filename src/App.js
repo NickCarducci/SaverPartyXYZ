@@ -4972,13 +4972,14 @@ export default class App extends React.Component {
               wavv.art/forumbNoJuNX58U3nX3dK5mPA
             </a>
             <br />
-            you can lend to somebody but don't expect to keep the borrowers'
-            consumers' down payments or not be sued for stress and counterfeit
+            You can lend to somebody, but don't expect to keep the borrowers'
+            consumers' down payments or not be sued for stress and counterfeit.
             <br />
             <br />
             <span
               ref={this.gdp}
               style={{
+                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -4995,16 +4996,18 @@ export default class App extends React.Component {
               </a>
               <br />
               <br />
-              investment that isn't a violation of corporate equity and contract
-              law in the way repossession in bankruptcy keeps the down payments
-              is involuntary servitude of the borrower's customers by price &
-              lost down payments, let alone time lost .
+              Investment that isn't a violation of corporate equity, and
+              contract law there-prudently, in the way repossession in
+              bankruptcy keeps the down payments is involuntary servitude of the
+              borrower's customers by price, lost down payments & time lost - is
+              available.
               <br />
               <a href="https://wavv.art/forum4WxM6N6JYDuWx6Q9IqyB">
                 wavv.art/forum4WxM6N6JYDuWx6Q9IqyB
               </a>
-              <br /> In order to remove cross-party risk from the investment,
-              the payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
+              <br />
+              In order to remove cross-party risk from the investment, the
+              payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
               WILLING AND ABLE in royalty contracts w/max-profit, which I am
               working on that as well. seeking investors cause I have a lot
               going on&nbsp;<a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
