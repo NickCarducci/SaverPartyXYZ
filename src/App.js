@@ -337,6 +337,23 @@ export default class App extends React.Component {
             height: "min-content"
           }}
         >
+          <div
+            style={{
+              display: "inline-block",
+              marginTop: "20px",
+              width: "calc(100% - 5px)",
+              maxWidth: "600px",
+              height: "min-content"
+            }}
+          >
+          To combat&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() =>
+              this.employmentOfOne.current.scrollIntoView("smooth")
+            }
+          >unemployment</span>, states are urging the federal government to steal equity from their citizens to provide work training programs
+          <br/>
           "
           <span
             style={{
@@ -357,15 +374,6 @@ export default class App extends React.Component {
             Money is going to increase the savings rate
           </span>
           ," - Fox Business guest says without correction
-          <div
-            style={{
-              display: "inline-block",
-              marginTop: "20px",
-              width: "calc(100% - 5px)",
-              maxWidth: "600px",
-              height: "min-content"
-            }}
-          >
             <div
               style={{
                 columnCount: "2",
