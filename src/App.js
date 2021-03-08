@@ -5007,8 +5007,22 @@ export default class App extends React.Component {
               </a>
               <br />
               In order to remove cross-party risk from the investment, the
-              payout to the investor needs to WAIT FOR WHEN CUSTOMERS ARE
-              WILLING AND ABLE in royalty contracts w/max-profit, which I am
+              payout to the investor needs to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.fintech.current.scrollIntoView("smooth");
+                this.setState({ highlightFintech: true });
+                setTimeout(
+                  () => this.setState({ highlightFintech: false }),
+                  10000
+                );
+              }}
+            >
+              WAIT FOR WHEN CUSTOMERS ARE
+              WILLING AND ABLE
+            </span>
+            &nbsp;in royalty contracts w/max-profit, which I am
               &nbsp;<a href="https://carducci.sh">working</a>&nbsp;on that as
               well. seeking investors cause I have a lot going on&nbsp;
               <a href="https://vaults.biz">vaults</a>&nbsp;+&nbsp;
