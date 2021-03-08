@@ -343,13 +343,7 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
-            <div>
-              "We purchased shots" -&nbsp;
-              <a href="https://en.wikipedia.org/wiki/Brett_Giroir">
-                Admiral Brett Giroir
-              </a>
-            </div>
-            <a
+            <div
               style={{
                 fontFamily: '"Hi Melody", cursive',
                 color: "grey",
@@ -360,10 +354,25 @@ export default class App extends React.Component {
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
-              href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China"
             >
-              Confiscation/quota
-            </a>
+              <div>
+                "We purchased shots" -&nbsp;
+                <a href="https://en.wikipedia.org/wiki/Brett_Giroir">
+                  Admiral Brett Giroir
+                </a>
+              </div>
+              <br />
+              <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
+                Confiscation/quota
+              </a>
+              <br />
+              <a
+                style={{ color: "black" }}
+                href="https://vianickcarducci.medium.com/i-thought-it-was-g-d-e5238f55046b"
+              >
+                I thought it was G-d
+              </a>
+            </div>
             <br />
             Finance is the worst&nbsp;
             <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
