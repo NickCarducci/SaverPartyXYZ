@@ -326,7 +326,7 @@ export default class App extends React.Component {
             <a href="https://vaults.biz">fully-reopen</a>," queries Jake Tapper
             about unemployment insurance & state + local bond-holder bailout
             abject fraud and unfair cornering of assets by competing with other
-            customers who do not borrow/collude with producers or do not have the collusion of the
+            customers who do not borrow/collude with producers+lenders or do not have the collusion of the
             market-share/equity stewards espoused by the Federal Reserve
 <br/><br/>
             <span
