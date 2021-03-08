@@ -635,7 +635,7 @@ export default class App extends React.Component {
               down-payments + time wasted & stress
             </span>
             ), servitude is defined as a state of action to some end, still.
-          </div>
+        
           <br />
           Why does&nbsp;
           <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
@@ -840,7 +840,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
             />
           </a>
-          <br />
+          <br /> 
           CNN: "[This bill provides] aid for state and local government [bonds]"
           - Jake Tapper, State of the Union, CNN
           <br />
@@ -10404,8 +10404,7 @@ export default class App extends React.Component {
             keep equity level with labor's worth in living costs
           </span>
         </div>
-      </div>
+      </div> </div>
     );
   }
 }
-
