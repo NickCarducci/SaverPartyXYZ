@@ -344,8 +344,8 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
-              <div
+              <a
+              href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers"
                 style={{
                   width: "100%",
                   position: "relative"
@@ -359,7 +359,7 @@ export default class App extends React.Component {
                   }}
                   src="https://www.dl.dropboxusercontent.com/s/o57saza2ve3mo0p/IMG_3051.png?dl=0"
                 />
-              </div>
+              </a>
               <div
                 style={{
                   width: "100%",
