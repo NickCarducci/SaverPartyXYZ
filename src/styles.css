@@ -4,6 +4,9 @@
   margin: 0;
   font-family: Nunito, sans-serif;
 }
+* a {
+  word-break: break-word;
+}
 .App {
   display: flex;
   display: fixed;
@@ -138,21 +141,21 @@
   z-index: 9999;
 }
 .embed-container1 {
+  border: none;
   z-index: 9998;
   display: flex;
   position: relative;
   top: 56px;
+  right: 0px;
   height: 980px;
-  width: 870px;
+  width: 600px;
   margin-bottom: 50px;
 }
 .fullchart {
-  overflow-x: auto;
-  overflow-y: hidden;
   display: flex;
   position: relative;
-  left: 0px;
-  flex-direction: row;
+  right: 0px;
+  justify-content: flex-end;
   font-size: 16px;
   width: 100%;
 }
