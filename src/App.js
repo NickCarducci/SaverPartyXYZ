@@ -320,6 +320,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        If you want to help farmers, suspend property taxes and don't steal from Savers. I will fight you
+        <br/>
+        <br/>
         FDIC ensures you that they will bail you out if you invest in them and
         they fail
         <br />
