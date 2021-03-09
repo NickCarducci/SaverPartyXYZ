@@ -13,8 +13,14 @@ class Index extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   };*/
   handleScroll = () => {
-    this.setState({ scrolling: true }, () =>
-      setTimeout(() => this.setState({ scrolling: false }), 5432)
+    clearTimeout(this.cancel);
+    this.setState(
+      { scrolling: true },
+      () =>
+        (this.cancel = setTimeout(
+          () => this.setState({ scrolling: false }),
+          5432
+        ))
     );
   };
   render() {
