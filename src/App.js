@@ -98,6 +98,7 @@ export default class App extends React.Component {
     this.dvNotion = React.createRef();
     this.bobTheBuilder = React.createRef();
     this.financeKills = React.createRef();
+    this.cold = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -2872,7 +2873,18 @@ export default class App extends React.Component {
           Stolen funds herein used for qualified payment sick leave paragraph 1A
           awaiting for test of covid19 (another fraud of payment, for covid
           undefined, antibodies? Those have been noted to be evidence consummate
-          of normal cold as well)
+          of normal&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
+              setTimeout(() => this.setState({ highlightCold: false }), 10000);
+            }}
+          >
+            cold
+          </span>
+          &nbsp;as well)
           <br />
           <br />
           <span
@@ -4503,85 +4515,97 @@ export default class App extends React.Component {
           2052 products © 2021
           <br />
           <br />
-          "Fully-vaccinated: no mask, social-distance," says&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Rochelle_Walensky">
-            CDC Director, Dr. Rochelle P. Walensky
-          </a>
-          &nbsp;and continues, "if from 1 household and little co-mortality risk
-          [I don't care about morbidity anymore as reason to mask, and am not
-          confident in the&nbsp;
-          <a href="https://humanharvest.info">"vaccine"/graft</a>&nbsp;after 2
-          weeks which is as much to make your own AFTER having symptoms])."
-          <br />
-          ...but that is only if (2) symptom-less (1) test is proven [which (1)
-          hasn't been (
-          <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
-            they are still using PCR
-          </a>
-          &nbsp;even&nbsp;
-          <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
-            in new March 2021 works
-          </a>
-          )], (2) if&nbsp;
-          <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
-            antibodies are different from cold's
-          </a>
-          , (3) if&nbsp;
-          <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
-            sequencing
-          </a>
-          , that which has been&nbsp;
-          <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
-            proven to be easy
-          </a>
-          , is ruled out as "pulling the trigger" with a&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
-            patterned
-          </a>
-          -
-          <a href="https://foreignpolicy.com/2016/03/22/libya-and-the-myth-of-humanitarian-intervention/">
-            history
-          </a>
-          &nbsp;of&nbsp;
-          <a href="https://www.bbc.com/news/uk-scotland-south-scotland-12552587?fbclid=IwAR1MXbhxKLMpX_zBgfpovak4GLmJWKLuKfTq-xQJbu2eO5qzKTypKp6UbqM">
-            mis
-          </a>
-          in
-          <a href="https://theecologist.org/2016/mar/14/why-qaddafi-had-go-african-gold-oil-and-challenge-monetary-imperialism?fbclid=IwAR1dfhEd8SHKT_fgQVr81ENiAayYcbf5UfBIHda6IfUsrEgwtye8ojD5iwM">
-            formation
-          </a>
-          &nbsp; , a&nbsp;
-          <a
-            ref={this.dvNotion}
+          <span
+            ref={this.cold}
             style={{
               transform: ".3s ease-in",
-              color: this.state.highlightNotion ? "white" : "",
-              backgroundColor: this.state.highlightNotion
+              color: this.state.highlightCold ? "white" : "",
+              backgroundColor: this.state.highlightCold
                 ? "rgb(170,100,205)"
                 : ""
             }}
-            href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42"
           >
-            warped notion of thinking it is ok to do so
-          </a>
-          &nbsp; and&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
-              setTimeout(
-                () => this.setState({ highlightExperts: false }),
-                10000
-              );
-            }}
-          >
-            experts are paid
+            "Fully-vaccinated: no mask, social-distance," says&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Rochelle_Walensky">
+              CDC Director, Dr. Rochelle P. Walensky
+            </a>
+            &nbsp;and continues, "if from 1 household and little co-mortality
+            risk [I don't care about morbidity anymore as reason to mask, and am
+            not confident in the&nbsp;
+            <a href="https://humanharvest.info">"vaccine"/graft</a>&nbsp;after 2
+            weeks which is as much to make your own AFTER having symptoms])."
+            <br />
+            ...but that is only if (2) symptom-less (1) test is proven [which
+            (1) hasn't been (
+            <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
+              they are still using PCR, your PCR tests only check for
+              human-reaction not the virus
+            </a>
+            &nbsp;even&nbsp;
+            <a href="https://www.fiercebiotech.com/medtech/abbott-secures-testing-green-lights-for-symptomless-covid-19-cases-plus-flu-rsv">
+              in new March 2021 works
+            </a>
+            )], (2) if&nbsp;
+            <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
+              antibodies are different from cold's
+            </a>
+            , (3) if&nbsp;
+            <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
+              sequencing
+            </a>
+            , that which has been&nbsp;
+            <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
+              proven to be easy
+            </a>
+            , is ruled out as "pulling the trigger" with a&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
+              patterned
+            </a>
+            -
+            <a href="https://foreignpolicy.com/2016/03/22/libya-and-the-myth-of-humanitarian-intervention/">
+              history
+            </a>
+            &nbsp;of&nbsp;
+            <a href="https://www.bbc.com/news/uk-scotland-south-scotland-12552587?fbclid=IwAR1MXbhxKLMpX_zBgfpovak4GLmJWKLuKfTq-xQJbu2eO5qzKTypKp6UbqM">
+              mis
+            </a>
+            in
+            <a href="https://theecologist.org/2016/mar/14/why-qaddafi-had-go-african-gold-oil-and-challenge-monetary-imperialism?fbclid=IwAR1dfhEd8SHKT_fgQVr81ENiAayYcbf5UfBIHda6IfUsrEgwtye8ojD5iwM">
+              formation
+            </a>
+            &nbsp; , a&nbsp;
+            <a
+              ref={this.dvNotion}
+              style={{
+                transform: ".3s ease-in",
+                color: this.state.highlightNotion ? "white" : "",
+                backgroundColor: this.state.highlightNotion
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42"
+            >
+              warped notion of thinking it is ok to do so
+            </a>
+            &nbsp;and&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              experts are paid
+            </span>
+            &nbsp; and (4)&nbsp;
+            <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
+              if the virus' proteins themselves aren't different
+            </a>
           </span>
-          &nbsp; and (4)&nbsp;
-          <a href="https://www6.slac.stanford.edu/news/2020-12-18-scientists-get-most-realistic-view-yet-coronavirus-spike-protein-structure.aspx">
-            if the virus' proteins themselves aren't different
-          </a>
           <br />
           <br />
           <span
@@ -5561,6 +5585,34 @@ export default class App extends React.Component {
           remarkable that it was done when it was only skipped testing? That’s
           not remarkable in a good way or a recent triumph of medical science as
           he portrays. B-cells are fragile
+          <br />
+          <br />
+          "May be safer for&nbsp;
+          <a href="https://humanharvest.info">vaccinated</a>&nbsp;people to
+          travel," says Sanjay in March 2021, after prescribing&nbsp;
+          <a href="https://moldmask.co">masks</a>
+          <br />
+          You have no proof that asymptomatic people have anything other than
+          the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
+              setTimeout(() => this.setState({ highlightCold: false }), 10000);
+            }}
+          >
+            cold
+          </span>
+          &nbsp;using polymerase chain reaction, the alleged "gold standard."  Gross negligence to&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.marx.current.scrollIntoView("smooth");
+              this.setState({ highlightMarx: true });
+              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
+            }}
+          >physics of epidemiology</span>
           <br />
           <br />
           your B-cells do it right away... it is a trade-off between the 0-9mo
