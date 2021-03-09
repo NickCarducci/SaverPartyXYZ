@@ -333,7 +333,7 @@ export default class App extends React.Component {
               width: "50%",
               height: "auto"
             }}
-            src="https://www.dropbox.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"/></div>
+            src="https://www.dl.dropboxusercontent.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"/></div>
         <br/>
         <br/>
         Total death rate/population is delayed for 2-3 months now, the
