@@ -6155,7 +6155,7 @@ export default class App extends React.Component {
               is caused by] the ability for people to do that
               <br />
               <br />
-              The effects of inflation as depicted though history forgets the
+              The effects of "inflation" as depicted though history forgets the
               jobs lost from&nbsp;
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
