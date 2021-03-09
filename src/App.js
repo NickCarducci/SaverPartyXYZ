@@ -320,11 +320,39 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        If you want to help farmers, suspend property taxes and don't steal from Savers. I will fight you
-        <br/>
-        <br/>
+        If you want to help farmers, suspend property taxes and don't steal from
+        Savers. I will fight you
+        <br />
+        <br />
         FDIC ensures you that they will bail you out if you invest in them and
         they fail
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "40%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
+          />
+        </div>
+        <a href="https://www.fdic.gov/">FDIC</a>
+        <br />
+        <br />
+        "A majority of Republicans support this package," claims Jen Psaki not
+        citing a source so we can assume it is an n=842 Monmouth University
+        unshuffled, uncorroborated poll
+        <br />
+        "76% of Americans support this legislation," says this fraud. That's a
+        non-shuffled sample! This is illegal to say... take a fucking statistics
+        class
         <br />
         <br />
         <div
@@ -339,13 +367,9 @@ export default class App extends React.Component {
               width: "30%",
               height: "auto"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
+            src="https://www.dl.dropboxusercontent.com/s/exnqdb6ysogrzbv/SmallUnshuffledSampleProof.jpg?dl=0"
           />
         </div>
-        <a href="https://www.fdic.gov/">FDIC</a><br/>
-        <br />
-        "A majority of Republicans support this package," claims Jen Psaki not citing a source so we can assume it is an n=842 Monmouth University unshuffled, uncorroborated poll
-        <br />
         <br />
         "Biden visits a small business that&nbsp;
         <a href="https://foiegras.life">benefited</a>
@@ -972,7 +996,8 @@ export default class App extends React.Component {
         709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
         <br />
         <br />
-        If you want less illegal immigrants, stop redistributing money and cut off the rent-seekers.  I have tables to bus, Wall st & built-to-rents
+        If you want less illegal immigrants, stop redistributing money and cut
+        off the rent-seekers. I have tables to bus, Wall st & built-to-rents
         <br />
         <br />
         <span style={{ border: "1px dotted grey", width: "100%" }}>
@@ -10855,4 +10880,3 @@ export default class App extends React.Component {
     );
   }
 }
-
