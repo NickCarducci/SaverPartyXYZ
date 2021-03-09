@@ -92,6 +92,7 @@ export default class App extends React.Component {
     this.socialism = React.createRef();
     this.twenty = React.createRef();
     this.bidask = React.createRef();
+    this.compoundGramm = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
