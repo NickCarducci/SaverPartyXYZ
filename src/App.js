@@ -343,6 +343,9 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            Stop talking about inflation like it happens later, only if bonds are paid off.  most inflation happens first
+            <br/>
+            <br/>
             <br/>
             false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe it back + more. Relieve w/ banning rent for competing w/ consumers... not more obligations
             <div
