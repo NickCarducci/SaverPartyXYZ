@@ -8,73 +8,72 @@ class RealRealGDP extends React.Component {
         style={{
           display: "flex",
           position: "relative",
-          height: "400px",
-          overflow: "auto",
-          width: "100%"
+          height: "499px",
+          overflowX: "auto",
+          overflowY: "hidden",
+          width: "600px"
         }}
       >
         <div
-          //ref={this.chartSize}
           style={{
+            height: "100%",
             display: "flex",
             position: "absolute",
-            width: "min-content",
-            height: "min-content"
+            width: "min-content"
           }}
         >
           <div
             style={{
+              fontWeight: "normal",
+              fontSize: "14px",
               display: "flex",
-              position: "relative",
-              flexDirection: "column",
-              fontSize: "16px",
-              width: "900px",
-              height: "min-content",
-              transition: "0.3s ease-in"
-            }}
-          >
-            <div style={{ display: "flex" }}>
-              <a
-                className="charttitle"
-                style={{ fontWeight: "bolder", textIndent: "10px" }}
-                href="https://fred.stlouisfed.org/graph/?g=Br2V"
-              >
-                trueGDPbyNonDebt
-              </a>
-              <a
-                className="charttitle"
-                style={{ fontWeight: "bolder" }}
-                href="https://froth.app"
-              >
-                froth.app
-              </a>
-            </div>
-            {/*<iframe
-            src="https://fred.stlouisfed.org/graph/graph-landing.php?g=o0KQ&width=670&height=300"
-            scrolling="no"
-            className="embed-container"
-          />*/}
-            <iframe
-              title={
-                "v2 - GDP/m2-currencym1 (trueVelocity) * currencym1 = trueGDP"
-              }
-              src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Br2V&width=700&height=400"
-              scrolling="no"
-              style={{ height: "500px" }}
-            />
-          </div>
-          <div
-            className="chartlabels"
-            style={{
-              transform: "translateX(-290px)",
+              top: "33px",
+              right: "0px",
+              width: "150px",
+              zIndex: "1",
               backgroundColor: "rgb(255,255,255)",
-              height: "min-content"
+              height: "min-content",
+              position: "absolute"
             }}
           >
             v2 - GDP/m2-currencym1 (trueVelocity) * currencym1 = trueGDP, not
             "real gdp" which doesn't account for unspent monetary-inflation
             (potential price-inelasticity inflation)
           </div>
+          <div
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "100%"
+            }}
+          >
+            <a
+              className="charttitle"
+              style={{ fontWeight: "bolder", textIndent: "10px" }}
+              href="https://fred.stlouisfed.org/graph/?g=Br2V"
+            >
+              trueGDPbyNonDebt
+            </a>
+            <a
+              className="charttitle"
+              style={{ fontWeight: "bolder" }}
+              href="https://froth.app"
+            >
+              froth.app
+            </a>
+          </div>
+          <iframe
+            title={
+              "v2 - GDP/m2-currencym1 (trueVelocity) * currencym1 = trueGDP"
+            }
+            src="https://fred.stlouisfed.org/graph/graph-landing.php?g=Br2V&width=700&height=400"
+            scrolling="no"
+            style={{
+              marginTop: "33px",
+              height: "500px",
+              width: "700px"
+            }}
+          />
         </div>
       </div>
     );
