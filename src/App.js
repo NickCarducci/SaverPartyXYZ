@@ -322,12 +322,43 @@ export default class App extends React.Component {
       >
         "Biden visits a small business that&nbsp;
         <a href="https://foiegras.life">benefited</a>
-        &nbsp;from the PPP loan," celebrates Fox News
+        &nbsp;from the PPP loan," celebrates Fox News.
         <br />
         All it does is raise price, ruin competition of supply for consumers,
         disenfranchises dollar-owners, and ruins bankruptcy negotiations
         <br />
+        <hr />
+        The “right to organize” can turn into exclusion, duress or threats if
+        based on dues. Strikes & legal defense therein is good interpretation of
+        the right to organize for demand(of pay) - intent to corner-their own
+        time by collusion should be legally-permissible, unlike for supply.
         <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/cbscixbo9fkihc8/UnionIncome.jpeg?dl=0"
+          />
+        </div>{" "}
+        <br />
+        The Great Depression was caused by paying bonds off/foreclosures, by the
+        way. The income-inequality drop then could be the cessation of
+        passive-income... To qualify for inclusion in the economy by anything
+        but getting the most you can get by competing with producers to win
+        favor of consumers and skill is discrimination, violation of Amendment
+        13 by free-riding other contribitions of assets-earnable of that person,
+        and any government action to that end is in violation of Amendment 14
+        <br />
+        <hr />
         Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
         to bond-holders and more - when you can ban
         finance(rent,debt,invoice,insurance) for competing with consumers
