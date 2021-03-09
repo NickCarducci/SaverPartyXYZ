@@ -377,9 +377,9 @@ export default class App extends React.Component {
           income earned within retirement accounts,{" "}
         </span>
         <br />
-        Why should you be able to take from Savers and compete with non-free
-        rider immutable services/purchases. Instead, both parties are acting
-        like monopsonies.
+        Why should you be able to take from Savers and compete with
+        non-free-rider-immutable services/purchases? Instead, both parties are
+        acting like monopsonies.
         <br />
         <br />
         "To help state & local governments with lost revenues," literally
