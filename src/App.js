@@ -318,9 +318,13 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Imagine CNN calling the "Covid Relief bill," "relief," 
-        when it is owed to bond-holders and more - when you can ban finance(rent,debt,invoice,insurance) 
-        for competing with consumers instead and get the&nbsp;<a href="https://www.investopedia.com/terms/p/priceelasticity.asp">same utility for lower prices</a>
+        Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
+        to bond-holders and more - when you can ban
+        finance(rent,debt,invoice,insurance) for competing with consumers
+        instead and get the&nbsp;
+        <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+          same utility for lower prices
+        </a>
         <br />
         <br />
         Doctor on CNN, "We look at the science." No, you retard, you look at
@@ -830,6 +834,67 @@ export default class App extends React.Component {
         <br />
         709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
         <br />
+        <br />
+        <span>
+          <span style={{ display: "flex", justifyContent: "space-between" }}>
+            <div
+              style={{
+                width: "33%",
+                position: "relative"
+              }}
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/upi14yvb1qv2dwa/1605651197673.png?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "33%",
+                position: "relative"
+              }}
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/yblzaxulr63u0iq/Screen%20Shot%202021-03-09%20at%2010.25.39%20AM.png?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "33%",
+                position: "relative"
+              }}
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/a5xgft5rz7tpgc2/1605647597206.jpeg?dl=0"
+              />{" "}
+            </div>{" "}
+          </span>
+          Crime-response by race/ethnicity
+          <br />
+          <a href="https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/expanded-homicide-data-table-6.xls">
+            srcCrime
+          </a>{" "}
+          <a href="https://www.usnews.com/news/articles/2020-06-03/data-show-deaths-from-police-violence-disproportionately-affect-people-of-color">
+            srcArmedVictim
+          </a>{" "}
+          <a href="https://www.nature.com/articles/d41586-020-01846-z">
+            srcArmedCop
+          </a>
+        </span>
         <br />
         <span
           style={{
@@ -10660,3 +10725,4 @@ export default class App extends React.Component {
     );
   }
 }
+
