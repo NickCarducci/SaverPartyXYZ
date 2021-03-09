@@ -150,7 +150,7 @@ class Index extends React.Component {
               <div
                 style={{
                   wordBreak: "break-word",
-                  width: "100%",
+                  width: "calc(100% - 46px)",
                   color: "white",
                   display: "inline-block",
                   position: "relative",
