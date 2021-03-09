@@ -96,6 +96,7 @@ export default class App extends React.Component {
     this.disclosure = React.createRef();
     this.jury = React.createRef();
     this.dvNotion = React.createRef();
+    this.bobTheBuilder = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -351,7 +352,18 @@ export default class App extends React.Component {
         <br />
         The Great Depression was caused by paying bonds off/foreclosures, by the
         way. The income-inequality drop then could be the cessation of
-        passive-income... To qualify for inclusion in the economy by anything
+        passive-income... To&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bobTheBuilder.current.scrollIntoView("smooth");
+              this.setState({ highlightBTB: true });
+              setTimeout(
+                () => this.setState({ highlightBTB: false }),
+                10000
+              );
+            }}
+          >qualify</span>&nbsp;for inclusion in the economy by anything
         but getting the most you can get by competing with producers to win
         favor of consumers and skill is discrimination, violation of Amendment
         13 by free-riding other contribitions of assets-earnable of that person,
@@ -2553,7 +2565,7 @@ export default class App extends React.Component {
           >
             mirrorcode
           </span>
-          &nbsp;tax and only helps those who should have saved while thye had
+          &nbsp;tax and only helps those who should have saved while they had
           jobs, if you want to help the disadvantaged you should pay the 40%
           unemployed or just don't take it from them to start with. This bill is
           to pay off bond-holders who can never have what they are price-fixed
@@ -2649,9 +2661,17 @@ export default class App extends React.Component {
           of normal cold as well)
           <br />
           <br />
-          If you just keep equalizing tax credits with or without children you
+          <span ref={this.bobTheBuilder}
+          style={{
+            color: this.state.highlightBTB ? "white" : "",
+            backgroundColor: this.state.highlightBTB
+              ? "rgb(170,100,205)"
+              : ""}}>If you just keep equalizing tax credits with or without children you
           just disadvantage people who are too busy and likely have more
           productive uses of time
+          <br/>
+          Continue repairations for previous mistakes you are still disenfranchising labor, artists and pre-revenue entrepreneurs and the potential competition of supply for consumers
+          </span>
           <br />
           <br />
           <span
@@ -10735,3 +10755,4 @@ export default class App extends React.Component {
     );
   }
 }
+
