@@ -320,9 +320,11 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        "To help state & local governments with lost revenues," literally admitting intent to violate Sherman Act and the penumbrum of Amendment 13/14
-        <br/>
-        <br/>
+        "To help state & local governments with lost revenues," literally
+        admitting intent to violate Sherman Act and the penumbrum of Amendment
+        13/14
+        <br />
+        <br />
         <div
           style={{
             width: "100%",
@@ -338,8 +340,22 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
           />
         </div>
-        <br/>
-        <br/>
+        
+        <span
+            onClick={() => {
+              this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.setState({ highlightSingleSource: true });
+              setTimeout(
+                () => this.setState({ highlightSingleSource: false }),
+                10000
+              );
+            }}
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >Fraud</span>
+        <br />
         If you want to help farmers, suspend property taxes and don't steal from
         Savers. I will fight you
         <br />
@@ -357,7 +373,7 @@ export default class App extends React.Component {
           <img
             alt=""
             style={{
-              width: "40%",
+              width: "30%",
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
@@ -384,7 +400,7 @@ export default class App extends React.Component {
           <img
             alt=""
             style={{
-              width: "30%",
+              width: "25%",
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/exnqdb6ysogrzbv/SmallUnshuffledSampleProof.jpg?dl=0"
