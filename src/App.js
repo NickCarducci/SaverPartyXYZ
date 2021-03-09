@@ -6170,7 +6170,7 @@ export default class App extends React.Component {
               >
                 paying debts
               </span>
-              &nbsp;debts and forclosure
+              &nbsp;and forclosure
             </div>
             <div
               style={{
