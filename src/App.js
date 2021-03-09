@@ -356,7 +356,16 @@ export default class App extends React.Component {
             setTimeout(() => this.setState({ highlightBTB: false }), 10000);
           }}
         >{/** qualify/*/}interfere
-        </span>, Mr. President
+        </span>, Mr.&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.flop.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+            }}
+          >
+            President
+          </span>
         <br />
         <br />
         The “right to organize” can turn into exclusion, duress or threats if
@@ -9305,7 +9314,7 @@ export default class App extends React.Component {
             ref={this.flop}
           >
             Haha fair and square? Voter harvesting is sample bias. Calling{" "}
-            <b>elections</b> dissuade voters, projecting is especially
+            <b>elections</b>&nbsp;dissuade/supress voters, projecting is especially
             irrelevant if&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
