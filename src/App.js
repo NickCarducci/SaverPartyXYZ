@@ -766,13 +766,27 @@ export default class App extends React.Component {
             (.2255%)
             <br />
             <br />
-            "Power of compound interest," ex-Senator Phil Gramm says on
-            Conversations with Nancy Brinker.
-            <br />
-            "The debt will be there until Jesus comes back," he continues.
-            <br />
-            "Interest rates will be at historic lows, unlike 5yr gov bond 5%
-            post-war [1950-2000] until then"
+            <span
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightCompoundGramm ? "white" : "",
+                backgroundColor: this.state.highlightCompoundGramm
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.compoundGramm}
+            >
+              "Power of compound interest," ex-Senator Phil Gramm says on
+              Conversations with Nancy Brinker.
+              <br />
+              "The debt will be there until Jesus comes back," he continues.
+              <br />
+              "Interest rates will be at historic lows, unlike 5yr gov bond 5%
+              post-war [1950-2000] until then"
+            </span>
             <br />
             <br />
             "Where is it&nbsp;
@@ -6121,6 +6135,7 @@ export default class App extends React.Component {
             </i>
             <div
               style={{
+                fontWeight: "normal",
                 transition: ".3s ease-in",
                 margin: "10px 0px",
                 padding: "10px",
@@ -6169,15 +6184,63 @@ export default class App extends React.Component {
               </span>
               <br />
               <br />
-              Inflation - is as many imagine - is [or is caused by] the&nbsp;
-              <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
-                propensity
-              </a>
-              &nbsp;for people to hoard, cheat and collude, to corner assets of
-              people... rather than compete for their favor (a.k.a. raise price
-              at what they're willing to ask). Inflation actually is [or is
-              caused by] the ability for people to do that. Very little
-              inflation by supply [as&nbsp;
+              <span
+                style={{
+                  fontWeight: "bolder"
+                }}
+              >
+                Inflation is the ask exuding its power
+              </span>
+              <br />
+              The&nbsp;
+              <span
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  this.china.current.scrollIntoView("smooth");
+                  this.setState({ highlightChina: true });
+                  setTimeout(
+                    () => this.setState({ highlightChina: false }),
+                    10000
+                  );
+                }}
+              >
+                effects
+              </span>
+              &nbsp;of "inflation" - as many imagine, and as depicted though
+              U.S. school-taught history, which forgets the jobs lost from&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.livingWage.current.scrollIntoView("smooth");
+                  this.setState({ highlightLivingWage: true });
+                  setTimeout(
+                    () => this.setState({ highlightLivingWage: false }),
+                    10000
+                  );
+                }}
+              >
+                paying debts
+              </span>
+              &nbsp;and forclosure -&nbsp;
+              <span
+                style={{
+                  color: "rgb(40,40,160)",
+                  fontWeight: "normal"
+                }}
+              >
+                is actually the&nbsp;
+                <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
+                  propensity
+                </a>
+                &nbsp;for people to hoard, cheat and collude, to corner assets
+                of people... rather than compete for their favor (a.k.a. raise
+                price at what they're willing to ask). Inflation is actually [or
+                is actually-caused by] the ability for people to do that.
+              </span>
+              &nbsp;Very little inflation by supply [as&nbsp;
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
@@ -6228,42 +6291,42 @@ export default class App extends React.Component {
               >
                 living
               </span>
-              &nbsp;to rise
-              <br />
-              <br />
-              The&nbsp;
+              &nbsp;to rise, in comparison (1300% to 102% (plus housing not
+              included in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
+              &nbsp;which has been 2% to find "
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.trueGDP.current.scrollIntoView("smooth");
+                  this.setState({ highlightTrueGDP: true });
+                  setTimeout(
+                    () => this.setState({ highlightTrueGDP: false }),
+                    10000
+                  );
+                }}
+              >
+                RealGDP
+              </span>
+              ," for a while, as has&nbsp;
               <span
                 style={{
+                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  textEmphasis: "italics",
                   fontWeight: "bolder",
                   textDecoration: "underline"
                 }}
                 onClick={() => {
-                  this.china.current.scrollIntoView("smooth");
-                  this.setState({ highlightChina: true });
+                  this.compoundGramm.current.scrollIntoView("smooth");
+                  this.setState({ highlightCompoundGramm: true });
                   setTimeout(
-                    () => this.setState({ highlightChina: false }),
+                    () => this.setState({ highlightCompoundGramm: false }),
                     10000
                   );
                 }}
               >
-                effects
+                interest
               </span>
-              &nbsp;of "inflation" as depicted though history forgets the jobs
-              lost from&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.livingWage.current.scrollIntoView("smooth");
-                  this.setState({ highlightLivingWage: true });
-                  setTimeout(
-                    () => this.setState({ highlightLivingWage: false }),
-                    10000
-                  );
-                }}
-              >
-                paying debts
-              </span>
-              &nbsp;and forclosure
+              ))
             </div>
             <div
               style={{
