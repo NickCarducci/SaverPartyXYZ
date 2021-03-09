@@ -93,6 +93,7 @@ export default class App extends React.Component {
     this.twenty = React.createRef();
     this.bidask = React.createRef();
     this.compoundGramm = React.createRef();
+    this.disclosure = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -335,9 +336,9 @@ export default class App extends React.Component {
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
-            this.experts.current.scrollIntoView("smooth");
-            this.setState({ highlightExperts: true });
-            setTimeout(() => this.setState({ highlightExperts: false }), 10000);
+            this.disclosure.current.scrollIntoView("smooth");
+            this.setState({ highlightDisclosure: true });
+            setTimeout(() => this.setState({ highlightDisclosure: false }), 10000);
           }}
         >
           conflicts of interst
@@ -3635,8 +3636,16 @@ export default class App extends React.Component {
               unrequited
             </span>
             <br />
-            give warning by unpaid consultants, non-profit freemium ngo service;
+            <span ref={this.disclosure} style={{
+            color: this.state.highlightDisclosure ? "white" : "grey",
+            backgroundColor: this.state.highlightDisclosure
+              ? "rgb(100,170,205)"
+              : "",
+            opacity: this.state.highlightDisclosure !== null ? "1" : "0",
+            fontSize: this.state.highlightDisclosure !== null ? "" : "0px"
+            }}>give warning by unpaid consultants, non-profit freemium ngo service;
             no prohibition except self/asset court-party risk
+          </span>
             <br />
             no prescriptions
           </span>
