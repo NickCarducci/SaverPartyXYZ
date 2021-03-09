@@ -358,7 +358,7 @@ export default class App extends React.Component {
                     width: "100%",
                     height: "auto"
                   }}
-                  src="https://www.dropbox.com/s/u84dx7dc109ffbp/IMG_3377.png?dl=0"
+                  src="https://www.dl.dropboxusercontent.com/s/u84dx7dc109ffbp/IMG_3377.png?dl=0"
                   />
                   </div>
             "racist policies can make the economy 20 times larger": What a retarded thought
