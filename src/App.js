@@ -4195,6 +4195,47 @@ export default class App extends React.Component {
           <br />
           accelerate, mount or just radius thickness...
         </div>
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.jan2018.current.scrollIntoView("smooth");
+            this.setState({ highlightJan2018: true });
+            setTimeout(() => this.setState({ highlightJan2018: false }), 10000);
+          }}
+        >
+          Financial Celibacy
+        </span>
+        <span
+          ref={this.takingCredit}
+          style={{
+            margin: "10px 0px",
+            padding: "10px",
+            display: "inline-block",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px",
+            color: this.state.highlightTakingCredit ? "white" : "grey",
+            backgroundColor: this.state.highlightTakingCredit
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
+          <span style={{ fontSize: "6px" }}>fucking</span>
+          slut,{" "}
+          <a href="https://thumbprint.us">working for market(copyright,</a>
+          not <a href="https://vaults.biz">depositary</a>) share instead of
+          entrapping myself into <a href="https://stripe.com">Stripe.com</a>
+          <br />
+          <br />
+          Judges cannot judge what is right for bail, they'rn't impartial - as
+          in they get the bail.
+          <br />
+          Bail for judges'n't for consumers/community - the service at its most
+          efficient as to keep everyone happiest, individually, for the
+          complainants only; class action is for precedence, but we all assume
+          it gets less than each individual case would.
+        </span>
         <i
           style={{
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -4496,69 +4537,24 @@ export default class App extends React.Component {
             .
           </span>
           <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            style={{
+              border: "1px dotted grey",
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
             onClick={() => {
-              this.jan2018.current.scrollIntoView("smooth");
-              this.setState({ highlightJan2018: true });
+              this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.setState({ highlightSingleSource: true });
               setTimeout(
-                () => this.setState({ highlightJan2018: false }),
+                () => this.setState({ highlightSingleSource: false }),
                 10000
               );
             }}
           >
-            Financial Celibacy
+            NO PROOF EVIDENCE NONSYMPOMATIC IS DANGEROUS
           </span>
-          <span
-            ref={this.takingCredit}
-            style={{
-              margin: "10px 0px",
-              padding: "10px",
-              display: "inline-block",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightTakingCredit ? "white" : "grey",
-              backgroundColor: this.state.highlightTakingCredit
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
-            <span style={{ fontSize: "6px" }}>fucking</span>
-            slut,{" "}
-            <a href="https://thumbprint.us">working for market(copyright,</a>
-            not <a href="https://vaults.biz">depositary</a>) share instead of
-            entrapping myself into <a href="https://stripe.com">Stripe.com</a>
-            <br />
-            <br />
-            Judges cannot judge what is right for bail, they'rn't impartial - as
-            in they get the bail.
-            <br />
-            Bail for judges'n't for consumers/community - the service at its
-            most efficient as to keep everyone happiest, individually, for the
-            complainants only; class action is for precedence, but we all assume
-            it gets less than each individual case would.
-            <br />
-            <span
-              style={{
-                border: "1px dotted grey",
-                fontFamily: '"Pacifico", cursive', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.singleSourceOfTruth.current.scrollIntoView("smooth");
-                this.setState({ highlightSingleSource: true });
-                setTimeout(
-                  () => this.setState({ highlightSingleSource: false }),
-                  10000
-                );
-              }}
-            >
-              NO PROOF EVIDENCE NONSYMPOMATIC IS DANGEROUS
-            </span>
-          </span>{" "}
           <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
