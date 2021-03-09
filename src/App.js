@@ -327,7 +327,7 @@ export default class App extends React.Component {
         All it does is raise price, ruin competition of supply for consumers,
         disenfranchises dollar-owners, and ruins bankruptcy negotiations
         <br />
-        <hr />
+        <br />
         The “right to organize” can turn into exclusion, duress or threats if
         based on dues. Strikes & legal defense therein is good interpretation of
         the right to organize for demand(of pay) - intent to corner-their own
@@ -348,7 +348,7 @@ export default class App extends React.Component {
             }}
             src="https://www.dl.dropboxusercontent.com/s/cbscixbo9fkihc8/UnionIncome.jpeg?dl=0"
           />
-        </div>{" "}
+        </div>
         <br />
         The Great Depression was caused by paying bonds off/foreclosures, by the
         way. The income-inequality drop then could be the cessation of
@@ -358,7 +358,7 @@ export default class App extends React.Component {
         13 by free-riding other contribitions of assets-earnable of that person,
         and any government action to that end is in violation of Amendment 14
         <br />
-        <hr />
+        <br />
         Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
         to bond-holders and more - when you can ban
         finance(rent,debt,invoice,insurance) for competing with consumers
@@ -443,6 +443,7 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/u84dx7dc109ffbp/IMG_3377.png?dl=0"
           />
         </div>
+        <br />
         "...can make the economy 20 times larger": What a retarded thought
         allowed by Early Start, CNN and Citibank (assets traded, people trading,
         or how separate we are by dollars?)
@@ -510,6 +511,7 @@ export default class App extends React.Component {
             </a>
           </div>
           <br />
+          <hr />
           <a href="https://en.wikipedia.org/wiki/Under-occupied_developments_in_China">
             Confiscation/quota
           </a>
