@@ -340,21 +340,20 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
           />
         </div>
-        
         <span
-            onClick={() => {
-              this.singleSourceOfTruth.current.scrollIntoView("smooth");
-              this.setState({ highlightSingleSource: true });
-              setTimeout(
-                () => this.setState({ highlightSingleSource: false }),
-                10000
-              );
-            }}
-            style={{
-              width: "100%",
-              position: "relative"
-            }}
-          >Fraud</span>
+          onClick={() => {
+            this.singleSourceOfTruth.current.scrollIntoView("smooth");
+            this.setState({ highlightSingleSource: true });
+            setTimeout(
+              () => this.setState({ highlightSingleSource: false }),
+              10000
+            );
+          }}
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+        >
+          Fraud
+        </span>
+        <br />
         <br />
         If you want to help farmers, suspend property taxes and don't steal from
         Savers. I will fight you
