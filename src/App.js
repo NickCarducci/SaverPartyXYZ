@@ -353,21 +353,21 @@ export default class App extends React.Component {
         The Great Depression was caused by paying bonds off/foreclosures, by the
         way. The income-inequality drop then could be the cessation of
         passive-income... To&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.bobTheBuilder.current.scrollIntoView("smooth");
-              this.setState({ highlightBTB: true });
-              setTimeout(
-                () => this.setState({ highlightBTB: false }),
-                10000
-              );
-            }}
-          >qualify</span>&nbsp;for inclusion in the economy by anything
-        but getting the most you can get by competing with producers to win
-        favor of consumers and skill is discrimination, violation of Amendment
-        13 by free-riding other contribitions of assets-earnable of that person,
-        and any government action to that end is in violation of Amendment 14
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bobTheBuilder.current.scrollIntoView("smooth");
+            this.setState({ highlightBTB: true });
+            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+          }}
+        >
+          qualify
+        </span>
+        &nbsp;for inclusion in the economy by anything but getting the most you
+        can get by competing with producers to win favor of consumers and skill
+        is discrimination, violation of Amendment 13 by free-riding other
+        contribitions of assets-earnable of that person, and any government
+        action to that end is in violation of Amendment 14
         <br />
         <br />
         Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
@@ -2661,16 +2661,24 @@ export default class App extends React.Component {
           of normal cold as well)
           <br />
           <br />
-          <span ref={this.bobTheBuilder}
-          style={{
-            color: this.state.highlightBTB ? "white" : "",
-            backgroundColor: this.state.highlightBTB
-              ? "rgb(170,100,205)"
-              : ""}}>If you just keep equalizing tax credits with or without children you
-          just disadvantage people who are too busy and likely have more
-          productive uses of time
-          <br/>
-          Continue repairations for previous mistakes you are still disenfranchising labor, artists and pre-revenue entrepreneurs and the potential competition of supply for consumers
+          <span
+            ref={this.bobTheBuilder}
+            style={{
+              color: this.state.highlightBTB ? "white" : "",
+              backgroundColor: this.state.highlightBTB ? "rgb(170,100,205)" : ""
+            }}
+          >
+            If you just keep equalizing tax credits with or without children you
+            just disadvantage people who are too busy and likely have more
+            productive uses of time
+            <br />
+            <br />
+            Continue repairations for previous government-funding mistakes you
+            are still disenfranchising labor, artists and pre-revenue
+            entrepreneurs and the potential competition of supply for consumers
+            + all dollar-owners' selling rights
+            <br />
+            please stop bailing out Wall St promises to themselves 13:1
           </span>
           <br />
           <br />
