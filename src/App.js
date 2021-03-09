@@ -343,6 +343,7 @@ export default class App extends React.Component {
           />
         </div>
         <a href="https://www.fdic.gov/">FDIC</a><br/>
+        <br />
         "A majority of Republicans support this package," claims Jen Psaki not citing a source so we can assume it is an n=842 Monmouth University unshuffled, uncorroborated poll
         <br />
         <br />
