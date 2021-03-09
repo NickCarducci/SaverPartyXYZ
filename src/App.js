@@ -318,6 +318,24 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Doctor on CNN, "We look at the science."  No, you retard, you look at samples and over less than a lifetime
+        <br/>
+        
+        <div
+          style={{
+            width: "50%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "50%",
+              height: "auto"
+            }}
+            src="https://www.dropbox.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"/></div>
+        <br/>
+        <br/>
         Total death rate/population is delayed for 2-3 months now, the
         first-world population is comprised of mostly&nbsp;
         <span
