@@ -318,10 +318,11 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Doctor on CNN, "We look at the science."  No, you retard, you look at samples and over less than a lifetime
-        <br/>
-        
-        <div
+        Doctor on CNN, "We look at the science." No, you retard, you look at
+        samples and over less than a lifetime
+        <br />
+        <a
+          href="https://humanharvest.info"
           style={{
             width: "50%",
             position: "relative"
@@ -333,9 +334,11 @@ export default class App extends React.Component {
               width: "50%",
               height: "auto"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"/></div>
-        <br/>
-        <br/>
+            src="https://www.dl.dropboxusercontent.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"
+          />
+        </a>
+        <br />
+        <br />
         Total death rate/population is delayed for 2-3 months now, the
         first-world population is comprised of mostly&nbsp;
         <span
@@ -6958,8 +6961,9 @@ export default class App extends React.Component {
             fontSize: this.state.highlightExperts !== null ? "" : "0px"
           }}
         >
-          behavior can reduce pain, says Vivek Murthy. kinda like a doctor
-          telling you to stop doing something that hurts you
+          "Behavior can reduce pain," says Vivek Murthy like a doctor telling
+          you to stop doing something that hurts you
+          <br />
           <br />
           All experts who are paid must not be listened to due to conflict of
           interests... congress asking people for more money by claiming
