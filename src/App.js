@@ -355,17 +355,20 @@ export default class App extends React.Component {
             this.setState({ highlightBTB: true });
             setTimeout(() => this.setState({ highlightBTB: false }), 10000);
           }}
-        >{/** qualify/*/}interfere
-        </span>, Mr.&nbsp;<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.flop.current.scrollIntoView("smooth");
-              this.setState({ highlightFlop: true });
-              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
-            }}
-          >
-            President
-          </span>
+        >
+          {/** qualify/*/}interfere
+        </span>
+        , Mr.&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.flop.current.scrollIntoView("smooth");
+            this.setState({ highlightFlop: true });
+            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+          }}
+        >
+          President
+        </span>
         <br />
         <br />
         The “right to organize” can turn into exclusion, duress or threats if
@@ -2718,7 +2721,29 @@ export default class App extends React.Component {
             entrepreneurs and the potential competition of supply for consumers
             + all dollar-owners' selling rights
             <br />
-            please stop bailing out Wall St promises to themselves 13:1
+            <br />
+            please stop giving stimulous (stolen from Savers' equity unlike
+            corporate law) and continuing to prosecute for Wall St promises to
+            themselves 13:1
+            <br />
+            let people trade voluntarily and without favoritism. Reparations are
+            meant to reward the complainant not the&nbsp;
+            <span
+              onClick={() => {
+                this.takingCredit.current.scrollIntoView("smooth");
+                this.setState({ highlightTakingCredit: true });
+                setTimeout(
+                  () => this.setState({ highlightTakingCredit: false }),
+                  10000
+                );
+              }}
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              judge
+            </span>
           </span>
           <br />
           <br />
@@ -9314,8 +9339,8 @@ export default class App extends React.Component {
             ref={this.flop}
           >
             Haha fair and square? Voter harvesting is sample bias. Calling{" "}
-            <b>elections</b>&nbsp;dissuade/supress voters, projecting is especially
-            irrelevant if&nbsp;
+            <b>elections</b>&nbsp;dissuade/supress voters, projecting is
+            especially irrelevant if&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9422,10 +9447,7 @@ export default class App extends React.Component {
           around people wearing masks. Their preference for others is more
           onerous than people who prefer sneezing into their elbow. Masks are as
           reckless as NIH & Fauci getting paid dollar split to experiment with
-          virus in anti-human rights China XXX We need tort reform in the
-          process of barring or citing cease & desist. A warning from a
-          complaint that a court can lay instead of bonds and fines, before an
-          incident occurs{" "}
+          virus in anti-human rights China{" "}
           <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
             https://pubmed.ncbi.nlm.nih.gov/17542834/
           </a>
@@ -10803,3 +10825,4 @@ export default class App extends React.Component {
     );
   }
 }
+
