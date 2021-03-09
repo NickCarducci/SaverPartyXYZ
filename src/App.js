@@ -315,6 +315,8 @@ export default class App extends React.Component {
     return (
       <div
         style={{
+          marginTop: "7px",
+          position: "relative",
           display: "inline-block",
           width: "100%",
           maxWidth: "600px",
@@ -3734,8 +3736,8 @@ export default class App extends React.Component {
             <br />
             Population 4.5x
           </span>
-          Although they have been known to lie and have used propoganda, as U.S.
-          has also&nbsp;
+          &nbsp; Although they have been known to lie and have used propoganda,
+          as U.S. has also&nbsp;
           <span
             style={{
               fontWeight: "bolder",
@@ -3771,7 +3773,7 @@ export default class App extends React.Component {
             entanglements
           </span>
           &nbsp;with the Chinese... work in-line with national-security
-          principles out of this" - Fmr Sec. State Pompeo
+          principals out of this" - Fmr Sec. State Pompeo
         </div>
         <div
           ref={this.stats}
