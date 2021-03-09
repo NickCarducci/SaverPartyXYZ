@@ -94,6 +94,7 @@ export default class App extends React.Component {
     this.bidask = React.createRef();
     this.compoundGramm = React.createRef();
     this.disclosure = React.createRef();
+    this.jury = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -640,8 +641,18 @@ export default class App extends React.Component {
           Single-Source Virus
         </span>
         <br />
-        G-d is judge (Himself), jury (people) and prosecutioner (angels,
-        cherubim) "&nbsp;
+        <span 
+          style={{
+            display: "inline-block",
+            padding: "4px 10px",
+            transition: ".3s ease-in",
+            borderRadius: "15px",
+            color: this.state.highlightJury ? "white" : "",
+            backgroundColor: this.state.highlightJury
+              ? "rgb(170,100,205)"
+              : ""
+          }} ref={this.jury}>G-d is judge (Himself), jury (people) and prosecutioner (angels,
+        cherubim)</span><br/>"
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -1240,7 +1251,22 @@ export default class App extends React.Component {
           ref={this.twenty}
         >
           if inequality isn't too great and swaths of supply isn't being horded,
-          there are enough producers (20+) to deliver competition
+          there are enough producers (20+) to deliver&nbsp;<span
+          style={{
+            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            textEmphasis: "italics",
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.jury.current.scrollIntoView("smooth");
+            this.setState({ highlightJury: true });
+            setTimeout(
+              () => this.setState({ highlightJury: false }),
+              10000
+            );
+          }}
+        >competition</span>
           <br />
           <br />
           California Assemblypeople making threats of strike not teaching their
