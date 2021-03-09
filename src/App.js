@@ -323,6 +323,65 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        You can't give away something you do not take!
+        <br />
+        <div style={{ columnCount: "2", position: "relative" }}>
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/p0nqouh4shcndwp/Screen%20Shot%202021-03-09%20at%204.54.54%20PM.png?dl=0"
+            />
+          </div>{" "}
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/j428msgzzln6hb7/IncomeIncludes.jpg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/i9tq9qxpkgll74h/Screen%20Shot%202021-03-09%20at%205.23.01%20PM.png?dl=0"
+            />
+          </div>
+        </div>{" "}
+        <br />
+        <span style={{ textDecoration: "strike-through" }}>
+          income earned within retirement accounts,{" "}
+        </span>
+        <br />
+        Why should you be able to take from Savers and compete with non-free
+        rider immutable services/purchases. Instead, both parties are acting
+        like monopsonies.
+        <br />
+        <br />
         "To help state & local governments with lost revenues," literally
         admitting intent to violate Sherman Act and the penumbrum of Amendment
         13/14
