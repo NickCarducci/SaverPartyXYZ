@@ -424,7 +424,7 @@ export default class App extends React.Component {
             );
           }}
         >
-          conflicts of interst
+          conflicts of interest
         </span>
         <br />
         <div
