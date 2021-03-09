@@ -447,9 +447,12 @@ export default class App extends React.Component {
         citing a source so we can assume it is an n=842 Monmouth University
         unshuffled, uncorroborated poll
         <br />
-        "76% of Americans support this legislation," says this fraud. That's a
-        non-shuffled sample! This is illegal to say... take a fucking statistics
-        class
+        "76% of Americans support this legislation [
+        <a href="https://www.dataforprogress.org/blog/2021/1/22/majority-support-hr1-democracy-reforms">
+          n=1164
+        </a>
+        ]," says this fraud. That's a non-shuffled sample! This is illegal to
+        say... take a fucking statistics class
         <br />
         <br />
         <div
