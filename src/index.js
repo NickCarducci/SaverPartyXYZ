@@ -38,7 +38,10 @@ class Index extends React.Component {
             "Immigration",
             "Ownership Fraud",
             "False Advert in Senate",
-            "Insurance Fraud"
+            "Insurance Fraud",
+            "Mission",
+            "Early Comms",
+            "Illegal Gov Decrees"
           ].map((x) => {
             return (
               <div
