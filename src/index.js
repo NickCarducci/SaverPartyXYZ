@@ -60,7 +60,11 @@ ReactDOM.render(
               padding: "4px 10px"
             }}
           >
-            An economy of our&nbsp;
+            A&nbsp;
+            <a href="https://www.investopedia.com/articles/personal-finance/070715/insurance-companies-vs-banks-separate-and-not-equal.asp">
+              duressful
+            </a>
+            -economy of our&nbsp;
             <a
               style={{ color: "rgb(150,220,255)" }}
               href="https://www.investopedia.com/articles/investing/110513/utilizing-prisoners-dilemma-business-and-economy.asp"
@@ -74,6 +78,9 @@ ReactDOM.render(
           </div>
         </div>
         <div
+          onScroll={() => {
+            this.setState({});
+          }}
           style={{
             padding: "10px",
             left: "0px",
