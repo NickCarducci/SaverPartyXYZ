@@ -945,6 +945,9 @@ export default class App extends React.Component {
         709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
         <br />
         <br />
+        If you want less illegal immigrants, stop redistributing money and cut off the rent-seekers.  I have tables to bus, Wall st & built-to-rents
+        <br />
+        <br />
         <span style={{ border: "1px dotted grey", width: "100%" }}>
           <div
             style={{ columnCount: "3", position: "relative", width: "100%" }}
