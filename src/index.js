@@ -5,27 +5,54 @@ import { CSSTransition } from "react-transition-group";
 import App from "./App";
 
 class Index extends React.Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = { top: true };
+    this.page = React.createRef();
+  }
   /*componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
   };
   componentWillUnmount = () => {
     window.removeEventListener("scroll", this.handleScroll);
   };*/
-  handleScroll = () => {
+  handleScroll = (e) => {
     clearTimeout(this.cancel);
+    var top = e.target.scrollTop === 0;
     this.setState(
-      { scrolling: true },
+      { scrolling: true, top },
       () =>
-        (this.cancel = setTimeout(
-          () => this.setState({ scrolling: false }),
-          5432
-        ))
+        (this.cancel = setTimeout(() => {
+          this.setState({ scrolling: false });
+        }, 5432))
     );
   };
   render() {
+    var showSquirrel = this.state.top && !this.state.scrolling;
     return (
       <div className="App">
+        <div
+          style={{
+            opacity: showSquirrel ? 1 : 0,
+            top: "70px",
+            zIndex: showSquirrel ? 1 : -9999,
+            right: "10px",
+            width: "30px",
+            position: "fixed",
+            transition: ".3s ease-in"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              borderRadius: "10px",
+              border: "5px solid rgb(5,5,5)",
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?dl=0"
+          />{" "}
+        </div>
         <div
           style={{
             textAlign: "center",
@@ -49,22 +76,27 @@ class Index extends React.Component {
             "Insurance Fraud",
             "Mission",
             "Early Comms",
-            "Illegal Gov Decrees"
-          ].map((x) => {
-            return (
-              <div
-                style={{
-                  width: "max-content",
-                  fontSize: !this.state.scrolling ? "0px" : "",
-                  opacity: !this.state.scrolling ? "0" : "1",
-                  transition: ".3s ease-in",
-                  margin: "2px"
-                }}
-              >
-                {x}
-              </div>
-            );
-          })}
+            "Illegal Gov Decrees",
+            "close"
+          ].map((x) => (
+            <div
+              style={{
+                width: "max-content",
+                fontSize: !this.state.scrolling ? "0px" : "",
+                opacity: !this.state.scrolling ? "0" : "1",
+                transition: ".3s ease-in",
+                margin: "2px"
+              }}
+            >
+              {x !== "close" ? (
+                x
+              ) : (
+                <span onClick={() => this.setState({ scrolling: false })}>
+                  &times;
+                </span>
+              )}
+            </div>
+          ))}
         </div>
         <div
           onScroll={this.handleScroll}
@@ -81,6 +113,7 @@ class Index extends React.Component {
           }}
         >
           <div
+            ref={this.page}
             style={{
               display: this.state.width > 700 ? "flex" : "",
               width: "100%",
