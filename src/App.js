@@ -320,6 +320,26 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        "To help state & local governments with lost revenues," literally admitting intent to violate Sherman Act and the penumbrum of Amendment 13/14
+        <br/>
+        <br/>
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
+          />
+        </div>
+        <br/>
+        <br/>
         If you want to help farmers, suspend property taxes and don't steal from
         Savers. I will fight you
         <br />
