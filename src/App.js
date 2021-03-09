@@ -91,6 +91,7 @@ export default class App extends React.Component {
     this.savingsRate = React.createRef();
     this.socialism = React.createRef();
     this.twenty = React.createRef();
+    this.bidask = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -6175,10 +6176,10 @@ export default class App extends React.Component {
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
-                  this.experts.current.scrollIntoView("smooth");
-                  this.setState({ highlightExperts: true });
+                  this.bidask.current.scrollIntoView("smooth");
+                  this.setState({ highlightBidAsk: true });
                   setTimeout(
-                    () => this.setState({ highlightExperts: false }),
+                    () => this.setState({ highlightBidAsk: false }),
                     10000
                   );
                 }}
