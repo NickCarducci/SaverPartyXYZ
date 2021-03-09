@@ -328,7 +328,6 @@ export default class App extends React.Component {
         disenfranchises dollar-owners, and ruins bankruptcy negotiations
         <br />
         <br />
-        
         <div
           style={{
             width: "100%",
@@ -342,12 +341,24 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/v52hi5uv39wuab5/InflationMisunderstanding.png?dl=0"
-       /></div> 
-       <br/>
-       <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">"6 million jobs back by the end of the year"</a>
-        <br/>I could hire them if you didn't interfere, Mr. President
-        <br/>
-        <br/>
+          />
+        </div>
+        <br />
+        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+          "6 million jobs back by the end of the year"
+        </a>
+        <br />I could hire them if you didn't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bobTheBuilder.current.scrollIntoView("smooth");
+            this.setState({ highlightBTB: true });
+            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+          }}
+        >{/** qualify/*/}interfere
+        </span>, Mr. President
+        <br />
+        <br />
         The “right to organize” can turn into exclusion, duress or threats if
         based on dues. Strikes & legal defense therein is good interpretation of
         the right to organize for demand(of pay) - intent to corner-their own
@@ -10783,4 +10794,3 @@ export default class App extends React.Component {
     );
   }
 }
-
