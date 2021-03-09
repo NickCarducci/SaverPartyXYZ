@@ -6135,6 +6135,11 @@ export default class App extends React.Component {
               of debt will prevent investors from lending to bonds that are able
               to be cashed out. immigration and dilution of dollar-share will
               not bankrupt the country
+              <br />
+              <br />
+              Inflation - is as many imagine - is the propensity for people to
+              hoard, cheat, and collude to corner assets of people rather than
+              compete for their favor
             </div>
             <div
               style={{
@@ -6151,8 +6156,21 @@ export default class App extends React.Component {
               }}
             >
               If everyone else is lying about what they can do in promising
-              other peoples’ money I can too as well as short those with these
-              price-fixed valuations
+              other peoples’ money, I can too - as well as short those with
+              these price-fixed valuations, as well as my&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.concious.current.scrollIntoView("smooth");
+                  this.setState({ highlightConcious: true });
+                  setTimeout(
+                    () => this.setState({ highlightConcious: false }),
+                    10000
+                  );
+                }}
+              >
+                competitors
+              </span>
               <br /> <br />I can do this for my knee as I learn to code for job
               without commute
             </div>
@@ -7894,15 +7912,30 @@ export default class App extends React.Component {
                 kind
               </span>
               <br />
-              only I have to provide a stream of concious to my open designs to
-              trade, which I do anyway for copyright
-              <br />
-              scrutiny of me telling my grandma to sell apartment building as
-              she was already having trouble maintaining is disproportionate
-              because I am Polish-Italian American male & that I won't sell out
-              (except everything except thumbprint.us web-app on
-              linkedin.com/in/nickcarducci facebook.com/nick.carducci, invest
-              today!)
+              <span
+                style={{
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightConcious ? "white" : "",
+                  backgroundColor: this.state.highlightConcious
+                    ? "rgb(170,100,205)"
+                    : "",
+                  opacity: this.state.highlightConcious !== null ? "1" : "0",
+                  fontSize: this.state.highlightConcious !== null ? "" : "0px"
+                }}
+                ref={this.concious}
+              >
+                only I have to provide a stream of concious to my open designs
+                to trade, which I do anyway for copyright
+                <br />
+                scrutiny of me telling my grandma to sell apartment building as
+                she was already having trouble maintaining is disproportionate
+                because I am Polish-Italian American male & that I won't sell
+                out (except everything except thumbprint.us web-app on
+                linkedin.com/in/nickcarducci facebook.com/nick.carducci, invest
+                today!)
+              </span>
             </span>
             <div
               style={{
@@ -10659,3 +10692,4 @@ export default class App extends React.Component {
     );
   }
 }
+
