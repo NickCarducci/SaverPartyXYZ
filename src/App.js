@@ -314,7 +314,6 @@ export default class App extends React.Component {
       <div
         style={{
           display: "inline-block",
-          marginTop: "20px",
           width: "100%",
           maxWidth: "600px",
           height: "min-content"
@@ -10736,4 +10735,3 @@ export default class App extends React.Component {
     );
   }
 }
-
