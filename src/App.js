@@ -4141,10 +4141,9 @@ export default class App extends React.Component {
           <a href="https://www.cdc.gov/flu/about/professionals/genetic-characterization.htm">
             sequencing
           </a>
-          &nbsp;has been&nbsp;
+          , that which has been&nbsp;
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
-            proven to be easy yet is ruled out as "pulling the trigger"
-          </a>{" "}
+            proven to be easy</a>, is ruled out as "pulling the trigger"
           with a&nbsp;
           <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
             patterned
@@ -4161,7 +4160,7 @@ export default class App extends React.Component {
           <a href="https://theecologist.org/2016/mar/14/why-qaddafi-had-go-african-gold-oil-and-challenge-monetary-imperialism?fbclid=IwAR1dfhEd8SHKT_fgQVr81ENiAayYcbf5UfBIHda6IfUsrEgwtye8ojD5iwM">
             formation
           </a>
-          &nbsp;
+          &nbsp; , a&nbsp;
           <a
             ref={this.dvNotion}
             style={{
@@ -4173,9 +4172,9 @@ export default class App extends React.Component {
             }}
             href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42"
           >
-            and a warped notion of thinking it is ok to do so
+            warped notion of thinking it is ok to do so
           </a>
-          and&nbsp;
+          &nbsp; and&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
