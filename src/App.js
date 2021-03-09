@@ -6168,10 +6168,24 @@ export default class App extends React.Component {
               <br />
               Inflation - is as many imagine - is [or is caused by] the
               propensity for people to hoard, cheat and collude, to corner
-              assets of people rather than compete for their favor (a.k.a. raise
-              price at what they're willing to ask). Inflation actually is [or
-              is caused by] the ability for people to do that. Very little
-              inflation by supply of&nbsp;
+              assets of people... rather than compete for their favor (a.k.a.
+              raise price at what they're willing to ask). Inflation actually is
+              [or is caused by] the ability for people to do that. Very little
+              inflation by supply [as&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.experts.current.scrollIntoView("smooth");
+                  this.setState({ highlightExperts: true });
+                  setTimeout(
+                    () => this.setState({ highlightExperts: false }),
+                    10000
+                  );
+                }}
+              >
+                price-givers
+              </span>
+              ] of above&nbsp;
               <span
                 style={{
                   fontFamily: '"Pacifico", cursive', //sans-serif no diff
@@ -6188,13 +6202,13 @@ export default class App extends React.Component {
                   );
                 }}
               >
-                above 20 competitors
+                20
               </span>
-              , not&nbsp;
+              &nbsp;competitors, whom do not&nbsp;
               <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-                competing with demand
+                compete with demand
               </a>
-              , causes&nbsp;
+              , cause price of&nbsp;
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
@@ -6206,12 +6220,30 @@ export default class App extends React.Component {
                   );
                 }}
               >
-                prices for living to rise
+                living
               </span>
+              &nbsp;to rise
               <br />
               <br />
-              The effects of "inflation" as depicted though history forgets the
-              jobs lost from&nbsp;
+              The&nbsp;
+              <span
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  this.china.current.scrollIntoView("smooth");
+                  this.setState({ highlightChina: true });
+                  setTimeout(
+                    () => this.setState({ highlightChina: false }),
+                    10000
+                  );
+                }}
+              >
+                effects
+              </span>
+              &nbsp;of "inflation" as depicted though history forgets the jobs
+              lost from&nbsp;
               <span
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
@@ -6940,9 +6972,20 @@ export default class App extends React.Component {
               US dollars is 12:1. The second comment about price-elasticity is
               the fact that suppliers take as high a price as possible. Funding,
               regardless of the legality of its source - counterfeit or not, is
-              always to the betterment of supply. In market economics, demand
-              are price takers - our only respite is our capacity to spend in
-              this ask first-bid later negotiation process.
+              always to the betterment of supply.&nbsp;
+              <span
+                ref={this.bidask}
+                style={{
+                  color: this.state.highlightBidAsk ? "white" : "",
+                  backgroundColor: this.state.highlightBidAsk
+                    ? "rgb(170,100,205)"
+                    : ""
+                }}
+              >
+                In market economics, demand are price takers - our only respite
+                is our capacity to spend in this ask first-bid later negotiation
+                process.
+              </span>
             </div>
             <div
               ref={this.experts}
@@ -7599,7 +7642,7 @@ export default class App extends React.Component {
               laws have to be justice-oriented in order for the equal
               application of unequal laws to be applied
               <br />
-              cash
+              cash-
               <span
                 ref={this.bail}
                 style={{
@@ -7882,19 +7925,6 @@ export default class App extends React.Component {
               If there is a law of unequal justice, upholding that law is
               lawful? I think the laws have to be justice-oriented in order for
               the equal application of unequal laws to be applied.
-              <br />
-              do you think a contract of corporate shares could adjudicate, in
-              court, in favor of the lender without reparations of down payment
-              for the borrower’s customers? Promising to split the dollar
-              (price-inelasticity inflation) is just as involuntary as splitting
-              it (monetary inflation), normally a choice made by the
-              dollar-shareholder. Currently the counterfeit debt:cash ratio in
-              US dollars is 12:1. The second comment about price-elasticity is
-              the fact that suppliers take as high a price as possible. Funding,
-              regardless of the legality of its source - counterfeit or not, is
-              always to the betterment of supply. In market economics, demand
-              are price takers - our only respite is our capacity to spend in
-              this ask first-bid later negotiation process.
               <br />
               duress is force, israelis cannot call their green pass a sovereign
               choice. exclusion is free-rider slavery (let business decide not
