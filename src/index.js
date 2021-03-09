@@ -26,20 +26,23 @@ ReactDOM.render(
         </div>
         <div
           style={{
+            padding: "10px",
+            left: "0px",
             overflowX: "hidden",
             overflowY: "auto",
             display: "flex",
             flexDirection: "column",
             top: "0px",
-            width: "100%",
+            width: "calc(100% - 20px)",
             maxWidth: "600px",
             height: "min-content"
           }}
         >
           <div
             style={{
+              right: "0px",
               top: "3px",
-              width: "100%",
+              width: "calc(100% - 30px)",
               color: "white",
               display: "flex",
               position: "absolute",
