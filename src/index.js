@@ -61,7 +61,10 @@ ReactDOM.render(
             }}
           >
             A&nbsp;
-            <a href="https://www.investopedia.com/articles/personal-finance/070715/insurance-companies-vs-banks-separate-and-not-equal.asp">
+            <a
+              style={{ color: "rgb(150,220,255)" }}
+              href="https://www.investopedia.com/articles/personal-finance/070715/insurance-companies-vs-banks-separate-and-not-equal.asp"
+            >
               duressful
             </a>
             -economy of our&nbsp;
