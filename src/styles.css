@@ -4,17 +4,16 @@
   margin: 0;
   font-family: Nunito, sans-serif;
 }
-* a {
+a {
   word-break: break-word;
 }
-* span {
+span {
   word-break: break-word;
 }
 .App {
   display: flex;
-  display: fixed;
+  position: fixed;
   flex-direction: column;
-  font-family: Nunito, sans-serif;
   text-align: center;
   align-items: center;
   width: 100%;
