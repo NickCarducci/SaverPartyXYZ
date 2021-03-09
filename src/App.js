@@ -6291,7 +6291,7 @@ export default class App extends React.Component {
               >
                 living
               </span>
-              &nbsp;to rise, in comparison (1300% to 102% (plus housing not
+              &nbsp;to rise, in comparison [1300% to 102% (plus housing not
               included in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
               &nbsp;which has been 2% to find "
               <span
@@ -6326,7 +6326,7 @@ export default class App extends React.Component {
               >
                 interest
               </span>
-              ))
+              )]
             </div>
             <div
               style={{
