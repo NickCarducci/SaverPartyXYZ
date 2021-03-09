@@ -363,8 +363,27 @@ export default class App extends React.Component {
             >
               inflation
             </span>
-            &nbsp;like it happens later, only if bonds are paid off. most
-            inflation happens first
+            &nbsp;like it happens later and causes unemployment (nothing being
+            made, people starving). Monetary-inflation, to that effect, only
+            happens if bonds are paid off and foreclosures happen to the assets.
+            Most inflation is&nbsp;
+            <span
+              onClick={() => {
+                this.Oooreily.current.scrollIntoView("smooth");
+                this.setState({ highlightOooreily: true });
+                setTimeout(
+                  () => this.setState({ highlightOooreily: false }),
+                  10000
+                );
+              }}
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              price-inelasticity inflation
+            </span>
+            , which happens first
             <br />
             <br />
             false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe
