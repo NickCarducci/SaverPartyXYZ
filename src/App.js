@@ -346,6 +346,24 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            <div
+                style={{
+                  width: "100%",
+                  position: "relative"
+                }}
+              >
+                <img
+                  alt=""
+                  style={{
+                    width: "100%",
+                    height: "auto"
+                  }}
+                  src="https://www.dropbox.com/s/u84dx7dc109ffbp/IMG_3377.png?dl=0"
+                  />
+                  </div>
+            "racist policies can make the economy 20 times larger": What a retarded thought
+            <br/>
+            <br/>
             Stop talking about&nbsp;
             <span
               onClick={() => {
