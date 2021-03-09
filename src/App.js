@@ -6139,7 +6139,8 @@ export default class App extends React.Component {
               <br />
               Inflation - is as many imagine - is the propensity for people to
               hoard, cheat, and collude to corner assets of people rather than
-              compete for their favor
+              compete for their favor (a.k.a. raise price at what they're
+              willing to ask)
             </div>
             <div
               style={{
