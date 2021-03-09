@@ -328,6 +328,26 @@ export default class App extends React.Component {
         disenfranchises dollar-owners, and ruins bankruptcy negotiations
         <br />
         <br />
+        
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "20%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/v52hi5uv39wuab5/InflationMisunderstanding.png?dl=0"
+       /></div> 
+       <br/>
+       <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">"6 million jobs back by the end of the year"</a>
+        <br/>I could hire them if you didn't interfere, Mr. President
+        <br/>
+        <br/>
         The “right to organize” can turn into exclusion, duress or threats if
         based on dues. Strikes & legal defense therein is good interpretation of
         the right to organize for demand(of pay) - intent to corner-their own
