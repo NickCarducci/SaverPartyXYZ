@@ -835,11 +835,14 @@ export default class App extends React.Component {
         709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
         <br />
         <br />
-        <span>
-          <span style={{ display: "flex", justifyContent: "space-between" }}>
+        <span style={{ border: "1px dotted grey", width: "100%" }}>
+          <div
+            style={{ columnCount: "3", position: "relative", width: "100%" }}
+          >
             <div
               style={{
-                width: "33%",
+                breakInside: "avoid",
+                width: "100%",
                 position: "relative"
               }}
             >
@@ -852,9 +855,23 @@ export default class App extends React.Component {
                 src="https://www.dl.dropboxusercontent.com/s/upi14yvb1qv2dwa/1605651197673.png?dl=0"
               />
             </div>
+            <span
+              style={{
+                breakInside: "avoid",
+                width: "100%",
+                position: "relative"
+              }}
+            >
+              <a href="https://www.statista.com/statistics/270272/percentage-of-us-population-by-ethnicities/">
+                14% AfrA, 50% EU, 25% HS, 8% AsaA
+                <br />
+              </a>
+              population
+            </span>
             <div
               style={{
-                width: "33%",
+                breakInside: "avoid",
+                width: "100%",
                 position: "relative"
               }}
             >
@@ -869,7 +886,8 @@ export default class App extends React.Component {
             </div>
             <div
               style={{
-                width: "33%",
+                breakInside: "avoid",
+                width: "100%",
                 position: "relative"
               }}
             >
@@ -882,7 +900,7 @@ export default class App extends React.Component {
                 src="https://www.dl.dropboxusercontent.com/s/a5xgft5rz7tpgc2/1605647597206.jpeg?dl=0"
               />{" "}
             </div>{" "}
-          </span>
+          </div>
           Crime-response by race/ethnicity
           <br />
           <a href="https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/expanded-homicide-data-table-6.xls">
