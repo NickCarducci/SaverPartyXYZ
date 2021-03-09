@@ -6103,7 +6103,6 @@ export default class App extends React.Component {
             </i>
             <div
               style={{
-                fontFamily: '"Hi Melody", cursive',
                 margin: "10px 0px",
                 padding: "10px",
                 display: "inline-block",
@@ -6121,20 +6120,32 @@ export default class App extends React.Component {
               }}
               ref={this.Oooreily}
             >
-              If Iran earns in dollars from an indebted institution, is it their
-              dollars?
-              <br />
-              <br />
-              Nick Carducci.sh Fair Haven, NJ
-              <br />
-              <br />
-              -------- Forwarded message ------- From: nick@thumbprint.us To:
-              bill@billoreilly.com Sent: January 19, 2021 9:58 PM Subject:
-              bankrupt the country? impossible you say immigrants will bankrupt
-              the country when there is already 11x debt than money.. no amount
-              of debt will prevent investors from lending to bonds that are able
-              to be cashed out. immigration and dilution of dollar-share will
-              not bankrupt the country
+              <span
+                style={{
+                  fontFamily: '"Hi Melody", cursive'
+                }}
+              >
+                <span
+                  style={{
+                    fontFamily: '"Hi Melody", cursive',
+                    marginBottom: "5px"
+                  }}
+                >
+                  If Iran earns in dollars from an indebted institution, is it
+                  their dollars?
+                </span>
+                <br />
+                Nick Carducci.sh Fair Haven, NJ
+                <br />
+                <br />
+                -------- Forwarded message ------- From: nick@thumbprint.us To:
+                bill@billoreilly.com Sent: January 19, 2021 9:58 PM Subject:
+                bankrupt the country? impossible you say immigrants will
+                bankrupt the country when there is already 11x debt than money..
+                no amount of debt will prevent investors from lending to bonds
+                that are able to be cashed out. immigration and dilution of
+                dollar-share will not bankrupt the country
+              </span>
               <br />
               <br />
               Inflation - is as many imagine - is [or is caused by] the
@@ -6146,19 +6157,20 @@ export default class App extends React.Component {
               <br />
               The effects of inflation as depicted though history forgets the
               jobs lost from&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.livingWage.current.scrollIntoView("smooth");
-                this.setState({ highlightLivingWage: true });
-                setTimeout(
-                  () => this.setState({ highlightLivingWage: false }),
-                  10000
-                );
-              }}
-            >
-              paying debts
-            </span>&nbsp;debts and forclosure
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.livingWage.current.scrollIntoView("smooth");
+                  this.setState({ highlightLivingWage: true });
+                  setTimeout(
+                    () => this.setState({ highlightLivingWage: false }),
+                    10000
+                  );
+                }}
+              >
+                paying debts
+              </span>
+              &nbsp;debts and forclosure
             </div>
             <div
               style={{
