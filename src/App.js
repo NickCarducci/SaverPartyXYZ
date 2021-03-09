@@ -310,36 +310,39 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          position: "absolute",
           display: "inline-block",
           marginTop: "20px",
-          width: "calc(100% - 10px)",
+          width: "100%",
           maxWidth: "600px",
           height: "min-content"
         }}
       >
-        Total death rate/population is delayed for 2-3 months now,
-        the first-world population is comprised of mostly old people,
-        and the only data we have been given is causes of death which is not only subjective to "<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
-              setTimeout(
-                () => this.setState({ highlightExperts: false }),
-                10000
-              );
-            }}
-          >experts</span>," but people with&nbsp;<span style={{ fontWeight: "bolder", textDecoration: "underline" }}
+        Total death rate/population is delayed for 2-3 months now, the
+        first-world population is comprised of mostly old people, and the only
+        data we have been given is causes of death which is not only subjective
+        to "
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
             this.experts.current.scrollIntoView("smooth");
             this.setState({ highlightExperts: true });
-            setTimeout(
-              () => this.setState({ highlightExperts: false }),
-              10000
-            );
-          }}>conflicts of interst</span>
-        <br/>
+            setTimeout(() => this.setState({ highlightExperts: false }), 10000);
+          }}
+        >
+          experts
+        </span>
+        ," but people with&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.experts.current.scrollIntoView("smooth");
+            this.setState({ highlightExperts: true });
+            setTimeout(() => this.setState({ highlightExperts: false }), 10000);
+          }}
+        >
+          conflicts of interst
+        </span>
+        <br />
         <div
           style={{
             width: "50%",
