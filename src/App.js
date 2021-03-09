@@ -6142,6 +6142,23 @@ export default class App extends React.Component {
               assets of people rather than compete for their favor (a.k.a. raise
               price at what they're willing to ask). Inflation actually is [or
               is caused by] the ability for people to do that
+              <br />
+              <br />
+              The effects of inflation as depicted though history forgets the
+              jobs lost from&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.livingWage.current.scrollIntoView("smooth");
+                this.setState({ highlightLivingWage: true });
+                setTimeout(
+                  () => this.setState({ highlightLivingWage: false }),
+                  10000
+                );
+              }}
+            >
+              paying debts
+            </span>&nbsp;debts and forclosure
             </div>
             <div
               style={{
@@ -10694,4 +10711,3 @@ export default class App extends React.Component {
     );
   }
 }
-
