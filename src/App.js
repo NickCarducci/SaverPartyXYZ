@@ -1608,6 +1608,32 @@ export default class App extends React.Component {
         income
         <br />
         <br />
+        <div ref={this.trueGDP}>
+          <RealRealGDP />
+          <br />
+          <br />
+          m1v1===m2v2===GDP===C+I+G+NE+P
+          <br />
+          <br />
+          Is a farce.. Investment IS Consumption, if GDP - new money - new debt
+          is to discover funds traded over a quarter or year. Population is most
+          of the factors but is not correct algebra unless people are
+          denominated in dollars. The denomination of Investment is what is
+          consumed, not what is promised, which is counted when the investee
+          consumes. G is government investment and the same case stands for this
+          as it does for private investment (I), it is consumption, but
+          consumption that is completely based on debt or taking away from
+          consumption so in either case it is moot in ACTUALLY COUNTING trueGDP
+          (not real GDP which uses a basket of assets to fix for over time, but
+          excludes the largest asset for living expenses of all, homes... these
+          assets aren't real GDP as described because most are booned by debt,
+          which is negative product, admittedly by net exports [NE] by
+          nomenclature discussing exports are good for money profit but assets
+          are gone... so hardly a win but still an exchange of assets excluding
+          new money and new debt)
+        </div>
+        <br />
+        <br />
         you don't buy a house when you borrow, you take from consumers more than
         can be produced at by competing with consumers and cornering supply like
         a monopsony conspiring with the squatting-borrower and the owner taking
@@ -4143,8 +4169,9 @@ export default class App extends React.Component {
           </a>
           , that which has been&nbsp;
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
-            proven to be easy</a>, is ruled out as "pulling the trigger"
-          with a&nbsp;
+            proven to be easy
+          </a>
+          , is ruled out as "pulling the trigger" with a&nbsp;
           <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
             patterned
           </a>
@@ -5394,9 +5421,6 @@ export default class App extends React.Component {
             <a href="https://scopes.cc">scopebook</a>
           </span>
         </div>
-        <div ref={this.trueGDP}>
-          <RealRealGDP />
-        </div>
         <div
           style={{
             fontFamily: '"Hi Melody", cursive',
@@ -5409,26 +5433,6 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          m1v1===m2v2===GDP===C+I+G+NE+P
-          <br />
-          Is a farce.. Investment IS Consumption, if GDP - new money - new debt
-          is to discover funds traded over a quarter or year. Population is most
-          of the factors but is not correct algebra unless people are
-          denominated in dollars. The denomination of Investment is what is
-          consumed, not what is promised, which is counted when the investee
-          consumes. G is government investment and the same case stands for this
-          as it does for private investment (I), it is consumption, but
-          consumption that is completely based on debt or taking away from
-          consumption so in either case it is moot in ACTUALLY COUNTING trueGDP
-          (not real GDP which uses a basket of assets to fix for over time, but
-          excludes the largest asset for living expenses of all, homes... these
-          assets aren't real GDP as described because most are booned by debt,
-          which is negative product, admittedly by net exports [NE] by
-          nomenclature discussing exports are good for money profit but assets
-          are gone... so hardly a win but still an exchange of assets excluding
-          new money and new debt)
-          <br />
-          <br />
           John Fund, national review, insider trading is only if you have hidden
           designs/test-results and close a trade.
           <br />
