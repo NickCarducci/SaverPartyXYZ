@@ -313,7 +313,7 @@ export default class App extends React.Component {
           position: "absolute",
           display: "inline-block",
           marginTop: "20px",
-          width: "calc(100% - 5px)",
+          width: "calc(100% - 10px)",
           maxWidth: "600px",
           height: "min-content"
         }}
@@ -3883,15 +3883,15 @@ export default class App extends React.Component {
           >
             <div
               style={{
+                width: "calc(50% - 26px)",
                 position: "relative"
               }}
             >
               {" "}
               <img
                 style={{
-                  width: "calc(50% - 26px)",
+                  width: "100%",
                   height: "auto",
-                  border: this.state.highlightIRS ? "3px solid blue" : "",
                   borderRadius: "10px",
                   padding: "10px"
                 }}
@@ -3901,15 +3901,15 @@ export default class App extends React.Component {
             </div>
             <div
               style={{
+                width: "calc(50% - 26px)",
                 position: "relative"
               }}
             >
               {" "}
               <img
                 style={{
-                  width: "calc(50% - 26px)",
+                  width: "100%",
                   height: "auto",
-                  border: this.state.highlightIRS ? "3px solid blue" : "",
                   borderRadius: "10px",
                   padding: "10px"
                 }}
