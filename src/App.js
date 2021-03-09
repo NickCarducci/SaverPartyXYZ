@@ -343,6 +343,8 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
+            <br/>
+            false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe it back + more. Relieve w/ banning rent for competing w/ consumers... not more obligations
             <div
               style={{
                 fontFamily: '"Hi Melody", cursive',
@@ -370,7 +372,7 @@ export default class App extends React.Component {
                 style={{ color: "black" }}
                 href="https://vianickcarducci.medium.com/i-thought-it-was-g-d-e5238f55046b"
               >
-                I thought it was G-d
+                I thought it was G-d (who made the money)
               </a>
             </div>
             <br />
