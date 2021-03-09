@@ -318,6 +318,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Imagine CNN calling the "Covid Relief bill," "relief," when it is owed to bond-holders and more - when you can ban finance(rent,debt,invoice,insurance) for competing with consumers instead
+        <br/>
+        <br/>
         Doctor on CNN, "We look at the science." No, you retard, you look at
         samples and over less than a lifetime
         <br />
