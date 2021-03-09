@@ -4,17 +4,27 @@ import { CSSTransition } from "react-transition-group";
 
 import App from "./App";
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <CSSTransition timeout={300} classNames={"fade"}>
+class Index extends React.Component {
+  state = {};
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.handleScroll);
+  };
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
+  handleScroll = () => {
+    this.setState({ scrolling: true }, () =>
+      setTimeout(() => this.setState({ scrolling: false }), 2345)
+    );
+  };
+  render() {
+    return (
       <div className="App">
         <div
           style={{
             zIndex: "1",
             color: "white",
             fontSize: "9px",
-            display: "flex",
             position: "fixed",
             padding: "4px 10px",
             right: "0px",
@@ -23,6 +33,26 @@ ReactDOM.render(
           }}
         >
           EXPLICIT
+          {[
+            "Polling Fraud",
+            "Immigration",
+            "Ownership Fraud",
+            "False Advert in Senate",
+            "Insurance Fraud"
+          ].map((x) => {
+            return (
+              <div
+                style={{
+                  fontSize: !this.state.scrolling ? "0px" : "",
+                  opacity: !this.state.scrolling ? "0" : "1",
+                  transition: ".3s ease-in",
+                  margin: "2px"
+                }}
+              >
+                {x}
+              </div>
+            );
+          })}
         </div>
         <div
           style={{
@@ -81,9 +111,6 @@ ReactDOM.render(
           </div>
         </div>
         <div
-          onScroll={() => {
-            this.setState({});
-          }}
           style={{
             padding: "10px",
             left: "0px",
@@ -100,8 +127,16 @@ ReactDOM.render(
           <App />
         </div>
       </div>
+    );
+  }
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <CSSTransition timeout={300} classNames={"fade"}>
+      <Index />
     </CSSTransition>
   </React.StrictMode>,
   rootElement
 );
-
