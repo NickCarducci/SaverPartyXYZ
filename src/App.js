@@ -97,6 +97,7 @@ export default class App extends React.Component {
     this.jury = React.createRef();
     this.dvNotion = React.createRef();
     this.bobTheBuilder = React.createRef();
+    this.financeKills = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -2302,10 +2303,26 @@ export default class App extends React.Component {
         </a>
         <br />
         <br />
-        the only crisis is in 1xbook assets that only have 1:13 if adjunicated
-        now
-        <br />
-        if debt and Bernie Sanders didn't exists, the rich would kill us
+        <span
+          ref={this.financeKills}
+          style={{
+            margin: "10px 0px",
+            padding: "10px",
+            display: "inline-block",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px",
+            color: this.state.highlightFinanceKills ? "white" : "grey",
+            backgroundColor: this.state.highlightFinanceKills
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          the only crisis is in 1xbook assets that only have 1:13 if adjunicated
+          now
+          <br />
+          if debt and Bernie Sanders didn't exists, the rich would kill us
+        </span>
         <br />
         <br />
         Bernie Sanders opening remarks, "Why are we responding by
@@ -3737,6 +3754,24 @@ export default class App extends React.Component {
           </span>
           &nbsp;they have also stated intentions to ween off-debt and the power
           structures it creates
+          <br />
+          <br />
+          "the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.financeKills.current.scrollIntoView("smooth");
+              this.setState({ highlightFinanceKills: true });
+              setTimeout(
+                () => this.setState({ highlightFinanceKills: false }),
+                10000
+              );
+            }}
+          >
+            entanglements
+          </span>
+          &nbsp;with the Chinese... work in-line with national-security
+          principles out of this" - Fmr Sec. State Pompeo
         </div>
         <div
           ref={this.stats}
