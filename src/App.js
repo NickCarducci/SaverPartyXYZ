@@ -325,7 +325,7 @@ export default class App extends React.Component {
         &nbsp;from the PPP loan," celebrates Fox News
         <br />
         All it does is raise price, ruin competition of supply for consumers,
-        disenfranchise dollar-owners, and ruin bankruptcy negotiations
+        disenfranchises dollar-owners, and ruins bankruptcy negotiations
         <br />
         <br />
         Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
