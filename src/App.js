@@ -6137,10 +6137,11 @@ export default class App extends React.Component {
               not bankrupt the country
               <br />
               <br />
-              Inflation - is as many imagine - is the propensity for people to
-              hoard, cheat, and collude to corner assets of people rather than
-              compete for their favor (a.k.a. raise price at what they're
-              willing to ask)
+              Inflation - is as many imagine - is [or is caused by] the
+              propensity for people to hoard, cheat and collude, to corner
+              assets of people rather than compete for their favor (a.k.a. raise
+              price at what they're willing to ask). Inflation actually is [or
+              is caused by] the ability for people to do that
             </div>
             <div
               style={{
