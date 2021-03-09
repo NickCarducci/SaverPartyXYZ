@@ -6159,11 +6159,13 @@ export default class App extends React.Component {
                 <br />
                 -------- Forwarded message ------- From: nick@thumbprint.us To:
                 bill@billoreilly.com Sent: January 19, 2021 9:58 PM Subject:
-                bankrupt the country? impossible you say immigrants will
-                bankrupt the country when there is already 11x debt than money..
-                no amount of debt will prevent investors from lending to bonds
-                that are able to be cashed out. immigration and dilution of
-                dollar-share will not bankrupt the country
+                bankrupt the country? impossible
+                <hr />
+                you say immigrants will bankrupt the country when there is
+                already 11x debt than money.. no amount of debt will prevent
+                investors from lending to bonds that are able to be cashed out.
+                immigration and dilution of dollar-share will not bankrupt the
+                country
               </span>
               <br />
               <br />
@@ -6293,8 +6295,8 @@ export default class App extends React.Component {
               >
                 competitors
               </span>
-              <br /> <br />I can do this for my knee as I learn to code for job
-              without commute
+              {/*br /> <br />I can do this for my knee as I learn to code for job
+              without commute*/}
             </div>
             <i
               style={{
