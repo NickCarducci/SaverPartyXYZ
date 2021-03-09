@@ -319,9 +319,19 @@ export default class App extends React.Component {
         }}
       >
         Total death rate/population is delayed for 2-3 months now, the
-        first-world population is comprised of mostly old people, and the only
-        data we have been given is causes of death which is not only subjective
-        to "
+        first-world population is comprised of mostly&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.oldFlu.current.scrollIntoView("smooth");
+            this.setState({ highlightOldFlu: true });
+            setTimeout(() => this.setState({ highlightOldFlu: false }), 10000);
+          }}
+        >
+          old
+        </span>
+        &nbsp;people, and the only data we have been given is causes of death
+        which is not only subjective to "
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -338,7 +348,10 @@ export default class App extends React.Component {
           onClick={() => {
             this.disclosure.current.scrollIntoView("smooth");
             this.setState({ highlightDisclosure: true });
-            setTimeout(() => this.setState({ highlightDisclosure: false }), 10000);
+            setTimeout(
+              () => this.setState({ highlightDisclosure: false }),
+              10000
+            );
           }}
         >
           conflicts of interst
@@ -3636,16 +3649,20 @@ export default class App extends React.Component {
               unrequited
             </span>
             <br />
-            <span ref={this.disclosure} style={{
-            color: this.state.highlightDisclosure ? "white" : "grey",
-            backgroundColor: this.state.highlightDisclosure
-              ? "rgb(100,170,205)"
-              : "",
-            opacity: this.state.highlightDisclosure !== null ? "1" : "0",
-            fontSize: this.state.highlightDisclosure !== null ? "" : "0px"
-            }}>give warning by unpaid consultants, non-profit freemium ngo service;
-            no prohibition except self/asset court-party risk
-          </span>
+            <span
+              ref={this.disclosure}
+              style={{
+                color: this.state.highlightDisclosure ? "white" : "grey",
+                backgroundColor: this.state.highlightDisclosure
+                  ? "rgb(100,170,205)"
+                  : "",
+                opacity: this.state.highlightDisclosure !== null ? "1" : "0",
+                fontSize: this.state.highlightDisclosure !== null ? "" : "0px"
+              }}
+            >
+              give warning by unpaid consultants, non-profit freemium ngo
+              service; no prohibition except self/asset court-party risk
+            </span>
             <br />
             no prescriptions
           </span>
