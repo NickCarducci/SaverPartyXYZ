@@ -5326,8 +5326,8 @@ export default class App extends React.Component {
                 </a>
                 <br />
                 <br />
-                Investment that isn't a violation of corporate equity, and
-                contract law there-prudently, in the way repossession in
+                Investment methods - that isn't a violation of corporate equity
+                and contract law there-prudently, in the way repossession in
                 bankruptcy keeps the down payments is involuntary servitude of
                 the borrower's customers by price, lost down payments & time
                 lost - is available.
