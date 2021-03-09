@@ -320,6 +320,26 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        FDIC ensures you that they will bail you out if you invest in them and they fail
+        <br/>
+        
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "30%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
+    /></div>  <br />
+    <a href="https://www.fdic.gov/">FDIC</a>bylaw
+      <br />
+      <br />
         "Biden visits a small business that&nbsp;
         <a href="https://foiegras.life">benefited</a>
         &nbsp;from the PPP loan," celebrates Fox News.
