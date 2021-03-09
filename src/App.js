@@ -343,11 +343,30 @@ export default class App extends React.Component {
               height: "min-content"
             }}
           >
-            Stop talking about inflation like it happens later, only if bonds are paid off.  most inflation happens first
-            <br/>
-            <br/>
-            <br/>
-            false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe it back + more. Relieve w/ banning rent for competing w/ consumers... not more obligations
+            Stop talking about&nbsp;
+            <span
+              onClick={() => {
+                this.Oooreily.current.scrollIntoView("smooth");
+                this.setState({ highlightOooreily: true });
+                setTimeout(
+                  () => this.setState({ highlightOooreily: false }),
+                  10000
+                );
+              }}
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              inflation
+            </span>
+            &nbsp;like it happens later, only if bonds are paid off. most
+            inflation happens first
+            <br />
+            <br />
+            false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe
+            it back + more. Relieve w/ banning rent for competing w/
+            consumers... not more obligations
             <div
               style={{
                 fontFamily: '"Hi Melody", cursive',
