@@ -14,7 +14,7 @@ class Index extends React.Component {
   };
   handleScroll = () => {
     this.setState({ scrolling: true }, () =>
-      setTimeout(() => this.setState({ scrolling: false }), 2345)
+      setTimeout(() => this.setState({ scrolling: false }), 5432)
     );
   };
   render() {
