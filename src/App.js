@@ -95,6 +95,7 @@ export default class App extends React.Component {
     this.compoundGramm = React.createRef();
     this.disclosure = React.createRef();
     this.jury = React.createRef();
+    this.dvNotion = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -641,18 +642,21 @@ export default class App extends React.Component {
           Single-Source Virus
         </span>
         <br />
-        <span 
+        <span
           style={{
             display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
             color: this.state.highlightJury ? "white" : "",
-            backgroundColor: this.state.highlightJury
-              ? "rgb(170,100,205)"
-              : ""
-          }} ref={this.jury}>G-d is judge (Himself), jury (people) and prosecutioner (angels,
-        cherubim)</span><br/>"
+            backgroundColor: this.state.highlightJury ? "rgb(170,100,205)" : ""
+          }}
+          ref={this.jury}
+        >
+          G-d is judge (Himself), jury (people) and prosecutioner (angels,
+          cherubim)
+        </span>
+        <br />"
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -1244,29 +1248,27 @@ export default class App extends React.Component {
             color: this.state.highlightTwenty ? "white" : "",
             backgroundColor: this.state.highlightTwenty
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightTwenty !== null ? "1" : "0",
-            fontSize: this.state.highlightTwenty !== null ? "" : "0px"
+              : ""
           }}
           ref={this.twenty}
         >
           if inequality isn't too great and swaths of supply isn't being horded,
-          there are enough producers (20+) to deliver&nbsp;<span
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.jury.current.scrollIntoView("smooth");
-            this.setState({ highlightJury: true });
-            setTimeout(
-              () => this.setState({ highlightJury: false }),
-              10000
-            );
-          }}
-        >competition</span>
+          there are enough producers (20+) to deliver&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jury.current.scrollIntoView("smooth");
+              this.setState({ highlightJury: true });
+              setTimeout(() => this.setState({ highlightJury: false }), 10000);
+            }}
+          >
+            competition
+          </span>
           <br />
           <br />
           California Assemblypeople making threats of strike not teaching their
@@ -1304,9 +1306,7 @@ export default class App extends React.Component {
             color: this.state.highlightSocialism ? "white" : "",
             backgroundColor: this.state.highlightSocialism
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightSocialism !== null ? "1" : "0",
-            fontSize: this.state.highlightSocialism !== null ? "" : "0px"
+              : ""
           }}
           ref={this.socialism}
         >
@@ -1435,9 +1435,7 @@ export default class App extends React.Component {
             color: this.state.highlightLivingWage ? "white" : "",
             backgroundColor: this.state.highlightLivingWage
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightLivingWage !== null ? "1" : "0",
-            fontSize: this.state.highlightLivingWage !== null ? "" : "0px"
+              : ""
           }}
           ref={this.livingWage}
         >
@@ -1860,11 +1858,7 @@ export default class App extends React.Component {
             width: "calc(100% - 20px)",
             maxWidth: "600px",
             color: this.state.highlightNewsy ? "white" : "grey",
-            backgroundColor: this.state.highlightNewsy
-              ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightNewsy !== null ? "1" : "0",
-            fontSize: this.state.highlightNewsy !== null ? "" : "0px"
+            backgroundColor: this.state.highlightNewsy ? "rgb(170,100,205)" : ""
           }}
         >
           “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
@@ -2407,9 +2401,7 @@ export default class App extends React.Component {
               color: this.state.highlightCovidKills ? "white" : "grey",
               backgroundColor: this.state.highlightCovidKills
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightCovidKills !== null ? "1" : "0",
-              fontSize: this.state.highlightCovidKills !== null ? "" : "0px"
+                : ""
             }}
           >
             You have no court-confirmable proof that&nbsp;
@@ -2558,9 +2550,7 @@ export default class App extends React.Component {
             color: this.state.highlightCollective ? "white" : "grey",
             backgroundColor: this.state.highlightCollective
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightCollective !== null ? "1" : "0",
-            fontSize: this.state.highlightCollective !== null ? "" : "0px"
+              : ""
           }}
         >
           <span
@@ -2814,9 +2804,7 @@ export default class App extends React.Component {
             color: this.state.highlightDefense ? "white" : "",
             backgroundColor: this.state.highlightDefense
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightDefense !== null ? "1" : "0",
-            fontSize: this.state.highlightDefense !== null ? "" : "0px"
+              : ""
           }}
         >
           COVID 19 Diagnosis without symptoms can be held under quarantine (or
@@ -3375,8 +3363,6 @@ export default class App extends React.Component {
             backgroundColor: this.state.highlightHomebuilder
               ? "rgb(170,100,205)"
               : "",
-            opacity: this.state.highlightHomebuilder !== null ? "1" : "0",
-            fontSize: this.state.highlightHomebuilder !== null ? "" : "0px",
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
             textEmphasis: "italics"
           }}
@@ -3482,6 +3468,26 @@ export default class App extends React.Component {
             <br />
             Population 4.5x
           </span>
+          Although they have been known to lie and have used propoganda, as U.S.
+          has also&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.dvNotion.current.scrollIntoView("smooth");
+              this.setState({ highlightNotion: true });
+              setTimeout(
+                () => this.setState({ highlightNotion: false }),
+                10000
+              );
+            }}
+          >
+            done in the past about
+          </span>
+          &nbsp;they have also stated intentions to ween off-debt and the power
+          structures it creates
         </div>
         <div
           ref={this.stats}
@@ -3495,11 +3501,7 @@ export default class App extends React.Component {
             transition: ".3s ease-in",
             borderRadius: "15px",
             color: this.state.highlightStats ? "white" : "grey",
-            backgroundColor: this.state.highlightStats
-              ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightStats !== null ? "1" : "0",
-            fontSize: this.state.highlightStats !== null ? "" : "0px"
+            backgroundColor: this.state.highlightStats ? "rgb(170,100,205)" : ""
           }}
         >
           My (NC) estimates for party compilation 2022 and 2024. Supply-side
@@ -3650,11 +3652,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightFTC ? "white" : "",
-              backgroundColor: this.state.highlightFTC
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightFTC !== null ? "1" : "0",
-              fontSize: this.state.highlightFTC !== null ? "" : "0px"
+              backgroundColor: this.state.highlightFTC ? "rgb(170,100,205)" : ""
             }}
             ref={this.ftc}
             href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
@@ -3787,12 +3785,11 @@ export default class App extends React.Component {
             <span
               ref={this.disclosure}
               style={{
+                transform: ".3s ease-in",
                 color: this.state.highlightDisclosure ? "white" : "grey",
                 backgroundColor: this.state.highlightDisclosure
                   ? "rgb(100,170,205)"
-                  : "",
-                opacity: this.state.highlightDisclosure !== null ? "1" : "0",
-                fontSize: this.state.highlightDisclosure !== null ? "" : "0px"
+                  : ""
               }}
             >
               give warning by unpaid consultants, non-profit freemium ngo
@@ -3932,9 +3929,7 @@ export default class App extends React.Component {
             color: this.state.highlightJewels ? "white" : "grey",
             backgroundColor: this.state.highlightJewels
               ? "rgb(100,170,205)"
-              : "",
-            opacity: this.state.highlightJewels !== null ? "1" : "0",
-            fontSize: this.state.highlightJewels !== null ? "" : "0px"
+              : ""
           }}
           ref={this.jewels}
         >
@@ -4008,9 +4003,7 @@ export default class App extends React.Component {
               color: this.state.highlightJHUECON ? "white" : "",
               backgroundColor: this.state.highlightJHUECON
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightJHUECON !== null ? "1" : "0",
-              fontSize: this.state.highlightJHUECON !== null ? "" : "0px"
+                : ""
             }}
             ref={this.jhuecon}
           >
@@ -4152,12 +4145,34 @@ export default class App extends React.Component {
           <a href="https://www.npr.org/sections/goatsandsoda/2020/04/29/847948272/why-the-u-s-government-stopped-funding-a-research-project-on-bats-and-coronaviru">
             proven to be easy yet is ruled out as "pulling the trigger"
           </a>{" "}
-          with a patterned-
+          with a&nbsp;
           <a href="https://en.wikipedia.org/wiki/Unethical_human_experimentation_in_the_United_States">
-            history of misonformation
+            patterned
+          </a>
+          -
+          <a href="https://foreignpolicy.com/2016/03/22/libya-and-the-myth-of-humanitarian-intervention/">
+            history
+          </a>
+          &nbsp;of&nbsp;
+          <a href="https://www.bbc.com/news/uk-scotland-south-scotland-12552587?fbclid=IwAR1MXbhxKLMpX_zBgfpovak4GLmJWKLuKfTq-xQJbu2eO5qzKTypKp6UbqM">
+            mis
+          </a>
+          in
+          <a href="https://theecologist.org/2016/mar/14/why-qaddafi-had-go-african-gold-oil-and-challenge-monetary-imperialism?fbclid=IwAR1dfhEd8SHKT_fgQVr81ENiAayYcbf5UfBIHda6IfUsrEgwtye8ojD5iwM">
+            formation
           </a>
           &nbsp;
-          <a href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42">
+          <a
+            ref={this.dvNotion}
+            style={{
+              transform: ".3s ease-in",
+              color: this.state.highlightNotion ? "white" : "",
+              backgroundColor: this.state.highlightNotion
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            href="https://constitutioncenter.org/interactive-constitution/interpretation/article-iv/clauses/42"
+          >
             and a warped notion of thinking it is ok to do so
           </a>
           and&nbsp;
@@ -4192,9 +4207,7 @@ export default class App extends React.Component {
               color: this.state.highlightSingleSource ? "white" : "grey",
               backgroundColor: this.state.highlightSingleSource
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightSingleSource !== null ? "1" : "0",
-              fontSize: this.state.highlightSingleSource !== null ? "" : "0px"
+                : ""
             }}
           >
             If Herd-immunity can suppress the virus without a person interacting
@@ -4258,9 +4271,7 @@ export default class App extends React.Component {
               color: this.state.highlightTakingCredit ? "white" : "grey",
               backgroundColor: this.state.highlightTakingCredit
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightTakingCredit !== null ? "1" : "0",
-              fontSize: this.state.highlightTakingCredit !== null ? "" : "0px"
+                : ""
             }}
           >
             <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
@@ -4341,11 +4352,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightGOA ? "white" : "",
-              backgroundColor: this.state.highlightGOA
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightGOA !== null ? "1" : "0",
-              fontSize: this.state.highlightGOA !== null ? "" : "0px"
+              backgroundColor: this.state.highlightGOA ? "rgb(170,100,205)" : ""
             }}
             ref={this.goa}
           >
@@ -4399,9 +4406,7 @@ export default class App extends React.Component {
                 color: this.state.highlightBooker ? "white" : "",
                 backgroundColor: this.state.highlightBooker
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightBooker !== null ? "1" : "0",
-                fontSize: this.state.highlightBooker !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.booker}
               href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
@@ -4486,9 +4491,7 @@ export default class App extends React.Component {
                 color: this.state.highlightEducation ? "white" : "",
                 backgroundColor: this.state.highlightEducation
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightEducation !== null ? "1" : "0",
-                fontSize: this.state.highlightEducation !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.education}
             >
@@ -4517,9 +4520,7 @@ export default class App extends React.Component {
                 color: this.state.highlightCitadel ? "white" : "",
                 backgroundColor: this.state.highlightCitadel
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightCitadel !== null ? "1" : "0",
-                fontSize: this.state.highlightCitadel !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.citadel}
             >
@@ -4681,9 +4682,7 @@ export default class App extends React.Component {
                 color: this.state.highlightNRA ? "white" : "",
                 backgroundColor: this.state.highlightNRA
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightNRA !== null ? "1" : "0",
-                fontSize: this.state.highlightNRA !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.nra}
             >
@@ -4730,9 +4729,7 @@ export default class App extends React.Component {
                 color: this.state.highlightCityHall ? "white" : "",
                 backgroundColor: this.state.highlightCityHall
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightCityHall !== null ? "1" : "0",
-                fontSize: this.state.highlightCityHall !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.cityhall}
             >
@@ -5023,9 +5020,7 @@ export default class App extends React.Component {
               color: this.state.highlightCease ? "white" : "",
               backgroundColor: this.state.highlightCease
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightCease !== null ? "1" : "0",
-              fontSize: this.state.highlightCease !== null ? "" : "0px"
+                : ""
             }}
             ref={this.cease}
           >
@@ -5327,9 +5322,7 @@ export default class App extends React.Component {
             color: this.state.highlightRoyalty ? "white" : "",
             backgroundColor: this.state.highlightRoyalty
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightRoyalty !== null ? "1" : "0",
-            fontSize: this.state.highlightRoyalty !== null ? "" : "0px"
+              : ""
           }}
         >
           Do not let any corrupt congressperson tell you you cannot get funding
@@ -5363,11 +5356,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightGDP ? "white" : "",
-              backgroundColor: this.state.highlightGDP
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightGDP !== null ? "1" : "0",
-              fontSize: this.state.highlightGDP !== null ? "" : "0px"
+              backgroundColor: this.state.highlightGDP ? "rgb(170,100,205)" : ""
             }}
           >
             <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
@@ -5451,9 +5440,7 @@ export default class App extends React.Component {
               color: this.state.highlightFishInBarrel ? "white" : "grey",
               backgroundColor: this.state.highlightFishInBarrel
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightFishInBarrel !== null ? "1" : "0",
-              fontSize: this.state.highlightFishInBarrel !== null ? "" : "0px"
+                : ""
             }}
           >
             This can be accomplished without compromising retail positions, by
@@ -5532,9 +5519,7 @@ export default class App extends React.Component {
               color: this.state.highlightRonInsurance ? "white" : "grey",
               backgroundColor: this.state.highlightRonInsurance
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightRonInsurance !== null ? "1" : "0",
-              fontSize: this.state.highlightRonInsurance !== null ? "" : "0px"
+                : ""
             }}
           >
             insurance to pool their demand capacity and risk and instigating
@@ -5729,9 +5714,7 @@ export default class App extends React.Component {
                 color: this.state.highlightNSFFraud ? "white" : "",
                 backgroundColor: this.state.highlightNSFFraud
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightNSFFraud !== null ? "1" : "0",
-                fontSize: this.state.highlightNSFFraud !== null ? "" : "0px"
+                  : ""
               }}
             >
               Dear Nicholas,
@@ -6169,9 +6152,7 @@ export default class App extends React.Component {
             color: this.state.highlightOooreily ? "white" : "grey",
             backgroundColor: this.state.highlightOooreily
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightOooreily !== null ? "1" : "0",
-            fontSize: this.state.highlightOooreily !== null ? "" : "0px"
+              : ""
           }}
           ref={this.Oooreily}
         >
@@ -6560,11 +6541,7 @@ export default class App extends React.Component {
               color: this.state.highlightGrandmaMentality ? "white" : "grey",
               backgroundColor: this.state.highlightGrandmaMentality
                 ? "rgb(170,100,205)"
-                : "",
-              opacity:
-                this.state.highlightGrandmaMentality !== null ? "1" : "0",
-              fontSize:
-                this.state.highlightGrandmaMentality !== null ? "" : "0px"
+                : ""
             }}
           >
             use a tissue, wash your hands,&nbsp;
@@ -6669,9 +6646,7 @@ export default class App extends React.Component {
             color: this.state.highlightBaltimore ? "white" : "",
             backgroundColor: this.state.highlightBaltimore
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightBaltimore !== null ? "1" : "0",
-            fontSize: this.state.highlightBaltimore !== null ? "" : "0px"
+              : ""
           }}
         >
           Defunct non-profit, ensure the mission is upheld by all people beyond
@@ -7070,9 +7045,7 @@ export default class App extends React.Component {
             color: this.state.highlightExperts ? "white" : "grey",
             backgroundColor: this.state.highlightExperts
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightExperts !== null ? "1" : "0",
-            fontSize: this.state.highlightExperts !== null ? "" : "0px"
+              : ""
           }}
         >
           "Behavior can reduce pain," says Vivek Murthy like a doctor telling
@@ -7199,9 +7172,7 @@ export default class App extends React.Component {
               color: this.state.highlightPolitics ? "white" : "",
               backgroundColor: this.state.highlightPolitics
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightPolitics !== null ? "1" : "0",
-              fontSize: this.state.highlightPolitics !== null ? "" : "0px"
+                : ""
             }}
           >
             every issue in politics is a decision between a civil right and a
@@ -7413,9 +7384,7 @@ export default class App extends React.Component {
               color: this.state.highlightColonization ? "white" : "",
               backgroundColor: this.state.highlightColonization
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightColonization !== null ? "1" : "0",
-              fontSize: this.state.highlightColonization !== null ? "" : "0px"
+                : ""
             }}
           >
             underserved is the claims of supply-side colonists
@@ -7439,11 +7408,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightGDP ? "white" : "",
-              backgroundColor: this.state.highlightGDP
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightGDP !== null ? "1" : "0",
-              fontSize: this.state.highlightGDP !== null ? "" : "0px"
+              backgroundColor: this.state.highlightGDP ? "rgb(170,100,205)" : ""
             }}
           >
             {" "}
@@ -7526,9 +7491,7 @@ export default class App extends React.Component {
                 color: this.state.highlightFlag ? "white" : "",
                 backgroundColor: this.state.highlightFlag
                   ? "rgb(170,100,205)"
-                  : "",
-                opacity: this.state.highlightFlag !== null ? "1" : "0",
-                fontSize: this.state.highlightFlag !== null ? "" : "0px"
+                  : ""
               }}
               ref={this.flag}
             >
@@ -7700,9 +7663,7 @@ export default class App extends React.Component {
               color: this.state.highlightBail ? "white" : "",
               backgroundColor: this.state.highlightBail
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightBail !== null ? "1" : "0",
-              fontSize: this.state.highlightBail !== null ? "" : "0px"
+                : ""
             }}
           >
             bail
@@ -7718,9 +7679,7 @@ export default class App extends React.Component {
               color: this.state.highlightBail ? "white" : "",
               backgroundColor: this.state.highlightBail
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightBail ? "1" : "0",
-              fontSize: this.state.highlightBail ? "" : "0px"
+                : ""
             }}
           >
             Bail is like involuntary servitude of those without the money, and
@@ -7826,9 +7785,7 @@ export default class App extends React.Component {
               color: this.state.highlightDecide ? "white" : "",
               backgroundColor: this.state.highlightDecide
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightDecide ? "1" : "0",
-              fontSize: this.state.highlightDecide ? "" : "0px"
+                : ""
             }}
             href="https://micro-theory.com"
           >
@@ -7922,11 +7879,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightTea ? "white" : "",
-              backgroundColor: this.state.highlightTea
-                ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightTea !== null ? "1" : "0",
-              fontSize: this.state.highlightTea !== null ? "" : "0px"
+              backgroundColor: this.state.highlightTea ? "rgb(170,100,205)" : ""
             }}
           >
             57% of Republican Party constituents (in a sample-survey) say
@@ -8006,9 +7959,7 @@ export default class App extends React.Component {
               color: this.state.highlightHost ? "white" : "",
               backgroundColor: this.state.highlightHost
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightHost !== null ? "1" : "0",
-              fontSize: this.state.highlightHost !== null ? "" : "0px"
+                : ""
             }}
             ref={this.host}
           >
@@ -8069,9 +8020,7 @@ export default class App extends React.Component {
               color: this.state.highlightConcious ? "white" : "",
               backgroundColor: this.state.highlightConcious
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightConcious !== null ? "1" : "0",
-              fontSize: this.state.highlightConcious !== null ? "" : "0px"
+                : ""
             }}
             ref={this.concious}
           >
@@ -8300,9 +8249,7 @@ export default class App extends React.Component {
               color: this.state.highlightFintech ? "white" : "",
               backgroundColor: this.state.highlightFintech
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightFintech !== null ? "1" : "0",
-              fontSize: this.state.highlightFintech !== null ? "" : "0px"
+                : ""
             }}
             ref={this.fintech}
           >
@@ -8364,9 +8311,7 @@ export default class App extends React.Component {
               color: this.state.highlightUUID ? "white" : "",
               backgroundColor: this.state.highlightUUID
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightUUID !== null ? "1" : "0",
-              fontSize: this.state.highlightUUID !== null ? "" : "0px"
+                : ""
             }}
             ref={this.UUID}
           >
@@ -8516,9 +8461,7 @@ export default class App extends React.Component {
               color: this.state.highlightBiden ? "white" : "",
               backgroundColor: this.state.highlightBiden
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightBiden !== null ? "1" : "0",
-              fontSize: this.state.highlightBiden !== null ? "" : "0px"
+                : ""
             }}
             ref={this.biden}
           >
@@ -8537,8 +8480,6 @@ export default class App extends React.Component {
               backgroundColor: this.state.highlightChina
                 ? "rgb(170,100,205)"
                 : "",
-              opacity: this.state.highlightChina !== null ? "1" : "0",
-              fontSize: this.state.highlightChina !== null ? "" : "0px",
 
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -8568,9 +8509,7 @@ export default class App extends React.Component {
             color: this.state.highlightDesist ? "white" : "",
             backgroundColor: this.state.highlightDesist
               ? "rgb(170,100,205)"
-              : "",
-            opacity: this.state.highlightDesist !== null ? "1" : "0",
-            fontSize: this.state.highlightDesist !== null ? "" : "0px"
+              : ""
           }}
         >
           cease and decist
@@ -8634,9 +8573,7 @@ export default class App extends React.Component {
               color: this.state.highlightBcell ? "white" : "",
               backgroundColor: this.state.highlightBcell
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightBcell !== null ? "1" : "0",
-              fontSize: this.state.highlightBcell !== null ? "" : "0px"
+                : ""
             }}
             ref={this.bcell}
             href="https://nature.com/articles/cddis2016148"
@@ -8868,9 +8805,7 @@ export default class App extends React.Component {
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightFP ? "white" : "",
-              backgroundColor: this.state.highlightFP ? "rgb(170,100,205)" : "",
-              opacity: this.state.highlightFP !== null ? "1" : "0",
-              fontSize: this.state.highlightFP !== null ? "" : "0px"
+              backgroundColor: this.state.highlightFP ? "rgb(170,100,205)" : ""
             }}
           >
             if your idea of foreign policy is to keep foreigners from getting
@@ -8986,9 +8921,7 @@ export default class App extends React.Component {
             transition: ".3s ease-in",
             borderRadius: "15px",
             color: this.state.openrelief ? "white" : "",
-            backgroundColor: this.state.openrelief ? "rgb(50,100,255)" : "",
-            opacity: this.state.openrelief ? "1" : "0",
-            fontSize: this.state.openrelief ? "" : "0px"
+            backgroundColor: this.state.openrelief ? "rgb(50,100,255)" : ""
           }}
         >
           Three routes: reconciliation to original principal or repo+repo down
@@ -9265,9 +9198,7 @@ export default class App extends React.Component {
               color: this.state.highlightFlop ? "white" : "",
               backgroundColor: this.state.highlightFlop
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightFlop !== null ? "1" : "0",
-              fontSize: this.state.highlightFlop !== null ? "" : "0px"
+                : ""
             }}
             ref={this.flop}
           >
@@ -9354,9 +9285,7 @@ export default class App extends React.Component {
               color: this.state.highlightValuation ? "white" : "",
               backgroundColor: this.state.highlightValuation
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightValuation !== null ? "1" : "0",
-              fontSize: this.state.highlightValuation !== null ? "" : "0px"
+                : ""
             }}
           >
             Not making mvp data access a default is evident nefarious intent
@@ -9401,9 +9330,7 @@ export default class App extends React.Component {
               color: this.state.highlightSpittle ? "white" : "",
               backgroundColor: this.state.highlightSpittle
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightSpittle !== null ? "1" : "0",
-              fontSize: this.state.highlightSpittle !== null ? "" : "0px"
+                : ""
             }}
           >
             catching a sneeze in an elbow is an emergency measure if you cannot
@@ -10054,8 +9981,6 @@ export default class App extends React.Component {
                 backgroundColor: this.state.highlightBrookings
                   ? "rgb(170,100,205)"
                   : "",
-                opacity: this.state.highlightBrookings !== null ? "1" : "0",
-                fontSize: this.state.highlightBrookings !== null ? "" : "0px",
                 fontWeight: "bolder",
                 textDecoration: "underline"
               }}
@@ -10140,9 +10065,7 @@ export default class App extends React.Component {
               color: this.state.highlightElectionTech ? "white" : "",
               backgroundColor: this.state.highlightElectionTech
                 ? "rgb(170,100,205)"
-                : "",
-              opacity: this.state.highlightElectionTech !== null ? "1" : "0",
-              fontSize: this.state.highlightElectionTech !== null ? "" : "0px"
+                : ""
             }}
           >
             <br />
