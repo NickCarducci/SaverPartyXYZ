@@ -26,6 +26,55 @@ ReactDOM.render(
         </div>
         <div
           style={{
+            right: "-5px",
+            width: "calc(100% - 10px)",
+            color: "white",
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+            position: "relative",
+            backgroundColor: "rgb(5,5,5)"
+          }}
+        >
+          <div
+            style={{
+              fontSize: "20px",
+              alignSelf: "flex-start",
+              width: "calc(100% - 60px)",
+              color: "white",
+              display: "flex",
+              textAlign: "left",
+              position: "relative",
+              padding: "4px 10px"
+            }}
+          >
+            Demand-Side Economics & Human Rights
+          </div>
+          <div
+            style={{
+              wordBreak: "break-word",
+              width: "100%",
+              color: "white",
+              display: "inline-block",
+              position: "relative",
+              padding: "4px 10px"
+            }}
+          >
+            An economy of our&nbsp;
+            <a
+              style={{ color: "rgb(150,220,255)" }}
+              href="https://www.investopedia.com/articles/investing/110513/utilizing-prisoners-dilemma-business-and-economy.asp"
+            >
+              doing, but not our choosing
+            </a>
+            ; on the clock, cornered, hoarded & counterfeit
+            <br />
+            <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
+            forces that are out to obfuscate and scourge
+          </div>
+        </div>
+        <div
+          style={{
             padding: "10px",
             left: "0px",
             overflowX: "hidden",
@@ -38,20 +87,6 @@ ReactDOM.render(
             height: "min-content"
           }}
         >
-          <div
-            style={{
-              right: "0px",
-              top: "3px",
-              width: "calc(100% - 30px)",
-              color: "white",
-              display: "flex",
-              position: "absolute",
-              padding: "4px 10px",
-              backgroundColor: "rgb(5,5,5)"
-            }}
-          >
-            Demand-Side Economics & Human Rights
-          </div>{" "}
           <App />
         </div>
       </div>
@@ -59,3 +94,4 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
+
