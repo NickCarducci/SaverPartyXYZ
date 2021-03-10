@@ -320,7 +320,7 @@ export default class App extends React.Component {
           marginTop: "7px",
           position: "relative",
           display: "inline-block",
-          width: "100%",
+          width: "calc(100% - 7px)",
           maxWidth: "600px",
           height: "min-content"
         }}
@@ -449,7 +449,8 @@ export default class App extends React.Component {
         contract law, and an unrequited third-party's dollars is waged in
         mounting or changing the payout terms, they wouldn't rate debt well
         above 1.2x cash (now 13x cash) as it is impossible to pay debt 13 times
-        ($82tdebt:$6tcash). (borrower would have to earn then pay creditor 13 times)
+        ($82tdebt:$6tcash). (borrower would have to earn then pay creditor 13
+        times)
         <br />
         <br />
         You can't give away something you do not take!
@@ -3908,8 +3909,18 @@ export default class App extends React.Component {
           <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
             allows you to go public but you pay a Double-Tax on Income
             (threatened-upon us by not price-prisoners’ dilemma duress pooling
-            but literal jail/confiscation in 1937 saverparty .xyz wayy bottom of
-            page)
+            but literal&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+              }}
+            >
+              jail/confiscation in 1937
+            </span>
+            )
           </a>
           . The weird thing is Oath Keeper chapters are 501c3? I relinquished
           mine for thumbprint.us to serve intention for mock direct democracy
@@ -9794,105 +9805,97 @@ export default class App extends React.Component {
           If credit contracts promised corporate shares the claimant would be
           laughed out of court. THIS IS FRAUD
         </div>
-        <div style={tweetsStyle}>
-          <span
-            ref={this.valuation}
-            style={{
-              display: "inline-block",
+        <span
+          ref={this.valuation}
+          style={{
+            display: "inline-block",
 
-              position: "relative",
-              padding: "4px 10px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightValuation ? "white" : "",
-              backgroundColor: this.state.highlightValuation
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Not making mvp data access a default is evident nefarious intent
-            SEC: "[Give your unique id immediately to brokers (not just us), but
-            if you own more than {">"}5%, you can wait 3 months.]" (If trading
-            your company, at any ownership percentage, you must build and report
-            in the open or wait three months upon stopping work to trade) You
-            cannot manipulate stocks more than selling without borrowing
-            (stimulus checks are price-inelasticity fraud), <b>shorting</b> is
-            not destructive on it's own and it is not just short-selling. It is
-            borrowing (usurped share power waged in contract, moot), and retail
-            is traded against. Shortselling without borrowing wouldn't be able
-            to abdicate third-party risk from mixing the terms, it would be a
-            bicameral option to end the contract with an individual seller...
-          </span>{" "}
-          <br />
-          <br />
-          You can really only certify but not bar unless there is prove-able
-          harm or it is prohibitive to not do it. <br />
-          <br />
-          In this case, neither is harm proven with evidence that spittle from
-          talking floats, nor is it prohibitive for people who don’t want to be
-          around people wearing masks. Their preference for others is more
-          onerous than people who prefer sneezing into their elbow. Masks are as
-          reckless as NIH & Fauci getting paid dollar split to experiment with
-          virus in anti-human rights China{" "}
-          <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
-            https://pubmed.ncbi.nlm.nih.gov/17542834/
-          </a>
-          <span
-            ref={this.spittle}
-            style={{
-              position: "relative",
+            position: "relative",
+            padding: "4px 10px",
+            transition: ".3s ease-in",
+            borderRadius: "15px",
+            color: this.state.highlightValuation ? "white" : "",
+            backgroundColor: this.state.highlightValuation
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          Not making mvp data access a default is evident nefarious intent SEC:
+          "[Give your unique id immediately to brokers (not just us), but if you
+          own more than {">"}5%, you can wait 3 months.]" (If trading your
+          company, at any ownership percentage, you must build and report in the
+          open or wait three months upon stopping work to trade) You cannot
+          manipulate stocks more than selling without borrowing (stimulus checks
+          are price-inelasticity fraud), <b>shorting</b> is not destructive on
+          it's own and it is not just short-selling. It is borrowing (usurped
+          share power waged in contract, moot), and retail is traded against.
+          Shortselling without borrowing wouldn't be able to abdicate
+          third-party risk from mixing the terms, it would be a bicameral option
+          to end the contract with an individual seller...
+        </span>{" "}
+        <br />
+        <br />
+        You can really only certify but not bar unless there is prove-able harm
+        or it is prohibitive to not do it. <br />
+        <br />
+        In this case, neither is harm proven with evidence that spittle from
+        talking floats, nor is it prohibitive for people who don’t want to be
+        around people wearing masks. Their preference for others is more onerous
+        than people who prefer sneezing into their elbow. Masks are as reckless
+        as NIH & Fauci getting paid dollar split to experiment with virus in
+        anti-human rights China{" "}
+        <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+          https://pubmed.ncbi.nlm.nih.gov/17542834/
+        </a>
+        <span
+          ref={this.spittle}
+          style={{
+            position: "relative",
 
-              display: "inline-block",
-              padding: "4px 10px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightSpittle ? "white" : "",
-              backgroundColor: this.state.highlightSpittle
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            catching a sneeze in an elbow is an emergency measure if you cannot
-            grab a tissue, but I wouldn’t advice sneezing in a mask; the droplet
-            might have to be exactly room temperature and smaller than spittle
-            to float anyway. I’ve spent quite a bit of time checking sources of
-            evidence that aren’t correlations and it shows spittle/breathe
-            falls/rises within 1ft
-            <br />
-            vaccine efficacy cannot be judged by putting people in a room
-            because that would be proof again that spittle doesn't transmit
-          </span>
-        </div>
+            display: "inline-block",
+            padding: "4px 10px",
+            transition: ".3s ease-in",
+            borderRadius: "15px",
+            color: this.state.highlightSpittle ? "white" : "",
+            backgroundColor: this.state.highlightSpittle
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          catching a sneeze in an elbow is an emergency measure if you cannot
+          grab a tissue, but I wouldn’t advice sneezing in a mask; the droplet
+          might have to be exactly room temperature and smaller than spittle to
+          float anyway. I’ve spent quite a bit of time checking sources of
+          evidence that aren’t correlations and it shows spittle/breathe
+          falls/rises within 1ft
+          <br />
+          vaccine efficacy cannot be judged by putting people in a room because
+          that would be proof again that spittle doesn't transmit
+        </span>
         <br />
         when buy Greenland IRS
         <br />
-        <h1 ref={this.navbar}>Saver Party</h1>
-        demand-side conservatism (consent, no supply intervention by
-        non-producing, scalping, serfdoms, leases and allow prices to be met and
-        exactly settled by producers and consumers)
         <br />
-        Trade is good for comparative advantage in teamwork akin to absolute
-        trading of mutual benefits. All other actors are interference.
         <div
-          style={{
-            position: "relative"
-          }}
+          ref={this.navbar}
+          style={{ display: "flex", width: "max-content" }}
         >
-          <div
-            style={{
-              position: "absolute",
-              transform: "translate(444%,-100%)",
-              color: "grey"
-            }}
-          >
-            xyz
-          </div>
+          <h1>Saver Party</h1>
+          <span style={{ color: "grey" }}>xyz</span>
         </div>
-        financial policy
+        <span>
+          demand-side conservatism (consent, no supply intervention by
+          non-producing, scalping, serfdoms, leases and allow prices to be met
+          and exactly settled by producers and consumers)
+          <br />
+          Trade is good for comparative advantage in teamwork akin to absolute
+          trading of mutual benefits. All other actors are interference.
+        </span>
+        <br />
         <div
           ref={this.invite}
           style={{
-            display: "flex",
+            display: "inline-block",
             marginTop: "20px",
             borderTop: "1px solid black",
             maxWidth: "600px",
@@ -9901,6 +9904,9 @@ export default class App extends React.Component {
             alignItems: "center"
           }}
         >
+          financial policy
+          <br />
+          <br />
           Efficiency (labor-equity) Act & Accord
           <br />
           1. Taxes are slavery
@@ -11211,4 +11217,3 @@ export default class App extends React.Component {
     );
   }
 }
-
