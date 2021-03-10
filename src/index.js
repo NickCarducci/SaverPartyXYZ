@@ -7,7 +7,7 @@ import App from "./App";
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { top: true, scrollPlacementHeight: 70 };
+    this.state = { top: true, scrollPlacementHeight: 90, openMenu: false };
     this.page = React.createRef();
     this.outer = React.createRef();
   }
@@ -22,15 +22,9 @@ class Index extends React.Component {
     var scrollTop = e.target.scrollTop;
     var scrollHeight = e.target.scrollHeight;
     var scrollPlacementHeight = Math.round(
-      (window.innerHeight - 70) * (scrollTop / scrollHeight)
+      (window.innerHeight - 90) * (scrollTop / scrollHeight)
     );
-    this.setState(
-      { scrolling: true, top: scrollTop === 0, scrollPlacementHeight },
-      () =>
-        (this.cancel = setTimeout(() => {
-          this.setState({ scrolling: false });
-        }, 5432))
-    );
+    this.setState({ top: scrollTop === 0, scrollPlacementHeight });
   };
   render() {
     var appStyle = {
@@ -39,19 +33,66 @@ class Index extends React.Component {
       width: "100%",
       height: "100%"
     };
-    var showSquirrel = this.state.top && !this.state.scrolling;
+    var showSquirrel = this.state.top && !this.state.openMenu;
     return (
       <div style={appStyle}>
         <div
+          onClick={() => this.setState({ openMenu: !this.state.openMenu })}
+          style={{
+            textAlign: "center",
+            width: "min-content",
+            zIndex: "1",
+            color: "white",
+            fontSize: "9px",
+            position: "fixed",
+            padding: "4px 10px",
+            right: "0px",
+            top: "0px",
+            backgroundColor: "rgb(5,5,5)"
+          }}
+        >
+          <span style={{ display: "flex" }}>EXPLICIT</span>
+          {[
+            "Polling Fraud",
+            "Immigration",
+            "Ownership Fraud",
+            "False Advert in Senate",
+            "Insurance Fraud",
+            "Mission",
+            "Early Comms",
+            "Illegal Gov Decrees",
+            "close"
+          ].map((x) => (
+            <div
+              key={x}
+              style={{
+                width: "max-content",
+                fontSize: !this.state.openMenu ? "0px" : "",
+                opacity: !this.state.openMenu ? "0" : "1",
+                transition: ".3s ease-in",
+                margin: "2px"
+              }}
+            >
+              {x !== "close" ? (
+                x
+              ) : (
+                <span onClick={() => this.setState({ openMenu: false })}>
+                  &times;
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
+        <div
           onDrag={(e) => {
-            var scrollPlacementHeight = Math.max(70, e.pageY - 70);
+            var scrollPlacementHeight = Math.max(90, e.pageY - 90);
             if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
               clearTimeout(this.dragMove);
               this.dragMove = setTimeout(() => {
-                if (scrollPlacementHeight > 70)
+                if (scrollPlacementHeight > 90)
                   this.setState({ scrollPlacementHeight }, () => {
                     var top = Math.round(
-                      (scrollPlacementHeight / (window.innerHeight - 70)) *
+                      (scrollPlacementHeight / (window.innerHeight - 90)) *
                         this.page.current.scrollHeight
                     );
                     this.outer.current.scroll({ top: top, behavior: "smooth" });
@@ -61,14 +102,14 @@ class Index extends React.Component {
           }}
           onTouchMove={(ev) => {
             var e = ev.touches[0];
-            var scrollPlacementHeight = Math.max(70, e.pageY - 70);
+            var scrollPlacementHeight = Math.max(90, e.pageY - 90);
             if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
               clearTimeout(this.dragMove);
               this.dragMove = setTimeout(() => {
-                if (scrollPlacementHeight > 70)
+                if (scrollPlacementHeight > 90)
                   this.setState({ scrollPlacementHeight }, () => {
                     var top = Math.round(
-                      (scrollPlacementHeight / (window.innerHeight - 70)) *
+                      (scrollPlacementHeight / (window.innerHeight - 90)) *
                         this.page.current.scrollHeight
                     );
                     this.outer.current.scroll({ top: top, behavior: "smooth" });
@@ -78,7 +119,7 @@ class Index extends React.Component {
           }}
           /*onDragEnd={(e) => {
             var top = Math.round(
-              (window.innerHeight - 70 - e.pageY) / this.state.scrollHeight
+              (window.innerHeight - 90 - e.pageY) / this.state.scrollHeight
             );
             this.page.current.scroll({ top, behavior: "smooth" });
           }}*/
@@ -102,52 +143,6 @@ class Index extends React.Component {
             }}
             src="https://www.dl.dropboxusercontent.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?dl=0"
           />{" "}
-        </div>
-        <div
-          style={{
-            textAlign: "center",
-            width: "min-content",
-            zIndex: "1",
-            color: "white",
-            fontSize: "9px",
-            position: "fixed",
-            padding: "4px 10px",
-            right: "0px",
-            top: "0px",
-            backgroundColor: "rgb(5,5,5)"
-          }}
-        >
-          EXPLICIT
-          {[
-            "Polling Fraud",
-            "Immigration",
-            "Ownership Fraud",
-            "False Advert in Senate",
-            "Insurance Fraud",
-            "Mission",
-            "Early Comms",
-            "Illegal Gov Decrees",
-            "close"
-          ].map((x) => (
-            <div
-              key={x}
-              style={{
-                width: "max-content",
-                fontSize: !this.state.scrolling ? "0px" : "",
-                opacity: !this.state.scrolling ? "0" : "1",
-                transition: ".3s ease-in",
-                margin: "2px"
-              }}
-            >
-              {x !== "close" ? (
-                x
-              ) : (
-                <span onClick={() => this.setState({ scrolling: false })}>
-                  &times;
-                </span>
-              )}
-            </div>
-          ))}
         </div>
         <div
           ref={this.outer}
