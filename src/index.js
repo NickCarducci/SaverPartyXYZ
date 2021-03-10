@@ -7,16 +7,16 @@ import App from "./App";
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { top: true, scrollPlacementHeight: 90, openMenu: false };
+    this.state = { top: true, scrollPlacementHeight: 0, openMenu: false };
     this.page = React.createRef();
     this.outer = React.createRef();
   }
   /*componentDidMount = () => {
-    window.addEventListener("scroll", this.handleScroll);
-  };
-  componentWillUnmount = () => {
-    window.removeEventListener("scroll", this.handleScroll);
-  };*/
+      window.addEventListener("scroll", this.handleScroll);
+    };
+    componentWillUnmount = () => {
+      window.removeEventListener("scroll", this.handleScroll);
+    };*/
   handleScroll = (e) => {
     clearTimeout(this.cancel);
     var scrollTop = e.target.scrollTop;
@@ -25,6 +25,32 @@ class Index extends React.Component {
       (window.innerHeight - 90) * (scrollTop / scrollHeight)
     );
     this.setState({ top: scrollTop === 0, scrollPlacementHeight });
+  };
+  handleMove = (ev, touch) => {
+    var e = null;
+    if (touch) {
+      e = ev.touches[0];
+    } else {
+      e = ev;
+    }
+    var scrollPlacementHeight = e.pageY - 90;
+    if (
+      scrollPlacementHeight.constructor === Number &&
+      scrollPlacementHeight !== this.state.scrollPlacementHeight
+    ) {
+      clearTimeout(this.dragMove);
+      this.dragMove = setTimeout(() => {
+        if (scrollPlacementHeight > -90) {
+          this.setState({ scrollPlacementHeight }, () => {
+            var top = Math.round(
+              (scrollPlacementHeight / (window.innerHeight - 90)) *
+                this.page.current.scrollHeight
+            );
+            this.outer.current.scroll({ top, behavior: "smooth" });
+          });
+        }
+      }, 20);
+    }
   };
   render() {
     var appStyle = {
@@ -84,48 +110,11 @@ class Index extends React.Component {
           ))}
         </div>
         <div
-          onDrag={(e) => {
-            var scrollPlacementHeight = Math.max(90, e.pageY - 90);
-            if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
-              clearTimeout(this.dragMove);
-              this.dragMove = setTimeout(() => {
-                if (scrollPlacementHeight > 90)
-                  this.setState({ scrollPlacementHeight }, () => {
-                    var top = Math.round(
-                      (scrollPlacementHeight / (window.innerHeight - 90)) *
-                        this.page.current.scrollHeight
-                    );
-                    this.outer.current.scroll({ top: top, behavior: "smooth" });
-                  });
-              }, 20);
-            }
-          }}
-          onTouchMove={(ev) => {
-            var e = ev.touches[0];
-            var scrollPlacementHeight = Math.max(90, e.pageY - 90);
-            if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
-              clearTimeout(this.dragMove);
-              this.dragMove = setTimeout(() => {
-                if (scrollPlacementHeight > 90)
-                  this.setState({ scrollPlacementHeight }, () => {
-                    var top = Math.round(
-                      (scrollPlacementHeight / (window.innerHeight - 90)) *
-                        this.page.current.scrollHeight
-                    );
-                    this.outer.current.scroll({ top: top, behavior: "smooth" });
-                  });
-              }, 20);
-            }
-          }}
-          /*onDragEnd={(e) => {
-            var top = Math.round(
-              (window.innerHeight - 90 - e.pageY) / this.state.scrollHeight
-            );
-            this.page.current.scroll({ top, behavior: "smooth" });
-          }}*/
+          onDrag={this.handleMove}
+          onTouchMove={(e) => this.handleMove(e, true)}
           style={{
             opacity: showSquirrel ? 1 : 0.3,
-            top: this.state.scrollPlacementHeight,
+            top: 90 + this.state.scrollPlacementHeight,
             zIndex: 1,
             right: "10px",
             width: "30px",
