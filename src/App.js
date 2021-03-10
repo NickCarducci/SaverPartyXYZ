@@ -325,18 +325,39 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Nancy pelosi saying city council wants the money as evidence that people across the country want the money to be taken from them.  Usually they cite a sample as representing everyone.  That wouldn't be permitted as evidence to that claim in court, why does that not matter for congressional hearings
-      <br />
-      she says race-based business are forced to shutter, that is only contracts subject to impossible doctrine or forced majeure.  Without finance (counterfeit-contracts, rent-seeking colonization), these issues would be non-existant. Instead of attacking the source of the issue, Nancy Pelosi wants to help the supply-side
-      
+        Nancy pelosi saying city council wants the money as evidence that people
+        across the country want the money to be taken from them. Usually they
+        cite a sample as representing everyone. That wouldn't be permitted as
+        evidence to that claim in court, why does that not matter for
+        congressional hearings
+        <br />
+        she says race-based business are forced to shutter, that is only
+        contracts subject to impossible doctrine or forced majeure. Without
+        finance (counterfeit-contracts, rent-seeking colonization), these issues
+        would be non-existant. Instead of attacking the source of the issue,
+        Nancy Pelosi wants to help the supply-side
         <br />
         <br />
         Saying $1t goes to the "pockets of american people" is a grandiose lie, the money is due to obligations until that is reversed for improper waging of funds not under the ownership of the signee of the debt, loitering of the borrower and down-payments kept by the creditor.  A great conspiracy to be aided by Nancy
         <br />
-        <br />
+       
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/nbn7uwo1wamspy4/AmericanPockets.jpg?dl=0"
+        /></div><br /><br/>
         You aren't asking congress for money you are asking people
-      <br />
-      <br />
+        <br />
+        <br />
         Republicans are attesting to my claim that government spending by tax or debt is faster, well after further consideration and experience I must argue that the only speed gained is in stealing copyright by government, otherwise competition from supply is faster
         <br/>
         <br/>
