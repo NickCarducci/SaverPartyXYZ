@@ -325,6 +325,22 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Drugs as criminal ofenses cause violence, prescriptions and said classification of drugs as a crime is abjectly to stop competition with the dollar and traunch classes of people
+        <br/>
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/nuequy5qj9cf5us/DrugRelatedCrime.jpg?dl=0"
+      /></div>  <br/>
         Congresspeople are an apparent danger to themselves or others.  I have no proof of this (I actually do, but hypothetically if I didn't I would still sarcastically say), I just have the best opinions
         <br/>
         <br/>
