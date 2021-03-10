@@ -339,9 +339,9 @@ export default class App extends React.Component {
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
-            this.jan2018.current.scrollIntoView("smooth");
-            this.setState({ highlightJan2018: true });
-            setTimeout(() => this.setState({ highlightJan2018: false }), 10000);
+            this.drugs.current.scrollIntoView("smooth");
+            this.setState({ highlightDrugs: true });
+            setTimeout(() => this.setState({ highlightDrugs: false }), 10000);
           }}
         >
           drugs
@@ -4548,8 +4548,8 @@ export default class App extends React.Component {
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
-            color: this.state.highlightJewels ? "white" : "grey",
-            backgroundColor: this.state.highlightJewels
+            color: this.state.highlightDrugs ? "white" : "grey",
+            backgroundColor: this.state.highlightDrugs
               ? "rgb(100,170,205)"
               : ""
           }}
