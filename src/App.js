@@ -325,7 +325,7 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Literally this politician just admitted that the Covid "Relief" Bill is to, "Keep the economy afloat."  That either means prevent price-elasticity or trade.  That is illegal, admitting to conspire to prohibit trade!
+        Literally this politician just admitted that the Covid "Relief" Bill is to, "Keep the economy afloat."  That either means prevent price-elasticity or trade.  That is illegal, admitting to conspire to prohibit trade or price-fix!
         <br/>
         <div
           style={{
