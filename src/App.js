@@ -327,8 +327,14 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Sounds like the Charleston loophole can only be closed by not having shit tech + police dashboard for LITERAL threatening posts or creating a loophole for the FBI to keep guns away from people who view violence against themselves as property and should be able to at least brandish theives like the cops can to both unarmed and armed arrests
-        <br/>
+        Sounds like the Charleston loophole can only be closed by not having
+        shit tech + police dashboard for LITERAL threatening posts or creating a
+        loophole for the FBI to keep guns away from people who view violence
+        against themselves as including property and money and should be able to
+        at least brandish thieves like the cops can to both unarmed and armed
+        arrests
+        <br />
+        <br />
         Why does it take more than 10 seconds to pull up criminal backgrounds?
         <br />
         <div
