@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Nancy pelosi saying city council wants the money as evidence that people across the country want the money to be taken from them.  Usually they cite a sample as representing everyone.  That wouldn't be permitted as evidence to that claim in court, why does that not matter for congressional hearings
+      <br />
+      <br />
         You aren't asking congress for money you are asking people
       <br />
       <br />
