@@ -327,7 +327,21 @@ export default class App extends React.Component {
           maxWidth: "600px",
           height: "min-content"
         }}
+      >Selling Out the Community  <br/>
+      <div
+        style={{
+          width: "100%",
+          position: "relative"
+        }}
       >
+        <img
+          alt=""
+          style={{
+            width: "25%",
+            height: "auto"
+          }}
+          src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
+     /></div>   <br/>
         Give money to artists not people that usually get money
         <br/>
        
