@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        To steal for people who lost their jobs is doubly not fair
+        <br/>
+        <br/>
         Can someone ask why people "need the money?"" The answer is always a
         contract that could fall under the impossible doctrine or forced
         majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
