@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Congresspeople are an apparent danger to themselves or others.  I have no proof of this (I actually do, but hypothetically if I didn't I would still sarcastically say), I just have the best opinions
+        <br/>
+        <br/>
         What would of happened if the Jews were allowed to own guns&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
