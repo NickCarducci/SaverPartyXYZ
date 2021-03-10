@@ -56,8 +56,10 @@ class Index extends React.Component {
     var appStyle = {
       position: "fixed",
       textAlign: "center",
-      width: "100%",
-      height: "100%"
+      top: "0px",
+      left: "0px",
+      right: "0px",
+      bottom: "0px"
     };
     var showSquirrel = this.state.top && !this.state.openMenu;
     return (
@@ -142,14 +144,16 @@ class Index extends React.Component {
             position: "fixed",
             top: "0px",
             left: "0px",
-            width: "100%",
-            height: "100%"
+            right: "0px",
+            bottom: "0px"
           }}
         >
           <div
             ref={this.page}
             style={{
-              display: this.state.width > 700 ? "flex" : "",
+              display: "flex",
+              alignItems: "center",
+              flexDirection: "column",
               width: "100%",
               height: "min-content",
               position: "absolute"
@@ -157,6 +161,7 @@ class Index extends React.Component {
           >
             <div
               style={{
+                height: "min-content",
                 right: "0px",
                 width: "100%",
                 color: "white",
@@ -218,7 +223,7 @@ class Index extends React.Component {
                 <span
                   //ref={this.law}
                   style={{
-                transition: ".3s ease-in",
+                    transition: ".3s ease-in",
                     color: this.state.highlightLaw ? "white" : "",
                     backgroundColor: this.state.highlightLaw
                       ? "rgb(170,100,205)"
@@ -264,6 +269,8 @@ class Index extends React.Component {
             </div>
             <div
               style={{
+                position: "relative",
+                height: "min-content",
                 width: "100%",
                 fontSize: "10px",
                 backgroundColor: "rgb(100,150,200)"
