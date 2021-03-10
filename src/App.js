@@ -329,18 +329,22 @@ export default class App extends React.Component {
         across the country want the money to be taken from them. Usually they
         cite a sample as representing everyone. That wouldn't be permitted as
         evidence to that claim in court, why does that not matter for
-        congressional hearings - why is she allowed to lie or not be corrected, misleading people everywhere to their detriment
+        congressional hearings - why is she allowed to lie or not be corrected,
+        misleading people everywhere to their detriment
         <br />
-        she says race-based business are forced to shutter, that is only
+        She says race-based business are forced to shutter - that is only
         contracts subject to impossible doctrine or forced majeure. Without
         finance (counterfeit-contracts, rent-seeking colonization), these issues
-        would be non-existant. Instead of attacking the source of the issue,
-        Nancy Pelosi wants to help the supply-side
+        would be non-existent. Instead of attacking the source of the issue,
+        Nancy Pelosi wants to help the supply-side.
         <br />
         <br />
-        Saying $1t goes to the "pockets of american people" is a grandiose lie, the money is due to obligations until that is reversed for improper waging of funds not under the ownership of the signee of the debt, loitering of the borrower and down-payments kept by the creditor.  A great conspiracy to be aided by Nancy
+        Saying $1t goes to the "pockets of american people" is a grandiose lie -
+        the money is due to obligations until that is reversed for improper
+        waging of funds not under the ownership of the signee of the debt,
+        loitering of the borrower and down-payments kept by the creditor. A
+        great conspiracy to be aided by Nancy.
         <br />
-       
         <div
           style={{
             width: "100%",
@@ -354,7 +358,9 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/nbn7uwo1wamspy4/AmericanPockets.jpg?dl=0"
-        /></div><br /><br/>
+          />
+        </div>
+        <br />
         You aren't asking congress for money you are asking people
         <br />
         <br />
