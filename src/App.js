@@ -325,9 +325,13 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Can someone ask why people "need the money?""  The answer is always a contract that could fall under the impossible doctrine or forced majeure
-        <br/>
-        <br/>
+        Can someone ask why people "need the money?"" The answer is always a
+        contract that could fall under the impossible doctrine or forced majeure.  Need or crucial relief is ALWAYS the recipient's obligations that aren't price-elastic.
+        <br />
+        <br />
+        If you want to help poverty from years of financial harm done by judicial malfeasance, tax for it don't double back and pay bond-holders more...
+        <br />
+        <br />
         If you make a bet with a credit card company that if you cannot get the money back, they get nothing, and the government helps them win by claiming your bet was a promise, you have a demonic government
         <br/>
         <br/>
