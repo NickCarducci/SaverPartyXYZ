@@ -11252,6 +11252,9 @@ export default class App extends React.Component {
         <div id="t1332874788004622341" />
         <div id="t1332444460958048266" />
         <div ref={this.starve} id="t1334325432687226881" />
+        <br/>
+        Civil Rights Act doesn't have to include drug-addicts since Amendment 13/14 protects contributors to society of any predolictions have been vowed to be equally supported by regulators in adjunicating for the aggreived party, or taxing fairly for free-rider-immutable services/goods
+        <br/>
         <div id="t1331343453687574531" />
         <div id="t1333518304867217412" />
         <div id="t1333904053886128128" />
@@ -11365,4 +11368,3 @@ export default class App extends React.Component {
     );
   }
 }
-
