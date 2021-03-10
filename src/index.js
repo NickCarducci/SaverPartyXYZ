@@ -7,8 +7,9 @@ import App from "./App";
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { top: true };
+    this.state = { top: true, scrollPlacementHeight: 70 };
     this.page = React.createRef();
+    this.outer = React.createRef();
   }
   /*componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
@@ -18,9 +19,13 @@ class Index extends React.Component {
   };*/
   handleScroll = (e) => {
     clearTimeout(this.cancel);
-    var top = e.target.scrollTop === 0;
+    var scrollTop = e.target.scrollTop;
+    var scrollHeight = e.target.scrollHeight;
+    var scrollPlacementHeight = Math.round(
+      (window.innerHeight - 70) * (scrollTop / scrollHeight)
+    );
     this.setState(
-      { scrolling: true, top },
+      { scrolling: true, top: scrollTop === 0, scrollPlacementHeight },
       () =>
         (this.cancel = setTimeout(() => {
           this.setState({ scrolling: false });
@@ -28,14 +33,42 @@ class Index extends React.Component {
     );
   };
   render() {
+    var appStyle = {
+      position: "fixed",
+      textAlign: "center",
+      width: "100%",
+      height: "100%"
+    };
     var showSquirrel = this.state.top && !this.state.scrolling;
     return (
-      <div className="App">
+      <div style={appStyle}>
         <div
+          onDrag={(e) => {
+            var scrollPlacementHeight = Math.max(70, e.pageY - 70);
+            if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
+              clearTimeout(this.dragMove);
+              this.dragMove = setTimeout(() => {
+                if (scrollPlacementHeight > 70)
+                  this.setState({ scrollPlacementHeight }, () => {
+                    var top = Math.round(
+                      (scrollPlacementHeight / (window.innerHeight - 70)) *
+                        this.page.current.scrollHeight
+                    );
+                    this.outer.current.scroll({ top: top, behavior: "smooth" });
+                  });
+              }, 20);
+            }
+          }}
+          /*onDragEnd={(e) => {
+            var top = Math.round(
+              (window.innerHeight - 70 - e.pageY) / this.state.scrollHeight
+            );
+            this.page.current.scroll({ top, behavior: "smooth" });
+          }}*/
           style={{
-            opacity: showSquirrel ? 1 : 0,
-            top: "70px",
-            zIndex: showSquirrel ? 1 : -9999,
+            opacity: showSquirrel ? 1 : 0.3,
+            top: this.state.scrollPlacementHeight,
+            zIndex: 1,
             right: "10px",
             width: "30px",
             position: "fixed",
@@ -80,6 +113,7 @@ class Index extends React.Component {
             "close"
           ].map((x) => (
             <div
+              key={x}
               style={{
                 width: "max-content",
                 fontSize: !this.state.scrolling ? "0px" : "",
@@ -99,13 +133,12 @@ class Index extends React.Component {
           ))}
         </div>
         <div
+          ref={this.outer}
           onScroll={this.handleScroll}
           style={{
             overflowX: "hidden",
             overflowY: "auto",
-            display: "flex",
-            position: "relative",
-            flexDirection: "column",
+            position: "fixed",
             top: "0px",
             left: "0px",
             width: "100%",
