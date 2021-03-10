@@ -323,6 +323,9 @@ export default class App extends React.Component {
           maxWidth: "600px",
           height: "min-content"
         }}
+        This bill will raise prices for goods and services, and be a boon to the lending class.  There is no good that comes from this aggrandizing price & ruining opportunities for new producers by bootstrapping entrepreneurs (bartending, coding) to emerge and provide better quality and prices.  It only monopolizes service-providers to those that exist, making it impossible for Savers to keep their earnings' worth
+        <br/>
+        <br/>
         You can tax sales (of end-products, not equity) for free-rider-immutable
         services, wealth for systematic reparations but really those are torts,
         and adjunicate torts to repair unjustice; any tax or debt otherwise not
