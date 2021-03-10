@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Republicans are attesting to my claim that government spending by tax or debt is faster, well after further consideration and experience I must argue that the only speed gained is in stealing copyright by government, otherwise competition from supply is faster
+        <br/>
+        <br/>
         Literally this politician just admitted that the Covid "Relief" Bill is to, "Keep the economy afloat."  That either means prevent price-elasticity or trade.  That is illegal, admitting to conspire to prohibit trade or price-fix!
         <br/>
         <div
