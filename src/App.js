@@ -394,7 +394,7 @@ export default class App extends React.Component {
         To steal for people who lost their jobs is doubly not fair
         <br />
         <br />
-        Can someone ask why people "need the money?"" The answer is always a
+        Can someone ask why people "need the money?" The answer is always a
         contract that could fall under the impossible doctrine or forced
         majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
         obligations that aren't price-elastic. What is price-elastic shouldn't
@@ -427,27 +427,29 @@ export default class App extends React.Component {
         <br />
         <br />
         This $1.9t bill will raise prices for goods and services, and be a boon
-        to the lending class. There is no good that comes from this aggrandizing
-        price & ruining opportunities for new producers by bootstrapping
-        entrepreneurs (bartending, coding) to emerge and provide better quality
-        and prices. It only monopolizes service-providers to those that exist,
-        making it impossible for Savers to keep their earnings' worth
+        to the lending class. There is no good that comes from this:
+        aggrandizing price & ruining opportunities for new producers by
+        bootstrapping entrepreneurs (bartending, coding) to emerge and provide
+        better quality and prices. It only monopolizes service-providers to
+        those that exist, making it impossible for Savers to keep their
+        earnings' worth
         <br />
         <br />
-        $800 million for food. if you didn't&nbsp;
+        $800 million for food: if you didn't&nbsp;
         <a href="https://foiegras.life">interfere</a>&nbsp;it would be more
         affordable
         <br />
         <br />
-        Stop calling stealing for doctors affordable healthcare. nothing about
+        Stop calling stealing for doctors affordable healthcare: nothing about
         debt or price-inelasticity goes towards making healthcare more
         affordable, it does the opposite and monopolizes equity for doctors.
         <br />
         Moody's is abjectly corrupt, no intent declared is required to convict
-        for conspiracy to prohibit trade. If the debt contract followed contract
-        law, and an unrequited third-parties dollars is wages in changing the
-        payout terms, they wouldn't rate debt well as it is impossible to pay
-        debt 13 times ($82tdebt:$6tcash)
+        on their conspiracy to prohibit trade: if the debt contract followed
+        contract law, and an unrequited third-party's dollars is waged in
+        mounting or changing the payout terms, they wouldn't rate debt well
+        above 1.2x cash (now 13x cash) as it is impossible to pay debt 13 times
+        ($82tdebt:$6tcash). (borrower would have to earn then pay creditor 13 times)
         <br />
         <br />
         You can't give away something you do not take!
@@ -11209,3 +11211,4 @@ export default class App extends React.Component {
     );
   }
 }
+
