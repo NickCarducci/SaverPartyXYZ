@@ -337,17 +337,18 @@ export default class App extends React.Component {
           1933
         </span>
         ? Any conflicted-interested&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.nra.current.scrollIntoView("smooth");
-              this.setState({ highlightNRA: true });
-              setTimeout(() => this.setState({ highlightNRA: false }), 10000);
-            }}
-          >
-            asinine-physician
-          </span>&nbsp;can say you are crazy, are you crazy? Make it
-        based on convictions by violent crime, if not already, per HR.8
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.nra.current.scrollIntoView("smooth");
+            this.setState({ highlightNRA: true });
+            setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+          }}
+        >
+          asenine-physician
+        </span>
+        &nbsp;can say you are crazy, are you crazy? Make it based on convictions
+        by violent crime, if not already, per HR.8
         <br />
         <br />
         Insurance was&nbsp;
@@ -397,7 +398,7 @@ export default class App extends React.Component {
         </div>
         <br />
         "Take your own polls," he says, again making dangerous assumptions to
-        legislate this crime. Assumptions that&nbsp;
+        legislate this&nbsp;<span onClick={this.props.goToTop}>crime</span>. Assumptions that&nbsp;
         <a href="https://www.isidewith.com/poll/488729614">
           contradict samples of larger numbers
         </a>
