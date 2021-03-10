@@ -327,6 +327,22 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Look at this angry person, do not give this cunt a gun
+         <br/>
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/413lz55kytomja1/AngryGun.jpg?dl=0"
+       /></div> <br/> <br/>
         Sounds like the Charleston loophole can only be closed by not having
         shit tech + police dashboard for LITERAL threatening posts or creating a
         loophole for the FBI to keep guns away from people who view violence
