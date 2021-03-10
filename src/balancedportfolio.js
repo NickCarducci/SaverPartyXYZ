@@ -5482,12 +5482,19 @@ class BalancedPortfolioAgainstDollars extends React.Component {
     this.wholething = React.createRef();
   }
   handleTooltipMove = (
-    e,
+    event,
     lowestDates,
     highestDates,
     highestValues,
-    lowestValues
+    lowestValues,
+    touch
   ) => {
+    var e = null;
+    if (touch) {
+      e = event.originalEvent.touches[0];
+    } else {
+      e = event;
+    }
     const tooltipLeft = e.pageX - this.wholething.current.offsetLeft;
     const tooltipValue =
       (highestValues - lowestValues) *
@@ -5717,16 +5724,17 @@ class BalancedPortfolioAgainstDollars extends React.Component {
           </div>
           <div ref={this.wholething}>
             <svg
-              onMouseMove={(e) => {
+              onTouchMove={(e) => {
                 this.handleTooltipMove(
                   e,
                   lowestDates,
                   highestDates,
                   highestValues,
-                  lowestValues
+                  lowestValues,
+                  true
                 );
               }}
-              onMouseLeave={() =>
+              onTouchEnd={() =>
                 this.setState({ tooltipLeft: null, tooltipDate: null })
               }
               onDrag={(e) => {
