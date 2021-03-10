@@ -22,7 +22,7 @@ class Index extends React.Component {
     var scrollTop = e.target.scrollTop;
     var scrollHeight = e.target.scrollHeight;
     var scrollPlacementHeight = Math.round(
-      (window.innerHeight - 90) * (scrollTop / scrollHeight)
+      (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
     this.setState({ top: scrollTop === 0, scrollPlacementHeight });
   };
@@ -33,17 +33,17 @@ class Index extends React.Component {
     } else {
       e = ev;
     }
-    var scrollPlacementHeight = e.pageY - 90;
+    var scrollPlacementHeight = e.pageY - 115;
     if (
       scrollPlacementHeight.constructor === Number &&
       scrollPlacementHeight !== this.state.scrollPlacementHeight
     ) {
       clearTimeout(this.dragMove);
       this.dragMove = setTimeout(() => {
-        if (scrollPlacementHeight > -90) {
+        if (scrollPlacementHeight > -115) {
           this.setState({ scrollPlacementHeight }, () => {
             var top = Math.round(
-              (scrollPlacementHeight / (window.innerHeight - 90)) *
+              (scrollPlacementHeight / (window.innerHeight - 115)) *
                 this.page.current.scrollHeight
             );
             this.outer.current.scroll({ top, behavior: "smooth" });
