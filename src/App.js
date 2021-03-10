@@ -102,7 +102,7 @@ export default class App extends React.Component {
     this.fraud = React.createRef();
     this.starve = React.createRef();
     this.drugs = React.createRef();
-    this.policeUX = React.createRef()
+    this.policeUX = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -328,8 +328,7 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        In my expert opinion, I think this person is mentally ill.  
-        
+        In my expert opinion, I think this person is mentally ill.
         <div
           style={{
             width: "100%",
@@ -343,19 +342,32 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/2jrc41tbawmkk12/MentallyIll.jpg?dl=0"
-            /></div>
-        <br/> victim of gun violence yourself with no injuries?  Did you hallucinate?  I have been called ADHD for saying I cannot concentrate to get amphedamines (Ritalin) to work diligently.  I have mimicked a kissing contest and took leave of absense to work on thumbprint.us, by the grace of a family conflicted-interest psychologist and a lawyer. These labels are not evidence of danger and these bills are a grave violation of citizens' safety, arming the government but not any angry but peaceful detractors. I've also been called OCD by so-called licensed-professionals because I am good at accounting and technical-architecture.
-        <br/>
-        <br/>
-        The FBI nor Phychologists should decide without evidence of previous violent offenses
-        if someone is dangerous... without evidence! THERE IS NO REASON WHY A
-        &nbsp;
+          />
+        </div>
+        <br /> victim of gun violence yourself with no injuries? Did you
+        hallucinate? I have been called ADHD for saying I cannot concentrate to
+        get amphedamines (Ritalin) to work diligently. I have mimicked a kissing
+        contest and took leave of absense to work on thumbprint.us, by the grace
+        of a family conflicted-interest psychologist and a lawyer. These labels
+        are not evidence of danger and these bills are a grave violation of
+        citizens' safety, arming the government but not any angry but peaceful
+        detractors. I've also been called OCD by so-called
+        licensed-professionals because I am good at accounting and
+        technical-architecture.
+        <br />
+        <br />
+        The FBI nor Phychologists should decide without evidence of previous
+        violent offenses if someone is dangerous... without evidence! THERE IS
+        NO REASON WHY A &nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
             this.policeUX.current.scrollIntoView("smooth");
             this.setState({ highlightPoliceUX: true });
-            setTimeout(() => this.setState({ highlightPoliceUX: false }), 10000);
+            setTimeout(
+              () => this.setState({ highlightPoliceUX: false }),
+              10000
+            );
           }}
         >
           CHECK
@@ -555,8 +567,14 @@ export default class App extends React.Component {
         </div>
         <br />
         "Take your own polls," he says, again making dangerous assumptions to
-        legislate this&nbsp;<span onClick={this.props.goToTop}>crime</span>.
-        Assumptions that&nbsp;
+        legislate this&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={this.props.goToTop}
+        >
+          crime
+        </span>
+        . Assumptions that&nbsp;
         <a href="https://www.isidewith.com/poll/488729614">
           contradict samples of larger numbers
         </a>
@@ -8673,26 +8691,36 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          <span ref={this.policeUX} style={{
-              color: this.state.highlightPoliceUX ? "white" : "",
-              backgroundColor: this.state.highlightPoliceUX ? "rgb(170,100,205)" : ""}}>
           <span
+            ref={this.policeUX}
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              color: this.state.highlightPoliceUX ? "white" : "",
+              backgroundColor: this.state.highlightPoliceUX
+                ? "rgb(170,100,205)"
+                : ""
             }}
           >
-            "I can say that shit",
+            <span
+              style={{
+                fontFamily: '"Hi Melody", cursive'
+              }}
+            >
+              "I can say that shit",
+            </span>
+            &nbsp;exclaims{" "}
+            <a href="https://en.wikipedia.org/wiki/Cronus">
+              Judge Janine Pirro
+            </a>{" "}
+            on a commercial break, as I await my turn to explain the endings of
+            Section 230, after she says, "we will strip 230 protections from
+            platforms." The law without 230 provides that liability is only
+            granted if the writers are PAID or EDITED. To boot, platforms should
+            not be destroying evidence, they should be highlighting illegal
+            threats so other users know what is not acceptable, and
+            investigations without circumstantial/correlative data or not,
+            should be unfettered until a cease and decist order is properly
+            adjunicated.
           </span>
-          &nbsp;exclaims{" "}
-          <a href="https://en.wikipedia.org/wiki/Cronus">Judge Janine Pirro</a>{" "}
-          on a commercial break, as I await my turn to explain the endings of
-          Section 230, after she says, "we will strip 230 protections from
-          platforms." The law without 230 provides that liability is only
-          granted if the writers are PAID or EDITED. To boot, platforms should
-          not be destroying evidence, they should be highlighting illegal
-          threats so other users know what is not acceptable, and investigations
-          without circumstantial/correlative data or not, should be unfettered
-          until a cease and decist order is properly adjunicated.</span>
           <br />
           <br />
           PPP is{" "}
@@ -10776,10 +10804,7 @@ export default class App extends React.Component {
               physically or financially (not valuation but tangible losses)
               neighborhood law is like the sea law but between homes, that's why
               open-carry is also an exhibited&nbsp;
-
-          <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
-            threat
-          </a>
+              <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>
             </span>
             <br />
             <b style={{ textDecoration: "underline" }}>
