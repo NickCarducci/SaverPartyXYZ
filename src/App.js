@@ -327,9 +327,33 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Why does it take more than 10 seconds to pull up criminal backgrounds? Democrats want to be able to withhold approval for 30 days? Holy shit
-        <br/>
-        <br/>
+        Why does it take more than 10 seconds to pull up criminal backgrounds?
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/eqbyjoyvz3xqhsx/Fillabuster.jpg?dl=0"
+          />
+        </div>
+        <br />
+        In what world does it take that long unless you are reading tweets,
+        which should be reported at the time of threat.
+        <br />
+        There is no technological or user experience reason this process should
+        not by asynchronous and ready to ping
+        <br />
+        Democrats want to be able to withhold approval for 30 days? Holy shit
+        <br />
+        <br />
         Drugs as criminal offense causes violence,&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -10690,23 +10714,24 @@ export default class App extends React.Component {
             </span>
             <br />
             <b style={{ textDecoration: "underline" }}>
-              Any further Stimulus is bail out for usurpers, whom forced us
-              under duress or without consent at all to promise someone else's
-              money.
-            </b>{" "}
+              Any further Stimulus is bail out for usurpers
+            </b>
+            , whom forced us under duress or without consent at all to promise
+            someone else's money. Not allowing assets to settle and scalping or
+            renting more than you can use yourself is abuse and market-level
+            colonialism, which is illegal according to Amendment 13 and reason
+            for revolutionary war according to our founding. Lending is also
             <b style={{ textDecoration: "underline" }}>
-              Not allowing assets to settle and scalping or renting more than
-              you can use yourself is abuse and market-level colonialism, which
-              is illegal according to Amendment 13 and reason for revolutionary
-              war according to our founding. Lending is also illegal according
-              to Amendment 14 since you cannot promise share or stock of Amazon
-              if you don't own it, the court will laugh at your lender asking
-              for this. But not for dollars. Why?
-            </b>{" "}
-            I am in debt but have paid more than 1:11 principal of those prices
-            for market-share last-trade valuation of global assets, not three
-            parties of lender/borrower/seller motivated by involuntary servitude
-            and duress of SAVERS BUILDERS AND LABOR (ultimately,
+              illegal according to Amendment 14 since you cannot promise share
+              or stock of Amazon if you don't own it
+            </b>
+            , the court will laugh at your lender asking for this. But not for
+            dollars. Why?
+            <br />
+            <br />I am in debt but have paid more than 1:11 principal of those
+            prices for market-share last-trade valuation of global assets, not
+            three parties of lender/borrower/seller motivated by involuntary
+            servitude and duress of SAVERS BUILDERS AND LABOR (ultimately,
             colonialism-per-market sector by cornering assets and scalping more
             that what you can use yourself, there is no utility exchanged in the
             trade just counterfeit of the demand that has the actual
@@ -10714,7 +10739,8 @@ export default class App extends React.Component {
             <b style={{ textDecoration: "underline" }}>
               and the borrower gets to use the asset while they made a promise
               they have no right to make price-fixed beyond reality.
-            </b>{" "}
+            </b>
+            <br />
             <br />
             gov debt is still being valued as the same payout as personal debt.
             I’m talking about shareholder rights if dollars are shares, which
