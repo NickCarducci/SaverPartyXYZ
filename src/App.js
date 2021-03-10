@@ -100,6 +100,7 @@ export default class App extends React.Component {
     this.financeKills = React.createRef();
     this.cold = React.createRef();
     this.fraud = React.createRef();
+    this.starve = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -325,8 +326,37 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Drugs as criminal ofenses cause violence, prescriptions and said classification of drugs as a crime is abjectly to stop competition with the dollar and traunch classes of people
-        <br/>
+        Drugs as criminal offense causes violence,&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.navbar.current.scrollIntoView("smooth");
+          }}
+        >
+          prescriptions
+        </span>
+        &nbsp;and said classification of&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.jan2018.current.scrollIntoView("smooth");
+            this.setState({ highlightJan2018: true });
+            setTimeout(() => this.setState({ highlightJan2018: false }), 10000);
+          }}
+        >
+          drugs
+        </span>
+        as a crime is abjectly to stop competition with the dollar and
+        traunch&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.starve.current.scrollIntoView("smooth");
+          }}
+        >
+          classes of people
+        </span>
+        <br />
         <div
           style={{
             width: "100%",
@@ -340,10 +370,14 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/nuequy5qj9cf5us/DrugRelatedCrime.jpg?dl=0"
-      /></div>  <br/>
-        Congresspeople are an apparent danger to themselves or others.  I have no proof of this (I actually do, but hypothetically if I didn't I would still sarcastically say), I just have the best opinions
-        <br/>
-        <br/>
+          />
+        </div>{" "}
+        <br />
+        Congresspeople are an apparent danger to themselves or others. I have no
+        proof of this (I actually do, but hypothetically if I didn't I would
+        still sarcastically say), I just have the best opinions
+        <br />
+        <br />
         What would of happened if the Jews were allowed to own guns&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -417,7 +451,8 @@ export default class App extends React.Component {
         </div>
         <br />
         "Take your own polls," he says, again making dangerous assumptions to
-        legislate this&nbsp;<span onClick={this.props.goToTop}>crime</span>. Assumptions that&nbsp;
+        legislate this&nbsp;<span onClick={this.props.goToTop}>crime</span>.
+        Assumptions that&nbsp;
         <a href="https://www.isidewith.com/poll/488729614">
           contradict samples of larger numbers
         </a>
@@ -4504,15 +4539,19 @@ export default class App extends React.Component {
           We are striving for perfection
         </a>
         <div
+          ref={this.drugs}
           style={{
             fontFamily: '"Hi Melody", cursive',
-            color: "grey",
             margin: "10px 0px",
             padding: "10px",
             display: "inline-block",
             border: "1px dotted",
             width: "calc(100% - 20px)",
-            maxWidth: "600px"
+            maxWidth: "600px",
+            color: this.state.highlightJewels ? "white" : "grey",
+            backgroundColor: this.state.highlightJewels
+              ? "rgb(100,170,205)"
+              : ""
           }}
         >
           Cancel all debt, don't let Wolf Blitzer pay them with
@@ -4522,10 +4561,22 @@ export default class App extends React.Component {
           you hurt someone
           <br />
           <br />
-          "Radical libertarianism; drug/chemical abuse." Let them own houses
-          then maybe they wouldn't want to trip balls. In any case you shouldn't
-          concern yourself with how someone spends their lives. For one, I am
-          delaying gratification and getting market share by copyright
+          "Radical libertarianism;&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.navbar.current.scrollIntoView("smooth");
+            }}
+          >
+            drug/chemical abuse
+          </span>
+          ." Let them own houses then maybe they wouldn't want to trip balls. In
+          any case you shouldn't concern yourself with how someone spends their
+          lives. For one, I am delaying gratification and getting market share
+          by copyright
         </div>
         <div
           style={{
@@ -11200,7 +11251,7 @@ export default class App extends React.Component {
         <div id="t1328381052960772096" />
         <div id="t1332874788004622341" />
         <div id="t1332444460958048266" />
-        <div id="t1334325432687226881" />
+        <div ref={this.starve} id="t1334325432687226881" />
         <div id="t1331343453687574531" />
         <div id="t1333518304867217412" />
         <div id="t1333904053886128128" />
