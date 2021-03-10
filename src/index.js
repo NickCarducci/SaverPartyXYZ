@@ -209,6 +209,44 @@ class Index extends React.Component {
                 <br />
                 <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
                 forces that are out to obfuscate and scourge
+                <br />
+                <br />
+                You can tax sales (of end-products, not equity) for
+                free-rider-immutable services, wealth for systematic reparations
+                but really those are torts, and adjunicate torts to repair
+                unjustice; any tax or debt otherwise not only is involuntary
+                slavery and a trust-building monopsony by the government, their
+                contractors and their propograndising conspitators in ratings
+                and education, but debt benefits the bond-holders & interference
+                by tax or credit does nothing for the state of the world or the
+                utilities purchased but raise prices and circumvent Savers who
+                have worked for what they earn. Saver Party represents the
+                people that work or fund entrepreneurs on their&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://vaults.biz"
+                >
+                  customers' time
+                </a>
+                , and do not borrow or lend. It is an obvious&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
+                >
+                  red-herring
+                </a>
+                &nbsp; to help Wall st; yet the Republicans do the same. Saver
+                party exists and represents&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://www.isidewith.com/poll/488729614"
+                >
+                  most Americans
+                </a>
+                . Why call your parties one of the primary two; bipartisanship
+                representing a minority of Americans, and no civil or human
+                rights, is a lie if claiming it to be what people want - or
+                deserve.
               </div>
             </div>
             <App />
