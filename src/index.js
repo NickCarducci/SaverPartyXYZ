@@ -59,6 +59,22 @@ class Index extends React.Component {
               }, 20);
             }
           }}
+          onTouchMove={(e) => {
+            var scrollPlacementHeight = Math.max(70, e.pageY - 70);
+            if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
+              clearTimeout(this.dragMove);
+              this.dragMove = setTimeout(() => {
+                if (scrollPlacementHeight > 70)
+                  this.setState({ scrollPlacementHeight }, () => {
+                    var top = Math.round(
+                      (scrollPlacementHeight / (window.innerHeight - 70)) *
+                        this.page.current.scrollHeight
+                    );
+                    this.outer.current.scroll({ top: top, behavior: "smooth" });
+                  });
+              }, 20);
+            }
+          }}
           /*onDragEnd={(e) => {
             var top = Math.round(
               (window.innerHeight - 70 - e.pageY) / this.state.scrollHeight
