@@ -262,7 +262,7 @@ class Index extends React.Component {
                   color: "rgb(100,200,150)"
                 }}
               >
-                EVERYTHING HAS AN EQUAL AND OPPOSITE REACTION
+                EVERYCREDIT HAS AN EQUAL AND OPPOSITE REACTION
               </a>
             </div>
             <App />
