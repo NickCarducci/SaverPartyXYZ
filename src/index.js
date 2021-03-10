@@ -249,6 +249,22 @@ class Index extends React.Component {
                 deserve.
               </div>
             </div>
+            <div
+              style={{
+                width: "100%",
+                fontSize: "10px",
+                backgroundColor: "rgb(100,150,200)"
+              }}
+            >
+              <a
+                href="https://magnate.company"
+                style={{
+                  color: "rgb(100,200,150)"
+                }}
+              >
+                EVERYTHING HAS AN EQUAL AND OPPOSITE REACTION
+              </a>
+            </div>
             <App />
           </div>
         </div>
