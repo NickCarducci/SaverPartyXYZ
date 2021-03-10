@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        You aren't asking congress for money you are asking people
+      <br />
+      <br />
         Republicans are attesting to my claim that government spending by tax or debt is faster, well after further consideration and experience I must argue that the only speed gained is in stealing copyright by government, otherwise competition from supply is faster
         <br/>
         <br/>
