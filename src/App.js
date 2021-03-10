@@ -321,7 +321,7 @@ export default class App extends React.Component {
         style={{
           marginTop: "7px",
           position: "relative",
-          display: "inline-block",
+          display: "block",
           width: "calc(100% - 7px)",
           maxWidth: "600px",
           height: "min-content"
@@ -374,12 +374,26 @@ export default class App extends React.Component {
           />
         </div>{" "}
         <br />
-        Congresspeople are an apparent danger to themselves or others. I have no
-        proof of this (I actually do, but hypothetically if I didn't I would
-        still sarcastically say), I just have the best opinions
+        Congresspeople are an&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.brookings.current.scrollIntoView("smooth");
+            this.setState({ highlightBrookings: true });
+            setTimeout(
+              () => this.setState({ highlightBrookings: false }),
+              10000
+            );
+          }}
+        >
+          apparent danger
+        </span>
+        &nbsp;to themselves or others. I have no proof of this (I actually do,
+        but hypothetically if I didn't I would still sarcastically say), I just
+        have the best opinions
         <br />
         <br />
-        What would of happened if the Jews were allowed to own guns&nbsp;
+        What would of happened if the Jews were allowed to own guns in&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -10657,20 +10671,20 @@ export default class App extends React.Component {
                 textDecoration: "underline"
               }}
             >
-              The Brookings Institution / NPR advocates for baby bonds
+              The Brookings Institution / NPR advocates for baby bonds , not ubi
+              to close a 10x white wealth gap, while there is 11x gap between
+              finance versus other sectors of employment while only being 5% of
+              60% employed, or about 2% total. black people are 13% of
+              population. talk about missing the Forest for the Trees
+              #macroeconomics #money #markets #economy #socialjustice ____
+              #pricefixing
+              <br />
+              supreme court saying nazi could walk chicago is wrong because
+              there is probable-evidence-of-evidence of motive to do them harm
+              physically or financially (not valuation but tangible losses)
+              neighborhood law is like the sea law but between homes, that's why
+              open-carry is also an exhibited threat
             </span>
-            , not ubi to close a 10x white wealth gap, while there is 11x gap
-            between finance versus other sectors of employment while only being
-            5% of 60% employed, or about 2% total. black people are 13% of
-            population. talk about missing the Forest for the Trees
-            #macroeconomics #money #markets #economy #socialjustice ____
-            #pricefixing
-            <br />
-            supreme court saying nazi could walk chicago is wrong because there
-            is probable-evidence-of-evidence of motive to do them harm
-            physically or financially (not valuation but tangible losses)
-            neighborhood law is like the sea law but between homes, that's why
-            open-carry is also an exhibited threat
             <br />
             <b style={{ textDecoration: "underline" }}>
               Any further Stimulus is bail out for usurpers, whom forced us
@@ -11371,4 +11385,3 @@ export default class App extends React.Component {
     );
   }
 }
-
