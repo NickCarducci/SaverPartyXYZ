@@ -244,8 +244,8 @@ class Index extends React.Component {
                   most Americans
                 </a>
                 . Why call your parties one of the primary two; bipartisanship
-                representing a minority of Americans, and no civil or human
-                rights, is a lie if claiming it to be what people want - or
+                representing a minority of Americans - and no civil or human
+                rights - is a lie, if claiming it to be what people want - or
                 deserve.
               </div>
             </div>
