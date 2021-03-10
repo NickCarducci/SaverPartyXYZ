@@ -5491,7 +5491,7 @@ class BalancedPortfolioAgainstDollars extends React.Component {
   ) => {
     var e = null;
     if (touch) {
-      e = event.originalEvent.touches[0];
+      e = event.touches[0];
     } else {
       e = event;
     }
