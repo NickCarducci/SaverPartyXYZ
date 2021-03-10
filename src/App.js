@@ -327,6 +327,10 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        The FBI should not decide without evidence of previous violent offenses if someone is dangerous... without evidence!
+THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
+        <br/>
+        <br/>
         Look at this angry person, do not give this cunt a gun
          <br/>
         <div
