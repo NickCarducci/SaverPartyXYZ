@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Can someone ask why people "need the money?""  The answer is always a contract that could fall under the impossible doctrine or forced majeure
+        <br/>
+        <br/>
         If you make a bet with a credit card company that if you cannot get the money back, they get nothing, and the government helps them win by claiming your bet was a promise, you have a demonic government
         <br/>
         <br/>
