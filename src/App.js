@@ -325,6 +325,15 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        What would of happened if the Jews were allowed to own guns&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.IRS.current.scrollIntoView("smooth");
+            this.setState({ highlightIRS: true });
+            setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+          }}>1933</span>?  Any conflicted-interested physician can say you are crazy?  Make it based on convictions by violent crime, if not already, per HR.8
+        <br/>
+        <br/>
         Insurance was&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
