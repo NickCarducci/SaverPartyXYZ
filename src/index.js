@@ -218,6 +218,7 @@ class Index extends React.Component {
                 <span
                   //ref={this.law}
                   style={{
+                transition: ".3s ease-in",
                     color: this.state.highlightLaw ? "white" : "",
                     backgroundColor: this.state.highlightLaw
                       ? "rgb(170,100,205)"
