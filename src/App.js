@@ -324,7 +324,11 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        You can tax wealth for free-rider-immutable services and adjunicate torts to repair unjustice, any tax or debt otherwise not only is involuntary slavery but debt benefits the bond-holders.  It is an obvious&nbsp;<a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">red-herring</a>&nbsp;to help Wall st; yet the Republicans do the same.  Saver party exists and represents&nbsp;<a href="https://www.isidewith.com/poll/488729614">most Americans</a>.  Why call your parties one of the primary two; bipartisanship representing a minority of Americans and no civil or human rights is a lie if claiming it to be what people want or deserve.
+        You can tax sales for free-rider-immutable services, wealth for systematic reparations but really those are torts,
+        and adjunicate torts to repair unjustice, any tax or 
+        debt otherwise not only is involuntary slavery but debt 
+        benefits the bond-holders.  It is an 
+        obvious&nbsp;<a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">red-herring</a>&nbsp;to help Wall st; yet the Republicans do the same.  Saver party exists and represents&nbsp;<a href="https://www.isidewith.com/poll/488729614">most Americans</a>.  Why call your parties one of the primary two; bipartisanship representing a minority of Americans and no civil or human rights is a lie if claiming it to be what people want or deserve.
       <br />
       <br />
         $800 million for food. if you didn't&nbsp;<a href="https://foiegras.life">interfere</a>&nbsp;it would be more affordable
