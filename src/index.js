@@ -59,7 +59,8 @@ class Index extends React.Component {
               }, 20);
             }
           }}
-          onTouchMove={(e) => {
+          onTouchMove={(ev) => {
+            var e = ev.touches[0];
             var scrollPlacementHeight = Math.max(70, e.pageY - 70);
             if (scrollPlacementHeight !== this.state.scrollPlacementHeight) {
               clearTimeout(this.dragMove);
