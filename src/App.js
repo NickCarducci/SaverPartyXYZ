@@ -324,6 +324,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        $800 million for food. if you didn't&nbsp;<a href="https://foiegras.life">interfere</a>&nbsp;it would be more affordable
+        <br/>
+        <br/>
         Stop calling stealing for doctors affordable healthcare. nothing about
         debt or price-inelasticity goes towards making healthcare more
         affordable, it does the opposite and monopolizes equity for doctors.
