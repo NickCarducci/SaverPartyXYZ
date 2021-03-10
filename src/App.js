@@ -326,8 +326,11 @@ export default class App extends React.Component {
         You can tax sales (of end-products, not equity) for free-rider-immutable
         services, wealth for systematic reparations but really those are torts,
         and adjunicate torts to repair unjustice; any tax or debt otherwise not
-        only is involuntary slavery and a trust-building monopsony by the government, their contractors and their propograndising conspitators in ratings and education, but debt benefits the bond-holders. It is an
-        obvious&nbsp;
+        only is involuntary slavery and a trust-building monopsony by the
+        government, their contractors and their propograndising conspitators in
+        ratings and education, but debt benefits the bond-holders & interference by tax or credit
+        does nothing for the state of the world or the utilities purchased but
+        raise prices and circumvent Savers who have worked for what they earn. Saver Party represents the people that work or fund entrepreneurs on their&nbsp;<a href="https://vaults.biz">customers' time</a>, and do not borrow or lend.  It is an obvious&nbsp;
         <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
           red-herring
         </a>
