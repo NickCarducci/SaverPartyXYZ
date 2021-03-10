@@ -325,15 +325,31 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        What would of happened if the Jews were allowed to own guns&nbsp;<span
+        What would of happened if the Jews were allowed to own guns&nbsp;
+        <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
             this.IRS.current.scrollIntoView("smooth");
             this.setState({ highlightIRS: true });
             setTimeout(() => this.setState({ highlightIRS: false }), 10000);
-          }}>1933</span>?  Any conflicted-interested physician can say you are crazy?  Make it based on convictions by violent crime, if not already, per HR.8
-        <br/>
-        <br/>
+          }}
+        >
+          1933
+        </span>
+        ? Any conflicted-interested&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.nra.current.scrollIntoView("smooth");
+              this.setState({ highlightNRA: true });
+              setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+            }}
+          >
+            asinine
+          </span>&nbsp;can say you are crazy, are you crazy? Make it
+        based on convictions by violent crime, if not already, per HR.8
+        <br />
+        <br />
         Insurance was&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -360,9 +376,10 @@ export default class App extends React.Component {
         anyreason
         <br />
         <br />
-        "Ninety percent of americans, poll after poll, support HR.1319," claims the adresser of Saver Party with jealousy for having wasted his own life on beleagured ends
-        <br/>
-
+        "Ninety percent of americans, poll after poll, support HR.1319," claims
+        the adresser of Saver Party with jealousy for having wasted his own life
+        on beleagured ends
+        <br />
         <div
           style={{
             width: "100%",
@@ -374,13 +391,19 @@ export default class App extends React.Component {
             style={{
               width: "25%",
               height: "auto"
-            }}            src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
-
-            /></div>
-            <br/>
-            "Take your own polls," he says, again making dangerous assumptions to legislate this crime.  Assumptions that&nbsp;<a href="https://www.isidewith.com/poll/488729614">contradict samples of larger numbers</a><br/>
-        <br/>
-        <br/>
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
+          />
+        </div>
+        <br />
+        "Take your own polls," he says, again making dangerous assumptions to
+        legislate this crime. Assumptions that&nbsp;
+        <a href="https://www.isidewith.com/poll/488729614">
+          contradict samples of larger numbers
+        </a>
+        <br />
+        <br />
+        <br />
         Nancy pelosi saying&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -390,14 +413,14 @@ export default class App extends React.Component {
             setTimeout(() => this.setState({ highlightFintech: false }), 10000);
           }}
         >
-         city council
+          city council
         </span>
-        &nbsp;wants the money as evidence that people
-        across the country want the money to be taken from them. Usually they
-        cite a sample as representing everyone. That wouldn't be permitted as
-        evidence to that claim in court, why does that not matter for
-        congressional hearings - why is she allowed to lie or not be corrected,
-        misleading people everywhere to their detriment
+        &nbsp;wants the money as evidence that people across the country want
+        the money to be taken from them. Usually they cite a sample as
+        representing everyone. That wouldn't be permitted as evidence to that
+        claim in court, why does that not matter for congressional hearings -
+        why is she allowed to lie or not be corrected, misleading people
+        everywhere to their detriment
         <br />
         She says race-based business are forced to shutter - that is only
         contracts subject to impossible doctrine or forced majeure. Without
@@ -412,7 +435,8 @@ export default class App extends React.Component {
         loitering of the borrower and down-payments kept by the creditor. A
         great conspiracy to be aided by Nancy.
         <br />
-        <br/><div
+        <br />
+        <div
           style={{
             width: "100%",
             position: "relative"
@@ -549,7 +573,8 @@ export default class App extends React.Component {
         <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
           "6 million jobs back by the end of the year"
         </a>
-        <br />I could hire them and prices could lower for their living-costs if you didn't&nbsp;
+        <br />I could hire them and prices could lower for their living-costs if
+        you didn't&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -11269,3 +11294,4 @@ export default class App extends React.Component {
     );
   }
 }
+
