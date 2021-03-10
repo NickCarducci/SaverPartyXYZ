@@ -323,11 +323,11 @@ export default class App extends React.Component {
           maxWidth: "600px",
           height: "min-content"
         }}
-      >
-        You can tax sales (of end-products, not equity) for free-rider-immutable services, wealth for
-        systematic reparations but really those are torts, and adjunicate torts
-        to repair unjustice; any tax or debt otherwise not only is involuntary
-        slavery but debt benefits the bond-holders. It is an obvious&nbsp;
+        You can tax sales (of end-products, not equity) for free-rider-immutable
+        services, wealth for systematic reparations but really those are torts,
+        and adjunicate torts to repair unjustice; any tax or debt otherwise not
+        only is involuntary slavery and a trust-building monopsony by the government, their contractors and their propograndising conspitators in ratings and education, but debt benefits the bond-holders. It is an
+        obvious&nbsp;
         <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
           red-herring
         </a>
