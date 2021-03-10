@@ -101,6 +101,7 @@ export default class App extends React.Component {
     this.cold = React.createRef();
     this.fraud = React.createRef();
     this.starve = React.createRef();
+    this.drugs = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -346,7 +347,7 @@ export default class App extends React.Component {
         >
           drugs
         </span>
-        as a crime is abjectly to stop competition with the dollar and
+        &nbsp;as a crime is abjectly to stop competition with the dollar and
         traunch&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -4549,9 +4550,7 @@ export default class App extends React.Component {
             width: "calc(100% - 20px)",
             maxWidth: "600px",
             color: this.state.highlightDrugs ? "white" : "grey",
-            backgroundColor: this.state.highlightDrugs
-              ? "rgb(100,170,205)"
-              : ""
+            backgroundColor: this.state.highlightDrugs ? "rgb(100,170,205)" : ""
           }}
         >
           Cancel all debt, don't let Wolf Blitzer pay them with
@@ -11252,9 +11251,13 @@ export default class App extends React.Component {
         <div id="t1332874788004622341" />
         <div id="t1332444460958048266" />
         <div ref={this.starve} id="t1334325432687226881" />
-        <br/>
-        Civil Rights Act doesn't have to include drug-addicts since Amendment 13/14 protects contributors to society of any predolictions have been vowed to be equally supported by regulators in adjunicating for the aggreived party, or taxing fairly for free-rider-immutable services/goods
-        <br/>
+        <br />
+        Civil Rights Act doesn't have to include drug-addicts since Amendment
+        13/14 protects contributors to society of any predolictions have been
+        vowed to be equally supported by regulators in adjunicating for the
+        aggreived party, or taxing fairly for free-rider-immutable
+        services/goods
+        <br />
         <div id="t1331343453687574531" />
         <div id="t1333518304867217412" />
         <div id="t1333904053886128128" />
@@ -11368,3 +11371,4 @@ export default class App extends React.Component {
     );
   }
 }
+
