@@ -326,7 +326,10 @@ export default class App extends React.Component {
         }}
       >
         Can someone ask why people "need the money?"" The answer is always a
-        contract that could fall under the impossible doctrine or forced majeure.  Need or crucial relief is ALWAYS the recipient's obligations that aren't price-elastic.
+        contract that could fall under the impossible doctrine or forced
+        majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
+        obligations that aren't price-elastic. What is price-elastic shouldn't
+        need to help the supply-side
         <br />
         <br />
         If you want to help poverty from years of financial harm done by judicial malfeasance, tax for it don't double back and pay bond-holders more...
