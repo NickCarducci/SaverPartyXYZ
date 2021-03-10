@@ -330,7 +330,7 @@ export default class App extends React.Component {
         Sounds like the Charleston loophole can only be closed by not having
         shit tech + police dashboard for LITERAL threatening posts or creating a
         loophole for the FBI to keep guns away from people who view violence
-        against themselves as including property and money and should be able to
+        against themselves as including property and money/market(not-accrual, depositary)/vault-share and should be able to
         at least brandish thieves like the cops can to both unarmed and armed
         arrests
         <br />
