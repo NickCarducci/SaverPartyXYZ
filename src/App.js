@@ -343,7 +343,7 @@ export default class App extends React.Component {
               width: "25%",
               height: "auto"
             }}
-            src="https://www.dropbox.com/s/colisik5ph08m3r/NoSoupForYou.jpg?dl=0"
+            src="https://www.dl.dropboxusercontent.com/s/colisik5ph08m3r/NoSoupForYou.jpg?dl=0"
       /></div>  <br/>
         <br/>
         giving people(non-artists) mooney - a good intention but it doesn’t work that way, unless we were without finance(counterfeit-contracts and rent-colonialism); the only obligations that wouldn’t be price-elastic would be free-rider-immutable services. Instead, this money won’t stay in the needy’s pockets, nor will it allow their current wage to be a living one - with lower housing prices by allowing prices-to-drop. The courts allow the adjudication of the creditors’ promises to themselves during this unrequited dollar/market(not-accrual, depositary)/vault-share split, so it doesn’t help at all, except the lender who gets to keep down-payments of borrowers’ customers, as of now
