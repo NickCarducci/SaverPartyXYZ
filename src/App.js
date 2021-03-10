@@ -328,7 +328,26 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        The FBI should not decide without evidence of previous violent offenses
+        In my expert opinion, I think this person is mentally ill.  
+        
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/2jrc41tbawmkk12/MentallyIll.jpg?dl=0"
+            /></div>
+        <br/> victim of gun violence yourself with no injuries?  Did you hallucinate?  I have been called ADHD for saying I cannot concentrate to get amphedamines (Ritalin) to work diligently.  I have mimicked a kissing contest and took leave of absense to work on thumbprint.us, by the grace of a family conflicted-interest psychologist and a lawyer. These labels are not evidence of danger and these bills are a grave violation of citizens' safety, arming the government but not any angry but peaceful detractors. I've also been called OCD by so-called licensed-professionals because I am good at accounting and technical-architecture.
+        <br/>
+        <br/>
+        The FBI nor Phychologists should decide without evidence of previous violent offenses
         if someone is dangerous... without evidence! THERE IS NO REASON WHY A
         &nbsp;
         <span
