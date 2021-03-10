@@ -364,11 +364,17 @@ export default class App extends React.Component {
         You aren't asking congress for money you are asking people
         <br />
         <br />
-        Republicans are attesting to my claim that government spending by tax or debt is faster, well after further consideration and experience I must argue that the only speed gained is in stealing copyright by government, otherwise competition from supply is faster
-        <br/>
-        <br/>
-        Literally this politician just admitted that the Covid "Relief" Bill is to, "Keep the economy afloat."  That either means prevent price-elasticity or trade.  That is illegal, admitting to conspire to prohibit trade or price-fix!
-        <br/>
+        Republicans are attesting to my claim that government spending by tax or
+        debt is faster, well after further consideration and experience I must
+        argue that the only speed gained is in stealing copyright by government,
+        otherwise competition from supply is faster
+        <br />
+        <br />
+        Literally this politician just admitted that the Covid "Relief" Bill is
+        to, "Keep the economy afloat." That either means prevent
+        price-elasticity or trade. That is illegal, admitting to conspire to
+        prohibit trade or price-fix
+        <br />
         <div
           style={{
             width: "100%",
@@ -382,10 +388,12 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/ai5cfuhzjdycc75/FloatEconomy.jpg?dl=0"
-       /></div> <br/>
+          />
+        </div>{" "}
+        <br />
         To steal for people who lost their jobs is doubly not fair
-        <br/>
-        <br/>
+        <br />
+        <br />
         Can someone ask why people "need the money?"" The answer is always a
         contract that could fall under the impossible doctrine or forced
         majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
@@ -393,12 +401,16 @@ export default class App extends React.Component {
         need to help the supply-side
         <br />
         <br />
-        If you want to help poverty from years of financial harm done by judicial malfeasance, tax for it don't double back and pay bond-holders more...
+        If you want to help poverty from years of financial harm done by
+        judicial malfeasance, tax for it don't double back and pay bond-holders
+        more...
         <br />
         <br />
-        If you make a bet with a credit card company that if you cannot get the money back, they get nothing, and the government helps them win by claiming your bet was a promise, you have a demonic government
-        <br/>
-        <br/>
+        If you make a bet with a credit card company that if you cannot get the
+        money back, they get nothing, and the government helps them win by
+        claiming your bet was a promise, you have a demonic government
+        <br />
+        <br />
         Insurance was forced upon us, and is duress. Even if covid isn't&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -420,29 +432,6 @@ export default class App extends React.Component {
         entrepreneurs (bartending, coding) to emerge and provide better quality
         and prices. It only monopolizes service-providers to those that exist,
         making it impossible for Savers to keep their earnings' worth
-        <br />
-        <br />
-        You can tax sales (of end-products, not equity) for free-rider-immutable
-        services, wealth for systematic reparations but really those are torts,
-        and adjunicate torts to repair unjustice; any tax or debt otherwise not
-        only is involuntary slavery and a trust-building monopsony by the
-        government, their contractors and their propograndising conspitators in
-        ratings and education, but debt benefits the bond-holders & interference
-        by tax or credit does nothing for the state of the world or the
-        utilities purchased but raise prices and circumvent Savers who have
-        worked for what they earn. Saver Party represents the people that work
-        or fund entrepreneurs on their&nbsp;
-        <a href="https://vaults.biz">customers' time</a>, and do not borrow or
-        lend. It is an obvious&nbsp;
-        <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
-          red-herring
-        </a>
-        &nbsp; to help Wall st; yet the Republicans do the same. Saver party
-        exists and represents&nbsp;
-        <a href="https://www.isidewith.com/poll/488729614">most Americans</a>.
-        Why call your parties one of the primary two; bipartisanship
-        representing a minority of Americans, and no civil or human rights, is a
-        lie if claiming it to be what people want - or deserve.
         <br />
         <br />
         $800 million for food. if you didn't&nbsp;
