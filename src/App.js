@@ -325,6 +325,32 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Insurance was&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.IRS.current.scrollIntoView("smooth");
+            this.setState({ highlightIRS: true });
+            setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+          }}
+        >
+          forced
+        </span>
+        &nbsp;upon us, and is duress. Even if covid isn't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fraud.current.scrollIntoView("smooth");
+            this.setState({ highlightFraud: true });
+            setTimeout(() => this.setState({ highlightFraud: false }), 10000);
+          }}
+        >
+          mislabeling
+        </span>
+        , it is already illegal to prohibit trade & price-elasticity for
+        anyreason
+        <br />
+        <br />
         Nancy pelosi saying city council wants the money as evidence that people
         across the country want the money to be taken from them. Usually they
         cite a sample as representing everyone. That wouldn't be permitted as
@@ -409,21 +435,6 @@ export default class App extends React.Component {
         If you make a bet with a credit card company that if you cannot get the
         money back, they get nothing, and the government helps them win by
         claiming your bet was a promise, you have a demonic government
-        <br />
-        <br />
-        Insurance was forced upon us, and is duress. Even if covid isn't&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.fraud.current.scrollIntoView("smooth");
-            this.setState({ highlightFraud: true });
-            setTimeout(() => this.setState({ highlightFraud: false }), 10000);
-          }}
-        >
-          mislabeling
-        </span>
-        , it is already illegal to prohibit trade & price-elasticity for
-        anyreason
         <br />
         <br />
         This $1.9t bill will raise prices for goods and services, and be a boon
