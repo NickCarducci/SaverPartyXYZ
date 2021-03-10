@@ -325,6 +325,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        If you make a bet with a credit card company that if you cannot get the money back, they get nothing, and the government helps them win by claiming your bet was a promise, you have a demonic government
+        <br/>
+        <br/>
         Insurance was forced upon us, and is duress. Even if covid isn't&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
