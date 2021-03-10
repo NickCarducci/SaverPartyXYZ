@@ -99,6 +99,7 @@ export default class App extends React.Component {
     this.bobTheBuilder = React.createRef();
     this.financeKills = React.createRef();
     this.cold = React.createRef();
+    this.fraud = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -323,17 +324,42 @@ export default class App extends React.Component {
           maxWidth: "600px",
           height: "min-content"
         }}
-        This bill will raise prices for goods and services, and be a boon to the lending class.  There is no good that comes from this aggrandizing price & ruining opportunities for new producers by bootstrapping entrepreneurs (bartending, coding) to emerge and provide better quality and prices.  It only monopolizes service-providers to those that exist, making it impossible for Savers to keep their earnings' worth
-        <br/>
-        <br/>
+      >
+        Insurance was forced upon us, and is duress. Even if covid isn't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fraud.current.scrollIntoView("smooth");
+            this.setState({ highlightFraud: true });
+            setTimeout(() => this.setState({ highlightFraud: false }), 10000);
+          }}
+        >
+          mislabeling
+        </span>
+        , it is already illegal to prohibit trade & price-elasticity for
+        anyreason
+        <br />
+        <br />
+        This $1.9t bill will raise prices for goods and services, and be a boon
+        to the lending class. There is no good that comes from this aggrandizing
+        price & ruining opportunities for new producers by bootstrapping
+        entrepreneurs (bartending, coding) to emerge and provide better quality
+        and prices. It only monopolizes service-providers to those that exist,
+        making it impossible for Savers to keep their earnings' worth
+        <br />
+        <br />
         You can tax sales (of end-products, not equity) for free-rider-immutable
         services, wealth for systematic reparations but really those are torts,
         and adjunicate torts to repair unjustice; any tax or debt otherwise not
         only is involuntary slavery and a trust-building monopsony by the
         government, their contractors and their propograndising conspitators in
-        ratings and education, but debt benefits the bond-holders & interference by tax or credit
-        does nothing for the state of the world or the utilities purchased but
-        raise prices and circumvent Savers who have worked for what they earn. Saver Party represents the people that work or fund entrepreneurs on their&nbsp;<a href="https://vaults.biz">customers' time</a>, and do not borrow or lend.  It is an obvious&nbsp;
+        ratings and education, but debt benefits the bond-holders & interference
+        by tax or credit does nothing for the state of the world or the
+        utilities purchased but raise prices and circumvent Savers who have
+        worked for what they earn. Saver Party represents the people that work
+        or fund entrepreneurs on their&nbsp;
+        <a href="https://vaults.biz">customers' time</a>, and do not borrow or
+        lend. It is an obvious&nbsp;
         <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
           red-herring
         </a>
@@ -345,9 +371,11 @@ export default class App extends React.Component {
         lie if claiming it to be what people want - or deserve.
         <br />
         <br />
-        $800 million for food. if you didn't&nbsp;<a href="https://foiegras.life">interfere</a>&nbsp;it would be more affordable
-        <br/>
-        <br/>
+        $800 million for food. if you didn't&nbsp;
+        <a href="https://foiegras.life">interfere</a>&nbsp;it would be more
+        affordable
+        <br />
+        <br />
         Stop calling stealing for doctors affordable healthcare. nothing about
         debt or price-inelasticity goes towards making healthcare more
         affordable, it does the opposite and monopolizes equity for doctors.
@@ -355,7 +383,8 @@ export default class App extends React.Component {
         Moody's is abjectly corrupt, no intent declared is required to convict
         for conspiracy to prohibit trade. If the debt contract followed contract
         law, and an unrequited third-parties dollars is wages in changing the
-        payout terms, they wouldn't rate debt well as it is impossible to pay debt 13 times ($82tdebt:$6tcash)
+        payout terms, they wouldn't rate debt well as it is impossible to pay
+        debt 13 times ($82tdebt:$6tcash)
         <br />
         <br />
         You can't give away something you do not take!
@@ -629,43 +658,61 @@ export default class App extends React.Component {
         </a>
         <br />
         <br />
-        Total death rate/population is delayed for 2-3 months now, the
-        first-world population is comprised of mostly&nbsp;
         <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.oldFlu.current.scrollIntoView("smooth");
-            this.setState({ highlightOldFlu: true });
-            setTimeout(() => this.setState({ highlightOldFlu: false }), 10000);
+          style={{
+            display: "inline-block",
+            padding: "4px 10px",
+            transition: ".3s ease-in",
+            borderRadius: "15px",
+            color: this.state.highlightFraud ? "white" : "",
+            backgroundColor: this.state.highlightFraud ? "rgb(170,100,205)" : ""
           }}
+          ref={this.fraud}
         >
-          old
-        </span>
-        &nbsp;people, and the only data we have been given is causes of death
-        which is not only subjective to "
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.experts.current.scrollIntoView("smooth");
-            this.setState({ highlightExperts: true });
-            setTimeout(() => this.setState({ highlightExperts: false }), 10000);
-          }}
-        >
-          experts
-        </span>
-        ," but people with&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.disclosure.current.scrollIntoView("smooth");
-            this.setState({ highlightDisclosure: true });
-            setTimeout(
-              () => this.setState({ highlightDisclosure: false }),
-              10000
-            );
-          }}
-        >
-          conflicts of interest
+          Total death rate/population is delayed for 2-3 months now, the
+          first-world population is comprised of mostly&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.oldFlu.current.scrollIntoView("smooth");
+              this.setState({ highlightOldFlu: true });
+              setTimeout(
+                () => this.setState({ highlightOldFlu: false }),
+                10000
+              );
+            }}
+          >
+            old
+          </span>
+          &nbsp;people, and the only data we have been given is causes of death
+          which is not only subjective to "
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.experts.current.scrollIntoView("smooth");
+              this.setState({ highlightExperts: true });
+              setTimeout(
+                () => this.setState({ highlightExperts: false }),
+                10000
+              );
+            }}
+          >
+            experts
+          </span>
+          ," but people with&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.disclosure.current.scrollIntoView("smooth");
+              this.setState({ highlightDisclosure: true });
+              setTimeout(
+                () => this.setState({ highlightDisclosure: false }),
+                10000
+              );
+            }}
+          >
+            conflicts of interest
+          </span>
         </span>
         <br />
         <div
@@ -5638,7 +5685,8 @@ export default class App extends React.Component {
           >
             cold
           </span>
-          &nbsp;using polymerase chain reaction, the alleged "gold standard."  Gross negligence to&nbsp;
+          &nbsp;using polymerase chain reaction, the alleged "gold standard."
+          Gross negligence to&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -5646,7 +5694,9 @@ export default class App extends React.Component {
               this.setState({ highlightMarx: true });
               setTimeout(() => this.setState({ highlightMarx: false }), 10000);
             }}
-          >physics of epidemiology</span>
+          >
+            physics of epidemiology
+          </span>
           <br />
           <br />
           your B-cells do it right away... it is a trade-off between the 0-9mo
