@@ -102,6 +102,7 @@ export default class App extends React.Component {
     this.fraud = React.createRef();
     this.starve = React.createRef();
     this.drugs = React.createRef();
+    this.policeUX = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -327,12 +328,24 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        The FBI should not decide without evidence of previous violent offenses if someone is dangerous... without evidence!
-THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
-        <br/>
-        <br/>
+        The FBI should not decide without evidence of previous violent offenses
+        if someone is dangerous... without evidence! THERE IS NO REASON WHY A
+        &nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.policeUX.current.scrollIntoView("smooth");
+            this.setState({ highlightPoliceUX: true });
+            setTimeout(() => this.setState({ highlightPoliceUX: false }), 10000);
+          }}
+        >
+          CHECK
+        </span>
+        &nbsp;OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
+        <br />
+        <br />
         Look at this angry person, do not give this cunt a gun
-         <br/>
+        <br />
         <div
           style={{
             width: "100%",
@@ -346,13 +359,15 @@ THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/413lz55kytomja1/AngryGun.jpg?dl=0"
-       /></div> <br/> <br/>
+          />
+        </div>
+        <br />
         Sounds like the Charleston loophole can only be closed by not having
         shit tech + police dashboard for LITERAL threatening posts or creating a
         loophole for the FBI to keep guns away from people who view violence
-        against themselves as including property and money/market(not-accrual, depositary)/vault-share and should be able to
-        at least brandish thieves like the cops can to both unarmed and armed
-        arrests
+        against themselves as including property and money/market(not-accrual,
+        depositary)/vault-share and should be able to at least brandish thieves
+        like the cops can to both unarmed and armed arrests
         <br />
         <br />
         Why does it take more than 10 seconds to pull up criminal backgrounds?
@@ -4151,7 +4166,7 @@ THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
           <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
             Open-carry is threat
           </a>{" "}
-          G-d is judge of soul Territory is self
+          G-d is judge of soul, Territory is self
           <br />
           <br />
           <span
@@ -8639,9 +8654,12 @@ THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
           </span>
           <br />
           <br />
+          <span ref={this.policeUX} style={{
+              color: this.state.highlightPoliceUX ? "white" : "",
+              backgroundColor: this.state.highlightPoliceUX ? "rgb(170,100,205)" : ""}}>
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", cursive',
             }}
           >
             "I can say that shit",
@@ -8655,7 +8673,7 @@ THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
           not be destroying evidence, they should be highlighting illegal
           threats so other users know what is not acceptable, and investigations
           without circumstantial/correlative data or not, should be unfettered
-          until a cease and decist order is properly adjunicated.
+          until a cease and decist order is properly adjunicated.</span>
           <br />
           <br />
           PPP is{" "}
@@ -10738,7 +10756,11 @@ THERE IS NO REASON WHY A CHECK OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
               there is probable-evidence-of-evidence of motive to do them harm
               physically or financially (not valuation but tangible losses)
               neighborhood law is like the sea law but between homes, that's why
-              open-carry is also an exhibited threat
+              open-carry is also an exhibited&nbsp;
+
+          <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
+            threat
+          </a>
             </span>
             <br />
             <b style={{ textDecoration: "underline" }}>
