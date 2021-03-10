@@ -329,7 +329,7 @@ export default class App extends React.Component {
         across the country want the money to be taken from them. Usually they
         cite a sample as representing everyone. That wouldn't be permitted as
         evidence to that claim in court, why does that not matter for
-        congressional hearings
+        congressional hearings - why is she allowed to lie or not be corrected, misleading people everywhere to their detriment
         <br />
         she says race-based business are forced to shutter, that is only
         contracts subject to impossible doctrine or forced majeure. Without
