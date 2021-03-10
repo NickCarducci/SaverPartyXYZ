@@ -371,6 +371,10 @@ export default class App extends React.Component {
         loitering of the borrower and down-payments kept by the creditor. A
         great conspiracy to be aided by Nancy.
         <br />
+        <br/>
+        "Ninety percent of americans, poll after poll, support HR.1319," claims the adresser of Saver Party with jealousy for having wasted his own life on beleagured ends
+        <br/>
+
         <div
           style={{
             width: "100%",
@@ -381,6 +385,22 @@ export default class App extends React.Component {
             alt=""
             style={{
               width: "25%",
+              height: "auto"
+            }}            src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
+
+            /></div>
+            <br/>
+            "Take your own polls," he says, again making dangerous assumptions to legislate this crime.  Assumptions that&nbsp;<a href="https://www.isidewith.com/poll/488729614">contradict samples of larger numbers</a><br/>
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "40%",
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/nbn7uwo1wamspy4/AmericanPockets.jpg?dl=0"
@@ -11228,3 +11248,4 @@ export default class App extends React.Component {
     );
   }
 }
+
