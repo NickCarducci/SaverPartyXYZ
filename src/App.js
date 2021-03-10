@@ -345,7 +345,7 @@ export default class App extends React.Component {
           }}
         >
           drugs
-        </span>&nbsp;
+        </span>
         as a crime is abjectly to stop competition with the dollar and
         traunch&nbsp;
         <span
