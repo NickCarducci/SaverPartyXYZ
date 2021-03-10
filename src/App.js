@@ -324,6 +324,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Stop calling stealing for doctors affordable healthcare. nothing about debt or price-inelasticity goes towards making healthcare more affordable, it does the opposite and monopolizes equity for doctors
+        <br/>
+        <br/>
         You can't give away something you do not take!
         <br />
         <div style={{ columnCount: "2", position: "relative" }}>
