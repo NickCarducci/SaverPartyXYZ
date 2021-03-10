@@ -327,6 +327,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Why does it take more than 10 seconds to pull up criminal backgrounds? Democrats want to be able to withhold approval for 30 days? Holy shit
+        <br/>
+        <br/>
         Drugs as criminal offense causes violence,&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
