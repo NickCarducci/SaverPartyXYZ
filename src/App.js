@@ -351,27 +351,6 @@ export default class App extends React.Component {
         anyreason
         <br />
         <br />
-        Nancy pelosi saying city council wants the money as evidence that people
-        across the country want the money to be taken from them. Usually they
-        cite a sample as representing everyone. That wouldn't be permitted as
-        evidence to that claim in court, why does that not matter for
-        congressional hearings - why is she allowed to lie or not be corrected,
-        misleading people everywhere to their detriment
-        <br />
-        She says race-based business are forced to shutter - that is only
-        contracts subject to impossible doctrine or forced majeure. Without
-        finance (counterfeit-contracts, rent-seeking colonization), these issues
-        would be non-existent. Instead of attacking the source of the issue,
-        Nancy Pelosi wants to help the supply-side.
-        <br />
-        <br />
-        Saying $1t goes to the "pockets of american people" is a grandiose lie -
-        the money is due to obligations until that is reversed for improper
-        waging of funds not under the ownership of the signee of the debt,
-        loitering of the borrower and down-payments kept by the creditor. A
-        great conspiracy to be aided by Nancy.
-        <br />
-        <br/>
         "Ninety percent of americans, poll after poll, support HR.1319," claims the adresser of Saver Party with jealousy for having wasted his own life on beleagured ends
         <br/>
 
@@ -391,7 +370,40 @@ export default class App extends React.Component {
             /></div>
             <br/>
             "Take your own polls," he says, again making dangerous assumptions to legislate this crime.  Assumptions that&nbsp;<a href="https://www.isidewith.com/poll/488729614">contradict samples of larger numbers</a><br/>
-        <div
+        <br/>
+        <br/>
+        Nancy pelosi saying&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fintech.current.scrollIntoView("smooth");
+            this.setState({ highlightFintech: true });
+            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
+          }}
+        >
+         city council
+        </span>
+        &nbsp;wants the money as evidence that people
+        across the country want the money to be taken from them. Usually they
+        cite a sample as representing everyone. That wouldn't be permitted as
+        evidence to that claim in court, why does that not matter for
+        congressional hearings - why is she allowed to lie or not be corrected,
+        misleading people everywhere to their detriment
+        <br />
+        She says race-based business are forced to shutter - that is only
+        contracts subject to impossible doctrine or forced majeure. Without
+        finance (counterfeit-contracts, rent-seeking colonization), these issues
+        would be non-existent. Instead of attacking the source of the issue,
+        Nancy Pelosi wants to help the supply-side.
+        <br />
+        <br />
+        Saying $1t goes to the "pockets of american people" is a grandiose lie -
+        the money is due to obligations until that is reversed for improper
+        waging of funds not under the ownership of the signee of the debt,
+        loitering of the borrower and down-payments kept by the creditor. A
+        great conspiracy to be aided by Nancy.
+        <br />
+        <br/><div
           style={{
             width: "100%",
             position: "relative"
@@ -406,6 +418,201 @@ export default class App extends React.Component {
             src="https://www.dl.dropboxusercontent.com/s/nbn7uwo1wamspy4/AmericanPockets.jpg?dl=0"
           />
         </div>
+        <br />
+        <br />
+        "To help state & local governments with lost revenues," literally
+        admitting intent to violate Sherman Act and the penumbrum of Amendment
+        13/14
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
+          />
+        </div>
+        <span
+          onClick={() => {
+            this.singleSourceOfTruth.current.scrollIntoView("smooth");
+            this.setState({ highlightSingleSource: true });
+            setTimeout(
+              () => this.setState({ highlightSingleSource: false }),
+              10000
+            );
+          }}
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+        >
+          Fraud
+        </span>
+        <br />
+        Why should you be able to take from Savers and compete with
+        non-free-rider-immutable services/purchases? Instead, both parties are
+        acting like monopsonies.
+        <br />
+        <br />
+        If you want to help farmers, suspend property taxes and don't steal from
+        Savers. I will fight you
+        <br />
+        <br />
+        FDIC ensures you that they will bail you out if you invest in them and
+        they fail
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "30%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
+          />
+        </div>
+        <a href="https://www.fdic.gov/">FDIC</a>
+        <br />
+        <br />
+        "A majority of Republicans support this package," claims Jen Psaki not
+        citing a source so we can assume it is an n=842 Monmouth University
+        unshuffled, uncorroborated poll
+        <br />
+        "76% of Americans support this legislation [
+        <a href="https://www.dataforprogress.org/blog/2021/1/22/majority-support-hr1-democracy-reforms">
+          n=1164
+        </a>
+        ]," says this fraud. That's a non-shuffled sample! This is illegal to
+        say... take a fucking statistics class
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/exnqdb6ysogrzbv/SmallUnshuffledSampleProof.jpg?dl=0"
+          />
+        </div>
+        <br />
+        "Biden visits a small business that&nbsp;
+        <a href="https://foiegras.life">benefited</a>
+        &nbsp;from the PPP loan," celebrates Fox News.
+        <br />
+        All it does is raise price, ruin competition of supply for consumers,
+        disenfranchises dollar-owners, and ruins bankruptcy negotiations
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "20%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/v52hi5uv39wuab5/InflationMisunderstanding.png?dl=0"
+          />
+        </div>
+        <br />
+        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+          "6 million jobs back by the end of the year"
+        </a>
+        <br />I could hire them and prices could lower for their living-costs if you didn't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bobTheBuilder.current.scrollIntoView("smooth");
+            this.setState({ highlightBTB: true });
+            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+          }}
+        >
+          {/** qualify/*/}interfere
+        </span>
+        , Mr.&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.flop.current.scrollIntoView("smooth");
+            this.setState({ highlightFlop: true });
+            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+          }}
+        >
+          President
+        </span>
+        <br />
+        <br />
+        The “right to organize” can turn into exclusion, duress or threats if
+        based on dues. Strikes & legal defense therein is good interpretation of
+        the right to organize for demand(of pay) - intent to corner-their own
+        time by collusion should be legally-permissible, unlike for supply.
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/cbscixbo9fkihc8/UnionIncome.jpeg?dl=0"
+          />
+        </div>
+        <br />
+        The Great Depression was caused by paying bonds off/foreclosures, by the
+        way. The income-inequality drop then could be the cessation of
+        passive-income... To&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bobTheBuilder.current.scrollIntoView("smooth");
+            this.setState({ highlightBTB: true });
+            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+          }}
+        >
+          qualify
+        </span>
+        &nbsp;for inclusion in the economy by anything but getting the most you
+        can get by competing with producers to win favor of consumers and skill
+        is discrimination, violation of Amendment 13 by free-riding other
+        contribitions of assets-earnable of that person, and any government
+        action to that end is in violation of Amendment 14
+        <br />
+        <br />
+        Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
+        to bond-holders and more - when you can ban
+        finance(rent,debt,invoice,insurance) for competing with consumers
+        instead and get the&nbsp;
+        <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+          same utility for lower prices
+        </a>
         <br />
         You aren't asking congress for money you are asking people
         <br />
@@ -537,201 +744,6 @@ export default class App extends React.Component {
         <span style={{ textDecoration: "strike-through" }}>
           income earned within retirement accounts,{" "}
         </span>
-        <br />
-        Why should you be able to take from Savers and compete with
-        non-free-rider-immutable services/purchases? Instead, both parties are
-        acting like monopsonies.
-        <br />
-        <br />
-        "To help state & local governments with lost revenues," literally
-        admitting intent to violate Sherman Act and the penumbrum of Amendment
-        13/14
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
-          />
-        </div>
-        <span
-          onClick={() => {
-            this.singleSourceOfTruth.current.scrollIntoView("smooth");
-            this.setState({ highlightSingleSource: true });
-            setTimeout(
-              () => this.setState({ highlightSingleSource: false }),
-              10000
-            );
-          }}
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-        >
-          Fraud
-        </span>
-        <br />
-        <br />
-        If you want to help farmers, suspend property taxes and don't steal from
-        Savers. I will fight you
-        <br />
-        <br />
-        FDIC ensures you that they will bail you out if you invest in them and
-        they fail
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "30%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
-          />
-        </div>
-        <a href="https://www.fdic.gov/">FDIC</a>
-        <br />
-        <br />
-        "A majority of Republicans support this package," claims Jen Psaki not
-        citing a source so we can assume it is an n=842 Monmouth University
-        unshuffled, uncorroborated poll
-        <br />
-        "76% of Americans support this legislation [
-        <a href="https://www.dataforprogress.org/blog/2021/1/22/majority-support-hr1-democracy-reforms">
-          n=1164
-        </a>
-        ]," says this fraud. That's a non-shuffled sample! This is illegal to
-        say... take a fucking statistics class
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/exnqdb6ysogrzbv/SmallUnshuffledSampleProof.jpg?dl=0"
-          />
-        </div>
-        <br />
-        "Biden visits a small business that&nbsp;
-        <a href="https://foiegras.life">benefited</a>
-        &nbsp;from the PPP loan," celebrates Fox News.
-        <br />
-        All it does is raise price, ruin competition of supply for consumers,
-        disenfranchises dollar-owners, and ruins bankruptcy negotiations
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "20%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/v52hi5uv39wuab5/InflationMisunderstanding.png?dl=0"
-          />
-        </div>
-        <br />
-        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-          "6 million jobs back by the end of the year"
-        </a>
-        <br />I could hire them if you didn't&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.bobTheBuilder.current.scrollIntoView("smooth");
-            this.setState({ highlightBTB: true });
-            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
-          }}
-        >
-          {/** qualify/*/}interfere
-        </span>
-        , Mr.&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.flop.current.scrollIntoView("smooth");
-            this.setState({ highlightFlop: true });
-            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
-          }}
-        >
-          President
-        </span>
-        <br />
-        <br />
-        The “right to organize” can turn into exclusion, duress or threats if
-        based on dues. Strikes & legal defense therein is good interpretation of
-        the right to organize for demand(of pay) - intent to corner-their own
-        time by collusion should be legally-permissible, unlike for supply.
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "100%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/cbscixbo9fkihc8/UnionIncome.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        The Great Depression was caused by paying bonds off/foreclosures, by the
-        way. The income-inequality drop then could be the cessation of
-        passive-income... To&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.bobTheBuilder.current.scrollIntoView("smooth");
-            this.setState({ highlightBTB: true });
-            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
-          }}
-        >
-          qualify
-        </span>
-        &nbsp;for inclusion in the economy by anything but getting the most you
-        can get by competing with producers to win favor of consumers and skill
-        is discrimination, violation of Amendment 13 by free-riding other
-        contribitions of assets-earnable of that person, and any government
-        action to that end is in violation of Amendment 14
-        <br />
-        <br />
-        Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
-        to bond-holders and more - when you can ban
-        finance(rent,debt,invoice,insurance) for competing with consumers
-        instead and get the&nbsp;
-        <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
-          same utility for lower prices
-        </a>
         <br />
         <br />
         Doctor on CNN, "We look at the science." No, you retard, you look at
@@ -11248,4 +11260,3 @@ export default class App extends React.Component {
     );
   }
 }
-
