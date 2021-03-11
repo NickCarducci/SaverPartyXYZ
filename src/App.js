@@ -335,6 +335,31 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;<a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
+              setTimeout(() => this.setState({ highlightCold: false }), 10000);
+            }}
+          >
+            cold
+          </span>
+          &nbsp;antibody cold case areas... if there are no symptoms, you're not certifiably sick with a virus deadlier than annual flu.&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.oldFlu.current.scrollIntoView("smooth");
+              this.setState({ highlightOldFlu: true });
+              setTimeout(
+                () => this.setState({ highlightOldFlu: false }),
+                10000
+              );
+            }}
+          >RELEASE THE DEATH RATE POPULATION NUMBERS UN</span>
+        <br/>
+        <br/>
         "
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -11906,4 +11931,3 @@ export default class App extends React.Component {
     );
   }
 }
-
