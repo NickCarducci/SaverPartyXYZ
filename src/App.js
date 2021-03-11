@@ -334,6 +334,13 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        We can open without vaccines. Covid is not spread in the air.  only particles small enough for brownian motion is everywhere in the atmostphere.  Larger particles do not take up as much space as oxygen or carbon-oxygen(s), they either rise per temperature if cold out or drop immediately due to it's photons being pulled by the earth's electrons
+        <br/>
+        New Jersianist comments of an extrapolated sample to find a minary-majority conclusion<br/>
+        <br/>
+        "Working adults" to buold trusts in stead of people who have never had money
+        <br/>
+        <br/>
         Selling Out the Community <br />
         <div
           style={{
