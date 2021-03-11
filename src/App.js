@@ -11552,7 +11552,13 @@ export default class App extends React.Component {
         <br />
         <EmploymentHours showM1={this.state.showM1} />
         <EmploymentVelocity showM1={this.state.showM1} />
-        Like cheetos and oreos, $30Debt vs. $1 (m1 is worse, this must be because currencyComponentOfM1 has been different than M1 for a while, not just the March 2020 change
+        Like cheetos and oreos, $30Debt vs. $1 (m1 is worse, this must be
+        because currencyComponentOfM1 has been different than M1 for a while,
+        not just&nbsp;
+        <a href="https://fred.stlouisfed.org/series/M1SL">
+          the March 2020 change
+        </a>
+        )
         <EmploymentVersusDebtHours showM1={this.state.showM1} />
         <div style={{ display: "flex" }}>
           <div
