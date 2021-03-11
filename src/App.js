@@ -66,7 +66,7 @@ export default class App extends React.Component {
     this.brookings = React.createRef();
     this.booker = React.createRef();
     this.jewels = React.createRef();
-    this.insurance = React.createRef();
+    this.prisonersDuress = React.createRef();
     this.covidrelief = React.createRef();
     this.experts = React.createRef();
     this.stats = React.createRef();
@@ -420,7 +420,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.insurance.current.scrollIntoView("smooth");
+            this.prisonersDuress.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -2086,7 +2086,7 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
             onClick={() => {
-              this.insurance.current.scrollIntoView("smooth");
+              this.prisonersDuress.current.scrollIntoView("smooth");
               this.setState({ highlightInsurance: true });
               setTimeout(
                 () => this.setState({ highlightInsurance: false }),
@@ -2532,7 +2532,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.insurance.current.scrollIntoView("smooth");
+            this.prisonersDuress.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -3998,7 +3998,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.insurance.current.scrollIntoView("smooth");
+            this.prisonersDuress.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -4106,6 +4106,14 @@ export default class App extends React.Component {
             insurance companies cease in advertising that they save money or
             curate efficiently
           </a>
+          <br/>
+          <br/>
+            insurance is not subscription-membership because one person's
+            subscription does not go towards someone else's, it goes to pay for
+            their non-monopsony, individual servicing. insurance is duressful
+            trade, by invoice, gift-certificate or max-expense, prohibiting
+            trade and causing slavery just the same as debt
+           
         </div>
         <i
           style={{
@@ -4594,12 +4602,7 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Pacifico", cursive',
                 textDecoration: "underline",
-                color: this.state.highlightInsurance ? "white" : "grey",
-                backgroundColor: this.state.highlightInsurance
-                  ? "rgb(170,100,205)"
-                  : ""
               }}
-              ref={this.insurance}
               onClick={() => {
                 this.covidrelief.current.scrollIntoView("smooth");
                 this.setState({ highlightCovidRelief: true });
@@ -10708,13 +10711,6 @@ export default class App extends React.Component {
             desist. A warning from a complaint that a court can lay instead of
             bonds and fines, before an incident occurs
             <br /> <br />
-            insurance is not subscription-membership because one person's
-            subscription does not go towards someone else's, it goes to pay for
-            their non-monopsony, individual servicing. insurance is duressful
-            trade, by invoice, gift-certificate or max-expense, prohibiting
-            trade and causing slavery just the same as debt
-            <br />
-            <br />
             the law of banishing involuntary slavery by people that own the
             dollars that use to promise, duress of those that borrow to match
             fixed-prices, or unequal protection of corporate shares vs dollars
@@ -11940,3 +11936,4 @@ export default class App extends React.Component {
     );
   }
 }
+
