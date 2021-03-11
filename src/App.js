@@ -350,12 +350,16 @@ export default class App extends React.Component {
         to be enough
         <br />
         <br />
-        "half children in poverty, out of poverty due to HR 1319," says VP Harris; nc: are you counting accrual payable?
-        <br/>
-        <br/>
-        POLL REPORTERS NEED TO&nbsp;<a href="https://humanharvest.info">CITE (duty to warn)</a>&nbsp;SAMPLE SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN USD
-        <br/>
-        <br/>
+        "half children in poverty, out of poverty due to HR 1319," says VP
+        Harris; nc: are you counting accrual payable?
+        <br />
+        <br />
+        POLL REPORTERS NEED TO&nbsp;
+        <a href="https://humanharvest.info">CITE (duty to warn)</a>&nbsp;SAMPLE
+        SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN
+        USD
+        <br />
+        <br />
         loser---winner
         <br />
         Get the Luddites*!
@@ -11600,10 +11604,6 @@ export default class App extends React.Component {
             &times;close
           </div>
         )}
-        Home value + interest expected === Bondvalue === 13*cash
-        <br />
-        debt/cash === 13/1 or 13:1 or 1300%
-        <br />
         <div ref={this.employmentOfOne}>
           <Employ2Pop />
         </div>
@@ -11701,6 +11701,11 @@ export default class App extends React.Component {
         </a>
         )
         <EmploymentVersusDebtHours showM1={this.state.showM1} />
+        <br />
+        Home value + interest expected === Bondvalue === 13*cash
+        <br />
+        debt/cash === 13/1 or 13:1 or 1300%
+        <br />
         <CurrencyPerCitizen showM1={this.state.showM1} />
         <div style={{ display: "flex" }}>
           <div
