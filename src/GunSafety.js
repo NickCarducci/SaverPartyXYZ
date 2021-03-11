@@ -28,13 +28,20 @@ class GunSafety extends React.Component {
         are not evidence of danger and these bills are a grave violation of
         citizens' safety, arming the government but not any angry but peaceful
         detractors. I've also been called OCD by so-called
-        licensed-professionals because I am good at accounting and
+        licensed-professionals because I am good at&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={this.props.injury}
+        >
+          accounting
+        </span>
+        &nbsp;and
         technical-architecture.
         <br />
         <br />
         The FBI nor Phychologists should decide without evidence of previous
         violent offenses if someone is dangerous... without evidence! THERE IS
-        NO REASON WHY A &nbsp;
+        NO REASON WHY A&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={this.props.policeUX}
@@ -229,3 +236,4 @@ class GunSafety extends React.Component {
   }
 }
 export default GunSafety;
+
