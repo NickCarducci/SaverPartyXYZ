@@ -26,6 +26,7 @@ class Index extends React.Component {
     this.setState({ top: scrollTop === 0, scrollPlacementHeight });
   };
   handleMove = (ev, touch) => {
+    ev.stopPropagation();
     var e = null;
     if (touch) {
       e = ev.touches[0];
