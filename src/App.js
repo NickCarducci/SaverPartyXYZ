@@ -334,8 +334,19 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        "stabilize education system?" That is not stable, only settled trade
-        (nothing outstanding), is stable. you are paying off the&nbsp;
+        "stabilize education system?" That is not&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fintech.current.scrollIntoView("smooth");
+            this.setState({ highlightFintech: true });
+            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
+          }}
+        >
+          stable
+        </span>
+        , only settled trade (nothing outstanding), is stable. you are paying
+        off the&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -11785,3 +11796,4 @@ export default class App extends React.Component {
     );
   }
 }
+
