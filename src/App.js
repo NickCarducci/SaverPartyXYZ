@@ -336,19 +336,40 @@ export default class App extends React.Component {
         Selling Out the Community <br />
         <div
           style={{
-            width: "100%",
-            position: "relative"
+            display: "flex"
           }}
         >
-          <img
-            alt=""
+          <div
             style={{
-              width: "25%",
-              height: "auto"
+              width: "50%",
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
-          />
-        </div>{" "}
+          >
+            <img
+              alt=""
+              style={{
+                width: "50%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "70%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/zeamltf2rstj61f/IMG_3388.png?dl=0"
+            />
+          </div>
+        </div>
         <br />
         Give money to artists not people that usually get money
         <br />
