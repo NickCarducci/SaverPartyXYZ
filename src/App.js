@@ -8,6 +8,7 @@ import TsyOperating from "./tsyoperating";
 import EmploymentHours from "./employmenthours";
 import EmploymentVelocity from "./employmentvelocity";
 import EmploymentVersusDebtHours from "./employmentversusdebthours";
+import CurrencyPerCitizen from "./currencypercitizen";
 import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 import Employ2Pop from "./employ2pop";
@@ -348,7 +349,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "50%",
+                width: "70%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
@@ -11581,6 +11582,7 @@ export default class App extends React.Component {
         </a>
         )
         <EmploymentVersusDebtHours showM1={this.state.showM1} />
+        <CurrencyPerCitizen showM1={this.state.showM1} />
         <div style={{ display: "flex" }}>
           <div
             style={{
