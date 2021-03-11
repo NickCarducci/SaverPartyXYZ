@@ -320,9 +320,10 @@ export default class App extends React.Component {
     return (
       <div
         style={{
+          right: "20px",
           margin: "7px",
           position: "relative",
-          width: "calc(100% - 7px)",
+          width: "calc(100% - 44px)",
           maxWidth: "600px",
           height: "min-content"
         }}
