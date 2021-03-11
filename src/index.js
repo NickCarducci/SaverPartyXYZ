@@ -57,52 +57,54 @@ class Index extends React.Component {
       <div //onScroll={this.handleScroll}
         ref={this.outer}
       >
-        <div
-          onClick={() => this.setState({ openMenu: !this.state.openMenu })}
-          style={{
-            textAlign: "center",
-            width: "min-content",
-            zIndex: "1",
-            color: "white",
-            fontSize: "9px",
-            position: "fixed",
-            padding: "4px 10px",
-            right: "0px",
-            top: "0px",
-            backgroundColor: "rgb(5,5,5)"
-          }}
-        >
-          <span style={{ display: "flex" }}>EXPLICIT</span>
-          {[
-            "Polling Fraud",
-            "Immigration",
-            "Ownership Fraud",
-            "False Advert in Senate",
-            "Insurance Fraud",
-            "Mission",
-            "Early Comms",
-            "Illegal Gov Decrees",
-            "close"
-          ].map((x) => (
-            <div
-              key={x}
-              style={{
-                width: "max-content",
-                fontSize: !this.state.openMenu ? "0px" : "",
-                opacity: !this.state.openMenu ? "0" : "1",
-                transition: ".3s ease-in",
-                margin: "2px"
-              }}
-            >
-              {x !== "close" ? (
-                x
-              ) : (
-                <span onClick={() => this.setState({ openMenu: false })}>
-                  &times;
-                </span>
-              )}
-            </div>
-          ))}
+        <div style={{ position: "absolute" }}>
+          <div
+            onClick={() => this.setState({ openMenu: !this.state.openMenu })}
+            style={{
+              textAlign: "center",
+              width: "min-content",
+              zIndex: "1",
+              color: "white",
+              fontSize: "9px",
+              position: "fixed",
+              padding: "4px 10px",
+              right: "0px",
+              top: "0px",
+              backgroundColor: "rgb(5,5,5)"
+            }}
+          >
+            <span style={{ display: "flex" }}>EXPLICIT</span>
+            {[
+              "Polling Fraud",
+              "Immigration",
+              "Ownership Fraud",
+              "False Advert in Senate",
+              "Insurance Fraud",
+              "Mission",
+              "Early Comms",
+              "Illegal Gov Decrees",
+              "close"
+            ].map((x) => (
+              <div
+                key={x}
+                style={{
+                  width: "max-content",
+                  fontSize: !this.state.openMenu ? "0px" : "",
+                  opacity: !this.state.openMenu ? "0" : "1",
+                  transition: ".3s ease-in",
+                  margin: "2px"
+                }}
+              >
+                {x !== "close" ? (
+                  x
+                ) : (
+                  <span onClick={() => this.setState({ openMenu: false })}>
+                    &times;
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
         <div
           onDrag={this.handleMove}
