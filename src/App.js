@@ -3843,15 +3843,19 @@ export default class App extends React.Component {
           vaccines into arms"; Neanderthals invented the wheel or whatever
         </i>
         <div
+        ref={this.prisonersDuress}
           style={{
             fontFamily: '"Hi Melody", cursive',
-            color: "grey",
             margin: "10px 0px",
             padding: "10px",
 
             border: "1px dotted",
             width: "calc(100% - 20px)",
-            maxWidth: "600px"
+            maxWidth: "600px",
+            color: this.state.highlightPrisonersDuress ? "white" : "grey",
+            backgroundColor: this.state.highlightPrisonersDuress
+              ? "rgb(170,100,205)"
+              : "",
           }}
         >
           <a href="https://en.wikipedia.org/wiki/Denis_McDonough">
@@ -3861,6 +3865,27 @@ export default class App extends React.Component {
           <br />
           AARP organization profile. Contributions in the 2020 cycle: $216510.
           Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
+          <br />
+          <br />
+          Medishare claims, "You can save on health costs: $500,000/year when switching."  That answer is wrong still since you paused and said ", the answer is an emphatic yes" where the colon is to obfuscate and gaslight that Medicare, in conjunction with (how you actually operate, not&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+              setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}>relative change</span>) other&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+              setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}>insurance</span>&nbsp;you CANNOT say it saves money to abet invoices and instigate by duress cross party risk for what would be without invoices just gift certificates (not gift cards) for individual buyers (you would be a classified ads business if you want to "curate").  I am the one that made&nbsp;<a href="https://www.researchgate.net/publication/346041766_The_FTC_has_responded_to_my_complaints_and_so_has_the_industry_Allstate_Progressive_Geico_all_say_they_save_you_money_by_switching_or_bundling_yet_neo-insurance_companies_like_CarShieldUSA_still_says_">insurance companies cease in advertising that they save money or curate efficiently</a> 
         </div>
         <i
           style={{
@@ -5768,8 +5793,17 @@ export default class App extends React.Component {
           }}
         >
           splitting dollars of entrepreneurs and labor without consent for those
-          who lost there jobs and businesses who lost income is anti-competitive
-          insurance fraud, regardless if the late population stats are abnormal
+          who lost there jobs and businesses who lost income is anti-competitive&nbsp;
+          <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}>insurance</span>&nbsp;fraud, regardless if the late population stats are abnormal
           (they aren't)
           <br />
           landlord, lender and invoicer get the money right? That’s what the
@@ -6152,7 +6186,16 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            insurance to pool their demand capacity and risk and instigating
+            insurance to&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}>pool</span>&nbsp;their demand capacity and risk and instigating
             themselves to prisoners' dilemma of duress
           </span>
           <br />
@@ -7028,8 +7071,17 @@ export default class App extends React.Component {
             individual marginal price-discretion
           </a>
           <br />
-          “When the characters had growing expenses, we made saving on
-          insurance, easy.” Hahahaha <a href="https://usaa.com">USAA</a>
+          “When the characters had growing expenses, we made saving on&nbsp;
+          <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}>insurance</span>, easy.” Hahahaha <a href="https://usaa.com">USAA</a>
           <br />
           As you can see from the photo, my muscle (flexed) is malformed and my
           patella locks upwards, and this Medicare doctor has the gaul to say it
@@ -7060,7 +7112,15 @@ export default class App extends React.Component {
           <br />
           <br />
           He wanted me to do physical therapy again to proceed to what he said
-          he would never do bone marrow transfusion, but that is a problem with
+          he would never do bone marrow transfusion, but that is a&nbsp;<span style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}>problem</span>&nbsp;with
           Medicare/Pre-paid Cross-party duress inducing prisoners’ dilemma
           insurance scourges. I do squats on my own but it has been 4 years
           since my injury and I feel like I am losing my leg. I used to be able
@@ -7459,7 +7519,17 @@ export default class App extends React.Component {
           <br />
           Me
           <br />
-          Not help if invoices and rent/insurance non-certificate broker on a
+          Not help if invoices and rent/insurance&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}
+          >non-certificate</span>&nbsp;broker on a
           classified ads site is illegal, since price-would not be prohibited in
           being elastic. In either case, you have no right to promise Lendio my
           money, you scourge
@@ -7591,7 +7661,16 @@ export default class App extends React.Component {
             Third Reich who campaigned on ending financial discrimination by
             non-jews
           </a>
-          , off the air, a scourge through insurance companies owned by{" "}
+          , off the air, a scourge through&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}>insurance companies</span>&nbsp;owned by{" "}
           <a
             style={{
               fontFamily: '"Hi Melody", cursive'
@@ -7621,7 +7700,16 @@ export default class App extends React.Component {
           supply-side masked as altruism. ban invoices of borrowers' customers'
           money, rent-colonist interventionist non-producing slave-drivers,
           counterfeit-contracts of borrowers' customers' money and insurance
-          prisoner's dilemma duress to not fight fire with fire.
+          prisoner's dilemma<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}>duress</span>&nbsp;to not fight fire with fire.
           <br />
           stay afloat with stolen money (+ involuntary servitude to pay it back
           and to the benefit of bond-holders), how about get them out of the
@@ -7694,7 +7782,15 @@ export default class App extends React.Component {
         </i>{" "}
         <br />
         this is fraud and forgoes bootstrapping entrepreneurs and labor. why not
-        some more demand side policies like making invoices/debt/rent/insurance
+        some more demand side policies like making invoices/debt/rent/<span style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}>insurance</span>&nbsp;
         illegal by precedent, it is already illegal per colonialism, prisoners'
         dilemma and usurped voting rights for being waged in contracts being
         involuntary slavery
@@ -8153,7 +8249,16 @@ export default class App extends React.Component {
             <br />
             you cannot expect people to live off the streets if there is not
             enough money for the obligations, lease-colonists are allowed to
-            corner the market and insurance-duressments are allowed to sell by
+            &nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}>corner the market</span> and insurance-duressments are allowed to sell by
             prisoners' dilemma to keep up with the pooled price or
             counterfeit-promise of invoice
             <br />
@@ -8190,7 +8295,17 @@ export default class App extends React.Component {
           }}
         >
           Unfair discrimination for housing, education and healthcare is caused
-          by lending, invoices, rent and prisoners' dilemma of insurance
+          by lending, invoices, rent and&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}
+          >prisoners' dilemma of insurance</span>
         </div>
         <div
           style={{
