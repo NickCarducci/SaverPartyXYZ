@@ -341,7 +341,7 @@ export default class App extends React.Component {
         <br/>
         on F. Morano show
         <br/>
-        for commodity security deposit receipt, settled economy
+        for commodity security depositAry receipt, settled economy (need repAIration)
         <br/>
       <div
         style={{
