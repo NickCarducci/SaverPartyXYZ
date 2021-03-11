@@ -335,10 +335,21 @@ export default class App extends React.Component {
         }}
       >
         "stabilize education system?" That is not stable, only settled trade
-        (nothing outstanding), is stable. you are paying off the 13:1 or 30:1
-        counterfeit/involuntary-trade. you need to print $76t for there to be enough
-      <br/>
-      <br/>
+        (nothing outstanding), is stable. you are paying off the&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.trueGDP.current.scrollIntoView("smooth");
+            this.setState({ highlightTrueGDP: true });
+            setTimeout(() => this.setState({ highlightTrueGDP: false }), 10000);
+          }}
+        >
+          13:1 or 30:1
+        </span>
+        &nbsp; counterfeit/involuntary-trade. you need to print $76t for there
+        to be enough
+        <br />
+        <br />
         "half children in poverty, out of poverty due to HR 1319," says VP Harris; nc: are you counting accrual payable?
         <br/>
         <br/>
