@@ -334,6 +334,9 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        "half children in poverty, out of poverty due to HR 1319," says VP Harris; nc: are you counting accrual payable?
+        <br/>
+        <br/>
         POLL REPORTERS NEED TO&nbsp;<a href="https://humanharvest.info">CITE (duty to warn)</a>&nbsp;SAMPLE SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN USD
         <br/>
         <br/>
