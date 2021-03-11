@@ -297,7 +297,7 @@ export default class App extends React.Component {
   render() {
     var styleToApply = {
       wordBreak: "break-word",
-      width: "calc(100vw - 15px)",
+      width: "calc(100% - 15px)",
       display: "flex",
       maxWidth: "600px",
       flexDirection: "column",
@@ -312,7 +312,7 @@ export default class App extends React.Component {
     };
     const tweetsStyle = {
       padding: "20px",
-      display: "inline-block",
+
       border: "1px dotted",
       width: "calc(100% - 42px)",
       maxWidth: "600px"
@@ -320,31 +320,32 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          marginTop: "7px",
+          margin: "7px",
           position: "relative",
-          display: "block",
           width: "calc(100% - 7px)",
           maxWidth: "600px",
           height: "min-content"
         }}
-      >Selling Out the Community  <br/>
-      <div
-        style={{
-          width: "100%",
-          position: "relative"
-        }}
       >
-        <img
-          alt=""
+        Selling Out the Community <br />
+        <div
           style={{
-            width: "25%",
-            height: "auto"
+            width: "100%",
+            position: "relative"
           }}
-          src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
-     /></div>   <br/>
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/48sw3p85vu44vvv/SellingOutTheCommunity.jpg?dl=0"
+          />
+        </div>{" "}
+        <br />
         Give money to artists not people that usually get money
-        <br/>
-       
+        <br />
         <div
           style={{
             width: "100%",
@@ -358,11 +359,21 @@ export default class App extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/colisik5ph08m3r/NoSoupForYou.jpg?dl=0"
-      /></div>  <br/>
-        <br/>
-        giving people(non-artists) mooney - a good intention but it doesn’t work that way, unless we were without finance(counterfeit-contracts and rent-colonialism); the only obligations that wouldn’t be price-elastic would be free-rider-immutable services. Instead, this money won’t stay in the needy’s pockets, nor will it allow their current wage to be a living one - with lower housing prices by allowing prices-to-drop. The courts allow the adjudication of the creditors’ promises to themselves during this unrequited dollar/market(not-accrual, depositary)/vault-share split, so it doesn’t help at all, except the lender who gets to keep down-payments of borrowers’ customers, as of now
-        <br/>
-        <br/>
+          />
+        </div>
+        <br />
+        giving people(non-artists) mooney - a good intention but it doesn’t work
+        that way, unless we were without finance(counterfeit-contracts and
+        rent-colonialism); the only obligations that wouldn’t be price-elastic
+        would be free-rider-immutable services. Instead, this money won’t stay
+        in the needy’s pockets, nor will it allow their current wage to be a
+        living one - with lower housing prices by allowing prices-to-drop. The
+        courts allow the adjudication of the creditors’ promises to themselves
+        during this unrequited dollar/market(not-accrual,
+        depositary)/vault-share split, so it doesn’t help at all, except the
+        lender who gets to keep down-payments of borrowers’ customers, as of now
+        <br />
+        <br />
         In my expert opinion, I think this person is mentally ill.
         <div
           style={{
@@ -1015,7 +1026,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -1140,7 +1150,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -1327,7 +1337,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -1618,7 +1627,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -1928,7 +1936,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -1986,7 +1993,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -2115,7 +2121,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -2566,7 +2571,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -2772,7 +2777,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -2809,7 +2814,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -3123,7 +3128,7 @@ export default class App extends React.Component {
             style={{
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
@@ -3180,7 +3185,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -3272,7 +3277,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -3425,7 +3430,7 @@ export default class App extends React.Component {
         <div
           style={{
             wordBreak: "break-word",
-            display: "inline-block",
+
             border: "3px solid blue",
             borderRadius: "10px",
             padding: "10px",
@@ -3526,7 +3531,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -3629,7 +3634,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -3840,7 +3845,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -3965,7 +3970,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4000,7 +4005,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4032,7 +4037,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4070,7 +4075,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4104,7 +4109,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4130,7 +4135,6 @@ export default class App extends React.Component {
         <i
           ref={this.homebuilder}
           style={{
-            display: "inline-block",
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -4172,7 +4176,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4184,7 +4188,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -4229,7 +4233,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4299,7 +4303,7 @@ export default class App extends React.Component {
           ref={this.stats}
           style={{
             fontFamily: '"Hi Melody", cursive',
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -4315,7 +4319,6 @@ export default class App extends React.Component {
           Green[90%]) Gallup does n 2,700 usually each survey call{" "}
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -4327,7 +4330,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -4339,7 +4341,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -4361,7 +4362,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4390,7 +4391,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4453,7 +4454,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -4572,7 +4572,7 @@ export default class App extends React.Component {
               Insurance
             </span>
           </div>
-          <span style={{ display: "inline-block", fontWeight: "normal" }}>
+          <span style={{ fontWeight: "normal" }}>
             for finance fraud/prohibit price-elasticity + enslave +&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -4674,7 +4674,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4687,7 +4687,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4701,7 +4701,7 @@ export default class App extends React.Component {
             fontFamily: '"Hi Melody", cursive',
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -4738,7 +4738,7 @@ export default class App extends React.Component {
             fontFamily: '"Hi Melody", cursive',
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -4781,7 +4781,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -4828,7 +4828,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -4857,7 +4857,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -5073,7 +5072,7 @@ export default class App extends React.Component {
             style={{
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
@@ -5175,7 +5174,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -5219,7 +5217,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -5312,7 +5310,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -5341,7 +5338,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -5394,7 +5390,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5457,7 +5453,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -5503,7 +5499,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -5550,7 +5545,6 @@ export default class App extends React.Component {
             in connection with the 6th is all [FBI] cares about.
             <span
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -5637,7 +5631,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5661,7 +5655,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5678,7 +5672,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5696,7 +5690,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: this.state.highlightSpittleNext
                 ? "1px blue solid"
                 : "1px grey dotted",
@@ -5720,7 +5714,6 @@ export default class App extends React.Component {
           &nbsp;
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -5733,7 +5726,6 @@ export default class App extends React.Component {
           &nbsp;
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -5746,7 +5738,6 @@ export default class App extends React.Component {
           like-sized particles &nbsp;
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -5761,7 +5752,6 @@ export default class App extends React.Component {
           and prolonging the pandemic &nbsp;
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -5808,7 +5798,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5841,7 +5831,7 @@ export default class App extends React.Component {
             style={{
               fontWeight: "bolder",
               textDecoration: "underline",
-              display: "inline-block",
+
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -5894,7 +5884,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5923,7 +5913,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -5960,7 +5950,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6005,7 +5995,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6082,7 +6072,6 @@ export default class App extends React.Component {
           smell morbidity/dying and{" "}
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6097,7 +6086,6 @@ export default class App extends React.Component {
           which has been proven not to float{" "}
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6114,7 +6102,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6160,7 +6148,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6174,7 +6162,6 @@ export default class App extends React.Component {
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
             textEmphasis: "italics",
 
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -6193,7 +6180,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6210,7 +6196,6 @@ export default class App extends React.Component {
           <span
             ref={this.gdp}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -6260,7 +6245,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6285,7 +6270,6 @@ export default class App extends React.Component {
             and traded against expiring options out of the money like&nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
@@ -6311,7 +6295,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -6335,7 +6319,6 @@ export default class App extends React.Component {
           live streamed from your local&nbsp;
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6407,7 +6390,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -6453,7 +6436,6 @@ export default class App extends React.Component {
           Hasset and Lindsay still looking at real growth instead of{" "}
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6477,7 +6459,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -6490,7 +6472,6 @@ export default class App extends React.Component {
           means it would have been done already. I am the first to make the{" "}
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6503,7 +6484,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6544,7 +6524,6 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
 
-                display: "inline-block",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightNSFFraud ? "white" : "",
@@ -6585,7 +6564,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6622,7 +6600,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -6640,7 +6618,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -6664,7 +6642,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "grey"
@@ -6709,7 +6686,6 @@ export default class App extends React.Component {
           <span
             ref={this.oldFlu}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightOldFlu ? "white" : "black",
@@ -6723,7 +6699,6 @@ export default class App extends React.Component {
             people to&nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6735,7 +6710,6 @@ export default class App extends React.Component {
             &nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6747,7 +6721,6 @@ export default class App extends React.Component {
             &nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6772,7 +6745,6 @@ export default class App extends React.Component {
             given 2020 deaths are so abnormally low, but higher due to&nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6784,7 +6756,6 @@ export default class App extends React.Component {
             &nbsp;(not the&nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6796,7 +6767,6 @@ export default class App extends React.Component {
             &nbsp;to&nbsp;
             <a
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 border: "1px solid",
                 color: this.state.highlightOldFlu ? "white" : "grey"
@@ -6834,7 +6804,6 @@ export default class App extends React.Component {
           <span
             ref={this.congressVsCongress}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightCVC ? "white" : "black",
@@ -6876,7 +6845,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               border: "1px solid",
               color: "black"
@@ -6889,7 +6857,6 @@ export default class App extends React.Component {
           <a
             ref={this.populism}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightItaly ? "white" : "black",
@@ -6920,7 +6887,6 @@ export default class App extends React.Component {
           <span
             ref={this.congressVsCongress}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightCVC ? "white" : "black",
@@ -6944,7 +6910,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -6979,7 +6945,7 @@ export default class App extends React.Component {
             transition: ".3s ease-in",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7168,7 +7134,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7216,7 +7182,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7313,7 +7279,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7342,7 +7308,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7370,7 +7336,7 @@ export default class App extends React.Component {
             style={{
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
@@ -7452,7 +7418,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7473,7 +7439,6 @@ export default class App extends React.Component {
         <i
           ref={this.baltimore}
           style={{
-            display: "inline-block",
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
             textEmphasis: "italics",
             padding: "4px 10px",
@@ -7494,7 +7459,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7519,7 +7484,6 @@ export default class App extends React.Component {
               );
             }}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightRoyalty ? "white" : "",
@@ -7547,7 +7511,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7598,7 +7562,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7627,7 +7591,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7656,7 +7620,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7694,7 +7658,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7715,7 +7679,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7764,7 +7728,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             flexDirection: "column",
             alignItems: "center",
             border: "1px dotted",
@@ -7818,7 +7782,6 @@ export default class App extends React.Component {
           <span
             ref={this.italy}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightItaly ? "white" : "",
@@ -8001,7 +7964,6 @@ export default class App extends React.Component {
           <span
             ref={this.politics}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8020,7 +7982,7 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", cursive',
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -8213,7 +8175,6 @@ export default class App extends React.Component {
             ref={this.colonization}
             href="https://foiegras.life"
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8239,7 +8200,6 @@ export default class App extends React.Component {
           <span
             ref={this.gdp1}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8291,7 +8251,7 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", cursive',
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -8320,7 +8280,6 @@ export default class App extends React.Component {
             If
             <span
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -8400,7 +8359,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8415,7 +8374,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8458,7 +8417,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8492,7 +8451,6 @@ export default class App extends React.Component {
           <span
             ref={this.bail}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8529,7 +8487,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8559,7 +8517,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8600,7 +8558,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8614,7 +8572,6 @@ export default class App extends React.Component {
           <a
             ref={this.decide}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8666,7 +8623,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8686,7 +8643,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8700,7 +8657,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8710,7 +8667,7 @@ export default class App extends React.Component {
             ref={this.tea}
             style={{
               fontWeight: "bolder",
-              display: "inline-block",
+
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -8890,7 +8847,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8947,7 +8904,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -8981,7 +8938,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9008,7 +8965,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9033,7 +8990,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9058,7 +9015,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9081,7 +9038,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9123,7 +9080,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9195,7 +9152,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9230,7 +9187,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9269,7 +9226,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9296,7 +9253,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9377,7 +9334,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9401,7 +9358,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9473,7 +9430,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9514,7 +9471,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9538,7 +9495,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9562,7 +9519,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9588,7 +9545,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9634,7 +9591,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9649,7 +9606,6 @@ export default class App extends React.Component {
           <span
             ref={this.foreignpolicy}
             style={{
-              display: "inline-block",
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -9696,7 +9652,7 @@ export default class App extends React.Component {
             fontFamily: '"Hi Melody", cursive',
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -9722,7 +9678,7 @@ export default class App extends React.Component {
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px"
@@ -9749,7 +9705,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             fontWeight: "bolder",
             textDecoration: "underline",
             padding: "4px 10px",
@@ -9765,7 +9720,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -9943,7 +9897,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: this.state.why ? "20px" : "0px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px",
@@ -9987,7 +9941,7 @@ export default class App extends React.Component {
               fontWeight: "normal",
               margin: "10px 0px",
               padding: "10px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -10040,7 +9994,7 @@ export default class App extends React.Component {
               }}*/
             style={{
               fontWeight: "normal",
-              display: "inline-block",
+
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
@@ -10124,8 +10078,6 @@ export default class App extends React.Component {
         <span
           ref={this.valuation}
           style={{
-            display: "inline-block",
-
             position: "relative",
             padding: "4px 10px",
             transition: ".3s ease-in",
@@ -10168,7 +10120,6 @@ export default class App extends React.Component {
           style={{
             position: "relative",
 
-            display: "inline-block",
             padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
@@ -10211,7 +10162,6 @@ export default class App extends React.Component {
         <div
           ref={this.invite}
           style={{
-            display: "inline-block",
             marginTop: "20px",
             borderTop: "1px solid black",
             maxWidth: "600px",
@@ -10360,7 +10310,6 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            display: "inline-block",
             width: "100%",
             maxWidth: "500px",
             alignItems: "flex-start"
@@ -10385,7 +10334,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px"
@@ -10511,7 +10460,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px"
@@ -10543,7 +10492,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px"
@@ -10609,7 +10558,7 @@ export default class App extends React.Component {
         <div
           style={{
             padding: "20px",
-            display: "inline-block",
+
             border: "1px dotted",
             width: "100%",
             maxWidth: "600px"
@@ -10706,7 +10655,7 @@ export default class App extends React.Component {
             <span
               style={{
                 padding: "20px",
-                display: "inline-block",
+
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -10727,7 +10676,7 @@ export default class App extends React.Component {
             <span
               style={{
                 padding: "20px",
-                display: "inline-block",
+
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -10753,7 +10702,6 @@ export default class App extends React.Component {
             <span
               ref={this.marx}
               style={{
-                display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightMarx ? "white" : "",
@@ -10790,7 +10738,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
 
               width: "100%",
@@ -10814,7 +10762,6 @@ export default class App extends React.Component {
               style={{
                 position: "relative",
 
-                display: "inline-block",
                 padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
@@ -10900,7 +10847,7 @@ export default class App extends React.Component {
             ref={this.electionTech}
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px",
@@ -10959,7 +10906,7 @@ export default class App extends React.Component {
           <div
             style={{
               padding: "20px",
-              display: "inline-block",
+
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px"
@@ -11543,3 +11490,4 @@ export default class App extends React.Component {
     );
   }
 }
+
