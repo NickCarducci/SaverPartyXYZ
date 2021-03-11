@@ -23,7 +23,6 @@ class Index extends React.Component {
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
-    console.log(scrollTop);
     this.setState({ top: scrollTop === 0, scrollPlacementHeight });
   };
   handleMove = (ev, touch) => {
@@ -46,9 +45,6 @@ class Index extends React.Component {
               (scrollPlacementHeight / (window.innerHeight - 115)) *
                 this.page.current.offsetHeight
             );
-            console.log(this.page.current.offsetHeight);
-            //console.log(this.page.current.scrollHeight);
-            //this.outer.current
             window.scroll({ top, behavior: "smooth" });
           });
         }
