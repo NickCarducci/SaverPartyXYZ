@@ -109,6 +109,7 @@ export default class App extends React.Component {
     this.policeUX = React.createRef();
     this.injury = React.createRef();
     this.sellingOut = React.createRef();
+    this.whyBad = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -285,7 +286,7 @@ export default class App extends React.Component {
     document.getElementById("t1332375252538707972").style.position = "relative";
     document.getElementById("t1332375252538707972").style.width = "100%";
   };
-  componentDidUpdate = () => {
+  componentDidUpdate = (prevProps) => {
     if (
       this.state.lastWidth !== window.innerWidth ||
       this.state.lastHeight !== window.innerHeight
@@ -334,6 +335,42 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        <span
+          style={{
+            display: !this.props.top ? "none" : "flex"
+          }}
+        >
+          <span
+            style={{
+              width: "max-content",
+              transition: "6s ease-in",
+              top: "0px",
+              height: "min-content",
+              fontSize: "20px",
+              alignSelf: "flex-start",
+              color: "white",
+              display: "flex",
+              textAlign: "left",
+              position: "fixed",
+              /* backgroundColor:
+                !this.state.takeOffScreen && this.props.top ? "blue" : "",*/
+              opacity: 0,
+              padding: "4px 10px",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.whyBad.current.scrollIntoView("smooth");
+              this.setState({ highlightWhyBad: true });
+              setTimeout(
+                () => this.setState({ highlightWhyBad: false }),
+                10000
+              );
+            }}
+          >
+            Demand
+          </span>
+        </span>
         Travel can only be supressed by individuals by court order, not
         governments or physicians, federal, state or local
         <br />
@@ -1220,7 +1257,7 @@ export default class App extends React.Component {
         more obligations
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -1263,7 +1300,7 @@ export default class App extends React.Component {
         as fungible with assets/equity apprised as counterfeit, it is&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1299,7 +1336,7 @@ export default class App extends React.Component {
         <br />"
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1392,7 +1429,7 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1444,7 +1481,7 @@ export default class App extends React.Component {
             );
           }}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1465,7 +1502,7 @@ export default class App extends React.Component {
             );
           }}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1546,7 +1583,7 @@ export default class App extends React.Component {
         &nbsp;think&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1724,7 +1761,7 @@ export default class App extends React.Component {
         "Where is it&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1753,7 +1790,7 @@ export default class App extends React.Component {
             );
           }}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1771,7 +1808,7 @@ export default class App extends React.Component {
         <a
           href="https://thumbprint.us"
           style={{
-            //fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            //fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             //textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1852,7 +1889,7 @@ export default class App extends React.Component {
             );
           }}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -1969,7 +2006,7 @@ export default class App extends React.Component {
         as supplier (monopsony), especially if they don't&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -2024,7 +2061,7 @@ export default class App extends React.Component {
           there are enough producers (20+) to deliver&nbsp;
           <span
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -2047,7 +2084,7 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -2091,7 +2128,7 @@ export default class App extends React.Component {
           &nbsp;into hunger/communism/corporatism/
           <span
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -2247,7 +2284,7 @@ export default class App extends React.Component {
             setTimeout(() => this.setState({ highlightStats: false }), 10000);
           }}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -2303,7 +2340,7 @@ export default class App extends React.Component {
               setTimeout(() => this.setState({ highlightStats: false }), 10000);
             }}
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -2460,7 +2497,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder"
             //textDecoration: "underline"
@@ -2484,7 +2521,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder"
             //textDecoration: "underline"
@@ -2520,7 +2557,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder"
             //textDecoration: "underline"
@@ -2537,7 +2574,7 @@ export default class App extends React.Component {
         able to under customers are&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -2593,7 +2630,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder"
             //textDecoration: "underline"
@@ -2665,7 +2702,7 @@ export default class App extends React.Component {
         &nbsp;in the&nbsp;
         <a
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder"
             //textDecoration: "underline"
@@ -2745,7 +2782,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
             //fontWeight: "bolder",
             //textDecoration: "underline"
@@ -2777,7 +2814,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -2934,7 +2971,7 @@ export default class App extends React.Component {
         <i>Many do essential work</i>, but are not{" "}
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -3197,7 +3234,7 @@ export default class App extends React.Component {
         >
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
           >
             "Recovery startup business"
@@ -3210,7 +3247,7 @@ export default class App extends React.Component {
           This only helps government in&nbsp;
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
@@ -3240,7 +3277,7 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
           >
             9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.— 10 No credit shall be
@@ -3293,7 +3330,7 @@ export default class App extends React.Component {
         >
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
           >
             Collective bargain
@@ -3377,7 +3414,7 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
           >
             ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
@@ -3494,7 +3531,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -3547,7 +3584,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -3597,7 +3634,7 @@ export default class App extends React.Component {
         <i
           ref={this.defense}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline",
@@ -3620,7 +3657,7 @@ export default class App extends React.Component {
           Let's not negotitiage&nbsp;
           <i
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -3650,7 +3687,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -3728,7 +3765,7 @@ export default class App extends React.Component {
         </div>{" "}
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -3834,7 +3871,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -3850,7 +3887,7 @@ export default class App extends React.Component {
         <a href="https://nationalsecuritycasino.com">
           <i
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -3861,7 +3898,7 @@ export default class App extends React.Component {
         </a>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -3954,7 +3991,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
             //fontWeight: "bolder",
             //textDecoration: "underline"
@@ -3976,7 +4013,7 @@ export default class App extends React.Component {
           we can battle with any non-manmade virus{" "}
           <i
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder"
             }}
@@ -3986,7 +4023,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4003,7 +4040,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -4021,7 +4058,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4042,7 +4079,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
             //fontWeight: "bolder",
             //textDecoration: "underline"
@@ -4054,7 +4091,7 @@ export default class App extends React.Component {
         <div
           ref={this.insurance}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             padding: "10px",
 
@@ -4127,7 +4164,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -4145,7 +4182,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4164,7 +4201,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -4179,7 +4216,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4219,7 +4256,7 @@ export default class App extends React.Component {
             backgroundColor: this.state.highlightHomebuilder
               ? "rgb(170,100,205)"
               : "",
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -4246,7 +4283,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4258,7 +4295,7 @@ export default class App extends React.Component {
         >
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -4303,7 +4340,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4376,7 +4413,7 @@ export default class App extends React.Component {
         <div
           ref={this.stats}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
 
             border: "1px dotted",
             width: "calc(100% - 20px)",
@@ -4432,7 +4469,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4610,7 +4647,7 @@ export default class App extends React.Component {
             {" "}
             <span
               style={{
-                fontFamily: '"Pacifico", cursive',
+                fontFamily: '"Pacifico", sans-serif',
                 textDecoration: "underline"
               }}
               onClick={() => {
@@ -4731,7 +4768,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -4739,7 +4776,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4752,7 +4789,7 @@ export default class App extends React.Component {
         <a
           href="https://pineapple-mint.com"
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -4767,7 +4804,7 @@ export default class App extends React.Component {
         <div
           ref={this.drugs}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             padding: "10px",
 
@@ -4804,7 +4841,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             padding: "10px",
 
@@ -4880,7 +4917,7 @@ export default class App extends React.Component {
         </span>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -4895,7 +4932,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5192,7 +5229,7 @@ export default class App extends React.Component {
           <span
             style={{
               border: "1px dotted grey",
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -5276,7 +5313,7 @@ export default class App extends React.Component {
           <br />
           <i
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
@@ -5284,7 +5321,7 @@ export default class App extends React.Component {
           </i>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -5446,7 +5483,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -5457,7 +5494,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5520,7 +5557,7 @@ export default class App extends React.Component {
           />
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -5698,7 +5735,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5722,7 +5759,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5755,7 +5792,7 @@ export default class App extends React.Component {
         <div
           style={{
             wordBreak: "break-word",
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5773,7 +5810,7 @@ export default class App extends React.Component {
           <div
             ref={this.nextspittle}
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -5881,7 +5918,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5967,7 +6004,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -5996,7 +6033,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6033,7 +6070,7 @@ export default class App extends React.Component {
         </div>{" "}
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6092,7 +6129,7 @@ export default class App extends React.Component {
         <div
           style={{
             wordBreak: "break-word",
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6199,7 +6236,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6236,7 +6273,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -6245,7 +6282,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6260,7 +6297,7 @@ export default class App extends React.Component {
         <div
           ref={this.royalty}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
 
             padding: "4px 10px",
@@ -6342,7 +6379,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6384,7 +6421,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -6392,7 +6429,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6462,7 +6499,7 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -6501,7 +6538,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6793,7 +6830,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -6810,7 +6847,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -6818,7 +6855,7 @@ export default class App extends React.Component {
           <a
             style={{
               color: "black",
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
             href="https://foiegras.life"
@@ -6847,12 +6884,12 @@ export default class App extends React.Component {
         >
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
           >
             <span
               style={{
-                fontFamily: '"Hi Melody", cursive',
+                fontFamily: '"Hi Melody", sans-serif',
                 lineHeight: "3"
               }}
             >
@@ -6952,7 +6989,7 @@ export default class App extends React.Component {
           ] of above&nbsp;
           <span
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -7005,7 +7042,7 @@ export default class App extends React.Component {
           ," for a while, as has&nbsp;
           <span
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
@@ -7025,7 +7062,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7059,7 +7096,7 @@ export default class App extends React.Component {
         <i
           ref={this.injury}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             color: this.state.highlightInjury ? "white" : "grey",
             backgroundColor: this.state.highlightInjury
@@ -7088,7 +7125,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7203,7 +7240,7 @@ export default class App extends React.Component {
           href="https://wavv.art/United_States_of_America"
           style={{
             color: "black",
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7211,7 +7248,7 @@ export default class App extends React.Component {
         </a>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7240,7 +7277,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7342,7 +7379,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7350,7 +7387,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7375,7 +7412,7 @@ export default class App extends React.Component {
         <i
           ref={this.baltimore}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             padding: "4px 10px",
             transition: ".3s ease-in",
@@ -7391,7 +7428,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7443,7 +7480,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7463,7 +7500,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7474,7 +7511,7 @@ export default class App extends React.Component {
           style={{
             fontSize: "12px",
             color: "grey",
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7494,7 +7531,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7523,7 +7560,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7552,7 +7589,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7603,7 +7640,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7624,7 +7661,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7665,7 +7702,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7673,7 +7710,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7694,7 +7731,7 @@ export default class App extends React.Component {
           willingness and ability at the natural price)&nbsp;
           <a
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
             href="https://froth.app/debt"
           >
@@ -7709,7 +7746,7 @@ export default class App extends React.Component {
           apparent verbal jab at the reason for the{" "}
           <a
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
             href="https://voxeu.org/article/financial-crisis-and-right-wing-extremism-germany-1931-33"
           >
@@ -7733,7 +7770,7 @@ export default class App extends React.Component {
           &nbsp;owned by{" "}
           <a
             style={{
-              fontFamily: '"Hi Melody", cursive'
+              fontFamily: '"Hi Melody", sans-serif'
             }}
             href="https://froth.app/debt"
           >
@@ -7823,7 +7860,7 @@ export default class App extends React.Component {
         <div
           ref={this.experts}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             display: "flex",
             flexDirection: "column",
@@ -7855,7 +7892,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7890,7 +7927,7 @@ export default class App extends React.Component {
         <br />
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7898,7 +7935,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7934,7 +7971,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -7953,7 +7990,7 @@ export default class App extends React.Component {
         </i>{" "}
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -7985,7 +8022,7 @@ export default class App extends React.Component {
           </span>
           <span
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               margin: "10px 0px",
               padding: "10px",
 
@@ -8052,7 +8089,7 @@ export default class App extends React.Component {
         <div
           ref={this.covidrelief}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8254,7 +8291,7 @@ export default class App extends React.Component {
           </a>{" "}
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               margin: "10px 0px",
               padding: "10px",
 
@@ -8374,7 +8411,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8402,7 +8439,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8446,7 +8483,7 @@ export default class App extends React.Component {
         <div
           ref={this.varney}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             padding: "10px",
 
@@ -8523,7 +8560,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8553,7 +8590,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8594,7 +8631,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8659,7 +8696,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8679,7 +8716,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8734,7 +8771,7 @@ export default class App extends React.Component {
           >
             <span
               style={{
-                fontFamily: '"Hi Melody", cursive'
+                fontFamily: '"Hi Melody", sans-serif'
               }}
             >
               "I can say that shit",
@@ -8835,7 +8872,7 @@ export default class App extends React.Component {
         </div>
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -8883,7 +8920,7 @@ export default class App extends React.Component {
         </span>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8918,7 +8955,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -8940,7 +8977,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8965,7 +9002,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -8974,7 +9011,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -8990,7 +9027,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9001,7 +9038,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9018,7 +9055,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9026,7 +9063,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9043,7 +9080,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9051,7 +9088,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9063,7 +9100,7 @@ export default class App extends React.Component {
         >
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9078,7 +9115,7 @@ export default class App extends React.Component {
           </div>
           <i
             style={{
-              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
@@ -9086,7 +9123,7 @@ export default class App extends React.Component {
           </i>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9124,7 +9161,7 @@ export default class App extends React.Component {
                   );
                 }}
                 style={{
-                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
                   textEmphasis: "italics",
                   fontWeight: "bolder",
                   textDecoration: "underline"
@@ -9137,7 +9174,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9156,7 +9193,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9188,7 +9225,7 @@ export default class App extends React.Component {
           </div>
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9231,7 +9268,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9239,7 +9276,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9290,7 +9327,7 @@ export default class App extends React.Component {
           <br />
           <div
             style={{
-              fontFamily: '"Hi Melody", cursive',
+              fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
@@ -9359,7 +9396,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9380,7 +9417,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9398,7 +9435,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9406,7 +9443,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9430,7 +9467,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9469,7 +9506,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9478,7 +9515,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9504,7 +9541,7 @@ export default class App extends React.Component {
         </div>{" "}
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9513,7 +9550,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9543,7 +9580,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9552,7 +9589,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9570,7 +9607,7 @@ export default class App extends React.Component {
         </div>{" "}
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9579,7 +9616,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9610,7 +9647,7 @@ export default class App extends React.Component {
         <i
           ref={this.desist}
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             padding: "4px 10px",
             transition: ".3s ease-in",
@@ -9633,7 +9670,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9648,7 +9685,7 @@ export default class App extends React.Component {
         </div>{" "}
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9657,7 +9694,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9720,7 +9757,7 @@ export default class App extends React.Component {
             fontWeight: "bolder",
             textDecoration: "underline",
             color: "blue",
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9729,7 +9766,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9751,7 +9788,7 @@ export default class App extends React.Component {
             transition: ".3s ease-in",
             color: this.state.highlightVault ? "white" : "blue",
             backgroundColor: this.state.highlightVault ? "lightBlue" : "",
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9770,7 +9807,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9785,7 +9822,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9794,7 +9831,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9809,7 +9846,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9818,7 +9855,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9836,7 +9873,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9844,7 +9881,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9882,7 +9919,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9890,7 +9927,7 @@ export default class App extends React.Component {
         </i>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -9941,7 +9978,7 @@ export default class App extends React.Component {
         </div>
         <i
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics"
           }}
         >
@@ -9952,7 +9989,7 @@ export default class App extends React.Component {
         <div
           ref={this.jan2018}
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             margin: "10px 0px",
             padding: "10px",
 
@@ -9977,7 +10014,7 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
-            fontFamily: '"Hi Melody", cursive',
+            fontFamily: '"Hi Melody", sans-serif',
             color: "grey",
             margin: "10px 0px",
             padding: "10px",
@@ -10228,14 +10265,20 @@ export default class App extends React.Component {
         performance enhancing and self-medication draws its line in
         monopsonization of medicine
         <div
-          style={tweetsStyle}
+          ref={this.whyBad}
+          style={{
+            color: this.state.highlightWhyBad ? "white" : "",
+            backgroundColor: this.state.highlightWhyBad
+              ? "rgb(170,100,205)"
+              : "",
+            ...tweetsStyle
+          }}
           onClick={() => this.setState({ why: !this.state.why })}
         >
           Violence is because of debt, slavery and non-governmental mafia.
           <div
             style={{
               padding: this.state.why ? "20px" : "0px",
-
               border: "1px dotted",
               width: "100%",
               maxWidth: "600px",
@@ -11838,7 +11881,7 @@ export default class App extends React.Component {
         auxilliary effects, expecially&nbsp;
         <span
           style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
             textEmphasis: "italics",
             fontWeight: "bolder",
             textDecoration: "underline"
