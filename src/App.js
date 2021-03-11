@@ -9069,8 +9069,23 @@ export default class App extends React.Component {
               Allpoint and Greendot oligopoly prevents me from extending payable
               services because it requires me to take counterfeit offers with
               cross-party down-payment malfeasant-jurisprudence risk in
-              requiring that I accept credit to accept debit, and banks that
-              cost $10/mo instead of ATM networks
+              &nbsp;<span
+              
+          onClick={() => {
+            this.takingCredit.current.scrollIntoView("smooth");
+            this.setState({ highlightTakingCredit: true });
+            setTimeout(
+              () => this.setState({ highlightTakingCredit: false }),
+              10000
+            );
+          }}
+          style={{
+            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            textEmphasis: "italics",
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}>requiring that I accept credit to accept debit, and banks that
+              cost $10/mo instead of ATM networks</span>
             </span>
           </div>
           <div
