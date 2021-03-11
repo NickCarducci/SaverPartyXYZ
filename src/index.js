@@ -11,19 +11,19 @@ class Index extends React.Component {
     this.page = React.createRef();
     this.outer = React.createRef();
   }
-  /*componentDidMount = () => {
-      window.addEventListener("scroll", this.handleScroll);
-    };
-    componentWillUnmount = () => {
-      window.removeEventListener("scroll", this.handleScroll);
-    };*/
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.handleScroll);
+  };
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
   handleScroll = (e) => {
-    clearTimeout(this.cancel);
-    var scrollTop = e.target.scrollTop;
-    var scrollHeight = e.target.scrollHeight;
+    var scrollTop = window.scrollY;
+    var scrollHeight = this.page.current.offsetHeight;
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
+    console.log(scrollTop);
     this.setState({ top: scrollTop === 0, scrollPlacementHeight });
   };
   handleMove = (ev, touch) => {
@@ -33,7 +33,7 @@ class Index extends React.Component {
     } else {
       e = ev;
     }
-    var scrollPlacementHeight = e.pageY - 115;
+    var scrollPlacementHeight = e.clientY - 115;
     if (
       scrollPlacementHeight.constructor === Number &&
       scrollPlacementHeight !== this.state.scrollPlacementHeight
@@ -44,26 +44,23 @@ class Index extends React.Component {
           this.setState({ scrollPlacementHeight }, () => {
             var top = Math.round(
               (scrollPlacementHeight / (window.innerHeight - 115)) *
-                this.page.current.scrollHeight
+                this.page.current.offsetHeight
             );
-            this.outer.current.scroll({ top, behavior: "smooth" });
+            console.log(this.page.current.offsetHeight);
+            //console.log(this.page.current.scrollHeight);
+            //this.outer.current
+            window.scroll({ top, behavior: "smooth" });
           });
         }
       }, 20);
     }
   };
   render() {
-    var appStyle = {
-      position: "fixed",
-      textAlign: "center",
-      top: "0px",
-      left: "0px",
-      right: "0px",
-      bottom: "0px"
-    };
     var showSquirrel = this.state.top && !this.state.openMenu;
     return (
-      <div style={appStyle}>
+      <div //onScroll={this.handleScroll}
+        ref={this.outer}
+      >
         <div
           onClick={() => this.setState({ openMenu: !this.state.openMenu })}
           style={{
@@ -136,168 +133,155 @@ class Index extends React.Component {
           />{" "}
         </div>
         <div
-          ref={this.outer}
-          onScroll={this.handleScroll}
+          ref={this.page}
           style={{
-            overflowX: "hidden",
-            overflowY: "auto",
-            position: "fixed",
             top: "0px",
-            left: "0px",
-            right: "0px",
-            bottom: "0px"
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+            width: "100%",
+            overflow: "hidden",
+            height: "min-content",
+            position: "absolute"
           }}
         >
           <div
-            ref={this.page}
             style={{
+              height: "min-content",
+              right: "0px",
+              width: "100%",
+              color: "white",
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
-              width: "100%",
-              height: "min-content",
-              position: "absolute"
+              position: "relative",
+              backgroundColor: "rgb(5,5,5)"
             }}
           >
             <div
               style={{
                 height: "min-content",
-                right: "0px",
-                width: "100%",
+                fontSize: "20px",
+                alignSelf: "flex-start",
+                width: "calc(100% - 60px)",
                 color: "white",
                 display: "flex",
-                alignItems: "center",
-                flexDirection: "column",
+                textAlign: "left",
                 position: "relative",
-                backgroundColor: "rgb(5,5,5)"
+                padding: "4px 10px"
               }}
             >
-              <div
-                style={{
-                  fontSize: "20px",
-                  alignSelf: "flex-start",
-                  width: "calc(100% - 60px)",
-                  color: "white",
-                  display: "flex",
-                  textAlign: "left",
-                  position: "relative",
-                  padding: "4px 10px"
-                }}
-              >
-                Demand-Side Economics & Human Rights
-              </div>
-              <div
-                style={{
-                  wordBreak: "break-word",
-                  width: "calc(100% - 46px)",
-                  color: "white",
-                  display: "inline-block",
-                  position: "relative",
-                  padding: "4px 10px"
-                }}
-              >
-                A&nbsp;
-                <a
-                  style={{ color: "rgb(150,220,255)" }}
-                  href="https://www.investopedia.com/articles/personal-finance/070715/insurance-companies-vs-banks-separate-and-not-equal.asp"
-                >
-                  duressful
-                </a>
-                -economy of our&nbsp;
-                <a
-                  style={{ color: "rgb(150,220,255)" }}
-                  href="https://www.investopedia.com/articles/investing/110513/utilizing-prisoners-dilemma-business-and-economy.asp"
-                >
-                  doing, but not our choosing
-                </a>
-                ; on the clock, cornered, hoarded & counterfeit
-                <br />
-                <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
-                forces that are out to obfuscate and scourge
-                <br />
-                <br />
-                You can tax sales (of end-products, not equity) for
-                free-rider-immutable services, wealth for systematic reparations
-                but really those are torts, and adjunicate torts to repair
-                unjustice;&nbsp;
-                <span
-                  //ref={this.law}
-                  style={{
-                    transition: ".3s ease-in",
-                    color: this.state.highlightLaw ? "white" : "",
-                    backgroundColor: this.state.highlightLaw
-                      ? "rgb(170,100,205)"
-                      : ""
-                  }}
-                >
-                  any tax or debt otherwise not only is involuntary slavery and
-                  a trust-building monopsony by the government, their
-                  contractors and their propograndising conspitators in ratings
-                  and education, but debt benefits the bond-holders &
-                  interference by tax or credit does nothing for the state of
-                  the world or the utilities purchased but raise prices and
-                  circumvent Savers who have worked for what they earn
-                </span>
-                . Saver Party represents the people that work or fund
-                entrepreneurs on their&nbsp;
-                <a
-                  style={{ color: "rgb(150,220,255)" }}
-                  href="https://vaults.biz"
-                >
-                  customers' time
-                </a>
-                , and do not borrow or lend. It is an obvious&nbsp;
-                <a
-                  style={{ color: "rgb(150,220,255)" }}
-                  href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
-                >
-                  red-herring
-                </a>
-                &nbsp; to help Wall st; yet the Republicans do the same. Saver
-                party exists and represents&nbsp;
-                <a
-                  style={{ color: "rgb(150,220,255)" }}
-                  href="https://www.isidewith.com/poll/488729614"
-                >
-                  most Americans
-                </a>
-                . Why call your parties one of the primary two; bipartisanship
-                representing a minority of Americans - and no civil or human
-                rights - is a lie, if claiming it to be what people want - or
-                deserve.
-              </div>
+              Demand-Side Economics & Human Rights
             </div>
             <div
               style={{
-                position: "relative",
                 height: "min-content",
-                width: "100%",
-                fontSize: "10px",
-                backgroundColor: "rgb(100,150,200)"
+                wordBreak: "break-word",
+                width: "calc(100% - 46px)",
+                color: "white",
+                display: "inline-block",
+                position: "relative",
+                padding: "4px 10px"
               }}
             >
+              A&nbsp;
               <a
-                href="https://magnate.company"
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://www.investopedia.com/articles/personal-finance/070715/insurance-companies-vs-banks-separate-and-not-equal.asp"
+              >
+                duressful
+              </a>
+              -economy of our&nbsp;
+              <a
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://www.investopedia.com/articles/investing/110513/utilizing-prisoners-dilemma-business-and-economy.asp"
+              >
+                doing, but not our choosing
+              </a>
+              ; on the clock, cornered, hoarded & counterfeit
+              <br />
+              <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
+              forces that are out to obfuscate and scourge
+              <br />
+              <br />
+              You can tax sales (of end-products, not equity) for
+              free-rider-immutable services, wealth for systematic reparations
+              but really those are torts, and adjunicate torts to repair
+              unjustice;&nbsp;
+              <span
+                //ref={this.law}
                 style={{
-                  color: "rgb(100,200,150)"
+                  transition: ".3s ease-in",
+                  color: this.state.highlightLaw ? "white" : "",
+                  backgroundColor: this.state.highlightLaw
+                    ? "rgb(170,100,205)"
+                    : ""
                 }}
               >
-                EVERYCREDIT HAS AN EQUAL AND OPPOSITE REACTION
+                any tax or debt otherwise not only is involuntary slavery and a
+                trust-building monopsony by the government, their contractors
+                and their propograndising conspitators in ratings and education,
+                but debt benefits the bond-holders & interference by tax or
+                credit does nothing for the state of the world or the utilities
+                purchased but raise prices and circumvent Savers who have worked
+                for what they earn
+              </span>
+              . Saver Party represents the people that work or fund
+              entrepreneurs on their&nbsp;
+              <a
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://vaults.biz"
+              >
+                customers' time
               </a>
+              , and do not borrow or lend. It is an obvious&nbsp;
+              <a
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
+              >
+                red-herring
+              </a>
+              &nbsp; to help Wall st; yet the Republicans do the same. Saver
+              party exists and represents&nbsp;
+              <a
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://www.isidewith.com/poll/488729614"
+              >
+                most Americans
+              </a>
+              . Why call your parties one of the primary two; bipartisanship
+              representing a minority of Americans - and no civil or human
+              rights - is a lie, if claiming it to be what people want - or
+              deserve.
             </div>
-            <App
-              goToTop={() =>
-                this.setState({ highlightLaw: true }, () => {
-                  setTimeout(
-                    () => this.setState({ highlightLaw: false }),
-                    10000
-                  );
-
-                  this.outer.current.scroll({ top: 0, behavior: "smooth" });
-                })
-              }
-            />
           </div>
+          <div
+            style={{
+              position: "relative",
+              height: "min-content",
+              width: "100%",
+              fontSize: "10px",
+              backgroundColor: "rgb(100,150,200)"
+            }}
+          >
+            <a
+              href="https://magnate.company"
+              style={{
+                color: "rgb(100,200,150)"
+              }}
+            >
+              EVERYCREDIT HAS AN EQUAL AND OPPOSITE REACTION
+            </a>
+          </div>
+          <App
+            goToTop={() =>
+              this.setState({ highlightLaw: true }, () => {
+                setTimeout(() => this.setState({ highlightLaw: false }), 10000);
+
+                window.scroll({ top: 0, behavior: "smooth" });
+              })
+            }
+          />
         </div>
       </div>
     );
