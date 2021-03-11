@@ -370,7 +370,8 @@ export default class App extends React.Component {
           >
             Demand
           </span>
-        </span>
+        </span>Torts need to be between people and classes again, we shouldn’t have to sue the government
+        <br/><br/>
         Common sense is veiled sometimes.  There are no consequences for the debt later, it can never be paid.  only now in counterfeit price-inelasticity, monopsonization of the government, insurance, finance, incoives, rent-seekers, and the non-certificate, non-cross-party-risk services and end-assets.  There are no consequences if the borrowers' customers' down-payments are renumerated.  It can never be paid.
         <br/>
         <br/>
