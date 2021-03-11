@@ -8424,6 +8424,9 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+          "shares of Rubix worth $xxx" - a lie, that is only the last trade, not the worth of every share if diluted, surely
+          <br/>
+          <br/>
           G-d damnit Varney & co. is a clown show, stop calling frauds a
           bail-out & can you cite who sold (last trade) or who is in control of
           bid-ask spread instead of passing off what you suspect as causation
@@ -11491,4 +11494,5 @@ export default class App extends React.Component {
     );
   }
 }
+
 
