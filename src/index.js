@@ -49,7 +49,7 @@ class Index extends React.Component {
             window.scroll({ top, behavior: "smooth" });
           });
         }
-      }, 20);
+      }, 10);
     }
   };
   render() {
