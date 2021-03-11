@@ -371,6 +371,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Common sense is veiled sometimes.  There are no consequences for the debt later, it can never be paid.  only now in counterfeit price-inelasticity, monopsonization of the government, insurance, finance, incoives, rent-seekers, and the non-certificate, non-cross-party-risk services and end-assets.  There are no consequences if the borrowers' customers' down-payments are renumerated.  It can never be paid.
+        <br/>
+        <br/>
         Travel can only be supressed by individuals by court order, not
         governments or physicians, federal, state or local
         <br />
