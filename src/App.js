@@ -334,7 +334,7 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        POLL REPORTERS NEED TO CITE SAMPLE SIZE ON FIRST PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN USD
+        POLL REPORTERS NEED TO CITE SAMPLE SIZE ON FIRST PAGE, AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN USD
         <br/>
         <br/>
         loser---winner<br/>
