@@ -6971,12 +6971,20 @@ export default class App extends React.Component {
         >
           My 5-year trial with SSA Disability / Medicare Orthopedic
         </i>
-        <div style={{ position: "relative" }}>
+        <div style={{ display:"flex" }}>
+        <div style={{ width: "50%",position: "relative" }}>
           <img
+            style={{ width: "100%", height: "auto" }}
+            src="https://www.dl.dropboxusercontent.com/s/01otcjkketu06bj/SecondAppeal.png?dl=0"
+            alt="smart enough to get a job proved to be wrong"
+       />
+            </div>
+        <div style={{ width: "50%",position: "relative" }}>   <img
             style={{ width: "100%", height: "auto" }}
             src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
             alt="vastus medialis (teardrop muscle)"
           />
+        </div>
         </div>
         <div
           style={{
@@ -11300,4 +11308,3 @@ export default class App extends React.Component {
     );
   }
 }
-
