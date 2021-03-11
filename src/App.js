@@ -339,7 +339,7 @@ export default class App extends React.Component {
         <br/>
         "" Gaddafi*
         <br/>
-        on F. Morano
+        on F. Morano show
         <br/>
         for commodity security deposit receipt, settled economy
         <br/>
@@ -361,7 +361,18 @@ export default class App extends React.Component {
       
       I am confused if the spots after second, get added to second; or if the second choice of each individual is used and so on, and if there is a change then that means the person got the most bestest votes
 <br/>
-I want to make toms shoes for phones with torus electron rim magnate.company
+I want to make toms shoes for phones with torus electron rim&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.nsfFraud.current.scrollIntoView("smooth");
+            this.setState({ highlightNSFFraud: true });
+            setTimeout(
+              () => this.setState({ highlightNSFFraud: false }),
+              10000
+            );
+          }}
+        >magnate.company</span>
        <br/>
         <br/>
         "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have a&nbsp;
@@ -410,8 +421,8 @@ I want to make toms shoes for phones with torus electron rim magnate.company
         <br />
         "Working adults" to build trusts in stead of people who have never had
         money
-        <br/>
-        <br/>
+        <br />
+        <br />
         Selling Out the Community <br />
         <div
           style={{
