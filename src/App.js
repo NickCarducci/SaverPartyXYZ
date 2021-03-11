@@ -337,34 +337,37 @@ export default class App extends React.Component {
         POLL REPORTERS NEED TO&nbsp;<a href="https://humanharvest.info">CITE (duty to warn)</a>&nbsp;SAMPLE SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN USD
         <br/>
         <br/>
-        loser---winner<br/>
+        loser---winner
+        <br />
         Get the Luddites*!
-        <br/>
+        <br />
         "" Gaddafi*
-        <br/>
+        <br />
         on F. Morano show
-        <br/>
-        for commodity security depositAry receipt, settled economy (need repAIration)
-        <br/>
-      <div
-        style={{
-          width: "50%",
-          position: "relative"
-        }}
-      >
-        <img
-          alt=""
+        <br />
+        for commodity security depositAry receipt, settled economy (need
+        repAIration)
+        <br />
+        <div
           style={{
-            width: "70%",
-            height: "auto"
+            width: "50%",
+            position: "relative"
           }}
-          src="https://www.dl.dropboxusercontent.com/s/b7l2yt5wfpkc67o/RankChoiceImpediments.png?dl=0"
-      /></div> 
-      <br/>
-      
-      I am confused if the spots after second, get added to second; or if the second choice of each individual is used and so on, and if there is a change then that means the person got the most bestest votes
-<br/>
-I want to make toms shoes for phones with torus electron rim&nbsp;
+        >
+          <img
+            alt=""
+            style={{
+              width: "70%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/b7l2yt5wfpkc67o/RankChoiceImpediments.png?dl=0"
+          />
+        </div>
+        <br />
+        I am confused if the spots after second, get added to second; or if the
+        second choice of each individual is used and so on, and if there is a
+        change then that means the person got the most bestest votes
+        <br />I want to make toms shoes for phones with torus electron rim&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -375,12 +378,17 @@ I want to make toms shoes for phones with torus electron rim&nbsp;
               10000
             );
           }}
-        >magnate.company</span>
-       <br/>
-        <br/>
+        >
+          magnate.company
+        </span>
+        <br />
+        <br />
         "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have a&nbsp;
         <a href="https://moldmask.co">mask</a>&nbsp;and we will check your&nbsp;
-        <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">medical history</a>&nbsp;for cold&nbsp;
+        <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
+          medical history
+        </a>
+        &nbsp;for cold&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -2223,93 +2231,6 @@ I want to make toms shoes for phones with torus electron rim&nbsp;
         <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
           Joe Biden
         </a>
-        <br />
-        <br />
-        <div ref={this.employmentOfOne}>
-          <Employ2Pop />
-        </div>
-        <br />
-        "No fault of their own," - Biden straight from Medical Industry Complex
-        lobby. Ban invoices you fucking retard
-        <br />
-        <br />
-        You can’t still believe they don’t want to spend. &nbsp;
-        <a href="https://johnshopkins.academia.edu/NickCarducci">
-          Same party
-        </a>{" "}
-        on outstanding bills
-        <br />
-        Nick Carducci spending isn’t the problem, it’s what they are spending on
-        an lying about it.
-        <br />
-        Clarence Coggins spending my money without my consent between borrower
-        and lender is a problem I’m pissed
-        <br />
-        Nick Carducci if the money went back to the borrower there would be less
-        to be pissed at.
-        <br />
-        Clarence Coggins the borrower’s customers deserve that money, those
-        borrowers became monopsony && colonized
-        <br />
-        <br />
-        We don't need an expansion of currencyComponentOfM1 to open
-        <br />
-        we need profit-share economy that WAITS for customers before paying
-        income
-        <br />
-        <br />
-        <div ref={this.trueGDP}>
-          <RealRealGDP />
-          <br />
-          <br />
-          m1v1===m2v2===GDP===C+I+G+NE+P
-          <br />
-          <br />
-          Is a farce.. Investment IS Consumption, if GDP - new money - new debt
-          is to discover funds traded over a quarter or year. Population is most
-          of the factors but is not correct algebra unless people are
-          denominated in dollars. The denomination of Investment is what is
-          consumed, not what is promised, which is counted when the investee
-          consumes. G is government investment and the same case stands for this
-          as it does for private investment (I), it is consumption, but
-          consumption that is completely based on debt or taking away from
-          consumption so in either case it is moot in ACTUALLY COUNTING trueGDP
-          (not real GDP which uses a basket of assets to fix for over time, but
-          excludes the largest asset for living expenses of all, homes... these
-          assets aren't real GDP as described because most are booned by debt,
-          which is negative product, admittedly by net exports [NE] by
-          nomenclature discussing exports are good for money profit but assets
-          are gone... so hardly a win but still an exchange of assets excluding
-          new money and new debt)
-        </div>
-        <br />
-        <br />
-        you don't buy a house when you borrow, you take from consumers more than
-        can be produced at by competing with consumers and cornering supply like
-        a monopsony conspiring with the squatting-borrower and the owner taking
-        and keeping down-payments. Without this operation, investment would
-        be&nbsp;
-        <a href="https://vaults.biz">profit-share</a>
-        <br />
-        <br />
-        reduce fees always has a catch not on the front page, should be
-        mandatory to have minimal viable product in terms of data-share or
-        auxilliary effects, expecially&nbsp;
-        <span
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.jhuecon.current.scrollIntoView("smooth");
-            this.setState({ highlightJHUECON: true });
-            setTimeout(() => this.setState({ highlightJHUECON: false }), 10000);
-          }}
-        >
-          intentionally-suppressed
-        </span>
         <br />
         <br />
         CNN: "Let's hope this bill gets us there."&nbsp;
@@ -11663,6 +11584,93 @@ I want to make toms shoes for phones with torus electron rim&nbsp;
         Home value + interest expected === Bondvalue === 13*cash
         <br />
         debt/cash === 13/1 or 13:1 or 1300%
+        <br />
+        <div ref={this.employmentOfOne}>
+          <Employ2Pop />
+        </div>
+        <br />
+        "No fault of their own," - Biden straight from Medical Industry Complex
+        lobby. Ban invoices you fucking retard
+        <br />
+        <br />
+        You can’t still believe they don’t want to spend. &nbsp;
+        <a href="https://johnshopkins.academia.edu/NickCarducci">
+          Same party
+        </a>{" "}
+        on outstanding bills
+        <br />
+        Nick Carducci spending isn’t the problem, it’s what they are spending on
+        an lying about it.
+        <br />
+        Clarence Coggins spending my money without my consent between borrower
+        and lender is a problem I’m pissed
+        <br />
+        Nick Carducci if the money went back to the borrower there would be less
+        to be pissed at.
+        <br />
+        Clarence Coggins the borrower’s customers deserve that money, those
+        borrowers became monopsony && colonized
+        <br />
+        <br />
+        We don't need an expansion of currencyComponentOfM1 to open
+        <br />
+        we need profit-share economy that WAITS for customers before paying
+        income
+        <br />
+        <br />
+        <div ref={this.trueGDP}>
+          <RealRealGDP />
+          <br />
+          <br />
+          m1v1===m2v2===GDP===C+I+G+NE+P
+          <br />
+          <br />
+          Is a farce.. Investment IS Consumption, if GDP - new money - new debt
+          is to discover funds traded over a quarter or year. Population is most
+          of the factors but is not correct algebra unless people are
+          denominated in dollars. The denomination of Investment is what is
+          consumed, not what is promised, which is counted when the investee
+          consumes. G is government investment and the same case stands for this
+          as it does for private investment (I), it is consumption, but
+          consumption that is completely based on debt or taking away from
+          consumption so in either case it is moot in ACTUALLY COUNTING trueGDP
+          (not real GDP which uses a basket of assets to fix for over time, but
+          excludes the largest asset for living expenses of all, homes... these
+          assets aren't real GDP as described because most are booned by debt,
+          which is negative product, admittedly by net exports [NE] by
+          nomenclature discussing exports are good for money profit but assets
+          are gone... so hardly a win but still an exchange of assets excluding
+          new money and new debt)
+        </div>
+        <br />
+        <br />
+        you don't buy a house when you borrow, you take from consumers more than
+        can be produced at by competing with consumers and cornering supply like
+        a monopsony conspiring with the squatting-borrower and the owner taking
+        and keeping down-payments. Without this operation, investment would
+        be&nbsp;
+        <a href="https://vaults.biz">profit-share</a>
+        <br />
+        <br />
+        reduce fees always has a catch not on the front page, should be
+        mandatory to have minimal viable product in terms of data-share or
+        auxilliary effects, expecially&nbsp;
+        <span
+          style={{
+            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            textEmphasis: "italics",
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.jhuecon.current.scrollIntoView("smooth");
+            this.setState({ highlightJHUECON: true });
+            setTimeout(() => this.setState({ highlightJHUECON: false }), 10000);
+          }}
+        >
+          intentionally-suppressed
+        </span>
+        <br />
         <br />
         <EmploymentHours showM1={this.state.showM1} />
         <EmploymentVelocity showM1={this.state.showM1} />
