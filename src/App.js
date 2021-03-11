@@ -104,6 +104,7 @@ export default class App extends React.Component {
     this.starve = React.createRef();
     this.drugs = React.createRef();
     this.policeUX = React.createRef();
+    this.injury = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -377,6 +378,14 @@ export default class App extends React.Component {
         <br />
         <br />
         <GunSafety
+          injury={() => {
+            this.injury.current.scrollIntoView("smooth");
+            this.setState({ highlightInjury: true });
+            setTimeout(
+              () => this.setState({ highlightInjury: false }),
+              10000
+            );
+          }}
           policeUX={() => {
             this.policeUX.current.scrollIntoView("smooth");
             this.setState({ highlightPoliceUX: true });
@@ -6964,9 +6973,14 @@ export default class App extends React.Component {
               without commute*/}
         </div>
         <i
+        ref={this.injury}
           style={{
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics"
+            textEmphasis: "italics",
+            color: this.state.highlightInjury ? "white" : "grey",
+            backgroundColor: this.state.highlightInjury
+              ? "rgb(170,100,205)"
+              : ""
           }}
         >
           My 5-year trial with SSA Disability / Medicare Orthopedic
