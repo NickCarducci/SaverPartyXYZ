@@ -4822,7 +4822,7 @@ export default class App extends React.Component {
             fontWeight: "bolder",
             textDecoration: "underline",
             width: "100%",
-            margin: "10px",
+            padding: "10px",
             border: "1px dotted grey"
           }}
           onClick={() => {
@@ -4833,6 +4833,7 @@ export default class App extends React.Component {
         >
           Financial Celibacy
         </span>
+        <br />
         <br />
         <span
           ref={this.takingCredit}
