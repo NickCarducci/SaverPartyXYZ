@@ -335,6 +335,11 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        Travel can only be supressed by individuals by court order, not governments or physicians, federal, state or local
+        <br/>
+        Would need a law of non-scientific and assumptive-intentions 
+        <br/>
+        <br/>
         Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
         <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
         <span
