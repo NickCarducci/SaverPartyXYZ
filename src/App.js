@@ -10307,6 +10307,8 @@ export default class App extends React.Component {
         <div
           ref={this.whyBad}
           style={{
+              fontWeight: "bolder",
+              textDecoration: "underline",
             color: this.state.highlightWhyBad ? "white" : "",
             backgroundColor: this.state.highlightWhyBad
               ? "rgb(170,100,205)"
@@ -10316,18 +10318,20 @@ export default class App extends React.Component {
           onClick={() => this.setState({ why: !this.state.why })}
         >
           Violence is because of debt, slavery and non-governmental mafia.
+          </div>
           <div
             style={{
+              wordBreak: "break-word",
               padding: this.state.why ? "20px" : "0px",
               border: "1px dotted",
-              width: "100%",
+              width: "calc(100% - 40px)",
               maxWidth: "600px",
               opacity: this.state.why ? "1" : "0",
               transition: ".3s ease-in",
               fontSize: this.state.why ? "" : "0px"
             }}
           >
-            Islam says trespassing is ok to war others, but uselessly abuse
+            <a href="https://wavv.art/Iran">Islam</a>&nbsp;says trespassing is ok to war others, but uselessly abuse
             animals which is never supported by westerners; however, obviously
             China feels the same about a b**********g animals for some etherial
             effect. G-d is supposed to do the judgement is something they
@@ -10348,7 +10352,6 @@ export default class App extends React.Component {
             of money and share, or “cheering for British win in Tunisia” doesn’t
             help Optics for Italians Crucifixion was directive by Jewish and
             Roman leaders.
-          </div>
         </div>
         <div style={tweetsStyle}>
           You can have opinion if the other has no proof, and then you will have
@@ -10362,7 +10365,6 @@ export default class App extends React.Component {
               fontWeight: "normal",
               margin: "10px 0px",
               padding: "10px",
-
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -10415,7 +10417,6 @@ export default class App extends React.Component {
               }}*/
             style={{
               fontWeight: "normal",
-
               padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
