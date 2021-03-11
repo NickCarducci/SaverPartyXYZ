@@ -32,7 +32,7 @@ class EmploymentVersusDebtHours extends React.Component {
               height: "700px"
             }}
             title="total dollars held"
-            src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=BS46&width=500&height=600`}
+            src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=BS7O&width=500&height=600`}
             scrolling="no"
             className="embed-container1"
           />
