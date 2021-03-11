@@ -105,6 +105,7 @@ export default class App extends React.Component {
     this.drugs = React.createRef();
     this.policeUX = React.createRef();
     this.injury = React.createRef();
+    this.prisonersDuress = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
