@@ -3172,7 +3172,7 @@ export default class App extends React.Component {
             style={{
               margin: "10px 0px",
               padding: "10px",
-
+display:"block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
