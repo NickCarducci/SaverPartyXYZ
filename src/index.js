@@ -172,7 +172,12 @@ class Index extends React.Component {
                 padding: "4px 10px"
               }}
             >
-              Demand-Side Economics & Human Rights
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              >
+                Demand
+              </span>
+              -Side Economics & Human Rights
             </div>
             <div
               style={{
@@ -186,7 +191,7 @@ class Index extends React.Component {
               }}
             >
               Sustainability and Accessability
-              <br/>
+              <br />
               A&nbsp;
               <a
                 style={{ color: "rgb(150,220,255)" }}
@@ -277,6 +282,7 @@ class Index extends React.Component {
             </a>
           </div>
           <App
+            top={this.state.top}
             goToTop={() =>
               this.setState({ highlightLaw: true }, () => {
                 setTimeout(() => this.setState({ highlightLaw: false }), 10000);
