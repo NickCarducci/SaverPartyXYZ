@@ -334,7 +334,15 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        "stabilize education system?" That is not&nbsp;
+        "<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bcell.current.scrollIntoView("smooth");
+              this.setState({ highlightBcell: true });
+              setTimeout(() => this.setState({ highlightBcell: false }), 10000);
+            }}
+          >
+          stabilize education system</span>?" That is not&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
