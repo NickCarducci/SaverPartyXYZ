@@ -931,8 +931,17 @@ export default class App extends React.Component {
           inflation
         </span>
         &nbsp;like it happens later and causes unemployment (nothing being made,
-        people starving). Monetary-inflation, to that effect, only happens if
-        bonds are paid off and foreclosures happen to the assets. Most inflation
+        people starving).&nbsp;<span 
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>Monetary-inflation, to that effect, only happens if
+        bonds are paid off and foreclosures happen</span>&nbsp;to the assets. Most inflation
         is&nbsp;
         <span
           onClick={() => {
@@ -2066,7 +2075,16 @@ export default class App extends React.Component {
           >
             price-inelasticity inflation
           </span>
-          , only monetary-inflation, is bunk!
+          , only&nbsp;<span 
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>monetary-inflation, is bunk</span>!
         </span>
         <br />
         <br />
@@ -3281,7 +3299,16 @@ export default class App extends React.Component {
           Why are we lending to veterans to compete with other consumers of
           education and the veteran themselves except to secrete more equity
           from unrequited and uneducated savers about what is happening and why
-          pertaining to price-inelasticity inflation and monetary inflation by
+          pertaining to&nbsp;<span 
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>price-inelasticity inflation and monetary inflation</span>&nbsp;by
           nonconsensual dollar/market/valut-share infiltration
         </div>
         <i
@@ -5498,7 +5525,17 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Stimulus (ignoring harm done in price-inelasticity inflation, monetary
+          Stimulus (ignoring harm done in price-inelasticity&nbsp;<span
+          
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>inflation</span>, monetary
           inflation/involuntary servitude) cannot relieve anything if finance is
           banned
         </div>
@@ -6843,11 +6880,16 @@ export default class App extends React.Component {
           <br />
           <br />
           <span
+          ref={this.inflation}
             style={{
-              fontWeight: "bolder"
+              fontWeight: "bolder",
+              color: this.state.highlightInflation ? "white" : "grey",
+              backgroundColor: this.state.highlightInflation
+                ? "rgb(170,100,205)"
+                : ""
             }}
           >
-            Inflation is the ask exuding its power
+            Inflation is the ask exuding its&nbsp;<a href="https://www.investopedia.com/terms/p/priceelasticity.asp">power</a>
           </span>
           <br />
           The&nbsp;
@@ -7719,7 +7761,17 @@ export default class App extends React.Component {
           do you think a contract of corporate shares could adjudicate, in
           court, in favor of the lender without reparations of down payment for
           the borrower’s customers? Promising to split the dollar
-          (price-inelasticity inflation) is just as involuntary as splitting it
+          (price-inelasticity inflation) is&nbsp;<span
+          
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>just as involuntary as splitting it</span>&nbsp;
           (monetary inflation), normally a choice made by the
           dollar-shareholder. Currently the counterfeit debt:cash ratio in US
           dollars is 12:1. The second comment about price-elasticity is the fact
@@ -9750,8 +9802,17 @@ export default class App extends React.Component {
           monetary-inflation only happens if you allow debts to be reposessed
           <br />
           <br />
-          price-inelasticity inflation happens if you wait to adjunicate with
-          the intention of reposession & indentured servitude
+          price-inelasticity inflation happens if you&nbsp;<span 
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>wait to adjunicate</span>&nbsp; and are malfeasant, by definition, with
+          the intention of reposession (negligent towards borrowers' customers' down-payments, at that) & indentured servitude
           <br />
           <br />
           The harm to savers and subjects to market-colonialism (historical
@@ -9775,7 +9836,16 @@ export default class App extends React.Component {
           monetary-base inflation happens but when it is banned monetary-base
           deflation happens. but price-inelasticity inflation happens now by
           dealing in usurped and forced promises of unrequited third party share
-          and servitude. Let prices be elastic!
+          and servitude.&nbsp;<span 
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.inflation.current.scrollIntoView("smooth");
+            this.setState({ highlightInflation: true });
+            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
+          }}>Let prices be elastic</span>!
         </div>
         <div style={tweetsStyle}>
           if you want to lift people out of poverty efficiently, why would you
