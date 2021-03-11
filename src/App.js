@@ -109,6 +109,7 @@ export default class App extends React.Component {
     this.policeUX = React.createRef();
     this.injury = React.createRef();
     this.prisonersDuress = React.createRef();
+    this.sellingOut = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -334,15 +335,18 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        "<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.bcell.current.scrollIntoView("smooth");
-              this.setState({ highlightBcell: true });
-              setTimeout(() => this.setState({ highlightBcell: false }), 10000);
-            }}
-          >
-          stabilize education system</span>?" That is not&nbsp;
+        "
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bcell.current.scrollIntoView("smooth");
+            this.setState({ highlightBcell: true });
+            setTimeout(() => this.setState({ highlightBcell: false }), 10000);
+          }}
+        >
+          stabilize education system
+        </span>
+        ?" That is not&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -353,7 +357,7 @@ export default class App extends React.Component {
         >
           stable
         </span>
-        , only settled trade (nothing outstanding), is stable. you are paying
+        , only settled trade (nothing outstanding), is stable. You are paying
         off the&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -365,12 +369,39 @@ export default class App extends React.Component {
         >
           13:1 or 30:1
         </span>
-        &nbsp; counterfeit/involuntary-trade. you need to print $76t for there
-        to be enough
+        &nbsp; counterfeit/involuntary-trade.&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fintech.current.scrollIntoView("smooth");
+            this.setState({ highlightFintech: true });
+            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
+          }}
+        >
+          You need to print
+        </span>
+        &nbsp;$76t for there to be enough
         <br />
         <br />
-        "half children in poverty, out of poverty due to HR 1319," says VP
-        Harris; nc: are you counting accrual payable?
+        "half&nbsp;
+        <span
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.insurance.current.scrollIntoView("smooth");
+            this.setState({ highlightInsurance: true });
+            setTimeout(
+              () => this.setState({ highlightInsurance: false }),
+              10000
+            );
+          }}
+        >
+          children
+        </span>
+        &nbsp;in poverty, out of poverty due to HR 1319," says VP Harris; nc:
+        are you counting accrual payable?
         <br />
         <br />
         POLL REPORTERS NEED TO&nbsp;
@@ -476,7 +507,18 @@ export default class App extends React.Component {
         money
         <br />
         <br />
-        Selling Out the Community <br />
+        <span
+          ref={this.sellingOut}
+          style={{
+            color: this.state.highlightSellingOut ? "white" : "",
+            backgroundColor: this.state.highlightSellingOut
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          Selling Out the Community
+        </span>{" "}
+        <br />
         <div
           style={{
             display: "flex"
@@ -6426,234 +6468,6 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          gov gets free labor, greatest anti-trust case ever (steven moore is a
-          duche)
-          <br />
-          Kudlow likes{" "}
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.gdp1.current.scrollIntoView("smooth");
-              this.setState({ highlightGDP: true });
-              setTimeout(() => this.setState({ highlightGDP: false }), 10000);
-            }}
-          >
-            GDP
-          </span>{" "}
-          "growth but not Stimulus," your measure is off retard
-          <br />
-          you're only harming yourself and all of us
-          <br />
-          <br />
-          Kevin Hasset says money is something you can exchange for goods; more
-          accruately, and to fix for split/reverse-split not-appropriated
-          appropriately, it is{" "}
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.foreignpolicy.current.scrollIntoView("smooth");
-              this.setState({ highlightFP: true });
-              setTimeout(() => this.setState({ highlightFP: false }), 10000);
-            }}
-          >
-            market-share
-          </span>{" "}
-          Kudlow calling him the smartest guy in the world means Kudlow isn't
-          just retarded by his actions but tarded
-          <br />
-          Hasset and Lindsay still looking at real growth instead of{" "}
-          <a
-            style={{
-              padding: "4px 10px",
-              border: "1px solid",
-              color: "grey"
-            }}
-            href="https://froth.app"
-          >
-            gdp-new money-new debt/p
-          </a>
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics"
-          }}
-        >
-          National Science Foundation plagerizes Nick Carducci
-        </i>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", cursive',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            flexDirection: "column",
-            alignItems: "center",
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          I have a feeling I am about to be plagiarized by you. Why work with me
-          when you can claim it is not creative and do it yourself? Well that
-          means it would have been done already. I am the first to make the{" "}
-          <a
-            style={{
-              padding: "4px 10px",
-              border: "1px solid",
-              color: "grey"
-            }}
-            href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch"
-          >
-            circular-magnetic engine
-          </a>{" "}
-          design. Do not plagiarize me Nick Carducci.sh
-          <br />
-          <a
-            style={{
-              padding: "4px 10px",
-              border: "1px solid",
-              color: "grey"
-            }}
-            href="https://magnate.company"
-          >
-            magnate
-          </a>
-          <br />
-          <br />
-          Christina, Is it not creative, original or transformative? Because it
-          is creative, it is original, and it can transform the entire energy
-          industry. Is this because of my stance on legal issues? My gender,[
-          age,] or skin color?{" "}
-          <span style={{ textDecoration: "underline" }}>
-            if it is easy to do, why is it not done
-          </span>
-          ? Nick Carducci.sh
-          <br />
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", cursive',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-              flexWrap: "wrap",
-              alignItems: "center",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <span
-              ref={this.nsfFraud}
-              style={{
-                padding: "4px 10px",
-
-                transition: ".3s ease-in",
-                borderRadius: "15px",
-                color: this.state.highlightNSFFraud ? "white" : "",
-                backgroundColor: this.state.highlightNSFFraud
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              Dear Nicholas,
-            </span>
-            <br />
-            Thank you for submitting your company's Program Pitch to America's
-            Seed Fund powered by the National Science Foundation.
-            <br />
-            Upon reviewing your submitted Project Pitch, I regret to inform you
-            that you are not invited to submit a full proposal to the NSF
-            SBIR/STTR Phase I program.
-            <br />
-            "The proposed project does not appear to focus on a technical
-            innovation that is creative, original or potentially
-            transformative."
-          </div>
-          <br />
-          <br />I also invented the{" "}
-          <a href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/226631196">
-            DayClock
-          </a>
-          , if Apple Watch uses it they owe me royalty since I cannot afford the
-          patent fees
-          <br />
-          <div style={{ position: "relative" }}>
-            <img
-              style={{ height: "auto", width: "100%" }}
-              src="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
-              alt="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
-            />
-          </div>
-          <br />
-          <a
-            style={{
-              padding: "4px 10px",
-              border: "1px solid",
-              color: "grey"
-            }}
-            href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f"
-          >
-            wavv.art/forumqWvK2fk3GcFligVsTZ0f
-          </a>
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics"
-          }}
-        >
-          Savers are disenfranchised by current{" "}
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.fintech.current.scrollIntoView("smooth");
-              this.setState({ highlightFintech: true });
-              setTimeout(
-                () => this.setState({ highlightFintech: false }),
-                10000
-              );
-            }}
-          >
-            fintech
-          </span>
-        </i>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", cursive',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            flexDirection: "column",
-            alignItems: "center",
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          Unemployment is 40% of people!! Some people work for dollars from
-          another market, I work for market share for IP & waiting for merchant
-          service that deals without credit
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", cursive',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            flexDirection: "column",
-            alignItems: "center",
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
           Sanjay Gupta says 85% effectivness in all vaccines/mRNA 2-3 weeks
           after, which is not surprising because that is how long it takes to
           make my own{" "}
@@ -9246,6 +9060,234 @@ export default class App extends React.Component {
             that I accept credit to accept debit, and banks that cost $10/mo
             instead of ATM networks
           </span>
+        </div>
+        <div
+          style={{
+            fontFamily: '"Hi Melody", cursive',
+            color: "grey",
+            margin: "10px 0px",
+            padding: "10px",
+
+            flexDirection: "column",
+            alignItems: "center",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px"
+          }}
+        >
+          gov gets free labor, greatest anti-trust case ever (steven moore is a
+          duche)
+          <br />
+          Kudlow likes{" "}
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.gdp1.current.scrollIntoView("smooth");
+              this.setState({ highlightGDP: true });
+              setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+            }}
+          >
+            GDP
+          </span>{" "}
+          "growth but not Stimulus," your measure is off retard
+          <br />
+          you're only harming yourself and all of us
+          <br />
+          <br />
+          Kevin Hasset says money is something you can exchange for goods; more
+          accruately, and to fix for split/reverse-split not-appropriated
+          appropriately, it is{" "}
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.foreignpolicy.current.scrollIntoView("smooth");
+              this.setState({ highlightFP: true });
+              setTimeout(() => this.setState({ highlightFP: false }), 10000);
+            }}
+          >
+            market-share
+          </span>{" "}
+          Kudlow calling him the smartest guy in the world means Kudlow isn't
+          just retarded by his actions but tarded
+          <br />
+          Hasset and Lindsay still looking at real growth instead of{" "}
+          <a
+            style={{
+              padding: "4px 10px",
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://froth.app"
+          >
+            gdp-new money-new debt/p
+          </a>
+        </div>
+        <i
+          style={{
+            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            textEmphasis: "italics"
+          }}
+        >
+          National Science Foundation plagerizes Nick Carducci
+        </i>
+        <div
+          style={{
+            fontFamily: '"Hi Melody", cursive',
+            color: "grey",
+            margin: "10px 0px",
+            padding: "10px",
+
+            flexDirection: "column",
+            alignItems: "center",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px"
+          }}
+        >
+          I have a feeling I am about to be plagiarized by you. Why work with me
+          when you can claim it is not creative and do it yourself? Well that
+          means it would have been done already. I am the first to make the{" "}
+          <a
+            style={{
+              padding: "4px 10px",
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch"
+          >
+            circular-magnetic engine
+          </a>{" "}
+          design. Do not plagiarize me Nick Carducci.sh
+          <br />
+          <a
+            style={{
+              padding: "4px 10px",
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://magnate.company"
+          >
+            magnate
+          </a>
+          <br />
+          <br />
+          Christina, Is it not creative, original or transformative? Because it
+          is creative, it is original, and it can transform the entire energy
+          industry. Is this because of my stance on legal issues? My gender,[
+          age,] or skin color?{" "}
+          <span style={{ textDecoration: "underline" }}>
+            if it is easy to do, why is it not done
+          </span>
+          ? Nick Carducci.sh
+          <br />
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+              display: "flex",
+              justifyContent: "center",
+              flexWrap: "wrap",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <span
+              ref={this.nsfFraud}
+              style={{
+                padding: "4px 10px",
+
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightNSFFraud ? "white" : "",
+                backgroundColor: this.state.highlightNSFFraud
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              Dear Nicholas,
+            </span>
+            <br />
+            Thank you for submitting your company's Program Pitch to America's
+            Seed Fund powered by the National Science Foundation.
+            <br />
+            Upon reviewing your submitted Project Pitch, I regret to inform you
+            that you are not invited to submit a full proposal to the NSF
+            SBIR/STTR Phase I program.
+            <br />
+            "The proposed project does not appear to focus on a technical
+            innovation that is creative, original or potentially
+            transformative."
+          </div>
+          <br />
+          <br />I also invented the{" "}
+          <a href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/226631196">
+            DayClock
+          </a>
+          , if Apple Watch uses it they owe me royalty since I cannot afford the
+          patent fees
+          <br />
+          <div style={{ position: "relative" }}>
+            <img
+              style={{ height: "auto", width: "100%" }}
+              src="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
+              alt="https://www.dl.dropboxusercontent.com/s/2s2hbhlyntj4rbg/Screen%20Shot%202021-02-27%20at%2010.55.36%20AM.png?dl=0"
+            />
+          </div>
+          <br />
+          <a
+            style={{
+              padding: "4px 10px",
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://wavv.art/forumqWvK2fk3GcFligVsTZ0f"
+          >
+            wavv.art/forumqWvK2fk3GcFligVsTZ0f
+          </a>
+        </div>
+        <i
+          style={{
+            fontFamily: '"Pacifico", cursive', //sans-serif no diff
+            textEmphasis: "italics"
+          }}
+        >
+          Savers are disenfranchised by current{" "}
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+              setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+          >
+            fintech
+          </span>
+        </i>
+        <div
+          style={{
+            fontFamily: '"Hi Melody", cursive',
+            color: "grey",
+            margin: "10px 0px",
+            padding: "10px",
+
+            flexDirection: "column",
+            alignItems: "center",
+            border: "1px dotted",
+            width: "calc(100% - 20px)",
+            maxWidth: "600px"
+          }}
+        >
+          Unemployment is 40% of people!! Some people work for dollars from
+          another market, I work for market share for IP & waiting for merchant
+          service that deals without credit
         </div>
         <i
           style={{
