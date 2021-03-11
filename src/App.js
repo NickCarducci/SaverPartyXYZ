@@ -370,11 +370,37 @@ export default class App extends React.Component {
           >
             Demand
           </span>
-        </span>Torts need to be between people and classes again, we shouldn’t have to sue the government
-        <br/><br/>
-        Common sense is veiled sometimes.  There are no consequences for the debt later, it can never be paid.  only now in counterfeit price-inelasticity, monopsonization of the government, insurance, finance, incoives, rent-seekers, and the non-certificate, non-cross-party-risk services and end-assets.  There are no consequences if the borrowers' customers' down-payments are renumerated.  It can never be paid.
-        <br/>
-        <br/>
+        </span>
+        Torts need to be between people and classes again, we shouldn’t have to
+        sue the government
+        <br />
+        <br />
+        Common sense is veiled sometimes. There are no consequences for the debt
+        later, it can never be paid;&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fasterWithCounterfeit.current.scrollIntoView("smooth");
+            this.setState({ highlightFasterWithCounterfeit: true });
+            setTimeout(
+              () => this.setState({ highlightFasterWithCounterfeit: false }),
+              10000
+            );
+          }}
+        >
+          only now
+        </span>
+        &nbsp;in counterfeit price-inelasticity, monopsonization of the
+        government over&nbsp;
+        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+          assets
+        </a>
+        , insurance, finance, incoives, rent-seekers, and the non-certificate,
+        non-cross-party-risk services and end-assets. There are no consequences
+        if the borrowers' customers' down-payments are renumerated. It can never
+        be paid.
+        <br />
+        <br />
         Travel can only be supressed by individuals by court order, not
         governments or physicians, federal, state or local
         <br />
@@ -973,10 +999,20 @@ export default class App extends React.Component {
         You aren't asking congress for money you are asking people
         <br />
         <br />
-        Republicans are attesting to my claim that government spending by tax or
-        debt is faster, well after further consideration and experience I must
-        argue that the only speed gained is in stealing copyright by government,
-        otherwise competition from supply is faster
+        <span
+          ref={this.fasterWithCounterfeit}
+          style={{
+            color: this.state.highlightFasterWithCounterfeit ? "white" : "",
+            backgroundColor: this.state.highlightFasterWithCounterfeit
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          Republicans are attesting to my claim that government spending by tax
+          or debt is faster, well after further consideration and experience I
+          must argue that the only speed gained is in stealing copyright by
+          government, otherwise competition from supply is faster
+        </span>
         <br />
         <br />
         Literally this politician just admitted that the Covid "Relief" Bill is
@@ -3173,7 +3209,7 @@ export default class App extends React.Component {
             style={{
               margin: "10px 0px",
               padding: "10px",
-display:"block",
+              display: "block",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
