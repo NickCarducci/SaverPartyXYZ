@@ -9075,6 +9075,12 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
+        "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
+        to purchase items at businesses... and multiple diamond
+        [investments]"... The fed uses our equity-split on shares of corporate
+        competitors of mine...
+        <br/>
+        <br/>
           gov gets free labor, greatest anti-trust case ever (steven moore is a
           duche)
           <br />
@@ -11846,4 +11852,3 @@ export default class App extends React.Component {
     );
   }
 }
-
