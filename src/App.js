@@ -7,6 +7,7 @@ import DebtToSales from "./debttosales";
 import TsyOperating from "./tsyoperating";
 import EmploymentHours from "./employmenthours";
 import EmploymentVelocity from "./employmentvelocity";
+import EmploymentVersusDebtHours from "./employmentversusdebthours";
 import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 import Employ2Pop from "./employ2pop";
@@ -11551,7 +11552,8 @@ export default class App extends React.Component {
         <br />
         <EmploymentHours showM1={this.state.showM1} />
         <EmploymentVelocity showM1={this.state.showM1} />
-        <div>
+        <EmploymentVersusDebtHours showM1={this.state.showM1} />
+        <div style={{ display: "flex" }}>
           <div
             style={{
               position: "relative"
@@ -11562,12 +11564,12 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/di3vvdp7out75fx/GoldBondWarning.jpg?dl=0"
               alt="imprisonment or insurmountable fine if you do not buy military-contract bonds"
             />
-
-            <div
-              style={{
-                position: "relative"
-              }}
-            ></div>
+          </div>
+          <div
+            style={{
+              position: "relative"
+            }}
+          >
             <img
               ref={this.IRS}
               style={{
