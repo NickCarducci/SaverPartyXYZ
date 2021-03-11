@@ -333,7 +333,10 @@ export default class App extends React.Component {
           maxWidth: "600px",
           height: "min-content"
         }}
-      >"stabilize education system?" That is not stable, only settled trade (nothing outstanding), is stable.  you are paying off the 13:1 or 30:1 counterfeit/involuntary-trade
+      >
+        "stabilize education system?" That is not stable, only settled trade
+        (nothing outstanding), is stable. you are paying off the 13:1 or 30:1
+        counterfeit/involuntary-trade. you need to print $76t for there to be enough
       <br/>
       <br/>
         "half children in poverty, out of poverty due to HR 1319," says VP Harris; nc: are you counting accrual payable?
