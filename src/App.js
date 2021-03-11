@@ -334,11 +334,12 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Travel can only be supressed by individuals by court order, not governments or physicians, federal, state or local
-        <br/>
-        Would need a law of non-scientific and assumptive-intentions 
-        <br/>
-        <br/>
+        Travel can only be supressed by individuals by court order, not
+        governments or physicians, federal, state or local
+        <br />
+        Would need a law of non-scientific and assumptive-intentions
+        <br />
+        <br />
         Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
         <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
         <span
@@ -433,7 +434,18 @@ export default class App extends React.Component {
         are you counting accrual payable?
         <br />
         <br />
-        POLL REPORTERS NEED TO&nbsp;
+        POLL [can be voluntary(nos&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.flop.current.scrollIntoView("smooth");
+            this.setState({ highlightFlop: true });
+            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+          }}
+        >
+          sample bias
+        </span>
+        ), of a population OR sample] REPORTERS NEED TO&nbsp;
         <a href="https://humanharvest.info">CITE (duty to warn)</a>&nbsp;SAMPLE
         SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT IN USD:CASH IN
         USD
@@ -4105,14 +4117,13 @@ export default class App extends React.Component {
             insurance companies cease in advertising that they save money or
             curate efficiently
           </a>
-          <br/>
-          <br/>
-            insurance is not subscription-membership because one person's
-            subscription does not go towards someone else's, it goes to pay for
-            their non-monopsony, individual servicing. insurance is duressful
-            trade, by invoice, gift-certificate or max-expense, prohibiting
-            trade and causing slavery just the same as debt
-           
+          <br />
+          <br />
+          insurance is not subscription-membership because one person's
+          subscription does not go towards someone else's, it goes to pay for
+          their non-monopsony, individual servicing. insurance is duressful
+          trade, by invoice, gift-certificate or max-expense, prohibiting trade
+          and causing slavery just the same as debt
         </div>
         <i
           style={{
@@ -4600,7 +4611,7 @@ export default class App extends React.Component {
             <span
               style={{
                 fontFamily: '"Pacifico", cursive',
-                textDecoration: "underline",
+                textDecoration: "underline"
               }}
               onClick={() => {
                 this.covidrelief.current.scrollIntoView("smooth");
@@ -11935,3 +11946,4 @@ export default class App extends React.Component {
     );
   }
 }
+
