@@ -9,6 +9,7 @@ import EmploymentHours from "./employmenthours";
 import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 import Employ2Pop from "./employ2pop";
+import GunSafety from "./GunSafety";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -375,40 +376,8 @@ export default class App extends React.Component {
         lender who gets to keep down-payments of borrowers’ customers, as of now
         <br />
         <br />
-        In my expert opinion, I think this person is mentally ill.
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/2jrc41tbawmkk12/MentallyIll.jpg?dl=0"
-          />
-        </div>
-        <br /> victim of gun violence yourself with no injuries? Did you
-        hallucinate? I have been called ADHD for saying I cannot concentrate to
-        get amphedamines (Ritalin) to work diligently. I have mimicked a kissing
-        contest and took leave of absense to work on thumbprint.us, by the grace
-        of a family conflicted-interest psychologist and a lawyer. These labels
-        are not evidence of danger and these bills are a grave violation of
-        citizens' safety, arming the government but not any angry but peaceful
-        detractors. I've also been called OCD by so-called
-        licensed-professionals because I am good at accounting and
-        technical-architecture.
-        <br />
-        <br />
-        The FBI nor Phychologists should decide without evidence of previous
-        violent offenses if someone is dangerous... without evidence! THERE IS
-        NO REASON WHY A &nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+        <GunSafety
+          policeUX={() => {
             this.policeUX.current.scrollIntoView("smooth");
             this.setState({ highlightPoliceUX: true });
             setTimeout(
@@ -416,116 +385,18 @@ export default class App extends React.Component {
               10000
             );
           }}
-        >
-          CHECK
-        </span>
-        &nbsp;OF CRIME SHOULD TAKE MORE THAN 10 SECONDS
-        <br />
-        <br />
-        Look at this angry person, do not give this cunt a gun
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/413lz55kytomja1/AngryGun.jpg?dl=0"
-          />
-        </div>
-        <br />
-        Sounds like the Charleston loophole can only be closed by not having
-        shit tech + police dashboard for LITERAL threatening posts or creating a
-        loophole for the FBI to keep guns away from people who view violence
-        against themselves as including property and money/market(not-accrual,
-        depositary)/vault-share and should be able to at least brandish thieves
-        like the cops can to both unarmed and armed arrests
-        <br />
-        <br />
-        Why does it take more than 10 seconds to pull up criminal backgrounds?
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/eqbyjoyvz3xqhsx/Fillabuster.jpg?dl=0"
-          />
-        </div>
-        <br />
-        In what world does it take that long unless you are reading tweets,
-        which should be reported at the time of threat.
-        <br />
-        There is no technological or user experience reason this process should
-        not by asynchronous and ready to ping
-        <br />
-        Democrats want to be able to withhold approval for 30 days? Holy shit
-        <br />
-        <br />
-        Drugs as criminal offense causes violence,&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          navbar={() => {
             this.navbar.current.scrollIntoView("smooth");
           }}
-        >
-          prescriptions
-        </span>
-        &nbsp;and said classification of&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          drugs={() => {
             this.drugs.current.scrollIntoView("smooth");
             this.setState({ highlightDrugs: true });
             setTimeout(() => this.setState({ highlightDrugs: false }), 10000);
           }}
-        >
-          drugs
-        </span>
-        &nbsp;as a crime is abjectly to stop competition with the dollar and
-        traunch&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          starve={() => {
             this.starve.current.scrollIntoView("smooth");
           }}
-        >
-          classes of people
-        </span>
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/nuequy5qj9cf5us/DrugRelatedCrime.jpg?dl=0"
-          />
-        </div>{" "}
-        <br />
-        Congresspeople are an&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          brookings={() => {
             this.brookings.current.scrollIntoView("smooth");
             this.setState({ highlightBrookings: true });
             setTimeout(
@@ -533,98 +404,28 @@ export default class App extends React.Component {
               10000
             );
           }}
-        >
-          apparent danger
-        </span>
-        &nbsp;to themselves or others. I have no proof of this (I actually do,
-        but hypothetically if I didn't I would still sarcastically say), I just
-        have the best opinions
-        <br />
-        <br />
-        What would of happened if the Jews were allowed to own guns in&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.IRS.current.scrollIntoView("smooth");
-            this.setState({ highlightIRS: true });
-            setTimeout(() => this.setState({ highlightIRS: false }), 10000);
-          }}
-        >
-          1933
-        </span>
-        ? Any conflicted-interested&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          nra={() => {
             this.nra.current.scrollIntoView("smooth");
             this.setState({ highlightNRA: true });
             setTimeout(() => this.setState({ highlightNRA: false }), 10000);
           }}
-        >
-          asenine-physician
-        </span>
-        &nbsp;can say you are crazy, are you crazy? Make it based on convictions
-        by violent crime, if not already, per HR.8
-        <br />
-        <br />
-        Insurance was&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          irs={() => {
             this.IRS.current.scrollIntoView("smooth");
             this.setState({ highlightIRS: true });
             setTimeout(() => this.setState({ highlightIRS: false }), 10000);
           }}
-        >
-          forced
-        </span>
-        &nbsp;upon us, and is duress. Even if covid isn't&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
+          fraud={() => {
             this.fraud.current.scrollIntoView("smooth");
             this.setState({ highlightFraud: true });
             setTimeout(() => this.setState({ highlightFraud: false }), 10000);
           }}
-        >
-          mislabeling
-        </span>
-        , it is already illegal to prohibit trade & price-elasticity for
-        anyreason
-        <br />
-        <br />
-        "Ninety percent of americans, poll after poll, support HR.1319," claims
-        the adresser of Saver Party with jealousy for having wasted his own life
-        on beleagured ends
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
+          varney={() => {
+            this.varney.current.scrollIntoView("smooth");
+            this.setState({ highlightVarney: true });
+            setTimeout(() => this.setState({ highlightVarney: false }), 10000);
           }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
-          />
-        </div>
-        <br />
-        "Take your own polls," he says, again making dangerous assumptions to
-        legislate this&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={this.props.goToTop}
-        >
-          crime
-        </span>
-        . Assumptions that&nbsp;
-        <a href="https://www.isidewith.com/poll/488729614">
-          contradict samples of larger numbers
-        </a>
+          goToTop={this.props.goToTop}
+        />
         <br />
         <br />
         <br />
@@ -8413,20 +8214,25 @@ export default class App extends React.Component {
           arrest
         </div>
         <div
+          ref={this.varney}
           style={{
             fontFamily: '"Hi Melody", cursive',
-            color: "grey",
             margin: "10px 0px",
             padding: "10px",
 
             border: "1px dotted",
             width: "calc(100% - 20px)",
-            maxWidth: "600px"
+            maxWidth: "600px",
+            color: this.state.highlightVarney ? "white" : "grey",
+            backgroundColor: this.state.highlightVarney
+              ? "rgb(170,100,205)"
+              : ""
           }}
         >
-          "shares of Rubix worth $xxx" - a lie, that is only the last trade, not the worth of every share if diluted, surely
-          <br/>
-          <br/>
+          "shares of Rubix worth $xxx" - a lie, that is only the last trade, not
+          the worth of every share if diluted, surely
+          <br />
+          <br />
           G-d damnit Varney & co. is a clown show, stop calling frauds a
           bail-out & can you cite who sold (last trade) or who is in control of
           bid-ask spread instead of passing off what you suspect as causation
@@ -11494,5 +11300,4 @@ export default class App extends React.Component {
     );
   }
 }
-
 
