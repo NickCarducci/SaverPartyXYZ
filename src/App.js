@@ -66,7 +66,7 @@ export default class App extends React.Component {
     this.brookings = React.createRef();
     this.booker = React.createRef();
     this.jewels = React.createRef();
-    this.prisonersDuress = React.createRef();
+    this.insurance = React.createRef();
     this.covidrelief = React.createRef();
     this.experts = React.createRef();
     this.stats = React.createRef();
@@ -108,7 +108,6 @@ export default class App extends React.Component {
     this.drugs = React.createRef();
     this.policeUX = React.createRef();
     this.injury = React.createRef();
-    this.prisonersDuress = React.createRef();
     this.sellingOut = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
@@ -420,7 +419,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.insurance.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -2086,7 +2085,7 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightInsurance: true });
               setTimeout(
                 () => this.setState({ highlightInsurance: false }),
@@ -2532,7 +2531,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.insurance.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -3998,7 +3997,7 @@ export default class App extends React.Component {
             textDecoration: "underline"
           }}
           onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.insurance.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
             setTimeout(
               () => this.setState({ highlightInsurance: false }),
@@ -4041,7 +4040,7 @@ export default class App extends React.Component {
           vaccines into arms"; Neanderthals invented the wheel or whatever
         </i>
         <div
-          ref={this.prisonersDuress}
+          ref={this.insurance}
           style={{
             fontFamily: '"Hi Melody", cursive',
             margin: "10px 0px",
@@ -6039,7 +6038,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -6436,7 +6435,7 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.prisonersDuress.current.scrollIntoView("smooth");
+                this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
                 setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
@@ -7108,7 +7107,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -7153,7 +7152,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -7565,7 +7564,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -7710,7 +7709,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -7754,7 +7753,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -7857,7 +7856,7 @@ export default class App extends React.Component {
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.insurance.current.scrollIntoView("smooth");
             this.setState({ highlightPrisonersDuress: true });
             setTimeout(
               () => this.setState({ highlightPrisonersDuress: false }),
@@ -8329,7 +8328,7 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.prisonersDuress.current.scrollIntoView("smooth");
+                this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
                 setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
@@ -8379,7 +8378,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
               setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
@@ -11936,4 +11935,3 @@ export default class App extends React.Component {
     );
   }
 }
-
