@@ -334,6 +334,36 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        loser---winner<br/>
+        Get the Luddites*!
+        <br/>
+        "" Gaddafi*
+        <br/>
+        on F. Morano
+        <br/>
+        for commodity security deposit receipt, settled economy
+        <br/>
+      <div
+        style={{
+          width: "50%",
+          position: "relative"
+        }}
+      >
+        <img
+          alt=""
+          style={{
+            width: "70%",
+            height: "auto"
+          }}
+          src="https://www.dl.dropboxusercontent.com/s/b7l2yt5wfpkc67o/RankChoiceImpediments.png?dl=0"
+      /></div> 
+      <br/>
+      
+      I am confused if the spots after second, get added to second; or if the second choice of each individual is used and so on, and if there is a change then that means the person got the most bestest votes
+<br/>
+I want to make toms shoes for phones with torus electron rim magnate.company
+       <br/>
+        <br/>
         "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have a&nbsp;
         <a href="https://moldmask.co">mask</a>&nbsp;and we will check your&nbsp;
         <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">medical history</a>&nbsp;for cold&nbsp;
