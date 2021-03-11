@@ -9016,117 +9016,156 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          "robinhood was undercapitalized to allow users to do what they wanted
-          to do"
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics"
-          }}
-        >
-          monopsony of retail space, ignored request for service emails
-        </i>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", cursive',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          <a href="https://wavv.art/forumndUyfK0JYWVglK4qa62R">
-            wavv.art/forumndUyfK0JYWVglK4qa62R
-          </a>
-          <span
+          <div
             style={{
-              padding: "4px 10px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightFintech ? "white" : "",
-              backgroundColor: this.state.highlightFintech
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-            ref={this.fintech}
-          >
-            Allpoint and Greendot oligopoly prevents me from extending payable
-            services because it requires me to take counterfeit offers with
-            cross-party down-payment malfeasant-jurisprudence risk in requiring
-            that I accept credit to accept debit, and banks that cost $10/mo
-            instead of ATM networks
-          </span>
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", cursive',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
 
-            flexDirection: "column",
-            alignItems: "center",
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-        "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
-        to purchase items at businesses... and multiple diamond
-        [investments]"... The fed uses our equity-split on shares of corporate
-        competitors of mine...
-        <br/>
-        <br/>
-          gov gets free labor, greatest anti-trust case ever (steven moore is a
-          duche)
-          <br />
-          Kudlow likes{" "}
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.gdp1.current.scrollIntoView("smooth");
-              this.setState({ highlightGDP: true });
-              setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
             }}
           >
-            GDP
-          </span>{" "}
-          "growth but not Stimulus," your measure is off retard
-          <br />
-          you're only harming yourself and all of us
-          <br />
-          <br />
-          Kevin Hasset says money is something you can exchange for goods; more
-          accruately, and to fix for split/reverse-split not-appropriated
-          appropriately, it is{" "}
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.foreignpolicy.current.scrollIntoView("smooth");
-              this.setState({ highlightFP: true });
-              setTimeout(() => this.setState({ highlightFP: false }), 10000);
-            }}
-          >
-            market-share
-          </span>{" "}
-          Kudlow calling him the smartest guy in the world means Kudlow isn't
-          just retarded by his actions but tarded
-          <br />
-          Hasset and Lindsay still looking at real growth instead of{" "}
-          <a
+            "robinhood was undercapitalized to allow users to do what they
+            wanted to do"
+          </div>
+          <i
             style={{
-              padding: "4px 10px",
-              border: "1px solid",
-              color: "grey"
+              fontFamily: '"Pacifico", cursive', //sans-serif no diff
+              textEmphasis: "italics"
             }}
-            href="https://froth.app"
           >
-            gdp-new money-new debt/p
-          </a>
+            monopsony of retail space, ignored request for service emails
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <a href="https://wavv.art/forumndUyfK0JYWVglK4qa62R">
+              wavv.art/forumndUyfK0JYWVglK4qa62R
+            </a>
+            <span
+              style={{
+                padding: "4px 10px",
+                transition: ".3s ease-in",
+                borderRadius: "15px",
+                color: this.state.highlightFintech ? "white" : "",
+                backgroundColor: this.state.highlightFintech
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.fintech}
+            >
+              Allpoint and Greendot oligopoly prevents me from extending payable
+              services because it requires me to take counterfeit offers with
+              cross-party down-payment malfeasant-jurisprudence risk in
+              requiring that I accept credit to accept debit, and banks that
+              cost $10/mo instead of ATM networks
+            </span>
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              flexDirection: "column",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
+            to purchase items at businesses... and multiple diamond
+            [investments]"... The fed uses our equity-split on shares of
+            corporate competitors of mine...
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              flexDirection: "column",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            gov gets free labor, greatest anti-trust case ever (steven moore is
+            a duche)
+            <br />
+            Kudlow likes{" "}
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.gdp1.current.scrollIntoView("smooth");
+                this.setState({ highlightGDP: true });
+                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+              }}
+            >
+              GDP
+            </span>{" "}
+            "growth but not Stimulus," your measure is off retard
+            <br />
+            you're only harming yourself and all of us
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", cursive',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              flexDirection: "column",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Kevin Hasset says money is something you can exchange for goods;
+            more accruately, and to fix for split/reverse-split not-appropriated
+            appropriately, it is{" "}
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.foreignpolicy.current.scrollIntoView("smooth");
+                this.setState({ highlightFP: true });
+                setTimeout(() => this.setState({ highlightFP: false }), 10000);
+              }}
+            >
+              market-share
+            </span>{" "}
+            Kudlow calling him the smartest guy in the world means Kudlow isn't
+            just retarded by his actions but tarded
+            <br />
+            Hasset and Lindsay still looking at real growth instead of{" "}
+            <a
+              style={{
+                padding: "4px 10px",
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://froth.app"
+            >
+              gdp-new money-new debt/p
+            </a>
+          </div>
         </div>
         <i
           style={{
@@ -11852,3 +11891,4 @@ export default class App extends React.Component {
     );
   }
 }
+
