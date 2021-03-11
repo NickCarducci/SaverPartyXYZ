@@ -6,6 +6,7 @@ import "./styles.css";
 import DebtToSales from "./debttosales";
 import TsyOperating from "./tsyoperating";
 import EmploymentHours from "./employmenthours";
+import EmploymentVelocity from "./employmentvelocity";
 import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 import Employ2Pop from "./employ2pop";
@@ -105,7 +106,7 @@ export default class App extends React.Component {
     this.drugs = React.createRef();
     this.policeUX = React.createRef();
     this.injury = React.createRef();
-    this.prisonersDuress = React.createRef()
+    this.prisonersDuress = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -382,10 +383,7 @@ export default class App extends React.Component {
           injury={() => {
             this.injury.current.scrollIntoView("smooth");
             this.setState({ highlightInjury: true });
-            setTimeout(
-              () => this.setState({ highlightInjury: false }),
-              10000
-            );
+            setTimeout(() => this.setState({ highlightInjury: false }), 10000);
           }}
           policeUX={() => {
             this.policeUX.current.scrollIntoView("smooth");
@@ -931,7 +929,8 @@ export default class App extends React.Component {
           inflation
         </span>
         &nbsp;like it happens later and causes unemployment (nothing being made,
-        people starving).&nbsp;<span 
+        people starving).&nbsp;
+        <span
           style={{
             fontWeight: "bolder",
             textDecoration: "underline"
@@ -939,10 +938,16 @@ export default class App extends React.Component {
           onClick={() => {
             this.inflation.current.scrollIntoView("smooth");
             this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>Monetary-inflation, to that effect, only happens if
-        bonds are paid off and foreclosures happen</span>&nbsp;to the assets. Most inflation
-        is&nbsp;
+            setTimeout(
+              () => this.setState({ highlightInflation: false }),
+              10000
+            );
+          }}
+        >
+          Monetary-inflation, to that effect, only happens if bonds are paid off
+          and foreclosures happen
+        </span>
+        &nbsp;to the assets. Most inflation is&nbsp;
         <span
           onClick={() => {
             this.Oooreily.current.scrollIntoView("smooth");
@@ -2075,16 +2080,24 @@ export default class App extends React.Component {
           >
             price-inelasticity inflation
           </span>
-          , only&nbsp;<span 
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>monetary-inflation, is bunk</span>!
+          , only&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            monetary-inflation, is bunk
+          </span>
+          !
         </span>
         <br />
         <br />
@@ -3299,17 +3312,24 @@ export default class App extends React.Component {
           Why are we lending to veterans to compete with other consumers of
           education and the veteran themselves except to secrete more equity
           from unrequited and uneducated savers about what is happening and why
-          pertaining to&nbsp;<span 
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>price-inelasticity inflation and monetary inflation</span>&nbsp;by
-          nonconsensual dollar/market/valut-share infiltration
+          pertaining to&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            price-inelasticity inflation and monetary inflation
+          </span>
+          &nbsp;by nonconsensual dollar/market/valut-share infiltration
         </div>
         <i
           style={{
@@ -3871,7 +3891,7 @@ export default class App extends React.Component {
           vaccines into arms"; Neanderthals invented the wheel or whatever
         </i>
         <div
-        ref={this.prisonersDuress}
+          ref={this.prisonersDuress}
           style={{
             fontFamily: '"Hi Melody", cursive',
             margin: "10px 0px",
@@ -3883,7 +3903,7 @@ export default class App extends React.Component {
             color: this.state.highlightPrisonersDuress ? "white" : "grey",
             backgroundColor: this.state.highlightPrisonersDuress
               ? "rgb(170,100,205)"
-              : "",
+              : ""
           }}
         >
           <a href="https://en.wikipedia.org/wiki/Denis_McDonough">
@@ -3895,7 +3915,12 @@ export default class App extends React.Component {
           Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
           <br />
           <br />
-          Medishare claims, "You can save on health costs: $500,000/year when switching."  That answer is wrong still since you paused and said ", the answer is an emphatic yes" where the colon is to obfuscate and gaslight that Medicare, in conjunction with (how you actually operate, not&nbsp;<span
+          Medishare claims, "You can save on health costs: $500,000/year when
+          switching." That answer is wrong still since you paused and said ",
+          the answer is an emphatic yes" where the colon is to obfuscate and
+          gaslight that Medicare, in conjunction with (how you actually operate,
+          not&nbsp;
+          <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
@@ -3904,7 +3929,12 @@ export default class App extends React.Component {
                 () => this.setState({ highlightTrueGDP: false }),
                 10000
               );
-            }}>relative change</span>) other&nbsp;<span
+            }}
+          >
+            relative change
+          </span>
+          ) other&nbsp;
+          <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
@@ -3913,7 +3943,19 @@ export default class App extends React.Component {
                 () => this.setState({ highlightTrueGDP: false }),
                 10000
               );
-            }}>insurance</span>&nbsp;you CANNOT say it saves money to abet invoices and instigate by duress cross party risk for what would be without invoices just gift certificates (not gift cards) for individual buyers (you would be a classified ads business if you want to "curate").  I am the one that made&nbsp;<a href="https://www.researchgate.net/publication/346041766_The_FTC_has_responded_to_my_complaints_and_so_has_the_industry_Allstate_Progressive_Geico_all_say_they_save_you_money_by_switching_or_bundling_yet_neo-insurance_companies_like_CarShieldUSA_still_says_">insurance companies cease in advertising that they save money or curate efficiently</a> 
+            }}
+          >
+            insurance
+          </span>
+          &nbsp;you CANNOT say it saves money to abet invoices and instigate by
+          duress cross party risk for what would be without invoices just gift
+          certificates (not gift cards) for individual buyers (you would be a
+          classified ads business if you want to "curate"). I am the one that
+          made&nbsp;
+          <a href="https://www.researchgate.net/publication/346041766_The_FTC_has_responded_to_my_complaints_and_so_has_the_industry_Allstate_Progressive_Geico_all_say_they_save_you_money_by_switching_or_bundling_yet_neo-insurance_companies_like_CarShieldUSA_still_says_">
+            insurance companies cease in advertising that they save money or
+            curate efficiently
+          </a>
         </div>
         <i
           style={{
@@ -5525,19 +5567,25 @@ export default class App extends React.Component {
             maxWidth: "600px"
           }}
         >
-          Stimulus (ignoring harm done in price-inelasticity&nbsp;<span
-          
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>inflation</span>, monetary
-          inflation/involuntary servitude) cannot relieve anything if finance is
-          banned
+          Stimulus (ignoring harm done in price-inelasticity&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            inflation
+          </span>
+          , monetary inflation/involuntary servitude) cannot relieve anything if
+          finance is banned
         </div>
         <div
           style={{
@@ -5831,17 +5879,22 @@ export default class App extends React.Component {
           }}
         >
           splitting dollars of entrepreneurs and labor without consent for those
-          who lost there jobs and businesses who lost income is anti-competitive&nbsp;
+          who lost there jobs and businesses who lost income is
+          anti-competitive&nbsp;
           <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}>insurance</span>&nbsp;fraud, regardless if the late population stats are abnormal
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance
+          </span>
+          &nbsp;fraud, regardless if the late population stats are abnormal
           (they aren't)
           <br />
           landlord, lender and invoicer get the money right? That’s what the
@@ -6224,17 +6277,22 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            insurance to&nbsp;<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
-              this.setState({ highlightPrisonersDuress: true });
-              setTimeout(
-                () => this.setState({ highlightPrisonersDuress: false }),
-                10000
-              );
-            }}>pool</span>&nbsp;their demand capacity and risk and instigating
-            themselves to prisoners' dilemma of duress
+            insurance to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.prisonersDuress.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+                setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              pool
+            </span>
+            &nbsp;their demand capacity and risk and instigating themselves to
+            prisoners' dilemma of duress
           </span>
           <br />
           <div
@@ -6880,7 +6938,7 @@ export default class App extends React.Component {
           <br />
           <br />
           <span
-          ref={this.inflation}
+            ref={this.inflation}
             style={{
               fontWeight: "bolder",
               color: this.state.highlightInflation ? "white" : "grey",
@@ -6889,7 +6947,10 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            Inflation is the ask exuding its&nbsp;<a href="https://www.investopedia.com/terms/p/priceelasticity.asp">power</a>
+            Inflation is the ask exuding its&nbsp;
+            <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+              power
+            </a>
           </span>
           <br />
           The&nbsp;
@@ -7059,7 +7120,7 @@ export default class App extends React.Component {
               without commute*/}
         </div>
         <i
-        ref={this.injury}
+          ref={this.injury}
           style={{
             fontFamily: '"Pacifico", cursive', //sans-serif no diff
             textEmphasis: "italics",
@@ -7071,20 +7132,22 @@ export default class App extends React.Component {
         >
           My 5-year trial with SSA Disability / Medicare Orthopedic
         </i>
-        <div style={{ display:"flex" }}>
-        <div style={{ width: "50%",position: "relative" }}>
-          <img
-            style={{ width: "100%", height: "auto" }}
-            src="https://www.dl.dropboxusercontent.com/s/01otcjkketu06bj/SecondAppeal.png?dl=0"
-            alt="smart enough to get a job proved to be wrong"
-       />
-            </div>
-        <div style={{ width: "50%",position: "relative" }}>   <img
-            style={{ width: "100%", height: "auto" }}
-            src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
-            alt="vastus medialis (teardrop muscle)"
-          />
-        </div>
+        <div style={{ display: "flex" }}>
+          <div style={{ width: "50%", position: "relative" }}>
+            <img
+              style={{ width: "100%", height: "auto" }}
+              src="https://www.dl.dropboxusercontent.com/s/01otcjkketu06bj/SecondAppeal.png?dl=0"
+              alt="smart enough to get a job proved to be wrong"
+            />
+          </div>
+          <div style={{ width: "50%", position: "relative" }}>
+            {" "}
+            <img
+              style={{ width: "100%", height: "auto" }}
+              src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
+              alt="vastus medialis (teardrop muscle)"
+            />
+          </div>
         </div>
         <div
           style={{
@@ -7116,15 +7179,19 @@ export default class App extends React.Component {
           <br />
           “When the characters had growing expenses, we made saving on&nbsp;
           <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}>insurance</span>, easy.” Hahahaha <a href="https://usaa.com">USAA</a>
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance
+          </span>
+          , easy.” Hahahaha <a href="https://usaa.com">USAA</a>
           <br />
           As you can see from the photo, my muscle (flexed) is malformed and my
           patella locks upwards, and this Medicare doctor has the gaul to say it
@@ -7155,7 +7222,9 @@ export default class App extends React.Component {
           <br />
           <br />
           He wanted me to do physical therapy again to proceed to what he said
-          he would never do bone marrow transfusion, but that is a&nbsp;<span style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          he would never do bone marrow transfusion, but that is a&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.prisonersDuress.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
@@ -7163,18 +7232,21 @@ export default class App extends React.Component {
                 () => this.setState({ highlightPrisonersDuress: false }),
                 10000
               );
-            }}>problem</span>&nbsp;with
-          Medicare/Pre-paid Cross-party duress inducing prisoners’ dilemma
-          insurance scourges. I do squats on my own but it has been 4 years
-          since my injury and I feel like I am losing my leg. I used to be able
-          to run, then once a month, now I can hardly do a squat or anything
-          without pain from the other parts of my leg like below my patella and
-          ankle hurting/swelling the day after or at all before two month's
-          break. I read at the start of my injury in 2015 that it would take 7-8
-          years to recover deep-tissue skeletal muscle. This may be close to the
-          outpouring of bone marrow from my knee, so the delivery mechanism is
-          likely not strong, and NEED bone marrow store from my pelvis. Or, 5
-          years I may be able to work it back with physical
+            }}
+          >
+            problem
+          </span>
+          &nbsp;with Medicare/Pre-paid Cross-party duress inducing prisoners’
+          dilemma insurance scourges. I do squats on my own but it has been 4
+          years since my injury and I feel like I am losing my leg. I used to be
+          able to run, then once a month, now I can hardly do a squat or
+          anything without pain from the other parts of my leg like below my
+          patella and ankle hurting/swelling the day after or at all before two
+          month's break. I read at the start of my injury in 2015 that it would
+          take 7-8 years to recover deep-tissue skeletal muscle. This may be
+          close to the outpouring of bone marrow from my knee, so the delivery
+          mechanism is likely not strong, and NEED bone marrow store from my
+          pelvis. Or, 5 years I may be able to work it back with physical
           therapy/lean-strength training without my the swelling/joint/ankle
           pain/auxilliary-effects (I'll try to squat 3x20 again in 15 days...)
           <br />
@@ -7562,20 +7634,23 @@ export default class App extends React.Component {
           <br />
           Me
           <br />
-          Not help if invoices and rent/insurance&nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}
-          >non-certificate</span>&nbsp;broker on a
-          classified ads site is illegal, since price-would not be prohibited in
-          being elastic. In either case, you have no right to promise Lendio my
-          money, you scourge
+          Not help if invoices and rent/insurance&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            non-certificate
+          </span>
+          &nbsp;broker on a classified ads site is illegal, since price-would
+          not be prohibited in being elastic. In either case, you have no right
+          to promise Lendio my money, you scourge
           <br />
           <a href="https://wavv.art/forumHuT6DNKNABiHUPM8JgBz">
             wavv.art/forumHuT6DNKNABiHUPM8JgBz
@@ -7704,16 +7779,21 @@ export default class App extends React.Component {
             Third Reich who campaigned on ending financial discrimination by
             non-jews
           </a>
-          , off the air, a scourge through&nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}>insurance companies</span>&nbsp;owned by{" "}
+          , off the air, a scourge through&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance companies
+          </span>
+          &nbsp;owned by{" "}
           <a
             style={{
               fontFamily: '"Hi Melody", cursive'
@@ -7743,16 +7823,21 @@ export default class App extends React.Component {
           supply-side masked as altruism. ban invoices of borrowers' customers'
           money, rent-colonist interventionist non-producing slave-drivers,
           counterfeit-contracts of borrowers' customers' money and insurance
-          prisoner's dilemma<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}>duress</span>&nbsp;to not fight fire with fire.
+          prisoner's dilemma
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            duress
+          </span>
+          &nbsp;to not fight fire with fire.
           <br />
           stay afloat with stolen money (+ involuntary servitude to pay it back
           and to the benefit of bond-holders), how about get them out of the
@@ -7761,18 +7846,24 @@ export default class App extends React.Component {
           do you think a contract of corporate shares could adjudicate, in
           court, in favor of the lender without reparations of down payment for
           the borrower’s customers? Promising to split the dollar
-          (price-inelasticity inflation) is&nbsp;<span
-          
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>just as involuntary as splitting it</span>&nbsp;
-          (monetary inflation), normally a choice made by the
+          (price-inelasticity inflation) is&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            just as involuntary as splitting it
+          </span>
+          &nbsp; (monetary inflation), normally a choice made by the
           dollar-shareholder. Currently the counterfeit debt:cash ratio in US
           dollars is 12:1. The second comment about price-elasticity is the fact
           that suppliers take as high a price as possible. Funding, regardless
@@ -7835,18 +7926,23 @@ export default class App extends React.Component {
         </i>{" "}
         <br />
         this is fraud and forgoes bootstrapping entrepreneurs and labor. why not
-        some more demand side policies like making invoices/debt/rent/<span style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.prisonersDuress.current.scrollIntoView("smooth");
-              this.setState({ highlightPrisonersDuress: true });
-              setTimeout(
-                () => this.setState({ highlightPrisonersDuress: false }),
-                10000
-              );
-            }}>insurance</span>&nbsp;
-        illegal by precedent, it is already illegal per colonialism, prisoners'
-        dilemma and usurped voting rights for being waged in contracts being
-        involuntary slavery
+        some more demand side policies like making invoices/debt/rent/
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.prisonersDuress.current.scrollIntoView("smooth");
+            this.setState({ highlightPrisonersDuress: true });
+            setTimeout(
+              () => this.setState({ highlightPrisonersDuress: false }),
+              10000
+            );
+          }}
+        >
+          insurance
+        </span>
+        &nbsp; illegal by precedent, it is already illegal per colonialism,
+        prisoners' dilemma and usurped voting rights for being waged in
+        contracts being involuntary slavery
         <br />
         Supply-side colonialism
         <br />
@@ -8302,18 +8398,22 @@ export default class App extends React.Component {
             <br />
             you cannot expect people to live off the streets if there is not
             enough money for the obligations, lease-colonists are allowed to
-            &nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}>corner the market</span> and insurance-duressments are allowed to sell by
-            prisoners' dilemma to keep up with the pooled price or
-            counterfeit-promise of invoice
+            &nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.prisonersDuress.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+                setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              corner the market
+            </span>{" "}
+            and insurance-duressments are allowed to sell by prisoners' dilemma
+            to keep up with the pooled price or counterfeit-promise of invoice
             <br />
             promising assets or money is just the same as stealing it because
             there is the option to sell profit-share without equity/1:1
@@ -8348,17 +8448,20 @@ export default class App extends React.Component {
           }}
         >
           Unfair discrimination for housing, education and healthcare is caused
-          by lending, invoices, rent and&nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.prisonersDuress.current.scrollIntoView("smooth");
-            this.setState({ highlightPrisonersDuress: true });
-            setTimeout(
-              () => this.setState({ highlightPrisonersDuress: false }),
-              10000
-            );
-          }}
-          >prisoners' dilemma of insurance</span>
+          by lending, invoices, rent and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.prisonersDuress.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+              setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            prisoners' dilemma of insurance
+          </span>
         </div>
         <div
           style={{
@@ -9802,17 +9905,26 @@ export default class App extends React.Component {
           monetary-inflation only happens if you allow debts to be reposessed
           <br />
           <br />
-          price-inelasticity inflation happens if you&nbsp;<span 
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>wait to adjunicate</span>&nbsp; and are malfeasant, by definition, with
-          the intention of reposession (negligent towards borrowers' customers' down-payments, at that) & indentured servitude
+          price-inelasticity inflation happens if you&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            wait to adjunicate
+          </span>
+          &nbsp; and are malfeasant, by definition, with the intention of
+          reposession (negligent towards borrowers' customers' down-payments, at
+          that) & indentured servitude
           <br />
           <br />
           The harm to savers and subjects to market-colonialism (historical
@@ -9836,16 +9948,24 @@ export default class App extends React.Component {
           monetary-base inflation happens but when it is banned monetary-base
           deflation happens. but price-inelasticity inflation happens now by
           dealing in usurped and forced promises of unrequited third party share
-          and servitude.&nbsp;<span 
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.inflation.current.scrollIntoView("smooth");
-            this.setState({ highlightInflation: true });
-            setTimeout(() => this.setState({ highlightInflation: false }), 10000);
-          }}>Let prices be elastic</span>!
+          and servitude.&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+              setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            Let prices be elastic
+          </span>
+          !
         </div>
         <div style={tweetsStyle}>
           if you want to lift people out of poverty efficiently, why would you
@@ -11430,6 +11550,7 @@ export default class App extends React.Component {
         debt/cash === 13/1 or 13:1 or 1300%
         <br />
         <EmploymentHours showM1={this.state.showM1} />
+        <EmploymentVelocity showM1={this.state.showM1} />
         <div>
           <div
             style={{
