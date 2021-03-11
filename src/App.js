@@ -335,32 +335,32 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
-        Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;<a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.cold.current.scrollIntoView("smooth");
-              this.setState({ highlightCold: true });
-              setTimeout(() => this.setState({ highlightCold: false }), 10000);
-            }}
-          >
-            cold
-          </span>
-          &nbsp;antibody cold case areas... if there are no symptoms, you're not certifiably sick with a virus deadlier than annual flu.&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.oldFlu.current.scrollIntoView("smooth");
-              this.setState({ highlightOldFlu: true });
-              setTimeout(
-                () => this.setState({ highlightOldFlu: false }),
-                10000
-              );
-            }}
-          >RELEASE THE DEATH RATE POPULATION NUMBERS UN</span>
-        <br/>
-        <br/>
-        "
+        Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
+        <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.cold.current.scrollIntoView("smooth");
+            this.setState({ highlightCold: true });
+            setTimeout(() => this.setState({ highlightCold: false }), 10000);
+          }}
+        >
+          cold
+        </span>
+        &nbsp;antibody cold case areas... if there are no symptoms, you're not
+        certifiably sick with a virus deadlier than annual flu.&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.oldFlu.current.scrollIntoView("smooth");
+            this.setState({ highlightOldFlu: true });
+            setTimeout(() => this.setState({ highlightOldFlu: false }), 10000);
+          }}
+        >
+          RELEASE THE DEATH RATE POPULATION NUMBERS UN
+        </span>
+        <br />
+        <br />"
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -4818,7 +4818,13 @@ export default class App extends React.Component {
           accelerate, mount or just radius thickness...
         </div>
         <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline",
+            width: "100%",
+            margin: "10px",
+            border: "1px dotted grey"
+          }}
           onClick={() => {
             this.jan2018.current.scrollIntoView("smooth");
             this.setState({ highlightJan2018: true });
@@ -4827,22 +4833,17 @@ export default class App extends React.Component {
         >
           Financial Celibacy
         </span>
+        <br />
         <span
           ref={this.takingCredit}
           style={{
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px",
             color: this.state.highlightTakingCredit ? "white" : "grey",
             backgroundColor: this.state.highlightTakingCredit
               ? "rgb(170,100,205)"
               : ""
           }}
         >
-          <a href="https://wavv.art/test3">Not taking credit</a> you&nbsp;
+          <a href="https://wavv.art/test3">Not taking credit</a>&nbsp;you&nbsp;
           <span style={{ fontSize: "6px" }}>fucking</span>
           slut,{" "}
           <a href="https://thumbprint.us">working for market(copyright,</a>
@@ -9093,24 +9094,26 @@ export default class App extends React.Component {
             >
               Allpoint and Greendot oligopoly prevents me from extending payable
               services because it requires me to take counterfeit offers with
-              cross-party down-payment malfeasant-jurisprudence risk in
-              &nbsp;<span
-              
-          onClick={() => {
-            this.takingCredit.current.scrollIntoView("smooth");
-            this.setState({ highlightTakingCredit: true });
-            setTimeout(
-              () => this.setState({ highlightTakingCredit: false }),
-              10000
-            );
-          }}
-          style={{
-            fontFamily: '"Pacifico", cursive', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}>requiring that I accept credit to accept debit, and banks that
-              cost $10/mo instead of ATM networks</span>
+              cross-party down-payment malfeasant-jurisprudence risk in &nbsp;
+              <span
+                onClick={() => {
+                  this.takingCredit.current.scrollIntoView("smooth");
+                  this.setState({ highlightTakingCredit: true });
+                  setTimeout(
+                    () => this.setState({ highlightTakingCredit: false }),
+                    10000
+                  );
+                }}
+                style={{
+                  fontFamily: '"Pacifico", cursive', //sans-serif no diff
+                  textEmphasis: "italics",
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+              >
+                requiring that I accept credit to accept debit, and banks that
+                cost $10/mo instead of ATM networks
+              </span>
             </span>
           </div>
           <div
