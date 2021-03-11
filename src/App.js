@@ -334,6 +334,39 @@ export default class App extends React.Component {
           height: "min-content"
         }}
       >
+        "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have a&nbsp;
+        <a href="https://moldmask.co">mask</a>&nbsp;and we will check your&nbsp;
+        <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">medical history</a>&nbsp;for cold&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.cold.current.scrollIntoView("smooth");
+            this.setState({ highlightCold: true });
+            setTimeout(() => this.setState({ highlightCold: false }), 10000);
+          }}
+        >
+          antibodies
+        </span>
+        &nbsp;or give you a&nbsp;
+        <a href="https://humanharvest.info">graft from a lab</a>." "& you
+        can&nbsp;<a href="https://moldmask.co">suck my balls</a>," I reply
+        <br />
+        <div
+          style={{
+            width: "50%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "70%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/fmar6mnau21wthb/BallsAreOpen.jpg?dl=0"
+          />
+        </div>
+        <br />
         We can open without vaccines. Covid is not spread in the air. only
         particles small enough for brownian motion is everywhere in the
         atmostphere. Larger particles do not take up as much space as oxygen or
