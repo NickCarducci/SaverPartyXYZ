@@ -9606,33 +9606,6 @@ export default class App extends React.Component {
           </span>{" "}
           gets it, I think covid hospitalizations have decreased 50% in the past
           month because he is in office
-          <br />
-          <span
-            style={{
-              padding: "4px 10px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightChina ? "white" : "",
-              backgroundColor: this.state.highlightChina
-                ? "rgb(170,100,205)"
-                : "",
-
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            ref={this.china}
-            onClick={() => {
-              this.brookings.current.scrollIntoView("smooth");
-              this.setState({ highlightBrookings: true });
-              setTimeout(
-                () => this.setState({ highlightBrookings: false }),
-                10000
-              );
-            }}
-          >
-            With division you get a ratio, but to add differing variables is not
-            ok in calculus, so why do they teach that in economics? {"/*"} ok
-          </span>
         </div>{" "}
         <i
           ref={this.desist}
@@ -10404,6 +10377,34 @@ export default class App extends React.Component {
           should they provide a billfeed by api by staleness. The video
           debunking it says dominion doesn’t own smartmatic, “or anything like
           that.”
+          <br />
+          <br />
+          <span
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightChina ? "white" : "",
+              backgroundColor: this.state.highlightChina
+                ? "rgb(170,100,205)"
+                : "",
+
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            ref={this.china}
+            onClick={() => {
+              this.brookings.current.scrollIntoView("smooth");
+              this.setState({ highlightBrookings: true });
+              setTimeout(
+                () => this.setState({ highlightBrookings: false }),
+                10000
+              );
+            }}
+          >
+            With division you get a ratio, but to add differing variables is not
+            ok in calculus, so why do they teach that in economics? {"/*"} ok
+          </span>
           <br />
           <br />
           <span style={tweetsStyle}>
@@ -11946,4 +11947,3 @@ export default class App extends React.Component {
     );
   }
 }
-
