@@ -18,8 +18,8 @@ class Index extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   };
   handleScroll = (e) => {
-    var scrollTop = window.scrollY;
-    var scrollHeight = document.documentElement.scrollHeight;
+    var scrollTop = window.scrollY + window.innerHeight;
+    var scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
@@ -87,6 +87,11 @@ class Index extends React.Component {
               "Ownership Fraud",
               "False Advert in Senate",
               "Insurance Fraud",
+              "Securities Fraud",
+              "Virus",
+              "Monopoly",
+              "Null Hypothesis",
+              "Systemic Inequality",
               "Mission",
               "Early Comms",
               "Illegal Gov Decrees",
@@ -295,10 +300,13 @@ class Index extends React.Component {
           </div>
           <App
             inSection={(section) =>
-              this.setState({ inSection: section, openMenu: true }, () =>{
-                clearTimeout(this.openmenu)
-                this.openmenu=setTimeout(() => this.setState({ openMenu: false }), 5432)}
-              )
+              this.setState({ inSection: section, openMenu: true }, () => {
+                clearTimeout(this.openmenu);
+                this.openmenu = setTimeout(
+                  () => this.setState({ openMenu: false }),
+                  5432
+                );
+              })
             }
             scrollTop={this.state.scrollTop}
             top={this.state.top}
