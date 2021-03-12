@@ -150,6 +150,7 @@ class Index extends React.Component {
         <div
           ref={this.page}
           style={{
+            zIndex: "-1",
             top: "0px",
             display: "flex",
             alignItems: "center",
@@ -182,19 +183,171 @@ class Index extends React.Component {
                 display: "flex",
                 textAlign: "left",
                 position: "relative",
-                padding: "4px 10px"
+                padding: "4px 10px",
+                paddingBottom: "6px"
               }}
             >
               <span
                 style={{
-                  height: "min-content",
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
+                  height: "max-content"
                 }}
               >
-                Demand
+                <span
+                  style={{
+                    height: "max-content",
+                    fontWeight: "bolder",
+                    textDecoration: "underline"
+                  }}
+                >
+                  Demand
+                </span>
+                -Side Economics & Human Rights
               </span>
-              -Side Economics & Human Rights
+            </div>
+
+            <div
+              style={{
+                overflow: "hidden",
+                height: "50px",
+                width: "calc(100% - 46px)",
+                color: "white",
+                display: "flex",
+                position: "relative",
+                padding: "4px 10px"
+              }}
+            >
+              <div
+                style={{
+                  right: "23px",
+                  zIndex: "1",
+                  boxShadow: "inset -15px 0px 14px 2px rgb(5,5,5)",
+                  overflow: "hidden",
+                  height: "50px",
+                  width: "46px",
+                  color: "white",
+                  display: "flex",
+                  position: "absolute",
+                  padding: "4px 10px"
+                }}
+              />
+              <div
+                style={{
+                  overflowX: "auto",
+                  overflowY: "hidden",
+                  height: "62px",
+                  width: "calc(100% - 46px)",
+                  color: "white",
+                  display: "flex",
+                  position: "relative",
+                  padding: "4px 10px"
+                }}
+              >
+                <div
+                  style={{
+                    alignItems: "center",
+                    marginBottom: "12px",
+                    display: "flex",
+                    position: "absolute",
+                    height: "calc(100% - 12px)",
+                    width: "max-content"
+                  }}
+                >
+                  <a
+                    style={{
+                      height: "100%",
+                      position: "relative",
+                      display: "flex",
+                      width: "min-content"
+                    }}
+                    href="https://froth.app"
+                  >
+                    <img
+                      style={{ height: "100%", width: "auto" }}
+                      src="https://www.dl.dropboxusercontent.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?dl=0"
+                      alt="froth.app"
+                    />
+                  </a>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://moldmask.co"
+                    >
+                      moldmask.co
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://humanharvest.info"
+                    >
+                      humanharvest.info
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://foiegras.life"
+                    >
+                      foiegras.life
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://nationalsecuritycasino.com"
+                    >
+                      nationalsecuritycasino.com
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div
               style={{
