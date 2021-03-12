@@ -13,6 +13,8 @@ import RealRealGDP from "./realRealGDP";
 import BalancedPortfolioAgainstDollars from "./balancedportfolio";
 import Employ2Pop from "./employ2pop";
 import GunSafety from "./GunSafety";
+import PollingFraud from "./PollingFraud";
+import Immigration from "./Immigration";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -28,6 +30,8 @@ export default class App extends React.Component {
       showM1: true
     };
     this.GUNSAFETY = React.createRef();
+    this.POLLINGFRAUD = React.createRef();
+    this.IMMIGRATION = React.createRef();
     this.defense = React.createRef();
     this.navbar = React.createRef();
     this.invite = React.createRef();
@@ -111,7 +115,6 @@ export default class App extends React.Component {
     this.injury = React.createRef();
     this.sellingOut = React.createRef();
     this.whyBad = React.createRef();
-    this.farmers = React.createRef();
     this.travellingIndividuals = React.createRef();
     this.dispair = React.createRef();
   }
@@ -301,11 +304,34 @@ export default class App extends React.Component {
     if (this.props.scrollTop !== prevProps.scrollTop) {
       const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
       const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
+      if (this.props.scrollTop < gunSafetyOffsetTop) {
+        this.props.inSection("");
+      }
       if (
-        this.props.scrollTop < gunSafetyHeight ||
+        this.props.scrollTop < gunSafetyOffsetTop ||
         this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
       ) {
         this.props.inSection("Gun Safety");
+      } else {
+        const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
+        const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
+        if (
+          this.props.scrollTop < pollingFraudOffsetTop ||
+          this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
+        ) {
+          this.props.inSection("Polling Fraud");
+        }else{
+
+        const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
+        const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
+        if (
+          this.props.scrollTop < immigrationOffsetTop ||
+          this.props.scrollTop < immigrationHeight + immigrationOffsetTop
+        ) {
+          this.props.inSection("Immigration");
+        }
+      
+        }
       }
     }
   };
@@ -406,18 +432,19 @@ export default class App extends React.Component {
         dollar value for those things falls tonight. Finance is inflation in
         opportunity; you mean your ability to own assets is lost with a weak
         dollar, or the vitriole in society is directly correlated with
-        currencyComponentOfM1 and&nbsp; <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.dispair.current.scrollIntoView("smooth");
-              this.setState({ highlightDispair: true });
-              setTimeout(
-                () => this.setState({ highlightDispair: false }),
-                10000
-              );
-            }}
-          >any promises waged thereof</span>&nbsp;which was once near
-        1:1 in 1908 (no outstanding loans)? Finance is inflation in opportunity
+        currencyComponentOfM1 and&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.dispair.current.scrollIntoView("smooth");
+            this.setState({ highlightDispair: true });
+            setTimeout(() => this.setState({ highlightDispair: false }), 10000);
+          }}
+        >
+          any promises waged thereof
+        </span>
+        &nbsp;which was once near 1:1 in 1908 (no outstanding loans)? Finance is
+        inflation in opportunity
         <br />
         <br />
         Debt-spending does not&nbsp;
@@ -745,7 +772,7 @@ export default class App extends React.Component {
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
-            this.farmers.current.scrollIntoView("smooth");
+            this.POLLINGFRAUD.current.scrollIntoView("smooth");
             this.setState({ highlightFarmers: true });
             setTimeout(() => this.setState({ highlightFarmers: false }), 10000);
           }}
@@ -886,6 +913,37 @@ export default class App extends React.Component {
               this.setState({ highlightFraud: true });
               setTimeout(() => this.setState({ highlightFraud: false }), 10000);
             }}
+          />
+        </span>
+        <br />
+        <span ref={this.POLLINGFRAUD}>
+          <PollingFraud
+            flop={() => {
+              this.flop.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+            }}
+            bobTheBuilder={() => {
+              this.bobTheBuilder.current.scrollIntoView("smooth");
+              this.setState({ highlightBTB: true });
+              setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+            }}
+            singleSourceOfTruth={() => {
+              this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.setState({ highlightSingleSource: true });
+              setTimeout(
+                () => this.setState({ highlightSingleSource: false }),
+                10000
+              );
+            }}
+            fintech={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+              setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
             varney={() => {
               this.varney.current.scrollIntoView("smooth");
               this.setState({ highlightVarney: true });
@@ -895,212 +953,8 @@ export default class App extends React.Component {
               );
             }}
             goToTop={this.props.goToTop}
+            highlightFarmers={this.state.highlightFarmers}
           />
-        </span>
-        <br />
-        <br />
-        <br />
-        Nancy pelosi saying&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.fintech.current.scrollIntoView("smooth");
-            this.setState({ highlightFintech: true });
-            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
-          }}
-        >
-          city council
-        </span>
-        &nbsp;wants the money as evidence that people across the country want
-        the money to be taken from them. Usually they cite a sample as
-        representing everyone. That wouldn't be permitted as evidence to that
-        claim in court, why does that not matter for congressional hearings -
-        why is she allowed to lie or not be corrected, misleading people
-        everywhere to their detriment
-        <br />
-        She says race-based business are forced to shutter - that is only
-        contracts subject to impossible doctrine or forced majeure. Without
-        finance (counterfeit-contracts, rent-seeking colonization), these issues
-        would be non-existent. Instead of attacking the source of the issue,
-        Nancy Pelosi wants to help the supply-side.
-        <br />
-        <br />
-        Saying $1t goes to the "pockets of american people" is a grandiose lie -
-        the money is due to obligations until that is reversed for improper
-        waging of funds not under the ownership of the signee of the debt,
-        loitering of the borrower and down-payments kept by the creditor. A
-        great conspiracy to be aided by Nancy.
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "40%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/nbn7uwo1wamspy4/AmericanPockets.jpg?dl=0"
-          />
-        </div>
-        <br />
-        <br />
-        "To help state & local governments with lost revenues," literally
-        admitting intent to violate Sherman Act and the penumbrum of Amendment
-        13/14
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/iccdtj2hv4w9o9v/ConfessingSherman.jpg?dl=0"
-          />
-        </div>
-        <span
-          onClick={() => {
-            this.singleSourceOfTruth.current.scrollIntoView("smooth");
-            this.setState({ highlightSingleSource: true });
-            setTimeout(
-              () => this.setState({ highlightSingleSource: false }),
-              10000
-            );
-          }}
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-        >
-          Fraud
-        </span>
-        <br />
-        Why should you be able to take from Savers and compete with
-        non-free-rider-immutable services/purchases? Instead, both parties are
-        acting like monopsonies.
-        <br />
-        <br />
-        <span
-          ref={this.farmers}
-          style={{
-            color: this.state.highlightFarmers ? "white" : "",
-            backgroundColor: this.state.highlightFarmers
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-        >
-          If you want to help farmers, suspend property taxes and don't steal
-          from Savers. I will fight you
-        </span>
-        <br />
-        <br />
-        FDIC ensures you that they will bail you out if you invest in them and
-        they fail
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "30%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/d45dnk60k1924al/FDICbylaw.jpg?dl=0"
-          />
-        </div>
-        <a href="https://www.fdic.gov/">FDIC</a>
-        <br />
-        <br />
-        "A majority of Republicans support this package," claims Jen Psaki not
-        citing a source so we can assume it is an n=842 Monmouth University
-        unshuffled, uncorroborated poll
-        <br />
-        "76% of Americans support this legislation [
-        <a href="https://www.dataforprogress.org/blog/2021/1/22/majority-support-hr1-democracy-reforms">
-          n=1164
-        </a>
-        ]," says this fraud. That's a non-shuffled sample! This is illegal to
-        say... take a fucking statistics class
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "25%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/exnqdb6ysogrzbv/SmallUnshuffledSampleProof.jpg?dl=0"
-          />
-        </div>
-        <br />
-        "Biden visits a small business that&nbsp;
-        <a href="https://foiegras.life">benefited</a>
-        &nbsp;from the PPP loan," celebrates Fox News.
-        <br />
-        All it does is raise price, ruin competition of supply for consumers,
-        disenfranchises dollar-owners, and ruins bankruptcy negotiations
-        <br />
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "20%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/v52hi5uv39wuab5/InflationMisunderstanding.png?dl=0"
-          />
-        </div>
-        <br />
-        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-          "6 million jobs back by the end of the year"
-        </a>
-        <br />I could hire them and prices could lower for their living-costs if
-        you didn't&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.bobTheBuilder.current.scrollIntoView("smooth");
-            this.setState({ highlightBTB: true });
-            setTimeout(() => this.setState({ highlightBTB: false }), 10000);
-          }}
-        >
-          {/** qualify/*/}interfere
-        </span>
-        , Mr.&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.flop.current.scrollIntoView("smooth");
-            this.setState({ highlightFlop: true });
-            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
-          }}
-        >
-          President
         </span>
         <br />
         <br />
@@ -1289,10 +1143,10 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/i9tq9qxpkgll74h/Screen%20Shot%202021-03-09%20at%205.23.01%20PM.png?dl=0"
             />
           </div>
-        </div>{" "}
+        </div>
         <br />
         <span style={{ textDecoration: "strike-through" }}>
-          income earned within retirement accounts,{" "}
+          income earned within retirement accounts
         </span>
         <br />
         <br />
@@ -1485,7 +1339,20 @@ export default class App extends React.Component {
           </a>
         </div>
         <br />
-        Finance is the worst&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.financeKills.current.scrollIntoView("smooth");
+            this.setState({ highlightFinanceKills: true });
+            setTimeout(
+              () => this.setState({ highlightFinanceKills: false }),
+              10000
+            );
+          }}
+        >
+          Finance
+        </span>
+        &nbsp;is the worst&nbsp;
         <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
           parts of communism
         </a>
@@ -1811,127 +1678,8 @@ export default class App extends React.Component {
         <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or fall
         <br />
         <br />
-        325,100,000 people in U.S., 2017
-        <br />
-        23% Unauthorized Immigrants
-        <br />
-        5% Temp resident
-        <br />
-        27% Perm resident
-        <br />
-        45% Immigrant
-        <br />
-        "Unauthorized immigrants were 23% of the 45.6 million foreign-born
-        residents in the U.S. in 2017." -&nbsp;
-        <a href="https://www.pewresearch.org/fact-tank/2019/06/12/us-unauthorized-immigrant-population-2017/">
-          Pew est.
-        </a>
-        <a
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-          href="https://www.pnas.org/content/pnas/suppl/2020/12/01/2014704117.DCSupplemental/pnas.2014704117.sapp.pdf"
-        >
-          <img
-            alt=""
-            style={{
-              width: "100%",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/rqyczliikulwn9p/Screen%20Shot%202021-03-07%20at%204.05.52%20PM.png?dl=0"
-          />
-        </a>
-        <a href="https://www.pnas.org/content/117/51/32340/tab-figures-data">
-          src
-        </a>
-        <br />
-        281,000/10,488,000 violent vs illegal immigrants (2.6792%)
-        <br />
-        709,487/(325,100,000-10,488,000) violent vs Citizen or resident (.2255%)
-        <br />
-        <br />
-        If you want less illegal immigrants, stop redistributing money and cut
-        off the rent-seekers. I have tables to bus, Wall st & built-to-rents
-        <br />
-        <br />
-        <span style={{ border: "1px dotted grey", width: "100%" }}>
-          <div
-            style={{ columnCount: "3", position: "relative", width: "100%" }}
-          >
-            <div
-              style={{
-                breakInside: "avoid",
-                width: "100%",
-                position: "relative"
-              }}
-            >
-              <img
-                alt=""
-                style={{
-                  width: "100%",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/upi14yvb1qv2dwa/1605651197673.png?dl=0"
-              />
-            </div>
-            <span
-              style={{
-                breakInside: "avoid",
-                width: "100%",
-                position: "relative"
-              }}
-            >
-              <a href="https://www.statista.com/statistics/270272/percentage-of-us-population-by-ethnicities/">
-                14% AfrA, 50% EU, 25% HS, 8% AsaA
-                <br />
-              </a>
-              population
-            </span>
-            <div
-              style={{
-                breakInside: "avoid",
-                width: "100%",
-                position: "relative"
-              }}
-            >
-              <img
-                alt=""
-                style={{
-                  width: "100%",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/yblzaxulr63u0iq/Screen%20Shot%202021-03-09%20at%2010.25.39%20AM.png?dl=0"
-              />
-            </div>
-            <div
-              style={{
-                breakInside: "avoid",
-                width: "100%",
-                position: "relative"
-              }}
-            >
-              <img
-                alt=""
-                style={{
-                  width: "100%",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/a5xgft5rz7tpgc2/1605647597206.jpeg?dl=0"
-              />{" "}
-            </div>{" "}
-          </div>
-          Crime-response by race/ethnicity
-          <br />
-          <a href="https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/expanded-homicide-data-table-6.xls">
-            srcCrime
-          </a>{" "}
-          <a href="https://www.usnews.com/news/articles/2020-06-03/data-show-deaths-from-police-violence-disproportionately-affect-people-of-color">
-            srcArmedVictim
-          </a>{" "}
-          <a href="https://www.nature.com/articles/d41586-020-01846-z">
-            srcArmedCop
-          </a>
+        <span ref={this.IMMIGRATION}>
+          <Immigration />
         </span>
         <br />
         <span
@@ -2033,7 +1781,17 @@ export default class App extends React.Component {
         "We did, we got it done"
         <br />
         <br />
-        So regressive, abjectly-illegal, and anticompetitive
+        So regressive, abjectly-illegal, and&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.trust.current.scrollIntoView("smooth");
+            this.setState({ highlightTrust: true });
+            setTimeout(() => this.setState({ highlightTrust: false }), 10000);
+          }}
+        >
+          anticompetitive
+        </span>
         <br />
         <div
           style={{
@@ -3053,7 +2811,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-display:"block",
+            display: "block",
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -12249,3 +12007,4 @@ display:"block",
     );
   }
 }
+
