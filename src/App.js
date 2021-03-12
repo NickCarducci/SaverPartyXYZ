@@ -411,9 +411,9 @@ export default class App extends React.Component {
                           ) {
                             this.props.inSection("Null Hypothesis");
                           } else {
-                            const securitiesFraudHeight = this.INSURANCEFRAUD
+                            const securitiesFraudHeight = this.SECURITIESFRAUD
                               .current.offsetHeight;
-                            const securitiesFraudOffsetTop = this.INSURANCEFRAUD
+                            const securitiesFraudOffsetTop = this.SECURITIESFRAUD
                               .current.offsetTop;
                             if (
                               this.props.scrollTop < securitiesFraudOffsetTop ||
