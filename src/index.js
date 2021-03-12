@@ -297,10 +297,10 @@ class Index extends React.Component {
                   >
                     <a
                       style={{
+                        color: "rgb(112, 101, 55)",
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "rgb(212, 171, 95)"
                       }}
                       href="https://humanharvest.info"
                     >
