@@ -346,6 +346,126 @@ class Index extends React.Component {
                       nationalsecuritycasino.com
                     </a>
                   </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://vaults.biz"
+                    >
+                      vaults.biz
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://vau.money"
+                    >
+                      vau.money
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://scopes.cc"
+                    >
+                      scopes.cc
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://thumbprint.us"
+                    >
+                      thumbprint.us
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://browser.glass"
+                    >
+                      browser.glass
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "white",
+                        color: "black"
+                      }}
+                      href="https://magnate.company"
+                    >
+                      magnate.company
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
