@@ -410,7 +410,7 @@ Debt-spending does not&nbsp;
               10000
             );
           }}
-        >ramp up anything</span>, it only makes input costs more expensive through the supply chain and in competition with other consumers who do not borrow or lend but work, invent or buy (equity)
+        >ramp up anything - or make anything more possible</span>, it only makes input costs more expensive through the supply chain and in competition with other consumers who do not borrow or lend but work, invent or buy (equity)
 <br/>
 <br/>
 <a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
