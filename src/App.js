@@ -7071,7 +7071,16 @@ export default class App extends React.Component {
             <span aria-label="stop" role="img">
               🛑
             </span>
-            &#9888;and technically illegal&#9888;
+            &#9888;and technically&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.fintech.current.scrollIntoView("smooth");
+                this.setState({ highlightFintech: true });
+                setTimeout(
+                  () => this.setState({ highlightFintech: false }),
+                  10000
+                );
+              }}>illegal</span>&#9888;
             <span aria-label="stop" role="img">
               🛑
             </span>
