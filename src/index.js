@@ -295,8 +295,9 @@ class Index extends React.Component {
           </div>
           <App
             inSection={(section) =>
-              this.setState({ inSection: section, openMenu: true }, () =>
-                setTimeout(() => this.setState({ openMenu: false }), 5432)
+              this.setState({ inSection: section, openMenu: true }, () =>{
+                clearTimeout(this.openmenu)
+                this.openmenu=setTimeout(() => this.setState({ openMenu: false }), 5432)}
               )
             }
             scrollTop={this.state.scrollTop}
