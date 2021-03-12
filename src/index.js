@@ -19,11 +19,15 @@ class Index extends React.Component {
   };
   handleScroll = (e) => {
     var scrollTop = window.scrollY;
-    var scrollHeight = this.page.current.offsetHeight;
+    var scrollHeight = document.documentElement.scrollHeight;
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
-    this.setState({ top: scrollTop === 0, scrollPlacementHeight });
+    this.setState({
+      top: scrollTop === 0,
+      scrollPlacementHeight,
+      scrollTop
+    });
   };
   handleMove = (ev, touch) => {
     ev.stopPropagation();
@@ -44,7 +48,7 @@ class Index extends React.Component {
           this.setState({ scrollPlacementHeight }, () => {
             var top = Math.round(
               (scrollPlacementHeight / (window.innerHeight - 115)) *
-                this.page.current.offsetHeight
+                document.documentElement.scrollHeight
             );
             window.scroll({ top, behavior: "smooth" });
           });
@@ -91,9 +95,14 @@ class Index extends React.Component {
               <div
                 key={x}
                 style={{
+                  color: this.state.inSection === x ? "" : "grey",
                   width: "max-content",
-                  fontSize: !this.state.openMenu ? "0px" : "",
-                  opacity: !this.state.openMenu ? "0" : "1",
+                  fontSize: this.state.openMenu
+                    ? this.state.inSection === x
+                      ? "20px"
+                      : ""
+                    : "0px",
+                  opacity: this.state.openMenu ? 1 : 0,
                   transition: ".3s ease-in",
                   margin: "2px"
                 }}
@@ -282,6 +291,12 @@ class Index extends React.Component {
             </a>
           </div>
           <App
+            inSection={(section) =>
+              this.setState({ inSection: section, openMenu: true }, () =>
+                setTimeout(() => this.setState({ openMenu: false }), 5432)
+              )
+            }
+            scrollTop={this.state.scrollTop}
             top={this.state.top}
             goToTop={() =>
               this.setState({ highlightLaw: true }, () => {
