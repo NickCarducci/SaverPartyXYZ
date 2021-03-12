@@ -381,47 +381,47 @@ export default class App extends React.Component {
                     ) {
                       this.props.inSection("Insurance Fraud");
                     } else {
-                      this.SECURITIESFRAUD = React.createRef();
-                      const insuranceFraudHeight = this.INSURANCEFRAUD.current
-                        .offsetHeight;
-                      const insuranceFraudOffsetTop = this.INSURANCEFRAUD
-                        .current.offsetTop;
+                      const virusHeight = this.VIRUS.current.offsetHeight;
+                      const virusOffsetTop = this.VIRUS.current.offsetTop;
                       if (
-                        this.props.scrollTop < insuranceFraudOffsetTop ||
-                        this.props.scrollTop <
-                          insuranceFraudHeight + insuranceFraudOffsetTop
+                        this.props.scrollTop < virusOffsetTop ||
+                        this.props.scrollTop < virusHeight + virusOffsetTop
                       ) {
-                        this.props.inSection("Insurance Fraud");
+                        this.props.inSection("Virus");
                       } else {
-                        const virusHeight = this.VIRUS.current.offsetHeight;
-                        const virusOffsetTop = this.VIRUS.current.offsetTop;
+                        const monopolyHeight = this.MONOPOLY.current
+                          .offsetHeight;
+                        const monopolyOffsetTop = this.MONOPOLY.current
+                          .offsetTop;
                         if (
-                          this.props.scrollTop < virusOffsetTop ||
-                          this.props.scrollTop < virusHeight + virusOffsetTop
+                          this.props.scrollTop < monopolyOffsetTop ||
+                          this.props.scrollTop <
+                            monopolyHeight + monopolyOffsetTop
                         ) {
-                          this.props.inSection("Virus");
+                          this.props.inSection("Monopoly");
                         } else {
-                          const monopolyHeight = this.MONOPOLY.current
-                            .offsetHeight;
-                          const monopolyOffsetTop = this.MONOPOLY.current
-                            .offsetTop;
+                          const nullHypothesisHeight = this.NULLHYPOTHESIS
+                            .current.offsetHeight;
+                          const nullHypothesisOffsetTop = this.NULLHYPOTHESIS
+                            .current.offsetTop;
                           if (
-                            this.props.scrollTop < monopolyOffsetTop ||
+                            this.props.scrollTop < nullHypothesisOffsetTop ||
                             this.props.scrollTop <
-                              monopolyHeight + monopolyOffsetTop
+                              nullHypothesisHeight + nullHypothesisOffsetTop
                           ) {
-                            this.props.inSection("Monopoly");
+                            this.props.inSection("Null Hypothesis");
                           } else {
-                            const nullHypothesisHeight = this.NULLHYPOTHESIS
+                            this.SECURITIESFRAUD = React.createRef();
+                            const securitiesFraudHeight = this.INSURANCEFRAUD
                               .current.offsetHeight;
-                            const nullHypothesisOffsetTop = this.NULLHYPOTHESIS
+                            const securitiesFraudOffsetTop = this.INSURANCEFRAUD
                               .current.offsetTop;
                             if (
-                              this.props.scrollTop < nullHypothesisOffsetTop ||
+                              this.props.scrollTop < securitiesFraudOffsetTop ||
                               this.props.scrollTop <
-                                nullHypothesisHeight + nullHypothesisOffsetTop
+                                securitiesFraudHeight + securitiesFraudOffsetTop
                             ) {
-                              this.props.inSection("Null Hypothesis");
+                              this.props.inSection("Securities Fraud");
                             } else {
                               const systematicInequalityHeight = this
                                 .SYSTEMICINEQUALITY.current.offsetHeight;
@@ -4950,6 +4950,150 @@ export default class App extends React.Component {
             bond:cash, 2% financial sector getting population….), 100/2=50x who
             is the real enemy
           </div>
+          <i
+            ref={this.injury}
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              color: this.state.highlightInjury ? "white" : "grey",
+              backgroundColor: this.state.highlightInjury
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            My 5-year trial with SSA Disability / Medicare Orthopedic
+          </i>
+          <div style={{ display: "flex" }}>
+            <div style={{ width: "50%", position: "relative" }}>
+              <img
+                style={{ width: "100%", height: "auto" }}
+                src="https://www.dl.dropboxusercontent.com/s/01otcjkketu06bj/SecondAppeal.png?dl=0"
+                alt="smart enough to get a job proved to be wrong"
+              />
+            </div>
+            <div style={{ width: "50%", position: "relative" }}>
+              {" "}
+              <img
+                style={{ width: "100%", height: "auto" }}
+                src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
+                alt="vastus medialis (teardrop muscle)"
+              />
+            </div>
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              flexDirection: "column",
+              alignItems: "center",
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <a href="https://wavv.art/forumn6cCt1uxDAY0mqIVNV2b">
+              wavv.art/forumn6cCt1uxDAY0mqIVNV2b
+            </a>
+            <br />
+            Paying my lenders/invoices(bills)/market-colonizers(rentiers
+            {/*},price-producers*/}) doesn't help me when they usurped the
+            contract and forced me into it by prisoners' dilemma-duress to pay
+            the invoice and be subject to coagulated demand capacity of
+            cross-party risk, gambling on life-events and matching the pool's
+            capacity instead of the{" "}
+            <a href="https://micro-theory.com">
+              individual marginal price-discretion
+            </a>
+            <br />
+            “When the characters had growing expenses, we made saving on&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+                setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              insurance
+            </span>
+            , easy.” Hahahaha <a href="https://usaa.com">USAA</a>
+            <br />
+            As you can see from the photo, my muscle (flexed) is malformed and
+            my patella locks upwards, and this Medicare doctor has the gaul to
+            say it shouldn’t bother me, and if it did it was a back problem.
+            This is the kind of care you get with insurance, prepaid and
+            pooled-prisoners' dilemma. I also overheard him call SSA idiots in
+            another room to another male patient before for giving him
+            disability for an injury he was apparently there for. His compassion
+            is apparently correlated with the gender of his patients, given
+            these other reviews because he was ignoring my leg! He also started
+            counting down in seconds for complaining about his adherence to the
+            idea that I should care about my lower back? WTF? I have a hole in
+            my thigh and i was have no issues with my lower back. I am
+            traumatized, wasted 2 months waiting for this on a promise by his
+            front desk he would do transfuse my bone marrow into new skeletal
+            muscle, Horizon Family Care has 3 adult orthopedic surgeons in my
+            area and the other two were kind enough to not waste my time, but
+            now I have no options but to slowly die of heart disease because I
+            can't exercise and sweat, his solution is to look at my back.
+            https://www.researchgate.net/publication/43297722_Repair_of_Traumatic_Skeletal_Muscle_Injury_with_Bone-Marrow-Derived_Mesenchymal_Stem_Cells_Seeded_on_Extracellular_Matrix.
+            He looked at the muscular divot in my teardrop muscle (vastus
+            medialis) and suggested that I couldn't stand because of a lower
+            back "problem" he made up. His conflict of interest is apparent,
+            just like my regular Medicare doctor, they ignore my injury because
+            they was to obstruct evidence for my disability case. Why else would
+            he misdirect from the content of the photographic evidence cited
+            here, completely ignoring my pain.
+            <br />
+            <br />
+            He wanted me to do physical therapy again to proceed to what he said
+            he would never do bone marrow transfusion, but that is a&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+                setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              problem
+            </span>
+            &nbsp;with Medicare/Pre-paid Cross-party duress inducing prisoners’
+            dilemma insurance scourges. I do squats on my own but it has been 4
+            years since my injury and I feel like I am losing my leg. I used to
+            be able to run, then once a month, now I can hardly do a squat or
+            anything without pain from the other parts of my leg like below my
+            patella and ankle hurting/swelling the day after or at all before
+            two month's break. I read at the start of my injury in 2015 that it
+            would take 7-8 years to recover deep-tissue skeletal muscle. This
+            may be close to the outpouring of bone marrow from my knee, so the
+            delivery mechanism is likely not strong, and NEED bone marrow store
+            from my pelvis. Or, 5 years I may be able to work it back with
+            physical therapy/lean-strength training without my the
+            swelling/joint/ankle pain/auxilliary-effects (I'll try to squat 3x20
+            again in 15 days...)
+            <br />
+            <br />
+            Incompassionate Rube. And for government (Horizon NJ Family Care
+            here) the Bad Doctor described the time relayed issue the government
+            as borrowers instigates on us by ignoring previous physical therapy
+            for the same thing. I didn't get disability because I was too smart
+            and then started applying and the time-lapsed to talk back to the
+            unloving-disowned people running this dollar-corporation.
+            <br />
+            <br />
+            He also said he stitches people up all the time, but my injury was
+            jagged, but he didn't care.
+          </div>
         </div>
         <br />
         <div ref={this.VIRUS}>
@@ -6918,150 +7062,6 @@ export default class App extends React.Component {
             </span>
             {/*br /> <br />I can do this for my knee as I learn to code for job
               without commute*/}
-          </div>
-          <i
-            ref={this.injury}
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              color: this.state.highlightInjury ? "white" : "grey",
-              backgroundColor: this.state.highlightInjury
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            My 5-year trial with SSA Disability / Medicare Orthopedic
-          </i>
-          <div style={{ display: "flex" }}>
-            <div style={{ width: "50%", position: "relative" }}>
-              <img
-                style={{ width: "100%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/01otcjkketu06bj/SecondAppeal.png?dl=0"
-                alt="smart enough to get a job proved to be wrong"
-              />
-            </div>
-            <div style={{ width: "50%", position: "relative" }}>
-              {" "}
-              <img
-                style={{ width: "100%", height: "auto" }}
-                src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
-                alt="vastus medialis (teardrop muscle)"
-              />
-            </div>
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              flexDirection: "column",
-              alignItems: "center",
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <a href="https://wavv.art/forumn6cCt1uxDAY0mqIVNV2b">
-              wavv.art/forumn6cCt1uxDAY0mqIVNV2b
-            </a>
-            <br />
-            Paying my lenders/invoices(bills)/market-colonizers(rentiers
-            {/*},price-producers*/}) doesn't help me when they usurped the
-            contract and forced me into it by prisoners' dilemma-duress to pay
-            the invoice and be subject to coagulated demand capacity of
-            cross-party risk, gambling on life-events and matching the pool's
-            capacity instead of the{" "}
-            <a href="https://micro-theory.com">
-              individual marginal price-discretion
-            </a>
-            <br />
-            “When the characters had growing expenses, we made saving on&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              insurance
-            </span>
-            , easy.” Hahahaha <a href="https://usaa.com">USAA</a>
-            <br />
-            As you can see from the photo, my muscle (flexed) is malformed and
-            my patella locks upwards, and this Medicare doctor has the gaul to
-            say it shouldn’t bother me, and if it did it was a back problem.
-            This is the kind of care you get with insurance, prepaid and
-            pooled-prisoners' dilemma. I also overheard him call SSA idiots in
-            another room to another male patient before for giving him
-            disability for an injury he was apparently there for. His compassion
-            is apparently correlated with the gender of his patients, given
-            these other reviews because he was ignoring my leg! He also started
-            counting down in seconds for complaining about his adherence to the
-            idea that I should care about my lower back? WTF? I have a hole in
-            my thigh and i was have no issues with my lower back. I am
-            traumatized, wasted 2 months waiting for this on a promise by his
-            front desk he would do transfuse my bone marrow into new skeletal
-            muscle, Horizon Family Care has 3 adult orthopedic surgeons in my
-            area and the other two were kind enough to not waste my time, but
-            now I have no options but to slowly die of heart disease because I
-            can't exercise and sweat, his solution is to look at my back.
-            https://www.researchgate.net/publication/43297722_Repair_of_Traumatic_Skeletal_Muscle_Injury_with_Bone-Marrow-Derived_Mesenchymal_Stem_Cells_Seeded_on_Extracellular_Matrix.
-            He looked at the muscular divot in my teardrop muscle (vastus
-            medialis) and suggested that I couldn't stand because of a lower
-            back "problem" he made up. His conflict of interest is apparent,
-            just like my regular Medicare doctor, they ignore my injury because
-            they was to obstruct evidence for my disability case. Why else would
-            he misdirect from the content of the photographic evidence cited
-            here, completely ignoring my pain.
-            <br />
-            <br />
-            He wanted me to do physical therapy again to proceed to what he said
-            he would never do bone marrow transfusion, but that is a&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              problem
-            </span>
-            &nbsp;with Medicare/Pre-paid Cross-party duress inducing prisoners’
-            dilemma insurance scourges. I do squats on my own but it has been 4
-            years since my injury and I feel like I am losing my leg. I used to
-            be able to run, then once a month, now I can hardly do a squat or
-            anything without pain from the other parts of my leg like below my
-            patella and ankle hurting/swelling the day after or at all before
-            two month's break. I read at the start of my injury in 2015 that it
-            would take 7-8 years to recover deep-tissue skeletal muscle. This
-            may be close to the outpouring of bone marrow from my knee, so the
-            delivery mechanism is likely not strong, and NEED bone marrow store
-            from my pelvis. Or, 5 years I may be able to work it back with
-            physical therapy/lean-strength training without my the
-            swelling/joint/ankle pain/auxilliary-effects (I'll try to squat 3x20
-            again in 15 days...)
-            <br />
-            <br />
-            Incompassionate Rube. And for government (Horizon NJ Family Care
-            here) the Bad Doctor described the time relayed issue the government
-            as borrowers instigates on us by ignoring previous physical therapy
-            for the same thing. I didn't get disability because I was too smart
-            and then started applying and the time-lapsed to talk back to the
-            unloving-disowned people running this dollar-corporation.
-            <br />
-            <br />
-            He also said he stitches people up all the time, but my injury was
-            jagged, but he didn't care.
           </div>
           <a
             href="https://wavv.art/United_States_of_America"
@@ -9785,8 +9785,6 @@ export default class App extends React.Component {
             DO IT yourself stop taking from us for no change except price
           </div>
         </div>
-        
-        
         <div ref={this.SECURITIESFRAUD}>
           <div
             style={{
