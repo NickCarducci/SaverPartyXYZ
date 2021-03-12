@@ -571,7 +571,20 @@ export default class App extends React.Component {
         </span>
         ,"&nbsp;<a href="https://foiegras.life">smiles</a>&nbsp;Biden
         <br />
-        Biden, you don't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.populism.current.scrollIntoView("smooth");
+            this.setState({ highlightPopulism: true });
+            setTimeout(
+              () => this.setState({ highlightPopulism: false }),
+              10000
+            );
+          }}
+        >
+          Biden
+        </span>
+        , you don't&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -6513,7 +6526,8 @@ export default class App extends React.Component {
             }}
             href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
           >
-            Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013)
+            Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013), ...9% goes to
+            people...
           </a>
           <br />
           <a
@@ -6521,8 +6535,8 @@ export default class App extends React.Component {
             style={{
               padding: "4px 10px",
               borderRadius: "15px",
-              color: this.state.highlightItaly ? "white" : "black",
-              backgroundColor: this.state.highlightItaly
+              color: this.state.highlightPopulism ? "white" : "black",
+              backgroundColor: this.state.highlightPopulism
                 ? "rgb(170,100,205)"
                 : "",
               transition: ".3s ease-out"
