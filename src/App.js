@@ -36,10 +36,10 @@ export default class App extends React.Component {
     this.OWNERSHIPFRAUD = React.createRef();
     this.FALSEADVERTINSENATE = React.createRef();
     this.INSURANCEFRAUD = React.createRef();
-    this.SECURITIESFRAUD = React.createRef();
     this.VIRUS = React.createRef();
     this.MONOPOLY = React.createRef();
     this.NULLHYPOTHESIS = React.createRef();
+    this.SECURITIESFRAUD = React.createRef();
     this.SYSTEMICINEQUALITY = React.createRef();
     this.EARLYCOMMS = React.createRef();
     this.defense = React.createRef();
@@ -127,6 +127,7 @@ export default class App extends React.Component {
     this.whyBad = React.createRef();
     this.travellingIndividuals = React.createRef();
     this.dispair = React.createRef();
+    this.fasterWithCounterfeit = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -413,8 +414,8 @@ export default class App extends React.Component {
                           } else {
                             const securitiesFraudHeight = this.SECURITIESFRAUD
                               .current.offsetHeight;
-                            const securitiesFraudOffsetTop = this.SECURITIESFRAUD
-                              .current.offsetTop;
+                            const securitiesFraudOffsetTop = this
+                              .SECURITIESFRAUD.current.offsetTop;
                             if (
                               this.props.scrollTop < securitiesFraudOffsetTop ||
                               this.props.scrollTop <
@@ -554,7 +555,7 @@ export default class App extends React.Component {
         <br />
         Mark Levin, what bumbling idiot said on March 11, 2021, the value
         of&nbsp;<a href="https://vaults.biz">those things</a>&nbsp;when the
-        dollar value for those things falls tonight. Finance is inflation in
+        dollar value for those things fall. Finance is inflation in
         opportunity; you mean your ability to own assets is lost with a weak
         dollar, or the vitriole in society is directly correlated with
         currencyComponentOfM1 and&nbsp;
@@ -4656,299 +4657,6 @@ export default class App extends React.Component {
             (sample of under 3,000 people, without shuffling to boot). Add more
             results like isidewith or thumbprint.us
           </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            blm vs trump; FBI (J. Sanborn) says,{" "}
-            <span
-              onClick={() => {
-                this.cityhall.current.scrollIntoView("smooth");
-                this.setState({ highlightCityHall: true });
-                setTimeout(
-                  () => this.setState({ highlightCityHall: false }),
-                  10000
-                );
-              }}
-            >
-              "not different"
-            </span>
-            , cites 100 people OVER A SUMMER and general cites heli using civil
-            disturbance enumerated outlays (bayonnets, heli's), {">"}
-            =250 ppl IN ONE DAY
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.politics.current.scrollIntoView("smooth");
-                this.setState({ highlightPolitics: true });
-                setTimeout(
-                  () => this.setState({ highlightPolitics: false }),
-                  10000
-                );
-              }}
-            >
-              Science
-            </span>
-            <br />
-            Insightful and inciteful are pronounced the same
-            <br />
-            lunatics by mooney
-            <br />
-            mortgages are deathcontracts
-            <br />
-            in the Latin
-            <br />
-            when we found numbers
-            <br />
-            <a href="https://micro-theory.com"> accountants</a>,{" "}
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.citadel.current.scrollIntoView("smooth");
-                this.setState({ highlightCitadel: true });
-                setTimeout(
-                  () => this.setState({ highlightCitadel: false }),
-                  10000
-                );
-              }}
-            >
-              bookies
-            </span>
-            , &<a href="https://nationalsecuritycasino.com">scalps</a>
-            <br />
-            <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
-              precedence
-            </a>{" "}
-            can be&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.nra.current.scrollIntoView("smooth");
-                this.setState({ highlightNRA: true });
-                setTimeout(() => this.setState({ highlightNRA: false }), 10000);
-              }}
-            >
-              asinine
-            </span>
-            <br />
-            <a
-              style={{
-                padding: "4px 10px",
-                transition: ".3s ease-in",
-                borderRadius: "15px",
-                color: this.state.highlightFTC ? "white" : "",
-                backgroundColor: this.state.highlightFTC
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.ftc}
-              href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
-            >
-              anticompetitve-cornering of assets as "state property"
-            </a>{" "}
-            is a{" "}
-            <a href="https://nationalsecuritycasino.com">
-              jurisprudential, national-security issue
-            </a>
-            <br />
-            Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
-            exists in an actual court of law
-            <br />
-            she "doesn't{" "}
-            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
-              charge for tests," is a lie
-            </a>
-            <br />
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.baltimore.current.scrollIntoView("smooth");
-                this.setState({ highlightBaltimore: true });
-                setTimeout(
-                  () => this.setState({ highlightBaltimore: false }),
-                  10000
-                );
-              }}
-            >
-              copyright
-            </span>{" "}
-            so on lock it is an entire market, government user competing with
-            many many many advantages
-            <br />
-            but the niche is the directory not just a nationalistic vibe
-            <br />
-            positivity (as a grade) for markets is{" "}
-            <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
-              efficiency, not price
-            </a>
-            <br />
-            THIS IS MY COMMUNITY NAVIGATOR CUNT
-            <br />
-            <br />
-            <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-              <div
-                style={{
-                  width: "100%",
-                  position: "relative"
-                }}
-              >
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
-                  alt="PPP lending/stealing fraud for financial ends"
-                />
-              </div>
-            </div>
-            <br />
-            <br />
-            <div style={{ display: "flex" }}>
-              {" "}
-              <span
-                style={{
-                  fontFamily: '"Pacifico", sans-serif',
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.covidrelief.current.scrollIntoView("smooth");
-                  this.setState({ highlightCovidRelief: true });
-                  setTimeout(
-                    () => this.setState({ highlightCovidRelief: false }),
-                    10000
-                  );
-                }}
-              >
-                covid relief
-              </span>
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.collective.current.scrollIntoView("smooth");
-                  this.setState({ highlightCollective: true });
-                  setTimeout(
-                    () => this.setState({ highlightCollective: false }),
-                    10000
-                  );
-                }}
-              >
-                Insurance
-              </span>
-            </div>
-            <span style={{ fontWeight: "normal" }}>
-              for finance fraud/prohibit price-elasticity + enslave +&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.populism.current.scrollIntoView("smooth");
-                  this.setState({ highlightPopulism: true });
-                  setTimeout(
-                    () => this.setState({ highlightPopulism: false }),
-                    10000
-                  );
-                }}
-              >
-                unrequited
-              </span>
-              <br />
-              <span
-                ref={this.disclosure}
-                style={{
-                  transform: ".3s ease-in",
-                  color: this.state.highlightDisclosure ? "white" : "grey",
-                  backgroundColor: this.state.highlightDisclosure
-                    ? "rgb(100,170,205)"
-                    : ""
-                }}
-              >
-                give warning by unpaid consultants, non-profit freemium ngo
-                service; no prohibition except self/asset court-party risk
-              </span>
-              <br />
-              no prescriptions
-            </span>
-            <br />
-            <a href="https://linkedin.com/in/nickcarducci">
-              linkedin.com/in/nickcarducci
-            </a>
-            <a href="https://vianickcarducci.medium.com">
-              vianickcarducci.medium.com
-            </a>
-            <div
-              ref={this.squatting}
-              style={{
-                display: "flex",
-                position: "relative"
-              }}
-            >
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
-                  src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
-                />
-              </div>
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
-                  alt="are we counting borrowed or deeds?"
-                />
-              </div>
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
-                  alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
-                />
-              </div>
-            </div>
-            <br />
-            the loans are now scrouging the gringos but just numerically because
-            u.s. courts are malfeasant
-            <br />
-            1000% asset ownership, 5000% asset ownership is finance (1300%
-            bond:cash, 2% financial sector getting population….), 100/2=50x who
-            is the real enemy
-          </div>
           <i
             ref={this.injury}
             style={{
@@ -4985,7 +4693,7 @@ export default class App extends React.Component {
               color: "grey",
               margin: "10px 0px",
               padding: "10px",
-
+              wordBreak: "break-word",
               flexDirection: "column",
               alignItems: "center",
               border: "1px dotted",
@@ -9797,35 +9505,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            blm vs trump; FBI (J. Sanborn) says,{" "}
-            <span
-              onClick={() => {
-                this.cityhall.current.scrollIntoView("smooth");
-                this.setState({ highlightCityHall: true });
-                setTimeout(
-                  () => this.setState({ highlightCityHall: false }),
-                  10000
-                );
-              }}
-            >
-              "not different"
-            </span>
-            , cites 100 people OVER A SUMMER and general cites heli using civil
-            disturbance enumerated outlays (bayonnets, heli's), {">"}
-            =250 ppl IN ONE DAY
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -11352,6 +11031,36 @@ export default class App extends React.Component {
               Petition to stop supermarkets wasting food, bad stewardship of our
               opportunities, G-d given shit
             </a>
+            <br />
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              blm vs trump; FBI (J. Sanborn) says,{" "}
+              <span
+                onClick={() => {
+                  this.cityhall.current.scrollIntoView("smooth");
+                  this.setState({ highlightCityHall: true });
+                  setTimeout(
+                    () => this.setState({ highlightCityHall: false }),
+                    10000
+                  );
+                }}
+              >
+                "not different"
+              </span>
+              , cites 100 people OVER A SUMMER and general cites heli using
+              civil disturbance enumerated outlays (bayonnets, heli's), {">"}
+              =250 ppl IN ONE DAY
+            </div>
           </div>
           <div
             style={{
