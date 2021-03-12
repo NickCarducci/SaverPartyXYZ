@@ -32,6 +32,7 @@ export default class App extends React.Component {
     this.GUNSAFETY = React.createRef();
     this.POLLINGFRAUD = React.createRef();
     this.IMMIGRATION = React.createRef();
+    this.EARLYCOMMS = React.createRef();
     this.defense = React.createRef();
     this.navbar = React.createRef();
     this.invite = React.createRef();
@@ -329,6 +330,16 @@ export default class App extends React.Component {
           this.props.scrollTop < immigrationHeight + immigrationOffsetTop
         ) {
           this.props.inSection("Immigration");
+        }else{
+
+        const earlyCommsHeight = this.EARLYCOMMS.current.offsetHeight;
+        const earlyCommsOffsetTop = this.EARLYCOMMS.current.offsetTop;
+        if (
+          this.props.scrollTop < earlyCommsOffsetTop ||
+          this.props.scrollTop < earlyCommsHeight + earlyCommsOffsetTop
+        ) {
+          this.props.inSection("Early Comms");
+        }
         }
       
         }
@@ -10749,6 +10760,7 @@ export default class App extends React.Component {
           market-colonialism, renting out more than you can use or bills
         </div>
         <a href="https://micro-theory.com">Micro-Theory.com</a>
+        <span ref={this.EARLYCOMMS}>
         <div
           style={{
             justifyContent: "center",
@@ -11829,6 +11841,8 @@ export default class App extends React.Component {
         <div ref={this.employmentOfOne}>
           <Employ2Pop />
         </div>
+        </span>
+        {/**early comms end */}
         <br />
         "No fault of their own," - Biden straight from Medical Industry Complex
         lobby. Ban invoices you fucking retard
