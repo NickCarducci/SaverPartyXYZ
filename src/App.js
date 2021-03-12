@@ -384,6 +384,18 @@ export default class App extends React.Component {
           </span>
         </span>
 
+        Biden, you don't&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.spittle.current.scrollIntoView("smooth");
+              this.setState({ highlightSpittle: true });
+              setTimeout(
+                () => this.setState({ highlightSpittle: false }),
+                10000
+              );
+            }}>need</span>&nbsp;us to get the vaccine; just wash your fucking hands
+        <br/>
+        <br/>
 Mark Levin, what bumbling idiot said on March 11, 2021, the value of things fall when the dollar value for&nbsp;<a href="https://vaults.biz">those things</a>&nbsp;falls. you mean your ability to own assets is lost with a weak dollar? the vitriole in society is directly correlated with currencyComponentOfM1 and any promises waged thereof which was once near 1:1 in 1908 (no outstanding loans) 
         <br/>
         <br/>
