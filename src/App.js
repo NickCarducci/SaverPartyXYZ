@@ -113,7 +113,7 @@ export default class App extends React.Component {
     this.whyBad = React.createRef();
     this.farmers = React.createRef();
     this.travellingIndividuals = React.createRef();
-    this.dispair = React.createRef()
+    this.dispair = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -406,7 +406,17 @@ export default class App extends React.Component {
         dollar value for those things falls tonight. Finance is inflation in
         opportunity; you mean your ability to own assets is lost with a weak
         dollar, or the vitriole in society is directly correlated with
-        currencyComponentOfM1 and any promises waged thereof which was once near
+        currencyComponentOfM1 and&nbsp; <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.dispair.current.scrollIntoView("smooth");
+              this.setState({ highlightDispair: true });
+              setTimeout(
+                () => this.setState({ highlightDispair: false }),
+                10000
+              );
+            }}
+          >any promises waged thereof</span>&nbsp;which was once near
         1:1 in 1908 (no outstanding loans)? Finance is inflation in opportunity
         <br />
         <br />
@@ -613,22 +623,24 @@ export default class App extends React.Component {
         <br />
         loser---winner
         <br />
-      <span
+        <span
           ref={this.dispair}
           style={{
-            color: this.state.highlightDispair? "white" : "",
+            color: this.state.highlightDispair ? "white" : "",
             backgroundColor: this.state.highlightDispair
               ? "rgb(170,100,205)"
               : ""
           }}
-          >Get the Luddites*!
-        <br />
-        "" Gaddafi*
-        <br />
-        on F. Morano show
-        <br />
-        for commodity security depositAry receipt, settled economy (need
-        repAIration)</span>
+        >
+          Get the Luddites*!
+          <br />
+          "" Gaddafi*
+          <br />
+          on F. Morano show
+          <br />
+          for commodity security depositAry receipt, settled economy (need
+          repAIration)
+        </span>
         <br />
         <div
           style={{
@@ -3041,7 +3053,7 @@ export default class App extends React.Component {
           style={{
             margin: "10px 0px",
             padding: "10px",
-
+display:"block",
             border: "1px dotted",
             width: "calc(100% - 20px)",
             maxWidth: "600px",
@@ -3055,18 +3067,23 @@ export default class App extends React.Component {
           now
           <br />
           if debt and Bernie Sanders didn't exists, the rich would kill us
-          <br/>
-          <br/>
-          There is not enough wealth&nbsp;<span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.dispair.current.scrollIntoView("smooth");
-            this.setState({ highlightDispair: true });
-            setTimeout(
-              () => this.setState({ highlightDispair: false }),
-              10000
-            );
-          }}>disparity</span>&nbsp;in assets alone.  They need to call debt, assets.
+          <br />
+          <br />
+          There is not enough wealth&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.dispair.current.scrollIntoView("smooth");
+              this.setState({ highlightDispair: true });
+              setTimeout(
+                () => this.setState({ highlightDispair: false }),
+                10000
+              );
+            }}
+          >
+            disparity
+          </span>
+          &nbsp;in assets alone. They need to call debt, assets.
         </span>
         <br />
         <br />
@@ -4475,7 +4492,20 @@ export default class App extends React.Component {
           ceasing that self-deprecation might stop your prediction of B.1.1.7
           doubling 3/4/2021
           <br />
-          Without debt, the rich will want to kill us
+          Without debt, the rich will want to&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.financeKills.current.scrollIntoView("smooth");
+              this.setState({ highlightFinanceKills: true });
+              setTimeout(
+                () => this.setState({ highlightFinanceKills: false }),
+                10000
+              );
+            }}
+          >
+            kill us
+          </span>
           <br />
           <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">oy</a>
         </i>
