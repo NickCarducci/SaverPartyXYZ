@@ -89,7 +89,7 @@ export default class App extends React.Component {
     this.homebuilder = React.createRef();
     this.covidKills = React.createRef();
     this.grandmaMentality = React.createRef();
-    this.oldFlu = React.createRef();
+    this.oldFluExclusion = React.createRef();
     this.employmentOfOne = React.createRef();
     this.singleSourceOfTruth = React.createRef();
     this.jan2018 = React.createRef();
@@ -465,35 +465,60 @@ export default class App extends React.Component {
         be paid.
         <br />
         <br />
-        Travel can only be supressed by individuals by court order, not
-        governments or physicians, federal, state or local
-        <br />
-        Would need a law of non-scientific and assumptive-intentions
-        <br />
-        <br />
-        Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
-        <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
         <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.cold.current.scrollIntoView("smooth");
-            this.setState({ highlightCold: true });
-            setTimeout(() => this.setState({ highlightCold: false }), 10000);
+          ref={this.travellingIndividuals}
+          style={{
+            color: this.state.highlightTravellingIndividuals ? "white" : "",
+            backgroundColor: this.state.highlightTravellingIndividuals
+              ? "rgb(170,100,205)"
+              : ""
           }}
         >
-          cold
-        </span>
-        &nbsp;antibody cold case areas... if there are no symptoms, you're not
-        certifiably sick with a virus deadlier than annual flu.&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.oldFlu.current.scrollIntoView("smooth");
-            this.setState({ highlightOldFlu: true });
-            setTimeout(() => this.setState({ highlightOldFlu: false }), 10000);
-          }}
-        >
-          RELEASE THE DEATH RATE POPULATION NUMBERS UN
+          Travel can only be supressed by individuals by court order,&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.oldFluExclusion.current.scrollIntoView("smooth");
+              this.setState({ highlightOldFluExclusion: true });
+              setTimeout(
+                () => this.setState({ highlightOldFluExclusion: false }),
+                10000
+              );
+            }}
+          >
+            not governments or physicians, federal, state or local
+          </span>
+          <br />
+          Would need a law of non-scientific and assumptive-intentions
+          <br />
+          <br />
+          Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
+          <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
+              setTimeout(() => this.setState({ highlightCold: false }), 10000);
+            }}
+          >
+            cold
+          </span>
+          &nbsp;antibody cold case areas... if there are no symptoms, you're not
+          certifiably sick with a virus deadlier than annual flu.&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.oldFluExclusion.current.scrollIntoView("smooth");
+              this.setState({ highlightOldFluExclusion: true });
+              setTimeout(
+                () => this.setState({ highlightOldFluExclusion: false }),
+                10000
+              );
+            }}
+          >
+            RELEASE THE DEATH RATE POPULATION NUMBERS UN
+          </span>
         </span>
         <br />
         <br />"
@@ -1283,10 +1308,10 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.oldFlu.current.scrollIntoView("smooth");
-              this.setState({ highlightOldFlu: true });
+              this.oldFluExclusion.current.scrollIntoView("smooth");
+              this.setState({ highlightOldFluExclusion: true });
               setTimeout(
-                () => this.setState({ highlightOldFlu: false }),
+                () => this.setState({ highlightOldFluExclusion: false }),
                 10000
               );
             }}
@@ -5349,10 +5374,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.oldFlu.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFlu: true });
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
                 setTimeout(
-                  () => this.setState({ highlightOldFlu: false }),
+                  () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
               }}
@@ -5363,10 +5388,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.oldFlu.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFlu: true });
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
                 setTimeout(
-                  () => this.setState({ highlightOldFlu: false }),
+                  () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
               }}
@@ -6381,7 +6406,21 @@ export default class App extends React.Component {
           >
             https://pubmed.ncbi.nlm.nih.gov/17542834/
           </a>{" "}
-          so it is an individual decision.
+          so it is an&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.setState({ highlightTravellingIndividuals: true });
+              setTimeout(
+                () => this.setState({ highlightTravellingIndividuals: false }),
+                10000
+              );
+            }}
+          >
+            individual
+          </span>
+          &nbsp;decision.
         </div>
         <div
           style={{
@@ -6757,12 +6796,12 @@ export default class App extends React.Component {
           </span>
           <br />
           <span
-            ref={this.oldFlu}
+            ref={this.oldFluExclusion}
             style={{
               padding: "4px 10px",
               borderRadius: "15px",
-              color: this.state.highlightOldFlu ? "white" : "black",
-              backgroundColor: this.state.highlightOldFlu
+              color: this.state.highlightOldFluExclusion ? "white" : "black",
+              backgroundColor: this.state.highlightOldFluExclusion
                 ? "rgb(170,100,205)"
                 : "",
               transition: ".3s ease-out"
@@ -6774,7 +6813,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://foiegras.life"
             >
@@ -6785,7 +6824,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://moldmask.co"
             >
@@ -6796,7 +6835,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://humanharvest.info"
             >
@@ -6820,7 +6859,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://www.prb.org/countries-with-the-oldest-populations/"
             >
@@ -6831,7 +6870,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
             >
@@ -6842,7 +6881,7 @@ export default class App extends React.Component {
               style={{
                 padding: "4px 10px",
                 border: "1px solid",
-                color: this.state.highlightOldFlu ? "white" : "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
               href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
             >
@@ -6903,10 +6942,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.oldFlu.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFlu: true });
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
                 setTimeout(
-                  () => this.setState({ highlightOldFlu: false }),
+                  () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
               }}
@@ -7478,10 +7517,10 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.oldFlu.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFlu: true });
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
                 setTimeout(
-                  () => this.setState({ highlightOldFlu: false }),
+                  () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
               }}
@@ -7514,10 +7553,10 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.decide.current.scrollIntoView("smooth");
-              this.setState({ highlightDecide: true });
+              this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.setState({ highlightTravellingIndividuals: true });
               setTimeout(
-                () => this.setState({ highlightDecide: false }),
+                () => this.setState({ highlightTravellingIndividuals: false }),
                 10000
               );
             }}
@@ -8794,7 +8833,7 @@ export default class App extends React.Component {
             wavv.art/forumyaPOR5EzNIENE6dMU4UD
           </a>
           <br />
-          Your power to prevent me from inclusion in the economy{" "}
+          &nbsp; Your power to prevent me from inclusion in the economy{" "}
           <a
             ref={this.decide}
             style={{
