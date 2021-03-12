@@ -228,6 +228,8 @@ class Index extends React.Component {
               <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
               forces that are out to obfuscate and scourge
               <br />
+              if you move people you are at fault
+              <br />
               <br />
               You can tax sales (of end-products, not equity) for
               free-rider-immutable services, wealth for systematic reparations
