@@ -383,23 +383,30 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-
-        Biden, you don't&nbsp;<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.spittle.current.scrollIntoView("smooth");
-              this.setState({ highlightSpittle: true });
-              setTimeout(
-                () => this.setState({ highlightSpittle: false }),
-                10000
-              );
-            }}>need</span>&nbsp;us to get the vaccine; just wash your fucking hands
-        <br/>
-        <br/>
-Mark Levin, what bumbling idiot said on March 11, 2021, the value of things fall when the dollar value for&nbsp;<a href="https://vaults.biz">those things</a>&nbsp;falls. you mean your ability to own assets is lost with a weak dollar? the vitriole in society is directly correlated with currencyComponentOfM1 and any promises waged thereof which was once near 1:1 in 1908 (no outstanding loans) 
-        <br/>
-        <br/>
-Debt-spending does not&nbsp;
+        Biden, you don't&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.spittle.current.scrollIntoView("smooth");
+            this.setState({ highlightSpittle: true });
+            setTimeout(() => this.setState({ highlightSpittle: false }), 10000);
+          }}
+        >
+          need
+        </span>
+        &nbsp;us to get the vaccine; just wash your fucking hands
+        <br />
+        <br />
+        Mark Levin, what bumbling idiot said on March 11, 2021, the value
+        of&nbsp;<a href="https://vaults.biz">those things</a>&nbsp;when the
+        dollar value for those things falls tonight. Finance is inflation in
+        opportunity; you mean your ability to own assets is lost with a weak
+        dollar, or the vitriole in society is directly correlated with
+        currencyComponentOfM1 and any promises waged thereof which was once near
+        1:1 in 1908 (no outstanding loans)? Finance is inflation in opportunity
+        <br />
+        <br />
+        Debt-spending does not&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -410,15 +417,24 @@ Debt-spending does not&nbsp;
               10000
             );
           }}
-        >ramp up anything - or make anything more possible</span>, it only makes input costs more expensive through the supply chain and in competition with other consumers who do not borrow or lend but work, invent or buy (equity)
-<br/>
-<br/>
-<a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
-Pfizer/BioNTech say data suggests vaccine 94% effective in preventing asymptomatic infection</a>
-<br/>
-It doesn't prove it stops transmission, especially when only 10% have been vaccinated and cases at at 29% of what they once were in the bottom of the same report.  Literal retards, they know better
-        <br/>
-        <br/>
+        >
+          ramp up anything - or make anything more possible
+        </span>
+        , it only makes input costs more expensive through the supply chain and
+        in competition with other consumers who do not borrow or lend but work,
+        invent or buy (equity)
+        <br />
+        <br />
+        <a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
+          Pfizer/BioNTech say data suggests vaccine 94% effective in preventing
+          asymptomatic infection
+        </a>
+        <br />
+        It doesn't prove it stops transmission, especially when only 10% have
+        been vaccinated and cases at at 29% of what they once were in the bottom
+        of the same report. Literal retards, they know better
+        <br />
+        <br />
         Torts need to be between people and classes again, we shouldn’t have to
         sue the government
         <br />
