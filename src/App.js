@@ -411,7 +411,6 @@ export default class App extends React.Component {
                           ) {
                             this.props.inSection("Null Hypothesis");
                           } else {
-                            this.SECURITIESFRAUD = React.createRef();
                             const securitiesFraudHeight = this.INSURANCEFRAUD
                               .current.offsetHeight;
                             const securitiesFraudOffsetTop = this.INSURANCEFRAUD
