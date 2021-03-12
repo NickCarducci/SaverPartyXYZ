@@ -4329,7 +4329,19 @@ export default class App extends React.Component {
             <br />
             insurance is not subscription-membership because one person's
             subscription (taxable) does not go towards someone else's or a large
-            contracted monopsony (Spotify, income, royalty not taxes), it goes
+            contracted&nbsp;<span
+                  style={{
+                    fontWeight: "bolder",
+                    textDecoration: "underline"
+                  }}
+                  onClick={() => {
+                    this.royalty.current.scrollIntoView("smooth");
+                    this.setState({ highlightRoyalty: true });
+                    setTimeout(
+                      () => this.setState({ highlightRoyalty: false }),
+                      10000
+                    );
+                  }}>monopsony</span>&nbsp;(Spotify, income, royalty not taxes), it goes
             to pay for their non-monopsony, individual servicing. insurance is
             duressful trade, by invoice, gift-certificate or max-expense,
             prohibiting trade and causing slavery just the same as debt
@@ -12005,7 +12017,19 @@ export default class App extends React.Component {
                 subsidiary or subcontracted contracts with non-compete
                 agreements ...), not a third party's money, or in other words
                 one person's subscription (taxable) does not go towards someone
-                else's or a large contracted monopsony (Spotify, income, royalty
+                else's or a large contracted&nbsp;<span
+                  style={{
+                    fontWeight: "bolder",
+                    textDecoration: "underline"
+                  }}
+                  onClick={() => {
+                    this.royalty.current.scrollIntoView("smooth");
+                    this.setState({ highlightRoyalty: true });
+                    setTimeout(
+                      () => this.setState({ highlightRoyalty: false }),
+                      10000
+                    );
+                  }}>monopsony</span>&nbsp;(Spotify, income, royalty
                 not taxes), it goes to pay for their non-monopsony, individual
                 servicing
               </b>{" "}
