@@ -542,7 +542,7 @@ export default class App extends React.Component {
         "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer blitzes my pocket book (not a tax-payer, live at home. save) of an 'electic highway' by further dollar dilution and tax.  Let's vote on stealing.  Bipartisan vote on stealing
         <br/>
         <br/>
-        "The&nbsp;<a href="https://humanharvest.info">"'vaccine'/graft</a>
+        "The&nbsp;<a href="https://humanharvest.info">'vaccine'/graft</a>
         &nbsp;is a&nbsp;
         <a href="https://link.springer.com/chapter/10.1007/978-3-540-72167-3_11">
           miracle
