@@ -383,6 +383,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+
+<a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
+Pfizer/BioNTech say data suggests vaccine 94% effective in preventing asymptomatic infection</a>
+<br/>
+It doesn't prove it stops transmission, especially when only 10% have been vaccinated and cases at at 29% of what they once were in the bottom of the same report.  Literal retards, they know better
+        <br/>
+        <br/>
         Torts need to be between people and classes again, we shouldn’t have to
         sue the government
         <br />
