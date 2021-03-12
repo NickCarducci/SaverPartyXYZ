@@ -170,7 +170,6 @@ class Index extends React.Component {
           >
             <div
               style={{
-                height: "min-content",
                 fontSize: "20px",
                 alignSelf: "flex-start",
                 width: "calc(100% - 60px)",
@@ -182,7 +181,11 @@ class Index extends React.Component {
               }}
             >
               <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                style={{
+                  height: "min-content",
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
               >
                 Demand
               </span>
