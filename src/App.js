@@ -27,6 +27,7 @@ export default class App extends React.Component {
       why: false,
       showM1: true
     };
+    this.GUNSAFETY = React.createRef();
     this.defense = React.createRef();
     this.navbar = React.createRef();
     this.invite = React.createRef();
@@ -110,6 +111,7 @@ export default class App extends React.Component {
     this.injury = React.createRef();
     this.sellingOut = React.createRef();
     this.whyBad = React.createRef();
+    this.farmers = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -293,6 +295,16 @@ export default class App extends React.Component {
     ) {
       clearTimeout(this.resizer);
       this.resizer = setTimeout(() => this.resizee(), 200);
+    }
+    if (this.props.scrollTop !== prevProps.scrollTop) {
+      const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
+      const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
+      if (
+        this.props.scrollTop < gunSafetyHeight ||
+        this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
+      ) {
+        this.props.inSection("Gun Safety");
+      }
     }
   };
   resizee = () => {
@@ -615,6 +627,33 @@ export default class App extends React.Component {
         money
         <br />
         <br />
+        $1.6b for amtrack? those tickets are $200 a ticket NJ to Baltimore. This
+        is abjectly fraud for&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.trust.current.scrollIntoView("smooth");
+            this.setState({ highlightTrust: true });
+            setTimeout(() => this.setState({ highlightTrust: false }), 10000);
+          }}
+        >
+          government trust
+        </span>
+        &nbsp;that colonizes this market with monopsonistic practices.
+        Socially-distressed&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.farmers.current.scrollIntoView("smooth");
+            this.setState({ highlightFarmers: true });
+            setTimeout(() => this.setState({ highlightFarmers: false }), 10000);
+          }}
+        >
+          farmers
+        </span>
+        ?
+        <br />
+        <br />
         <span
           ref={this.sellingOut}
           style={{
@@ -694,61 +733,69 @@ export default class App extends React.Component {
         lender who gets to keep down-payments of borrowers’ customers, as of now
         <br />
         <br />
-        <GunSafety
-          injury={() => {
-            this.injury.current.scrollIntoView("smooth");
-            this.setState({ highlightInjury: true });
-            setTimeout(() => this.setState({ highlightInjury: false }), 10000);
-          }}
-          policeUX={() => {
-            this.policeUX.current.scrollIntoView("smooth");
-            this.setState({ highlightPoliceUX: true });
-            setTimeout(
-              () => this.setState({ highlightPoliceUX: false }),
-              10000
-            );
-          }}
-          navbar={() => {
-            this.navbar.current.scrollIntoView("smooth");
-          }}
-          drugs={() => {
-            this.drugs.current.scrollIntoView("smooth");
-            this.setState({ highlightDrugs: true });
-            setTimeout(() => this.setState({ highlightDrugs: false }), 10000);
-          }}
-          starve={() => {
-            this.starve.current.scrollIntoView("smooth");
-          }}
-          brookings={() => {
-            this.brookings.current.scrollIntoView("smooth");
-            this.setState({ highlightBrookings: true });
-            setTimeout(
-              () => this.setState({ highlightBrookings: false }),
-              10000
-            );
-          }}
-          nra={() => {
-            this.nra.current.scrollIntoView("smooth");
-            this.setState({ highlightNRA: true });
-            setTimeout(() => this.setState({ highlightNRA: false }), 10000);
-          }}
-          irs={() => {
-            this.IRS.current.scrollIntoView("smooth");
-            this.setState({ highlightIRS: true });
-            setTimeout(() => this.setState({ highlightIRS: false }), 10000);
-          }}
-          fraud={() => {
-            this.fraud.current.scrollIntoView("smooth");
-            this.setState({ highlightFraud: true });
-            setTimeout(() => this.setState({ highlightFraud: false }), 10000);
-          }}
-          varney={() => {
-            this.varney.current.scrollIntoView("smooth");
-            this.setState({ highlightVarney: true });
-            setTimeout(() => this.setState({ highlightVarney: false }), 10000);
-          }}
-          goToTop={this.props.goToTop}
-        />
+        <span ref={this.GUNSAFETY}>
+          <GunSafety
+            injury={() => {
+              this.injury.current.scrollIntoView("smooth");
+              this.setState({ highlightInjury: true });
+              setTimeout(
+                () => this.setState({ highlightInjury: false }),
+                10000
+              );
+            }}
+            policeUX={() => {
+              this.policeUX.current.scrollIntoView("smooth");
+              this.setState({ highlightPoliceUX: true });
+              setTimeout(
+                () => this.setState({ highlightPoliceUX: false }),
+                10000
+              );
+            }}
+            navbar={() => {
+              this.navbar.current.scrollIntoView("smooth");
+            }}
+            drugs={() => {
+              this.drugs.current.scrollIntoView("smooth");
+              this.setState({ highlightDrugs: true });
+              setTimeout(() => this.setState({ highlightDrugs: false }), 10000);
+            }}
+            starve={() => {
+              this.starve.current.scrollIntoView("smooth");
+            }}
+            brookings={() => {
+              this.brookings.current.scrollIntoView("smooth");
+              this.setState({ highlightBrookings: true });
+              setTimeout(
+                () => this.setState({ highlightBrookings: false }),
+                10000
+              );
+            }}
+            nra={() => {
+              this.nra.current.scrollIntoView("smooth");
+              this.setState({ highlightNRA: true });
+              setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+            }}
+            irs={() => {
+              this.IRS.current.scrollIntoView("smooth");
+              this.setState({ highlightIRS: true });
+              setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+            }}
+            fraud={() => {
+              this.fraud.current.scrollIntoView("smooth");
+              this.setState({ highlightFraud: true });
+              setTimeout(() => this.setState({ highlightFraud: false }), 10000);
+            }}
+            varney={() => {
+              this.varney.current.scrollIntoView("smooth");
+              this.setState({ highlightVarney: true });
+              setTimeout(
+                () => this.setState({ highlightVarney: false }),
+                10000
+              );
+            }}
+            goToTop={this.props.goToTop}
+          />
+        </span>
         <br />
         <br />
         <br />
@@ -840,8 +887,18 @@ export default class App extends React.Component {
         acting like monopsonies.
         <br />
         <br />
-        If you want to help farmers, suspend property taxes and don't steal from
-        Savers. I will fight you
+        <span
+          ref={this.farmers}
+          style={{
+            color: this.state.highlightFarmers ? "white" : "",
+            backgroundColor: this.state.highlightFarmers
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+        >
+          If you want to help farmers, suspend property taxes and don't steal
+          from Savers. I will fight you
+        </span>
         <br />
         <br />
         FDIC ensures you that they will bail you out if you invest in them and
@@ -9232,9 +9289,8 @@ export default class App extends React.Component {
             corporate competitors of mine...
           </div>
           <div
+            ref={this.trust}
             style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
 
@@ -9242,7 +9298,11 @@ export default class App extends React.Component {
               alignItems: "center",
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              color: this.state.highlightTrust ? "white" : "grey",
+              backgroundColor: this.state.highlightTrust
+                ? "rgb(170,100,205)"
+                : ""
             }}
           >
             gov gets free labor, greatest anti-trust case ever (steven moore is
@@ -10307,8 +10367,8 @@ export default class App extends React.Component {
         <div
           ref={this.whyBad}
           style={{
-              fontWeight: "bolder",
-              textDecoration: "underline",
+            fontWeight: "bolder",
+            textDecoration: "underline",
             color: this.state.highlightWhyBad ? "white" : "",
             backgroundColor: this.state.highlightWhyBad
               ? "rgb(170,100,205)"
@@ -10318,40 +10378,41 @@ export default class App extends React.Component {
           onClick={() => this.setState({ why: !this.state.why })}
         >
           Violence is because of debt, slavery and non-governmental mafia.
-          </div>
-          <div
-            style={{
-              wordBreak: "break-word",
-              padding: this.state.why ? "20px" : "0px",
-              border: "1px dotted",
-              width: "calc(100% - 40px)",
-              maxWidth: "600px",
-              opacity: this.state.why ? "1" : "0",
-              transition: ".3s ease-in",
-              fontSize: this.state.why ? "" : "0px"
-            }}
-          >
-            <a href="https://wavv.art/Iran">Islam</a>&nbsp;says trespassing is ok to war others, but uselessly abuse
-            animals which is never supported by westerners; however, obviously
-            China feels the same about a b**********g animals for some etherial
-            effect. G-d is supposed to do the judgement is something they
-            misinterpret about their own text. amazing. I am listening to John
-            Bachelor now. Jews for reparations were excluded from being bankers,
-            that is not the way; then jews supported british winning of lybia
-            over italy. looking at italian intent there now.... yup, financial
-            slavery. http://cup.columbia.edu/.../conflict.../9780231138642 this
-            is not the teachings of Christ and/or G-d Conflict, Conquest, and
-            Conversion | Columbia University Press Conflict, Conquest, and
-            Conversion | Columbia University Press The Rev and the Rabbi just
-            said the Third Reich rose to power because the axis thought Jews
-            were different AND thought Jews were the cause of “woes” in Europe.
-            Different how? Placing interest on non-Jews (Hakahla)? Insurance
-            pool duress hot potato? That quite literally does cause dominoes of
-            foreclosures. Believe me I am a home builder. Although Killing Jesus
-            with Roman gov for protesting animal sacrifice and unequal treatment
-            of money and share, or “cheering for British win in Tunisia” doesn’t
-            help Optics for Italians Crucifixion was directive by Jewish and
-            Roman leaders.
+        </div>
+        <div
+          style={{
+            wordBreak: "break-word",
+            padding: this.state.why ? "20px" : "0px",
+            border: "1px dotted",
+            width: "calc(100% - 40px)",
+            maxWidth: "600px",
+            opacity: this.state.why ? "1" : "0",
+            transition: ".3s ease-in",
+            fontSize: this.state.why ? "" : "0px"
+          }}
+        >
+          <a href="https://wavv.art/Iran">Islam</a>&nbsp;says trespassing is ok
+          to war others, but uselessly abuse animals which is never supported by
+          westerners; however, obviously China feels the same about a
+          b**********g animals for some etherial effect. G-d is supposed to do
+          the judgement is something they misinterpret about their own text.
+          amazing. I am listening to John Bachelor now. Jews for reparations
+          were excluded from being bankers, that is not the way; then jews
+          supported british winning of lybia over italy. looking at italian
+          intent there now.... yup, financial
+          slavery. http://cup.columbia.edu/.../conflict.../9780231138642 this is
+          not the teachings of Christ and/or G-d Conflict, Conquest, and
+          Conversion | Columbia University Press Conflict, Conquest, and
+          Conversion | Columbia University Press The Rev and the Rabbi just said
+          the Third Reich rose to power because the axis thought Jews were
+          different AND thought Jews were the cause of “woes” in Europe.
+          Different how? Placing interest on non-Jews (Hakahla)? Insurance pool
+          duress hot potato? That quite literally does cause dominoes of
+          foreclosures. Believe me I am a home builder. Although Killing Jesus
+          with Roman gov for protesting animal sacrifice and unequal treatment
+          of money and share, or “cheering for British win in Tunisia” doesn’t
+          help Optics for Italians Crucifixion was directive by Jewish and Roman
+          leaders.
         </div>
         <div style={tweetsStyle}>
           You can have opinion if the other has no proof, and then you will have
