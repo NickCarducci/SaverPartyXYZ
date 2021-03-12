@@ -540,7 +540,8 @@ export default class App extends React.Component {
         </span>
         "All along the political spectrum, left right and center ...Moody's
         reported...&nbsp;
-        <span onClick={() => this.MONOPOLY.current.scrollIntoView("smooth")}>
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }} onClick={() => this.MONOPOLY.current.scrollIntoView("smooth")}>
           7 million new jobs
         </span>
         ,"&nbsp;<a href="https://foiegras.life">smiles</a>&nbsp;Biden
