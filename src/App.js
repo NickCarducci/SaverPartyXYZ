@@ -394,7 +394,7 @@ export default class App extends React.Component {
         >
           need
         </span>
-        &nbsp;us to get the vaccine; just wash your fucking hands
+        &nbsp;us to get the "vaccine"/graft; just wash your fucking hands and sneeze into a tissue or elbow like Barney the Dinosaur has taught us, again and again
         <br />
         <br />
         Mark Levin, what bumbling idiot said on March 11, 2021, the value
