@@ -381,8 +381,23 @@ class Index extends React.Component {
               <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
               forces that are out to obfuscate and scourge
               <br />
+              <br />
+              <div
+                style={{
+                  marginBottom: "4px",
+                  padding: "4px 0px",
+                  borderTop: "2px solid white",
+                  borderBottom: "2px solid white"
+                }}
+              >
+                Harm, net-agressive self-defense
+              </div>
               if you move [not advise w/o intent or neglect to deceive, unless
               under non-state-tort(A5)] people you are at fault
+              <br />
+              read 'state' as p2s not public service role, see liability of
+              product advertising... which should carry same crime of
+              intent/negligence non-state-tort...
               <br />
               <br />
               You can tax sales (of end-products, not equity) for
