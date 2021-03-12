@@ -128,6 +128,7 @@ export default class App extends React.Component {
     this.travellingIndividuals = React.createRef();
     this.dispair = React.createRef();
     this.fasterWithCounterfeit = React.createRef();
+    this.technicallyIllegal = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -7056,6 +7057,7 @@ export default class App extends React.Component {
           </i>
           <br />
           <i
+          ref={this.technicallyIllegal}
             style={{
               fontSize: "12px",
               color: "grey",
@@ -9901,7 +9903,17 @@ export default class App extends React.Component {
             slut,{" "}
             <a href="https://thumbprint.us">working for market(copyright,</a>
             not <a href="https://vaults.biz">depositary</a>) share instead of
-            entrapping myself into <a href="https://stripe.com">Stripe.com</a>
+            &nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.technicallyIllegal.current.scrollIntoView("smooth");
+                this.setState({ highlightTechnicallyIllegal: true });
+                setTimeout(
+                  () => this.setState({ highlightTechnicallyIllegal: false }),
+                  10000
+                );
+              }}
+            >entrapping myself</span>&nbsp;into <a href="https://stripe.com">Stripe.com</a>
             <br />
             <br />
             Judges cannot judge what is right for bail, they'rn't impartial - as
