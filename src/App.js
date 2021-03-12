@@ -556,10 +556,10 @@ export default class App extends React.Component {
         <br />
         Mark Levin, what bumbling idiot said on March 11, 2021, the value
         of&nbsp;<a href="https://vaults.biz">those things</a>&nbsp;when the
-        dollar value for those things fall. Finance is inflation in
-        opportunity; you mean your ability to own assets is lost with a weak
-        dollar, or the vitriole in society is directly correlated with
-        currencyComponentOfM1 and&nbsp;
+        dollar value for those things fall. Finance is inflation in opportunity;
+        you mean your ability to own assets is lost with a weak dollar, or the
+        vitriole in society is directly correlated with currencyComponentOfM1
+        and&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -3015,7 +3015,8 @@ export default class App extends React.Component {
             >
               disparity
             </span>
-            &nbsp;in assets alone. They need to call debt, assets.
+            &nbsp;in assets alone. They need to call debt, assets. Wealth beyond
+            utility is how deparate we are - to eachother
           </span>
           <br />
           <br />
@@ -7057,7 +7058,7 @@ export default class App extends React.Component {
           </i>
           <br />
           <i
-          ref={this.technicallyIllegal}
+            ref={this.technicallyIllegal}
             style={{
               fontSize: "12px",
               color: "grey",
@@ -7071,7 +7072,8 @@ export default class App extends React.Component {
             <span aria-label="stop" role="img">
               🛑
             </span>
-            &#9888;and technically&nbsp;<span
+            &#9888;and technically&nbsp;
+            <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
@@ -7080,7 +7082,11 @@ export default class App extends React.Component {
                   () => this.setState({ highlightFintech: false }),
                   10000
                 );
-              }}>illegal</span>&#9888;
+              }}
+            >
+              illegal
+            </span>
+            &#9888;
             <span aria-label="stop" role="img">
               🛑
             </span>
@@ -9912,7 +9918,8 @@ export default class App extends React.Component {
             slut,{" "}
             <a href="https://thumbprint.us">working for market(copyright,</a>
             not <a href="https://vaults.biz">depositary</a>) share instead of
-            &nbsp;<span
+            &nbsp;
+            <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.technicallyIllegal.current.scrollIntoView("smooth");
@@ -9922,7 +9929,10 @@ export default class App extends React.Component {
                   10000
                 );
               }}
-            >entrapping myself</span>&nbsp;into <a href="https://stripe.com">Stripe.com</a>
+            >
+              entrapping myself
+            </span>
+            &nbsp;into <a href="https://stripe.com">Stripe.com</a>
             <br />
             <br />
             Judges cannot judge what is right for bail, they'rn't impartial - as
@@ -10033,7 +10043,8 @@ export default class App extends React.Component {
             }}
           >
             the dispairage between income & wealth inequality and
-            ownership/dollar-split
+            ownership/dollar-split - Wealth beyond utility is how deparate we
+            are
           </div>
           <i
             ref={this.vault}
@@ -11767,7 +11778,8 @@ export default class App extends React.Component {
                 assets they promise
                 <br />
                 growth of an economy by shares only increase wealth disparity;
-                growth by population lessens wealth disparity
+                growth by population lessens wealth disparity. Wealth beyond
+                utility is how deparate we are to eachother
                 <br />
                 unemployment rate is a phone survey of 2k people that aren't out
                 looking for work who have time, the employment rate is 60%.
@@ -11854,6 +11866,9 @@ export default class App extends React.Component {
                   textDecoration: "underline"
                 }}
               >
+                Wealth beyond utility is how deparate we are, to eachother
+                <br />
+                <br />
                 The Brookings Institution / NPR advocates for baby bonds , not
                 ubi to close a 10x white wealth gap, while there is 11x gap
                 between finance versus other sectors of employment while only
