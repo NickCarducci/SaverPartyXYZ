@@ -541,7 +541,9 @@ export default class App extends React.Component {
         "All along the political spectrum, left right and center ...Moody's
         reported...&nbsp;
         <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }} onClick={() => this.MONOPOLY.current.scrollIntoView("smooth")}>
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => this.MONOPOLY.current.scrollIntoView("smooth")}
+        >
           7 million new jobs
         </span>
         ,"&nbsp;<a href="https://foiegras.life">smiles</a>&nbsp;Biden
@@ -4326,7 +4328,7 @@ export default class App extends React.Component {
             <br />
             <br />
             insurance is not subscription-membership because one person's
-            subscription does not go towards someone else's, it goes to pay for
+            subscription does not go towards someone else's or a large contracted monopsony (Spotify), it goes to pay for
             their non-monopsony, individual servicing. insurance is duressful
             trade, by invoice, gift-certificate or max-expense, prohibiting
             trade and causing slavery just the same as debt
@@ -12001,7 +12003,7 @@ export default class App extends React.Component {
                 non-prohibitive based on existing market penetration and without
                 subsidiary or subcontracted contracts with non-compete
                 agreements ...), not a third party's money, or in other words
-                one person's subscription does not go towards someone else's, it
+                one person's subscription does not go towards someone else's or a large contracted monopsony (Spotify), it
                 goes to pay for their non-monopsony, individual servicing
               </b>{" "}
               Grow up
