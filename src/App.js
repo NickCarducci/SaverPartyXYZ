@@ -384,6 +384,20 @@ export default class App extends React.Component {
           </span>
         </span>
 
+Debt-spending does not&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fasterWithCounterfeit.current.scrollIntoView("smooth");
+            this.setState({ highlightFasterWithCounterfeit: true });
+            setTimeout(
+              () => this.setState({ highlightFasterWithCounterfeit: false }),
+              10000
+            );
+          }}
+        >ramp up anything</span>, it only makes input costs more expensive through the supply chain and in competition with other consumers who do not borrow or lend but work, invent or buy (equity)
+<br/>
+<br/>
 <a href="https://www.reuters.com/article/health-coronavirus-pfizer-israel-int-idUSKBN2B31IW">
 Pfizer/BioNTech say data suggests vaccine 94% effective in preventing asymptomatic infection</a>
 <br/>
