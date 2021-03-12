@@ -540,6 +540,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        BBQ DECLARE INDEPENDENCE
+        <br/>
+        <br/>
         "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer
         blitzes my pocket book (not a tax-payer, live at home. save) of an
         'electic highway' by further dollar dilution and tax. Let's vote on
