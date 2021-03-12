@@ -538,6 +538,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "All along the political spectrum, left right and center ...Moody's
+        reported...&nbsp;
+        <span onClick={() => this.MONOPOLY.current.scrollIntoView("smooth")}>
+          7 million new jobs
+        </span>
+        ,"&nbsp;<a href="https://foiegras.life">smiles</a>&nbsp;Biden
+        <br />
         Biden, you don't&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -12695,3 +12702,4 @@ export default class App extends React.Component {
     );
   }
 }
+
