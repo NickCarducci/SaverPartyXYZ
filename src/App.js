@@ -112,6 +112,7 @@ export default class App extends React.Component {
     this.sellingOut = React.createRef();
     this.whyBad = React.createRef();
     this.farmers = React.createRef();
+    this.travellingIndividuals = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -394,7 +395,9 @@ export default class App extends React.Component {
         >
           need
         </span>
-        &nbsp;us to get the "vaccine"/graft; just wash your fucking hands and sneeze into a tissue or elbow like Barney the Dinosaur has taught us, again and again
+        &nbsp;us to get the "vaccine"/graft; just wash your fucking hands and
+        sneeze into a tissue or elbow like Barney the Dinosaur has taught us,
+        again and again
         <br />
         <br />
         Mark Levin, what bumbling idiot said on March 11, 2021, the value
@@ -10735,8 +10738,20 @@ export default class App extends React.Component {
           grab a tissue, but I wouldn’t advice sneezing in a mask; the droplet
           might have to be exactly room temperature and smaller than spittle to
           float anyway. I’ve spent quite a bit of time checking sources of
-          evidence that aren’t correlations and it shows spittle/breathe
-          falls/rises within 1ft
+          evidence that aren’t correlations and it shows spittle/breathe &nbsp;
+          <span
+            onClick={() => {
+              this.nextspittle.current.scrollIntoView("smooth");
+              this.setState({ highlightSpittleNext: true });
+              setTimeout(
+                () => this.setState({ highlightSpittleNext: false }),
+                10000
+              );
+            }}
+            ref={this.brookings}
+          >
+            falls/rises within 1ft
+          </span>
           <br />
           vaccine efficacy cannot be judged by putting people in a room because
           that would be proof again that spittle doesn't transmit
