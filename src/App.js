@@ -530,7 +530,8 @@ export default class App extends React.Component {
             onClick={() => {
               this.whyBad.current.scrollIntoView("smooth");
               this.setState({ highlightWhyBad: true });
-              setTimeout(
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightWhyBad: false }),
                 10000
               );
@@ -539,9 +540,12 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer blitzes my pocket book (not a tax-payer, live at home. save) of an 'electic highway' by further dollar dilution and tax.  Let's vote on stealing.  Bipartisan vote on stealing
-        <br/>
-        <br/>
+        "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer
+        blitzes my pocket book (not a tax-payer, live at home. save) of an
+        'electic highway' by further dollar dilution and tax. Let's vote on
+        stealing. Bipartisan vote on stealing
+        <br />
+        <br />
         "The&nbsp;<a href="https://humanharvest.info">'vaccine'/graft</a>
         &nbsp;is a&nbsp;
         <a href="https://link.springer.com/chapter/10.1007/978-3-540-72167-3_11">
@@ -553,7 +557,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.sanjay.current.scrollIntoView("smooth");
             this.setState({ highlightSanjay: true });
-            setTimeout(() => this.setState({ highlightSanjay: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightSanjay: false }),
+              10000
+            );
           }}
         >
           science
@@ -579,7 +588,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.populism.current.scrollIntoView("smooth");
             this.setState({ highlightPopulism: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightPopulism: false }),
               10000
             );
@@ -593,7 +604,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.spittle.current.scrollIntoView("smooth");
             this.setState({ highlightSpittle: true });
-            setTimeout(() => this.setState({ highlightSpittle: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightSpittle: false }),
+              10000
+            );
           }}
         >
           need
@@ -614,7 +630,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.dispair.current.scrollIntoView("smooth");
             this.setState({ highlightDispair: true });
-            setTimeout(() => this.setState({ highlightDispair: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightDispair: false }),
+              10000
+            );
           }}
         >
           any promises waged thereof
@@ -629,7 +650,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.fasterWithCounterfeit.current.scrollIntoView("smooth");
             this.setState({ highlightFasterWithCounterfeit: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightFasterWithCounterfeit: false }),
               10000
             );
@@ -663,7 +686,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.fasterWithCounterfeit.current.scrollIntoView("smooth");
             this.setState({ highlightFasterWithCounterfeit: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightFasterWithCounterfeit: false }),
               10000
             );
@@ -697,7 +722,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.oldFluExclusion.current.scrollIntoView("smooth");
               this.setState({ highlightOldFluExclusion: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOldFluExclusion: false }),
                 10000
               );
@@ -716,7 +743,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.cold.current.scrollIntoView("smooth");
               this.setState({ highlightCold: true });
-              setTimeout(() => this.setState({ highlightCold: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCold: false }),
+                10000
+              );
             }}
           >
             cold
@@ -728,7 +760,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.oldFluExclusion.current.scrollIntoView("smooth");
               this.setState({ highlightOldFluExclusion: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOldFluExclusion: false }),
                 10000
               );
@@ -744,7 +778,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.bcell.current.scrollIntoView("smooth");
             this.setState({ highlightBcell: true });
-            setTimeout(() => this.setState({ highlightBcell: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightBcell: false }),
+              10000
+            );
           }}
         >
           stabilize education system
@@ -755,7 +794,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.fintech.current.scrollIntoView("smooth");
             this.setState({ highlightFintech: true });
-            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFintech: false }),
+              10000
+            );
           }}
         >
           stable
@@ -767,7 +811,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.trueGDP.current.scrollIntoView("smooth");
             this.setState({ highlightTrueGDP: true });
-            setTimeout(() => this.setState({ highlightTrueGDP: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightTrueGDP: false }),
+              10000
+            );
           }}
         >
           13:1 or 30:1
@@ -778,7 +827,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.fintech.current.scrollIntoView("smooth");
             this.setState({ highlightFintech: true });
-            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFintech: false }),
+              10000
+            );
           }}
         >
           You need to print
@@ -795,7 +849,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.insurance.current.scrollIntoView("smooth");
             this.setState({ highlightInsurance: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightInsurance: false }),
               10000
             );
@@ -813,7 +869,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.flop.current.scrollIntoView("smooth");
             this.setState({ highlightFlop: true });
-            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFlop: false }),
+              10000
+            );
           }}
         >
           sample bias
@@ -870,7 +931,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.nsfFraud.current.scrollIntoView("smooth");
             this.setState({ highlightNSFFraud: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightNSFFraud: false }),
               10000
             );
@@ -891,7 +954,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.cold.current.scrollIntoView("smooth");
             this.setState({ highlightCold: true });
-            setTimeout(() => this.setState({ highlightCold: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightCold: false }),
+              10000
+            );
           }}
         >
           antibodies
@@ -938,7 +1006,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.trust.current.scrollIntoView("smooth");
             this.setState({ highlightTrust: true });
-            setTimeout(() => this.setState({ highlightTrust: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightTrust: false }),
+              10000
+            );
           }}
         >
           government trust
@@ -950,7 +1023,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.POLLINGFRAUD.current.scrollIntoView("smooth");
             this.setState({ highlightFarmers: true });
-            setTimeout(() => this.setState({ highlightFarmers: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFarmers: false }),
+              10000
+            );
           }}
         >
           farmers
@@ -1042,7 +1120,9 @@ export default class App extends React.Component {
             injury={() => {
               this.injury.current.scrollIntoView("smooth");
               this.setState({ highlightInjury: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightInjury: false }),
                 10000
               );
@@ -1050,7 +1130,9 @@ export default class App extends React.Component {
             policeUX={() => {
               this.policeUX.current.scrollIntoView("smooth");
               this.setState({ highlightPoliceUX: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightPoliceUX: false }),
                 10000
               );
@@ -1061,7 +1143,12 @@ export default class App extends React.Component {
             drugs={() => {
               this.drugs.current.scrollIntoView("smooth");
               this.setState({ highlightDrugs: true });
-              setTimeout(() => this.setState({ highlightDrugs: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightDrugs: false }),
+                10000
+              );
             }}
             starve={() => {
               this.starve.current.scrollIntoView("smooth");
@@ -1069,7 +1156,9 @@ export default class App extends React.Component {
             brookings={() => {
               this.brookings.current.scrollIntoView("smooth");
               this.setState({ highlightBrookings: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightBrookings: false }),
                 10000
               );
@@ -1077,17 +1166,32 @@ export default class App extends React.Component {
             nra={() => {
               this.nra.current.scrollIntoView("smooth");
               this.setState({ highlightNRA: true });
-              setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNRA: false }),
+                10000
+              );
             }}
             irs={() => {
               this.IRS.current.scrollIntoView("smooth");
               this.setState({ highlightIRS: true });
-              setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightIRS: false }),
+                10000
+              );
             }}
             fraud={() => {
               this.fraud.current.scrollIntoView("smooth");
               this.setState({ highlightFraud: true });
-              setTimeout(() => this.setState({ highlightFraud: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFraud: false }),
+                10000
+              );
             }}
           />
         </div>
@@ -1097,17 +1201,29 @@ export default class App extends React.Component {
             flop={() => {
               this.flop.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
-              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFlop: false }),
+                10000
+              );
             }}
             bobTheBuilder={() => {
               this.bobTheBuilder.current.scrollIntoView("smooth");
               this.setState({ highlightBTB: true });
-              setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBTB: false }),
+                10000
+              );
             }}
             singleSourceOfTruth={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
               this.setState({ highlightSingleSource: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSingleSource: false }),
                 10000
               );
@@ -1115,7 +1231,9 @@ export default class App extends React.Component {
             fintech={() => {
               this.fintech.current.scrollIntoView("smooth");
               this.setState({ highlightFintech: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightFintech: false }),
                 10000
               );
@@ -1123,7 +1241,9 @@ export default class App extends React.Component {
             varney={() => {
               this.varney.current.scrollIntoView("smooth");
               this.setState({ highlightVarney: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightVarney: false }),
                 10000
               );
@@ -1165,7 +1285,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.bobTheBuilder.current.scrollIntoView("smooth");
               this.setState({ highlightBTB: true });
-              setTimeout(() => this.setState({ highlightBTB: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBTB: false }),
+                10000
+              );
             }}
           >
             qualify
@@ -1367,7 +1492,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
                 this.setState({ highlightOldFluExclusion: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
@@ -1382,7 +1509,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
                 this.setState({ highlightExperts: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightExperts: false }),
                   10000
                 );
@@ -1396,7 +1525,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.disclosure.current.scrollIntoView("smooth");
                 this.setState({ highlightDisclosure: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightDisclosure: false }),
                   10000
                 );
@@ -1432,7 +1563,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
               this.setState({ highlightOooreily: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOooreily: false }),
                 10000
               );
@@ -1454,7 +1587,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.inflation.current.scrollIntoView("smooth");
               this.setState({ highlightInflation: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightInflation: false }),
                 10000
               );
@@ -1468,7 +1603,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
               this.setState({ highlightOooreily: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOooreily: false }),
                 10000
               );
@@ -1523,7 +1660,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
               this.setState({ highlightFinanceKills: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightFinanceKills: false }),
                 10000
               );
@@ -1552,7 +1691,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.socialism.current.scrollIntoView("smooth");
               this.setState({ highlightSocialism: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSocialism: false }),
                 10000
               );
@@ -1590,7 +1731,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.savingsRate.current.scrollIntoView("smooth");
               this.setState({ highlightSavingsRate: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSavingsRate: false }),
                 10000
               );
@@ -1626,7 +1769,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.singleSourceOfTruth.current.scrollIntoView("smooth");
                 this.setState({ highlightSingleSource: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightSingleSource: false }),
                   10000
                 );
@@ -1658,7 +1803,9 @@ export default class App extends React.Component {
                   this.gdp.current.scrollIntoView("smooth");
 
                   this.setState({ highlightGDP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightGDP: false }),
                     10000
                   );
@@ -1686,7 +1833,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
               this.setState({ highlightSingleSource: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSingleSource: false }),
                 10000
               );
@@ -1716,7 +1865,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
               this.setState({ highlightFintech: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightFintech: false }),
                 10000
               );
@@ -1729,7 +1880,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
               this.setState({ highlightOooreily: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOooreily: false }),
                 10000
               );
@@ -1751,7 +1904,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
               this.setState({ highlightOooreily: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightOooreily: false }),
                 10000
               );
@@ -1776,7 +1931,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.foreignpolicy.current.scrollIntoView("smooth");
               this.setState({ highlightFP: true });
-              setTimeout(() => this.setState({ highlightFP: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFP: false }),
+                10000
+              );
             }}
           >
             "Stronger U.S. dollar makes exports more expensive," says CNN
@@ -1846,7 +2006,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.covidKills.current.scrollIntoView("smooth");
               this.setState({ highlightCovidKills: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightCovidKills: false }),
                 10000
               );
@@ -1907,7 +2069,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.homebuilder.current.scrollIntoView("smooth");
             this.setState({ highlightHomebuilder: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightHomebuilder: false }),
               10000
             );
@@ -1922,7 +2086,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.Oooreily.current.scrollIntoView("smooth");
             this.setState({ highlightOooreily: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightOooreily: false }),
               10000
             );
@@ -1981,7 +2147,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.trust.current.scrollIntoView("smooth");
               this.setState({ highlightTrust: true });
-              setTimeout(() => this.setState({ highlightTrust: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrust: false }),
+                10000
+              );
             }}
           >
             anticompetitive
@@ -2033,7 +2204,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.takingCredit.current.scrollIntoView("smooth");
               this.setState({ highlightTakingCredit: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightTakingCredit: false }),
                 10000
               );
@@ -2059,7 +2232,12 @@ export default class App extends React.Component {
               this.newsy.current.scrollIntoView("smooth");
 
               this.setState({ highlightNewsy: true });
-              setTimeout(() => this.setState({ highlightNewsy: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNewsy: false }),
+                10000
+              );
             }}
           >
             spittle/oils
@@ -2073,7 +2251,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.goa.current.scrollIntoView("smooth");
               this.setState({ highlightGOA: true });
-              setTimeout(() => this.setState({ highlightGOA: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightGOA: false }),
+                10000
+              );
             }}
           >
             Accountabilty
@@ -2093,7 +2276,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.politics.current.scrollIntoView("smooth");
               this.setState({ highlightPolitics: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightPolitics: false }),
                 10000
               );
@@ -2112,7 +2297,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.flop.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
-              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFlop: false }),
+                10000
+              );
             }}
           >
             sounds like
@@ -2132,7 +2322,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.politics.current.scrollIntoView("smooth");
               this.setState({ highlightPolitics: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightPolitics: false }),
                 10000
               );
@@ -2178,7 +2370,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.valuation.current.scrollIntoView("smooth");
               this.setState({ highlightValuation: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightValuation: false }),
                 10000
               );
@@ -2220,7 +2414,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.jury.current.scrollIntoView("smooth");
                 this.setState({ highlightJury: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightJury: false }),
                   10000
                 );
@@ -2246,7 +2442,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.employmentHouse.current.scrollIntoView("smooth");
               this.setState({ highlightEmploymentHouse: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightEmploymentHouse: false }),
                 10000
               );
@@ -2274,7 +2472,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightMarx: false }),
                   10000
                 );
@@ -2293,7 +2493,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightInsurance: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInsurance: false }),
                   10000
                 );
@@ -2443,7 +2645,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.stats.current.scrollIntoView("smooth");
               this.setState({ highlightStats: true });
-              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightStats: false }),
+                10000
+              );
             }}
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -2461,7 +2668,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.flop.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
-              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFlop: false }),
+                10000
+              );
             }}
           >
             calling
@@ -2472,7 +2684,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.nsfFraud.current.scrollIntoView("smooth");
               this.setState({ highlightNSFFraud: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightNSFFraud: false }),
                 10000
               );
@@ -2499,7 +2713,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.stats.current.scrollIntoView("smooth");
                 this.setState({ highlightStats: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightStats: false }),
                   10000
                 );
@@ -2525,7 +2741,12 @@ export default class App extends React.Component {
                 this.gdp.current.scrollIntoView("smooth");
 
                 this.setState({ highlightGDP: true });
-                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightGDP: false }),
+                  10000
+                );
               }}
             >
               price-inelasticity inflation
@@ -2539,7 +2760,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
                 this.setState({ highlightInflation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInflation: false }),
                   10000
                 );
@@ -2586,7 +2809,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.squatting.current.scrollIntoView("smooth");
               this.setState({ highlightSquatting: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSquatting: false }),
                 10000
               );
@@ -2713,7 +2938,12 @@ export default class App extends React.Component {
               this.stats.current.scrollIntoView("smooth");
 
               this.setState({ highlightStats: true });
-              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightStats: false }),
+                10000
+              );
             }}
           >
             really do want it
@@ -2748,7 +2978,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightInsurance: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightInsurance: false }),
                 10000
               );
@@ -2849,7 +3081,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.fishInBarrel.current.scrollIntoView("smooth");
               this.setState({ highlightFishInBarrel: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightFishInBarrel: false }),
                 10000
               );
@@ -2863,7 +3097,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
               this.setState({ highlightFintech: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightFintech: false }),
                 10000
               );
@@ -2970,7 +3206,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightMarx: false }),
                   10000
                 );
@@ -3056,7 +3294,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.dispair.current.scrollIntoView("smooth");
                 this.setState({ highlightDispair: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightDispair: false }),
                   10000
                 );
@@ -3080,7 +3320,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.colonization.current.scrollIntoView("smooth");
               this.setState({ highlightColonization: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightColonization: false }),
                 10000
               );
@@ -3176,7 +3418,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.employmentHouse.current.scrollIntoView("smooth");
               this.setState({ highlightEmploymentHouse: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightEmploymentHouse: false }),
                 10000
               );
@@ -3215,7 +3459,12 @@ export default class App extends React.Component {
               this.stats.current.scrollIntoView("smooth");
 
               this.setState({ highlightStats: true });
-              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightStats: false }),
+                10000
+              );
             }}
           >
             - "[$1.9t "Covid Relief" is what the] majority of people want to
@@ -3347,7 +3596,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
                 this.setState({ highlightExperts: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightExperts: false }),
                   10000
                 );
@@ -3382,7 +3633,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.grandmaMentality.current.scrollIntoView("smooth");
                   this.setState({ highlightGrandmaMentality: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightGrandmaMentality: false }),
                     10000
                   );
@@ -3451,7 +3704,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.valuation.current.scrollIntoView("smooth");
                 this.setState({ highlightValuation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightValuation: false }),
                   10000
                 );
@@ -3540,7 +3795,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.ronInsurance.current.scrollIntoView("smooth");
                 this.setState({ highlightRonInsurance: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightRonInsurance: false }),
                   10000
                 );
@@ -3560,7 +3817,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.cold.current.scrollIntoView("smooth");
                 this.setState({ highlightCold: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightCold: false }),
                   10000
                 );
@@ -3601,7 +3860,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.takingCredit.current.scrollIntoView("smooth");
                   this.setState({ highlightTakingCredit: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightTakingCredit: false }),
                     10000
                   );
@@ -3723,7 +3984,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
                 this.setState({ highlightInflation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInflation: false }),
                   10000
                 );
@@ -3747,7 +4010,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
                 this.setState({ highlightExperts: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightExperts: false }),
                   10000
                 );
@@ -3804,7 +4069,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.defense.current.scrollIntoView("smooth");
                 this.setState({ highlightDefense: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightDefense: false }),
                   10000
                 );
@@ -3819,7 +4086,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.IRS.current.scrollIntoView("smooth");
                 this.setState({ highlightIRS: true });
-                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIRS: false }),
+                  10000
+                );
               }}
             >
               available
@@ -3909,7 +4181,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.baltimore.current.scrollIntoView("smooth");
                 this.setState({ highlightBaltimore: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBaltimore: false }),
                   10000
                 );
@@ -3952,7 +4226,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
                 this.setState({ highlightExperts: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightExperts: false }),
                   10000
                 );
@@ -4141,7 +4417,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
                 this.setState({ highlightFTC: true });
-                setTimeout(() => this.setState({ highlightFTC: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFTC: false }),
+                  10000
+                );
               }}
               href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
             >
@@ -4258,7 +4539,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightInsurance: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightInsurance: false }),
                 10000
               );
@@ -4333,7 +4616,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -4347,7 +4632,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -4377,7 +4664,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.royalty.current.scrollIntoView("smooth");
                 this.setState({ highlightRoyalty: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightRoyalty: false }),
                   10000
                 );
@@ -4400,7 +4689,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
               this.setState({ highlightJewels: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightJewels: false }),
                 10000
               );
@@ -4440,7 +4731,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
               this.setState({ highlightJewels: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightJewels: false }),
                 10000
               );
@@ -4517,7 +4810,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.financeKills.current.scrollIntoView("smooth");
                 this.setState({ highlightFinanceKills: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFinanceKills: false }),
                   10000
                 );
@@ -4569,7 +4864,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
                   this.setState({ highlightIRS: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightIRS: false }),
                     10000
                   );
@@ -4617,7 +4914,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.china.current.scrollIntoView("smooth");
                 this.setState({ highlightChina: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightChina: false }),
                   10000
                 );
@@ -4637,7 +4936,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.dvNotion.current.scrollIntoView("smooth");
                 this.setState({ highlightNotion: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightNotion: false }),
                   10000
                 );
@@ -4655,7 +4956,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.financeKills.current.scrollIntoView("smooth");
                 this.setState({ highlightFinanceKills: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFinanceKills: false }),
                   10000
                 );
@@ -4790,7 +5093,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -4835,7 +5140,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -4900,7 +5207,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.spittle.current.scrollIntoView("smooth");
               this.setState({ highlightSpittle: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSpittle: false }),
                 10000
               );
@@ -5047,7 +5356,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
                 this.setState({ highlightExperts: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightExperts: false }),
                   10000
                 );
@@ -5089,7 +5400,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
                 this.setState({ highlightOldFluExclusion: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
@@ -5103,7 +5416,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
                 this.setState({ highlightOldFluExclusion: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightOldFluExclusion: false }),
                   10000
                 );
@@ -5124,7 +5439,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
               this.setState({ highlightSingleSource: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightSingleSource: false }),
                 10000
               );
@@ -5138,7 +5455,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.education.current.scrollIntoView("smooth");
               this.setState({ highlightEducation: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightEducation: false }),
                 10000
               );
@@ -5297,7 +5616,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.nextspittle.current.scrollIntoView("smooth");
                   this.setState({ highlightSpittleNext: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightSpittleNext: false }),
                     10000
                   );
@@ -5346,7 +5667,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.foreignpolicy.current.scrollIntoView("smooth");
                 this.setState({ highlightFP: true });
-                setTimeout(() => this.setState({ highlightFP: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFP: false }),
+                  10000
+                );
               }}
             >
               market-share
@@ -5382,7 +5708,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.cold.current.scrollIntoView("smooth");
                 this.setState({ highlightCold: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightCold: false }),
                   10000
                 );
@@ -5397,7 +5725,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightMarx: false }),
                   10000
                 );
@@ -5439,7 +5769,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.travellingIndividuals.current.scrollIntoView("smooth");
                 this.setState({ highlightTravellingIndividuals: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () =>
                     this.setState({ highlightTravellingIndividuals: false }),
                   10000
@@ -5471,7 +5803,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.host.current.scrollIntoView("smooth");
                   this.setState({ highlightHost: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightHost: false }),
                     10000
                   );
@@ -5501,7 +5835,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.host.current.scrollIntoView("smooth");
                   this.setState({ highlightHost: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightHost: false }),
                     10000
                   );
@@ -5520,7 +5856,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.bcell.current.scrollIntoView("smooth");
                   this.setState({ highlightBcell: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightBcell: false }),
                     10000
                   );
@@ -5645,7 +5983,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.grandmaMentality.current.scrollIntoView("smooth");
                     this.setState({ highlightGrandmaMentality: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightGrandmaMentality: false }),
                       10000
                     );
@@ -5700,7 +6040,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.oldFluExclusion.current.scrollIntoView("smooth");
                     this.setState({ highlightOldFluExclusion: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightOldFluExclusion: false }),
                       10000
                     );
@@ -5840,7 +6182,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.populism.current.scrollIntoView("smooth");
                   this.setState({ highlightPopulism: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightPopulism: false }),
                     10000
                   );
@@ -5889,7 +6233,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.valuation.current.scrollIntoView("smooth");
                   this.setState({ highlightValuation: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightValuation: false }),
                     10000
                   );
@@ -6071,7 +6417,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.cease.current.scrollIntoView("smooth");
                     this.setState({ highlightCease: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightCease: false }),
                       10000
                     );
@@ -6087,7 +6435,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.flop.current.scrollIntoView("smooth");
                     this.setState({ highlightFlop: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightFlop: false }),
                       10000
                     );
@@ -6140,7 +6490,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.royalty.current.scrollIntoView("smooth");
                     this.setState({ highlightRoyalty: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightRoyalty: false }),
                       10000
                     );
@@ -6280,7 +6632,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.inflation.current.scrollIntoView("smooth");
                   this.setState({ highlightInflation: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightInflation: false }),
                     10000
                   );
@@ -6343,7 +6697,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.fintech.current.scrollIntoView("smooth");
                   this.setState({ highlightFintech: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightFintech: false }),
                     10000
                   );
@@ -6469,7 +6825,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.insurance.current.scrollIntoView("smooth");
                   this.setState({ highlightPrisonersDuress: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightPrisonersDuress: false }),
                     10000
                   );
@@ -6690,7 +7048,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.china.current.scrollIntoView("smooth");
                 this.setState({ highlightChina: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightChina: false }),
                   10000
                 );
@@ -6705,7 +7065,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.livingWage.current.scrollIntoView("smooth");
                 this.setState({ highlightLivingWage: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightLivingWage: false }),
                   10000
                 );
@@ -6735,7 +7097,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.bidask.current.scrollIntoView("smooth");
                 this.setState({ highlightBidAsk: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBidAsk: false }),
                   10000
                 );
@@ -6754,7 +7118,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.twenty.current.scrollIntoView("smooth");
                 this.setState({ highlightTwenty: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTwenty: false }),
                   10000
                 );
@@ -6772,7 +7138,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.livingWage.current.scrollIntoView("smooth");
                 this.setState({ highlightLivingWage: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightLivingWage: false }),
                   10000
                 );
@@ -6788,7 +7156,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -6807,7 +7177,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.compoundGramm.current.scrollIntoView("smooth");
                 this.setState({ highlightCompoundGramm: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightCompoundGramm: false }),
                   10000
                 );
@@ -6839,7 +7211,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.concious.current.scrollIntoView("smooth");
                 this.setState({ highlightConcious: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightConcious: false }),
                   10000
                 );
@@ -6910,7 +7284,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.flag.current.scrollIntoView("smooth");
                 this.setState({ highlightFlag: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFlag: false }),
                   10000
                 );
@@ -6952,7 +7328,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.oldFluExclusion.current.scrollIntoView("smooth");
                   this.setState({ highlightOldFluExclusion: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightOldFluExclusion: false }),
                     10000
                   );
@@ -6977,7 +7355,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.host.current.scrollIntoView("smooth");
                 this.setState({ highlightHost: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightHost: false }),
                   10000
                 );
@@ -6992,7 +7372,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.travellingIndividuals.current.scrollIntoView("smooth");
                 this.setState({ highlightTravellingIndividuals: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () =>
                     this.setState({
                       highlightTravellingIndividuals: false
@@ -7079,7 +7461,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.royalty.current.scrollIntoView("smooth");
                 this.setState({ highlightRoyalty: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightRoyalty: false }),
                   10000
                 );
@@ -7156,7 +7540,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
                 this.setState({ highlightFintech: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFintech: false }),
                   10000
                 );
@@ -7257,7 +7643,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -7327,7 +7715,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -7402,7 +7792,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -7446,7 +7838,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -7472,7 +7866,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
                 this.setState({ highlightInflation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInflation: false }),
                   10000
                 );
@@ -7516,7 +7912,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
               this.setState({ highlightPrisonersDuress: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightPrisonersDuress: false }),
                 10000
               );
@@ -7663,7 +8061,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
                   this.setState({ highlightIRS: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightIRS: false }),
                     10000
                   );
@@ -7880,7 +8280,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
                   this.setState({ highlightTrueGDP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightTrueGDP: false }),
                     10000
                   );
@@ -7969,7 +8371,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
                   this.setState({ highlightIRS: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightIRS: false }),
                     10000
                   );
@@ -8010,7 +8414,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.insurance.current.scrollIntoView("smooth");
                   this.setState({ highlightPrisonersDuress: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightPrisonersDuress: false }),
                     10000
                   );
@@ -8061,7 +8467,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightMarx: false }),
                   10000
                 );
@@ -8121,7 +8529,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.bcell.current.scrollIntoView("smooth");
                 this.setState({ highlightBcell: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBcell: false }),
                   10000
                 );
@@ -8143,7 +8553,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.biden.current.scrollIntoView("smooth");
                 this.setState({ highlightBiden: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBiden: false }),
                   10000
                 );
@@ -8174,7 +8586,9 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.setState({ highlightVault: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightVault: false }),
                   10000
                 );
@@ -8340,7 +8754,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.takingCredit.current.scrollIntoView("smooth");
                     this.setState({ highlightTakingCredit: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightTakingCredit: false }),
                       10000
                     );
@@ -8405,7 +8821,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.gdp1.current.scrollIntoView("smooth");
                   this.setState({ highlightGDP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightGDP: false }),
                     10000
                   );
@@ -8442,7 +8860,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.foreignpolicy.current.scrollIntoView("smooth");
                   this.setState({ highlightFP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightFP: false }),
                     10000
                   );
@@ -8607,7 +9027,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
                 this.setState({ highlightFintech: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFintech: false }),
                   10000
                 );
@@ -8733,7 +9155,12 @@ export default class App extends React.Component {
                 this.gdp.current.scrollIntoView("smooth");
 
                 this.setState({ highlightGDP: true });
-                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightGDP: false }),
+                  10000
+                );
               }}
             >
               NE
@@ -8759,7 +9186,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -8790,7 +9219,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.bail.current.scrollIntoView("smooth");
                 this.setState({ highlightBail: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBail: false }),
                   10000
                 );
@@ -8805,7 +9236,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.tea.current.scrollIntoView("smooth");
                 this.setState({ highlightTea: true });
-                setTimeout(() => this.setState({ highlightTea: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightTea: false }),
+                  10000
+                );
               }}
             >
               Historically
@@ -8848,7 +9284,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.UUID.current.scrollIntoView("smooth");
                 this.setState({ highlightUUID: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightUUID: false }),
                   10000
                 );
@@ -9151,7 +9589,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
                 this.setState({ highlightFTC: true });
-                setTimeout(() => this.setState({ highlightFTC: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFTC: false }),
+                  10000
+                );
               }}
             >
               (without fixing)
@@ -9390,7 +9833,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
                 this.setState({ highlightDesist: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightDesist: false }),
                   10000
                 );
@@ -9418,7 +9863,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.flop.current.scrollIntoView("smooth");
                 this.setState({ highlightFlop: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFlop: false }),
                   10000
                 );
@@ -9507,7 +9954,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.valuation.current.scrollIntoView("smooth");
                 this.setState({ highlightValuation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightValuation: false }),
                   10000
                 );
@@ -9536,7 +9985,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.nsfFraud.current.scrollIntoView("smooth");
                 this.setState({ highlightNSFFraud: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightNSFFraud: false }),
                   10000
                 );
@@ -9605,7 +10056,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.politics.current.scrollIntoView("smooth");
                 this.setState({ highlightPolitics: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPolitics: false }),
                   10000
                 );
@@ -9630,7 +10083,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.citadel.current.scrollIntoView("smooth");
                 this.setState({ highlightCitadel: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightCitadel: false }),
                   10000
                 );
@@ -9649,7 +10104,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.nra.current.scrollIntoView("smooth");
                 this.setState({ highlightNRA: true });
-                setTimeout(() => this.setState({ highlightNRA: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightNRA: false }),
+                  10000
+                );
               }}
             >
               asinine
@@ -9688,7 +10148,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.baltimore.current.scrollIntoView("smooth");
                 this.setState({ highlightBaltimore: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBaltimore: false }),
                   10000
                 );
@@ -9739,7 +10201,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.covidrelief.current.scrollIntoView("smooth");
                   this.setState({ highlightCovidRelief: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightCovidRelief: false }),
                     10000
                   );
@@ -9755,7 +10219,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.collective.current.scrollIntoView("smooth");
                   this.setState({ highlightCollective: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightCollective: false }),
                     10000
                   );
@@ -9771,7 +10237,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.populism.current.scrollIntoView("smooth");
                   this.setState({ highlightPopulism: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightPopulism: false }),
                     10000
                   );
@@ -9971,7 +10439,9 @@ export default class App extends React.Component {
             onClick={() => {
               this.jan2018.current.scrollIntoView("smooth");
               this.setState({ highlightJan2018: true });
-              setTimeout(
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
                 () => this.setState({ highlightJan2018: false }),
                 10000
               );
@@ -10002,7 +10472,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.technicallyIllegal.current.scrollIntoView("smooth");
                 this.setState({ highlightTechnicallyIllegal: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTechnicallyIllegal: false }),
                   10000
                 );
@@ -10246,7 +10718,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -10308,7 +10782,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
                   this.setState({ highlightTrueGDP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightTrueGDP: false }),
                     10000
                   );
@@ -10455,7 +10931,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
                 this.setState({ highlightMarx: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightMarx: false }),
                   10000
                 );
@@ -10505,7 +10983,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
                 this.setState({ highlightInflation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInflation: false }),
                   10000
                 );
@@ -10548,7 +11028,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
                 this.setState({ highlightInflation: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightInflation: false }),
                   10000
                 );
@@ -10727,7 +11209,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
                 this.setState({ highlightDesist: true });
-                setTimeout(
+                
+              clearTimeout(this.highlighting)
+             this.highlighting =setTimeout(
                   () => this.setState({ highlightDesist: false }),
                   10000
                 );
@@ -10752,7 +11236,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.electionTech.current.scrollIntoView("smooth");
                   this.setState({ highlightElectionTech: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightElectionTech: false }),
                     10000
                   );
@@ -10797,7 +11283,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.brookings.current.scrollIntoView("smooth");
                 this.setState({ highlightBrookings: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightBrookings: false }),
                   10000
                 );
@@ -10829,7 +11317,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
                 this.setState({ highlightTrueGDP: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightTrueGDP: false }),
                   10000
                 );
@@ -10879,7 +11369,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.marx.current.scrollIntoView("smooth");
               this.setState({ highlightMarx: true });
-              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightMarx: false }),
+                10000
+              );
             }}
           >
             Socialism
@@ -10897,7 +11392,12 @@ export default class App extends React.Component {
             onClick={() => {
               this.italy.current.scrollIntoView("smooth");
               this.setState({ highlightItaly: true });
-              setTimeout(() => this.setState({ highlightItaly: false }), 10000);
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightItaly: false }),
+                10000
+              );
             }}
           >
             someone campaigns on it
@@ -10990,7 +11490,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
                 this.setState({ highlightPrisonersDuress: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightPrisonersDuress: false }),
                   10000
                 );
@@ -11014,7 +11516,12 @@ export default class App extends React.Component {
               onClick={() => {
                 this.IRS.current.scrollIntoView("smooth");
                 this.setState({ highlightIRS: true });
-                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIRS: false }),
+                  10000
+                );
               }}
             >
               Unemployment insurance
@@ -11068,7 +11575,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.financeKills.current.scrollIntoView("smooth");
                 this.setState({ highlightFinanceKills: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFinanceKills: false }),
                   10000
                 );
@@ -11120,7 +11629,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
                   this.setState({ highlightIRS: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightIRS: false }),
                     10000
                   );
@@ -11159,7 +11670,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.cityhall.current.scrollIntoView("smooth");
                   this.setState({ highlightCityHall: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightCityHall: false }),
                     10000
                   );
@@ -11198,7 +11711,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.china.current.scrollIntoView("smooth");
                 this.setState({ highlightChina: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightChina: false }),
                   10000
                 );
@@ -11218,7 +11733,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.dvNotion.current.scrollIntoView("smooth");
                 this.setState({ highlightNotion: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightNotion: false }),
                   10000
                 );
@@ -11236,7 +11753,9 @@ export default class App extends React.Component {
               onClick={() => {
                 this.financeKills.current.scrollIntoView("smooth");
                 this.setState({ highlightFinanceKills: true });
-                setTimeout(
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
                   () => this.setState({ highlightFinanceKills: false }),
                   10000
                 );
@@ -11895,7 +12414,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.congressVsCongress.current.scrollIntoView("smooth");
                     this.setState({ highlightCVC: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightCVC: false }),
                       10000
                     );
@@ -11924,7 +12445,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.booker.current.scrollIntoView("smooth");
                   this.setState({ highlightBooker: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightBooker: false }),
                     10000
                   );
@@ -12081,7 +12604,9 @@ export default class App extends React.Component {
                   onClick={() => {
                     this.royalty.current.scrollIntoView("smooth");
                     this.setState({ highlightRoyalty: true });
-                    setTimeout(
+
+                    clearTimeout(this.highlighting);
+                    this.highlighting = setTimeout(
                       () => this.setState({ highlightRoyalty: false }),
                       10000
                     );
@@ -12170,7 +12695,9 @@ export default class App extends React.Component {
                 console.log(
                   "go"
                 ); /*
-              setTimeout(
+              
+              clearTimeout(this.highlighting)
+             this.highlighting =setTimeout(
                 () =>
                   this.navbar.current.scrollIntoView({
                     block: "end",
@@ -12508,7 +13035,9 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
                   this.setState({ highlightTrueGDP: true });
-                  setTimeout(
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
                     () => this.setState({ highlightTrueGDP: false }),
                     10000
                   );
@@ -12690,7 +13219,12 @@ export default class App extends React.Component {
           onClick={() => {
             this.jhuecon.current.scrollIntoView("smooth");
             this.setState({ highlightJHUECON: true });
-            setTimeout(() => this.setState({ highlightJHUECON: false }), 10000);
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightJHUECON: false }),
+              10000
+            );
           }}
         >
           intentionally-suppressed
@@ -12779,7 +13313,9 @@ export default class App extends React.Component {
           onClick={() => {
             this.livingWage.current.scrollIntoView("smooth");
             this.setState({ highlightLivingWage: true });
-            setTimeout(
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
               () => this.setState({ highlightLivingWage: false }),
               10000
             );
