@@ -542,6 +542,8 @@ export default class App extends React.Component {
         </span>
         BBQ DECLARE INDEPENDENCE
         <br/>
+        "Tell you what you can and cannot do once you are fully-"vaccinated"/grafted," threatens Biden while 10% have
+        <br />
         <br/>
         "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer
         blitzes my pocket book (not a tax-payer, live at home. save) of an
