@@ -113,6 +113,7 @@ export default class App extends React.Component {
     this.whyBad = React.createRef();
     this.farmers = React.createRef();
     this.travellingIndividuals = React.createRef();
+    this.dispair = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -612,14 +613,22 @@ export default class App extends React.Component {
         <br />
         loser---winner
         <br />
-        Get the Luddites*!
+      <span
+          ref={this.dispair}
+          style={{
+            color: this.state.highlightDispair? "white" : "",
+            backgroundColor: this.state.highlightDispair
+              ? "rgb(170,100,205)"
+              : ""
+          }}
+          >Get the Luddites*!
         <br />
         "" Gaddafi*
         <br />
         on F. Morano show
         <br />
         for commodity security depositAry receipt, settled economy (need
-        repAIration)
+        repAIration)</span>
         <br />
         <div
           style={{
@@ -3046,6 +3055,18 @@ export default class App extends React.Component {
           now
           <br />
           if debt and Bernie Sanders didn't exists, the rich would kill us
+          <br/>
+          <br/>
+          There is not enough wealth&nbsp;<span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.dispair.current.scrollIntoView("smooth");
+            this.setState({ highlightDispair: true });
+            setTimeout(
+              () => this.setState({ highlightDispair: false }),
+              10000
+            );
+          }}>disparity</span>&nbsp;in assets alone.  They need to call debt, assets.
         </span>
         <br />
         <br />
