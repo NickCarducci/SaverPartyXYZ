@@ -32,6 +32,8 @@ export default class App extends React.Component {
     this.GUNSAFETY = React.createRef();
     this.POLLINGFRAUD = React.createRef();
     this.IMMIGRATION = React.createRef();
+    this.OWNERSHIPFRAUD = React.createRef();
+    this.FALSEADVERTINSENATE = React.createRef();
     this.EARLYCOMMS = React.createRef();
     this.defense = React.createRef();
     this.navbar = React.createRef();
@@ -302,46 +304,67 @@ export default class App extends React.Component {
       clearTimeout(this.resizer);
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
-    if (this.props.scrollTop !== prevProps.scrollTop) {
-      const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
+    if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
       const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
-      if (this.props.scrollTop < gunSafetyOffsetTop) {
-        this.props.inSection("");
-      }
-      if (
-        this.props.scrollTop < gunSafetyOffsetTop ||
-        this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
-      ) {
-        this.props.inSection("Gun Safety");
-      } else {
-        const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
-        const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
+      if (this.props.scrollTop > gunSafetyOffsetTop) {
+        const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
         if (
-          this.props.scrollTop < pollingFraudOffsetTop ||
-          this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
+          this.props.scrollTop < gunSafetyOffsetTop ||
+          this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
         ) {
-          this.props.inSection("Polling Fraud");
-        }else{
-
-        const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
-        const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
-        if (
-          this.props.scrollTop < immigrationOffsetTop ||
-          this.props.scrollTop < immigrationHeight + immigrationOffsetTop
-        ) {
-          this.props.inSection("Immigration");
-        }else{
-
-        const earlyCommsHeight = this.EARLYCOMMS.current.offsetHeight;
-        const earlyCommsOffsetTop = this.EARLYCOMMS.current.offsetTop;
-        if (
-          this.props.scrollTop < earlyCommsOffsetTop ||
-          this.props.scrollTop < earlyCommsHeight + earlyCommsOffsetTop
-        ) {
-          this.props.inSection("Early Comms");
-        }
-        }
-      
+          this.props.inSection("Gun Safety");
+        } else {
+          const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
+          const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
+          if (
+            this.props.scrollTop < pollingFraudOffsetTop ||
+            this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
+          ) {
+            this.props.inSection("Polling Fraud");
+          } else {
+            const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
+            const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
+            if (
+              this.props.scrollTop < immigrationOffsetTop ||
+              this.props.scrollTop < immigrationHeight + immigrationOffsetTop
+            ) {
+              this.props.inSection("Immigration");
+            } else {
+              const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                .offsetHeight;
+              const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD.current
+                .offsetTop;
+              if (
+                this.props.scrollTop < ownershipFraudOffsetTop ||
+                this.props.scrollTop <
+                  ownershipFraudHeight + ownershipFraudOffsetTop
+              ) {
+                this.props.inSection("Ownership Fraud");
+              } else {
+                const falseAdvertInSenateHeight = this.FALSEADVERTINSENATE
+                  .current.offsetHeight;
+                const falseAdvertInSenateOffsetTop = this.FALSEADVERTINSENATE
+                  .current.offsetTop;
+                if (
+                  this.props.scrollTop < falseAdvertInSenateOffsetTop ||
+                  this.props.scrollTop <
+                    falseAdvertInSenateHeight + falseAdvertInSenateOffsetTop
+                ) {
+                  this.props.inSection("False Advert in Senate");
+                } else {
+                  const earlyCommsHeight = this.EARLYCOMMS.current.offsetHeight;
+                  const earlyCommsOffsetTop = this.EARLYCOMMS.current.offsetTop;
+                  if (
+                    this.props.scrollTop < earlyCommsOffsetTop ||
+                    this.props.scrollTop <
+                      earlyCommsHeight + earlyCommsOffsetTop
+                  ) {
+                    this.props.inSection("Early Comms");
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -1762,270 +1785,299 @@ export default class App extends React.Component {
         of water
         <br />
         <br />
-        <a
-          href="https://thumbprint.us"
-          style={{
-            //fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            //textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          Nick Carducci vs. the People
-        </a>
-        <br />
-        Thumbprint.us is now being plagerized and competed with for the people
-        in recent legislation (cheating) after turning down funding for 9 years
-        <br />
-        <br />
-        Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
-        &nbsp;doesn't understand price-elasticity or he is lying and guilty of
-        intending to harm AND mislead by saying, "Covid Relief Bill will help
-        Americans for a long time."
-        <br />
-        Manchin continues, "$300/week was enough, so no one misses a paycheck"
-        <br />
-        <br />
-        "For families, businesses, [price-fixing] and state and local
-        governments... Why couldn't you work with Republicans" - Chris Wallace
-        <br />
-        "We did, we got it done"
-        <br />
-        <br />
-        So regressive, abjectly-illegal, and&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.trust.current.scrollIntoView("smooth");
-            this.setState({ highlightTrust: true });
-            setTimeout(() => this.setState({ highlightTrust: false }), 10000);
-          }}
-        >
-          anticompetitive
-        </span>
-        <br />
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
+        <span ref={this.OWNERSHIPFRAUD}>
+          <a
+            href="https://thumbprint.us"
+            style={{
+              //fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              //textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            Nick Carducci vs. the People
+          </a>
+          <br />
+          Thumbprint.us is now being plagerized and competed with for the people
+          in recent legislation (cheating) after turning down funding for 9
+          years
+          <br />
+          <br />
+          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
+          &nbsp;doesn't understand price-elasticity or he is lying and guilty of
+          intending to harm AND mislead by saying, "Covid Relief Bill will help
+          Americans for a long time."
+          <br />
+          Manchin continues, "$300/week was enough, so no one misses a paycheck"
+          <br />
+          <br />
+          "For families, businesses, [price-fixing] and state and local
+          governments... Why couldn't you work with Republicans" - Chris Wallace
+          <br />
+          "We did, we got it done"
+          <br />
+          <br />
+          So regressive, abjectly-illegal, and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trust.current.scrollIntoView("smooth");
+              this.setState({ highlightTrust: true });
+              setTimeout(() => this.setState({ highlightTrust: false }), 10000);
+            }}
+          >
+            anticompetitive
+          </span>
+          <br />
+          <div
             style={{
               width: "100%",
-              height: "auto"
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
-          />
-        </div>
-        <br />
-        Biden: "I promised I would get government to work for the American
-        people, and this bill will do that," says Joe Biden
-        <br />
-        <a
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-          href="https://wavv.art/United_States_of_America"
-        >
-          <img
-            alt=""
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          Biden: "I promised I would get government to work for the American
+          people, and this bill will do that," says Joe Biden
+          <br />
+          <a
             style={{
               width: "100%",
-              height: "auto"
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
-          />
-        </a>
-        <br />
-        CNN: "[This bill provides] aid for state and local government [bonds]" -
-        Jake Tapper, State of the Union, CNN
-        <br />
-        A Democrat says she only cares about current working lives is admittance
-        of conspiring to build trust
-        <br />
-        <i
-          onClick={() => {
-            this.takingCredit.current.scrollIntoView("smooth");
-            this.setState({ highlightTakingCredit: true });
-            setTimeout(
-              () => this.setState({ highlightTakingCredit: false }),
-              10000
-            );
-          }}
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          laws have to be justice-oriented in order for the equal application of
-          unequal laws to be applied - price-fixing is not justice
-        </i>
-        <br />
-        transmission of virus only travels by symptom,&nbsp;
-        <span
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.newsy.current.scrollIntoView("smooth");
+            href="https://wavv.art/United_States_of_America"
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
+            />
+          </a>
+          <br />
+          CNN: "[This bill provides] aid for state and local government [bonds]"
+          - Jake Tapper, State of the Union, CNN
+          <br />
+          A Democrat says she only cares about current working lives is
+          admittance of conspiring to build trust
+          <br />
+          <i
+            onClick={() => {
+              this.takingCredit.current.scrollIntoView("smooth");
+              this.setState({ highlightTakingCredit: true });
+              setTimeout(
+                () => this.setState({ highlightTakingCredit: false }),
+                10000
+              );
+            }}
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            laws have to be justice-oriented in order for the equal application
+            of unequal laws to be applied - price-fixing is not justice
+          </i>
+          <br />
+          transmission of virus only travels by symptom,&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.newsy.current.scrollIntoView("smooth");
 
-            this.setState({ highlightNewsy: true });
-            setTimeout(() => this.setState({ highlightNewsy: false }), 10000);
-          }}
-        >
-          spittle/oils
-        </span>
-        , and heat rises
-        <br />
-        <br />
-        Officer of Government Ethics vs&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.goa.current.scrollIntoView("smooth");
-            this.setState({ highlightGOA: true });
-            setTimeout(() => this.setState({ highlightGOA: false }), 10000);
-          }}
-        >
-          Accountabilty
-        </span>
-        . Do they do civil war re-enactments? Being a free-rider works employee,
-        you have to serve the best interests of citizens or it is a violation of
-        civil rights in colonialism and the penumbrum of ownership
-        relationships, be it people themselves, their homes or their entries
-        into supply or labor for demand. It is taken from&nbsp;
-        <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;if there is
-        an immutable free-rider customer, but if it is not - and is by
-        counterfeit/debt/invoice - then it is worse, as it is monopsony of
-        rawest fixed-input cost due upon it price and quality-defect without the
-        option for competition from verifiably unbiased and&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.politics.current.scrollIntoView("smooth");
-            this.setState({ highlightPolitics: true });
-            setTimeout(
-              () => this.setState({ highlightPolitics: false }),
-              10000
-            );
-          }}
-        >
-          civilly-minded, civic-tech
-        </span>
-        .
-        <i>
-          <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
-        </i>
-        <br />
-        Ron Desantis&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.flop.current.scrollIntoView("smooth");
-            this.setState({ highlightFlop: true });
-            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
-          }}
-        >
-          sounds like
-        </span>
-        &nbsp;he wants to run a business being forced to use their
-        product,&nbsp;
-        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-          "ban zuckerberg and others,"
-        </a>
-        &nbsp;he says.&nbsp;
-        <a href="https://johnshopkins.academia.edu/NickCarducci">
-          I have been working on this product since 2012
-        </a>
-        &nbsp;because no one could do the job and&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.politics.current.scrollIntoView("smooth");
-            this.setState({ highlightPolitics: true });
-            setTimeout(
-              () => this.setState({ highlightPolitics: false }),
-              10000
-            );
-          }}
-        >
-          protect civil rights
-        </span>
-        <br />
-        <br />
-        CNN soliciting listeners that, "government-backed loans is the only
-        option to keep the&nbsp;<a href="https://magnate.company">
-          lights
-        </a>{" "}
-        on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
-        <br />
-        If you cannot pay, and they&nbsp;
-        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-          refuse service
-        </a>
-        , they are prohibiting trade by owning & restricting a barrier-to-entry
-        as supplier (monopsony), especially if they don't&nbsp;
-        <span
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => this.navbar.current.scrollIntoView("smooth")}
-        >
-          use it themselves
-        </span>
-        . Before that is necessary and appropriately resolved as an
-        involuntary-servitude by&nbsp;
-        <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-          duress of little option to avoid harm or danger
-        </a>
-        , prices drop if the market is competitive and not decrepit after a
-        century of finance and creating&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.valuation.current.scrollIntoView("smooth");
-            this.setState({ highlightValuation: true });
-            setTimeout(
-              () => this.setState({ highlightValuation: false }),
-              10000
-            );
-          }}
-        >
-          cross-party risk
-        </span>
-        , then producers compete with eachother and prices drop without&nbsp;
-        <a href="https://nationalsecuritycasino.com">
-          mono-polization of actors
-        </a>
-        &nbsp;in the market that are not a&nbsp;
-        <a href="https://micro-theory.com">producer, consumer</a>, or investor
-        that&nbsp;
-        <a href="https://vaults.biz">waits for customer</a> to take royalty.
-        <br />
-        <br />
-        <span
-          style={{
-            padding: "4px 10px",
-            transition: ".3s ease-in",
-            borderRadius: "15px",
-            color: this.state.highlightTwenty ? "white" : "",
-            backgroundColor: this.state.highlightTwenty
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-          ref={this.twenty}
-        >
-          if inequality isn't too great and swaths of supply isn't being horded,
-          there are enough producers (20+) to deliver&nbsp;
+              this.setState({ highlightNewsy: true });
+              setTimeout(() => this.setState({ highlightNewsy: false }), 10000);
+            }}
+          >
+            spittle/oils
+          </span>
+          , and heat rises
+          <br />
+          <br />
+          Officer of Government Ethics vs&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.goa.current.scrollIntoView("smooth");
+              this.setState({ highlightGOA: true });
+              setTimeout(() => this.setState({ highlightGOA: false }), 10000);
+            }}
+          >
+            Accountabilty
+          </span>
+          . Do they do civil war re-enactments? Being a free-rider works
+          employee, you have to serve the best interests of citizens or it is a
+          violation of civil rights in colonialism and the penumbrum of
+          ownership relationships, be it people themselves, their homes or their
+          entries into supply or labor for demand. It is taken from&nbsp;
+          <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;if there
+          is an immutable free-rider customer, but if it is not - and is by
+          counterfeit/debt/invoice - then it is worse, as it is monopsony of
+          rawest fixed-input cost due upon it price and quality-defect without
+          the option for competition from verifiably unbiased and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
+              setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
+            }}
+          >
+            civilly-minded, civic-tech
+          </span>
+          .
+          <i>
+            <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
+          </i>
+          <br />
+          Ron Desantis&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.flop.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
+            }}
+          >
+            sounds like
+          </span>
+          &nbsp;he wants to run a business being forced to use their
+          product,&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            "ban zuckerberg and others,"
+          </a>
+          &nbsp;he says.&nbsp;
+          <a href="https://johnshopkins.academia.edu/NickCarducci">
+            I have been working on this product since 2012
+          </a>
+          &nbsp;because no one could do the job and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
+              setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
+            }}
+          >
+            protect civil rights
+          </span>
+          <br />
+          <br />
+          CNN soliciting listeners that, "government-backed loans is the only
+          option to keep the&nbsp;<a href="https://magnate.company">
+            lights
+          </a>{" "}
+          on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
+          <br />
+          If you cannot pay, and they&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            refuse service
+          </a>
+          , they are prohibiting trade by owning & restricting a
+          barrier-to-entry as supplier (monopsony), especially if they
+          don't&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.navbar.current.scrollIntoView("smooth")}
+          >
+            use it themselves
+          </span>
+          . Before that is necessary and appropriately resolved as an
+          involuntary-servitude by&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            duress of little option to avoid harm or danger
+          </a>
+          , prices drop if the market is competitive and not decrepit after a
+          century of finance and creating&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.valuation.current.scrollIntoView("smooth");
+              this.setState({ highlightValuation: true });
+              setTimeout(
+                () => this.setState({ highlightValuation: false }),
+                10000
+              );
+            }}
+          >
+            cross-party risk
+          </span>
+          , then producers compete with eachother and prices drop without&nbsp;
+          <a href="https://nationalsecuritycasino.com">
+            mono-polization of actors
+          </a>
+          &nbsp;in the market that are not a&nbsp;
+          <a href="https://micro-theory.com">producer, consumer</a>, or investor
+          that&nbsp;
+          <a href="https://vaults.biz">waits for customer</a> to take royalty.
+          <br />
+          <br />
+          <span
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightTwenty ? "white" : "",
+              backgroundColor: this.state.highlightTwenty
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.twenty}
+          >
+            if inequality isn't too great and swaths of supply isn't being
+            horded, there are enough producers (20+) to deliver&nbsp;
+            <span
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.jury.current.scrollIntoView("smooth");
+                this.setState({ highlightJury: true });
+                setTimeout(
+                  () => this.setState({ highlightJury: false }),
+                  10000
+                );
+              }}
+            >
+              competition
+            </span>
+            <br />
+            <br />
+            California Assemblypeople making threats of strike not teaching
+            their kids if they cannot get national money
+            <br />
+            "People say, 'Will I lose my home?''," Biden remarks.
+          </span>
+          <br />
           <span
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -2034,65 +2086,500 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
             onClick={() => {
-              this.jury.current.scrollIntoView("smooth");
-              this.setState({ highlightJury: true });
-              setTimeout(() => this.setState({ highlightJury: false }), 10000);
+              this.employmentHouse.current.scrollIntoView("smooth");
+              this.setState({ highlightEmploymentHouse: true });
+              setTimeout(
+                () => this.setState({ highlightEmploymentHouse: false }),
+                10000
+              );
             }}
           >
-            competition
+            Not their home
           </span>
           <br />
           <br />
-          California Assemblypeople making threats of strike not teaching their
-          kids if they cannot get national money
+          <span
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightSocialism ? "white" : "",
+              backgroundColor: this.state.highlightSocialism
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.socialism}
+          >
+            socialism either: (1)&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+                setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              devolves
+            </span>
+            &nbsp;into hunger/communism/corporatism/
+            <span
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightInsurance: true });
+                setTimeout(
+                  () => this.setState({ highlightInsurance: false }),
+                  10000
+                );
+              }}
+            >
+              monopsonies-infiltrating-insurance
+            </span>
+            , or (2) resolves into no promises/only{" "}
+            <a href="https://vaults.biz">profit-schedule</a>.
+          </span>
           <br />
-          "People say, 'Will I lose my home?''," Biden remarks.
+          <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
+              />
+            </div>
+            <div
+              style={{
+                width: "50%",
+                position: "relative"
+              }}
+            >
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
+              />
+            </div>
+          </div>
+          <br />
+          <span
+            style={{
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightLivingWage ? "white" : "",
+              backgroundColor: this.state.highlightLivingWage
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.livingWage}
+          >
+            -The Great Depression happened because the government paid off bonds
+            <br />
+            prices and opportunities can no longer sustain what was borrowed
+            <br />
+            Pure reconciliation for lenders. they price banks at 1x book but
+            book is 13x what is possible without making counterfeit contracts
+            reality
+          </span>
+          <br />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
+            https://www.sjsu.edu/faculty/watkins/depmon.htm
+          </a>
+          <br />
+          <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
+            https://www.nber.org/system/files/chapters/c1567/c1567.pdf
+          </a>
+          <br />
+          <a href="https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm">
+            https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm
+          </a>
+          <br />
+          <br />
+          Either all of you are complicit or I am due the first Nobel Prize in
+          Economics, Stats
         </span>
-        <br />
-        <span
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.employmentHouse.current.scrollIntoView("smooth");
-            this.setState({ highlightEmploymentHouse: true });
-            setTimeout(
-              () => this.setState({ highlightEmploymentHouse: false }),
-              10000
-            );
-          }}
-        >
-          Not their home
-        </span>
-        <br />
-        <br />
-        <span
-          style={{
-            padding: "4px 10px",
-            transition: ".3s ease-in",
-            borderRadius: "15px",
-            color: this.state.highlightSocialism ? "white" : "",
-            backgroundColor: this.state.highlightSocialism
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-          ref={this.socialism}
-        >
-          socialism either: (1)&nbsp;
+        &nbsp;
+        <span ref={this.FALSEADVERTINSENATE}>
+          because CNN keeps using polls this is what the&nbsp;
+          <span
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            American People
+          </span>
+          &nbsp;want, they are stating as fact without saying the sample size.
+          this is highly illegal, just like the&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.marx.current.scrollIntoView("smooth");
-              this.setState({ highlightMarx: true });
-              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
+              this.flop.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+              setTimeout(() => this.setState({ highlightFlop: false }), 10000);
             }}
           >
-            devolves
+            calling
           </span>
-          &nbsp;into hunger/communism/corporatism/
+          &nbsp;on Election Day. Also&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.nsfFraud.current.scrollIntoView("smooth");
+              this.setState({ highlightNSFFraud: true });
+              setTimeout(
+                () => this.setState({ highlightNSFFraud: false }),
+                10000
+              );
+            }}
+          >
+            physics
+          </span>
+          {/*<br/>
+          Rep. Raskin, "<a href="https://www.archives.gov/founding-docs/amendments-11-27">DJT's lawyers testified by letter that Republicans wanted to use Amendment 12<a/>"*/}
+          <br />
+          <br />
+          The Bill has been negotiated to pay backrent-wishes!! Those prices
+          were fixed since&nbsp;
+          <a href="https://micro-theory.com">demand couldn't handle them</a>
+          <br />
+          <br />
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            <i
+              onClick={() => {
+                this.stats.current.scrollIntoView("smooth");
+                this.setState({ highlightStats: true });
+                setTimeout(
+                  () => this.setState({ highlightStats: false }),
+                  10000
+                );
+              }}
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              The Results Are In
+            </i>
+          </span>
+          <br />
+          <span ref={this.inelasticity}>
+            The analysis of GDP trying to fix for reality is that, even if you
+            did capture every productSkew net-, percentage-change, you would not
+            capture&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.gdp.current.scrollIntoView("smooth");
+
+                this.setState({ highlightGDP: true });
+                setTimeout(() => this.setState({ highlightGDP: false }), 10000);
+              }}
+            >
+              price-inelasticity inflation
+            </span>
+            , only&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.inflation.current.scrollIntoView("smooth");
+                this.setState({ highlightInflation: true });
+                setTimeout(
+                  () => this.setState({ highlightInflation: false }),
+                  10000
+                );
+              }}
+            >
+              monetary-inflation, is bunk
+            </span>
+            !
+          </span>
+          <br />
+          <br />
+          "House Democrats work for the people" -&nbsp;
+          <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
+          <br />
+          "I promised the American people that help is on the way" -&nbsp;
+          <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
+            Joe Biden
+          </a>
+          <br />
+          <br />
+          CNN: "Let's hope this bill gets us there."&nbsp;
+          <a href="https://humanharvest.info">
+            Where, to make sure no 1985-vintage aborted fetus investment/ghost
+            city is wasted/paid
+          </a>
+          ?
+          <br />
+          <br />
+          Lying about public opinion to pay off lenders, that know debt is 13
+          times more than cash. If I were them, not altruistic, utilitarian/in
+          both supply-and-demand of economy and not self-harming, I would&nbsp;
+          <a href="https://www.opensecrets.org/parties/">lobby this way</a>
+          &nbsp;and plagerize&nbsp;
+          <a href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch">
+            enemies
+          </a>
+          <br />
+          they owe consumers original principal and more for stress to
+          borrowers', then reverse purchases for all consumers to that years'
+          cash:debt ratio, then pay them for stress and lost opportunity
+          for&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.squatting.current.scrollIntoView("smooth");
+              this.setState({ highlightSquatting: true });
+              setTimeout(
+                () => this.setState({ highlightSquatting: false }),
+                10000
+              );
+            }}
+          >
+            squatting
+          </span>
+          <br />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/pr0c01fft2lclds/Screen%20Shot%202021-03-06%20at%201.01.41%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/dlhp9wcee037ap5/Screen%20Shot%202021-03-06%20at%2012.59.53%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/78l0j7ds9ej1pwr/Screen%20Shot%202021-03-06%20at%2012.54.06%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          They are the same party pertaining to outstanding bills instead of
+          civil rights
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8f6sv7ub1dyixm1/Screen%20Shot%202021-03-06%20at%2012.24.20%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8tsrzdyu1ar8i7o/Screen%20Shot%202021-03-06%20at%2012.34.30%20PM.png?dl=0"
+            />
+          </div>
+          <div style={{ position: "relative" }}>
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/83kl4edk6jckgx6/Screen%20Shot%202021-03-06%20at%2012.33.16%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            Help me officer,
+          </i>
+          <br />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3xzfwtaqsjd3mqe/Screen%20Shot%202021-03-06%20at%2012.24.43%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            MONMOUTH POLL of 842 adults,&nbsp;
+            <a href="https://www.monmouth.edu/polling-institute/reports/monmouthpoll_us_030321/">
+              62% want higher prices/more debt
+            </a>
+            <br />
+            CNN cites this
+            <br />
+            ISIDEWITH (much higher sample size) 63% don't want this.
+          </i>
+          <br />
+          CNN: "If the majority of americans&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
+
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
+          >
+            really do want it
+          </span>
+          &nbsp;what is the hesitancy"
+          <br />
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+          >
+            Unemployment Benefits Fraud for 13x book-valued-finance
+          </i>
+          <br />
+          "Good to see you. If you were here, I wouldn't steal your equity"
+          <br />
+          <br />
+          wouldn’t you rather ban invoices instead? It is technically already
+          illegal, but not by precedence yet. doctor's take more than they are
+          able to under customers are&nbsp;
           <span
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -2109,1009 +2596,81 @@ export default class App extends React.Component {
               );
             }}
           >
-            monopsonies-infiltrating-insurance
+            willing and able
           </span>
-          , or (2) resolves into no promises/only{" "}
-          <a href="https://vaults.biz">profit-schedule</a>.
-        </span>
-        <br />
-        <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/sf7fhelhb19f83r/Screen%20Shot%202021-03-06%20at%204.00.28%20PM.png?dl=0"
-            />
-          </div>
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            {" "}
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/0v4idjt22zvop75/CuomoInsurance.png?dl=0"
-            />
-          </div>
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            {" "}
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/3qrd3xd7ebf13tj/IMG_0635.jpeg?dl=0"
-            />
-          </div>
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            {" "}
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/cr4mrfkoiiu84cf/CuomoNYTough.jpg?dl=0"
-            />
-          </div>
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            {" "}
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/s3m9n9fhq1cw2df/Screen%20Shot%202021-03-06%20at%204.10.55%20PM.png?dl=0"
-            />
-          </div>
-        </div>
-        <br />
-        <span
-          style={{
-            padding: "4px 10px",
-            transition: ".3s ease-in",
-            borderRadius: "15px",
-            color: this.state.highlightLivingWage ? "white" : "",
-            backgroundColor: this.state.highlightLivingWage
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-          ref={this.livingWage}
-        >
-          -The Great Depression happened because the government paid off bonds
+          &nbsp;to give, insurance binds us to meet these asks, preventing
+          settled trade ignoring the&nbsp;
+          <a href="https://micro-theory.com">counterfeit-in-contract</a>
+          &nbsp;case
           <br />
-          prices and opportunities can no longer sustain what was borrowed
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(50% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
+            />
+          </div>
           <br />
-          Pure reconciliation for lenders. they price banks at 1x book but book
-          is 13x what is possible without making counterfeit contracts reality
-        </span>
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
+          <span
+            ref={this.newsy}
             style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightNewsy ? "white" : "grey",
+              backgroundColor: this.state.highlightNewsy
+                ? "rgb(170,100,205)"
+                : ""
             }}
-            src="https://www.dl.dropboxusercontent.com/s/sih6crlv0dhcj9q/Screen%20Shot%202021-03-05%20at%202.36.42%20PM.png?dl=0"
-          />
-        </div>
-        <br />
-        <a href="https://www.sjsu.edu/faculty/watkins/depmon.htm">
-          https://www.sjsu.edu/faculty/watkins/depmon.htm
-        </a>
-        <br />
-        <a href="https://www.nber.org/system/files/chapters/c1567/c1567.pdf">
-          https://www.nber.org/system/files/chapters/c1567/c1567.pdf
-        </a>
-        <br />
-        <a href="https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm">
-          https://www.bls.gov/opub/mlr/2016/images/data/mccallfig6.stm
-        </a>
-        <br />
-        <br />
-        Either all of you are complicit or I am due the first Nobel Prize in
-        Economics, Stats because CNN keeps using polls this is what the&nbsp;
-        <span
-          onClick={() => {
-            this.stats.current.scrollIntoView("smooth");
-            this.setState({ highlightStats: true });
-            setTimeout(() => this.setState({ highlightStats: false }), 10000);
-          }}
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          American People
-        </span>
-        &nbsp;want, they are stating as fact without saying the sample size.
-        this is highly illegal, just like the&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.flop.current.scrollIntoView("smooth");
-            this.setState({ highlightFlop: true });
-            setTimeout(() => this.setState({ highlightFlop: false }), 10000);
-          }}
-        >
-          calling
-        </span>
-        &nbsp;on Election Day. Also&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.nsfFraud.current.scrollIntoView("smooth");
-            this.setState({ highlightNSFFraud: true });
-            setTimeout(
-              () => this.setState({ highlightNSFFraud: false }),
-              10000
-            );
-          }}
-        >
-          physics
-        </span>
-        {/*<br/>
-          Rep. Raskin, "<a href="https://www.archives.gov/founding-docs/amendments-11-27">DJT's lawyers testified by letter that Republicans wanted to use Amendment 12<a/>"*/}
-        <br />
-        <br />
-        The Bill has been negotiated to pay backrent-wishes!! Those prices were
-        fixed since&nbsp;
-        <a href="https://micro-theory.com">demand couldn't handle them</a>
-        <br />
-        <br />
-        <span
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
+          >
+            “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
+            &nbsp;claims it is not opinion the virus will spread without&nbsp;
+            <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
+            must do it to not be forced to{" "}
+            <a href="https://moldmask.co">mask</a>
+            ]... If you want the facts: it only does spreads if you have
+            symptoms or don't your wash hands/face.
+          </span>
+          <br />
           <i
-            onClick={() => {
-              this.stats.current.scrollIntoView("smooth");
-              this.setState({ highlightStats: true });
-              setTimeout(() => this.setState({ highlightStats: false }), 10000);
-            }}
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
+              fontWeight: "bolder"
+              //textDecoration: "underline"
             }}
           >
-            The Results Are In
+            Lending is not helping, forgiveness is theft, anticompetitive and
+            unequal law for labor, pre-revenue entrepreneurs and artists
           </i>
-        </span>
-        <br />
-        <span ref={this.inelasticity}>
-          The analysis of GDP trying to fix for reality is that, even if you did
-          capture every productSkew net-, percentage-change, you would not
-          capture&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.gdp.current.scrollIntoView("smooth");
-
-              this.setState({ highlightGDP: true });
-              setTimeout(() => this.setState({ highlightGDP: false }), 10000);
-            }}
-          >
-            price-inelasticity inflation
-          </span>
-          , only&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.inflation.current.scrollIntoView("smooth");
-              this.setState({ highlightInflation: true });
-              setTimeout(
-                () => this.setState({ highlightInflation: false }),
-                10000
-              );
-            }}
-          >
-            monetary-inflation, is bunk
-          </span>
-          !
-        </span>
-        <br />
-        <br />
-        "House Democrats work for the people" -&nbsp;
-        <a href="https://nikemawilliams.house.gov/">Some bitch on CNN</a>
-        <br />
-        "I promised the American people that help is on the way" -&nbsp;
-        <a href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669">
-          Joe Biden
-        </a>
-        <br />
-        <br />
-        CNN: "Let's hope this bill gets us there."&nbsp;
-        <a href="https://humanharvest.info">
-          Where, to make sure no 1985-vintage aborted fetus investment/ghost
-          city is wasted/paid
-        </a>
-        ?
-        <br />
-        <br />
-        Lying about public opinion to pay off lenders, that know debt is 13
-        times more than cash. If I were them, not altruistic, utilitarian/in
-        both supply-and-demand of economy and not self-harming, I would&nbsp;
-        <a href="https://www.opensecrets.org/parties/">lobby this way</a>
-        &nbsp;and plagerize&nbsp;
-        <a href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch">
-          enemies
-        </a>
-        <br />
-        they owe consumers original principal and more for stress to borrowers',
-        then reverse purchases for all consumers to that years' cash:debt ratio,
-        then pay them for stress and lost opportunity for&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.squatting.current.scrollIntoView("smooth");
-            this.setState({ highlightSquatting: true });
-            setTimeout(
-              () => this.setState({ highlightSquatting: false }),
-              10000
-            );
-          }}
-        >
-          squatting
-        </span>
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/pr0c01fft2lclds/Screen%20Shot%202021-03-06%20at%201.01.41%20PM.png?dl=0"
-          />
-        </div>
-        <div style={{ position: "relative" }}>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/dlhp9wcee037ap5/Screen%20Shot%202021-03-06%20at%2012.59.53%20PM.png?dl=0"
-          />
-        </div>
-        <div style={{ position: "relative" }}>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/78l0j7ds9ej1pwr/Screen%20Shot%202021-03-06%20at%2012.54.06%20PM.png?dl=0"
-          />
-        </div>
-        <br />
-        They are the same party pertaining to outstanding bills instead of civil
-        rights
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8f6sv7ub1dyixm1/Screen%20Shot%202021-03-06%20at%2012.24.20%20PM.png?dl=0"
-          />
-        </div>
-        <div style={{ position: "relative" }}>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8tsrzdyu1ar8i7o/Screen%20Shot%202021-03-06%20at%2012.34.30%20PM.png?dl=0"
-          />
-        </div>
-        <div style={{ position: "relative" }}>
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/83kl4edk6jckgx6/Screen%20Shot%202021-03-06%20at%2012.33.16%20PM.png?dl=0"
-          />
-        </div>
-        <br />
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-        >
-          Help me officer,
-        </i>
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3xzfwtaqsjd3mqe/Screen%20Shot%202021-03-06%20at%2012.24.43%20PM.png?dl=0"
-          />
-        </div>
-        <br />
-        <br />
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-        >
-          MONMOUTH POLL of 842 adults,&nbsp;
-          <a href="https://www.monmouth.edu/polling-institute/reports/monmouthpoll_us_030321/">
-            62% want higher prices/more debt
+          <br />
+          <iframe
+            title="Lending is not helping, forgiveness is theft, anticompetitive and unequal law for labor, pre-revenue entrepreneurs and artists"
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimorebizjournal%2Fposts%2F10164993696840716&width=300&show_text=true&height=444&appId"
+            width="300"
+            height="444"
+            style={{ border: "none", overflow: "hidden", width: "480px" }}
+          ></iframe>{" "}
+          <br />
+          Does no one at the Baltimore business journal understand that prices
+          are elastic for the same utility... if you did you’d know that this
+          doesn’t help... only{" "}
+          <a href="https://www.investopedia.com/terms/a/ask.asp">
+            one side of the market, the ask.
           </a>
           <br />
-          CNN cites this
-          <br />
-          ISIDEWITH (much higher sample size) 63% don't want this.
-        </i>
-        <br />
-        CNN: "If the majority of americans&nbsp;
-        <span
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.stats.current.scrollIntoView("smooth");
-
-            this.setState({ highlightStats: true });
-            setTimeout(() => this.setState({ highlightStats: false }), 10000);
-          }}
-        >
-          really do want it
-        </span>
-        &nbsp;what is the hesitancy"
-        <br />
-        <br />
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-        >
-          Unemployment Benefits Fraud for 13x book-valued-finance
-        </i>
-        <br />
-        "Good to see you. If you were here, I wouldn't steal your equity"
-        <br />
-        <br />
-        wouldn’t you rather ban invoices instead? It is technically already
-        illegal, but not by precedence yet. doctor's take more than they are
-        able to under customers are&nbsp;
-        <span
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.insurance.current.scrollIntoView("smooth");
-            this.setState({ highlightInsurance: true });
-            setTimeout(
-              () => this.setState({ highlightInsurance: false }),
-              10000
-            );
-          }}
-        >
-          willing and able
-        </span>
-        &nbsp;to give, insurance binds us to meet these asks, preventing settled
-        trade ignoring the&nbsp;
-        <a href="https://micro-theory.com">counterfeit-in-contract</a>
-        &nbsp;case
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(50% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
-          />
-        </div>
-        <br />
-        <span
-          ref={this.newsy}
-          style={{
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px",
-            color: this.state.highlightNewsy ? "white" : "grey",
-            backgroundColor: this.state.highlightNewsy ? "rgb(170,100,205)" : ""
-          }}
-        >
-          “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
-          &nbsp;claims it is not opinion the virus will spread without&nbsp;
-          <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
-          must do it to not be forced to <a href="https://moldmask.co">mask</a>
-          ]... If you want the facts: it only does spreads if you have symptoms
-          or don't your wash hands/face.
-        </span>
-        <br />
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-        >
-          Lending is not helping, forgiveness is theft, anticompetitive and
-          unequal law for labor, pre-revenue entrepreneurs and artists
-        </i>
-        <br />
-        <iframe
-          title="Lending is not helping, forgiveness is theft, anticompetitive and unequal law for labor, pre-revenue entrepreneurs and artists"
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimorebizjournal%2Fposts%2F10164993696840716&width=300&show_text=true&height=444&appId"
-          width="300"
-          height="444"
-          style={{ border: "none", overflow: "hidden", width: "480px" }}
-        ></iframe>{" "}
-        <br />
-        Does no one at the Baltimore business journal understand that prices are
-        elastic for the same utility... if you did you’d know that this doesn’t
-        help... only{" "}
-        <a href="https://www.investopedia.com/terms/a/ask.asp">
-          one side of the market, the ask.
-        </a>
-        <br />
-        That it can only pay financial obligations is abject fraud too. Better
-        to let finance lose, not force dollar-owners to pay and let labor,
-        pre-revenue inventors and artists not get applied the same laws. The
-        Great Depression was caused by paying of debt instead of defaulting (and
-        banning it)
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
-          />
-        </div>
-        <br />
-        This bitch saying you save money $2t in taxes without spending it
-        without taxing it... is admittance that spending is not&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.fishInBarrel.current.scrollIntoView("smooth");
-            this.setState({ highlightFishInBarrel: true });
-            setTimeout(
-              () => this.setState({ highlightFishInBarrel: false }),
-              10000
-            );
-          }}
-        >
-          tax-payer
-        </span>
-        funded&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.fintech.current.scrollIntoView("smooth");
-            this.setState({ highlightFintech: true });
-            setTimeout(() => this.setState({ highlightFintech: false }), 10000);
-          }}
-        >
-          Party
-        </span>
-        &nbsp;in the&nbsp;
-        <a
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder"
-            //textDecoration: "underline"
-          }}
-          href="https://nationalsecuritycasino.com"
-        >
-          U.S.A.
-        </a>
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3mx73fdmmdryddj/PartyInUSA.jpg?dl=0"
-          />
-        </div>
-        <br />
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => this.employmentOfOne.current.scrollIntoView("smooth")}
-        >
-          Most people
-        </span>
-        &nbsp;have been hired back before the pandemic was over, that means the
-        firing is not for covid (ignoring the unequal application of law for
-        labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's & artists in
-        favor of government-501c3-nonprofits/corporations, involuntary
-        market/vault/share/dollar-split & impossibility - this is still fraud if
-        unemployment insurance wasn't breaking Amendment 14/13)
-        <br />
-        <br />
-        The government is not bond-holders, slut. Certainly not Wells Fargo.
-        <br />
-        They have no right to do this and they are abusing their power to win in
-        the market expunging usurped contracts/invoices, property-to-rent,
-        back-tax/rent and insurance prisoners' dilemma duress pooling of demand
-        capacity obligations
-        <br />
-        Passing this bill is complicity to fraud, as described below.
-        <br />
-        <br />
-        Lying under oath and under duress (ignoring A4, A5) means the only
-        penalty can be for the crime
-        <br />
-        <br />
-        Please cite sample size on the show CNN, Chris
-        <br />
-        <br />
-        Leftists rely on imagination of owning my equity as sustinence
-        <br />
-        <a href="https://www.vanhollen.senate.gov/">Unemployment slave songs</a>
-        &nbsp;are their&nbsp;
-        <a href="https://news.gallup.com/opinion/chairman/181469/big-lie-unemployment.aspx">
-          Gallup polls n=2700
-        </a>
-        &nbsp;phone calls to random people who answer the phone
-        <br />
-        <br />
-        It is all going to go back (
-        <a href="https://www.researchgate.net/project/Class-action-suit">
-          at once
-        </a>
-        ) to those before involuntary dollar-split happened since the first
-        contracted fractional reserve, so I can laugh about it on the way to
-        peace
-        <br />
-        <br />
-        I have had some douche reach out to help to restructure (to be clear,
-        this is easy) my files and act like a founder then un-linkedin me
-        <br />
-        I have had Biden's michael antiporta's linkedin lackidasical
-        installation of login.gov local-ID api for better elections -connect do
-        the same
-        <br />
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics"
-            //fontWeight: "bolder",
-            //textDecoration: "underline"
-          }}
-        >
-          Hold on&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.marx.current.scrollIntoView("smooth");
-              this.setState({ highlightMarx: true });
-              setTimeout(() => this.setState({ highlightMarx: false }), 10000);
-            }}
-          >
-            Marx
-          </span>
-          ,
-        </i>
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
-          />
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          I need to go listen to the Senate discuss our equity since no other
-          party will
-        </div>
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        Polls cannot be construed as representative of population in court, ask
-        any statistician
-        <br />
-        <br />
-        If you didn't interfere and adjunicate in favor of invoices, people
-        would be{" "}
-        <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">
-          able to afford heart surgery, bookie
-        </a>
-        <br />
-        <br />
-        <span
-          ref={this.financeKills}
-          style={{
-            margin: "10px 0px",
-            padding: "10px",
-            display: "block",
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px",
-            color: this.state.highlightFinanceKills ? "white" : "grey",
-            backgroundColor: this.state.highlightFinanceKills
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-        >
-          the only crisis is in 1xbook assets that only have 1:13 if adjunicated
-          now
-          <br />
-          if debt and Bernie Sanders didn't exists, the rich would kill us
-          <br />
-          <br />
-          There is not enough wealth&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.dispair.current.scrollIntoView("smooth");
-              this.setState({ highlightDispair: true });
-              setTimeout(
-                () => this.setState({ highlightDispair: false }),
-                10000
-              );
-            }}
-          >
-            disparity
-          </span>
-          &nbsp;in assets alone. They need to call debt, assets.
-        </span>
-        <br />
-        <br />
-        Bernie Sanders opening remarks, "Why are we responding by
-        dollar-counterfeit, because a few people asked!"
-        <br />
-        <br />
-        "Allow small business to retain their workforce," is admitted collusion
-        from this guy.&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.colonization.current.scrollIntoView("smooth");
-            this.setState({ highlightColonization: true });
-            setTimeout(
-              () => this.setState({ highlightColonization: false }),
-              10000
-            );
-          }}
-        >
-          "It worked!"
-        </span>
-        &nbsp;he exclaims.
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
-          />
-        </div>
-        <i>
-          <a
-            style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(200, 230, 255)",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            href="https://www.senate.gov/states/WA/intro.htm"
-          >
-            Maria Cantwell (Washington)
-          </a>
-        </i>
-        <br />
-        PPP is not helpful (raises price/utility, helps bond-holders, competes
-        with demand). competition from pre-revenue inventors helps. Now the
-        country is further price-fixing their bonds and "savings" accounts
-        backed by itself and having revolving doors of employment with its
-        "unbiased" ratings agencies
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        "1 in 4 do not have internet at home," you can regulate companies that
-        are whole markets, ...moldmask Patty Murray
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/2qno8y9qgq93cpq/Immoral.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        Wyden says, "Covid has put people out of work, that is immoral and
-        unnacceptable... we must make sure grocery stores are paid"
-        <br />
-        covid is not the killer using death-print analysis
-        <br />
-        <i>
-          <a
-            style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(200, 230, 255)",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            href="https://moldmask.co"
-          >
-            You have no proof covid kills
-          </a>
-        </i>
-        <br />
-        <i>Many do essential work</i>, but are not{" "}
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.employmentHouse.current.scrollIntoView("smooth");
-            this.setState({ highlightEmploymentHouse: true });
-            setTimeout(
-              () => this.setState({ highlightEmploymentHouse: false }),
-              10000
-            );
-          }}
-        >
-          paid a living wage
-        </i>
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/3xqlyc22ka383fs/LivingWage.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
-        <br />
-        -"50ppl {">"} 1/2Ppl," Sanders says.
-        <br />
-        <BalancedPortfolioAgainstDollars width={this.state.width} />
-        <br />
-        -But we would get the exact same world without it, at lower prices
-        <br />
-        -"Protect Pensions [like a loanshark]," Bernieeeeeee
-        <br />{" "}
-        <span
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.stats.current.scrollIntoView("smooth");
-
-            this.setState({ highlightStats: true });
-            setTimeout(() => this.setState({ highlightStats: false }), 10000);
-          }}
-        >
-          - "[$1.9t "Covid Relief" is what the] majority of people want to do,"
-          Bernie says&nbsp; (a lie)
-        </span>
-        <br />
-        He is such a Putz he says that Restaurant Owners want minimum wage
-        because 140k servers want it
-        <br />
-        "[Pubs], throw people off medicare, [we can] provide [steal], this to
-        them who need it [because their invoices instead of banning invoices for
-        prohibiting settlement/price-inelasticity]," says{" "}
-        <a href="https://berniesanders.com/">B.S.</a>
-        <br />
-        It will "help low-income find work" (Against Amendment 14)
-        <br />
-        Classified Ads sites do that
-        <br />
-        <div style={{ position: "relative" }}>
-          {" "}
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
-          />
-        </div>
-        <br />
-        <i>
-          <a
-            style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(20, 20, 25)",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            href="https://www.schumer.senate.gov/"
-          >
-            Chuck Schhumer - If you want child support
-          </a>{" "}
-          as cited reason for unemployment insurance, then give the&nbsp;
-          <a
-            style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(20, 230, 55)",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            href="https://en.wikipedia.org/wiki/Cronus"
-          >
-            money to the kids
-          </a>
-          <br />
-          "Miss Fernandez has a $16,000 bill, and this will help her," says
-          Chuck Schumer. As a&nbsp;
-          <a href="https://www.researchgate.net/project/Class-action-suit">
-            class-action bancrupcty lawyer for myself
-          </a>
-          , I'd say that is the last thing she would want to do.
-        </i>
-        <br />
-        Wyden says, "Covid has put people out of work, that is immoral and
-        unnacceptable"
-        <br />
-        covid is not the killer using death-print analysis
-        <br />
-        <i>
-          <a
-            style={{
-              color: "rgb(178, 90, 197)",
-              backgroundColor: "rgb(200, 230, 255)",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            href="https://moldmask.co"
-          >
-            You have no proof covid kills
-          </a>
-        </i>
-        <div
-          style={{
-            //border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          Trump-haters are violent and harrass with subjective insults, damaging
-          my mental state
-          <br />
-          “Necessary investment in broadband infrastructure” necessary for what?
-          Unnamed.... & just assumed is necessary by the House Gluttons to
-          excuse theft and benefit bond-holders/buyers instead of LETTING PRICES
-          FALL
-          <br />
-          Using debt (promises of other peoples' assets) is ILLEGAL
-          Connecticut... to use it competitively is even worse for
-          monopolization around government not providers but regulators. In
-          monopoly regulation that constitutes a market in itself, like internet
-          cableways, you can price-target like the UK does but not undercut
-          assets for you and not market producers of targeted-price.
-          <br />
-          <br />
-          this is not competitive domestically-I will be suing every
-          congressperson that votes yes
+          That it can only pay financial obligations is abject fraud too. Better
+          to let finance lose, not force dollar-owners to pay and let labor,
+          pre-revenue inventors and artists not get applied the same laws. The
+          Great Depression was caused by paying of debt instead of defaulting
+          (and banning it)
           <br />
           <div style={{ position: "relative" }}>
             {" "}
@@ -3121,35 +2680,199 @@ export default class App extends React.Component {
                 width: "calc(100% - 26px)",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/7udciedv0gx1xgd/Medicaid.jpeg?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/m01yq2b2bveq0bz/SaveInTaxes.jpg?dl=0"
             />
           </div>
           <br />
-          Medicade fraud to keep prices up
-          <br />
-          The key to world peace is no finance. Not mental health services by
-          the hand of&nbsp;
+          This bitch saying you save money $2t in taxes without spending it
+          without taxing it... is admittance that spending is not&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
+              this.fishInBarrel.current.scrollIntoView("smooth");
+              this.setState({ highlightFishInBarrel: true });
               setTimeout(
-                () => this.setState({ highlightExperts: false }),
+                () => this.setState({ highlightFishInBarrel: false }),
                 10000
               );
             }}
           >
-            state sanctioned, paid, conflictedly-interested experts
+            tax-payer
           </span>
+          funded&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+              setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+          >
+            Party
+          </span>
+          &nbsp;in the&nbsp;
+          <a
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder"
+              //textDecoration: "underline"
+            }}
+            href="https://nationalsecuritycasino.com"
+          >
+            U.S.A.
+          </a>
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3mx73fdmmdryddj/PartyInUSA.jpg?dl=0"
+            />
+          </div>
           <br />
-          Communist-Wall street Democrats are killing us to match their own
-          speculation over the years and promise more than we are able. There
-          isn't enough and you hve no civil right to make more credit
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() =>
+              this.employmentOfOne.current.scrollIntoView("smooth")
+            }
+          >
+            Most people
+          </span>
+          &nbsp;have been hired back before the pandemic was over, that means
+          the firing is not for covid (ignoring the unequal application of law
+          for labor/pre-revenue inventors, entrepreneurs, ngo-nonprofit's &
+          artists in favor of government-501c3-nonprofits/corporations,
+          involuntary market/vault/share/dollar-split & impossibility - this is
+          still fraud if unemployment insurance wasn't breaking Amendment 14/13)
+          <br />
+          <br />
+          The government is not bond-holders, slut. Certainly not Wells Fargo.
+          <br />
+          They have no right to do this and they are abusing their power to win
+          in the market expunging usurped contracts/invoices, property-to-rent,
+          back-tax/rent and insurance prisoners' dilemma duress pooling of
+          demand capacity obligations
+          <br />
+          Passing this bill is complicity to fraud, as described below.
+          <br />
+          <br />
+          Lying under oath and under duress (ignoring A4, A5) means the only
+          penalty can be for the crime
+          <br />
+          <br />
+          Please cite sample size on the show CNN, Chris
+          <br />
+          <br />
+          Leftists rely on imagination of owning my equity as sustinence
+          <br />
+          <a href="https://www.vanhollen.senate.gov/">
+            Unemployment slave songs
+          </a>
+          &nbsp;are their&nbsp;
+          <a href="https://news.gallup.com/opinion/chairman/181469/big-lie-unemployment.aspx">
+            Gallup polls n=2700
+          </a>
+          &nbsp;phone calls to random people who answer the phone
+          <br />
+          <br />
+          It is all going to go back (
+          <a href="https://www.researchgate.net/project/Class-action-suit">
+            at once
+          </a>
+          ) to those before involuntary dollar-split happened since the first
+          contracted fractional reserve, so I can laugh about it on the way to
+          peace
+          <br />
+          <br />
+          I have had some douche reach out to help to restructure (to be clear,
+          this is easy) my files and act like a founder then un-linkedin me
+          <br />
+          I have had Biden's michael antiporta's linkedin lackidasical
+          installation of login.gov local-ID api for better elections -connect
+          do the same
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
+            }}
+          >
+            Hold on&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+                setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              Marx
+            </span>
+            ,
+          </i>
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            I need to go listen to the Senate discuss our equity since no other
+            party will
+          </div>
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
+            />
+          </div>
+          <br />
+          Polls cannot be construed as representative of population in court,
+          ask any statistician
+          <br />
+          <br />
+          If you didn't interfere and adjunicate in favor of invoices, people
+          would be{" "}
+          <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">
+            able to afford heart surgery, bookie
+          </a>
           <br />
           <br />
           <span
-            ref={this.covidKills}
+            ref={this.financeKills}
             style={{
               margin: "10px 0px",
               padding: "10px",
@@ -3157,42 +2880,56 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              color: this.state.highlightCovidKills ? "white" : "grey",
-              backgroundColor: this.state.highlightCovidKills
+              color: this.state.highlightFinanceKills ? "white" : "grey",
+              backgroundColor: this.state.highlightFinanceKills
                 ? "rgb(170,100,205)"
                 : ""
             }}
           >
-            You have no court-confirmable proof that&nbsp;
+            the only crisis is in 1xbook assets that only have 1:13 if
+            adjunicated now
+            <br />
+            if debt and Bernie Sanders didn't exists, the rich would kill us
+            <br />
+            <br />
+            There is not enough wealth&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.grandmaMentality.current.scrollIntoView("smooth");
-                this.setState({ highlightGrandmaMentality: true });
+                this.dispair.current.scrollIntoView("smooth");
+                this.setState({ highlightDispair: true });
                 setTimeout(
-                  () => this.setState({ highlightGrandmaMentality: false }),
+                  () => this.setState({ highlightDispair: false }),
                   10000
                 );
               }}
             >
-              covid kills
+              disparity
             </span>
-            &nbsp;regardless the unrequited consent of unemployment insurance
-            arrangement (see absolute bottom of page)
-            <br />
-            "Investment-grade bonds," Are made that way by the very institution
-            lending these out. Relying on the collusion in which it is the
-            prosecution's (mine) duty to cite, the democrat aides admit to here
-            in HR.1
-            <br />
-            “Special financial assistance,” would be to help negotiate original
-            principle without credit found market marginal utility:cost price,
-            not favor the lender or overreaching landlord
+            &nbsp;in assets alone. They need to call debt, assets.
           </span>
           <br />
           <br />
-          "133% of poverty line," poverty line is made up by surveys you fucking
-          bitch
+          Bernie Sanders opening remarks, "Why are we responding by
+          dollar-counterfeit, because a few people asked!"
+          <br />
+          <br />
+          "Allow small business to retain their workforce," is admitted
+          collusion from this guy.&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.colonization.current.scrollIntoView("smooth");
+              this.setState({ highlightColonization: true });
+              setTimeout(
+                () => this.setState({ highlightColonization: false }),
+                10000
+              );
+            }}
+          >
+            "It worked!"
+          </span>
+          &nbsp;he exclaims.
           <div style={{ position: "relative" }}>
             {" "}
             <img
@@ -3201,444 +2938,642 @@ export default class App extends React.Component {
                 width: "calc(100% - 26px)",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
             />
           </div>
-        </div>{" "}
-        <div
-          style={{
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          <span
-            style={{
-              fontFamily: '"Hi Melody", sans-serif'
-            }}
-          >
-            "Recovery startup business"
-          </span>
-          &nbsp;- any business started after Dems locked us down without
-          evidence to expunge a great lay-off wave for unemployment insurance
-          claims, which we never agreed to
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://www.senate.gov/states/WA/intro.htm"
+            >
+              Maria Cantwell (Washington)
+            </a>
+          </i>
           <br />
+          PPP is not helpful (raises price/utility, helps bond-holders, competes
+          with demand). competition from pre-revenue inventors helps. Now the
+          country is further price-fixing their bonds and "savings" accounts
+          backed by itself and having revolving doors of employment with its
+          "unbiased" ratings agencies
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/93t1u40u41b822l/Vaccines.jpeg?dl=0"
+            />
+          </div>
           <br />
-          This only helps government in&nbsp;
-          <span
+          "1 in 4 do not have internet at home," you can regulate companies that
+          are whole markets, ...moldmask Patty Murray
+          <br />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/2qno8y9qgq93cpq/Immoral.jpeg?dl=0"
+            />
+          </div>
+          <br />
+          Wyden says, "Covid has put people out of work, that is immoral and
+          unnacceptable... we must make sure grocery stores are paid"
+          <br />
+          covid is not the killer using death-print analysis
+          <br />
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://moldmask.co"
+            >
+              You have no proof covid kills
+            </a>
+          </i>
+          <br />
+          <i>Many do essential work</i>, but are not{" "}
+          <i
             style={{
-              fontFamily: '"Hi Melody", sans-serif',
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
             onClick={() => {
-              this.valuation.current.scrollIntoView("smooth");
-              this.setState({ highlightValuation: true });
+              this.employmentHouse.current.scrollIntoView("smooth");
+              this.setState({ highlightEmploymentHouse: true });
               setTimeout(
-                () => this.setState({ highlightValuation: false }),
+                () => this.setState({ highlightEmploymentHouse: false }),
                 10000
               );
             }}
           >
-            mirrorcode
-          </span>
-          &nbsp;tax and only helps those who should have saved while they had
-          jobs, if you want to help the disadvantaged you should pay the 40%
-          unemployed or just don't take it from them to start with. This bill is
-          to pay off bond-holders who can never have what they are price-fixed
-          anyway
+            paid a living wage
+          </i>
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/3xqlyc22ka383fs/LivingWage.jpeg?dl=0"
+            />
+          </div>
           <br />
+          -"50ppl ++$1t [in stock/dollars],"" Bernie wants to increase dollars
           <br />
-          <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
-            ABJECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN HR1
-            THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR SPECIFIED
-            DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES
-          </a>
+          -"50ppl {">"} 1/2Ppl," Sanders says.
           <br />
+          <BalancedPortfolioAgainstDollars width={this.state.width} />
+          <br />
+          -But we would get the exact same world without it, at lower prices
+          <br />
+          -"Protect Pensions [like a loanshark]," Bernieeeeeee
+          <br />{" "}
           <span
             style={{
-              fontFamily: '"Hi Melody", sans-serif'
+              fontWeight: "bolder",
+              textDecoration: "underline"
             }}
-          >
-            9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.— 10 No credit shall be
-            allowed under this section to the 11 Government of the United States
-            or to any agency 12 or instrumentality thereof. The preceding
-            sentence 13 shall not apply to any organization described in sec14
-            tion 501(c)(1) of the Internal Revenue Code of 1986 15 and exempt
-            from tax under section 501(a) of such 16 Code.’’
-          </span>
-          <br />
-          <br />
-          No government agency can get this credit but they can get the settled
-          funds... instead of the customers that those funds were split from?
-          Unless 501c3 that has owner upon death of board in the government that
-          is insolvent and commuting anticompetitive violations ongoing
-        </div>
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/x0qf9o5qpe7eq5f/Ignore.jpeg?dl=0"
-          />
-        </div>{" "}
-        <div
-          ref={this.collective}
-          style={{
-            margin: "10px 0px",
-            padding: "10px",
+            onClick={() => {
+              this.stats.current.scrollIntoView("smooth");
 
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px",
-            color: this.state.highlightCollective ? "white" : "grey",
-            backgroundColor: this.state.highlightCollective
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-        >
-          <span
+              this.setState({ highlightStats: true });
+              setTimeout(() => this.setState({ highlightStats: false }), 10000);
+            }}
+          >
+            - "[$1.9t "Covid Relief" is what the] majority of people want to
+            do," Bernie says&nbsp; (a lie)
+          </span>
+          <br />
+          He is such a Putz he says that Restaurant Owners want minimum wage
+          because 140k servers want it
+          <br />
+          "[Pubs], throw people off medicare, [we can] provide [steal], this to
+          them who need it [because their invoices instead of banning invoices
+          for prohibiting settlement/price-inelasticity]," says{" "}
+          <a href="https://berniesanders.com/">B.S.</a>
+          <br />
+          It will "help low-income find work" (Against Amendment 14)
+          <br />
+          Classified Ads sites do that
+          <br />
+          <div style={{ position: "relative" }}>
+            {" "}
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/8allq3yp7lv1hie/Sanders.jpeg?dl=0"
+            />
+          </div>
+          <br />
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(20, 20, 25)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://www.schumer.senate.gov/"
+            >
+              Chuck Schhumer - If you want child support
+            </a>{" "}
+            as cited reason for unemployment insurance, then give the&nbsp;
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(20, 230, 55)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://en.wikipedia.org/wiki/Cronus"
+            >
+              money to the kids
+            </a>
+            <br />
+            "Miss Fernandez has a $16,000 bill, and this will help her," says
+            Chuck Schumer. As a&nbsp;
+            <a href="https://www.researchgate.net/project/Class-action-suit">
+              class-action bancrupcty lawyer for myself
+            </a>
+            , I'd say that is the last thing she would want to do.
+          </i>
+          <br />
+          Wyden says, "Covid has put people out of work, that is immoral and
+          unnacceptable"
+          <br />
+          covid is not the killer using death-print analysis
+          <br />
+          <i>
+            <a
+              style={{
+                color: "rgb(178, 90, 197)",
+                backgroundColor: "rgb(200, 230, 255)",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              href="https://moldmask.co"
+            >
+              You have no proof covid kills
+            </a>
+          </i>
+          <div
             style={{
-              fontFamily: '"Hi Melody", sans-serif'
+              //border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
             }}
           >
-            Collective bargain
-          </span>
-          &nbsp;is bulk gift certificate purchases, not&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.ronInsurance.current.scrollIntoView("smooth");
-              this.setState({ highlightRonInsurance: true });
-              setTimeout(
-                () => this.setState({ highlightRonInsurance: false }),
-                10000
-              );
-            }}
-          >
-            prisoners’ dilemma, duress-pooling on gift card pools
-          </span>
-          , subject to invoice to boot - waging unrequited funds
-          <br />
-          <br />
-          Stolen funds herein used for qualified payment sick leave paragraph 1A
-          awaiting for test of covid19 (another fraud of payment, for covid
-          undefined, antibodies? Those have been noted to be evidence consummate
-          of normal&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.cold.current.scrollIntoView("smooth");
-              this.setState({ highlightCold: true });
-              setTimeout(() => this.setState({ highlightCold: false }), 10000);
-            }}
-          >
-            cold
-          </span>
-          &nbsp;as well)
-          <br />
-          <br />
-          <span
-            ref={this.bobTheBuilder}
-            style={{
-              color: this.state.highlightBTB ? "white" : "",
-              backgroundColor: this.state.highlightBTB ? "rgb(170,100,205)" : ""
-            }}
-          >
-            If you just keep equalizing tax credits with or without children you
-            just disadvantage people who are too busy and likely have more
-            productive uses of time
+            Trump-haters are violent and harrass with subjective insults,
+            damaging my mental state
+            <br />
+            “Necessary investment in broadband infrastructure” necessary for
+            what? Unnamed.... & just assumed is necessary by the House Gluttons
+            to excuse theft and benefit bond-holders/buyers instead of LETTING
+            PRICES FALL
+            <br />
+            Using debt (promises of other peoples' assets) is ILLEGAL
+            Connecticut... to use it competitively is even worse for
+            monopolization around government not providers but regulators. In
+            monopoly regulation that constitutes a market in itself, like
+            internet cableways, you can price-target like the UK does but not
+            undercut assets for you and not market producers of targeted-price.
             <br />
             <br />
-            Continue repairations for previous government-funding mistakes you
-            are still disenfranchising labor, artists and pre-revenue
-            entrepreneurs and the potential competition of supply for consumers
-            + all dollar-owners' selling rights
+            this is not competitive domestically-I will be suing every
+            congressperson that votes yes
             <br />
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/7udciedv0gx1xgd/Medicaid.jpeg?dl=0"
+              />
+            </div>
             <br />
-            please stop giving stimulous (stolen from Savers' equity unlike
-            corporate law) and continuing to prosecute for Wall St promises to
-            themselves 13:1
+            Medicade fraud to keep prices up
             <br />
-            let people trade voluntarily and without favoritism. Reparations are
-            meant to reward the complainant not the&nbsp;
+            The key to world peace is no finance. Not mental health services by
+            the hand of&nbsp;
             <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.takingCredit.current.scrollIntoView("smooth");
-                this.setState({ highlightTakingCredit: true });
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
                 setTimeout(
-                  () => this.setState({ highlightTakingCredit: false }),
+                  () => this.setState({ highlightExperts: false }),
                   10000
                 );
               }}
+            >
+              state sanctioned, paid, conflictedly-interested experts
+            </span>
+            <br />
+            Communist-Wall street Democrats are killing us to match their own
+            speculation over the years and promise more than we are able. There
+            isn't enough and you hve no civil right to make more credit
+            <br />
+            <br />
+            <span
+              ref={this.covidKills}
+              style={{
+                margin: "10px 0px",
+                padding: "10px",
+                display: "block",
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px",
+                color: this.state.highlightCovidKills ? "white" : "grey",
+                backgroundColor: this.state.highlightCovidKills
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              You have no court-confirmable proof that&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.grandmaMentality.current.scrollIntoView("smooth");
+                  this.setState({ highlightGrandmaMentality: true });
+                  setTimeout(
+                    () => this.setState({ highlightGrandmaMentality: false }),
+                    10000
+                  );
+                }}
+              >
+                covid kills
+              </span>
+              &nbsp;regardless the unrequited consent of unemployment insurance
+              arrangement (see absolute bottom of page)
+              <br />
+              "Investment-grade bonds," Are made that way by the very
+              institution lending these out. Relying on the collusion in which
+              it is the prosecution's (mine) duty to cite, the democrat aides
+              admit to here in HR.1
+              <br />
+              “Special financial assistance,” would be to help negotiate
+              original principle without credit found market marginal
+              utility:cost price, not favor the lender or overreaching landlord
+            </span>
+            <br />
+            <br />
+            "133% of poverty line," poverty line is made up by surveys you
+            fucking bitch
+            <div style={{ position: "relative" }}>
+              {" "}
+              <img
+                alt=""
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
+              />
+            </div>
+          </div>{" "}
+          <div
+            style={{
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif'
+              }}
+            >
+              "Recovery startup business"
+            </span>
+            &nbsp;- any business started after Dems locked us down without
+            evidence to expunge a great lay-off wave for unemployment insurance
+            claims, which we never agreed to
+            <br />
+            <br />
+            This only helps government in&nbsp;
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
+                setTimeout(
+                  () => this.setState({ highlightValuation: false }),
+                  10000
+                );
+              }}
+            >
+              mirrorcode
+            </span>
+            &nbsp;tax and only helps those who should have saved while they had
+            jobs, if you want to help the disadvantaged you should pay the 40%
+            unemployed or just don't take it from them to start with. This bill
+            is to pay off bond-holders who can never have what they are
+            price-fixed anyway
+            <br />
+            <br />
+            <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+              ABJECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN
+              HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR
+              SPECIFIED DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES
+            </a>
+            <br />
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif'
+              }}
+            >
+              9 ‘‘(5) CERTAIN GOVERNMENTAL EMPLOYERS.— 10 No credit shall be
+              allowed under this section to the 11 Government of the United
+              States or to any agency 12 or instrumentality thereof. The
+              preceding sentence 13 shall not apply to any organization
+              described in sec14 tion 501(c)(1) of the Internal Revenue Code of
+              1986 15 and exempt from tax under section 501(a) of such 16
+              Code.’’
+            </span>
+            <br />
+            <br />
+            No government agency can get this credit but they can get the
+            settled funds... instead of the customers that those funds were
+            split from? Unless 501c3 that has owner upon death of board in the
+            government that is insolvent and commuting anticompetitive
+            violations ongoing
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/x0qf9o5qpe7eq5f/Ignore.jpeg?dl=0"
+            />
+          </div>{" "}
+          <div
+            ref={this.collective}
+            style={{
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightCollective ? "white" : "grey",
+              backgroundColor: this.state.highlightCollective
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif'
+              }}
+            >
+              Collective bargain
+            </span>
+            &nbsp;is bulk gift certificate purchases, not&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.ronInsurance.current.scrollIntoView("smooth");
+                this.setState({ highlightRonInsurance: true });
+                setTimeout(
+                  () => this.setState({ highlightRonInsurance: false }),
+                  10000
+                );
+              }}
+            >
+              prisoners’ dilemma, duress-pooling on gift card pools
+            </span>
+            , subject to invoice to boot - waging unrequited funds
+            <br />
+            <br />
+            Stolen funds herein used for qualified payment sick leave paragraph
+            1A awaiting for test of covid19 (another fraud of payment, for covid
+            undefined, antibodies? Those have been noted to be evidence
+            consummate of normal&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.cold.current.scrollIntoView("smooth");
+                this.setState({ highlightCold: true });
+                setTimeout(
+                  () => this.setState({ highlightCold: false }),
+                  10000
+                );
+              }}
+            >
+              cold
+            </span>
+            &nbsp;as well)
+            <br />
+            <br />
+            <span
+              ref={this.bobTheBuilder}
+              style={{
+                color: this.state.highlightBTB ? "white" : "",
+                backgroundColor: this.state.highlightBTB
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              If you just keep equalizing tax credits with or without children
+              you just disadvantage people who are too busy and likely have more
+              productive uses of time
+              <br />
+              <br />
+              Continue repairations for previous government-funding mistakes you
+              are still disenfranchising labor, artists and pre-revenue
+              entrepreneurs and the potential competition of supply for
+              consumers + all dollar-owners' selling rights
+              <br />
+              <br />
+              please stop giving stimulous (stolen from Savers' equity unlike
+              corporate law) and continuing to prosecute for Wall St promises to
+              themselves 13:1
+              <br />
+              let people trade voluntarily and without favoritism. Reparations
+              are meant to reward the complainant not the&nbsp;
+              <span
+                onClick={() => {
+                  this.takingCredit.current.scrollIntoView("smooth");
+                  this.setState({ highlightTakingCredit: true });
+                  setTimeout(
+                    () => this.setState({ highlightTakingCredit: false }),
+                    10000
+                  );
+                }}
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+              >
+                judge
+              </span>
+            </span>
+            <br />
+            <br />
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif'
+              }}
+            >
+              ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
+              GENERAL.—The amount of the credit 6 allowed under this section to
+              any taxpayer for any 7 taxable year shall be reduced (but not
+              below zero) by 8 the aggregate amount of payments made under sec9
+              tion 7527A to such taxpayer during such taxable 10 year. Any
+              failure to so reduce the credit shall be 11 treated as arising out
+              of a mathematical or clerical 12 error and assessed according to
+              section 6213(b)(1).
+            </span>{" "}
+            <br />
+            <br />
+            <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+              This bill is fraud to pay off taxes
+            </a>
+            &nbsp;with no evidence of harm and no equal application of law by
+            the nature of insurance generally and here
+            <br />
+            Since everyone is doing it challenge, I have been turned down and I
+            never stalked anybody
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            Garcetti (LA), you have NO PROOF you "saved lives"
+          </div>
+          <div
+            style={{
+              //border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/p1r1s50ct7y85cw/Guilt.jpeg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              wordBreak: "break-word",
+
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
+              FIXING THE GAME
+            </a>
+            ‘‘(h) REGULATIONS. —The Secretary shall prescribe 16 such
+            regulations or other guidance as may be necessary 17 or appropriate
+            to carry out the purposes of this section, 18 including— 19 ‘‘(1)
+            regulations or other guidance providing 20 taxpayers the opportunity
+            to provide the Secretary 21 information sufficient to allow the
+            Secretary to make 22 payments to such taxpayers under subsection (g)
+            23 (including the determination of the amount of such 24 payment) if
+            such information is not otherwise avail25 able to the Secretary, and
+            VerDate Nov 24 2008 16:34 Feb 18, 2021 ‘‘(2) regulations or other
+            guidance to ensure to 2 the maximum extent administratively
+            practicable 3 that, in determining the amount of any credit under 4
+            subsection (a) and any credit or refund under sub5 section (g), an
+            individual is not taken into account 6 more than once, including by
+            different taxpayers and 7 including by reason of a change in joint
+            return sta8 tus or dependent status between the taxable year for 9
+            which an advance refund amount is determined and 10 the taxable year
+            for which a credit under subsection 11 (a) is determined.
+            <br />
+            <br />
+            "on a noncompetitive basis to speed up the process... this agreement
+            is"
+            <br />
+            this is highly illegal... I do not care... I do not consent
+            <br />
+            Why are we lending to veterans to compete with other consumers of
+            education and the veteran themselves except to secrete more equity
+            from unrequited and uneducated savers about what is happening and
+            why pertaining to&nbsp;
+            <span
               style={{
                 fontWeight: "bolder",
                 textDecoration: "underline"
               }}
+              onClick={() => {
+                this.inflation.current.scrollIntoView("smooth");
+                this.setState({ highlightInflation: true });
+                setTimeout(
+                  () => this.setState({ highlightInflation: false }),
+                  10000
+                );
+              }}
             >
-              judge
+              price-inelasticity inflation and monetary inflation
             </span>
-          </span>
-          <br />
-          <br />
-          <span
-            style={{
-              fontFamily: '"Hi Melody", sans-serif'
-            }}
-          >
-            ‘‘(j) RECONCILIATION OF CREDIT AND ADVANCE 4 CREDIT.— 5 ‘‘(1) IN
-            GENERAL.—The amount of the credit 6 allowed under this section to
-            any taxpayer for any 7 taxable year shall be reduced (but not below
-            zero) by 8 the aggregate amount of payments made under sec9 tion
-            7527A to such taxpayer during such taxable 10 year. Any failure to
-            so reduce the credit shall be 11 treated as arising out of a
-            mathematical or clerical 12 error and assessed according to section
-            6213(b)(1).
-          </span>{" "}
-          <br />
-          <br />
-          <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
-            This bill is fraud to pay off taxes
-          </a>
-          &nbsp;with no evidence of harm and no equal application of law by the
-          nature of insurance generally and here
-          <br />
-          Since everyone is doing it challenge, I have been turned down and I
-          never stalked anybody
-        </div>
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          Garcetti (LA), you have NO PROOF you "saved lives"
-        </div>
-        <div
-          style={{
-            //border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/p1r1s50ct7y85cw/Guilt.jpeg?dl=0"
-          />
-        </div>
-        <div
-          style={{
-            wordBreak: "break-word",
-
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
-            FIXING THE GAME
-          </a>
-          ‘‘(h) REGULATIONS. —The Secretary shall prescribe 16 such regulations
-          or other guidance as may be necessary 17 or appropriate to carry out
-          the purposes of this section, 18 including— 19 ‘‘(1) regulations or
-          other guidance providing 20 taxpayers the opportunity to provide the
-          Secretary 21 information sufficient to allow the Secretary to make 22
-          payments to such taxpayers under subsection (g) 23 (including the
-          determination of the amount of such 24 payment) if such information is
-          not otherwise avail25 able to the Secretary, and VerDate Nov 24 2008
-          16:34 Feb 18, 2021 ‘‘(2) regulations or other guidance to ensure to 2
-          the maximum extent administratively practicable 3 that, in determining
-          the amount of any credit under 4 subsection (a) and any credit or
-          refund under sub5 section (g), an individual is not taken into account
-          6 more than once, including by different taxpayers and 7 including by
-          reason of a change in joint return sta8 tus or dependent status
-          between the taxable year for 9 which an advance refund amount is
-          determined and 10 the taxable year for which a credit under subsection
-          11 (a) is determined.
-          <br />
-          <br />
-          "on a noncompetitive basis to speed up the process... this agreement
-          is"
-          <br />
-          this is highly illegal... I do not care... I do not consent
-          <br />
-          Why are we lending to veterans to compete with other consumers of
-          education and the veteran themselves except to secrete more equity
-          from unrequited and uneducated savers about what is happening and why
-          pertaining to&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.inflation.current.scrollIntoView("smooth");
-              this.setState({ highlightInflation: true });
-              setTimeout(
-                () => this.setState({ highlightInflation: false }),
-                10000
-              );
-            }}
-          >
-            price-inelasticity inflation and monetary inflation
-          </span>
-          &nbsp;by nonconsensual dollar/market/valut-share infiltration
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          WHAT&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
-              setTimeout(
-                () => this.setState({ highlightExperts: false }),
-                10000
-              );
-            }}
-          >
-            THE FUCK
-          </span>
-          &nbsp;IS AN INVOLUNTARY FURLOUGH
-          <br />
-          If you explain it in 5 more words watch you incriminate your actions
-          <br />
-          by counterfeit, price-inelasticity or inequal application of law
-          [funds, shareholder rights being dollars, assets or other property;
-          and the freedom-of-expression to the owner thereof]
-          <br />
-          <br />
-          This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
-          PAYMENTS/LANDLORD BACK-RENT-or-TAX/MEDICAL INVOICE WISHES
-        </i>
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/0052araza8ge48y/TrickleDownEconomicKingMaker.png?dl=0"
-          />
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          We will just have to&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.defense.current.scrollIntoView("smooth");
-              this.setState({ highlightDefense: true });
-              setTimeout(
-                () => this.setState({ highlightDefense: false }),
-                10000
-              );
-            }}
-          >
-            reverse it to cash:debt ratio anyway (1:13)
-          </span>
-          <br />
-          Not another credit is&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.IRS.current.scrollIntoView("smooth");
-              this.setState({ highlightIRS: true });
-              setTimeout(() => this.setState({ highlightIRS: false }), 10000);
-            }}
-          >
-            available
-          </span>
-          , there never was; "mortgage/rent" is explicitly cited as reason and
-          only eligibility for slush
-          <br />
-          <br />
-          we don't want "covered loans" to bail our our usurped invoices you
-          allow
-          <br />
-          <br />
-          $618 million/yr for cybersecurity risk mitigation. how is this not
-          anticompetitive?
-        </div>
-        <i
-          ref={this.defense}
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline",
-            padding: "4px 10px",
-            transition: ".3s ease-in",
-            borderRadius: "15px",
-            color: this.state.highlightDefense ? "white" : "",
-            backgroundColor: this.state.highlightDefense
-              ? "rgb(170,100,205)"
-              : ""
-          }}
-        >
-          COVID 19 Diagnosis without symptoms can be held under quarantine (or
-          cause-favoritism) my ass
-        </i>
-        <br />
-        <a
-          href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf" //"https://www.govtrack.us/congress/bills/116/hr748"
-        >
-          Let's not negotitiage&nbsp;
+            &nbsp;by nonconsensual dollar/market/valut-share infiltration
+          </div>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -3647,364 +3582,495 @@ export default class App extends React.Component {
               textDecoration: "underline"
             }}
           >
-            The Ask: H.R. 1
+            WHAT&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              THE FUCK
+            </span>
+            &nbsp;IS AN INVOLUNTARY FURLOUGH
+            <br />
+            If you explain it in 5 more words watch you incriminate your actions
+            <br />
+            by counterfeit, price-inelasticity or inequal application of law
+            [funds, shareholder rights being dollars, assets or other property;
+            and the freedom-of-expression to the owner thereof]
+            <br />
+            <br />
+            This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
+            PAYMENTS/LANDLORD BACK-RENT-or-TAX/MEDICAL INVOICE WISHES
           </i>
-        </a>
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
+          <div
             style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/05bkahoqfhcyuzu/TheAsk.jpeg?dl=0"
-          />
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/0052araza8ge48y/TrickleDownEconomicKingMaker.png?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
 
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          Socially and economically disadvantaged individuals taken from savers
-          and bypassing artists, pre-revenue inventors, volunteers or&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.baltimore.current.scrollIntoView("smooth");
-              this.setState({ highlightBaltimore: true });
-              setTimeout(
-                () => this.setState({ highlightBaltimore: false }),
-                10000
-              );
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
             }}
           >
-            nonprofits
-          </span>{" "}
-          (29-year old polish-Italian American male)
-          <br />
-          <br />
-          minority depository institution illegal, depositary security-receipts
-          ok
-        </div>
-        <div
-          style={{
-            border: "3px solid blue",
-            borderRadius: "10px",
-            padding: "10px",
-            height: "min-content",
-            width: "calc(100% - 30px)",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
-            style={{
-              width: "calc(100% - 26px)",
-              height: "auto"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/37jktk3nozsk3hc/dorothy.jpeg?dl=0"
-          />
-          <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
-            “Eligibility of assistance... beneficiary?”
-          </a>
-          <br />
-          <span>Insurer decide appropriation</span>
-          <br />
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.experts.current.scrollIntoView("smooth");
-              this.setState({ highlightExperts: true });
-              setTimeout(
-                () => this.setState({ highlightExperts: false }),
-                10000
-              );
-            }}
-          >
-            experts
-          </span>
-          &nbsp;paid, are experts biased - and of their and their dependents'
-          (not beneficiarys') burdens/deadlines of inadequate service or
-          instigating catch22 in due process timelines to boot (also, how do you
-          prove "willful neglect" in filing lackidasical govtech &
-          threshold-burdened-processes devoid of equal help of law).
-          <br />
-          dependency eligibility sustains inequality
-        </div>{" "}
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          Competition is only appropriate for the definition of the marginal
-          utility:cost market with investment in profit sharing on non-general
-          income prisoners' duress pooling in prohibiting price-elasticity and
-          abetting further counterfeit-invoice contracts, notedly
-          involuntary-labor
-          <br />
-          <br />
-          <a href="https://www.researchgate.net/project/Class-action-suit">
-            ARREARS ARE MOOT FOR IMPOSSIBILITY
-          </a>
-          , justice department conspires with itself and claims jurisprudence
-          over itself
-        </i>
-        <div
-          style={{
-            height: "min-content",
-            width: "100%",
-            display: "flex",
-            flexWrap: "wrap"
-          }}
-        >
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 30px)",
-              position: "relative"
-            }}
-          >
-            <img
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
+            We will just have to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.defense.current.scrollIntoView("smooth");
+                this.setState({ highlightDefense: true });
+                setTimeout(
+                  () => this.setState({ highlightDefense: false }),
+                  10000
+                );
               }}
-              src="https://www.dl.dropboxusercontent.com/s/7z1s020l40g8zyb/HR11.jpeg?dl=0"
-              alt=""
-            />
-          </div>
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 30px)",
-              position: "relative"
-            }}
-          >
-            <img
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
+            >
+              reverse it to cash:debt ratio anyway (1:13)
+            </span>
+            <br />
+            Not another credit is&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+                setTimeout(() => this.setState({ highlightIRS: false }), 10000);
               }}
-              src="https://www.dl.dropboxusercontent.com/s/8h8o8fv28ntsau0/HR12.jpeg?dl=0"
-              alt=""
-            />
+            >
+              available
+            </span>
+            , there never was; "mortgage/rent" is explicitly cited as reason and
+            only eligibility for slush
+            <br />
+            <br />
+            we don't want "covered loans" to bail our our usurped invoices you
+            allow
+            <br />
+            <br />
+            $618 million/yr for cybersecurity risk mitigation. how is this not
+            anticompetitive?
           </div>
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 30px)",
-              position: "relative"
-            }}
-          >
-            <img
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/clzmkhsu2c7amzv/HR13.jpeg?dl=0"
-              alt=""
-            />
-          </div>
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 30px)",
-              position: "relative"
-            }}
-          >
-            <img
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/qon89qz9lvvor8l/HR14.jpeg?dl=0"
-              alt=""
-            />
-          </div>
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics",
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-        >
-          If I were to manage your pensions, I would do
-          <br />
-          <a href="https://stocktwits.com/nmc123">
-            60% CASH, 20% TBT, 10%VXX, 10%SLV
-          </a>
-        </i>
-        <br />
-        <a href="https://nationalsecuritycasino.com">
           <i
+            ref={this.defense}
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
-              textDecoration: "underline"
+              textDecoration: "underline",
+              padding: "4px 10px",
+              transition: ".3s ease-in",
+              borderRadius: "15px",
+              color: this.state.highlightDefense ? "white" : "",
+              backgroundColor: this.state.highlightDefense
+                ? "rgb(170,100,205)"
+                : ""
             }}
           >
-            Sluts,
+            COVID 19 Diagnosis without symptoms can be held under quarantine (or
+            cause-favoritism) my ass
           </i>
-        </a>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-            color: "grey",
-            margin: "10px 0px",
-            padding: "10px",
-
-            border: "1px dotted",
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          It is not a public health emergency [event/all-minority-based-funding]
-          does a pandemic require without finance
           <br />
-          <br />
-          NYC: you cannot make someone paint their property or make them do
-          labor unless they are roman servants since we don't just do&nbsp;
-          <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;goes on
-          spoof-able geohash
-          <br />
-          H.R. 1 (748?) proposes not giving interest on bonds to international
-          aid & comfort, but still give outlays to "disadvantaged borrowers" for
-          no clearer possible confession of motive to indulge in involuntary
-          dollar/equity/vault/market-share split? That is admittance that it is
-          involuntary slavery
-          <br />
-          <br />
-          It also mentions liability on public health for drug addicts well
-          rocket mortgage and rentiers drive us into the streets
-          <br />
-          PAY FOR IT YOURSELF. As I like to say about a good economy is that you
-          can dishwash yourself a house, as a bookkeeper for a homebuilding
-          company with family mortgage and experience dishwashing/serving{" "}
           <a
-            onClick={() => {
-              this.ftc.current.scrollIntoView("smooth");
-              this.setState({ highlightFTC: true });
-              setTimeout(() => this.setState({ highlightFTC: false }), 10000);
-            }}
-            href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
+            href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf" //"https://www.govtrack.us/congress/bills/116/hr748"
           >
-            Cornering
-          </a>{" "}
-          the <a href="http://vaults.biz">Labor Market (not-counterfeit)</a> for{" "}
-          <a href="https://wavv.art/United_States_of_America">Con gress</a>
-        </div>
-        <div
-          style={{
-            height: "min-content",
-            width: "100%",
-            display: "flex"
-          }}
-        >
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 20px)",
-              position: "relative"
-            }}
-          >
-            <img
+            Let's not negotitiage&nbsp;
+            <i
               style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
-              alt="ETF lending/stealing fraud for financial ends"
-            />
-          </div>
-          <div
-            style={{
-              border: "3px solid blue",
-              borderRadius: "10px",
-              padding: "10px",
-              height: "min-content",
-              width: "calc(50% - 20px)",
-              position: "relative"
-            }}
-          >
-            <img
-              style={{
-                width: "calc(100% - 26px)",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
-              alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
-            />
-          </div>
-        </div>
-        <i
-          style={{
-            fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-            textEmphasis: "italics"
-            //fontWeight: "bolder",
-            //textDecoration: "underline"
-          }}
-        >
-          Doubt about Racketeering
-          <br />
-          Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
-          <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
-            organ-harvest/culture
+            >
+              The Ask: H.R. 1
+            </i>
           </a>
-          <iframe
-            title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
-            src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
-          ></iframe>
-          <br />
-          that's like dollar beer or vampirism, guiding your punches
-          <br />
-          we can battle with any non-manmade virus{" "}
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/05bkahoqfhcyuzu/TheAsk.jpeg?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Socially and economically disadvantaged individuals taken from
+            savers and bypassing artists, pre-revenue inventors, volunteers
+            or&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.baltimore.current.scrollIntoView("smooth");
+                this.setState({ highlightBaltimore: true });
+                setTimeout(
+                  () => this.setState({ highlightBaltimore: false }),
+                  10000
+                );
+              }}
+            >
+              nonprofits
+            </span>{" "}
+            (29-year old polish-Italian American male)
+            <br />
+            <br />
+            minority depository institution illegal, depositary
+            security-receipts ok
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+              padding: "10px",
+              height: "min-content",
+              width: "calc(100% - 30px)",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/37jktk3nozsk3hc/dorothy.jpeg?dl=0"
+            />
+            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+              “Eligibility of assistance... beneficiary?”
+            </a>
+            <br />
+            <span>Insurer decide appropriation</span>
+            <br />
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+                setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              experts
+            </span>
+            &nbsp;paid, are experts biased - and of their and their dependents'
+            (not beneficiarys') burdens/deadlines of inadequate service or
+            instigating catch22 in due process timelines to boot (also, how do
+            you prove "willful neglect" in filing lackidasical govtech &
+            threshold-burdened-processes devoid of equal help of law).
+            <br />
+            dependency eligibility sustains inequality
+          </div>{" "}
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
-              fontWeight: "bolder"
+              fontWeight: "bolder",
+              textDecoration: "underline"
             }}
           >
-            I am sure
+            Competition is only appropriate for the definition of the marginal
+            utility:cost market with investment in profit sharing on non-general
+            income prisoners' duress pooling in prohibiting price-elasticity and
+            abetting further counterfeit-invoice contracts, notedly
+            involuntary-labor
+            <br />
+            <br />
+            <a href="https://www.researchgate.net/project/Class-action-suit">
+              ARREARS ARE MOOT FOR IMPOSSIBILITY
+            </a>
+            , justice department conspires with itself and claims jurisprudence
+            over itself
           </i>
-        </i>
+          <div
+            style={{
+              height: "min-content",
+              width: "100%",
+              display: "flex",
+              flexWrap: "wrap"
+            }}
+          >
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/7z1s020l40g8zyb/HR11.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/8h8o8fv28ntsau0/HR12.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/clzmkhsu2c7amzv/HR13.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 30px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/qon89qz9lvvor8l/HR14.jpeg?dl=0"
+                alt=""
+              />
+            </div>
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            If I were to manage your pensions, I would do
+            <br />
+            <a href="https://stocktwits.com/nmc123">
+              60% CASH, 20% TBT, 10%VXX, 10%SLV
+            </a>
+          </i>
+          <br />
+          <a href="https://nationalsecuritycasino.com">
+            <i
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+            >
+              Sluts,
+            </i>
+          </a>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            It is not a public health emergency
+            [event/all-minority-based-funding] does a pandemic require without
+            finance
+            <br />
+            <br />
+            NYC: you cannot make someone paint their property or make them do
+            labor unless they are roman servants since we don't just do&nbsp;
+            <a href="https://vaults.biz">3% sales tax under $2k</a>&nbsp;goes on
+            spoof-able geohash
+            <br />
+            H.R. 1 (748?) proposes not giving interest on bonds to international
+            aid & comfort, but still give outlays to "disadvantaged borrowers"
+            for no clearer possible confession of motive to indulge in
+            involuntary dollar/equity/vault/market-share split? That is
+            admittance that it is involuntary slavery
+            <br />
+            <br />
+            It also mentions liability on public health for drug addicts well
+            rocket mortgage and rentiers drive us into the streets
+            <br />
+            PAY FOR IT YOURSELF. As I like to say about a good economy is that
+            you can dishwash yourself a house, as a bookkeeper for a
+            homebuilding company with family mortgage and experience
+            dishwashing/serving{" "}
+            <a
+              onClick={() => {
+                this.ftc.current.scrollIntoView("smooth");
+                this.setState({ highlightFTC: true });
+                setTimeout(() => this.setState({ highlightFTC: false }), 10000);
+              }}
+              href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
+            >
+              Cornering
+            </a>{" "}
+            the <a href="http://vaults.biz">Labor Market (not-counterfeit)</a>{" "}
+            for{" "}
+            <a href="https://wavv.art/United_States_of_America">Con gress</a>
+          </div>
+          <div
+            style={{
+              height: "min-content",
+              width: "100%",
+              display: "flex"
+            }}
+          >
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 20px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
+                alt="ETF lending/stealing fraud for financial ends"
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+                padding: "10px",
+                height: "min-content",
+                width: "calc(50% - 20px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
+                alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
+              />
+            </div>
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+              //fontWeight: "bolder",
+              //textDecoration: "underline"
+            }}
+          >
+            Doubt about Racketeering
+            <br />
+            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
+            <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
+              organ-harvest/culture
+            </a>
+            <iframe
+              title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+              src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+            ></iframe>
+            <br />
+            that's like dollar beer or vampirism, guiding your punches
+            <br />
+            we can battle with any non-manmade virus{" "}
+            <i
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder"
+              }}
+            >
+              I am sure
+            </i>
+          </i>
+        </span>
         <div
           style={{
             fontFamily: '"Hi Melody", sans-serif',
@@ -10761,651 +10827,662 @@ export default class App extends React.Component {
         </div>
         <a href="https://micro-theory.com">Micro-Theory.com</a>
         <span ref={this.EARLYCOMMS}>
-        <div
-          style={{
-            justifyContent: "center",
-            display: "flex",
-            flexWrap: "wrap",
-            width: "100%"
-          }}
-        >
           <div
             style={{
-              padding: "20px",
-
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px"
+              justifyContent: "center",
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%"
             }}
           >
-            Why do the majority of people join the military? money/assassins for
-            hire
-            <br /> <br />
-            You can really only certify but not bar unless there is prove-able
-            harm or it is prohibitive to not do it. In this case, neither is
-            harm proven with evidence that spittle from talking floats, nor is
-            it prohibitive for people who don’t want to be around people wearing
-            masks. Their preference for others is more onerous than people who
-            prefer sneezing into their elbow. Masks are as reckless as NIH &
-            Fauci getting paid dollar split to experiment with virus in
-            anti-human rights China
-            <br /> <br />
-            We need tort reform in the process of barring or citing cease &
-            desist. A warning from a complaint that a court can lay instead of
-            bonds and fines, before an incident occurs
-            <br /> <br />
-            the law of banishing involuntary slavery by people that own the
-            dollars that use to promise, duress of those that borrow to match
-            fixed-prices, or unequal protection of corporate shares vs dollars
-            as waged in contracts
-            <br />
-            <br />
-            old people are crowding us out of assets
-            <br />
-            it would be better to ban invoices and renting out more than one can
-            live in at one time
-            <br />
-            if you teach your teachers something they&nbsp;
-            <a href="https://open.spotify.com/track/1hOSO8FbW0l1heJm1BiTWi?si=KV6Jx-CMRlKAPDZJRG7DFg">
-              fail you
-            </a>
-            <br />
-            you can only exclude based on health if there are visible symtoms or
-            the tests are non-invasive. Otherwise they cause duress to not be
-            only giving into the economy but not able to take (slavery)
-            <br />
-            forcing you to wear a mask is dangerous to your health, you should
-            be sneezing into your palms and then wash your hands
-            <br />
-            also comprehensive science, not sampled data, says masks do not
-            help. spittle or breathe has not been proven to float. only aerosols
-            in a nebulizer, which may have been dust. the only study like this
-            did not specify, but even water sprayed is not how people talk. the
-            study of spittle specifically only showed a 1ft release, which fell
-            immediately. it likely is transferred by eating poisoned meat{" "}
-            <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
-              in reaction to the trade war
-            </a>
-            <br />
-            <a href="https://wavv.art/forumAnwTeKQ7MJZlbGtknlur">
-              wavv.art/forumAnwTeKQ7MJZlbGtknlur
-            </a>
-            <br />
-            Twelve percent of China’s population is age 65 or above. That share
-            is 16 percent in the United States, 6 percent in India, and 3
-            percent in Nigeria.
-            <a href="https://www.prb.org/countries-with-the-oldest-populations/">
-              https://www.prb.org/countries-with-the-oldest-populations/
-            </a>
-            <br />
-            stop blaming others for advice, youtube put up videos of kids
-            kissing random girls and{" "}
-            <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
-              all of them liking it
-            </a>
-            <br />
-            i think this is why instagram recently voided all class action
-            lawsuits in their inclusion terms
-            <br />
-            <a href="https://wavv.art/forumur7AXXUYTzAVWHyPvjVS">
-              wavv.art/forumur7AXXUYTzAVWHyPvjVS
-            </a>
-            <br />
-            Amendment 13 protects free speech privately and arousal-orientation
-            per non-monopsomous inclusion in supply, not just demand (and
-            vise-versa)
-            <br />
-            privacy is required for expression, govID for all and parole
-            intranet can defend domestic violence just fine
-            <br />
-            I hope people other parties, scientists, pollsters and tech leaders
-            will follow
-            <br />
-            Tim cook has delayed in adding input control at control panel, and
-            now he is going to pass off my day-clock as his own. he will follow{" "}
-            <a href="https://thumbprint.us">thumbprint.us</a>
-            <br />
-            Incitement to violence on platforms, not paid writers, is destroying
-            evidence, prohibiting trading ideas and finding solutions
-            <br />
-            if you are allowed to fight without weapons to defend someone
-            stealing your car, you can fight back or threat without weapons if
-            someone is stealing anything.
-            <br />
-            please stop selling us out
-            <br />
-            UBI without debt is bad competitively and causes hostile
-            international relations,{" "}
-            <span
-              style={{
-                textDecoration: "underline",
-                fontWeight: "bold"
-              }}
-            >
-              with debt appreciates by malfeasant and corrupt jurisprudence that
-              the money can be paid back
-            </span>{" "}
-            which is impossible but they allow them to prosecute and cash out at
-            price-fixed counterfeit levels of success anyway
-          </div>
-          <div
-            style={{
-              padding: "20px",
-
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px"
-            }}
-          >
-            <br />
-            everytime a borrower spends a lender's dollar they force you & your
-            customers to invest in their purchases, cornering assets
-            <br />
-            why would you pay tax or debt when it is impossible? better sue
-            <br />
-            not banning prohibitory bills for settled trade is either nefarious
-            or short-sighted
-            <br />
-            More aid for the recently unemployed. There are 40% unemployed that
-            aren’t getting an equal application of law.{" "}
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => this.scrolllto.current.scrollIntoView("smooth")}
-            >
-              None of us consented
-            </span>
-            &nbsp;
-            <a href="https://vaults.biz">vaults.biz</a>
-          </div>
-          <div
-            style={{
-              padding: "20px",
-
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px"
-            }}
-          >
-            <br />
-            "financial support" promoted by China Biden is fraud to only help
-            those who created bills that are otherwise impossible to pay,
-            support the victims by disallowing prosecution and cutting price if
-            paid partially to cash:debt of the economy to find what would
-            otherwise be the market price. Ensure that the trades going forward
-            are settled, no human is traded again in a securitized instrument,
-            their items to buy aren't collateralized and colonized, and prices
-            fall to non-cheating, assumptive and involuntary levels of the
-            promises ensured by the courts, no more
-            <br />
-            free-market economics without monopolization is grounded in
-            teamwork, human labor is not capital
-            <br />
-            government spending or stipends are not free, even if they do not
-            promise bonds that which they cannot, it is counterfeit voting
-            rights of dollar shareholders and cornering those assets if made
-            under debt
-            <br />
-            if you can't be sued for someone else's comment on the platform that
-            you do not pay them for, you cannot exclude them from the economy
-            <br />
-            Phil Murphy is from goldman and supports offshore drilling, finance
-            owns 11x everyone else being 2% of population, all those assets are
-            11 times-counted and counterfeit. he is gluttonous
-            <br />
-            weed is illegal because it is a currency competitor
-          </div>
-        </div>
-        <div
-          onClick={() =>
-            this.setState({ openElement: !this.state.openElement })
-          }
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline",
-            left: "0px",
-            borderRadius: "30px",
-            width: "30px",
-            height: "30px",
-            backgroundColor: "rgb(20,20,25)"
-          }}
-        />
-        <div
-          style={{
-            height: this.state.openElement ? "min-content" : "0px",
-            opacity: this.state.openElement ? "1" : "0"
-          }}
-        >
-          heat as electron compound non-stability
-          <br />
-          Probability cannot be explained during mutually-exclusive, non-random
-          (not shuffled) events
-          <br />
-          Ballot-harvesting is sample bias
-        </div>
-        <br />
-        <div
-          style={{
-            padding: "20px",
-
-            border: "1px dotted",
-            width: "100%",
-            maxWidth: "600px"
-          }}
-        >
-          donald trump rushes this, fda corners were cut, facebook bans protest
-          from legitimate worries like mine of b-cell dysregulation tending to
-          cause oncogenesis... this is hell
-          <br />
-          Trump did not incite violence or unreasonable insurrection (unfair
-          elections is slavery, let alone any debt or non-debtless-UBI) he said
-          to protest, the company had a history of working with corrupt
-          elections when Nick Carducci's thumbprint.us is here as an alternative
-          <br />
-          congress cannot impeach indefinitely because voting populus and
-          congress change... alan dershowitz is misleading for some reason
-          <br />
-          for this impeachment, saying the election is stolen is not only an
-          opinion, you are allowed to protest, but there is legitimate concerns
-          cited above
-          <br />
-          splitting shares of dollars further in any stimulus by debt or
-          involuntary charity of labor to match lender price-fixing to what they
-          imagine instead of what they can get is fraudulent in motive and
-          counterfeit
-          <br />
-          Amendment 13 prohibits the exclusion of people based on orientation or
-          monopsony
-          <br />
-        </div>
-        <div
-          style={{
-            position: "relative"
-          }}
-        >
-          <img
-            alt="finance was public opinion not hair color"
-            style={{
-              width: "100%",
-              height: "auto",
-              position: "relative"
-            }}
-            src="https://www.dl.dropboxusercontent.com/s/g6pmh23ot7le12o/Screen%20Shot%202021-01-16%20at%204.08.54%20PM.png?dl=0"
-          />
-        </div>
-        <div
-          style={{
-            padding: "20px",
-            fontSize: "10px",
-            width: "100%",
-            maxWidth: "500px",
-            display: "flex",
-            alignItems: "flex-start"
-          }}
-        >
-          Says legal warnings are applicable if there is defamation by you
-          deepfriedorka (dfa) asked me to respond to him or her, so I am forced
-          to use this page again, sorry if there is another method I didn't
-          notice.  dfa asked how I can write my facts for the Third Reich and
-          Holocaust pages constructively. I would likely say the same point, you
-          can edit how you like and I am not one for lengthy explanations of
-          things.  There is a grave incorrect notion about WWII history, which
-          can be disproven by logic, or a system that excludes possibilities and
-          proves truths by way of deduction.  Since there were not pollsters of
-          the axis powers at that time, but numerous accounts of Hitler's
-          manipulation and hiding of intentions, the supposition of deduction in
-          finding motive I believe to be appropriate and help maintain dignity
-          of my culture.  It seems according to the Halakha supports the notion
-          of discriminatory costs, which is grounds for the true motive of the
-          populace where polling history cannot define. Best wishes, which I do
-          not feel is the same wish by Halakha.  I have more information that is
-          critical to understanding, I have spent years researching that would
-          be a shame to not be on wikipedia, but that would just mean you aren't
-          allowed to make some of the claims about building an encyclopedia that
-          you do, and there would be an opportunity for competition. Nick
-          Carducci.sh
-        </div>
-        <div
-          style={{
-            justifyContent: "center",
-            display: "flex",
-            flexWrap: "wrap",
-            width: "100%"
-          }}
-        >
-          <div
-            style={{
-              padding: "20px",
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px"
-            }}
-          >
-            <span
+            <div
               style={{
                 padding: "20px",
 
+                border: "1px dotted",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              Why do the majority of people join the military? money/assassins
+              for hire
+              <br /> <br />
+              You can really only certify but not bar unless there is prove-able
+              harm or it is prohibitive to not do it. In this case, neither is
+              harm proven with evidence that spittle from talking floats, nor is
+              it prohibitive for people who don’t want to be around people
+              wearing masks. Their preference for others is more onerous than
+              people who prefer sneezing into their elbow. Masks are as reckless
+              as NIH & Fauci getting paid dollar split to experiment with virus
+              in anti-human rights China
+              <br /> <br />
+              We need tort reform in the process of barring or citing cease &
+              desist. A warning from a complaint that a court can lay instead of
+              bonds and fines, before an incident occurs
+              <br /> <br />
+              the law of banishing involuntary slavery by people that own the
+              dollars that use to promise, duress of those that borrow to match
+              fixed-prices, or unequal protection of corporate shares vs dollars
+              as waged in contracts
+              <br />
+              <br />
+              old people are crowding us out of assets
+              <br />
+              it would be better to ban invoices and renting out more than one
+              can live in at one time
+              <br />
+              if you teach your teachers something they&nbsp;
+              <a href="https://open.spotify.com/track/1hOSO8FbW0l1heJm1BiTWi?si=KV6Jx-CMRlKAPDZJRG7DFg">
+                fail you
+              </a>
+              <br />
+              you can only exclude based on health if there are visible symtoms
+              or the tests are non-invasive. Otherwise they cause duress to not
+              be only giving into the economy but not able to take (slavery)
+              <br />
+              forcing you to wear a mask is dangerous to your health, you should
+              be sneezing into your palms and then wash your hands
+              <br />
+              also comprehensive science, not sampled data, says masks do not
+              help. spittle or breathe has not been proven to float. only
+              aerosols in a nebulizer, which may have been dust. the only study
+              like this did not specify, but even water sprayed is not how
+              people talk. the study of spittle specifically only showed a 1ft
+              release, which fell immediately. it likely is transferred by
+              eating poisoned meat{" "}
+              <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
+                in reaction to the trade war
+              </a>
+              <br />
+              <a href="https://wavv.art/forumAnwTeKQ7MJZlbGtknlur">
+                wavv.art/forumAnwTeKQ7MJZlbGtknlur
+              </a>
+              <br />
+              Twelve percent of China’s population is age 65 or above. That
+              share is 16 percent in the United States, 6 percent in India, and
+              3 percent in Nigeria.
+              <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+                https://www.prb.org/countries-with-the-oldest-populations/
+              </a>
+              <br />
+              stop blaming others for advice, youtube put up videos of kids
+              kissing random girls and{" "}
+              <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
+                all of them liking it
+              </a>
+              <br />
+              i think this is why instagram recently voided all class action
+              lawsuits in their inclusion terms
+              <br />
+              <a href="https://wavv.art/forumur7AXXUYTzAVWHyPvjVS">
+                wavv.art/forumur7AXXUYTzAVWHyPvjVS
+              </a>
+              <br />
+              Amendment 13 protects free speech privately and
+              arousal-orientation per non-monopsomous inclusion in supply, not
+              just demand (and vise-versa)
+              <br />
+              privacy is required for expression, govID for all and parole
+              intranet can defend domestic violence just fine
+              <br />
+              I hope people other parties, scientists, pollsters and tech
+              leaders will follow
+              <br />
+              Tim cook has delayed in adding input control at control panel, and
+              now he is going to pass off my day-clock as his own. he will
+              follow <a href="https://thumbprint.us">thumbprint.us</a>
+              <br />
+              Incitement to violence on platforms, not paid writers, is
+              destroying evidence, prohibiting trading ideas and finding
+              solutions
+              <br />
+              if you are allowed to fight without weapons to defend someone
+              stealing your car, you can fight back or threat without weapons if
+              someone is stealing anything.
+              <br />
+              please stop selling us out
+              <br />
+              UBI without debt is bad competitively and causes hostile
+              international relations,{" "}
+              <span
+                style={{
+                  textDecoration: "underline",
+                  fontWeight: "bold"
+                }}
+              >
+                with debt appreciates by malfeasant and corrupt jurisprudence
+                that the money can be paid back
+              </span>{" "}
+              which is impossible but they allow them to prosecute and cash out
+              at price-fixed counterfeit levels of success anyway
+            </div>
+            <div
+              style={{
+                padding: "20px",
+
+                border: "1px dotted",
                 width: "100%",
                 maxWidth: "600px"
               }}
             >
               <br />
-              The term for "fully-capable yet self-harming" is non-existent and
-              linguistically-deconstructing the word "retard" by its affixes
-              describes one that is not necessarily already a tard but is often
-              destructive of themselves or others per societal symbiosis.
-              <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
-                https://www.lexico.com/grammar/prefixes-and-suffixes
-              </a>{" "}
-              To suggest otherwise mischaracterizes tards as not being
-              self-preserving, describing them to always be retarding themselves
-              or their society.
+              everytime a borrower spends a lender's dollar they force you &
+              your customers to invest in their purchases, cornering assets
               <br />
-            </span>
-            <span
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              {" "}
-              stop saying printing delays pain of foreclosure the pain is in the
-              prohibition of price-elasticity and impossibility of debt to allow
-              usurpers to use assets on false pretenses of ownership of assets
-              they promise
+              why would you pay tax or debt when it is impossible? better sue
               <br />
-              growth of an economy by shares only increase wealth disparity;
-              growth by population lessens wealth disparity
+              not banning prohibitory bills for settled trade is either
+              nefarious or short-sighted
               <br />
-              unemployment rate is a phone survey of 2k people that aren't out
-              looking for work who have time, the employment rate is 60%.
-              bailing out their bills prohibit trade and fix-prices at tangible
-              and opportunity costs based not on what the promiser actually owns
-              <br />
-              claims that you are protected by insurance is wrong, they abett
-              invoices, promises made with money that the promiser does not have
-            </span>
-            <br />
-            <span
-              ref={this.marx}
-              style={{
-                padding: "4px 10px",
-                borderRadius: "15px",
-                color: this.state.highlightMarx ? "white" : "",
-                backgroundColor: this.state.highlightMarx
-                  ? "rgb(170,100,205)"
-                  : "",
-                transition: ".3s ease-out"
-              }}
-            >
-              {" "}
-              Marx was not communist, colonist or
-              slave-driver/interferer/rentier, he was an end-the-fed guy
-              <br />
-              He doesn't want&nbsp;
+              More aid for the recently unemployed. There are 40% unemployed
+              that aren’t getting an equal application of law.{" "}
               <span
                 style={{
                   fontWeight: "bolder",
                   textDecoration: "underline"
                 }}
+                onClick={() => this.scrolllto.current.scrollIntoView("smooth")}
+              >
+                None of us consented
+              </span>
+              &nbsp;
+              <a href="https://vaults.biz">vaults.biz</a>
+            </div>
+            <div
+              style={{
+                padding: "20px",
+
+                border: "1px dotted",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              <br />
+              "financial support" promoted by China Biden is fraud to only help
+              those who created bills that are otherwise impossible to pay,
+              support the victims by disallowing prosecution and cutting price
+              if paid partially to cash:debt of the economy to find what would
+              otherwise be the market price. Ensure that the trades going
+              forward are settled, no human is traded again in a securitized
+              instrument, their items to buy aren't collateralized and
+              colonized, and prices fall to non-cheating, assumptive and
+              involuntary levels of the promises ensured by the courts, no more
+              <br />
+              free-market economics without monopolization is grounded in
+              teamwork, human labor is not capital
+              <br />
+              government spending or stipends are not free, even if they do not
+              promise bonds that which they cannot, it is counterfeit voting
+              rights of dollar shareholders and cornering those assets if made
+              under debt
+              <br />
+              if you can't be sued for someone else's comment on the platform
+              that you do not pay them for, you cannot exclude them from the
+              economy
+              <br />
+              Phil Murphy is from goldman and supports offshore drilling,
+              finance owns 11x everyone else being 2% of population, all those
+              assets are 11 times-counted and counterfeit. he is gluttonous
+              <br />
+              weed is illegal because it is a currency competitor
+            </div>
+          </div>
+          <div
+            onClick={() =>
+              this.setState({ openElement: !this.state.openElement })
+            }
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline",
+              left: "0px",
+              borderRadius: "30px",
+              width: "30px",
+              height: "30px",
+              backgroundColor: "rgb(20,20,25)"
+            }}
+          />
+          <div
+            style={{
+              height: this.state.openElement ? "min-content" : "0px",
+              opacity: this.state.openElement ? "1" : "0"
+            }}
+          >
+            heat as electron compound non-stability
+            <br />
+            Probability cannot be explained during mutually-exclusive,
+            non-random (not shuffled) events
+            <br />
+            Ballot-harvesting is sample bias
+          </div>
+          <br />
+          <div
+            style={{
+              padding: "20px",
+
+              border: "1px dotted",
+              width: "100%",
+              maxWidth: "600px"
+            }}
+          >
+            donald trump rushes this, fda corners were cut, facebook bans
+            protest from legitimate worries like mine of b-cell dysregulation
+            tending to cause oncogenesis... this is hell
+            <br />
+            Trump did not incite violence or unreasonable insurrection (unfair
+            elections is slavery, let alone any debt or non-debtless-UBI) he
+            said to protest, the company had a history of working with corrupt
+            elections when Nick Carducci's thumbprint.us is here as an
+            alternative
+            <br />
+            congress cannot impeach indefinitely because voting populus and
+            congress change... alan dershowitz is misleading for some reason
+            <br />
+            for this impeachment, saying the election is stolen is not only an
+            opinion, you are allowed to protest, but there is legitimate
+            concerns cited above
+            <br />
+            splitting shares of dollars further in any stimulus by debt or
+            involuntary charity of labor to match lender price-fixing to what
+            they imagine instead of what they can get is fraudulent in motive
+            and counterfeit
+            <br />
+            Amendment 13 prohibits the exclusion of people based on orientation
+            or monopsony
+            <br />
+          </div>
+          <div
+            style={{
+              position: "relative"
+            }}
+          >
+            <img
+              alt="finance was public opinion not hair color"
+              style={{
+                width: "100%",
+                height: "auto",
+                position: "relative"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/g6pmh23ot7le12o/Screen%20Shot%202021-01-16%20at%204.08.54%20PM.png?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              padding: "20px",
+              fontSize: "10px",
+              width: "100%",
+              maxWidth: "500px",
+              display: "flex",
+              alignItems: "flex-start"
+            }}
+          >
+            Says legal warnings are applicable if there is defamation by you
+            deepfriedorka (dfa) asked me to respond to him or her, so I am
+            forced to use this page again, sorry if there is another method I
+            didn't notice.  dfa asked how I can write my facts for the Third
+            Reich and Holocaust pages constructively. I would likely say the
+            same point, you can edit how you like and I am not one for lengthy
+            explanations of things.  There is a grave incorrect notion about
+            WWII history, which can be disproven by logic, or a system that
+            excludes possibilities and proves truths by way of deduction.  Since
+            there were not pollsters of the axis powers at that time, but
+            numerous accounts of Hitler's manipulation and hiding of intentions,
+            the supposition of deduction in finding motive I believe to be
+            appropriate and help maintain dignity of my culture.  It seems
+            according to the Halakha supports the notion of discriminatory
+            costs, which is grounds for the true motive of the populace where
+            polling history cannot define. Best wishes, which I do not feel is
+            the same wish by Halakha.  I have more information that is critical
+            to understanding, I have spent years researching that would be a
+            shame to not be on wikipedia, but that would just mean you aren't
+            allowed to make some of the claims about building an encyclopedia
+            that you do, and there would be an opportunity for competition. Nick
+            Carducci.sh
+          </div>
+          <div
+            style={{
+              justifyContent: "center",
+              display: "flex",
+              flexWrap: "wrap",
+              width: "100%"
+            }}
+          >
+            <div
+              style={{
+                padding: "20px",
+                border: "1px dotted",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              <span
+                style={{
+                  padding: "20px",
+
+                  width: "100%",
+                  maxWidth: "600px"
+                }}
+              >
+                <br />
+                The term for "fully-capable yet self-harming" is non-existent
+                and linguistically-deconstructing the word "retard" by its
+                affixes describes one that is not necessarily already a tard but
+                is often destructive of themselves or others per societal
+                symbiosis.
+                <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
+                  https://www.lexico.com/grammar/prefixes-and-suffixes
+                </a>{" "}
+                To suggest otherwise mischaracterizes tards as not being
+                self-preserving, describing them to always be retarding
+                themselves or their society.
+                <br />
+              </span>
+              <span
+                style={{
+                  padding: "20px",
+
+                  width: "100%",
+                  maxWidth: "600px"
+                }}
+              >
+                {" "}
+                stop saying printing delays pain of foreclosure the pain is in
+                the prohibition of price-elasticity and impossibility of debt to
+                allow usurpers to use assets on false pretenses of ownership of
+                assets they promise
+                <br />
+                growth of an economy by shares only increase wealth disparity;
+                growth by population lessens wealth disparity
+                <br />
+                unemployment rate is a phone survey of 2k people that aren't out
+                looking for work who have time, the employment rate is 60%.
+                bailing out their bills prohibit trade and fix-prices at
+                tangible and opportunity costs based not on what the promiser
+                actually owns
+                <br />
+                claims that you are protected by insurance is wrong, they abett
+                invoices, promises made with money that the promiser does not
+                have
+              </span>
+              <br />
+              <span
+                ref={this.marx}
+                style={{
+                  padding: "4px 10px",
+                  borderRadius: "15px",
+                  color: this.state.highlightMarx ? "white" : "",
+                  backgroundColor: this.state.highlightMarx
+                    ? "rgb(170,100,205)"
+                    : "",
+                  transition: ".3s ease-out"
+                }}
+              >
+                {" "}
+                Marx was not communist, colonist or
+                slave-driver/interferer/rentier, he was an end-the-fed guy
+                <br />
+                He doesn't want&nbsp;
+                <span
+                  style={{
+                    fontWeight: "bolder",
+                    textDecoration: "underline"
+                  }}
+                  onClick={() => {
+                    this.congressVsCongress.current.scrollIntoView("smooth");
+                    this.setState({ highlightCVC: true });
+                    setTimeout(
+                      () => this.setState({ highlightCVC: false }),
+                      10000
+                    );
+                  }}
+                >
+                  big government
+                </span>
+                , he wanted people to earn equity from work, not lending
+              </span>
+            </div>
+            <div
+              style={{
+                padding: "20px",
+
+                border: "1px dotted",
+
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              <br />
+              not allowing entrance to tourists based not on symptoms or
+              non-invasive testing is slavery of give but no take
+              <br />
+              <span
                 onClick={() => {
-                  this.congressVsCongress.current.scrollIntoView("smooth");
-                  this.setState({ highlightCVC: true });
+                  this.booker.current.scrollIntoView("smooth");
+                  this.setState({ highlightBooker: true });
                   setTimeout(
-                    () => this.setState({ highlightCVC: false }),
+                    () => this.setState({ highlightBooker: false }),
                     10000
                   );
                 }}
+                ref={this.brookings}
+                style={{
+                  position: "relative",
+
+                  padding: "4px 10px",
+                  transition: ".3s ease-in",
+                  borderRadius: "15px",
+                  color: this.state.highlightBrookings ? "white" : "",
+                  backgroundColor: this.state.highlightBrookings
+                    ? "rgb(170,100,205)"
+                    : "",
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
               >
-                big government
+                The Brookings Institution / NPR advocates for baby bonds , not
+                ubi to close a 10x white wealth gap, while there is 11x gap
+                between finance versus other sectors of employment while only
+                being 5% of 60% employed, or about 2% total. black people are
+                13% of population. talk about missing the Forest for the Trees
+                #macroeconomics #money #markets #economy #socialjustice ____
+                #pricefixing
+                <br />
+                supreme court saying nazi could walk chicago is wrong because
+                there is probable-evidence-of-evidence of motive to do them harm
+                physically or financially (not valuation but tangible losses)
+                neighborhood law is like the sea law but between homes, that's
+                why open-carry is also an exhibited&nbsp;
+                <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>
               </span>
-              , he wanted people to earn equity from work, not lending
-            </span>
-          </div>
-          <div
-            style={{
-              padding: "20px",
-
-              border: "1px dotted",
-
-              width: "100%",
-              maxWidth: "600px"
-            }}
-          >
-            <br />
-            not allowing entrance to tourists based not on symptoms or
-            non-invasive testing is slavery of give but no take
-            <br />
-            <span
-              onClick={() => {
-                this.booker.current.scrollIntoView("smooth");
-                this.setState({ highlightBooker: true });
-                setTimeout(
-                  () => this.setState({ highlightBooker: false }),
-                  10000
-                );
-              }}
-              ref={this.brookings}
+              <br />
+              <b style={{ textDecoration: "underline" }}>
+                Any further Stimulus is bail out for usurpers
+              </b>
+              , whom forced us under duress or without consent at all to promise
+              someone else's money. Not allowing assets to settle and scalping
+              or renting more than you can use yourself is abuse and
+              market-level colonialism, which is illegal according to Amendment
+              13 and reason for revolutionary war according to our founding.
+              Lending is also
+              <b style={{ textDecoration: "underline" }}>
+                illegal according to Amendment 14 since you cannot promise share
+                or stock of Amazon if you don't own it
+              </b>
+              , the court will laugh at your lender asking for this. But not for
+              dollars. Why?
+              <br />
+              <br />I am in debt but have paid more than 1:11 principal of those
+              prices for market-share last-trade valuation of global assets, not
+              three parties of lender/borrower/seller motivated by involuntary
+              servitude and duress of SAVERS BUILDERS AND LABOR (ultimately,
+              colonialism-per-market sector by cornering assets and scalping
+              more that what you can use yourself, there is no utility exchanged
+              in the trade just counterfeit of the demand that has the actual
+              market-share certificate)),
+              <b style={{ textDecoration: "underline" }}>
+                and the borrower gets to use the asset while they made a promise
+                they have no right to make price-fixed beyond reality.
+              </b>
+              <br />
+              <br />
+              gov debt is still being valued as the same payout as personal
+              debt. I’m talking about shareholder rights if dollars are shares,
+              which they essentially are certificates on market-share. They
+              should be vault-share vaults.biz...
+              <br />
+              You may only sell your share, that means your lender cannot
+              request the money back unless (1) the borrower has it, (2) paid
+              less than cash:debt at the time of promise or (3) it was tied to a
+              specific business line of unique IP/location/customers and it is
+              no more than what the borrower originally planned to spend, where
+              no increase in the market-price is made without the consent of the
+              customer of the borrower
+              <br />
+              The FDIC insures their valuation with their valuation... congrats
+              <br />
+              Where was trumps incitement of violence you cunt, no proof trump
+              ordered them to stand down
+              <br />
+              the individuals can claim being led, but the president is not
+              guilty of anything. {/*sure, */}go kill yourself, the deal is in
+              the name. no I am not a CFA as i suggest you do that (caveat: as
+              if I wouldn't care, so do not assume I have this intent for anyone
+              per 3;4;1 as I want parole intranet. Restraints & contracts can go
+              only as far as what is possible for all to be)
+            </div>
+            <div
+              ref={this.electionTech}
               style={{
-                position: "relative",
+                padding: "20px",
 
-                padding: "4px 10px",
+                border: "1px dotted",
+                width: "100%",
+                maxWidth: "600px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
-                color: this.state.highlightBrookings ? "white" : "",
-                backgroundColor: this.state.highlightBrookings
+                color: this.state.highlightElectionTech ? "white" : "",
+                backgroundColor: this.state.highlightElectionTech
                   ? "rgb(170,100,205)"
-                  : "",
-                fontWeight: "bolder",
-                textDecoration: "underline"
+                  : ""
               }}
             >
-              The Brookings Institution / NPR advocates for baby bonds , not ubi
-              to close a 10x white wealth gap, while there is 11x gap between
-              finance versus other sectors of employment while only being 5% of
-              60% employed, or about 2% total. black people are 13% of
-              population. talk about missing the Forest for the Trees
-              #macroeconomics #money #markets #economy #socialjustice ____
-              #pricefixing
               <br />
-              supreme court saying nazi could walk chicago is wrong because
-              there is probable-evidence-of-evidence of motive to do them harm
-              physically or financially (not valuation but tangible losses)
-              neighborhood law is like the sea law but between homes, that's why
-              open-carry is also an exhibited&nbsp;
-              <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>
-            </span>
-            <br />
-            <b style={{ textDecoration: "underline" }}>
-              Any further Stimulus is bail out for usurpers
-            </b>
-            , whom forced us under duress or without consent at all to promise
-            someone else's money. Not allowing assets to settle and scalping or
-            renting more than you can use yourself is abuse and market-level
-            colonialism, which is illegal according to Amendment 13 and reason
-            for revolutionary war according to our founding. Lending is also
-            <b style={{ textDecoration: "underline" }}>
-              illegal according to Amendment 14 since you cannot promise share
-              or stock of Amazon if you don't own it
-            </b>
-            , the court will laugh at your lender asking for this. But not for
-            dollars. Why?
-            <br />
-            <br />I am in debt but have paid more than 1:11 principal of those
-            prices for market-share last-trade valuation of global assets, not
-            three parties of lender/borrower/seller motivated by involuntary
-            servitude and duress of SAVERS BUILDERS AND LABOR (ultimately,
-            colonialism-per-market sector by cornering assets and scalping more
-            that what you can use yourself, there is no utility exchanged in the
-            trade just counterfeit of the demand that has the actual
-            market-share certificate)),
-            <b style={{ textDecoration: "underline" }}>
-              and the borrower gets to use the asset while they made a promise
-              they have no right to make price-fixed beyond reality.
-            </b>
-            <br />
-            <br />
-            gov debt is still being valued as the same payout as personal debt.
-            I’m talking about shareholder rights if dollars are shares, which
-            they essentially are certificates on market-share. They should be
-            vault-share vaults.biz...
-            <br />
-            You may only sell your share, that means your lender cannot request
-            the money back unless (1) the borrower has it, (2) paid less than
-            cash:debt at the time of promise or (3) it was tied to a specific
-            business line of unique IP/location/customers and it is no more than
-            what the borrower originally planned to spend, where no increase in
-            the market-price is made without the consent of the customer of the
-            borrower
-            <br />
-            The FDIC insures their valuation with their valuation... congrats
-            <br />
-            Where was trumps incitement of violence you cunt, no proof trump
-            ordered them to stand down
-            <br />
-            the individuals can claim being led, but the president is not guilty
-            of anything. {/*sure, */}go kill yourself, the deal is in the name.
-            no I am not a CFA as i suggest you do that (caveat: as if I wouldn't
-            care, so do not assume I have this intent for anyone per 3;4;1 as I
-            want parole intranet. Restraints & contracts can go only as far as
-            what is possible for all to be)
-          </div>
-          <div
-            ref={this.electionTech}
-            style={{
-              padding: "20px",
+              it is not an insurrection if it is his opinion, regardless if
+              there is merit to Nick Carducci's{" "}
+              <a href="https://vaults.biz">vaults.biz</a> election tech
+              competitors who have worked with corrupt government elections,
+              arrests of voter harvesting (sample bias) were made, and elections
+              called on election day is a fault in the rules of elections by
+              statistics
+              <br />
+              Public and private market intervention is a violation of civil
+              rights of not having any involuntary servitude by duress or cost
+              placed on savers, and the unequal application of the law for
+              dollar owners versus shareholders of equity.{" "}
+              <b>
+                Lender, invoice-makers and renting more places one can live is
+                usurping assets by imagining the borrower has the right to what
+                they promise, which there is not even enough given interest by
+                time.
+              </b>{" "}
+              Payday loans on customers is also illegal since they promise other
+              people's money and they cannot wait so they charge customers. All
+              insurance companies cannot claim they save people money if they on
+              net lose money and only save relatively to eachother. In fact,
+              they operate on duress and even if they do not pay invoices only
+              gift-certificates, those do not necessarily rollover to the
+              client. Expiring or non-rollover gift certificates must be made
+              illegal in order to ensure the market players are doing no harm to
+              those in the pool under duress (there is no utility to insurance
+              except to recoup personal buying power to match the pooled
+              capacity) or those who those in the pool must take their money
+              from.{" "}
+              <b>
+                This is not like a subscription-membership because that is
+                subject to competitive producers (if they are legally
+                non-prohibitive based on existing market penetration and without
+                subsidiary or subcontracted contracts with non-compete
+                agreements ...), not a third party's money, or in other words
+                one person's subscription does not go towards someone else's, it
+                goes to pay for their non-monopsony, individual servicing
+              </b>{" "}
+              Grow up
+              <br />
+              if it is not possible in whole, it is not possible to complete in
+              part, since that part must be ran at the same time
+            </div>
+            <div
+              style={{
+                padding: "20px",
 
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px",
-              transition: ".3s ease-in",
-              borderRadius: "15px",
-              color: this.state.highlightElectionTech ? "white" : "",
-              backgroundColor: this.state.highlightElectionTech
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            <br />
-            it is not an insurrection if it is his opinion, regardless if there
-            is merit to Nick Carducci's{" "}
-            <a href="https://vaults.biz">vaults.biz</a> election tech
-            competitors who have worked with corrupt government elections,
-            arrests of voter harvesting (sample bias) were made, and elections
-            called on election day is a fault in the rules of elections by
-            statistics
-            <br />
-            Public and private market intervention is a violation of civil
-            rights of not having any involuntary servitude by duress or cost
-            placed on savers, and the unequal application of the law for dollar
-            owners versus shareholders of equity.{" "}
-            <b>
-              Lender, invoice-makers and renting more places one can live is
-              usurping assets by imagining the borrower has the right to what
-              they promise, which there is not even enough given interest by
-              time.
-            </b>{" "}
-            Payday loans on customers is also illegal since they promise other
-            people's money and they cannot wait so they charge customers. All
-            insurance companies cannot claim they save people money if they on
-            net lose money and only save relatively to eachother. In fact, they
-            operate on duress and even if they do not pay invoices only
-            gift-certificates, those do not necessarily rollover to the client.
-            Expiring or non-rollover gift certificates must be made illegal in
-            order to ensure the market players are doing no harm to those in the
-            pool under duress (there is no utility to insurance except to recoup
-            personal buying power to match the pooled capacity) or those who
-            those in the pool must take their money from.{" "}
-            <b>
-              This is not like a subscription-membership because that is subject
-              to competitive producers (if they are legally non-prohibitive
-              based on existing market penetration and without subsidiary or
-              subcontracted contracts with non-compete agreements ...), not a
-              third party's money, or in other words one person's subscription
-              does not go towards someone else's, it goes to pay for their
-              non-monopsony, individual servicing
-            </b>{" "}
-            Grow up
-            <br />
-            if it is not possible in whole, it is not possible to complete in
-            part, since that part must be ran at the same time
+                border: "1px dotted",
+                width: "100%",
+                maxWidth: "600px"
+              }}
+            >
+              <br />
+              you don't own time. congress changes and you cannot wager future
+              states
+              <i>
+                "The first Political Party to interpret civil rights as meaning
+                to defend people against public and private market
+                intervention,"
+              </i>
+              <i>
+                "shareholder rights as dollar rights," and "market-colonialism
+                as involuntary servitude"
+              </i>
+              <br />
+              the rights of inclusion by way of amendment 13 (no take only give)
+              <br />
+              subvert my ability to enter not depending on harming myself -
+              usually goes as far as one's ideas that it is harm like
+              oncogenesis of b-cell dysregulation or that breathe actually
+              travels within 1 ft & the proof it floats is from a nebulizer in a
+              3ft drum (who breathes like that?), it would have to be impossible
+              to do business with all if it is impossible to do business with
+              one - see methane fires and tobacco doctors
+              <br />
+              otherwise it is harm in whole, or wear a shirt into your business
+              <br />
+              with an arrow pointing up claiming the wearer has no good brain
+              <br />
+              {/*<div id="t1318204966461444096" />*/}
+              You know what is better than a 444(c)3? One that’s owned by every
+              living person
+              <br />
+              <br />
+              Allowing your business partner to lend out their share for more
+              share of your company should be illegal or at least moot
+            </div>
           </div>
+          <br />
+          <div id="t1334836094945341440" />
+          <div id="t1334649662725304322" />
+          <div id="t1334826386314440707" />
+          <br />
           <div
             style={{
+              border: "1px solid black",
+              width: "min-content",
               padding: "20px",
-
-              border: "1px dotted",
-              width: "100%",
-              maxWidth: "600px"
+              marginBottom: "30px",
+              color: "white",
+              backgroundColor: "blue" //#0000FA
             }}
           >
-            <br />
-            you don't own time. congress changes and you cannot wager future
-            states
-            <i>
-              "The first Political Party to interpret civil rights as meaning to
-              defend people against public and private market intervention,"
-            </i>
-            <i>
-              "shareholder rights as dollar rights," and "market-colonialism as
-              involuntary servitude"
-            </i>
-            <br />
-            the rights of inclusion by way of amendment 13 (no take only give)
-            <br />
-            subvert my ability to enter not depending on harming myself -
-            usually goes as far as one's ideas that it is harm like oncogenesis
-            of b-cell dysregulation or that breathe actually travels within 1 ft
-            & the proof it floats is from a nebulizer in a 3ft drum (who
-            breathes like that?), it would have to be impossible to do business
-            with all if it is impossible to do business with one - see methane
-            fires and tobacco doctors
-            <br />
-            otherwise it is harm in whole, or wear a shirt into your business
-            <br />
-            with an arrow pointing up claiming the wearer has no good brain
-            <br />
-            {/*<div id="t1318204966461444096" />*/}
-            You know what is better than a 444(c)3? One that’s owned by every
-            living person
-            <br />
-            <br />
-            Allowing your business partner to lend out their share for more
-            share of your company should be illegal or at least moot
-          </div>
-        </div>
-        <br />
-        <div id="t1334836094945341440" />
-        <div id="t1334649662725304322" />
-        <div id="t1334826386314440707" />
-        <br />
-        <div
-          style={{
-            border: "1px solid black",
-            width: "min-content",
-            padding: "20px",
-            marginBottom: "30px",
-            color: "white",
-            backgroundColor: "blue" //#0000FA
-          }}
-        >
-          <div
-            onClick={() => {
-              this.setState({
-                openForm: true,
-                alsoed: false,
-                scrolled: true
-              });
-              this.navbar.current.scrollIntoView("smooth");
-              //const answer = this.isInViewport();
-              //if (!answer) {
-              console.log(
-                "go"
-              ); /*
+            <div
+              onClick={() => {
+                this.setState({
+                  openForm: true,
+                  alsoed: false,
+                  scrolled: true
+                });
+                this.navbar.current.scrollIntoView("smooth");
+                //const answer = this.isInViewport();
+                //if (!answer) {
+                console.log(
+                  "go"
+                ); /*
               setTimeout(
                 () =>
                   this.navbar.current.scrollIntoView({
@@ -11414,88 +11491,88 @@ export default class App extends React.Component {
                   }),
                 250
               );*/
-              //}
-            }}
+                //}
+              }}
+              style={
+                !this.state.openForm
+                  ? {
+                      fontWeight: "bolder",
+                      textDecoration: "underline",
+                      cursor: "pointer"
+                    }
+                  : { display: "none" }
+              }
+            >
+              <br />
+              join us / contact
+            </div>
+          </div>
+          <div
+            ref={this.navbar}
             style={
-              !this.state.openForm
+              this.state.openForm
                 ? {
-                    fontWeight: "bolder",
-                    textDecoration: "underline",
-                    cursor: "pointer"
+                    display: "flex",
+                    position: "relative",
+                    width: "100%",
+                    height: "470px"
                   }
-                : { display: "none" }
+                : {
+                    display: "flex",
+                    position: "relative",
+                    width: "100%",
+                    height: "min-content"
+                  }
             }
           >
-            <br />
-            join us / contact
-          </div>
-        </div>
-        <div
-          ref={this.navbar}
-          style={
-            this.state.openForm
-              ? {
-                  display: "flex",
+            <div className={this.state.openForm ? "formbkgd" : "formbkgdclsd"}>
+              <div
+                onClick={() => {
+                  this.setState({ openForm: false, scrolled: false });
+                  this.invite.current.scrollIntoView("smooth");
+                }}
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline",
+                  color: "white",
+                  position: "absolute",
+                  right: "33px",
+                  top: "18px",
+                  fontSize: "25px",
+                  cursor: "pointer"
+                }}
+              >
+                &times;
+              </div>
+              <ReactContactForm
+                to="nmcarducci@gmail.com"
+                titlePlaceholder="Topic"
+                contentsPlaceholder="Body"
+                className="emailform"
+              />
+              <div
+                style={{
                   position: "relative",
-                  width: "100%",
-                  height: "470px"
-                }
-              : {
-                  display: "flex",
-                  position: "relative",
-                  width: "100%",
-                  height: "min-content"
-                }
-          }
-        >
-          <div className={this.state.openForm ? "formbkgd" : "formbkgdclsd"}>
-            <div
-              onClick={() => {
-                this.setState({ openForm: false, scrolled: false });
-                this.invite.current.scrollIntoView("smooth");
-              }}
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline",
-                color: "white",
-                position: "absolute",
-                right: "33px",
-                top: "18px",
-                fontSize: "25px",
-                cursor: "pointer"
-              }}
-            >
-              &times;
+                  top: "70px",
+                  color: "rgb(200,200,250)"
+                }}
+              >
+                nmcarducci@gmail.com
+              </div>
             </div>
-            <ReactContactForm
-              to="nmcarducci@gmail.com"
-              titlePlaceholder="Topic"
-              contentsPlaceholder="Body"
-              className="emailform"
+          </div>
+          <div style={this.state.openForm ? { display: "none" } : {}}>
+            <SocialIcon
+              style={{
+                height: "40px",
+                width: "40px"
+              }}
+              url="https://twitter.com/saverparty"
             />
-            <div
-              style={{
-                position: "relative",
-                top: "70px",
-                color: "rgb(200,200,250)"
-              }}
-            >
-              nmcarducci@gmail.com
-            </div>
+            tweet me <a href="https://twitter.com/saverparty">@saverparty</a>
           </div>
-        </div>
-        <div style={this.state.openForm ? { display: "none" } : {}}>
-          <SocialIcon
-            style={{
-              height: "40px",
-              width: "40px"
-            }}
-            url="https://twitter.com/saverparty"
-          />
-          tweet me <a href="https://twitter.com/saverparty">@saverparty</a>
-        </div>
-        <span
-          /*
+          <span
+            /*
           onMouseOver={(e) => {
             var rect = e.target.getBoundingClientRect();
             var x = e.clientX - rect.left; //x position within the element.
@@ -11505,342 +11582,350 @@ export default class App extends React.Component {
             fo = String(Math.round(uh));
             console.log(`${fo + "px"} 5px 5px 1px`);
           }}*/
-          className={"showss"}
-          style={{
-            display: "inline",
-            width: "max-content",
-            height: "min-content",
-            maxWidth: "98%",
-            boxDecorationBreak: "clone",
-            transition: ".25s linear 0s"
-          }}
-        >
-          <SocialIcon
+            className={"showss"}
             style={{
-              height: "40px",
-              width: "40px"
-            }}
-            url="https://www.researchgate.net/project/Class-action-suit"
-          />{" "}
-          <a href="https://www.researchgate.net/project/Class-action-suit">
-            researchgate.net/project/Class-action-suit
-          </a>
-          <br />
-          <div
-            style={{
-              border: "1px dotted rgba(20,20,20,.3)",
-              padding: "2px"
+              display: "inline",
+              width: "max-content",
+              height: "min-content",
+              maxWidth: "98%",
+              boxDecorationBreak: "clone",
+              transition: ".25s linear 0s"
             }}
           >
-            Debt to earn back from seller?
+            <SocialIcon
+              style={{
+                height: "40px",
+                width: "40px"
+              }}
+              url="https://www.researchgate.net/project/Class-action-suit"
+            />{" "}
+            <a href="https://www.researchgate.net/project/Class-action-suit">
+              researchgate.net/project/Class-action-suit
+            </a>
             <br />
-            Contracts made under duress and under impossible pretenses are void
-            <br />
-            Impossible because it requires the unrequited consent of someone
-            with money
-            <br />
-            to be possible
-          </div>
-        </span>
-        <div className={"showss"} style={{ width: "90%", padding: "10px 0px" }}>
-          - Debt & Invoices isn't based in reality. Without numbers, you
-          couldn't do it.
-          <br />
-          <br />
-          - Any impossible contract is slavery, although voluntary.
-          <br />
-          <br />
-          - Rothbard calls voluntary slavery an oxymoron, but it is still
-          slavery since you need to call an impossible contract something.
-          forced majeure will end it.
-          <br />
-          <br />
-          - Indentured servitude has the ability to settle without help from
-          anyone else. Indentured means it can be worked out of. Debt is just
-          servitude of the borrower & their consumers
-          <br />
-          <br />- Microeconomics teaches this chart in terms of the government
-          taxing, but x is just the same.
-          <br />
-          <br />x = the burden of interest, price-fixes (not quantity of
-          interventionalist fixes) or unsettled trade beyond escrow or general
-          accrual
-        </div>
-        <div id="t1334069232846442496" />
-        <div id="t1334096499123294209" />
-        <div style={styleToApply}>
-          Lending is a conspiracy to prohibit trade
-        </div>
-        <br />
-        <div style={styleToApply}> </div>
-        <br />
-        <div
-          style={{
-            textDecoration: "underline",
-            fontSize: "15px",
-            color: "rgb(70,70,200)"
-          }}
-        >
-          stop prohibiting trade. borrowers must not only earn interest but that
-          principle back from the seller for the same product at a higher price
-          for both curves...
-        </div>
-        <div
-          style={{
-            position: "relative"
-          }}
-        >
-          <img
-            style={{ width: "90%", maxWidth: "800px" }}
-            src="https://www.dl.dropboxusercontent.com/s/ohyyc9wensqjmar/interest%20dead%20weight%20%282%29.png?dl=0"
-            alt="err"
-          />
-        </div>
-        <br />
-        <div style={{ textDecoration: "underline" }}>
-          Duress earn back from seller, timed. Agreement to give money that
-          isn't theirs to price-fix or compel share-dilution nonconsensually, so
-          the malfeasant, collusive and conspiring regulators wait
-        </div>
-        <br />
-        <div style={styleToApply}>
-          They have no right to encroach in the market marking prices based on
-          impossible promises, or impede in the market like a monopoly, but
-          neither do the other two options: fed liquidity or the irs.
-        </div>
-        <div style={styleToApply}>
-          "Opponents of anti-scalping laws say that ticket sales should be like
-          any other venture in a capitalist economy and the free market. That
-          is, the market should dictate at which price tickets are sold." That's
-          not capital or a product
-          <br />
-          Just abuse, harm and quantifiable damages
-        </div>
-        <div style={styleToApply}>
-          Fraud is certainly paying prices at $82t debt when there is only $7t
-          cash. Price fixing
-        </div>
-        <div style={styleToApply}>
-          Amazing eligible ppp isn’t fraud printing/dilution without consent
-          from other savers to businesses that are already historically getting
-          revenue Claiming to be for everyone but doing that Just to save their
-          bills
-        </div>
-        <div style={styleToApply}>
-          How does $7t cash turn into $82t debt? All sellers buy bonds 11x over?
-        </div>
-        <div id="t1333475443064844289" />
-        <a
-          ref={this.savingsRate}
-          href="https://froth.app"
-          style={{
-            textDecoration: "none",
-            position: "relative",
-            height: "min-content",
-            border: "3px solid black",
-            width: "max-content"
-          }}
-        >
-          <img
-            style={{ width: "60px", height: "auto" }}
-            src="https://www.dl.dropboxusercontent.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?dl=0"
-            alt=""
-          />
-        </a>
-        <a
-          style={{
-            textDecoration: "none",
-            fontSize: "14px",
-            marginTop: "4px",
-            width: "max-content"
-          }}
-          href="https://froth.app"
-        >
-          froth.app
-        </a>
-        <br />
-        <DebtToSales />
-        <div
-          //style={{ display: "flex", flexWrap: "wrap" }}
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            border: "1px solid",
-            top: "0px",
-            left: "0px",
-            width: "100%",
-            position: "relative",
-            zIndex: "9998",
-            display: "flex",
-            flexWrap: "wrap",
-            height: "max-content"
-            //columnCount:1,
-            //columnGap: "0"
-          }}
-        >
-          <div style={styleToApply}>
-            Wanna talk about things people r dying over? Debt is IMPOSSIBLE.
-            <br />
-            😤macroeconomics is a psyop;
-            <br />
-            😍microeconomics explains what we need to know.
-            <br />
-            😜Microeconomics describes intervention as a negative,
-            <br />
-            🤣while macroeconomics teaches intervention by I + G - C
-            (interest/dollar-split, bargaining opportunity cost, & principal
-            re-servitude) as additive
-          </div>
-          <div style={styleToApply}>
-            How about calling bond account valuation “savings,” & treasury
-            shares not considered in outstanding valuation metrics.
-          </div>
-          <div style={styleToApply}>
-            Debt requires:
-            <br />
-            <br />
-            1) dollar split
-            <br />
-            2) opportunity cost to bargain
-            <br />
-            3) earning principal back from the producer... plus interest from no
-            where- profit outlays, interbank stoploss; share miscount Joe Biden
-            is a medical professional lobbyist, trump wants to margin target. I
-            want to base prices in reality
-          </div>
-
-          <div style={styleToApply}>
-            No cash bail or cash bail. There is an alternative: JAIL
-          </div>
-          <div style={styleToApply}>
-            {" "}
-            Let me negotiate directly with my doctor. Ban invoices and insurance
-            - unless it is a gift certificate broker (not-price variable)
-          </div>
-          <div style={styleToApply}>
-            {" "}
-            Why didn’t you sell each song a la carte- All equity with bondage
-            allows for hostility
-          </div>
-
-          <div style={styleToApply}>
-            Should always be a royalty contract disbursed to profit upon sale or
-            withdrawal of the entrepreneur/board/partner/shareholder Time-based
-            royalty has nothing to do with the success of the business- Assets
-            still have to be greater than debts on their account, unless you
-            mean collateralized will retain value for the repossessor, but
-            that’s not how price elasticity works granting the repossessor wants
-            to resell it
-          </div>
-
-          <div style={styleToApply}>
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-                setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
+            <div
+              style={{
+                border: "1px dotted rgba(20,20,20,.3)",
+                padding: "2px"
               }}
             >
-              Growth GDP - Debt - money is changes fixed for only natural
-              redistribution
-            </span>
-            . Growth is merely growing population, debt, money or at best
-            natural redistribution - none of that is necessarily “good” in fact
-            most of a growing economy is BAD
+              Debt to earn back from seller?
+              <br />
+              Contracts made under duress and under impossible pretenses are
+              void
+              <br />
+              Impossible because it requires the unrequited consent of someone
+              with money
+              <br />
+              to be possible
+            </div>
+          </span>
+          <div
+            className={"showss"}
+            style={{ width: "90%", padding: "10px 0px" }}
+          >
+            - Debt & Invoices isn't based in reality. Without numbers, you
+            couldn't do it.
+            <br />
+            <br />
+            - Any impossible contract is slavery, although voluntary.
+            <br />
+            <br />
+            - Rothbard calls voluntary slavery an oxymoron, but it is still
+            slavery since you need to call an impossible contract something.
+            forced majeure will end it.
+            <br />
+            <br />
+            - Indentured servitude has the ability to settle without help from
+            anyone else. Indentured means it can be worked out of. Debt is just
+            servitude of the borrower & their consumers
+            <br />
+            <br />- Microeconomics teaches this chart in terms of the government
+            taxing, but x is just the same.
+            <br />
+            <br />x = the burden of interest, price-fixes (not quantity of
+            interventionalist fixes) or unsettled trade beyond escrow or general
+            accrual
           </div>
+          <div id="t1334069232846442496" />
+          <div id="t1334096499123294209" />
           <div style={styleToApply}>
-            m1 = $7t
-            <br />
-            gdp = $20t
-            <br />
-            <br />
-            is velocity gdp/m1?
-            <br />
-            <br />
-            of economist/Fed record, evidently
-            velocityOfM1*m1===velocityOfM2*m2===GDP
-            <br />
-            but what has $7t ($2t) of cash spending $22t of cash really mean?
-            Well, invoices are built up
-            <br />
-            I'm sure pensions and asset valuations are included as capital gains
-            and distributions.
-            <br />
-            but most of all takeaways, most of the dollars end up in the same
-            place
-            <br />
-            <br />
-            see froth.app for more
-            <TsyOperating />
+            Lending is a conspiracy to prohibit trade
           </div>
-          <div style={styleToApply}>
-            technical innovation only results in higher asset prices because of
-            debt. scarcity exists raising costs, but equal to competition
-            lowering costs (in an economy without debt)
-          </div>
-          <div style={styleToApply}>
-            Velocity of money- Communism is centralization by its citation of
-            events and scenarios, actually Your money is not a service it is
-            intervention of however trade will naturally fall Unless we wait,
-            right They have no right to encroach in the market like that, but
-            neither do the other two options: fed liquidity or the irs. Sales
-            tax per voluntary location geohash id on transaction for sales tax
-            to pick up
-          </div>
-
-          <div style={styleToApply}>
-            Royalty contracts no deadline- Is capitalism securitizing human
-            capital?
-          </div>
-        </div>
-        <div id="t1328381052960772096" />
-        <div id="t1332874788004622341" />
-        <div id="t1332444460958048266" />
-        <div ref={this.starve} id="t1334325432687226881" />
-        <br />
-        Civil Rights Act doesn't have to include drug-addicts since Amendment
-        13/14 protects contributors to society of any predolictions have been
-        vowed to be equally supported by regulators in adjunicating for the
-        aggreived party, or taxing fairly for free-rider-immutable
-        services/goods
-        <br />
-        <div id="t1331343453687574531" />
-        <div id="t1333518304867217412" />
-        <div id="t1333904053886128128" />
-        <div id="t1332375252538707972" />
-        <div ref={this.employmentHouse} />
-        {!this.state.showM1 ? (
+          <br />
+          <div style={styleToApply}> </div>
+          <br />
           <div
             style={{
+              textDecoration: "underline",
+              fontSize: "15px",
+              color: "rgb(70,70,200)"
+            }}
+          >
+            stop prohibiting trade. borrowers must not only earn interest but
+            that principle back from the seller for the same product at a higher
+            price for both curves...
+          </div>
+          <div
+            style={{
+              position: "relative"
+            }}
+          >
+            <img
+              style={{ width: "90%", maxWidth: "800px" }}
+              src="https://www.dl.dropboxusercontent.com/s/ohyyc9wensqjmar/interest%20dead%20weight%20%282%29.png?dl=0"
+              alt="err"
+            />
+          </div>
+          <br />
+          <div style={{ textDecoration: "underline" }}>
+            Duress earn back from seller, timed. Agreement to give money that
+            isn't theirs to price-fix or compel share-dilution nonconsensually,
+            so the malfeasant, collusive and conspiring regulators wait
+          </div>
+          <br />
+          <div style={styleToApply}>
+            They have no right to encroach in the market marking prices based on
+            impossible promises, or impede in the market like a monopoly, but
+            neither do the other two options: fed liquidity or the irs.
+          </div>
+          <div style={styleToApply}>
+            "Opponents of anti-scalping laws say that ticket sales should be
+            like any other venture in a capitalist economy and the free market.
+            That is, the market should dictate at which price tickets are sold."
+            That's not capital or a product
+            <br />
+            Just abuse, harm and quantifiable damages
+          </div>
+          <div style={styleToApply}>
+            Fraud is certainly paying prices at $82t debt when there is only $7t
+            cash. Price fixing
+          </div>
+          <div style={styleToApply}>
+            Amazing eligible ppp isn’t fraud printing/dilution without consent
+            from other savers to businesses that are already historically
+            getting revenue Claiming to be for everyone but doing that Just to
+            save their bills
+          </div>
+          <div style={styleToApply}>
+            How does $7t cash turn into $82t debt? All sellers buy bonds 11x
+            over?
+          </div>
+          <div id="t1333475443064844289" />
+          <a
+            ref={this.savingsRate}
+            href="https://froth.app"
+            style={{
+              textDecoration: "none",
+              position: "relative",
               height: "min-content",
-              marginTop: "10px",
-              color: "rgb(70,140,250)",
-              textDecoration: "underline"
+              border: "3px solid black",
+              width: "max-content"
             }}
-            onClick={() => this.setState({ showM1: true })}
           >
-            <div>chart of 365day/year employment hours/employed persons &</div>
-            <div>wages to home prices</div>
-          </div>
-        ) : (
-          <div
+            <img
+              style={{ width: "60px", height: "auto" }}
+              src="https://www.dl.dropboxusercontent.com/s/u9kahqiqiiqse5t/froth%20logo300150.png?dl=0"
+              alt=""
+            />
+          </a>
+          <a
             style={{
-              marginTop: "10px",
-              color: "rgb(70,140,250)",
-              textDecoration: "underline"
+              textDecoration: "none",
+              fontSize: "14px",
+              marginTop: "4px",
+              width: "max-content"
             }}
-            onClick={() => this.setState({ showM1: false })}
+            href="https://froth.app"
           >
-            &times;close
+            froth.app
+          </a>
+          <br />
+          <DebtToSales />
+          <div
+            //style={{ display: "flex", flexWrap: "wrap" }}
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+              border: "1px solid",
+              top: "0px",
+              left: "0px",
+              width: "100%",
+              position: "relative",
+              zIndex: "9998",
+              display: "flex",
+              flexWrap: "wrap",
+              height: "max-content"
+              //columnCount:1,
+              //columnGap: "0"
+            }}
+          >
+            <div style={styleToApply}>
+              Wanna talk about things people r dying over? Debt is IMPOSSIBLE.
+              <br />
+              😤macroeconomics is a psyop;
+              <br />
+              😍microeconomics explains what we need to know.
+              <br />
+              😜Microeconomics describes intervention as a negative,
+              <br />
+              🤣while macroeconomics teaches intervention by I + G - C
+              (interest/dollar-split, bargaining opportunity cost, & principal
+              re-servitude) as additive
+            </div>
+            <div style={styleToApply}>
+              How about calling bond account valuation “savings,” & treasury
+              shares not considered in outstanding valuation metrics.
+            </div>
+            <div style={styleToApply}>
+              Debt requires:
+              <br />
+              <br />
+              1) dollar split
+              <br />
+              2) opportunity cost to bargain
+              <br />
+              3) earning principal back from the producer... plus interest from
+              no where- profit outlays, interbank stoploss; share miscount Joe
+              Biden is a medical professional lobbyist, trump wants to margin
+              target. I want to base prices in reality
+            </div>
+
+            <div style={styleToApply}>
+              No cash bail or cash bail. There is an alternative: JAIL
+            </div>
+            <div style={styleToApply}>
+              {" "}
+              Let me negotiate directly with my doctor. Ban invoices and
+              insurance - unless it is a gift certificate broker (not-price
+              variable)
+            </div>
+            <div style={styleToApply}>
+              {" "}
+              Why didn’t you sell each song a la carte- All equity with bondage
+              allows for hostility
+            </div>
+
+            <div style={styleToApply}>
+              Should always be a royalty contract disbursed to profit upon sale
+              or withdrawal of the entrepreneur/board/partner/shareholder
+              Time-based royalty has nothing to do with the success of the
+              business- Assets still have to be greater than debts on their
+              account, unless you mean collateralized will retain value for the
+              repossessor, but that’s not how price elasticity works granting
+              the repossessor wants to resell it
+            </div>
+
+            <div style={styleToApply}>
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.trueGDP.current.scrollIntoView("smooth");
+                  this.setState({ highlightTrueGDP: true });
+                  setTimeout(
+                    () => this.setState({ highlightTrueGDP: false }),
+                    10000
+                  );
+                }}
+              >
+                Growth GDP - Debt - money is changes fixed for only natural
+                redistribution
+              </span>
+              . Growth is merely growing population, debt, money or at best
+              natural redistribution - none of that is necessarily “good” in
+              fact most of a growing economy is BAD
+            </div>
+            <div style={styleToApply}>
+              m1 = $7t
+              <br />
+              gdp = $20t
+              <br />
+              <br />
+              is velocity gdp/m1?
+              <br />
+              <br />
+              of economist/Fed record, evidently
+              velocityOfM1*m1===velocityOfM2*m2===GDP
+              <br />
+              but what has $7t ($2t) of cash spending $22t of cash really mean?
+              Well, invoices are built up
+              <br />
+              I'm sure pensions and asset valuations are included as capital
+              gains and distributions.
+              <br />
+              but most of all takeaways, most of the dollars end up in the same
+              place
+              <br />
+              <br />
+              see froth.app for more
+              <TsyOperating />
+            </div>
+            <div style={styleToApply}>
+              technical innovation only results in higher asset prices because
+              of debt. scarcity exists raising costs, but equal to competition
+              lowering costs (in an economy without debt)
+            </div>
+            <div style={styleToApply}>
+              Velocity of money- Communism is centralization by its citation of
+              events and scenarios, actually Your money is not a service it is
+              intervention of however trade will naturally fall Unless we wait,
+              right They have no right to encroach in the market like that, but
+              neither do the other two options: fed liquidity or the irs. Sales
+              tax per voluntary location geohash id on transaction for sales tax
+              to pick up
+            </div>
+
+            <div style={styleToApply}>
+              Royalty contracts no deadline- Is capitalism securitizing human
+              capital?
+            </div>
           </div>
-        )}
-        <div ref={this.employmentOfOne}>
-          <Employ2Pop />
-        </div>
+          <div id="t1328381052960772096" />
+          <div id="t1332874788004622341" />
+          <div id="t1332444460958048266" />
+          <div ref={this.starve} id="t1334325432687226881" />
+          <br />
+          Civil Rights Act doesn't have to include drug-addicts since Amendment
+          13/14 protects contributors to society of any predolictions have been
+          vowed to be equally supported by regulators in adjunicating for the
+          aggreived party, or taxing fairly for free-rider-immutable
+          services/goods
+          <br />
+          <div id="t1331343453687574531" />
+          <div id="t1333518304867217412" />
+          <div id="t1333904053886128128" />
+          <div id="t1332375252538707972" />
+          <div ref={this.employmentHouse} />
+          {!this.state.showM1 ? (
+            <div
+              style={{
+                height: "min-content",
+                marginTop: "10px",
+                color: "rgb(70,140,250)",
+                textDecoration: "underline"
+              }}
+              onClick={() => this.setState({ showM1: true })}
+            >
+              <div>
+                chart of 365day/year employment hours/employed persons &
+              </div>
+              <div>wages to home prices</div>
+            </div>
+          ) : (
+            <div
+              style={{
+                marginTop: "10px",
+                color: "rgb(70,140,250)",
+                textDecoration: "underline"
+              }}
+              onClick={() => this.setState({ showM1: false })}
+            >
+              &times;close
+            </div>
+          )}
+          <div ref={this.employmentOfOne}>
+            <Employ2Pop />
+          </div>
         </span>
         {/**early comms end */}
         <br />
