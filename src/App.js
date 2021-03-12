@@ -129,6 +129,7 @@ export default class App extends React.Component {
     this.dispair = React.createRef();
     this.fasterWithCounterfeit = React.createRef();
     this.technicallyIllegal = React.createRef();
+    this.sanjay = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -538,6 +539,28 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "The&nbsp;<a href="https://humanharvest.info">"'vaccine'/graft</a>
+        &nbsp;is a&nbsp;
+        <a href="https://link.springer.com/chapter/10.1007/978-3-540-72167-3_11">
+          miracle
+        </a>
+        &nbsp;of&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.sanjay.current.scrollIntoView("smooth");
+            this.setState({ highlightSanjay: true });
+            setTimeout(() => this.setState({ highlightSanjay: false }), 10000);
+          }}
+        >
+          science
+        </span>
+        ," exclaims Biden.
+        <br />
+        Newsmax asks a guest consult, "why not give credit to HE WHO SHALL NOT
+        BE NAMED"
+        <br />
+        <br />
         "All along the political spectrum, left right and center ...Moody's
         reported...&nbsp;
         <span
@@ -4329,22 +4352,27 @@ export default class App extends React.Component {
             <br />
             insurance is not subscription-membership because one person's
             subscription (taxable) does not go towards someone else's or a large
-            contracted&nbsp;<span
-                  style={{
-                    fontWeight: "bolder",
-                    textDecoration: "underline"
-                  }}
-                  onClick={() => {
-                    this.royalty.current.scrollIntoView("smooth");
-                    this.setState({ highlightRoyalty: true });
-                    setTimeout(
-                      () => this.setState({ highlightRoyalty: false }),
-                      10000
-                    );
-                  }}>monopsony</span>&nbsp;(Spotify, income, royalty not taxes), it goes
-            to pay for their non-monopsony, individual servicing. insurance is
-            duressful trade, by invoice, gift-certificate or max-expense,
-            prohibiting trade and causing slavery just the same as debt
+            contracted&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.royalty.current.scrollIntoView("smooth");
+                this.setState({ highlightRoyalty: true });
+                setTimeout(
+                  () => this.setState({ highlightRoyalty: false }),
+                  10000
+                );
+              }}
+            >
+              monopsony
+            </span>
+            &nbsp;(Spotify, income, royalty not taxes), it goes to pay for their
+            non-monopsony, individual servicing. insurance is duressful trade,
+            by invoice, gift-certificate or max-expense, prohibiting trade and
+            causing slavery just the same as debt
           </div>
           <i
             style={{
@@ -5310,10 +5338,20 @@ export default class App extends React.Component {
             of an organization like I do
             <br />
             <br />
-            Isn’t it dangerous for Sanjay Gupta to mislead people saying it is
-            remarkable that it was done when it was only skipped testing? That’s
-            not remarkable in a good way or a recent triumph of medical science
-            as he portrays. B-cells are fragile
+            <span
+              ref={this.sanjay}
+              style={{
+                color: this.state.highlightSanjay ? "white" : "",
+                backgroundColor: this.state.highlightSanjay
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              Isn’t it dangerous for Sanjay Gupta to mislead people saying it is
+              remarkable that it was done when it was only skipped testing?
+              That’s not remarkable in a good way or a recent triumph of medical
+              science as he portrays. B-cells are fragile
+            </span>
             <br />
             <br />
             "May be safer for&nbsp;
@@ -12017,7 +12055,8 @@ export default class App extends React.Component {
                 subsidiary or subcontracted contracts with non-compete
                 agreements ...), not a third party's money, or in other words
                 one person's subscription (taxable) does not go towards someone
-                else's or a large contracted&nbsp;<span
+                else's or a large contracted&nbsp;
+                <span
                   style={{
                     fontWeight: "bolder",
                     textDecoration: "underline"
@@ -12029,9 +12068,12 @@ export default class App extends React.Component {
                       () => this.setState({ highlightRoyalty: false }),
                       10000
                     );
-                  }}>monopsony</span>&nbsp;(Spotify, income, royalty
-                not taxes), it goes to pay for their non-monopsony, individual
-                servicing
+                  }}
+                >
+                  monopsony
+                </span>
+                &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
+                their non-monopsony, individual servicing
               </b>{" "}
               Grow up
               <br />
