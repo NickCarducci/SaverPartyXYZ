@@ -545,6 +545,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Being generous instead of stingy is literally taking their equity and giving corporations money.  Left, Right, Center sponsored by Morgan Stanley.  A little biased to call yourself center. STOP THUMBS UPPING BAD EVIL THINGS.  LET PRICES OF HOUSING FALL
+        <br/>
+        <br/>
         We all have to make a living (read:cannibal), but we all don't have to
         produce by front-running and than dumber-fooling consumers. and these
         direct deposits are involuntary split that you get 9% of
