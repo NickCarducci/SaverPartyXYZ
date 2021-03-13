@@ -551,6 +551,16 @@ export default class App extends React.Component {
         employment alone, retard, we can have technological advancement to have
         no jobs.
         <br />
+        LRC host says, "non-disabled adult should be doing work outside the
+        home." Why is that your economic policy goal? Slave-driver
+        <br />
+        Free education is not free, stop misleading people into acquiescing to a
+        equity split that they get $1400 of, only 9% of total they would have if
+        no action were taken, except now they have no negitiation power with
+        supply/and the finance/rentier-colonist you allow to go on without
+        aggregate adjunication because it wouldn't work for the corrupt courts
+        of the U.S. in their own financial situation so they NO LONGER SERVE.
+        <br />
         <br />
         Sales tax (not income tax) on&nbsp;
         <a href="https://vaults.biz">
@@ -578,10 +588,12 @@ export default class App extends React.Component {
         <br />
         "Targeted money" from savers, not tax-payers (dollar is corporation), is
         not for assets but financial debts and backtaxes. Otherwise it is fraud.
-        only the federal reserve can buy assets. &nbsp;<a href="https://www.isidewith.com/poll/488729614">IN NO SCENARIO CAN TAX PAYERS
-        PAY 41x WHAT EXISTS</a>. Jesus, people at the Washington Post are fucking
-        idiots! Or, they know EXACTLY how they are misleading people into self-
-        and co-demand-harm
+        only the federal reserve can buy assets. &nbsp;
+        <a href="https://www.isidewith.com/poll/488729614">
+          IN NO SCENARIO CAN TAX PAYERS PAY 41x WHAT EXISTS
+        </a>
+        . Jesus, people at the Washington Post are fucking idiots! Or, they know
+        EXACTLY how they are misleading people into self- and co-demand-harm
         <br />
         Being generous instead of stingy is literally taking their equity and
         giving corporations money. Left, Right, Center sponsored by Morgan
@@ -5044,6 +5056,116 @@ export default class App extends React.Component {
         </div>
         <div ref={this.INSURANCEFRAUD}>
           <div
+            ref={this.insurance}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightPrisonersDuress ? "white" : "grey",
+              backgroundColor: this.state.highlightPrisonersDuress
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <a href="https://en.wikipedia.org/wiki/Denis_McDonough">
+              AARP Profile
+            </a>
+            : Summary • OpenSecretswww.opensecrets.org › orgs › aarp › summary
+            <br />
+            AARP organization profile. Contributions in the 2020 cycle: $216510.
+            Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
+          </div>
+          <br />
+          <br />
+          Medishare claims, "You can save on health costs: $500,000/year when
+          switching." That answer is wrong still since you paused and said ",
+          the answer is an emphatic yes" where the colon is to obfuscate and
+          gaslight that Medicare, in conjunction with (how you actually operate,
+          not&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            relative change
+          </span>
+          ) other&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            insurance
+          </span>
+          &nbsp;you CANNOT say it saves money to abet invoices and instigate by
+          duress cross party risk for what would be without invoices just gift
+          certificates (not gift cards) for individual buyers (you would be a
+          classified ads business if you want to "curate"). I am the one that
+          made&nbsp;
+          <a href="https://www.researchgate.net/publication/346041766_The_FTC_has_responded_to_my_complaints_and_so_has_the_industry_Allstate_Progressive_Geico_all_say_they_save_you_money_by_switching_or_bundling_yet_neo-insurance_companies_like_CarShieldUSA_still_says_">
+            insurance companies cease in advertising that they save money or
+            curate efficiently
+          </a>
+          <br />
+          <br />
+          <span
+            style={{
+              transition: ".3s ease-in",
+
+              color: this.state.highlightIncomeTax ? "white" : "grey",
+              backgroundColor: this.state.highlightIncomeTax
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.incomeTax}
+          >
+            insurance is not subscription-membership because one person's
+            subscription (taxable) does not go towards someone else's or a large
+            contracted&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.royalty.current.scrollIntoView("smooth");
+                this.setState({ highlightRoyalty: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightRoyalty: false }),
+                  10000
+                );
+              }}
+            >
+              monopsony
+            </span>
+            &nbsp;(Spotify, income, royalty not taxes), it goes to pay for their
+            non-monopsony, individual servicing. insurance is duressful trade,
+            by invoice, gift-certificate or max-expense, prohibiting trade and
+            causing slavery just the same as debt
+          </span>
+          <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
@@ -5112,116 +5234,6 @@ export default class App extends React.Component {
             <a href="https://moldmask.co">Eat My Ass Jen Psaki</a>, "We will get
             vaccines into arms"; Neanderthals invented the wheel or whatever
           </i>
-          <div
-            ref={this.insurance}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightPrisonersDuress ? "white" : "grey",
-              backgroundColor: this.state.highlightPrisonersDuress
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            <a href="https://en.wikipedia.org/wiki/Denis_McDonough">
-              AARP Profile
-            </a>
-            : Summary • OpenSecretswww.opensecrets.org › orgs › aarp › summary
-            <br />
-            AARP organization profile. Contributions in the 2020 cycle: $216510.
-            Lobbying in 2019: $8260000. Outside Spending in the 2020 cycle: $0.
-            <br />
-            <br />
-            Medishare claims, "You can save on health costs: $500,000/year when
-            switching." That answer is wrong still since you paused and said ",
-            the answer is an emphatic yes" where the colon is to obfuscate and
-            gaslight that Medicare, in conjunction with (how you actually
-            operate, not&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-              relative change
-            </span>
-            ) other&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-              insurance
-            </span>
-            &nbsp;you CANNOT say it saves money to abet invoices and instigate
-            by duress cross party risk for what would be without invoices just
-            gift certificates (not gift cards) for individual buyers (you would
-            be a classified ads business if you want to "curate"). I am the one
-            that made&nbsp;
-            <a href="https://www.researchgate.net/publication/346041766_The_FTC_has_responded_to_my_complaints_and_so_has_the_industry_Allstate_Progressive_Geico_all_say_they_save_you_money_by_switching_or_bundling_yet_neo-insurance_companies_like_CarShieldUSA_still_says_">
-              insurance companies cease in advertising that they save money or
-              curate efficiently
-            </a>
-            <br />
-            <br />
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightIncomeTax ? "white" : "grey",
-                backgroundColor: this.state.highlightIncomeTax
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.incomeTax}
-            >
-              insurance is not subscription-membership because one person's
-              subscription (taxable) does not go towards someone else's or a
-              large contracted&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.royalty.current.scrollIntoView("smooth");
-                  this.setState({ highlightRoyalty: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightRoyalty: false }),
-                    10000
-                  );
-                }}
-              >
-                monopsony
-              </span>
-              &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
-              their non-monopsony, individual servicing. insurance is duressful
-              trade, by invoice, gift-certificate or max-expense, prohibiting
-              trade and causing slavery just the same as debt
-            </span>
-          </div>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
