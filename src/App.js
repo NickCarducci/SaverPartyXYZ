@@ -541,6 +541,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        <h1>BEDLAM</h1>
         Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
         &nbsp;announce conspiracy to bring remote learning to students
         nationwide with stolen equity, and keep prices up - 3/12/2021
