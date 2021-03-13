@@ -545,10 +545,26 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-       (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 - currencyComponentOfM1)))<br/>
-       (right) (GDP/P) - NM - ND<br/>
-       (right) (trueGDP/P) - NM - ND
-        <Fraud/>
+        Union collusion & duress strike of labors' time, is fine to corner by
+        antitrust intent, but supply or assets on the other hand must compete by
+        winning favor of price-taking consumers to have, settled, of their own
+        to resell after use, not own with intent to scalp or rent instead of use
+        <br />
+        Collusion to instill duress by the union heads are much like corporate,
+        central-planners, lenders and rentier-colonists
+        <br />
+        <br />
+        Price-inelasticity inflation is 4100%, Monetary-inflation (minus
+        housing) is 102%
+        <br />
+        <br />
+        (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
+        currencyComponentOfM1)))
+        <br />
+        (right) (GDP/P) - NM - ND
+        <br />
+        (right) (trueGDP/P) - NM - ND
+        <Fraud />
         <a href="https://twitter.com/nowthisnews/status/1370493485829197825?s=20">
           AOC
         </a>
