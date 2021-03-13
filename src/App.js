@@ -587,7 +587,7 @@ export default class App extends React.Component {
         contributions
         <br />
         <br />
-        Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT
+        Stop hurting people (leave) Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT
         WANT SPENDING (you are sampling and not fully-informing about costs in
         price-inelasticity and splitting equity to do so), who in their right
         mind would suggest Democrats delayed spending of this bill, guilty of
