@@ -544,7 +544,8 @@ export default class App extends React.Component {
         <br/>
         "Tell you what you can and cannot do once you are fully-"vaccinated"/grafted," threatens Biden while 10% have
         <br />
-        I will fight you off and fight for my inclusion rights without evidence that is different than normal cold polychain reaction
+        I will fight you off and fight for my inclusion rights without evidence
+        that is different than normal cold polychain reaction, visible symptoms or non-cavity temp check
         <br />
         <br/>
         "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer
