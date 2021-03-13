@@ -549,23 +549,26 @@ export default class App extends React.Component {
         <br />
         <br />
         "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
-        Steven Moore says. "Our children will have to pay&nbsp;<span
-            onClick={() => {
-              this.Oooreily.current.scrollIntoView("smooth");
-              this.setState({ highlightOooreily: true });
+        Steven Moore says. "Our children will have to pay&nbsp;
+        <span
+          onClick={() => {
+            this.Oooreily.current.scrollIntoView("smooth");
+            this.setState({ highlightOooreily: true });
 
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightOooreily: false }),
-                10000
-              );
-            }}
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-          >these costs</span>," he
-        continues in a fervent disporia of his bearings
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightOooreily: false }),
+              10000
+            );
+          }}
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+        >
+          these costs
+        </span>
+        ," he continues in a fervent disporia of his bearings
         <br />
         "Tax to finance the Green New Deal," remarks Larry&nbsp;
         <span
@@ -606,7 +609,13 @@ export default class App extends React.Component {
         &nbsp;paying off private-debt with public credit, this time by military
         and aided by the lie that&nbsp;
         <a href="https://nationalsecuritycasino.com">Italy joined</a>
-        &nbsp;for&nbsp;<a href="https://froth.app/debt">hair color</a>
+        &nbsp;for&nbsp;<a href="https://froth.app/debt">hair color</a>, which
+        was in set by the planning to do so and the incentive thereby to fire
+        and sell bonds, the latter requiring the former and the
+        unduly-monopsonized labor's living expenses falls.. Demand is a shared
+        negotiation, and still requires shareholder rights and some wealth
+        relativity to peter through - and build consensus of fair opportunity
+        thru - demand's utility considerations as individuals
         <br />
         <br />
         <span
