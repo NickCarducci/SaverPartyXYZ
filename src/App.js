@@ -541,6 +541,56 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Hello bedlam
+        <div
+          style={{
+            width: "100%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/g8h1b4r7oukodl9/IMG_3399.png?dl=0"
+          />
+        </div>
+        <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/dkyrz8m3ld6pv15/IMG_3398.png?dl=0"
+            />
+          </div>
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/mdeba9e3erwrc25/IMG_3400.png?dl=0"
+            />
+          </div>
+        </div>
+        <br />
+        <br />
         Trademarks are to be non-descriptive (of industry or product) or non-specific
         <br/>
         Copyright is an automatic patent
