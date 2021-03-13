@@ -495,6 +495,7 @@ export default class App extends React.Component {
     return (
       <div
         style={{
+          display: "block",
           right: "20px",
           margin: "7px",
           position: "relative",
@@ -523,7 +524,7 @@ export default class App extends React.Component {
               /* backgroundColor:
                 !this.state.takeOffScreen && this.props.top ? "blue" : "",*/
               opacity: 0,
-              padding: "4px 10px",
+
               fontWeight: "bolder",
               textDecoration: "underline"
             }}
@@ -540,23 +541,27 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "Infrastructure is a&nbsp;<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.fintech.current.scrollIntoView("smooth");
-                this.setState({ highlightFintech: true });
+        "Infrastructure is a&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.fintech.current.scrollIntoView("smooth");
+            this.setState({ highlightFintech: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFintech: false }),
-                  10000
-                );
-              }}
-            >big crisis</span>&nbsp;and they don't seem to realize it," says
-        Erin Burnett about the Republicans. First, the Rebulicans still spend
-        but they are crony spenders. Second, Savers teach Erin that if she
-        negotiates with workers or fights for their equity rights, their living
-        costs and therefore salaries can be negotiated down!
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFintech: false }),
+              10000
+            );
+          }}
+        >
+          big crisis
+        </span>
+        &nbsp;and they don't seem to realize it," says Erin Burnett about the
+        Republicans. First, the Rebulicans still spend but they are crony
+        spenders. Second, Savers teach Erin that if she negotiates with workers
+        or fights for their equity rights, their living costs and therefore
+        salaries can be negotiated down!
         <br />
         <br />
         BBQ DECLARE INDEPENDENCE
@@ -1504,7 +1509,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightFraud ? "white" : "",
@@ -1875,7 +1879,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightJury ? "white" : "",
@@ -2067,7 +2070,6 @@ export default class App extends React.Component {
         <br />
         <span
           style={{
-            padding: "4px 10px",
             transition: ".3s ease-in",
             borderRadius: "15px",
             color: this.state.highlightCompoundGramm ? "white" : "",
@@ -2421,7 +2423,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightTwenty ? "white" : "",
@@ -2485,7 +2486,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightSocialism ? "white" : "",
@@ -2620,7 +2620,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightLivingWage ? "white" : "",
@@ -4143,7 +4142,7 @@ export default class App extends React.Component {
               textEmphasis: "italics",
               fontWeight: "bolder",
               textDecoration: "underline",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightDefense ? "white" : "",
@@ -4805,7 +4804,7 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightHomebuilder ? "white" : "grey",
@@ -5006,7 +5005,7 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightStats ? "white" : "grey",
@@ -5021,7 +5020,6 @@ export default class App extends React.Component {
             call{" "}
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5032,7 +5030,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5043,7 +5040,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5563,7 +5559,6 @@ export default class App extends React.Component {
             &nbsp;
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5575,7 +5570,6 @@ export default class App extends React.Component {
             &nbsp;
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5587,7 +5581,6 @@ export default class App extends React.Component {
             like-sized particles &nbsp;
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5601,7 +5594,6 @@ export default class App extends React.Component {
             and prolonging the pandemic &nbsp;
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5626,7 +5618,6 @@ export default class App extends React.Component {
               style={{
                 position: "relative",
 
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightSpittle ? "white" : "",
@@ -5770,7 +5761,6 @@ export default class App extends React.Component {
             smell morbidity/dying and{" "}
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5784,7 +5774,6 @@ export default class App extends React.Component {
             to travel which has been proven not to float{" "}
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -5845,7 +5834,6 @@ export default class App extends React.Component {
               <br />
               <a
                 style={{
-                  padding: "4px 10px",
                   border: "1px solid",
                   color: "grey"
                 }}
@@ -5899,7 +5887,6 @@ export default class App extends React.Component {
               <span
                 ref={this.oldFluExclusion}
                 style={{
-                  padding: "4px 10px",
                   borderRadius: "15px",
                   color: this.state.highlightOldFluExclusion
                     ? "white"
@@ -5914,7 +5901,6 @@ export default class App extends React.Component {
                 force people to&nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -5927,7 +5913,6 @@ export default class App extends React.Component {
                 &nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -5940,7 +5925,6 @@ export default class App extends React.Component {
                 &nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -5966,7 +5950,6 @@ export default class App extends React.Component {
                 given 2020 deaths are so abnormally low, but higher due to&nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -5979,7 +5962,6 @@ export default class App extends React.Component {
                 &nbsp;(not the&nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -5992,7 +5974,6 @@ export default class App extends React.Component {
                 &nbsp;to&nbsp;
                 <a
                   style={{
-                    padding: "4px 10px",
                     border: "1px solid",
                     color: this.state.highlightOldFluExclusion
                       ? "white"
@@ -6036,7 +6017,6 @@ export default class App extends React.Component {
               <span
                 ref={this.congressVsCongress}
                 style={{
-                  padding: "4px 10px",
                   borderRadius: "15px",
                   color: this.state.highlightCVC ? "white" : "black",
                   backgroundColor: this.state.highlightCVC
@@ -6114,7 +6094,6 @@ export default class App extends React.Component {
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
 
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightRoyalty ? "white" : "",
@@ -6132,7 +6111,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightGOA ? "white" : "",
@@ -6281,7 +6259,6 @@ export default class App extends React.Component {
               <br />
               <span
                 style={{
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightEducation ? "white" : "",
@@ -6309,7 +6286,6 @@ export default class App extends React.Component {
               <br />
               <span
                 style={{
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightCitadel ? "white" : "",
@@ -6483,7 +6459,6 @@ export default class App extends React.Component {
                 <br />
                 <span
                   style={{
-                    padding: "4px 10px",
                     transition: ".3s ease-in",
                     borderRadius: "15px",
                     color: this.state.highlightNRA ? "white" : "",
@@ -6535,7 +6510,6 @@ export default class App extends React.Component {
                 in connection with the 6th is all [FBI] cares about.
                 <span
                   style={{
-                    padding: "4px 10px",
                     transition: ".3s ease-in",
                     borderRadius: "15px",
                     color: this.state.highlightCityHall ? "white" : "",
@@ -6676,7 +6650,6 @@ export default class App extends React.Component {
             </div>
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -6692,7 +6665,6 @@ export default class App extends React.Component {
             <span
               ref={this.gdp}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightGDP ? "white" : "",
@@ -6774,7 +6746,6 @@ export default class App extends React.Component {
               and traded against expiring options out of the money like&nbsp;
               <a
                 style={{
-                  padding: "4px 10px",
                   border: "1px solid",
                   color: "grey"
                 }}
@@ -6823,7 +6794,6 @@ export default class App extends React.Component {
             live streamed from your local&nbsp;
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -6910,7 +6880,6 @@ export default class App extends React.Component {
           <br />
           <a
             style={{
-              padding: "4px 10px",
               border: "1px solid",
               color: "black"
             }}
@@ -6923,7 +6892,6 @@ export default class App extends React.Component {
           <a
             ref={this.populism}
             style={{
-              padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightPopulism ? "white" : "black",
               backgroundColor: this.state.highlightPopulism
@@ -6953,7 +6921,6 @@ export default class App extends React.Component {
           <span
             ref={this.congressVsCongress}
             style={{
-              padding: "4px 10px",
               borderRadius: "15px",
               color: this.state.highlightCVC ? "white" : "black",
               backgroundColor: this.state.highlightCVC
@@ -7453,7 +7420,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightBaltimore ? "white" : "",
@@ -7498,7 +7465,6 @@ export default class App extends React.Component {
                 );
               }}
               style={{
-                padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightRoyalty ? "white" : "",
                 backgroundColor: this.state.highlightRoyalty
@@ -7846,7 +7812,6 @@ export default class App extends React.Component {
             <span
               ref={this.italy}
               style={{
-                padding: "4px 10px",
                 borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "",
                 backgroundColor: this.state.highlightItaly
@@ -8044,7 +8009,6 @@ export default class App extends React.Component {
             <span
               ref={this.politics}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightPolitics ? "white" : "",
@@ -8265,7 +8229,6 @@ export default class App extends React.Component {
               ref={this.colonization}
               href="https://foiegras.life"
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightColonization ? "white" : "",
@@ -8290,7 +8253,6 @@ export default class App extends React.Component {
             <span
               ref={this.gdp1}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightGDP ? "white" : "",
@@ -8377,7 +8339,6 @@ export default class App extends React.Component {
               If
               <span
                 style={{
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightFlag ? "white" : "",
@@ -8509,7 +8470,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightConcious ? "white" : "",
@@ -8765,7 +8725,6 @@ export default class App extends React.Component {
               </a>
               <span
                 style={{
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightFintech ? "white" : "",
@@ -8905,7 +8864,6 @@ export default class App extends React.Component {
               Hasset and Lindsay still looking at real growth instead of{" "}
               <a
                 style={{
-                  padding: "4px 10px",
                   border: "1px solid",
                   color: "grey"
                 }}
@@ -8943,7 +8901,6 @@ export default class App extends React.Component {
             the{" "}
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -8955,7 +8912,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -8993,8 +8949,6 @@ export default class App extends React.Component {
               <span
                 ref={this.nsfFraud}
                 style={{
-                  padding: "4px 10px",
-
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightNSFFraud ? "white" : "",
@@ -9035,7 +8989,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -9130,7 +9083,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightUUID ? "white" : "",
@@ -9332,7 +9284,6 @@ export default class App extends React.Component {
             <span
               ref={this.bail}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
@@ -9349,7 +9300,6 @@ export default class App extends React.Component {
             regard
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBail ? "white" : "",
@@ -9454,7 +9404,6 @@ export default class App extends React.Component {
             <a
               ref={this.decide}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightDecide ? "white" : "",
@@ -9551,7 +9500,6 @@ export default class App extends React.Component {
               style={{
                 fontWeight: "bolder",
 
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightTea ? "white" : "",
@@ -9650,7 +9598,6 @@ export default class App extends React.Component {
             settle in each
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightHost ? "white" : "",
@@ -9775,7 +9722,6 @@ export default class App extends React.Component {
           >
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightBiden ? "white" : "",
@@ -9796,7 +9742,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightDesist ? "white" : "",
@@ -9873,7 +9819,6 @@ export default class App extends React.Component {
                 fontWeight: "bolder",
                 textDecoration: "underline",
 
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightCease ? "white" : "",
@@ -10044,7 +9989,7 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightExperts ? "white" : "grey",
@@ -10146,7 +10091,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightFTC ? "white" : "",
@@ -10572,7 +10516,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightJHUECON ? "white" : "",
@@ -10794,7 +10737,6 @@ export default class App extends React.Component {
             <span
               ref={this.foreignpolicy}
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightFP ? "white" : "",
@@ -10900,7 +10842,7 @@ export default class App extends React.Component {
             style={{
               fontWeight: "bolder",
               textDecoration: "underline",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: "white",
@@ -10915,7 +10857,6 @@ export default class App extends React.Component {
           <br />
           <span
             style={{
-              padding: "4px 10px",
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.openrelief ? "white" : "",
@@ -11247,7 +11188,7 @@ export default class App extends React.Component {
               }}*/
               style={{
                 fontWeight: "normal",
-                padding: "4px 10px",
+
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightFlop ? "white" : "",
@@ -11297,7 +11238,6 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
-                padding: "4px 10px",
                 transition: ".3s ease-in",
                 borderRadius: "15px",
                 color: this.state.highlightChina ? "white" : "",
@@ -11366,7 +11306,7 @@ export default class App extends React.Component {
             ref={this.valuation}
             style={{
               position: "relative",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightValuation ? "white" : "",
@@ -11570,7 +11510,7 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightHomebuilder ? "white" : "grey",
@@ -11803,7 +11743,7 @@ export default class App extends React.Component {
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px",
-              padding: "4px 10px",
+
               transition: ".3s ease-in",
               borderRadius: "15px",
               color: this.state.highlightStats ? "white" : "grey",
@@ -11818,7 +11758,6 @@ export default class App extends React.Component {
             call{" "}
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -11829,7 +11768,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -11840,7 +11778,6 @@ export default class App extends React.Component {
             <br />
             <a
               style={{
-                padding: "4px 10px",
                 border: "1px solid",
                 color: "grey"
               }}
@@ -12421,7 +12358,6 @@ export default class App extends React.Component {
               <span
                 ref={this.marx}
                 style={{
-                  padding: "4px 10px",
                   borderRadius: "15px",
                   color: this.state.highlightMarx ? "white" : "",
                   backgroundColor: this.state.highlightMarx
@@ -12485,7 +12421,6 @@ export default class App extends React.Component {
                 style={{
                   position: "relative",
 
-                  padding: "4px 10px",
                   transition: ".3s ease-in",
                   borderRadius: "15px",
                   color: this.state.highlightBrookings ? "white" : "",
