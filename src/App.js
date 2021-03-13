@@ -544,6 +544,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        This is not a Natural/National catastrophe Larry, you stole our rights
+        to refuse cross-party pooling in cosigning this bill without requite
+        <br />
+        <br />
         "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
         Steven Moore says. "Our children will have to pay these costs," he
         continues in a fervent disporia of his bearings
