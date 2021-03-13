@@ -544,11 +544,12 @@ export default class App extends React.Component {
         </span>
         <iframe
           title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
-          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=500&show_text=true&height=524&appId"
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
           width="300"
           height="444"
-          style={{ border: "none", overflow: "hidden", width: "480px" }}
+          style={{ border: "none", width: "480px" }}
         ></iframe>
+        "Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief." - Baltimore Sun
         <br />
         Relief means debts, backtax and rent to these old-politicians, which can
         be called counterfeit-in-contract and
