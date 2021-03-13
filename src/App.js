@@ -550,20 +550,37 @@ export default class App extends React.Component {
         https://www.isidewith.com/poll/488729614
         <br />
         Now I have to earn the equity back
-        <div
-          style={{
-            width: "100%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
+        <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
+          <div
             style={{
-              width: "100%",
-              height: "auto"
+              width: "50%",
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/g8h1b4r7oukodl9/IMG_3399.png?dl=0"
-          />
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/g8h1b4r7oukodl9/IMG_3399.png?dl=0"
+            />
+          </div>{" "}
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/d9vzhfggrs9ril7/IMG_3413.png?dl=0"
+            />
+          </div>
         </div>
         <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
           <div
@@ -578,7 +595,7 @@ export default class App extends React.Component {
                 width: "100%",
                 height: "auto"
               }}
-              src="https://www.dl.dropboxusercontent.com/s/dkyrz8m3ld6pv15/IMG_3398.png?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/y8nbelkaic70ap7/IMG_3412.png?dl=0"
             />
           </div>
           <div
@@ -599,11 +616,12 @@ export default class App extends React.Component {
         </div>
         <br />
         <br />
-        Trademarks are to be non-descriptive (of industry or product) or non-specific
-        <br/>
+        Trademarks are to be non-descriptive (of industry or product) or
+        non-specific
+        <br />
         Copyright is an automatic patent
-        <br/>
-        <br/>
+        <br />
+        <br />
         "Infrastructure is a&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
