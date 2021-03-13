@@ -2890,7 +2890,7 @@ export default class App extends React.Component {
             }}
             ref={this.livingWage}
           >
-            -The Great Depression happened because the government paid off bonds
+           -The Great Depression happened because the government paid off private bonds, sometimes use war to disburse through military
             <br />
             prices and opportunities can no longer sustain what was borrowed
             <br />
