@@ -545,7 +545,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        We all have to make a living (read:cannibal), but we all don't have to produce by front-running and than dumber-fooling consumers
+        We all have to make a living (read:cannibal), but we all don't have to produce by front-running and than dumber-fooling consumers. and these direct deposits are involuntary split that you get 9% of
         <br/>
         <br/>
         If you borrow money, you do not have to pay it back. If you do, over a
