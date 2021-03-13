@@ -544,9 +544,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Economic growth is apples and oranges traded, or a natural redistribution of wealth depending on objective skill, quality or price of their own assets in royalty-schedule. It is also non-sensical to look at the number GDP without adjusting for new money debt and persons by division or change on their own indices
-        <br/>
-        <br/>
+        Economic growth is apples and oranges traded, or a natural
+        redistribution of wealth depending on objective skill, quality or price
+        of their own assets in royalty-schedule. It is also non-sensical to look
+        at the number GDP without adjusting for new money debt and persons by
+        division or change on their own indices
+        <br />
+        <br />
         This is not a Natural/National catastrophe Larry, you stole our rights
         to refuse cross-party pooling in cosigning this bill without requite
         <br />
@@ -613,12 +617,16 @@ export default class App extends React.Component {
         and aided by the lie that&nbsp;
         <a href="https://nationalsecuritycasino.com">Italy joined</a>
         &nbsp;for&nbsp;<a href="https://froth.app/debt">hair color</a>, which
-        was in set by the planning to do so and the incentive thereby to fire
-        and sell bonds, the latter requiring the former and the
-        unduly-monopsonized labor's living expenses falls.. Demand is a shared
-        negotiation, and still requires shareholder rights and some wealth
-        relativity to peter through - and build consensus of fair opportunity
-        thru - demand's utility considerations as individuals
+        was set by the planning to&nbsp;
+        <a href="https://www.investopedia.com/terms/f/1913-federal-reserve-act.asp#:~:text=The%201913%20Federal%20Reserve%20Act%20is%20legislation%20in%20the%20United,bank%20to%20oversee%20monetary%20policy.">
+          do so
+        </a>
+        &nbsp;and the incentive thereby to fire and sell bonds, the latter
+        requiring the former and the unduly-monopsonized labor's living expenses
+        falls.. Demand is a shared negotiation, and still requires shareholder
+        rights and some wealth relativity to peter through - and build consensus
+        of fair opportunity thru - demand's utility considerations as
+        individuals
         <br />
         <br />
         <span
@@ -13601,3 +13609,4 @@ export default class App extends React.Component {
     );
   }
 }
+
