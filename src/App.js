@@ -545,6 +545,14 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Free education is not free, stop misleading people into acquiescing to a
+        equity split that they get $1400 of, only 9% of total they would have if
+        no action were taken, except now they have no negitiation power with
+        supply/and the finance/rentier-colonist you allow to go on without
+        aggregate adjunication because it wouldn't work for the corrupt courts
+        of the U.S. in their own financial situation so they NO LONGER SERVE.
+        <br />
+        <br />
         "Having people employed is good for the economy," says Washington Post
         writer on NPR/Morgan Stanley's LRC Propoganda Unit, currently
         under-investigation for illegal nomenclature of their show. Uh not for
@@ -552,14 +560,7 @@ export default class App extends React.Component {
         no jobs.
         <br />
         LRC host says, "non-disabled adult should be doing work outside the
-        home." Why is that your economic policy goal? Slave-driver
-        <br />
-        Free education is not free, stop misleading people into acquiescing to a
-        equity split that they get $1400 of, only 9% of total they would have if
-        no action were taken, except now they have no negitiation power with
-        supply/and the finance/rentier-colonist you allow to go on without
-        aggregate adjunication because it wouldn't work for the corrupt courts
-        of the U.S. in their own financial situation so they NO LONGER SERVE.
+        home." Why is that your economic policy goal? Slave-driver, leave us alone
         <br />
         <br />
         Sales tax (not income tax) on&nbsp;
@@ -13833,3 +13834,4 @@ export default class App extends React.Component {
     );
   }
 }
+
