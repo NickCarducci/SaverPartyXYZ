@@ -545,6 +545,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Essex County bragging about worstening playing conditions for solvency
+        ratings and their AAA bond ratings to which used to be junk. Says he
+        saves money on tax but spends more on price. Totally foregoing that fact
+        in getting on the Globe. The debt service is not the problem, it is the
+        counterfeit-in-contract price-inelasticity inflation.
+        <br />
+        <br />
         Union collusion & duress strike of labors' time, is fine to corner by
         antitrust intent, but supply or assets on the other hand must compete by
         winning favor of price-taking consumers to have, settled, of their own
