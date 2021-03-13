@@ -532,6 +532,26 @@ class Index extends React.Component {
                       keybox.email
                     </a>
                   </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "rgb(5,5,5)",
+                        color: "white"
+                      }}
+                      href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721"
+                    >
+                      blockchain.fart
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
