@@ -560,7 +560,8 @@ export default class App extends React.Component {
         no jobs.
         <br />
         LRC host says, "non-disabled adult should be doing work outside the
-        home." Why is that your economic policy goal? Slave-driver, leave us alone
+        home." Why is that your economic policy goal? Slave-driver,&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Josh_Barro">leave us alone</a>
         <br />
         <br />
         Sales tax (not income tax) on&nbsp;
@@ -13834,4 +13835,3 @@ export default class App extends React.Component {
     );
   }
 }
-
