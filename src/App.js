@@ -544,11 +544,36 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        
+        "Tax to finance the Green New Deal," remarks Larry Kudlow paraphrasing Janet Yellen March 2021 about the
+        sequal&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => this.SYSTEMICINEQUALITY.current.scrollIntoView("smooth")}
-        >individual rights</span>,&nbsp;
+          onClick={() => {
+            this.livingWage.current.scrollIntoView("smooth");
+            this.setState({ highlightLivingWage: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightLivingWage: false }),
+              10000
+            );
+          }}
+        >
+          precursor to the rise
+        </span>
+        &nbsp;of the&nbsp;
+        <a href="https://www.theatlantic.com/business/archive/2012/11/the-long-story-of-us-debt-from-1790-to-2011-in-1-little-chart/265185/">
+          third reich
+        </a>
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() =>
+            this.SYSTEMICINEQUALITY.current.scrollIntoView("smooth")
+          }
+        >
+          individual rights
+        </span>
+        ,&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => this.INSURANCEFRAUD.current.scrollIntoView("smooth")}
@@ -879,8 +904,12 @@ export default class App extends React.Component {
         >
           any promises waged thereof
         </span>
-        &nbsp;which was once near 1:1 in 1908 (no outstanding loans)? Finance is
-        inflation in opportunity
+        &nbsp;which was once near 1:1 in&nbsp;
+        <a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-xvi">
+          1908
+        </a>
+        &nbsp;(<a href="https://micro-theory.com">no outstanding loans</a>)?
+        Finance is inflation in opportunity
         <br />
         <br />
         Debt-spending does not&nbsp;
@@ -13431,7 +13460,8 @@ export default class App extends React.Component {
         <br />
         <CurrencyPerCitizen showM1={this.state.showM1} />
         <div style={{ display: "flex" }}>
-          <div
+          <a
+            href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-xvi"
             style={{
               position: "relative"
             }}
@@ -13441,7 +13471,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/di3vvdp7out75fx/GoldBondWarning.jpg?dl=0"
               alt="imprisonment or insurmountable fine if you do not buy military-contract bonds"
             />
-          </div>
+          </a>
           <div
             style={{
               position: "relative"
@@ -13510,4 +13540,3 @@ export default class App extends React.Component {
     );
   }
 }
-
