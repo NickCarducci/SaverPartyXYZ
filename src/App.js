@@ -554,12 +554,19 @@ export default class App extends React.Component {
         to help you ruin your negotiating position, and mine
         <br />
         <br />
-        "Targeted money" not for assets but financial debts and backtaxes. Otherwise it is fraud. only the federal reserve can buy assets
+        "Targeted money" from savers, not tax-payers (dollar is corporation), is
+        not for assets but financial debts and backtaxes. Otherwise it is fraud.
+        only the federal reserve can buy assets
         <br />
         Being generous instead of stingy is literally taking their equity and
         giving corporations money. Left, Right, Center sponsored by Morgan
         Stanley. A little biased to call yourself center. STOP THUMBS UPPING BAD
-        EVIL THINGS. LET PRICES OF HOUSING FALL. Then this fucking slut says the US is bad at IT, then give me the money for cheap instead of being against young italian males.  leave the earth
+        EVIL THINGS. LET PRICES OF HOUSING FALL. Then&nbsp;
+        <a href="https://www.washingtonpost.com/people/christine-emba/">
+          this fucking slut
+        </a>
+        &nbsp;says the US is bad at IT, then give me the money for cheap instead
+        of being against young italian males. leave the earth
         <br />
         <br />
         We all have to make a living (read:cannibal), but we all don't have to
@@ -604,14 +611,15 @@ export default class App extends React.Component {
         contributions
         <br />
         <br />
-        Stop hurting people (leave) Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT
-        WANT SPENDING (you are sampling and not fully-informing about costs in
-        price-inelasticity and splitting equity to do so), who in their right
-        mind would suggest Democrats delayed spending of this bill, guilty of
-        neglect. There is only $2t currencyComponentOfM1. There is $82t debt.
-        That is all compound interest or re-"investment." To hold both facts
-        that it is needed and there is never enough without adjunicating to
-        cash:debt at the time of transaction is to be criminally-intent.
+        Stop hurting people (leave) Katherine Rompell you fucking lying
+        financial slut, MOST PEOPLE DO NOT WANT SPENDING (you are sampling and
+        not fully-informing about costs in price-inelasticity and splitting
+        equity to do so), who in their right mind would suggest Democrats
+        delayed spending of this bill, guilty of neglect. There is only $2t
+        currencyComponentOfM1. There is $82t debt. That is all compound interest
+        or re-"investment." To hold both facts that it is needed and there is
+        never enough without adjunicating to cash:debt at the time of
+        transaction is to be criminally-intent.
         <br />
         <br />
         <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
@@ -9187,29 +9195,23 @@ export default class App extends React.Component {
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
                 margin: "10px 0px",
                 padding: "10px",
 
                 border: "1px dotted",
                 width: "calc(100% - 20px)",
-                maxWidth: "600px"
+                maxWidth: "600px",
+                transition: ".3s ease-in",
+                color: this.state.highlightFintech ? "white" : "grey",
+                backgroundColor: this.state.highlightFintech
+                  ? "rgb(170,100,205)"
+                  : ""
               }}
             >
               <a href="https://wavv.art/forumndUyfK0JYWVglK4qa62R">
                 wavv.art/forumndUyfK0JYWVglK4qa62R
               </a>
-              <span
-                style={{
-                  transition: ".3s ease-in",
-
-                  color: this.state.highlightFintech ? "white" : "",
-                  backgroundColor: this.state.highlightFintech
-                    ? "rgb(170,100,205)"
-                    : ""
-                }}
-                ref={this.fintech}
-              >
+              <span ref={this.fintech}>
                 Allpoint and Greendot oligopoly prevents me from extending
                 payable services because it requires me to take counterfeit
                 offers with cross-party down-payment malfeasant-jurisprudence
@@ -13794,3 +13796,4 @@ export default class App extends React.Component {
     );
   }
 }
+
