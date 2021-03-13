@@ -1930,10 +1930,12 @@ export default class App extends React.Component {
             }}
           >
             <div>
-              "We purchased shots" -&nbsp;
+              "We purchased&nbsp;<a href="https://humanharvest.info">shots" -&nbsp;
               <a href="https://en.wikipedia.org/wiki/Brett_Giroir">
                 Admiral Brett Giroir
               </a>
+              "Not vaccines are made in 2-3 months, they usually take 10-15 years," he continues.<br/>
+              "Never done before, truly a moonshot from administration to administration.  Our administration deserves credit for that," he goes on to admit.
             </div>
             <br />
             <hr />
@@ -2890,7 +2892,7 @@ export default class App extends React.Component {
             }}
             ref={this.livingWage}
           >
-           -The Great Depression happened because the government paid off private bonds, sometimes use war to disburse through military
+            -The Great Depression happened because the government paid off private bonds, sometimes use war to disburse through military
             <br />
             prices and opportunities can no longer sustain what was borrowed
             <br />
