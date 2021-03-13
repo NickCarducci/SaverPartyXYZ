@@ -545,6 +545,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        CNN, please stop not correcting your public health experts when they presume that non-symptomatic people are transmitting covid when your only proof can be a false negative for the cold with the "gold standard" PCR tests.. and stay the fuck away from me, don't exclude me without non-invasive evidence either or you're free-riding my societal contributions
+        <br/>
+        <br/>
         Most people do not want more spending, who in their right mind would
         suggest Democrats delayed spending of this bill, guilty of neglect.
         There is only $2t currencyComponentOfM1. There is $82t debt. That is all
