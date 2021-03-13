@@ -23,8 +23,10 @@ class Index extends React.Component {
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
+    var top = scrollTop === 0;
     this.setState({
-      top: scrollTop === 0,
+      openMenu: !top ? this.state.openMenu : false,
+      top,
       scrollPlacementHeight,
       scrollTop
     });
