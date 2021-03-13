@@ -545,6 +545,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        If you borrow money, you do not have to pay it back.  If you do, over a general income, you are instigating that agreement on your customers or employer.
+        <br/>
+        <br/>
         CNN, please stop not correcting your public health experts when they presume that non-symptomatic people are transmitting covid when your only proof can be a false negative for the cold with the "gold standard" PCR tests.. and stay the fuck away from me, don't exclude me without non-invasive evidence either or you're free-riding my societal contributions
         <br/>
         <br/>
