@@ -545,6 +545,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Sales tax (not income tax) on free-rider-immutable services for security and welfare only by tiny-solar panel homes not predatory debt.  The Fed will not giv share without it being a debt.  They would rather kill us
+        <br/>
+        why tax to raise price even for tiny homes with solar roofs, just make them 
+        <br/>
+        <br/>
         Unemployment insurance paid by first taking equity from you by
         share-splitting the dollar (a.k.a. depositary-share) into a cross party
         pool involuntarily to keep your landlord or lender from missing human
