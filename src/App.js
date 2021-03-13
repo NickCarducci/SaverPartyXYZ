@@ -561,7 +561,19 @@ export default class App extends React.Component {
         to refuse cross-party pooling in cosigning this bill without requite
         <br />
         <br />
-        "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
+        "<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.financeKills.current.scrollIntoView("smooth");
+                this.setState({ highlightFinanceKills: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFinanceKills: false }),
+                  10000
+                );
+              }}
+            >We</span>&nbsp;cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
         Steven Moore says. "Our children will have to pay&nbsp;
         <span
           onClick={() => {
@@ -3632,7 +3644,7 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            the only crisis is in 1xbook assets that only have 1:13 if
+            the only crisis is in 1xbook assets that only have 1:13&nbsp;<a href="https://micro-theory.com">(30, 41?)</a> if
             adjunicated now
             <br />
             if debt and Bernie Sanders didn't exists, the rich would kill us
