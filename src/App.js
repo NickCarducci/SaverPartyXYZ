@@ -545,9 +545,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
+        you are giving up our ghost; more money separates us
+        <br />
+        <br />
         Labor union/working people/luddites versus inventors/artists to death
-        <br/>
-        <br/>
+        <br />
+        <br />
         Essex County bragging about worstening playing conditions for solvency
         ratings and their AAA bond ratings to which used to be junk. Says he
         saves money on tax but spends more on price. Totally foregoing that fact
@@ -566,7 +570,7 @@ export default class App extends React.Component {
         <br />
         <br />
         Price-inelasticity inflation is 4100%, Monetary-inflation (minus
-        housing) is 102%
+        housing) is 102%... What is the point of selli
         <br />
         <br />
         (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
@@ -729,7 +733,7 @@ export default class App extends React.Component {
         </span>
         ,&nbsp;
         <a href="https://nationalsecuritycasino.com">national security</a>,
-        criminal justice reform/
+        criminal justice+police reform/
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => this.GUNSAFETY.current.scrollIntoView("smooth")}
@@ -5057,7 +5061,13 @@ export default class App extends React.Component {
             </a>
             <br />
             <br />
-            insurance is not subscription-membership because one person's
+            <span style={{
+              transition: ".3s ease-in",
+
+              color: this.state.highlightIncomeTax ? "white" : "grey",
+              backgroundColor: this.state.highlightIncomeTax
+                ? "rgb(170,100,205)"
+                : "",}} ref={this.incomeTax}>insurance is not subscription-membership because one person's
             subscription (taxable) does not go towards someone else's or a large
             contracted&nbsp;
             <span
@@ -5081,7 +5091,7 @@ export default class App extends React.Component {
             &nbsp;(Spotify, income, royalty not taxes), it goes to pay for their
             non-monopsony, individual servicing. insurance is duressful trade,
             by invoice, gift-certificate or max-expense, prohibiting trade and
-            causing slavery just the same as debt
+            causing slavery just the same as debt</span>
           </div>
           <i
             style={{
@@ -12207,9 +12217,24 @@ export default class App extends React.Component {
           <br />
           Efficiency (labor-equity) Act & Accord
           <br />
-          1. Taxes are slavery
+          1. Taxes are slavery except free-rider-immutable services, below
           <br />
-          2. Sales tax is efficient, under{" "}
+          2.&nbsp;<span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.incomeTax.current.scrollIntoView("smooth");
+                this.setState({ highlightIncomeTax: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIncomeTax: false }),
+                  10000
+                );
+              }}
+            >Sales</span>&nbsp;tax is efficient, under{" "}
           <a href="https://vaults.biz">$2k buys</a>:
           <br />
           first grand is $60, second is $30 (6%, 3%)
