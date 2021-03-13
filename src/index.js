@@ -32,10 +32,13 @@ class Index extends React.Component {
   handleMove = (ev, touch) => {
     ev.stopPropagation();
     var e = null;
+    var timeout = null;
     if (touch) {
       e = ev.touches[0];
+      timeout = 20;
     } else {
       e = ev;
+      timeout = 10;
     }
     var scrollPlacementHeight = e.clientY - 115;
     if (
@@ -53,7 +56,7 @@ class Index extends React.Component {
             window.scroll({ top, behavior: "smooth" });
           });
         }
-      }, 10);
+      }, timeout);
     }
   };
   render() {
