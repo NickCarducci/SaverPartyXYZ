@@ -545,6 +545,11 @@ export default class App extends React.Component {
         Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
         &nbsp;announce conspiracy to bring remote learning to students
         nationwide with stolen equity, and keep prices up - 3/12/2021
+        <hr />
+        Teachers striked, we paid up against our will
+        https://www.isidewith.com/poll/488729614
+        <br />
+        Now I have to earn the equity back
         <div
           style={{
             width: "100%",
