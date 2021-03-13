@@ -32,7 +32,7 @@ class Fraud extends React.Component {
               height: "700px"
             }}
             title="GDP - P - NM - ND"
-            src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=BWji&width=500&height=600`}
+            src={`https://fred.stlouisfed.org/graph/graph-landing.php?g=BWmn&width=500&height=600`}
             scrolling="no"
             className="embed-container1"
           />
