@@ -655,7 +655,10 @@ class Index extends React.Component {
               . Why call your parties one of the primary two; bipartisanship
               representing a minority of Americans - and no civil or human
               rights - is a lie, if claiming it to be what people want - or
-              deserve.
+              deserve.{" "}
+              <span style={{ color: "grey" }}>
+                Like my stuff? Hire me! 7322331085.  I am asking for 4100% of what you think is possible
+              </span>
             </div>
           </div>
           <div
