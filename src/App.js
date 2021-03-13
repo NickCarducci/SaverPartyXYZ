@@ -540,17 +540,35 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "Infrastructure is a big crisis and they don't seem to realize it," says Erin Burnett about the Republicans.  First, the Rebulicans still spend but they are crony spenders.  Second, Savers teach Erin that if she negotiates with workers or fights for their equity rights, their living costs and therefore salaries can be negotiated down!  
-        <br/>
-        <br/>
+        "Infrastructure is a&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.fintech.current.scrollIntoView("smooth");
+                this.setState({ highlightFintech: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFintech: false }),
+                  10000
+                );
+              }}
+            >big crisis</span>&nbsp;and they don't seem to realize it," says
+        Erin Burnett about the Republicans. First, the Rebulicans still spend
+        but they are crony spenders. Second, Savers teach Erin that if she
+        negotiates with workers or fights for their equity rights, their living
+        costs and therefore salaries can be negotiated down!
+        <br />
+        <br />
         BBQ DECLARE INDEPENDENCE
-        <br/>
-        "Tell you what you can and cannot do once you are fully-"vaccinated"/grafted," threatens Biden while 10% have
+        <br />
+        "Tell you what you can and cannot do once you are
+        fully-"vaccinated"/grafted," threatens Biden while 10% have
         <br />
         I will fight you off and fight for my inclusion rights without evidence
-        that is different than normal cold polychain reaction, visible symptoms or non-cavity temp check
+        that is different than normal cold polychain reaction, visible symptoms
+        or non-cavity temp check
         <br />
-        <br/>
+        <br />
         "Hopefully we can get some bipartisan cooporation on that," Wolf Blitzer
         blitzes my pocket book (not a tax-payer, live at home. save) of an
         'electic highway' by further dollar dilution and tax. Let's vote on
