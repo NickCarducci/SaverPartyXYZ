@@ -544,6 +544,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Economic growth is apples and oranges traded, or a natural redistribution of wealth depending on objective skill, quality or price of their own assets in royalty-schedule. It is also non-sensical to look at the number GDP without adjusting for new money debt and persons by division or change on their own indices
+        <br/>
+        <br/>
         This is not a Natural/National catastrophe Larry, you stole our rights
         to refuse cross-party pooling in cosigning this bill without requite
         <br />
