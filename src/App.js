@@ -548,7 +548,7 @@ export default class App extends React.Component {
         Most people do not want more spending, who in their right mind would
         suggest Democrats delayed spending of this bill, guilty of neglect.
         There is only $2t currencyComponentOfM1. There is $82t debt. That is all
-        compount interest or re-"investment." To hold both facts that it is
+        compound interest or re-"investment." To hold both facts that it is
         needed and there is never enough without adjunicating to cash:debt at
         the time of transaction is to be criminally-intent.
         <br />
