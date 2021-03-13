@@ -507,6 +507,26 @@ class Index extends React.Component {
                       2052.live
                     </a>
                   </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "rgb(5,5,5)",
+                        color: "white"
+                      }}
+                      href="https://keybox.email"
+                    >
+                      keybox.email
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
