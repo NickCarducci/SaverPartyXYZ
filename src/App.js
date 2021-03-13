@@ -542,6 +542,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        When a rorschach test has become an aptitude test except in the real data, you know the corporate left & right is Deep
         <iframe
           title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
