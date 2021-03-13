@@ -541,7 +541,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>&nbsp;annouce conspiracy to bring remote learning to students nationwide
+        Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
+        &nbsp;announce conspiracy to bring remote learning to students
+        nationwide with stolen equity - 3/11/2021
         <div
           style={{
             width: "100%",
