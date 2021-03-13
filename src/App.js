@@ -549,7 +549,22 @@ export default class App extends React.Component {
         <br />
         <br />
         "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
-        Steven Moore says. "Our children will have to pay these costs," he
+        Steven Moore says. "Our children will have to pay&nbsp;<span
+            onClick={() => {
+              this.Oooreily.current.scrollIntoView("smooth");
+              this.setState({ highlightOooreily: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightOooreily: false }),
+                10000
+              );
+            }}
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >these costs</span>," he
         continues in a fervent disporia of his bearings
         <br />
         "Tax to finance the Green New Deal," remarks Larry&nbsp;
