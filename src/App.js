@@ -545,6 +545,14 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Most people do not want more spending, who in their right mind would
+        suggest Democrats delayed spending of this bill, guilty of neglect.
+        There is only $2t currencyComponentOfM1. There is $82t cash. That is all
+        compount interest or re-"investment." To hold both facts that it is
+        needed and there is never enough without adjunicating to cash:debt at
+        the time of transaction is to be criminally-intent.
+        <br />
+        <br />
         <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
         you are giving up our ghost; more money separates us.  Hetty Rosenstein wants to protect pensions, through no fault of their own&nbsp;<span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
