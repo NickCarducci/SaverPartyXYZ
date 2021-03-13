@@ -547,7 +547,7 @@ export default class App extends React.Component {
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
           width="300"
           height="444"
-          style={{ border: "none", width: "480px" }}
+          style={{ backgroundColor:"3b5998",border: "none", width: "480px" }}
         ></iframe>
         "Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief." - Baltimore Sun
         <br />
