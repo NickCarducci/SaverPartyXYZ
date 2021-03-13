@@ -541,7 +541,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Hello bedlam
+        Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>&nbsp;annouce conspiracy to bring remote learning to students nationwide
         <div
           style={{
             width: "100%",
