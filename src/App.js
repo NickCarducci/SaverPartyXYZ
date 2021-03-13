@@ -131,7 +131,8 @@ export default class App extends React.Component {
     this.technicallyIllegal = React.createRef();
     this.sanjay = React.createRef();
     this.quality = React.createRef();
-    this.mutilation = React.createRef()
+    this.mutilation = React.createRef();
+    this.planetary = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -543,27 +544,66 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        When a rorschach test has become an aptitude test except in the&nbsp;<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+        individual rights,&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => this.INSURANCEFRAUD.current.scrollIntoView("smooth")}
+        >
+          quality health care
+        </span>
+        ,&nbsp;
+        <span style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.mutilation.current.scrollIntoView("smooth");
-                this.setState({ highlightMutilation: true });
+                this.planetary.current.scrollIntoView("smooth");
+                this.setState({ highlightPlanetary: true });
 
                 clearTimeout(this.highlighting);
                 this.highlighting = setTimeout(
-                  () => this.setState({ highlightMutilation: false }),
+                  () => this.setState({ highlightPlanetary: false }),
                   10000
                 );
-              }}
-            >real&nbsp;<a href="https://www.statnews.com/2021/02/26/sen-rand-paul-misunderstands-transgender-medicine-heres-the-truth/">data</a></span>, you know the corporate left & right is Deep
+              }}>climate change(33rd most important per John, Populist)</span>
+        <br />
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => this.IMMIGRATION.current.scrollIntoView("smooth")}
+        >
+          immigration
+        </span>
+        , national security, criminal justice reform/guns?
+        <br />
+        Smericonish segment with Populist
+        <br />
+        When a rorschach test has become an aptitude test except in the&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.mutilation.current.scrollIntoView("smooth");
+            this.setState({ highlightMutilation: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightMutilation: false }),
+              10000
+            );
+          }}
+        >
+          real&nbsp;
+          <a href="https://www.statnews.com/2021/02/26/sen-rand-paul-misunderstands-transgender-medicine-heres-the-truth/">
+            data
+          </a>
+        </span>
+        , you know the corporate left & right is Deep
         <iframe
           title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
           width="300"
           height="444"
-          style={{backgroundColor:"#3b5998", border: "none", width: "480px" }}
+          style={{ backgroundColor: "#3b5998", border: "none", width: "480px" }}
         ></iframe>
-        "Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief." - Baltimore Sun
+        "Maryland Comptroller Peter Franchot is calling for an independent,
+        bipartisan commission to audit state and federal dollars spent on
+        pandemic relief." - Baltimore Sun
         <br />
         Relief means debts, backtax and rent to these old-politicians, which can
         be called counterfeit-in-contract and
@@ -10092,12 +10132,16 @@ export default class App extends React.Component {
             </span>
           </div>
           <div
+          ref={this.planetary}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
               margin: "10px 0px",
               padding: "10px",
-
+              transition: ".3s ease-in",
+              color: this.state.highlightExperts ? "white" : "grey",
+              backgroundColor: this.state.highlightExperts
+                ? "rgb(170,100,205)"
+                : "",
               border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
@@ -11555,7 +11599,7 @@ export default class App extends React.Component {
             the prescription market (adhd medicine...)
           </div>
           <div
-          ref={this.mutilation}
+            ref={this.mutilation}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
@@ -11570,7 +11614,7 @@ export default class App extends React.Component {
               color: this.state.highlightMutilation ? "white" : "grey",
               backgroundColor: this.state.highlightMutilation
                 ? "rgb(170,100,205)"
-                : "",
+                : ""
             }}
           >
             you're normal, its a wide distribution
