@@ -541,6 +541,17 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+
+        <iframe
+            title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=500&show_text=true&height=524&appId"
+            width="300"
+            height="444"
+            style={{ border: "none", overflow: "hidden", width: "480px" }}
+          ></iframe>
+        <br/>
+        Relief means debts, backtax and rent to these old-politicians, which can be called counterfeit-in-contract and market-colonialism/involuntary-servitude/prohibiting-trade and banned. That is a more appropriate name for relief, and calling bail out relief is fraudulent since that can happen obviously instead. Does he want to make sure lenders are paid with this stolen equity up to what they have promised to themselves? There is $82tdebt:$6tcash(or really $2tcurrency, is all that debt compound or mostly fractional reserves? This is fraud and people shouldn’t be forced to spend it on what should be voided contracts
+        <br/><br/>
         <h1>BEDLAM</h1>
         Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
         &nbsp;announce conspiracy to bring remote learning to students
