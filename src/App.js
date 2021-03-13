@@ -545,6 +545,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Unemployment insurance paid by first taking equity from you by share-splitting the dollar (a.k.a. depositary-share) into a cross party pool involuntarily to keep your landlord or lender from missing human income or having to sell to the homeless youth for cheap.
+        <br/>
+        In every scenario is it not anyone elses' responsibility nor good will to help you ruin your negotiating position, and mine
+        <br/>
+        <br/>
         Being generous instead of stingy is literally taking their equity and giving corporations money.  Left, Right, Center sponsored by Morgan Stanley.  A little biased to call yourself center. STOP THUMBS UPPING BAD EVIL THINGS.  LET PRICES OF HOUSING FALL
         <br/>
         <br/>
