@@ -545,12 +545,23 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "Having people employed is good for the economy," says Washington Post writer on NPR/Morgan Stanley's LRC Propoganda Unit, currently under-investigation for illegal nomenclature of their show. Uh not for employment alone, retard, we can have technological advancement to have no jobs.
-        <br/>
-        <br/>
-        Sales tax (not income tax) on free-rider-immutable services for security
-        and welfare only by tiny-solar panel homes not predatory debt. The Fed
-        will not give share without it being a debt. They would rather kill us
+        "Having people employed is good for the economy," says Washington Post
+        writer on NPR/Morgan Stanley's LRC Propoganda Unit, currently
+        under-investigation for illegal nomenclature of their show. Uh not for
+        employment alone, retard, we can have technological advancement to have
+        no jobs.
+        <br />
+        <br />
+        Sales tax (not income tax) on&nbsp;
+        <a href="https://vaults.biz">
+          free-rider-immutable services for security of where you shop
+        </a>
+        &nbsp;
+        <span style={{ textDecoration: "line-through" }}>
+          and welfare only by tiny-solar panel homes
+        </span>
+        &nbsp;not predatory debt. The Fed will not give share without it being a
+        debt. They would rather kill us
         <br />
         why tax to raise price even for tiny homes with solar roofs, just make
         them
