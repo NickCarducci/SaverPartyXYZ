@@ -578,8 +578,8 @@ export default class App extends React.Component {
         <br />
         "Targeted money" from savers, not tax-payers (dollar is corporation), is
         not for assets but financial debts and backtaxes. Otherwise it is fraud.
-        only the federal reserve can buy assets. IN NO SCENARIO CAN TAX PAYERS
-        PAY 41x WHAT EXISTS. Jesus, people at the Washington Post are fucking
+        only the federal reserve can buy assets. &nbsp;<a href="https://www.isidewith.com/poll/488729614">IN NO SCENARIO CAN TAX PAYERS
+        PAY 41x WHAT EXISTS</a>. Jesus, people at the Washington Post are fucking
         idiots! Or, they know EXACTLY how they are misleading people into self-
         and co-demand-harm
         <br />
