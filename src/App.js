@@ -545,6 +545,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Labor union/working people/luddites versus inventors/artists to death
+        <br/>
+        <br/>
         Essex County bragging about worstening playing conditions for solvency
         ratings and their AAA bond ratings to which used to be junk. Says he
         saves money on tax but spends more on price. Totally foregoing that fact
