@@ -545,7 +545,7 @@ export default class App extends React.Component {
           </span>
         </span>
         "Tax to finance the Green New Deal," remarks Larry Kudlow paraphrasing Janet Yellen March 2021 about the
-        sequal&nbsp;
+        sequel&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -564,7 +564,7 @@ export default class App extends React.Component {
         &nbsp;of the&nbsp;
         <a href="https://www.theatlantic.com/business/archive/2012/11/the-long-story-of-us-debt-from-1790-to-2011-in-1-little-chart/265185/">
           third reich
-        </a>
+        </a><br/><br/>
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() =>
