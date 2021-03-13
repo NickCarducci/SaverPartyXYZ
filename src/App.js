@@ -544,10 +544,17 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        AOC, "Free stuff," she needs to go to jail for false advertisement, it
-        is paid by stolen equity and makes it worse
-        <br/>
-        Bills are free just the same for the private lender as this is for the government contractors, free assets to promise to themselves
+        <a href="https://twitter.com/nowthisnews/status/1370493485829197825?s=20">
+          AOC
+        </a>
+        , "Free stuff," she needs to go to jail for&nbsp;
+        <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+          false advertisement
+        </a>
+        , it is paid by stolen equity and makes it worse
+        <br />
+        Bills are free just the same for the private lender as this is for the
+        government contractors, free assets to promise to themselves
         <br />
         <br />
         Economic growth is apples and oranges traded, or a natural
@@ -560,20 +567,23 @@ export default class App extends React.Component {
         This is not a Natural/National catastrophe Larry, you stole our rights
         to refuse cross-party pooling in cosigning this bill without requite
         <br />
-        <br />
-        "<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
+        <br />"
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.financeKills.current.scrollIntoView("smooth");
+            this.setState({ highlightFinanceKills: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >We</span>&nbsp;cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightFinanceKills: false }),
+              10000
+            );
+          }}
+        >
+          We
+        </span>
+        &nbsp;cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
         Steven Moore says. "Our children will have to pay&nbsp;
         <span
           onClick={() => {
@@ -3644,8 +3654,8 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            the only crisis is in 1xbook assets that only have 1:13&nbsp;<a href="https://micro-theory.com">(30, 41?)</a> if
-            adjunicated now
+            the only crisis is in 1xbook assets that only have 1:13&nbsp;
+            <a href="https://micro-theory.com">(30, 41?)</a> if adjunicated now
             <br />
             if debt and Bernie Sanders didn't exists, the rich would kill us
             <br />
@@ -13627,4 +13637,3 @@ export default class App extends React.Component {
     );
   }
 }
-
