@@ -546,7 +546,19 @@ export default class App extends React.Component {
           </span>
         </span>
         <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
-        you are giving up our ghost; more money separates us
+        you are giving up our ghost; more money separates us.  Hetty Rosenstein wants to protect pensions, through no fault of their own&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIRS: false }),
+                  10000
+                );
+              }}
+            >they were threatened to invest in the public stock market</span>.&nbsp;probably a proponent of&nbsp;<a href="https://nationalsecuritycasino.com">spying/incomparable applications of law/disclosure on retail traders to fix prices of shares too</a>
         <br />
         <br />
         Labor union/working people/luddites versus inventors/artists to death
