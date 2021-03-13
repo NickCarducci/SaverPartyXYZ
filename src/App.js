@@ -131,6 +131,7 @@ export default class App extends React.Component {
     this.technicallyIllegal = React.createRef();
     this.sanjay = React.createRef();
     this.quality = React.createRef();
+    this.mutilation = React.createRef()
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -542,13 +543,25 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        When a rorschach test has become an aptitude test except in the real data, you know the corporate left & right is Deep
+        When a rorschach test has become an aptitude test except in the&nbsp;<span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.mutilation.current.scrollIntoView("smooth");
+                this.setState({ highlightMutilation: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightMutilation: false }),
+                  10000
+                );
+              }}
+            >real&nbsp;<a href="https://www.statnews.com/2021/02/26/sen-rand-paul-misunderstands-transgender-medicine-heres-the-truth/">data</a></span>, you know the corporate left & right is Deep
         <iframe
           title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
           width="300"
           height="444"
-          style={{ backgroundColor:"#3b5998",border: "none", width: "480px" }}
+          style={{backgroundColor:"#3b5998", border: "none", width: "480px" }}
         ></iframe>
         "Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief." - Baltimore Sun
         <br />
@@ -572,19 +585,23 @@ export default class App extends React.Component {
         Teachers striked, we paid up against our will
         https://www.isidewith.com/poll/488729614
         <br />
-        Now I have to&nbsp;<span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.quality.current.scrollIntoView("smooth");
-              this.setState({ highlightQuality: true });
+        Now I have to&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.quality.current.scrollIntoView("smooth");
+            this.setState({ highlightQuality: true });
 
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightQuality: false }),
-                10000
-              );
-            }}
-          >earn</span>&nbsp;the equity back
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightQuality: false }),
+              10000
+            );
+          }}
+        >
+          earn
+        </span>
+        &nbsp;the equity back
         <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
           <div
             style={{
@@ -11538,6 +11555,7 @@ export default class App extends React.Component {
             the prescription market (adhd medicine...)
           </div>
           <div
+          ref={this.mutilation}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
@@ -11546,7 +11564,13 @@ export default class App extends React.Component {
 
               border: "1px dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              transition: ".3s ease-in",
+
+              color: this.state.highlightMutilation ? "white" : "grey",
+              backgroundColor: this.state.highlightMutilation
+                ? "rgb(170,100,205)"
+                : "",
             }}
           >
             you're normal, its a wide distribution
