@@ -545,14 +545,21 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Unemployment insurance paid by first taking equity from you by share-splitting the dollar (a.k.a. depositary-share) into a cross party pool involuntarily to keep your landlord or lender from missing human income or having to sell to the homeless youth for cheap.
-        <br/>
-        In every scenario is it not anyone elses' responsibility nor good will to help you ruin your negotiating position, and mine
-        <br/>
-        <br/>
-        Being generous instead of stingy is literally taking their equity and giving corporations money.  Left, Right, Center sponsored by Morgan Stanley.  A little biased to call yourself center. STOP THUMBS UPPING BAD EVIL THINGS.  LET PRICES OF HOUSING FALL
-        <br/>
-        <br/>
+        Unemployment insurance paid by first taking equity from you by
+        share-splitting the dollar (a.k.a. depositary-share) into a cross party
+        pool involuntarily to keep your landlord or lender from missing human
+        income or having to sell to the homeless youth for cheap.
+        <br />
+        In every scenario is it not anyone elses' responsibility nor good will
+        to help you ruin your negotiating position, and mine
+        <br />
+        <br />
+        Being generous instead of stingy is literally taking their equity and
+        giving corporations money. Left, Right, Center sponsored by Morgan
+        Stanley. A little biased to call yourself center. STOP THUMBS UPPING BAD
+        EVIL THINGS. LET PRICES OF HOUSING FALL. Then this fucking slut says the US is bad at IT, then give me the money for cheap instead of being against young italian males.  leave the earth
+        <br />
+        <br />
         We all have to make a living (read:cannibal), but we all don't have to
         produce by front-running and than dumber-fooling consumers. and these
         direct deposits are involuntary split that you get 9% of
