@@ -540,6 +540,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "Infrastructure is a big crisis and they don't seem to realize it," says Erin Burnett about the Republicans.  First, the Rebulicans still spend but they are crony spenders.  Second, Savers teach Erin that if she negotiates with workers or fights for their equity rights, their living costs and therefore salaries can be negotiated down!  
+        <br/>
+        <br/>
         BBQ DECLARE INDEPENDENCE
         <br/>
         "Tell you what you can and cannot do once you are fully-"vaccinated"/grafted," threatens Biden while 10% have
