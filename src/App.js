@@ -544,6 +544,12 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        AOC, "Free stuff," she needs to go to jail for false advertisement, it
+        is paid by stolen equity and makes it worse
+        <br/>
+        Bills are free just the same for the private lender as this is for the government contractors, free assets to promise to themselves
+        <br />
+        <br />
         Economic growth is apples and oranges traded, or a natural
         redistribution of wealth depending on objective skill, quality or price
         of their own assets in royalty-schedule. It is also non-sensical to look
