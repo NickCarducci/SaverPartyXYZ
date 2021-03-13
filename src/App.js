@@ -541,6 +541,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Trademarks are to be non-descriptive (of industry or product) or non-specific
+        <br/>
+        Copyright is an automatic patent
+        <br/>
+        <br/>
         "Infrastructure is a&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
