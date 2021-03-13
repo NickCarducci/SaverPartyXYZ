@@ -130,6 +130,7 @@ export default class App extends React.Component {
     this.fasterWithCounterfeit = React.createRef();
     this.technicallyIllegal = React.createRef();
     this.sanjay = React.createRef();
+    this.quality = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -541,17 +542,26 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-
         <iframe
-            title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
-            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=500&show_text=true&height=524&appId"
-            width="300"
-            height="444"
-            style={{ border: "none", overflow: "hidden", width: "480px" }}
-          ></iframe>
-        <br/>
-        Relief means debts, backtax and rent to these old-politicians, which can be called counterfeit-in-contract and market-colonialism/involuntary-servitude/prohibiting-trade and banned. That is a more appropriate name for relief, and calling bail out relief is fraudulent since that can happen obviously instead. Does he want to make sure lenders are paid with this stolen equity up to what they have promised to themselves? There is $82tdebt:$6tcash(or really $2tcurrency, is all that debt compound or mostly fractional reserves? This is fraud and people shouldn’t be forced to spend it on what should be voided contracts
-        <br/><br/>
+          title="Maryland Comptroller Peter Franchot is calling for an independent, bipartisan commission to audit state and federal dollars spent on pandemic relief."
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=500&show_text=true&height=524&appId"
+          width="300"
+          height="444"
+          style={{ border: "none", overflow: "hidden", width: "480px" }}
+        ></iframe>
+        <br />
+        Relief means debts, backtax and rent to these old-politicians, which can
+        be called counterfeit-in-contract and
+        market-colonialism/involuntary-servitude/prohibiting-trade and banned.
+        That is a more appropriate name for relief, and calling bail out relief
+        is fraudulent since that can happen obviously instead. Does he want to
+        make sure lenders are paid with this stolen equity up to what they have
+        promised to themselves? There is $82tdebt:$6tcash(or really $2tcurrency,
+        is all that debt compound or mostly fractional reserves? This is fraud
+        and people shouldn’t be forced to spend it on what should be voided
+        contracts
+        <br />
+        <br />
         <h1>BEDLAM</h1>
         Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
         &nbsp;announce conspiracy to bring remote learning to students
@@ -560,7 +570,19 @@ export default class App extends React.Component {
         Teachers striked, we paid up against our will
         https://www.isidewith.com/poll/488729614
         <br />
-        Now I have to earn the equity back
+        Now I have to&nbsp;<span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.quality.current.scrollIntoView("smooth");
+              this.setState({ highlightQuality: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightQuality: false }),
+                10000
+              );
+            }}
+          >earn</span>&nbsp;the equity back
         <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
           <div
             style={{
@@ -1511,13 +1533,24 @@ export default class App extends React.Component {
           claiming your bet was a promise, you have a demonic government
           <br />
           <br />
-          This $1.9t bill will raise prices for goods and services, and be a
-          boon to the lending class. There is no good that comes from this:
-          aggrandizing price & ruining opportunities for new producers by
-          bootstrapping entrepreneurs (bartending, coding) to emerge and provide
-          better quality and prices. It only monopolizes service-providers to
-          those that exist, making it impossible for Savers to keep their
-          earnings' worth
+          <span
+            ref={this.quality}
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightQuality ? "white" : "",
+              backgroundColor: this.state.highlightQuality
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            This $1.9t bill will raise prices for goods and services, and be a
+            boon to the lending class. There is no good that comes from this:
+            aggrandizing price & ruining opportunities for new producers by
+            bootstrapping entrepreneurs (bartending, coding) to emerge and
+            provide better quality and prices. It only monopolizes
+            service-providers to those that exist, making it impossible for
+            Savers to keep their earnings' worth
+          </span>
           <br />
           <br />
           $800 million for food: if you didn't&nbsp;
@@ -1617,7 +1650,6 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
               color: this.state.highlightFraud ? "white" : "",
               backgroundColor: this.state.highlightFraud
                 ? "rgb(170,100,205)"
@@ -1987,7 +2019,7 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightJury ? "white" : "",
               backgroundColor: this.state.highlightJury
                 ? "rgb(170,100,205)"
@@ -2178,7 +2210,7 @@ export default class App extends React.Component {
         <span
           style={{
             transition: ".3s ease-in",
-            borderRadius: "15px",
+
             color: this.state.highlightCompoundGramm ? "white" : "",
             backgroundColor: this.state.highlightCompoundGramm
               ? "rgb(170,100,205)"
@@ -2531,7 +2563,7 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightTwenty ? "white" : "",
               backgroundColor: this.state.highlightTwenty
                 ? "rgb(170,100,205)"
@@ -2594,7 +2626,7 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightSocialism ? "white" : "",
               backgroundColor: this.state.highlightSocialism
                 ? "rgb(170,100,205)"
@@ -2728,7 +2760,7 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightLivingWage ? "white" : "",
               backgroundColor: this.state.highlightLivingWage
                 ? "rgb(170,100,205)"
@@ -4251,7 +4283,7 @@ export default class App extends React.Component {
               textDecoration: "underline",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightDefense ? "white" : "",
               backgroundColor: this.state.highlightDefense
                 ? "rgb(170,100,205)"
@@ -4913,7 +4945,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightHomebuilder ? "white" : "grey",
               backgroundColor: this.state.highlightHomebuilder
                 ? "rgb(170,100,205)"
@@ -5114,7 +5146,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightStats ? "white" : "grey",
               backgroundColor: this.state.highlightStats
                 ? "rgb(170,100,205)"
@@ -5726,7 +5758,7 @@ export default class App extends React.Component {
                 position: "relative",
 
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightSpittle ? "white" : "",
                 backgroundColor: this.state.highlightSpittle
                   ? "rgb(170,100,205)"
@@ -5994,7 +6026,6 @@ export default class App extends React.Component {
               <span
                 ref={this.oldFluExclusion}
                 style={{
-                  borderRadius: "15px",
                   color: this.state.highlightOldFluExclusion
                     ? "white"
                     : "black",
@@ -6124,7 +6155,6 @@ export default class App extends React.Component {
               <span
                 ref={this.congressVsCongress}
                 style={{
-                  borderRadius: "15px",
                   color: this.state.highlightCVC ? "white" : "black",
                   backgroundColor: this.state.highlightCVC
                     ? "rgb(170,100,205)"
@@ -6202,7 +6232,7 @@ export default class App extends React.Component {
               textEmphasis: "italics",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightRoyalty ? "white" : "",
               backgroundColor: this.state.highlightRoyalty
                 ? "rgb(170,100,205)"
@@ -6219,7 +6249,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightGOA ? "white" : "",
                 backgroundColor: this.state.highlightGOA
                   ? "rgb(170,100,205)"
@@ -6274,7 +6304,7 @@ export default class App extends React.Component {
               <a
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightBooker ? "white" : "",
                   backgroundColor: this.state.highlightBooker
                     ? "rgb(170,100,205)"
@@ -6367,7 +6397,7 @@ export default class App extends React.Component {
               <span
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightEducation ? "white" : "",
                   backgroundColor: this.state.highlightEducation
                     ? "rgb(170,100,205)"
@@ -6394,7 +6424,7 @@ export default class App extends React.Component {
               <span
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightCitadel ? "white" : "",
                   backgroundColor: this.state.highlightCitadel
                     ? "rgb(170,100,205)"
@@ -6567,7 +6597,7 @@ export default class App extends React.Component {
                 <span
                   style={{
                     transition: ".3s ease-in",
-                    borderRadius: "15px",
+
                     color: this.state.highlightNRA ? "white" : "",
                     backgroundColor: this.state.highlightNRA
                       ? "rgb(170,100,205)"
@@ -6618,7 +6648,7 @@ export default class App extends React.Component {
                 <span
                   style={{
                     transition: ".3s ease-in",
-                    borderRadius: "15px",
+
                     color: this.state.highlightCityHall ? "white" : "",
                     backgroundColor: this.state.highlightCityHall
                       ? "rgb(170,100,205)"
@@ -6773,7 +6803,7 @@ export default class App extends React.Component {
               ref={this.gdp}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightGDP ? "white" : "",
                 backgroundColor: this.state.highlightGDP
                   ? "rgb(170,100,205)"
@@ -6999,7 +7029,6 @@ export default class App extends React.Component {
           <a
             ref={this.populism}
             style={{
-              borderRadius: "15px",
               color: this.state.highlightPopulism ? "white" : "black",
               backgroundColor: this.state.highlightPopulism
                 ? "rgb(170,100,205)"
@@ -7028,7 +7057,6 @@ export default class App extends React.Component {
           <span
             ref={this.congressVsCongress}
             style={{
-              borderRadius: "15px",
               color: this.state.highlightCVC ? "white" : "black",
               backgroundColor: this.state.highlightCVC
                 ? "rgb(170,100,205)"
@@ -7529,7 +7557,7 @@ export default class App extends React.Component {
               textEmphasis: "italics",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightBaltimore ? "white" : "",
               backgroundColor: this.state.highlightBaltimore
                 ? "rgb(170,100,205)"
@@ -7572,7 +7600,6 @@ export default class App extends React.Component {
                 );
               }}
               style={{
-                borderRadius: "15px",
                 color: this.state.highlightRoyalty ? "white" : "",
                 backgroundColor: this.state.highlightRoyalty
                   ? "rgb(170,100,205)"
@@ -7919,7 +7946,6 @@ export default class App extends React.Component {
             <span
               ref={this.italy}
               style={{
-                borderRadius: "15px",
                 color: this.state.highlightItaly ? "white" : "",
                 backgroundColor: this.state.highlightItaly
                   ? "rgb(170,100,205)"
@@ -8117,7 +8143,7 @@ export default class App extends React.Component {
               ref={this.politics}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightPolitics ? "white" : "",
                 backgroundColor: this.state.highlightPolitics
                   ? "rgb(170,100,205)"
@@ -8337,7 +8363,7 @@ export default class App extends React.Component {
               href="https://foiegras.life"
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightColonization ? "white" : "",
                 backgroundColor: this.state.highlightColonization
                   ? "rgb(170,100,205)"
@@ -8361,7 +8387,7 @@ export default class App extends React.Component {
               ref={this.gdp1}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightGDP ? "white" : "",
                 backgroundColor: this.state.highlightGDP
                   ? "rgb(170,100,205)"
@@ -8447,7 +8473,7 @@ export default class App extends React.Component {
               <span
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightFlag ? "white" : "",
                   backgroundColor: this.state.highlightFlag
                     ? "rgb(170,100,205)"
@@ -8578,7 +8604,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightConcious ? "white" : "",
                 backgroundColor: this.state.highlightConcious
                   ? "rgb(170,100,205)"
@@ -8833,7 +8859,7 @@ export default class App extends React.Component {
               <span
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightFintech ? "white" : "",
                   backgroundColor: this.state.highlightFintech
                     ? "rgb(170,100,205)"
@@ -9057,7 +9083,7 @@ export default class App extends React.Component {
                 ref={this.nsfFraud}
                 style={{
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightNSFFraud ? "white" : "",
                   backgroundColor: this.state.highlightNSFFraud
                     ? "rgb(170,100,205)"
@@ -9191,7 +9217,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightUUID ? "white" : "",
                 backgroundColor: this.state.highlightUUID
                   ? "rgb(170,100,205)"
@@ -9392,7 +9418,7 @@ export default class App extends React.Component {
               ref={this.bail}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightBail ? "white" : "",
                 backgroundColor: this.state.highlightBail
                   ? "rgb(170,100,205)"
@@ -9408,7 +9434,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightBail ? "white" : "",
                 backgroundColor: this.state.highlightBail
                   ? "rgb(170,100,205)"
@@ -9512,7 +9538,7 @@ export default class App extends React.Component {
               ref={this.decide}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightDecide ? "white" : "",
                 backgroundColor: this.state.highlightDecide
                   ? "rgb(170,100,205)"
@@ -9608,7 +9634,7 @@ export default class App extends React.Component {
                 fontWeight: "bolder",
 
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightTea ? "white" : "",
                 backgroundColor: this.state.highlightTea
                   ? "rgb(170,100,205)"
@@ -9706,7 +9732,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightHost ? "white" : "",
                 backgroundColor: this.state.highlightHost
                   ? "rgb(170,100,205)"
@@ -9830,7 +9856,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightBiden ? "white" : "",
                 backgroundColor: this.state.highlightBiden
                   ? "rgb(170,100,205)"
@@ -9851,7 +9877,7 @@ export default class App extends React.Component {
               textEmphasis: "italics",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightDesist ? "white" : "",
               backgroundColor: this.state.highlightDesist
                 ? "rgb(170,100,205)"
@@ -9927,7 +9953,7 @@ export default class App extends React.Component {
                 textDecoration: "underline",
 
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightCease ? "white" : "",
                 backgroundColor: this.state.highlightCease
                   ? "rgb(170,100,205)"
@@ -10008,7 +10034,7 @@ export default class App extends React.Component {
             <a
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightBcell ? "white" : "",
                 backgroundColor: this.state.highlightBcell
                   ? "rgb(170,100,205)"
@@ -10098,7 +10124,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightExperts ? "white" : "grey",
               backgroundColor: this.state.highlightExperts
                 ? "rgb(170,100,205)"
@@ -10199,7 +10225,7 @@ export default class App extends React.Component {
             <a
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightFTC ? "white" : "",
                 backgroundColor: this.state.highlightFTC
                   ? "rgb(170,100,205)"
@@ -10487,7 +10513,7 @@ export default class App extends React.Component {
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightJewels ? "white" : "grey",
               backgroundColor: this.state.highlightJewels
                 ? "rgb(100,170,205)"
@@ -10624,7 +10650,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightJHUECON ? "white" : "",
                 backgroundColor: this.state.highlightJHUECON
                   ? "rgb(170,100,205)"
@@ -10845,7 +10871,7 @@ export default class App extends React.Component {
               ref={this.foreignpolicy}
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightFP ? "white" : "",
                 backgroundColor: this.state.highlightFP
                   ? "rgb(170,100,205)"
@@ -10951,7 +10977,7 @@ export default class App extends React.Component {
               textDecoration: "underline",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: "white",
               backgroundColor: "rgb(170,100,205)"
             }}
@@ -10965,7 +10991,7 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.openrelief ? "white" : "",
               backgroundColor: this.state.openrelief ? "rgb(50,100,255)" : ""
             }}
@@ -11297,7 +11323,7 @@ export default class App extends React.Component {
                 fontWeight: "normal",
 
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightFlop ? "white" : "",
                 backgroundColor: this.state.highlightFlop
                   ? "rgb(170,100,205)"
@@ -11346,7 +11372,7 @@ export default class App extends React.Component {
             <span
               style={{
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightChina ? "white" : "",
                 backgroundColor: this.state.highlightChina
                   ? "rgb(170,100,205)"
@@ -11415,7 +11441,7 @@ export default class App extends React.Component {
               position: "relative",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightValuation ? "white" : "",
               backgroundColor: this.state.highlightValuation
                 ? "rgb(170,100,205)"
@@ -11619,7 +11645,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightHomebuilder ? "white" : "grey",
               backgroundColor: this.state.highlightHomebuilder
                 ? "rgb(170,100,205)"
@@ -11852,7 +11878,7 @@ export default class App extends React.Component {
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-              borderRadius: "15px",
+
               color: this.state.highlightStats ? "white" : "grey",
               backgroundColor: this.state.highlightStats
                 ? "rgb(170,100,205)"
@@ -12465,7 +12491,6 @@ export default class App extends React.Component {
               <span
                 ref={this.marx}
                 style={{
-                  borderRadius: "15px",
                   color: this.state.highlightMarx ? "white" : "",
                   backgroundColor: this.state.highlightMarx
                     ? "rgb(170,100,205)"
@@ -12529,7 +12554,7 @@ export default class App extends React.Component {
                   position: "relative",
 
                   transition: ".3s ease-in",
-                  borderRadius: "15px",
+
                   color: this.state.highlightBrookings ? "white" : "",
                   backgroundColor: this.state.highlightBrookings
                     ? "rgb(170,100,205)"
@@ -12621,7 +12646,7 @@ export default class App extends React.Component {
                 width: "100%",
                 maxWidth: "600px",
                 transition: ".3s ease-in",
-                borderRadius: "15px",
+
                 color: this.state.highlightElectionTech ? "white" : "",
                 backgroundColor: this.state.highlightElectionTech
                   ? "rgb(170,100,205)"
