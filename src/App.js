@@ -559,9 +559,24 @@ export default class App extends React.Component {
         </span>
         &nbsp;and they don't seem to realize it," says Erin Burnett about the
         Republicans. First, the Rebulicans still spend but they are crony
-        spenders. Second, Savers teach Erin that if she negotiates with workers
-        or fights for their equity rights, their living costs and therefore
-        salaries can be negotiated down!
+        spenders. Second, Savers teach Erin that if she&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bidask.current.scrollIntoView("smooth");
+            this.setState({ highlightBidAsk: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightBidAsk: false }),
+              10000
+            );
+          }}
+        >
+          negotiates
+        </span>
+        &nbsp;with workers or fights for their equity rights, their living costs
+        and therefore salaries can be negotiated down!
         <br />
         <br />
         BBQ DECLARE INDEPENDENCE
