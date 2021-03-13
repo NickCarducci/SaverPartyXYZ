@@ -279,8 +279,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "rgb(200, 230, 255)",
+                        color: "rgb(178, 90, 197)"
                       }}
                       href="https://moldmask.co"
                     >
@@ -319,8 +319,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "rgb(218, 198, 90)",
+                        color: "blue"
                       }}
                       href="https://foiegras.life"
                     >
@@ -329,6 +329,7 @@ class Index extends React.Component {
                   </div>
                   <div
                     style={{
+                      marginRight: "4px",
                       display: "flex",
                       position: "relative",
                       height: "min-content"
@@ -358,8 +359,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "#0000fa",
+                        color: "white"
                       }}
                       href="https://vaults.biz"
                     >
@@ -378,8 +379,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "rgb(5,5,15)",
+                        color: "#92b8daff"
                       }}
                       href="https://vau.money"
                     >
@@ -398,8 +399,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "#c39767ff",
+                        color: "white"
                       }}
                       href="https://scopes.cc"
                     >
@@ -418,8 +419,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "#9749ffff",
+                        color: "white"
                       }}
                       href="https://thumbprint.us"
                     >
@@ -438,8 +439,8 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
-                        color: "black"
+                        backgroundColor: "#92b8da",
+                        color: "#cfe2f3"
                       }}
                       href="https://browser.glass"
                     >
@@ -458,12 +459,52 @@ class Index extends React.Component {
                       style={{
                         padding: "4px 10px",
                         borderRadius: "6px",
-                        backgroundColor: "white",
+                        backgroundColor: "rgb(225, 100, 170)",
                         color: "black"
                       }}
                       href="https://magnate.company"
                     >
                       magnate.company
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "#3f6aadff",
+                        color: "white"
+                      }}
+                      href="https://actuapedia.com"
+                    >
+                      actuapedia.com
+                    </a>
+                  </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "rgb(5,5,5)",
+                        color: "white"
+                      }}
+                      href="https://2052.live"
+                    >
+                      2052.live
                     </a>
                   </div>
                 </div>
