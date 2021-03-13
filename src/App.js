@@ -547,6 +547,10 @@ export default class App extends React.Component {
         </span>
         We all have to make a living (read:cannibal), but we all don't have to produce by front-running and than dumber-fooling consumers. and these direct deposits are involuntary split that you get 9% of
         <br/>
+        <img
+        src="https://www.dl.dropboxusercontent.com/s/00nklkuxtq5t3cv/achillesHell.jpeg?dl=0"
+        />
+        <br/>
         <br/>
         If you borrow money, you do not have to pay it back. If you do, over a
         general income, you are instigating that agreement on your customers or
@@ -556,10 +560,15 @@ export default class App extends React.Component {
         legally have to pay your loans.
         <br />
         <br />
-        CNN, please stop not correcting your public health experts when they presume that non-symptomatic people are transmitting covid when your only proof can be a false negative for the cold with the "gold standard" PCR tests.. and stay the fuck away from me, don't exclude me without non-invasive evidence either or you're free-riding my societal contributions
-        <br/>
-        <br/>
-        Most people do not want more spending, who in their right mind would
+        CNN, please stop not correcting your public health experts when they
+        presume that non-symptomatic people are transmitting covid when your
+        only proof can be a false negative for the cold with the "gold standard"
+        PCR tests.. and stay the fuck away from me, don't exclude me without
+        non-invasive evidence either or you're free-riding my societal
+        contributions
+        <br />
+        <br />
+        Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT WANT SPENDING (you are sampling and not fully-informing about costs in price-inelasticity and splitting equity to do so), who in their right mind would
         suggest Democrats delayed spending of this bill, guilty of neglect.
         There is only $2t currencyComponentOfM1. There is $82t debt. That is all
         compound interest or re-"investment." To hold both facts that it is
@@ -568,19 +577,28 @@ export default class App extends React.Component {
         <br />
         <br />
         <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
-        you are giving up our ghost; more money separates us.  Hetty Rosenstein wants to protect pensions, through no fault of their own&nbsp;<span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.IRS.current.scrollIntoView("smooth");
-                this.setState({ highlightIRS: true });
+        you are giving up our ghost; more money separates us. Hetty Rosenstein
+        wants to protect pensions, through no fault of their own&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.IRS.current.scrollIntoView("smooth");
+            this.setState({ highlightIRS: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightIRS: false }),
-                  10000
-                );
-              }}
-            >they were threatened to invest in the public stock market</span>.&nbsp;probably a proponent of&nbsp;<a href="https://nationalsecuritycasino.com">spying/incomparable applications of law/disclosure on retail traders to fix prices of shares too</a>
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightIRS: false }),
+              10000
+            );
+          }}
+        >
+          they were threatened to invest in the public stock market
+        </span>
+        .&nbsp;probably a proponent of&nbsp;
+        <a href="https://nationalsecuritycasino.com">
+          spying/incomparable applications of law/disclosure on retail traders
+          to fix prices of shares too
+        </a>
         <br />
         <br />
         Labor union/working people/luddites versus inventors/artists to death
@@ -5095,37 +5113,43 @@ export default class App extends React.Component {
             </a>
             <br />
             <br />
-            <span style={{
-              transition: ".3s ease-in",
-
-              color: this.state.highlightIncomeTax ? "white" : "grey",
-              backgroundColor: this.state.highlightIncomeTax
-                ? "rgb(170,100,205)"
-                : "",}} ref={this.incomeTax}>insurance is not subscription-membership because one person's
-            subscription (taxable) does not go towards someone else's or a large
-            contracted&nbsp;
             <span
               style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.royalty.current.scrollIntoView("smooth");
-                this.setState({ highlightRoyalty: true });
+                transition: ".3s ease-in",
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightRoyalty: false }),
-                  10000
-                );
+                color: this.state.highlightIncomeTax ? "white" : "grey",
+                backgroundColor: this.state.highlightIncomeTax
+                  ? "rgb(170,100,205)"
+                  : ""
               }}
+              ref={this.incomeTax}
             >
-              monopsony
+              insurance is not subscription-membership because one person's
+              subscription (taxable) does not go towards someone else's or a
+              large contracted&nbsp;
+              <span
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  this.royalty.current.scrollIntoView("smooth");
+                  this.setState({ highlightRoyalty: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightRoyalty: false }),
+                    10000
+                  );
+                }}
+              >
+                monopsony
+              </span>
+              &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
+              their non-monopsony, individual servicing. insurance is duressful
+              trade, by invoice, gift-certificate or max-expense, prohibiting
+              trade and causing slavery just the same as debt
             </span>
-            &nbsp;(Spotify, income, royalty not taxes), it goes to pay for their
-            non-monopsony, individual servicing. insurance is duressful trade,
-            by invoice, gift-certificate or max-expense, prohibiting trade and
-            causing slavery just the same as debt</span>
           </div>
           <i
             style={{
@@ -12253,22 +12277,26 @@ export default class App extends React.Component {
           <br />
           1. Taxes are slavery except free-rider-immutable services, below
           <br />
-          2.&nbsp;<span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.incomeTax.current.scrollIntoView("smooth");
-                this.setState({ highlightIncomeTax: true });
+          2.&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.incomeTax.current.scrollIntoView("smooth");
+              this.setState({ highlightIncomeTax: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightIncomeTax: false }),
-                  10000
-                );
-              }}
-            >Sales</span>&nbsp;tax is efficient, under{" "}
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightIncomeTax: false }),
+                10000
+              );
+            }}
+          >
+            Sales
+          </span>
+          &nbsp;tax is efficient, under{" "}
           <a href="https://vaults.biz">$2k buys</a>:
           <br />
           first grand is $60, second is $30 (6%, 3%)
