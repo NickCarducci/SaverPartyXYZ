@@ -3356,7 +3356,7 @@ export default class App extends React.Component {
           That it can only pay financial obligations is abject fraud too. Better
           to let finance lose, not force dollar-owners to pay and let labor,
           pre-revenue inventors and artists not get applied the same laws. The
-          Great Depression was caused by paying of debt instead of defaulting
+          Great Depression was caused by paying off private-debt with public credit instead of defaulting
           (and banning it)
           <br />
           <div style={{ position: "relative" }}>
