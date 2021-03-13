@@ -544,7 +544,8 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "We cannot create wealth," Steven Moore says. "Our children will have to pay these costs," he continues in a fervent disporia of his bearings
+        "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>," Steven Moore says. "Our children will have to pay these costs," he continues in a fervent disporia of his bearings
+        <br/>
         "Tax to finance the Green New Deal," remarks Larry&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
