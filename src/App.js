@@ -548,7 +548,8 @@ export default class App extends React.Component {
         Essex County bragging about worstening playing conditions for solvency
         ratings and their AAA bond ratings to which used to be junk. Says he
         saves money on tax but spends more on price. Totally foregoing that fact
-        in getting on the Globe. The debt service is not the problem, it is the
+        in getting on the Globe Power Hour to mislead constituents in securities
+        fraud. The debt service is not the problem, it is the
         counterfeit-in-contract price-inelasticity inflation.
         <br />
         <br />
