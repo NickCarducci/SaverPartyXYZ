@@ -554,6 +554,8 @@ export default class App extends React.Component {
         to help you ruin your negotiating position, and mine
         <br />
         <br />
+        "Targeted money" not for assets but financial debts and backtaxes. Otherwise it is fraud. only the federal reserve can buy assets
+        <br />
         Being generous instead of stingy is literally taking their equity and
         giving corporations money. Left, Right, Center sponsored by Morgan
         Stanley. A little biased to call yourself center. STOP THUMBS UPPING BAD
