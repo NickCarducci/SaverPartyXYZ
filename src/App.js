@@ -545,13 +545,32 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        We all have to make a living (read:cannibal), but we all don't have to produce by front-running and than dumber-fooling consumers. and these direct deposits are involuntary split that you get 9% of
-        <br/>
-        <img
-        src="https://www.dl.dropboxusercontent.com/s/00nklkuxtq5t3cv/achillesHell.jpeg?dl=0"
-        />
-        <br/>
-        <br/>
+        We all have to make a living (read:cannibal), but we all don't have to
+        produce by front-running and than dumber-fooling consumers. and these
+        direct deposits are involuntary split that you get 9% of
+        <br />
+        <div style={{ position: "relative", width: "100%" }}>
+          <img
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+            alt="achilles heel in forcing credit gouging and counterfeit in American merchant services"
+            src="https://www.dl.dropboxusercontent.com/s/00nklkuxtq5t3cv/achillesHell.jpeg?dl=0"
+          />
+        </div>{" "}
+        <br />
+        <br />
         If you borrow money, you do not have to pay it back. If you do, over a
         general income, you are instigating that agreement on your customers or
         employer. They are the one with the money, not even enough if not a
@@ -568,12 +587,14 @@ export default class App extends React.Component {
         contributions
         <br />
         <br />
-        Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT WANT SPENDING (you are sampling and not fully-informing about costs in price-inelasticity and splitting equity to do so), who in their right mind would
-        suggest Democrats delayed spending of this bill, guilty of neglect.
-        There is only $2t currencyComponentOfM1. There is $82t debt. That is all
-        compound interest or re-"investment." To hold both facts that it is
-        needed and there is never enough without adjunicating to cash:debt at
-        the time of transaction is to be criminally-intent.
+        Katherine Rompell you fucking lying financial slut, MOST PEOPLE DO NOT
+        WANT SPENDING (you are sampling and not fully-informing about costs in
+        price-inelasticity and splitting equity to do so), who in their right
+        mind would suggest Democrats delayed spending of this bill, guilty of
+        neglect. There is only $2t currencyComponentOfM1. There is $82t debt.
+        That is all compound interest or re-"investment." To hold both facts
+        that it is needed and there is never enough without adjunicating to
+        cash:debt at the time of transaction is to be criminally-intent.
         <br />
         <br />
         <a href="https://vaults.biz">Tax fairness</a>&nbsp;- People can fit but
