@@ -544,8 +544,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>," Steven Moore says. "Our children will have to pay these costs," he continues in a fervent disporia of his bearings
-        <br/>
+        "We cannot create&nbsp;<a href="https://micro-theory.com">wealth</a>,"
+        Steven Moore says. "Our children will have to pay these costs," he
+        continues in a fervent disporia of his bearings
+        <br />
         "Tax to finance the Green New Deal," remarks Larry&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -582,6 +584,10 @@ export default class App extends React.Component {
         <a href="https://www.theatlantic.com/business/archive/2012/11/the-long-story-of-us-debt-from-1790-to-2011-in-1-little-chart/265185/">
           third reich
         </a>
+        &nbsp;paying off private-debt with public credit, this time by military
+        and aided by the lie that&nbsp;
+        <a href="https://nationalsecuritycasino.com">Italy joined</a>
+        &nbsp;for&nbsp;<a href="https://froth.app/debt">hair color</a>
         <br />
         <br />
         <span
@@ -3358,8 +3364,8 @@ export default class App extends React.Component {
           That it can only pay financial obligations is abject fraud too. Better
           to let finance lose, not force dollar-owners to pay and let labor,
           pre-revenue inventors and artists not get applied the same laws. The
-          Great Depression was caused by paying off private-debt with public credit instead of defaulting
-          (and banning it)
+          Great Depression was caused by paying off private-debt with public
+          credit instead of defaulting (and banning it)
           <br />
           <div style={{ position: "relative" }}>
             {" "}
@@ -11376,19 +11382,17 @@ export default class App extends React.Component {
             for reparations were excluded from being bankers, that is not the
             way; then jews supported british winning of lybia over italy.
             looking at italian intent there now.... yup, financial
-            slavery. http://cup.columbia.edu/.../conflict.../9780231138642 this
-            is not the teachings of Christ and/or G-d Conflict, Conquest, and
-            Conversion | Columbia University Press Conflict, Conquest, and
-            Conversion | Columbia University Press The Rev and the Rabbi just
-            said the Third Reich rose to power because the axis thought Jews
-            were different AND thought Jews were the cause of “woes” in Europe.
-            Different how? Placing interest on non-Jews (Hakahla)? Insurance
-            pool duress hot potato? That quite literally does cause dominoes of
-            foreclosures. Believe me I am a home builder. Although Killing Jesus
-            with Roman gov for protesting animal sacrifice and unequal treatment
-            of money and share, or “cheering for British win in Tunisia” doesn’t
-            help Optics for Italians Crucifixion was directive by Jewish and
-            Roman leaders.
+            slavery. http://cup.columbia.edu/book/conflict-conquest-and-conversion/9780231138642
+             this is not the teachings of Christ and/or G-d. The Rev and the
+            Rabbi just said the Third Reich rose to power because the axis
+            thought Jews were different AND thought Jews were the cause of
+            “woes” in Europe. Different how? Placing interest on non-Jews
+            (Hakahla)? Insurance pool duress hot potato? That quite literally
+            does cause dominoes of foreclosures. Believe me I am a home builder.
+            Although Killing Jesus with Roman gov for protesting animal
+            sacrifice and unequal treatment of money and share, or “cheering for
+            British win in Tunisia” doesn’t help Optics for Italians Crucifixion
+            was directive by Jewish and Roman leaders.
           </div>
           <div style={tweetsStyle}>
             You can have opinion if the other has no proof, and then you will
