@@ -23,9 +23,9 @@ class Index extends React.Component {
     var scrollPlacementHeight = Math.round(
       (window.innerHeight - 115) * (scrollTop / scrollHeight)
     );
-    var top = scrollTop === 0;
+    var top = scrollTop === window.innerHeight;
     this.setState({
-      openMenu: !top ? this.state.openMenu : false,
+      openMenu: top ? false : this.state.openMenu,
       top,
       scrollPlacementHeight,
       scrollTop
@@ -636,7 +636,8 @@ class Index extends React.Component {
               >
                 customers' time
               </a>
-              , and do not borrow or lend, and it is good for quality + -price. It is an obvious&nbsp;
+              , and do not borrow or lend, and it is good for quality + -price.
+              It is an obvious&nbsp;
               <a
                 style={{ color: "rgb(150,220,255)" }}
                 href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
@@ -710,4 +711,3 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
-
