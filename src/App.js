@@ -15,6 +15,7 @@ import Employ2Pop from "./employ2pop";
 import GunSafety from "./GunSafety";
 import PollingFraud from "./PollingFraud";
 import Immigration from "./Immigration";
+import Fraud from "./Fraud";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -544,6 +545,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+       (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 - currencyComponentOfM1)))<br/>
+       (right) (GDP/P) - NM - ND<br/>
+       (right) (trueGDP/P) - NM - ND
+        <Fraud/>
         <a href="https://twitter.com/nowthisnews/status/1370493485829197825?s=20">
           AOC
         </a>
