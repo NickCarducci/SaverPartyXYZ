@@ -636,7 +636,7 @@ class Index extends React.Component {
               >
                 customers' time
               </a>
-              , and do not borrow or lend. It is an obvious&nbsp;
+              , and do not borrow or lend, and it is good for quality + -price. It is an obvious&nbsp;
               <a
                 style={{ color: "rgb(150,220,255)" }}
                 href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
@@ -710,3 +710,4 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
+
