@@ -543,7 +543,7 @@ export default class App extends React.Component {
         </span>
         Ed Markey and&nbsp;<a href="https://thumbprint.us">Thumbprint</a>
         &nbsp;announce conspiracy to bring remote learning to students
-        nationwide with stolen equity - 3/12/2021
+        nationwide with stolen equity, and keep prices up - 3/12/2021
         <div
           style={{
             width: "100%",
