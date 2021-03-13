@@ -544,7 +544,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        individual rights,&nbsp;
+        
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => this.SYSTEMICINEQUALITY.current.scrollIntoView("smooth")}
+        >individual rights</span>,&nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => this.INSURANCEFRAUD.current.scrollIntoView("smooth")}
@@ -552,17 +556,21 @@ export default class App extends React.Component {
           quality health care
         </span>
         ,&nbsp;
-        <span style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.planetary.current.scrollIntoView("smooth");
-                this.setState({ highlightPlanetary: true });
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.planetary.current.scrollIntoView("smooth");
+            this.setState({ highlightPlanetary: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPlanetary: false }),
-                  10000
-                );
-              }}>climate change(33rd most important per John, Populist)</span>
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightPlanetary: false }),
+              10000
+            );
+          }}
+        >
+          climate change(33rd most important per John, Populist)
+        </span>
         <br />
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -570,7 +578,16 @@ export default class App extends React.Component {
         >
           immigration
         </span>
-        , national security, criminal justice reform/guns?
+        ,&nbsp;
+        <a href="https://nationalsecuritycasino.com">national security</a>,
+        criminal justice reform/
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => this.GUNSAFETY.current.scrollIntoView("smooth")}
+        >
+          guns
+        </span>
+        ?
         <br />
         Smericonish segment with Populist
         <br />
@@ -10132,7 +10149,7 @@ export default class App extends React.Component {
             </span>
           </div>
           <div
-          ref={this.planetary}
+            ref={this.planetary}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               margin: "10px 0px",
@@ -13493,3 +13510,4 @@ export default class App extends React.Component {
     );
   }
 }
+
