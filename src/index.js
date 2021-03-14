@@ -664,6 +664,27 @@ class Index extends React.Component {
                 wishes for myself by splitting their equity, try not to let them
                 on to what is happening
               </span>
+              <br />
+              <br />
+              <div
+                style={{
+                  marginBottom: "4px",
+                  padding: "4px 0px",
+                  borderTop: "2px solid white",
+                  borderBottom: "2px solid white"
+                }}
+              >
+                International Relations - Individual World Order
+              </div>
+              In order to compete with a debt-based country (not because it is
+              economically unfair, like a&nbsp;
+              <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
+                communist economy is not as strong economically
+              </a>
+              &nbsp;as a productive && EFFICIENT, micro-controlled/empowered by
+              currency concord one), China wars/threatens. However, from my
+              historical market studies - world peace would come from the
+              understanding of and repairing, as needed, the following:
             </div>
           </div>
           <div
