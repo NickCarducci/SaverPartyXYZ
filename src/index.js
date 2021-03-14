@@ -612,6 +612,38 @@ class Index extends React.Component {
                       blockchain.fart
                     </a>
                   </div>
+                  <div
+                    style={{
+                      marginRight: "4px",
+                      display: "flex",
+                      position: "relative",
+                      height: "min-content"
+                    }}
+                  >
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "rgb(5,5,5)",
+                        color: "white"
+                      }}
+                      href="https://linkedin.com/in/nickcarducci"
+                    >
+                      nick
+                    </a>
+                    @
+                    <a
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        backgroundColor: "rgb(5,5,5)",
+                        color: "white"
+                      }}
+                      href="https://carducci.sh"
+                    >
+                      carducci.sh
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
