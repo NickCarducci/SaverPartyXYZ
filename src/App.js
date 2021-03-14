@@ -568,6 +568,9 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        Stop talking about interest rates larry sommers, there is only $2t of equity but $82t debt.  it is slavery to counterfeit ends and 4200% price-inelasticity inflation and cross-party insurance rent-colonist - why care about inflation minus housing at 102%
+        <br />
+        <br />
         $1400 out of what could be $14000 in the total that is spent doesn't keep people out of poverty
               <br />
         <br />
