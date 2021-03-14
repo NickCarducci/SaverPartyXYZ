@@ -30,6 +30,7 @@ export default class App extends React.Component {
       why: false,
       showM1: true
     };
+    this.RENT = React.createRef();
     this.WARONPOVERTY = React.createRef();
     this.GUNSAFETY = React.createRef();
     this.POLLINGFRAUD = React.createRef();
@@ -321,15 +322,23 @@ export default class App extends React.Component {
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
-      const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
-      if (this.props.scrollTop > warOnPovertyOffsetTop) {
-        const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
+      const RentOffsetTop = this.RENT.current.offsetTop;
+      if (this.props.scrollTop > RentOffsetTop) {
+        const RentHeight = this.RENT.current.offsetHeight;
         if (
-          this.props.scrollTop < warOnPovertyOffsetTop ||
-          this.props.scrollTop < warOnPovertyHeight + warOnPovertyOffsetTop
+          this.props.scrollTop < RentOffsetTop ||
+          this.props.scrollTop < RentHeight + RentOffsetTop
         ) {
-          this.props.inSection("War on Poverty");
+          this.props.inSection("Rent");
         } else {
+          const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
+          const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
+          if (
+            this.props.scrollTop < warOnPovertyOffsetTop ||
+            this.props.scrollTop < warOnPovertyHeight + warOnPovertyOffsetTop
+          ) {
+            this.props.inSection("War on Poverty");
+          } else {
           const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
           const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
           if (
@@ -492,6 +501,7 @@ export default class App extends React.Component {
               }
             }
           }
+          }
         }
       }
     }
@@ -580,6 +590,33 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        <div ref={this.RENT}>
+          <a href="https://zippia.com/landlord-jobs/demographics/">Rent</a>: unsettled "trade," the opposite of invoice unsettlement along time
+          <br/>
+          Labor union/working people/luddites versus inventors/artists to death
+          <br />
+          <br />
+          Essex County bragging about worstening playing conditions for solvency
+          ratings and their AAA bond ratings to which used to be junk. Says he
+          saves money on tax but spends more on price. Totally foregoing that
+          fact in getting on the Globe Power Hour to mislead constituents in
+          securities fraud. The debt service is not the problem, it is the
+          counterfeit-in-contract price-inelasticity inflation.
+          <br />
+          <br />
+          Union collusion & duress strike of labors' time, is fine to corner by
+          antitrust intent, but supply or assets on the other hand must compete
+          by winning favor of price-taking consumers to have, settled, of their
+          own to resell after use, not own with intent to scalp or rent instead
+          of use
+          <br />
+          Collusion to instill duress by the union heads are much like
+          corporate, central-planners, lenders and rentier-colonists
+          <br />
+          <br />
+          Price-inelasticity inflation is 4100%, Monetary-inflation (minus
+          housing) is 102%.
+        </div>
         <div ref={this.WARONPOVERTY}>
           People say they care about poverty but take from their demand equity
           and give certain people more, reducing their earnings' utility and
@@ -930,29 +967,6 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
-          Labor union/working people/luddites versus inventors/artists to death
-          <br />
-          <br />
-          Essex County bragging about worstening playing conditions for solvency
-          ratings and their AAA bond ratings to which used to be junk. Says he
-          saves money on tax but spends more on price. Totally foregoing that
-          fact in getting on the Globe Power Hour to mislead constituents in
-          securities fraud. The debt service is not the problem, it is the
-          counterfeit-in-contract price-inelasticity inflation.
-          <br />
-          <br />
-          Union collusion & duress strike of labors' time, is fine to corner by
-          antitrust intent, but supply or assets on the other hand must compete
-          by winning favor of price-taking consumers to have, settled, of their
-          own to resell after use, not own with intent to scalp or rent instead
-          of use
-          <br />
-          Collusion to instill duress by the union heads are much like
-          corporate, central-planners, lenders and rentier-colonists
-          <br />
-          <br />
-          Price-inelasticity inflation is 4100%, Monetary-inflation (minus
-          housing) is 102%... What is the point of selli
           <br />
           <br />
           (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
@@ -6307,7 +6321,9 @@ export default class App extends React.Component {
               Running out
             </a>
             &nbsp;of&nbsp;
-            <a href="https://zippia.com/landlord-jobs/demographics/">old people</a>
+            <a href="https://zippia.com/landlord-jobs/demographics/">
+              old people
+            </a>
             <br />
             <br />
             <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
