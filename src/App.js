@@ -544,6 +544,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        The right says fiscal responsibility for the government but not the corporates. Michelle Malkin, Sovereign Nation, what the fuck does blm & vaccines have to do with police
+        <br/>
+        <br/>
         Free education is not free, stop misleading people into acquiescing to a
         equity split that they get $1400 of, only 9% of total they would have if
         no action were taken, except now they have no negitiation power with
