@@ -30,7 +30,7 @@ export default class App extends React.Component {
       why: false,
       showM1: true
     };
-    this.RENT = React.createRef();
+    this.RENTIERCOLONIALISM = React.createRef();
     this.WARONPOVERTY = React.createRef();
     this.GUNSAFETY = React.createRef();
     this.POLLINGFRAUD = React.createRef();
@@ -322,14 +322,14 @@ export default class App extends React.Component {
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
-      const RentOffsetTop = this.RENT.current.offsetTop;
+      const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
       if (this.props.scrollTop > RentOffsetTop) {
-        const RentHeight = this.RENT.current.offsetHeight;
+        const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
         if (
           this.props.scrollTop < RentOffsetTop ||
           this.props.scrollTop < RentHeight + RentOffsetTop
         ) {
-          this.props.inSection("Rent");
+          this.props.inSection("Rentier-Colonialism");
         } else {
           const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
           const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
@@ -597,7 +597,7 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
-        <div ref={this.RENT}>
+        <div ref={this.RENTIERCOLONIALISM}>
           <a href="https://zippia.com/landlord-jobs/demographics/">
             Rentier-Colonialism
           </a>
@@ -627,7 +627,7 @@ export default class App extends React.Component {
           Price-inelasticity inflation is 4100%, Monetary-inflation (minus
           housing) is 102%.
         </div>
-        <br/>
+        <br />
         <div ref={this.WARONPOVERTY}>
           People say they care about poverty but take from their demand equity
           and give certain people more, reducing their earnings' utility and
@@ -4852,7 +4852,8 @@ export default class App extends React.Component {
             <br />
             <br />
             This is: Trickle-Down Economics; ANYTHING FOR DEBT SERVICE
-            PAYMENTS/LANDLORD BACK-RENT-or-TAX/MEDICAL INVOICE WISHES
+            PAYMENTS/LANDLORD BACK-RENTIERCOLONIALISM-or-TAX/MEDICAL INVOICE
+            WISHES
           </i>
           <div
             style={{
@@ -9644,7 +9645,7 @@ export default class App extends React.Component {
             }}
           >
             HOMELESS IS NOT BECAUSE OF MENTAL HEALTH IT IS BECAUSE OF MORTGAGES,
-            PROPERTY TAX, RENT & OTHER FINANCIAL COSTS
+            PROPERTY TAX, RENTIERCOLONIALISM & OTHER FINANCIAL COSTS
             <br />
             <a href="https://wavv.art/forumVdJokbkLJWv5LF37ARmq">
               wavv.art/forumVdJokbkLJWv5LF37ARmq
