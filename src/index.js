@@ -594,12 +594,17 @@ class Index extends React.Component {
               ; on the clock, cornered, hoarded & counterfeit
               <br />
               <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
-              forces that are out to obfuscate and scourge
+              forces that are out to obfuscate and scourge&nbsp;
+              <a href="https://micro-theory.com">
+                $82tdebt:$2tcurrencyComponentOfM1
+              </a>
+              &nbsp;(savings)
               <br />
               <br />
               <span style={{ /**rgb(250,10,88) */ color: "rgb(250,100,100)" }}>
                 suffocating inventors
               </span>
+              &nbsp;- disturbing opportunity to launder to rich with bonds
               <div
                 style={{
                   margin: "4px 0px",
