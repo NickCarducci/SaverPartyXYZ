@@ -597,6 +597,7 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        Inflation is the degradation of your depositary
         <div ref={this.RENTIERCOLONIALISM}>
           <a href="https://zippia.com/landlord-jobs/demographics/">
             Rentier-Colonialism
@@ -629,6 +630,256 @@ export default class App extends React.Component {
         </div>
         <br />
         <div ref={this.ABUSEOFPOWER}>
+          <i
+            ref={this.homebuilder}
+            style={{
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightHomebuilder ? "white" : "grey",
+              backgroundColor: this.state.highlightHomebuilder
+                ? "rgb(170,100,205)"
+                : "",
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            I was raised a&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
+            &nbsp;to pay off my own mortgage
+            <br />
+            I grew up building houses to pay for a mortgage that only retained
+            value because courts don’t adjudicate at once.
+            <br />I grew up building houses to pay for a mortgage that only
+            retained value because courts don’t adjudicate at once. Don’t
+            promise my money to your lender, thief
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              "In a free market the government does not sanction corporations,
+              therefore there are no corporations in a free market."
+            </div>
+            Existing within a market/vault/currency stewardship purveying
+            corporations/debt instead of royalty-contract w/max/profit
+            vaults.biz&nbsp;
+            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
+              allows you to go public but you pay a Double-Tax on Income
+              (threatened-upon us by not price-prisoners’ dilemma duress pooling
+              but literal&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.IRS.current.scrollIntoView("smooth");
+                  this.setState({ highlightIRS: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightIRS: false }),
+                    10000
+                  );
+                }}
+              >
+                jail/confiscation in 1937
+              </span>
+              )
+            </a>
+            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
+            mine for thumbprint.us to serve intention for mock direct democracy
+            for Baltimore “and beyond” now sole proprietorship with royalty
+            contracts w/max-profit (no promises, only
+            profit-schedules[adminWidthdrawal/sale,skew,max] options)
+            <br />
+            <br />
+            <a href="http://chng.it/D9dxm2mWW4">
+              Petition to stop supermarkets wasting food, bad stewardship of our
+              opportunities, G-d given shit
+            </a>
+            <br />
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              blm vs trump; FBI (J. Sanborn) says,&nbsp;
+              <span
+                onClick={() => {
+                  this.cityhall.current.scrollIntoView("smooth");
+                  this.setState({ highlightCityHall: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightCityHall: false }),
+                    10000
+                  );
+                }}
+              >
+                "not different"
+              </span>
+              , cites 100 people OVER A SUMMER and general cites heli using
+              civil disturbance enumerated outlays (bayonnets, heli's), {">"}
+              =250 ppl IN ONE DAY
+            </div>
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
+              Open-carry is threat
+            </a>
+            &nbsp; G-d is judge of soul, Territory is self
+            <br />
+            <br />
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.china.current.scrollIntoView("smooth");
+                this.setState({ highlightChina: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightChina: false }),
+                  10000
+                );
+              }}
+            >
+              China: U.S. GDP was 10%, then 1/7th, now 3/4
+              <br />
+              Population 4.5x
+            </span>
+            &nbsp; Although they have been known to lie and have used
+            propoganda, as U.S. has also&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.dvNotion.current.scrollIntoView("smooth");
+                this.setState({ highlightNotion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightNotion: false }),
+                  10000
+                );
+              }}
+            >
+              done in the past about
+            </span>
+            &nbsp;they have also stated intentions to ween off-debt and the
+            power structures it creates
+            <br />
+            <br />
+            "the&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.financeKills.current.scrollIntoView("smooth");
+                this.setState({ highlightFinanceKills: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFinanceKills: false }),
+                  10000
+                );
+              }}
+            >
+              entanglements
+            </span>
+            &nbsp;with the Chinese... work in-line with national-security
+            principals out of this" - Fmr Sec. State Pompeo
+          </div>
+          <div
+            ref={this.stats}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightStats ? "white" : "grey",
+              backgroundColor: this.state.highlightStats
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            My (NC) estimates for party compilation 2022 and 2024. Supply-side
+            (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
+            (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
+            call&nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.facebook.com/IVN/posts/10156682244587465"
+            >
+              https://www.facebook.com/IVN/posts/10156682244587465
+            </a>
+            <br />
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc"
+            >
+              https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
+            </a>
+            <br />
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.isidewith.com/poll/488729614"
+            >
+              https://www.isidewith.com/poll/488729614
+            </a>
+            <br />
+            <br />
+            <br />
+            CNN gaslighting every viewer that 62% (of 330,000,000) want this
+            (sample of under 3,000 people, without shuffling to boot). Add more
+            results like isidewith or thumbprint.us
+          </div>
+          <br />
+          when buy Greenland IRS
+          <br />
+          <br />
           "Good to see you. If you were here, I wouldn't steal your equity"
           <br />
           <br />
@@ -5805,6 +6056,32 @@ export default class App extends React.Component {
         </div>
         <br />
         <div ref={this.VIRUS}>
+          Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
+          B-cell oncogenesis) when the problem is forming mold in your mask and
+          ceasing that self-deprecation might stop your prediction of
+          <a href="https://moldmask.co">B.1.1.7</a>&nbsp;doubling 3/4/2021
+          <br />
+          Without debt, the rich will want to&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.financeKills.current.scrollIntoView("smooth");
+              this.setState({ highlightFinanceKills: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFinanceKills: false }),
+                10000
+              );
+            }}
+          >
+            kill&nbsp;
+            <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
+              us
+            </a>
+          </span>
+          <br />
+          <br />
           <div
             style={{
               width: "100%",
@@ -10412,31 +10689,15 @@ export default class App extends React.Component {
             NETL OVERVIEW - OSTI.GOV
           </div>
           <i
-            ref={this.homebuilder}
             style={{
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
               transition: ".3s ease-in",
-
-              color: this.state.highlightHomebuilder ? "white" : "grey",
-              backgroundColor: this.state.highlightHomebuilder
-                ? "rgb(170,100,205)"
-                : "",
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            I was raised a&nbsp;
-            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
-            &nbsp;to pay off my own mortgage
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once.
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once. Don’t promise my
-            money to your lender, thief
             <br />
             Without debt, the rich will want to&nbsp;
             <span
@@ -10539,7 +10800,7 @@ export default class App extends React.Component {
             <br />
             when we found numbers
             <br />
-            <a href="https://micro-theory.com"> accountants</a>,&nbsp;
+            <a href="https://micro-theory.com">accountants</a>,&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -11940,7 +12201,15 @@ export default class App extends React.Component {
             issues.
             <br />
             Parent choice of mutilation cannot be reversed but drugs can be
-            <br />
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
             <iframe
               title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
@@ -11957,18 +12226,7 @@ export default class App extends React.Component {
             "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
             to purchase items at businesses... and multiple diamond
             [investments]"... The fed uses our equity-split on shares of
-            corporate competitors of mine...
-          </div>
-          &nbsp;
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
+            corporate competitors of mine... <br /> <br />
             splitting dollars of entrepreneurs and labor without consent for
             those who lost there jobs and businesses who lost income is
             anti-competitive&nbsp;
@@ -12013,294 +12271,16 @@ export default class App extends React.Component {
             >
               Unemployment insurance
             </span>
-            &nbsp; generally is so those employees keep paying finance
+            &nbsp;generally is so those employees keep paying finance
             (counterfeit in contract or colonialism) "free" but&nbsp;
             <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
               split-dollar (the big lie)
             </a>
-            &nbsp; market share labor for business, labor and pre-revenue
+            &nbsp;market share labor for business, labor and pre-revenue
             inventors and artists just get their equity stolen and given to
             others. it's illegal but not under this regime's precedence
           </div>
-          <i
-            ref={this.homebuilder}
-            style={{
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightHomebuilder ? "white" : "grey",
-              backgroundColor: this.state.highlightHomebuilder
-                ? "rgb(170,100,205)"
-                : "",
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            I was raised a&nbsp;
-            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
-            &nbsp;to pay off my own mortgage
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once.
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once. Don’t promise my
-            money to your lender, thief
-            <br />
-            <br />
-            Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
-            B-cell oncogenesis) when the problem is forming mold in your mask
-            and ceasing that self-deprecation might stop your prediction of
-            B.1.1.7 doubling 3/4/2021
-            <br />
-            Without debt, the rich will want to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              kill us
-            </span>
-            <br />
-            <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
-              oy
-            </a>
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "In a free market the government does not sanction corporations,
-              therefore there are no corporations in a free market."
-            </div>
-            Existing within a market/vault/currency stewardship purveying
-            corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz&nbsp;
-            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
-              allows you to go public but you pay a Double-Tax on Income
-              (threatened-upon us by not price-prisoners’ dilemma duress pooling
-              but literal&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.IRS.current.scrollIntoView("smooth");
-                  this.setState({ highlightIRS: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightIRS: false }),
-                    10000
-                  );
-                }}
-              >
-                jail/confiscation in 1937
-              </span>
-              )
-            </a>
-            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
-            mine for thumbprint.us to serve intention for mock direct democracy
-            for Baltimore “and beyond” now sole proprietorship with royalty
-            contracts w/max-profit (no promises, only
-            profit-schedules[adminWidthdrawal/sale,skew,max] options)
-            <br />
-            <br />
-            <a href="http://chng.it/D9dxm2mWW4">
-              Petition to stop supermarkets wasting food, bad stewardship of our
-              opportunities, G-d given shit
-            </a>
-            <br />
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              blm vs trump; FBI (J. Sanborn) says,&nbsp;
-              <span
-                onClick={() => {
-                  this.cityhall.current.scrollIntoView("smooth");
-                  this.setState({ highlightCityHall: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightCityHall: false }),
-                    10000
-                  );
-                }}
-              >
-                "not different"
-              </span>
-              , cites 100 people OVER A SUMMER and general cites heli using
-              civil disturbance enumerated outlays (bayonnets, heli's), {">"}
-              =250 ppl IN ONE DAY
-            </div>
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
-              Open-carry is threat
-            </a>
-            &nbsp; G-d is judge of soul, Territory is self
-            <br />
-            <br />
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.china.current.scrollIntoView("smooth");
-                this.setState({ highlightChina: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightChina: false }),
-                  10000
-                );
-              }}
-            >
-              China: U.S. GDP was 10%, then 1/7th, now 3/4
-              <br />
-              Population 4.5x
-            </span>
-            &nbsp; Although they have been known to lie and have used
-            propoganda, as U.S. has also&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.dvNotion.current.scrollIntoView("smooth");
-                this.setState({ highlightNotion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightNotion: false }),
-                  10000
-                );
-              }}
-            >
-              done in the past about
-            </span>
-            &nbsp;they have also stated intentions to ween off-debt and the
-            power structures it creates
-            <br />
-            <br />
-            "the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              entanglements
-            </span>
-            &nbsp;with the Chinese... work in-line with national-security
-            principals out of this" - Fmr Sec. State Pompeo
-          </div>
-          <div
-            ref={this.stats}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightStats ? "white" : "grey",
-              backgroundColor: this.state.highlightStats
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            My (NC) estimates for party compilation 2022 and 2024. Supply-side
-            (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
-            (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
-            call&nbsp;
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.facebook.com/IVN/posts/10156682244587465"
-            >
-              https://www.facebook.com/IVN/posts/10156682244587465
-            </a>
-            <br />
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc"
-            >
-              https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
-            </a>
-            <br />
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.isidewith.com/poll/488729614"
-            >
-              https://www.isidewith.com/poll/488729614
-            </a>
-            <br />
-            <br />
-            <br />
-            CNN gaslighting every viewer that 62% (of 330,000,000) want this
-            (sample of under 3,000 people, without shuffling to boot). Add more
-            results like isidewith or thumbprint.us
-          </div>
         </div>
-        <br />
-        when buy Greenland IRS
-        <br />
-        <br />
         <div
           ref={this.navbar}
           style={{ display: "flex", width: "max-content" }}
@@ -13802,4 +13782,3 @@ export default class App extends React.Component {
     );
   }
 }
-
