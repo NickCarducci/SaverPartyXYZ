@@ -620,12 +620,16 @@ export default class App extends React.Component {
         block any positive PCR test, but those become positive for cold as
         well...
         <br />
-        <br />I have awaited funding for non-dilutive funding 9 years don't take thumbprint.us from
-        me now that I am almost finished. It is YOUR fault for not helping
-        sooner, and I am not selling to government or people unless the bylaws
-        is owned by no person or corporation. For now, however, it is a
-        sole proprietorship for me and my family with some&nbsp;
-        <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>&nbsp;
+        <br />I have awaited funding for non-dilutive funding 9 years don't take
+        thumbprint.us from me now that I am almost finished. It is YOUR fault
+        for not helping sooner, and I am not selling to government or people
+        unless the bylaws is owned by no person or corporation. For now,
+        however, it is a sole proprietorship for me and my family with
+        some&nbsp;
+        <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
+        <br />
+        <br />
+        Try to keep up without cheating bitch
         <br />
         <br />
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
