@@ -40,7 +40,15 @@ class Index extends React.Component {
         () => {
           clearTimeout(this.scrollTimeout);
           this.scrollTimeout = setTimeout(() => {
-            this.setState({ scrolling: false });
+            this.setState(
+              { scrolling: false, landedPresentation: true },
+              () => {
+                clearTimeout(this.scrollTimeout);
+                this.scrollTimeout = setTimeout(() => {
+                  this.setState({ landedPresentation: false });
+                }, 2577);
+              }
+            );
           }, 400);
         }
       );
@@ -157,7 +165,7 @@ class Index extends React.Component {
         </div>
         <div
           style={{
-            display: this.state.scrolling || this.state.top ? "flex" : "none",
+            display: this.state.landedPresentation ? "flex" : "none",
             position: "absolute",
             bottom: "0px",
             left: "0px",
@@ -166,7 +174,7 @@ class Index extends React.Component {
             alignItems: "flex-end",
             height: "100%",
             transition: ".3s ease-out",
-            opacity: this.state.scrolling || this.state.top ? 1 : 0
+            opacity: this.state.landedPresentation ? 1 : 0
           }}
         >
           <div
@@ -179,7 +187,7 @@ class Index extends React.Component {
               width: "40px",
               height: "min-content",
               transition: ".3s ease-out",
-              opacity: this.state.scrolling || this.state.top ? 1 : 0
+              opacity: this.state.landedPresentation ? 1 : 0
             }}
           >
             {this.state.inSection.split(" ").map((x) => `${x}\n`)}
@@ -822,6 +830,7 @@ class Index extends React.Component {
                   );
                 })
               }
+              landedPresentation={this.state.landedPresentation}
               scrolling={this.state.scrolling}
               scrollTop={this.state.scrollTop}
               top={this.state.top}
