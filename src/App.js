@@ -581,6 +581,31 @@ export default class App extends React.Component {
         <br/>
         <br/>*/}
         <div ref={this.WARONPOVERTY}>
+          People say they care about poverty but take from their demand equity
+          and give certain people more, reducing their earnings' utility and
+          forcing us into perpetual labor. The corrupt media and educational
+          institutions know this. Only if UBI is 100% ("Covid 'Relief'" Bill is
+          9%, probably includes insurance which is duress and this insurance
+          was&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.IRS.current.scrollIntoView("smooth");
+              this.setState({ highlightIRS: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightIRS: false }),
+                10000
+              );
+            }}
+          >
+            forced
+          </span>
+          ) is it purely monetary-inflation (102%); price-inelasticity
+          inflation (4200% + insurance cross-party duress-pool) is more
+          problematic for everyone in demand.
+          <br />
           <span
             style={{
               fontWeight: "bolder",
@@ -601,8 +626,9 @@ export default class App extends React.Component {
             <br />
             Population 4.5x
           </span>
-          &nbsp; Although they have been known to lie and have used propoganda,
-          as U.S. has also&nbsp;
+          <br />
+          Although they have been known to lie and have used propoganda, as U.S.
+          has also&nbsp;
           <span
             style={{
               fontWeight: "bolder",
@@ -643,8 +669,8 @@ export default class App extends React.Component {
           </span>
           &nbsp;with the Chinese... work in-line with national-security
           principals out of this" - Fmr Sec. State Pompeo
-          <br/>
-          <br/>
+          <br />
+          <br />
           <span
             style={{
               fontWeight: "bolder",
