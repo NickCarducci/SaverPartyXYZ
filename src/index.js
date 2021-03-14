@@ -8,6 +8,7 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      helperHeight: window.innerHeight - 60,
       top: true,
       scrollPlacementHeight: 0,
       openMenu: false,
@@ -15,6 +16,7 @@ class Index extends React.Component {
     };
     this.page = React.createRef();
     this.outer = React.createRef();
+    this.helper = React.createRef();
   }
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
@@ -24,12 +26,13 @@ class Index extends React.Component {
   };
   handleScroll = (e) => {
     this.setState({ scrolling: true }, () => {
-      var scrollTop = window.scrollY; //+ window.innerHeight;
-      var scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
-      var scrollPlacementHeight = Math.round(
-        (window.innerHeight - 115) * (scrollTop / scrollHeight)
+      const innerHeight = window.innerHeight;
+      const scrollTop = window.scrollY; //+ window.innerHeight;
+      const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
+      const scrollPlacementHeight = Math.round(
+        (innerHeight - 115) * (scrollTop / scrollHeight)
       );
-      var top = scrollTop === window.innerHeight;
+      const top = scrollTop === innerHeight;
       this.setState(
         {
           openMenu: top ? false : this.state.openMenu,
@@ -41,10 +44,13 @@ class Index extends React.Component {
           clearTimeout(this.scrollTimeout);
           this.scrollTimeout = setTimeout(() => {
             this.setState(
-              { scrolling: false, landedPresentation: true },
+              {
+                scrolling: false,
+                landedPresentation: true
+              },
               () => {
-                clearTimeout(this.scrollTimeout);
-                this.scrollTimeout = setTimeout(() => {
+                clearTimeout(this.scrollScrollTimeout);
+                this.scrollScrollTimeout = setTimeout(() => {
                   this.setState({ landedPresentation: false });
                 }, 2577);
               }
@@ -167,7 +173,6 @@ class Index extends React.Component {
           style={{
             display: this.state.landedPresentation ? "flex" : "none",
             position: "absolute",
-            bottom: "0px",
             left: "0px",
             color: "black",
             width: "40px",
@@ -177,6 +182,7 @@ class Index extends React.Component {
           }}
         >
           <div
+            ref={this.helper}
             onClick={() => this.setState({ openMenu: false })}
             style={{
               alignItems: "center",
@@ -184,7 +190,7 @@ class Index extends React.Component {
               backgroundColor: "rgb(255,255,255)",
               display: "flex",
               position: "fixed",
-              bottom: "0px",
+              top: this.state.helperHeight,
               left: "0px",
               height: "min-content",
               color: "black",
@@ -888,6 +894,10 @@ class Index extends React.Component {
                     () => this.setState({ openMenu: false }),
                     5432
                   );
+                  this.setState({
+                    helperHeight:
+                      window.innerHeight - this.helper.current.offsetHeight
+                  });
                 })
               }
               landedPresentation={this.state.landedPresentation}
