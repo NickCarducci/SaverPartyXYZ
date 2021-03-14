@@ -589,7 +589,7 @@ class Index extends React.Component {
               forces that are out to obfuscate and scourge
               <br />
               <br />
-              competing with customers
+              competing with customers - growth causes consterNation
               <div
                 style={{
                   margin: "4px 0px",
