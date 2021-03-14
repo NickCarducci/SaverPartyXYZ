@@ -39,6 +39,7 @@ export default class App extends React.Component {
     this.INSURANCEFRAUD = React.createRef();
     this.VIRUS = React.createRef();
     this.MONOPOLY = React.createRef();
+    this.EDUCATION = React.createRef();
     this.NULLHYPOTHESIS = React.createRef();
     this.SECURITIESFRAUD = React.createRef();
     this.SYSTEMICINEQUALITY = React.createRef();
@@ -407,51 +408,66 @@ export default class App extends React.Component {
                         ) {
                           this.props.inSection("Monopoly");
                         } else {
-                          const nullHypothesisHeight = this.NULLHYPOTHESIS
-                            .current.offsetHeight;
-                          const nullHypothesisOffsetTop = this.NULLHYPOTHESIS
-                            .current.offsetTop;
+                          const educationHeight = this.EDUCATION.current
+                            .offsetHeight;
+                          const educationOffsetTop = this.EDUCATION.current
+                            .offsetTop;
                           if (
-                            this.props.scrollTop < nullHypothesisOffsetTop ||
+                            this.props.scrollTop < educationOffsetTop ||
                             this.props.scrollTop <
-                              nullHypothesisHeight + nullHypothesisOffsetTop
+                              educationHeight + educationOffsetTop
                           ) {
-                            this.props.inSection("Null Hypothesis");
+                            this.props.inSection("Education");
                           } else {
-                            const securitiesFraudHeight = this.SECURITIESFRAUD
+                            const nullHypothesisHeight = this.NULLHYPOTHESIS
                               .current.offsetHeight;
-                            const securitiesFraudOffsetTop = this
-                              .SECURITIESFRAUD.current.offsetTop;
+                            const nullHypothesisOffsetTop = this.NULLHYPOTHESIS
+                              .current.offsetTop;
                             if (
-                              this.props.scrollTop < securitiesFraudOffsetTop ||
+                              this.props.scrollTop < nullHypothesisOffsetTop ||
                               this.props.scrollTop <
-                                securitiesFraudHeight + securitiesFraudOffsetTop
+                                nullHypothesisHeight + nullHypothesisOffsetTop
                             ) {
-                              this.props.inSection("Securities Fraud");
+                              this.props.inSection("Null Hypothesis");
                             } else {
-                              const systematicInequalityHeight = this
-                                .SYSTEMICINEQUALITY.current.offsetHeight;
-                              const systematicInequalityOffsetTop = this
-                                .SYSTEMICINEQUALITY.current.offsetTop;
+                              const securitiesFraudHeight = this.SECURITIESFRAUD
+                                .current.offsetHeight;
+                              const securitiesFraudOffsetTop = this
+                                .SECURITIESFRAUD.current.offsetTop;
                               if (
                                 this.props.scrollTop <
-                                  systematicInequalityOffsetTop ||
+                                  securitiesFraudOffsetTop ||
                                 this.props.scrollTop <
-                                  systematicInequalityHeight +
-                                    systematicInequalityOffsetTop
+                                  securitiesFraudHeight +
+                                    securitiesFraudOffsetTop
                               ) {
-                                this.props.inSection("Systemic Inequality");
+                                this.props.inSection("Securities Fraud");
                               } else {
-                                const earlyCommsHeight = this.EARLYCOMMS.current
-                                  .offsetHeight;
-                                const earlyCommsOffsetTop = this.EARLYCOMMS
-                                  .current.offsetTop;
+                                const systematicInequalityHeight = this
+                                  .SYSTEMICINEQUALITY.current.offsetHeight;
+                                const systematicInequalityOffsetTop = this
+                                  .SYSTEMICINEQUALITY.current.offsetTop;
                                 if (
-                                  this.props.scrollTop < earlyCommsOffsetTop ||
                                   this.props.scrollTop <
-                                    earlyCommsHeight + earlyCommsOffsetTop
+                                    systematicInequalityOffsetTop ||
+                                  this.props.scrollTop <
+                                    systematicInequalityHeight +
+                                      systematicInequalityOffsetTop
                                 ) {
-                                  this.props.inSection("Early Comms");
+                                  this.props.inSection("Systemic Inequality");
+                                } else {
+                                  const earlyCommsHeight = this.EARLYCOMMS
+                                    .current.offsetHeight;
+                                  const earlyCommsOffsetTop = this.EARLYCOMMS
+                                    .current.offsetTop;
+                                  if (
+                                    this.props.scrollTop <
+                                      earlyCommsOffsetTop ||
+                                    this.props.scrollTop <
+                                      earlyCommsHeight + earlyCommsOffsetTop
+                                  ) {
+                                    this.props.inSection("Early Comms");
+                                  }
                                 }
                               }
                             }
@@ -547,9 +563,10 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
-        The Government is to help keep citizens from harming eachother, not monopolize - even civic tech is copyrighted
-        <br/>
-        <br/>
+        The Government is to help keep citizens from harming eachother, not
+        monopolize - even civic tech is copyrighted
+        <br />
+        <br />
         "N.J. could soon face a historic housing crisis. A city devastated by
         COVID-19 might be the epicenter." - NJ.com These crises are man made.
         Enough rentier-colonialism. Just as wasteful as communist ghost cities.
@@ -6413,32 +6430,8 @@ export default class App extends React.Component {
             </a>
             <br />
             <br />
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightEducation ? "white" : "",
-                backgroundColor: this.state.highlightEducation
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.education}
-            >
-              Education may help the individual when it is not done for
-              everyone. The best move for people is in protecting their
-              bargaining position
-              <br />
-              Two steps back for everyone, one step forward for one
-              <br />
-              <br />
-              Education can be either a trade secret, stifle discovery, or speed
-              up open source. 1/3 is bad, especially if it can be accomplished
-              online
-              <br />
-              <br />
-              Wealth is about relativity to one another after it is about the
-              utility of the asset, upon dollar/depositary-splitting
-            </span>
+            Wealth is about relativity to one another after it is about the
+            utility of the asset, upon dollar/depositary-splitting
             <br />
             <br />
             <span
@@ -9728,7 +9721,7 @@ export default class App extends React.Component {
             vs mRNA graft both take 2 weeks
           </div>
         </div>
-        <div ref={this.NULLHYPOTHESIS}>
+        <div ref={this.EDUCATION}>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -9738,24 +9731,22 @@ export default class App extends React.Component {
             Education
             <br />
           </i>
-          <div
+          <span
             style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
+              transition: ".3s ease-in",
 
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              color: this.state.highlightEducation ? "white" : "",
+              backgroundColor: this.state.highlightEducation
+                ? "rgb(170,100,205)"
+                : ""
             }}
+            ref={this.education}
           >
             Education may help the individual when it is not done for everyone.
             The best move for people is in protecting their bargaining position
             <br />
             Two steps back for everyone, one step forward for one
             <br />
-            <span sryle={{ fontWeight: "bolder" }}>
-              &nbsp; Wealth is about relativity to one another until it is about
-              the utility of the asset
-            </span>
             <br />
             Education can be either a trade secret, stifle discovery, or speed
             up open source. 1/3 is bad, especially if it can be accomplished
@@ -9763,7 +9754,11 @@ export default class App extends React.Component {
             <a href="https://en.m.wikipedia.org/wiki/Price_elasticity_of_demand">
               https://en.m.wikipedia.org/wiki/Price_elasticity_of_demand
             </a>
-          </div>
+          </span>
+          <br />
+          <br />
+        </div>
+        <div ref={this.NULLHYPOTHESIS}>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -13684,4 +13679,3 @@ export default class App extends React.Component {
     );
   }
 }
-
