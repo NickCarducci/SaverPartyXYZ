@@ -565,6 +565,9 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        FairFight.org, the protection of the fillabuster is the only protection a minority has, you want to discuss thinks that cannot be proven freely until a cease and desist is brought from evidence your presumption is not a possibility (reasonable doubt)
+        bad name for them/their actions<br/>
+        <br/>
         The Government is to help keep citizens from harming eachother, not
         monopolize - even civic tech is copyrighted
         <br />
