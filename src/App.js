@@ -1647,7 +1647,7 @@ export default class App extends React.Component {
           are you counting accrual payable?
           <br />
           <br />
-          POLL [can be voluntary(nos&nbsp;
+          POLL [can be voluntary(no&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
