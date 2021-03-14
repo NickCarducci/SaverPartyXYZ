@@ -338,151 +338,153 @@ export default class App extends React.Component {
           ) {
             this.props.inSection("Gun Safety");
           } else {
-          const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
-          const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
-          if (
-            this.props.scrollTop < pollingFraudOffsetTop ||
-            this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
-          ) {
-            this.props.inSection("Polling Fraud");
-          } else {
-            const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE.current
-              .offsetHeight;
-            const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE.current
-              .offsetTop;
+            const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
+            const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
             if (
-              this.props.scrollTop < falseAdvertInHouseOffsetTop ||
-              this.props.scrollTop <
-                falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
+              this.props.scrollTop < pollingFraudOffsetTop ||
+              this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
             ) {
-              this.props.inSection("False Advert in House");
+              this.props.inSection("Polling Fraud");
             } else {
-              const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
-              const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
+              const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE.current
+                .offsetHeight;
+              const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
+                .current.offsetTop;
               if (
-                this.props.scrollTop < immigrationOffsetTop ||
-                this.props.scrollTop < immigrationHeight + immigrationOffsetTop
+                this.props.scrollTop < falseAdvertInHouseOffsetTop ||
+                this.props.scrollTop <
+                  falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
               ) {
-                this.props.inSection("Immigration");
+                this.props.inSection("False Advert in House");
               } else {
-                const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
-                  .offsetHeight;
-                const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD.current
-                  .offsetTop;
+                const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
+                const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
                 if (
-                  this.props.scrollTop < ownershipFraudOffsetTop ||
+                  this.props.scrollTop < immigrationOffsetTop ||
                   this.props.scrollTop <
-                    ownershipFraudHeight + ownershipFraudOffsetTop
+                    immigrationHeight + immigrationOffsetTop
                 ) {
-                  this.props.inSection("Ownership Fraud");
+                  this.props.inSection("Immigration");
                 } else {
-                  const falseAdvertInSenateHeight = this.FALSEADVERTINSENATE
-                    .current.offsetHeight;
-                  const falseAdvertInSenateOffsetTop = this.FALSEADVERTINSENATE
-                    .current.offsetTop;
+                  const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                    .offsetHeight;
+                  const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD.current
+                    .offsetTop;
                   if (
-                    this.props.scrollTop < falseAdvertInSenateOffsetTop ||
+                    this.props.scrollTop < ownershipFraudOffsetTop ||
                     this.props.scrollTop <
-                      falseAdvertInSenateHeight + falseAdvertInSenateOffsetTop
+                      ownershipFraudHeight + ownershipFraudOffsetTop
                   ) {
-                    this.props.inSection("False Advert in Senate");
+                    this.props.inSection("Ownership Fraud");
                   } else {
-                    const insuranceFraudHeight = this.INSURANCEFRAUD.current
-                      .offsetHeight;
-                    const insuranceFraudOffsetTop = this.INSURANCEFRAUD.current
-                      .offsetTop;
+                    const falseAdvertInSenateHeight = this.FALSEADVERTINSENATE
+                      .current.offsetHeight;
+                    const falseAdvertInSenateOffsetTop = this
+                      .FALSEADVERTINSENATE.current.offsetTop;
                     if (
-                      this.props.scrollTop < insuranceFraudOffsetTop ||
+                      this.props.scrollTop < falseAdvertInSenateOffsetTop ||
                       this.props.scrollTop <
-                        insuranceFraudHeight + insuranceFraudOffsetTop
+                        falseAdvertInSenateHeight + falseAdvertInSenateOffsetTop
                     ) {
-                      this.props.inSection("Insurance Fraud");
+                      this.props.inSection("False Advert in Senate");
                     } else {
-                      const virusHeight = this.VIRUS.current.offsetHeight;
-                      const virusOffsetTop = this.VIRUS.current.offsetTop;
+                      const insuranceFraudHeight = this.INSURANCEFRAUD.current
+                        .offsetHeight;
+                      const insuranceFraudOffsetTop = this.INSURANCEFRAUD
+                        .current.offsetTop;
                       if (
-                        this.props.scrollTop < virusOffsetTop ||
-                        this.props.scrollTop < virusHeight + virusOffsetTop
+                        this.props.scrollTop < insuranceFraudOffsetTop ||
+                        this.props.scrollTop <
+                          insuranceFraudHeight + insuranceFraudOffsetTop
                       ) {
-                        this.props.inSection("Virus");
+                        this.props.inSection("Insurance Fraud");
                       } else {
-                        const monopolyHeight = this.MONOPOLY.current
-                          .offsetHeight;
-                        const monopolyOffsetTop = this.MONOPOLY.current
-                          .offsetTop;
+                        const virusHeight = this.VIRUS.current.offsetHeight;
+                        const virusOffsetTop = this.VIRUS.current.offsetTop;
                         if (
-                          this.props.scrollTop < monopolyOffsetTop ||
-                          this.props.scrollTop <
-                            monopolyHeight + monopolyOffsetTop
+                          this.props.scrollTop < virusOffsetTop ||
+                          this.props.scrollTop < virusHeight + virusOffsetTop
                         ) {
-                          this.props.inSection("Monopoly");
+                          this.props.inSection("Virus");
                         } else {
-                          const educationHeight = this.EDUCATION.current
+                          const monopolyHeight = this.MONOPOLY.current
                             .offsetHeight;
-                          const educationOffsetTop = this.EDUCATION.current
+                          const monopolyOffsetTop = this.MONOPOLY.current
                             .offsetTop;
                           if (
-                            this.props.scrollTop < educationOffsetTop ||
+                            this.props.scrollTop < monopolyOffsetTop ||
                             this.props.scrollTop <
-                              educationHeight + educationOffsetTop
+                              monopolyHeight + monopolyOffsetTop
                           ) {
-                            this.props.inSection("Education");
+                            this.props.inSection("Monopoly");
                           } else {
-                            const nullHypothesisHeight = this.NULLHYPOTHESIS
-                              .current.offsetHeight;
-                            const nullHypothesisOffsetTop = this.NULLHYPOTHESIS
-                              .current.offsetTop;
+                            const educationHeight = this.EDUCATION.current
+                              .offsetHeight;
+                            const educationOffsetTop = this.EDUCATION.current
+                              .offsetTop;
                             if (
-                              this.props.scrollTop < nullHypothesisOffsetTop ||
+                              this.props.scrollTop < educationOffsetTop ||
                               this.props.scrollTop <
-                                nullHypothesisHeight + nullHypothesisOffsetTop
+                                educationHeight + educationOffsetTop
                             ) {
-                              this.props.inSection("Null Hypothesis");
+                              this.props.inSection("Education");
                             } else {
-                              const securitiesFraudHeight = this.SECURITIESFRAUD
+                              const nullHypothesisHeight = this.NULLHYPOTHESIS
                                 .current.offsetHeight;
-                              const securitiesFraudOffsetTop = this
-                                .SECURITIESFRAUD.current.offsetTop;
+                              const nullHypothesisOffsetTop = this
+                                .NULLHYPOTHESIS.current.offsetTop;
                               if (
                                 this.props.scrollTop <
-                                  securitiesFraudOffsetTop ||
+                                  nullHypothesisOffsetTop ||
                                 this.props.scrollTop <
-                                  securitiesFraudHeight +
-                                    securitiesFraudOffsetTop
+                                  nullHypothesisHeight + nullHypothesisOffsetTop
                               ) {
-                                this.props.inSection("Securities Fraud");
+                                this.props.inSection("Null Hypothesis");
                               } else {
-                                const systematicInequalityHeight = this
-                                  .SYSTEMICINEQUALITY.current.offsetHeight;
-                                const systematicInequalityOffsetTop = this
-                                  .SYSTEMICINEQUALITY.current.offsetTop;
+                                const securitiesFraudHeight = this
+                                  .SECURITIESFRAUD.current.offsetHeight;
+                                const securitiesFraudOffsetTop = this
+                                  .SECURITIESFRAUD.current.offsetTop;
                                 if (
                                   this.props.scrollTop <
-                                    systematicInequalityOffsetTop ||
+                                    securitiesFraudOffsetTop ||
                                   this.props.scrollTop <
-                                    systematicInequalityHeight +
-                                      systematicInequalityOffsetTop
+                                    securitiesFraudHeight +
+                                      securitiesFraudOffsetTop
                                 ) {
-                                  this.props.inSection("Systemic Inequality");
+                                  this.props.inSection("Securities Fraud");
                                 } else {
-                                  const earlyCommsHeight = this.EARLYCOMMS
-                                    .current.offsetHeight;
-                                  const earlyCommsOffsetTop = this.EARLYCOMMS
-                                    .current.offsetTop;
+                                  const systematicInequalityHeight = this
+                                    .SYSTEMICINEQUALITY.current.offsetHeight;
+                                  const systematicInequalityOffsetTop = this
+                                    .SYSTEMICINEQUALITY.current.offsetTop;
                                   if (
                                     this.props.scrollTop <
-                                      earlyCommsOffsetTop ||
+                                      systematicInequalityOffsetTop ||
                                     this.props.scrollTop <
-                                      earlyCommsHeight + earlyCommsOffsetTop
+                                      systematicInequalityHeight +
+                                        systematicInequalityOffsetTop
                                   ) {
-                                    this.props.inSection("Early Comms");
+                                    this.props.inSection("Systemic Inequality");
+                                  } else {
+                                    const earlyCommsHeight = this.EARLYCOMMS
+                                      .current.offsetHeight;
+                                    const earlyCommsOffsetTop = this.EARLYCOMMS
+                                      .current.offsetTop;
+                                    if (
+                                      this.props.scrollTop <
+                                        earlyCommsOffsetTop ||
+                                      this.props.scrollTop <
+                                        earlyCommsHeight + earlyCommsOffsetTop
+                                    ) {
+                                      this.props.inSection("Early Comms");
+                                    }
                                   }
                                 }
                               }
                             }
                           }
                         }
-                      }
                       }
                     }
                   }
@@ -579,68 +581,70 @@ export default class App extends React.Component {
         <br/>
         <br/>*/}
         <div ref={this.WARONPOVERTY}>
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.china.current.scrollIntoView("smooth");
-                this.setState({ highlightChina: true });
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.china.current.scrollIntoView("smooth");
+              this.setState({ highlightChina: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightChina: false }),
-                  10000
-                );
-              }}
-            >
-              China: U.S. GDP was 10%, then 1/7th, now 3/4
-              <br />
-              Population 4.5x
-            </span>
-            &nbsp; Although they have been known to lie and have used
-            propoganda, as U.S. has also&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.dvNotion.current.scrollIntoView("smooth");
-                this.setState({ highlightNotion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightNotion: false }),
-                  10000
-                );
-              }}
-            >
-              done in the past about
-            </span>
-            &nbsp;they have also stated intentions to ween off-debt and the
-            power structures it creates
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightChina: false }),
+                10000
+              );
+            }}
+          >
+            China of U.S. GDP was 10%, decades ago 1/7th, 2020 3/4
             <br />
-            <br />
-            "the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
+            Population 4.5x
+          </span>
+          &nbsp; Although they have been known to lie and have used propoganda,
+          as U.S. has also&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.dvNotion.current.scrollIntoView("smooth");
+              this.setState({ highlightNotion: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              entanglements
-            </span>
-            &nbsp;with the Chinese... work in-line with national-security
-            principals out of this" - Fmr Sec. State Pompeo
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNotion: false }),
+                10000
+              );
+            }}
+          >
+            done in the past about
+          </span>
+          &nbsp;they have also stated intentions to ween off-debt and the power
+          structures it creates
+          <br />
+          <br />
+          "the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.financeKills.current.scrollIntoView("smooth");
+              this.setState({ highlightFinanceKills: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFinanceKills: false }),
+                10000
+              );
+            }}
+          >
+            entanglements
+          </span>
+          &nbsp;with the Chinese... work in-line with national-security
+          principals out of this" - Fmr Sec. State Pompeo
+          <br/>
+          <br/>
           <span
             style={{
               fontWeight: "bolder",
@@ -674,8 +678,8 @@ export default class App extends React.Component {
             be seeking renumeration for price-picking and counterfeit, not
             merely laugh at the borrower/lender collusion
           </span>
-          <br/>
-          <br/>
+          <br />
+          <br />
           WHY TAKE FROM PEOPLE THAT WORK that launder to injustices instead of
           remove injustices?&nbsp;
           <a href="https://en.wikipedia.org/wiki/Fareed_Zakaria">CNN</a>&nbsp;is
@@ -11312,7 +11316,7 @@ export default class App extends React.Component {
             </a>
             &nbsp; G-d is judge of soul, Territory is self
           </div>
-            <br />
+          <br />
           <div style={tweetsStyle}>
             Mortgages are illegal, you cannot promise somebody else's
             money&nbsp;
