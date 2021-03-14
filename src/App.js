@@ -5337,38 +5337,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            <a href="https://wavv.art/forumn6cCt1uxDAY0mqIVNV2b">
-              wavv.art/forumn6cCt1uxDAY0mqIVNV2b
-            </a>
-            <br />
-            Paying my lenders/invoices(bills)/market-colonizers(rentiers
-            {/*},price-producers*/}) doesn't help me when they usurped the
-            contract and forced me into it by prisoners' dilemma-duress to pay
-            the invoice and be subject to coagulated demand capacity of
-            cross-party risk, gambling on life-events and matching the pool's
-            capacity instead of the{" "}
-            <a href="https://micro-theory.com">
-              individual marginal price-discretion
-            </a>
-            <br />
-            “When the characters had growing expenses, we made saving on&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              insurance
-            </span>
-            , easy.” Hahahaha <a href="https://usaa.com">USAA</a>
-            <br />
             As you can see from the photo, my muscle (flexed) is malformed and
             my patella locks upwards, and this Medicare doctor has the gaul to
             say it shouldn’t bother me, and if it did it was a back problem.
@@ -5387,8 +5355,11 @@ export default class App extends React.Component {
             area and the other two were kind enough to not waste my time, but
             now I have no options but to slowly die of heart disease because I
             can't exercise and sweat, his solution is to look at my back.
+            <br />
+            <br />
             https://www.researchgate.net/publication/43297722_Repair_of_Traumatic_Skeletal_Muscle_Injury_with_Bone-Marrow-Derived_Mesenchymal_Stem_Cells_Seeded_on_Extracellular_Matrix.
-            He looked at the muscular divot in my teardrop muscle (vastus
+            <br />
+            <br /> He looked at the muscular divot in my teardrop muscle (vastus
             medialis) and suggested that I couldn't stand because of a lower
             back "problem" he made up. His conflict of interest is apparent,
             just like my regular Medicare doctor, they ignore my injury because
@@ -5440,12 +5411,43 @@ export default class App extends React.Component {
             <br />
             He also said he stitches people up all the time, but my injury was
             jagged, but he didn't care.
+            <br />
+            <br />
+            <a href="https://wavv.art/forumn6cCt1uxDAY0mqIVNV2b">
+              wavv.art/forumn6cCt1uxDAY0mqIVNV2b
+            </a>
+            <br />
+            Paying my lenders/invoices(bills)/market-colonizers(rentiers
+            {/*},price-producers*/}) doesn't help me when they usurped the
+            contract and forced me into it by prisoners' dilemma-duress to pay
+            the invoice and be subject to coagulated demand capacity of
+            cross-party risk, gambling on life-events and matching the pool's
+            capacity instead of the{" "}
+            <a href="https://micro-theory.com">
+              individual marginal price-discretion
+            </a>
+            <br />
+            “When the characters had growing expenses, we made saving on&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              insurance
+            </span>
+            , easy.” Hahahaha <a href="https://usaa.com">USAA</a>
           </div>
         </div>
         <br />
         <div ref={this.VIRUS}>
-          <br />
-          <br />
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of B.1.1.7
@@ -5458,7 +5460,8 @@ export default class App extends React.Component {
             CNN (no thwart of bad info, Dr. Davidson) claims masks do not cause
             humidity on face and worsen/prolong virus.
           </a>
-          {"  "}
+          <br />
+          <br />
           "Why not send money out for [graft]?" so that prices are found
           naturally so people can afford it and not owe the money again, and we
           know B-cells can cause oncogenesis when abnornal/dysregulated by not
@@ -5467,7 +5470,9 @@ export default class App extends React.Component {
           to train instead of guiding your punches into abnormality/oncogenesis
           reaction to a non-human part to fight, not be guided.
           <br />
+          <br />
           no evidence I'm sick and I think you're racist
+          <br />
           <br />
           transfer only happens when symptoms are there is the only proof you
           have to exclude not based on anything but public health
