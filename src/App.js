@@ -638,7 +638,7 @@ export default class App extends React.Component {
         </span>
         &nbsp;don't take thumbprint.us from me now that I am almost finished you
         pathetic peice of shit. It is YOUR fault for not helping sooner, and I
-        am not selling to nationalist-government, or people unless the bylaws is owned by no
+        am not selling to nationalist- or indebted-government, or people unless the bylaws is owned by no
         person or corporation. For now, however, it is a sole proprietorship for
         me and my family with some&nbsp;
         <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
