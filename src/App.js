@@ -612,17 +612,20 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        CNN are you taking about me? "This doesn't work and needs to change,"
+        <a href="https://en.wikipedia.org/wiki/Pamela_Brown_(journalist)">
+          CNN
+        </a>
+        &nbsp;are you taking about me? "This doesn't work and needs to change,"
         about NY DOH order to not block people with symptoms? The order said
         block any positive PCR test, but those become positive for cold as
         well...
         <br />
-        <br />I have awaited funding for 9 years don't take thumbprint.us from
+        <br />I have awaited funding for non-dilutive funding 9 years don't take thumbprint.us from
         me now that I am almost finished. It is YOUR fault for not helping
         sooner, and I am not selling to government or people unless the bylaws
-        is it is owned by no person or corporatin. For now, however, it is a
-        sole proprietorship with some&nbsp;
-        <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
+        is owned by no person or corporation. For now, however, it is a
+        sole proprietorship for me and my family with some&nbsp;
+        <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>&nbsp;
         <br />
         <br />
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
