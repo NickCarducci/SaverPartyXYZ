@@ -597,7 +597,7 @@ export default class App extends React.Component {
               );
             }}
           >
-            China of U.S. GDP was 10%, decades ago 1/7th, 2020 3/4
+            China of U.S. GDP was 10% century ago, decades ago 1/7th, 2020 3/4
             <br />
             Population 4.5x
           </span>
