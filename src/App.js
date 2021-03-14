@@ -492,7 +492,7 @@ export default class App extends React.Component {
     const tweetsStyle = {
       padding: "20px",
 
-      border: "1px dotted",
+      
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
@@ -1789,7 +1789,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -2227,10 +2227,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -3611,10 +3609,7 @@ export default class App extends React.Component {
           <span
             ref={this.newsy}
             style={{
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightNewsy ? "white" : "grey",
@@ -3836,10 +3831,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -3873,10 +3866,8 @@ export default class App extends React.Component {
           <span
             ref={this.financeKills}
             style={{
-              margin: "10px 0px",
-              padding: "10px",
               display: "block",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightFinanceKills ? "white" : "grey",
@@ -4153,7 +4144,7 @@ export default class App extends React.Component {
             style={{
               //border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4218,10 +4209,8 @@ export default class App extends React.Component {
             <span
               ref={this.covidKills}
               style={{
-                margin: "10px 0px",
-                padding: "10px",
                 display: "block",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightCovidKills ? "white" : "grey",
@@ -4277,10 +4266,8 @@ export default class App extends React.Component {
           <div
             style={{
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4355,7 +4342,7 @@ export default class App extends React.Component {
             style={{
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4373,10 +4360,7 @@ export default class App extends React.Component {
           <div
             ref={this.collective}
             style={{
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightCollective ? "white" : "grey",
@@ -4509,7 +4493,7 @@ export default class App extends React.Component {
             style={{
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4521,7 +4505,7 @@ export default class App extends React.Component {
             style={{
               //border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4542,7 +4526,7 @@ export default class App extends React.Component {
 
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4639,7 +4623,7 @@ export default class App extends React.Component {
             style={{
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4658,10 +4642,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4749,7 +4731,7 @@ export default class App extends React.Component {
             style={{
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4768,10 +4750,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4804,7 +4784,7 @@ export default class App extends React.Component {
             style={{
               border: "3px solid blue",
               borderRadius: "10px",
-              padding: "10px",
+
               height: "min-content",
               width: "calc(100% - 30px)",
               position: "relative"
@@ -4880,7 +4860,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 30px)",
                 position: "relative"
@@ -4899,7 +4879,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 30px)",
                 position: "relative"
@@ -4918,7 +4898,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 30px)",
                 position: "relative"
@@ -4937,7 +4917,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 30px)",
                 position: "relative"
@@ -4984,10 +4964,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5046,7 +5024,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 20px)",
                 position: "relative"
@@ -5065,7 +5043,7 @@ export default class App extends React.Component {
               style={{
                 border: "3px solid blue",
                 borderRadius: "10px",
-                padding: "10px",
+
                 height: "min-content",
                 width: "calc(50% - 20px)",
                 position: "relative"
@@ -5119,10 +5097,8 @@ export default class App extends React.Component {
             ref={this.insurance}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightPrisonersDuress ? "white" : "grey",
@@ -5228,10 +5204,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5265,10 +5239,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5327,12 +5299,11 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
+
               wordBreak: "break-word",
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5651,10 +5622,7 @@ export default class App extends React.Component {
           <span
             ref={this.singleSourceOfTruth}
             style={{
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightSingleSource ? "white" : "grey",
@@ -5760,15 +5728,14 @@ export default class App extends React.Component {
           <a href="https://humanharvest.info">human-part/spliced grafts</a> to
           be the same as making your own
           <br />
+          <br />
           <div
             style={{
               wordBreak: "break-word",
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5783,8 +5750,6 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
                 border: this.state.highlightSpittleNext
                   ? "1px blue solid"
@@ -5907,10 +5872,8 @@ export default class App extends React.Component {
               wordBreak: "break-word",
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -6053,12 +6016,10 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
                 flexDirection: "column",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6326,10 +6287,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -6402,10 +6361,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6586,10 +6543,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6649,10 +6604,8 @@ export default class App extends React.Component {
                 style={{
                   fontFamily: '"Hi Melody", sans-serif',
                   color: "grey",
-                  margin: "10px 0px",
-                  padding: "10px",
 
-                  border: "1px dotted",
+                  
                   width: "calc(100% - 20px)",
                   maxWidth: "600px"
                 }}
@@ -6842,10 +6795,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6866,10 +6817,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6967,10 +6916,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7016,10 +6963,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7090,13 +7035,12 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
+
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -7186,12 +7130,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7221,12 +7163,10 @@ export default class App extends React.Component {
             style={{
               fontWeight: "normal",
               transition: ".3s ease-in",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightOooreily ? "white" : "grey",
@@ -7435,12 +7375,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7480,12 +7418,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7510,12 +7446,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7543,10 +7477,7 @@ export default class App extends React.Component {
             <span
               ref={this.grandmaMentality}
               style={{
-                margin: "10px 0px",
-                padding: "10px",
-
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightGrandmaMentality ? "white" : "grey",
@@ -7641,12 +7572,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7682,12 +7611,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7734,12 +7661,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7802,12 +7727,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7831,12 +7754,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7860,12 +7781,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7913,12 +7832,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7934,12 +7851,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7985,12 +7900,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8183,12 +8096,11 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
+
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8238,12 +8150,11 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
+
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8268,10 +8179,8 @@ export default class App extends React.Component {
             <span
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8344,12 +8253,11 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
+
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8552,10 +8460,8 @@ export default class App extends React.Component {
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8738,10 +8644,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8805,10 +8709,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8844,10 +8746,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8871,10 +8771,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8896,10 +8794,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8921,10 +8817,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8933,10 +8827,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8955,10 +8847,8 @@ export default class App extends React.Component {
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 transition: ".3s ease-in",
@@ -9003,12 +8893,10 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
                 flexDirection: "column",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -9021,12 +8909,9 @@ export default class App extends React.Component {
             <div
               ref={this.trust}
               style={{
-                margin: "10px 0px",
-                padding: "10px",
-
                 flexDirection: "column",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightTrust ? "white" : "grey",
@@ -9065,12 +8950,10 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
                 flexDirection: "column",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -9123,12 +9006,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9173,13 +9054,12 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
+
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
                 alignItems: "center",
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -9262,12 +9142,10 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9288,10 +9166,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9359,10 +9235,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9390,10 +9264,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9420,10 +9292,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9473,10 +9343,8 @@ export default class App extends React.Component {
             ref={this.varney}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightVarney ? "white" : "grey",
@@ -9555,10 +9423,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9585,10 +9451,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9626,10 +9490,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9691,10 +9553,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9711,10 +9571,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9725,10 +9583,8 @@ export default class App extends React.Component {
             style={{
               fontWeight: "normal",
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9884,10 +9740,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9923,10 +9777,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9950,10 +9802,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10003,10 +9853,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10019,10 +9867,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10120,10 +9966,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10181,14 +10025,13 @@ export default class App extends React.Component {
             ref={this.planetary}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
+
               transition: ".3s ease-in",
               color: this.state.highlightExperts ? "white" : "grey",
               backgroundColor: this.state.highlightExperts
                 ? "rgb(170,100,205)"
                 : "",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10224,11 +10067,11 @@ export default class App extends React.Component {
             ref={this.experts}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
+
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -10279,10 +10122,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10307,7 +10148,7 @@ export default class App extends React.Component {
           <i
             ref={this.homebuilder}
             style={{
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -10356,10 +10197,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10368,10 +10207,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -10408,10 +10245,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10696,10 +10531,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10709,10 +10542,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10723,10 +10554,8 @@ export default class App extends React.Component {
             ref={this.drugs}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightDrugs ? "white" : "grey",
@@ -10762,12 +10591,10 @@ export default class App extends React.Component {
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
               flexDirection: "column",
               alignItems: "center",
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               transition: ".3s ease-in",
@@ -10797,7 +10624,7 @@ export default class App extends React.Component {
               fontWeight: "bolder",
               textDecoration: "underline",
               width: "100%",
-              padding: "10px",
+
               border: "1px dotted grey"
             }}
             onClick={() => {
@@ -10876,10 +10703,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10957,10 +10782,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10989,10 +10812,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11031,10 +10852,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11055,10 +10874,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11079,10 +10896,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11105,10 +10920,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11153,10 +10966,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11218,10 +11029,8 @@ export default class App extends React.Component {
             ref={this.jan2018}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightJan2018 ? "white" : "grey",
@@ -11244,10 +11053,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11275,10 +11082,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11615,7 +11420,7 @@ export default class App extends React.Component {
             style={{
               wordBreak: "break-word",
               padding: this.state.why ? "20px" : "0px",
-              border: "1px dotted",
+              
               width: "calc(100% - 40px)",
               maxWidth: "600px",
               opacity: this.state.why ? "1" : "0",
@@ -11654,9 +11459,8 @@ export default class App extends React.Component {
             <div
               style={{
                 fontWeight: "normal",
-                margin: "10px 0px",
-                padding: "10px",
-                border: "1px dotted",
+
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -11900,10 +11704,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11929,10 +11731,8 @@ export default class App extends React.Component {
             ref={this.mutilation}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               transition: ".3s ease-in",
@@ -11972,10 +11772,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -12036,7 +11834,7 @@ export default class App extends React.Component {
           <i
             ref={this.homebuilder}
             style={{
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -12092,10 +11890,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -12104,10 +11900,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -12155,10 +11949,8 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
 
-                border: "1px dotted",
+                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -12187,10 +11979,8 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -12269,7 +12059,7 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              border: "1px dotted",
+              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -12537,7 +12327,7 @@ export default class App extends React.Component {
             <div
               style={{
                 padding: "20px",
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12658,7 +12448,7 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12690,7 +12480,7 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12757,7 +12547,7 @@ export default class App extends React.Component {
             style={{
               padding: "20px",
 
-              border: "1px dotted",
+              
               width: "100%",
               maxWidth: "600px"
             }}
@@ -12847,7 +12637,7 @@ export default class App extends React.Component {
             <div
               style={{
                 padding: "20px",
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12943,7 +12733,7 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                border: "1px dotted",
+                
 
                 width: "100%",
                 maxWidth: "600px"
@@ -13057,7 +12847,7 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px",
                 transition: ".3s ease-in",
@@ -13137,7 +12927,7 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                border: "1px dotted",
+                
                 width: "100%",
                 maxWidth: "600px"
               }}
