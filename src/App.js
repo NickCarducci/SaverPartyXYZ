@@ -322,7 +322,7 @@ export default class App extends React.Component {
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
       const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
-      if (this.props.scrollTop > gunSafetyOffsetTop) {
+      if (this.props.scrollTop > warOnPovertyOffsetTop) {
         const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
         if (
           this.props.scrollTop < warOnPovertyOffsetTop ||
