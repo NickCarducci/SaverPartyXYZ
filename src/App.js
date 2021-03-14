@@ -660,8 +660,7 @@ export default class App extends React.Component {
           <a href="https://micro-theory.com">counterfeit-in-contract</a>
           &nbsp;case
           <br />
-          <br/>
-
+          <br />
           Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
           &nbsp;doesn't understand price-elasticity or he is lying and guilty of
           intending to harm AND mislead by saying, "Covid Relief Bill will help
@@ -731,6 +730,116 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/p2oe87bzkaqhqo8/MedicalInvoice.jpg?dl=0"
             />
           </div>
+          <br />
+          Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
+          to bond-holders and more - when you can ban
+          finance(rent,debt,invoice,insurance) for competing with consumers
+          instead and get the&nbsp;
+          <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+            same utility for lower prices
+          </a>
+          <br />
+          You aren't asking congress for money you are asking people
+          <br />
+          <br />
+          <span
+            ref={this.fasterWithCounterfeit}
+            style={{
+              color: this.state.highlightFasterWithCounterfeit ? "white" : "",
+              backgroundColor: this.state.highlightFasterWithCounterfeit
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Republicans are attesting to my claim that government spending by
+            tax or debt is faster, well after further consideration and
+            experience I must argue that the only speed gained is in stealing
+            copyright by government, otherwise competition from supply is faster
+          </span>
+          <br />
+          <br />
+          Literally this politician just admitted that the Covid "Relief" Bill
+          is to, "Keep the economy afloat." That either means prevent
+          price-elasticity or trade. That is illegal, admitting to conspire to
+          prohibit trade or price-fix
+          <br />
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "25%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/ai5cfuhzjdycc75/FloatEconomy.jpg?dl=0"
+            />
+          </div>
+          &nbsp;
+          <br />
+          To steal for people who lost their jobs is doubly not fair
+          <br />
+          <br />
+          Can someone ask why people "need the money?" The answer is always a
+          contract that could fall under the impossible doctrine or forced
+          majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
+          obligations that aren't price-elastic. What is price-elastic shouldn't
+          need to help the supply-side
+          <br />
+          <br />
+          If you want to help poverty from years of financial harm done by
+          judicial malfeasance, tax for it don't double back and pay
+          bond-holders more...
+          <br />
+          <br />
+          If you make a bet with a credit card company that if you cannot get
+          the money back, they get nothing, and the government helps them win by
+          claiming your bet was a promise, you have a demonic government
+          <br />
+          <br />
+          <span
+            ref={this.quality}
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightQuality ? "white" : "",
+              backgroundColor: this.state.highlightQuality
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            This $1.9t bill will raise prices for goods and services, and be a
+            boon to the lending class. There is no good that comes from this:
+            aggrandizing price & ruining opportunities for new producers by
+            bootstrapping entrepreneurs (bartending, coding) to emerge and
+            provide better quality and prices. It only monopolizes
+            service-providers to those that exist, making it impossible for
+            Savers to keep their earnings' worth
+          </span>
+          <br />
+          <br />
+          $800 million for food: if you didn't&nbsp;
+          <a href="https://foiegras.life">interfere</a>&nbsp;it would be more
+          affordable
+          <br />
+          <br />
+          Stop calling stealing for doctors affordable healthcare: nothing about
+          debt or price-inelasticity goes towards making healthcare more
+          affordable, it does the opposite and monopolizes equity for doctors.
+          <br />
+          Moody's is abjectly corrupt, no intent declared is required to convict
+          on their conspiracy to prohibit trade: if the debt contract followed
+          contract law, and an unrequited third-party's dollars is waged in
+          mounting or changing the payout terms, they wouldn't rate debt well
+          above 1.2x cash (now 13x cash) as it is impossible to pay debt 13
+          times ($82tdebt:$6tcash). (borrower would have to earn then pay
+          creditor 13 times)
+          <br />
+          <br />
+          You can't give away something you do not take!
+          <br />
           <br />
           <span
             ref={this.newsy}
@@ -2623,113 +2732,6 @@ export default class App extends React.Component {
           skill is discrimination, violation of Amendment 13 by free-riding
           other contribitions of assets-earnable of that person, and any
           government action to that end is in violation of Amendment 14
-          <br />
-          <br />
-          Imagine CNN calling the "Covid Relief bill," "relief," when it is owed
-          to bond-holders and more - when you can ban
-          finance(rent,debt,invoice,insurance) for competing with consumers
-          instead and get the&nbsp;
-          <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
-            same utility for lower prices
-          </a>
-          <br />
-          You aren't asking congress for money you are asking people
-          <br />
-          <br />
-          <span
-            ref={this.fasterWithCounterfeit}
-            style={{
-              color: this.state.highlightFasterWithCounterfeit ? "white" : "",
-              backgroundColor: this.state.highlightFasterWithCounterfeit
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Republicans are attesting to my claim that government spending by
-            tax or debt is faster, well after further consideration and
-            experience I must argue that the only speed gained is in stealing
-            copyright by government, otherwise competition from supply is faster
-          </span>
-          <br />
-          <br />
-          Literally this politician just admitted that the Covid "Relief" Bill
-          is to, "Keep the economy afloat." That either means prevent
-          price-elasticity or trade. That is illegal, admitting to conspire to
-          prohibit trade or price-fix
-          <br />
-          <div
-            style={{
-              width: "100%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "25%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/ai5cfuhzjdycc75/FloatEconomy.jpg?dl=0"
-            />
-          </div>
-          &nbsp;
-          <br />
-          To steal for people who lost their jobs is doubly not fair
-          <br />
-          <br />
-          Can someone ask why people "need the money?" The answer is always a
-          contract that could fall under the impossible doctrine or forced
-          majeure. "Need" or "crucial" relief is ALWAYS for the recipient's
-          obligations that aren't price-elastic. What is price-elastic shouldn't
-          need to help the supply-side
-          <br />
-          <br />
-          If you want to help poverty from years of financial harm done by
-          judicial malfeasance, tax for it don't double back and pay
-          bond-holders more...
-          <br />
-          <br />
-          If you make a bet with a credit card company that if you cannot get
-          the money back, they get nothing, and the government helps them win by
-          claiming your bet was a promise, you have a demonic government
-          <br />
-          <br />
-          <span
-            ref={this.quality}
-            style={{
-              transition: ".3s ease-in",
-              color: this.state.highlightQuality ? "white" : "",
-              backgroundColor: this.state.highlightQuality
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            This $1.9t bill will raise prices for goods and services, and be a
-            boon to the lending class. There is no good that comes from this:
-            aggrandizing price & ruining opportunities for new producers by
-            bootstrapping entrepreneurs (bartending, coding) to emerge and
-            provide better quality and prices. It only monopolizes
-            service-providers to those that exist, making it impossible for
-            Savers to keep their earnings' worth
-          </span>
-          <br />
-          <br />
-          $800 million for food: if you didn't&nbsp;
-          <a href="https://foiegras.life">interfere</a>&nbsp;it would be more
-          affordable
-          <br />
-          <br />
-          Stop calling stealing for doctors affordable healthcare: nothing about
-          debt or price-inelasticity goes towards making healthcare more
-          affordable, it does the opposite and monopolizes equity for doctors.
-          <br />
-          Moody's is abjectly corrupt, no intent declared is required to convict
-          on their conspiracy to prohibit trade: if the debt contract followed
-          contract law, and an unrequited third-party's dollars is waged in
-          mounting or changing the payout terms, they wouldn't rate debt well
-          above 1.2x cash (now 13x cash) as it is impossible to pay debt 13
-          times ($82tdebt:$6tcash). (borrower would have to earn then pay
-          creditor 13 times)
           <br />
           <br />
           You can't give away something you do not take!
@@ -13800,3 +13802,4 @@ export default class App extends React.Component {
     );
   }
 }
+
