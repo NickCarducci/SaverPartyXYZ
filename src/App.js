@@ -547,9 +547,32 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
-        "All it takes are resources," says a guest of CNN pertaining to migrant help.  Resources do not have to come from Saver/laborer/artist equity, it can come from rich donors wanting to protect themselves or free-rider-immutable 3% sales tax under $2k.  To suggest this isn't possible is criminal, as is forcing producers to sell on credit or loans: counterfeit-in-contract. Technically illegal but not by precedence due to court malfeasance
-        <br/>
-        <br/>
+        "N.J. could soon face a historic housing crisis. A city devastated by
+        COVID-19 might be the epicenter." - NJ.com These crises are man made.
+        Enough rentier-colonialism. Just as wasteful as communist ghost cities.
+        Front-run & dumber fool into duressful prohibited settled trade, over
+        and over. No baby bonds!
+        <br />
+        <br />
+        It is a scam for nonprofit name to be taken by government. They are not
+        the people! When I sue the government for counterfeit and
+        trust-building, it better not say Nick Carducci vs. the People because
+        the state is a scourge on the people, keeping us from owning assets!
+        <br />
+        <br />
+        “All it takes are resources," says a guest of CNN pertaining to migrant
+        help. Resources do not have to come from Saver/laborer/artist equity, it
+        can come help most by not creating a welfare system that lured them &
+        not giving them resources so the producers of their society have to
+        accept lower prices, and the labor can afford it. We want to protect
+        ourselves with free-rider-immutable 3% sales tax under $2k. To suggest
+        this isn't possible is criminal, as is forcing producers to sell on
+        credit or loans: counterfeit-in-contract. Technically illegal but not by
+        precedence due to court malfeasance and self-interest instead of
+        jurisprudence for the tort-parties with impartiality or reward/fine
+        requiring debt or not minimally-inhibiting
+        <br />
+        <br />
         CNN: "Biden is sure to mention the $1400 to sell the Covid Relief Bill,
         so they know EXACTLY how it affects them." 9% of exact if that is the
         description, -100% goes unwarned by him about being able to get the same
@@ -13658,3 +13681,4 @@ export default class App extends React.Component {
     );
   }
 }
+
