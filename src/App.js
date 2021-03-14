@@ -558,13 +558,13 @@ export default class App extends React.Component {
       <div
         style={{
           transform: `translateX(${
-            this.props.scrolling || this.props.top ? "40px" : "0px"
+            this.props.landedPresentation || this.props.top ? "40px" : "0px"
           })`,
           transition: `${
-            this.props.scrolling || this.props.top ? ".3" : ".7"
+            this.props.landedPresentation || this.props.top ? ".3" : ".7"
           }s ease-in-out`,
           color:
-            this.props.scrolling || this.props.top
+            this.props.landedPresentation || this.props.top
               ? "rgb(135,170,205)"
               : "rgb(60,70,85)",
           display: "block",
@@ -13880,3 +13880,4 @@ export default class App extends React.Component {
     );
   }
 }
+
