@@ -492,7 +492,6 @@ export default class App extends React.Component {
     const tweetsStyle = {
       padding: "20px",
 
-      
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
@@ -906,7 +905,12 @@ export default class App extends React.Component {
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159232050439712&width=300&show_text=true&height=444&appId"
           width="300"
           height="444"
-          style={{ backgroundColor: "#3b5998", border: "none", width: "480px" }}
+          style={{
+            overflow: "hidden",
+            backgroundColor: "#3b5998",
+            border: "none",
+            width: "480px"
+          }}
         ></iframe>
         "Maryland Comptroller Peter Franchot is calling for an independent,
         bipartisan commission to audit state and federal dollars spent on
@@ -1789,7 +1793,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -2228,7 +2231,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -3609,7 +3611,6 @@ export default class App extends React.Component {
           <span
             ref={this.newsy}
             style={{
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightNewsy ? "white" : "grey",
@@ -3644,7 +3645,12 @@ export default class App extends React.Component {
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimorebizjournal%2Fposts%2F10164993696840716&width=300&show_text=true&height=444&appId"
             width="300"
             height="444"
-            style={{ border: "none", overflow: "hidden", width: "480px" }}
+            style={{
+              backgroundColor: "#3b5998",
+              border: "none",
+              overflow: "hidden",
+              width: "480px"
+            }}
           ></iframe>{" "}
           <br />
           Does no one at the Baltimore business journal understand that prices
@@ -3832,7 +3838,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -3867,7 +3872,7 @@ export default class App extends React.Component {
             ref={this.financeKills}
             style={{
               display: "block",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightFinanceKills ? "white" : "grey",
@@ -4210,7 +4215,7 @@ export default class App extends React.Component {
               ref={this.covidKills}
               style={{
                 display: "block",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightCovidKills ? "white" : "grey",
@@ -4267,7 +4272,6 @@ export default class App extends React.Component {
             style={{
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4360,7 +4364,6 @@ export default class App extends React.Component {
           <div
             ref={this.collective}
             style={{
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightCollective ? "white" : "grey",
@@ -4643,7 +4646,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4751,7 +4753,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -4965,7 +4966,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5013,92 +5013,23 @@ export default class App extends React.Component {
             for{" "}
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
           </div>
-          <div
-            style={{
-              height: "min-content",
-              width: "100%",
-              display: "flex"
-            }}
-          >
-            <div
-              style={{
-                border: "3px solid blue",
-                borderRadius: "10px",
-
-                height: "min-content",
-                width: "calc(50% - 20px)",
-                position: "relative"
-              }}
-            >
-              <img
-                style={{
-                  width: "calc(100% - 26px)",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
-                alt="ETF lending/stealing fraud for financial ends"
-              />
-            </div>
-            <div
-              style={{
-                border: "3px solid blue",
-                borderRadius: "10px",
-
-                height: "min-content",
-                width: "calc(50% - 20px)",
-                position: "relative"
-              }}
-            >
-              <img
-                style={{
-                  width: "calc(100% - 26px)",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
-                alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
-              />
-            </div>
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-              //fontWeight: "bolder",
-              //textDecoration: "underline"
-            }}
-          >
-            Doubt about Racketeering
-            <br />
-            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
-            <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
-              organ-harvest/culture
-            </a>
-            <iframe
-              title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
-              src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
-            ></iframe>
-            <br />
-            that's like dollar beer or vampirism, guiding your punches
-            <br />
-            we can battle with any non-manmade virus{" "}
-            <i
-              style={{
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder"
-              }}
-            >
-              I am sure
-            </i>
-          </i>
         </div>
         <div ref={this.INSURANCEFRAUD}>
+          Insurance is market-intervention akin to colonialism and therefore
+          involuntary by duress, the funding for government insurance is
+          untreated in the same contract law as corporate shares. We buy-in due
+          to duress. It is not a business, they do not produce anything. If they
+          want to broker, they can try to sell non-expiring gift-certificates to
+          individuals without cross-party risk, or set up a classified ads site.
+          Otherwise, they are thieves. Please, mind your business and look up
+          price-elasticity, you affectuate no change except abetting usurped
+          dollar promises in invoices and pooling risk and raising price to
+          insurmountable levels as an individual.
           <div
             ref={this.insurance}
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightPrisonersDuress ? "white" : "grey",
@@ -5205,7 +5136,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5240,7 +5170,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5303,7 +5232,7 @@ export default class App extends React.Component {
               wordBreak: "break-word",
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5622,7 +5551,6 @@ export default class App extends React.Component {
           <span
             ref={this.singleSourceOfTruth}
             style={{
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightSingleSource ? "white" : "grey",
@@ -5735,7 +5663,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -5873,7 +5800,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -6019,7 +5945,7 @@ export default class App extends React.Component {
 
                 flexDirection: "column",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6288,7 +6214,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -6362,7 +6287,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6515,6 +6439,7 @@ export default class App extends React.Component {
                 width="300"
                 height="444"
                 style={{
+                  backgroundColor: "#3b5998",
                   border: "none",
                   overflow: "hidden",
                   width: "480px"
@@ -6544,7 +6469,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6605,7 +6529,6 @@ export default class App extends React.Component {
                   fontFamily: '"Hi Melody", sans-serif',
                   color: "grey",
 
-                  
                   width: "calc(100% - 20px)",
                   maxWidth: "600px"
                 }}
@@ -6796,7 +6719,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6818,7 +6740,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -6917,7 +6838,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -6964,7 +6884,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7040,7 +6959,7 @@ export default class App extends React.Component {
                 justifyContent: "center",
                 flexWrap: "wrap",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -7133,7 +7052,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7166,7 +7085,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightOooreily ? "white" : "grey",
@@ -7378,7 +7297,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7421,7 +7340,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7449,7 +7368,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7477,7 +7396,6 @@ export default class App extends React.Component {
             <span
               ref={this.grandmaMentality}
               style={{
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightGrandmaMentality ? "white" : "grey",
@@ -7575,7 +7493,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7614,7 +7532,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7664,7 +7582,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7730,7 +7648,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7757,7 +7675,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7784,7 +7702,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7835,7 +7753,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7854,7 +7772,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -7903,7 +7821,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8100,7 +8018,7 @@ export default class App extends React.Component {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8154,7 +8072,7 @@ export default class App extends React.Component {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8180,7 +8098,6 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8257,7 +8174,7 @@ export default class App extends React.Component {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8461,7 +8378,6 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8645,7 +8561,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8655,7 +8570,12 @@ export default class App extends React.Component {
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
             ></iframe>
             <br />
             In grafts and [“viral”? ]vaccine “working hard to recognize the
@@ -8710,7 +8630,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8747,7 +8666,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8772,7 +8690,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8795,7 +8712,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8818,7 +8734,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -8828,7 +8743,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8848,7 +8762,6 @@ export default class App extends React.Component {
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 transition: ".3s ease-in",
@@ -8896,7 +8809,7 @@ export default class App extends React.Component {
 
                 flexDirection: "column",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -8911,7 +8824,7 @@ export default class App extends React.Component {
               style={{
                 flexDirection: "column",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px",
                 color: this.state.highlightTrust ? "white" : "grey",
@@ -8953,7 +8866,7 @@ export default class App extends React.Component {
 
                 flexDirection: "column",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -9009,7 +8922,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9059,7 +8972,7 @@ export default class App extends React.Component {
                 justifyContent: "center",
                 flexWrap: "wrap",
                 alignItems: "center",
-                
+
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -9145,7 +9058,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9167,7 +9080,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9236,7 +9148,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9265,7 +9176,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9293,7 +9203,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9344,7 +9253,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightVarney ? "white" : "grey",
@@ -9419,12 +9327,12 @@ export default class App extends React.Component {
               the crime the harms the prosciutto
             </span>
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9435,24 +9343,13 @@ export default class App extends React.Component {
             <a href="https://wavv.art/forumVdJokbkLJWv5LF37ARmq">
               wavv.art/forumVdJokbkLJWv5LF37ARmq
             </a>
-            <br />
-            Insurance is market-intervention akin to colonialism and therefore
-            involuntary by duress, the funding for government insurance is
-            untreated in the same contract law as corporate shares. We buy-in
-            due to duress. It is not a business, they do not produce anything.
-            If they want to broker, they can try to sell non-expiring
-            gift-certificates to individuals without cross-party risk, or set up
-            a classified ads site. Otherwise, they are thieves. Please, mind
-            your business and look up price-elasticity, you affectuate no change
-            except abetting usurped dollar promises in invoices and pooling risk
-            and raising price to insurmountable levels as an individual.
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9486,12 +9383,12 @@ export default class App extends React.Component {
             for the unconvicted & an intranet for the convicted, both accessed
             by state-issued govId (or source-able phone number)
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9554,7 +9451,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9564,7 +9460,12 @@ export default class App extends React.Component {
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNJ.com%2Fposts%2F10158544839661234&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
             ></iframe>
           </div>
           <div
@@ -9572,7 +9473,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9584,7 +9484,6 @@ export default class App extends React.Component {
               fontWeight: "normal",
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9741,7 +9640,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9778,7 +9676,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9803,7 +9700,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9854,7 +9750,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9868,7 +9763,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -9885,7 +9779,12 @@ export default class App extends React.Component {
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGOODHQ%2Fposts%2F10157982552613059&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
             ></iframe>
             <br />
             <span
@@ -9967,7 +9866,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10031,7 +9929,7 @@ export default class App extends React.Component {
               backgroundColor: this.state.highlightExperts
                 ? "rgb(170,100,205)"
                 : "",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10071,7 +9969,7 @@ export default class App extends React.Component {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -10098,6 +9996,77 @@ export default class App extends React.Component {
           </div>
         </div>
         <div ref={this.SECURITIESFRAUD}>
+          <div
+            style={{
+              height: "min-content",
+              width: "100%",
+              display: "flex"
+            }}
+          >
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+
+                height: "min-content",
+                width: "calc(50% - 20px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
+                alt="ETF lending/stealing fraud for financial ends"
+              />
+            </div>
+            <div
+              style={{
+                border: "3px solid blue",
+                borderRadius: "10px",
+
+                height: "min-content",
+                width: "calc(50% - 20px)",
+                position: "relative"
+              }}
+            >
+              <img
+                style={{
+                  width: "calc(100% - 26px)",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
+                alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
+              />
+            </div>
+          </div>
+          <span>
+            Doubt about Racketeering
+            <br />
+            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
+            <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
+              organ-harvest/culture
+            </a>
+            <iframe
+              title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+              src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
+            ></iframe>
+            <br />
+            that's like dollar beer or vampirism, guiding your punches
+            <br />
+            we can battle with any non-manmade virus{" "}
+            <i
+              style={{
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics",
+                fontWeight: "bolder"
+              }}
+            >
+              I am sure
+            </i>
+          </span>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10123,7 +10092,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10148,7 +10116,6 @@ export default class App extends React.Component {
           <i
             ref={this.homebuilder}
             style={{
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -10198,7 +10165,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10208,7 +10174,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -10246,7 +10211,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10532,7 +10496,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10543,7 +10506,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10555,7 +10517,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightDrugs ? "white" : "grey",
@@ -10594,7 +10555,7 @@ export default class App extends React.Component {
 
               flexDirection: "column",
               alignItems: "center",
-              
+
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               transition: ".3s ease-in",
@@ -10704,7 +10665,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10783,7 +10743,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10813,7 +10772,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10853,7 +10811,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10875,7 +10832,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10897,7 +10853,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10921,7 +10876,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -10967,7 +10921,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11030,7 +10983,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               color: this.state.highlightJan2018 ? "white" : "grey",
@@ -11054,7 +11006,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11075,7 +11026,12 @@ export default class App extends React.Component {
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159175313274712&width=300&show_text=true&height=444&appId"
             width="300"
             height="444"
-            style={{ border: "none", overflow: "hidden", width: "480px" }}
+            style={{
+              backgroundColor: "#3b5998",
+              border: "none",
+              overflow: "hidden",
+              width: "480px"
+            }}
           ></iframe>
           <br />
           <div
@@ -11083,7 +11039,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11420,7 +11375,7 @@ export default class App extends React.Component {
             style={{
               wordBreak: "break-word",
               padding: this.state.why ? "20px" : "0px",
-              
+
               width: "calc(100% - 40px)",
               maxWidth: "600px",
               opacity: this.state.why ? "1" : "0",
@@ -11460,7 +11415,6 @@ export default class App extends React.Component {
               style={{
                 fontWeight: "normal",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -11705,7 +11659,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11715,7 +11668,12 @@ export default class App extends React.Component {
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
             ></iframe>
             <br />
             Authorities in Germany and Belgium seized more than 23,000 kilograms
@@ -11732,7 +11690,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
               transition: ".3s ease-in",
@@ -11760,7 +11717,12 @@ export default class App extends React.Component {
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
-              style={{ border: "none", overflow: "hidden", width: "480px" }}
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
             ></iframe>
             <br />
             "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
@@ -11773,7 +11735,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11834,7 +11795,6 @@ export default class App extends React.Component {
           <i
             ref={this.homebuilder}
             style={{
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -11891,7 +11851,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -11901,7 +11860,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -11950,7 +11908,6 @@ export default class App extends React.Component {
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
 
-                
                 width: "calc(100% - 20px)",
                 maxWidth: "600px"
               }}
@@ -11980,7 +11937,6 @@ export default class App extends React.Component {
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
@@ -12059,7 +12015,6 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
 
-              
               width: "calc(100% - 20px)",
               maxWidth: "600px",
 
@@ -12327,7 +12282,7 @@ export default class App extends React.Component {
             <div
               style={{
                 padding: "20px",
-                
+
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12448,7 +12403,6 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12480,7 +12434,6 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12547,7 +12500,6 @@ export default class App extends React.Component {
             style={{
               padding: "20px",
 
-              
               width: "100%",
               maxWidth: "600px"
             }}
@@ -12637,7 +12589,7 @@ export default class App extends React.Component {
             <div
               style={{
                 padding: "20px",
-                
+
                 width: "100%",
                 maxWidth: "600px"
               }}
@@ -12732,8 +12684,6 @@ export default class App extends React.Component {
             <div
               style={{
                 padding: "20px",
-
-                
 
                 width: "100%",
                 maxWidth: "600px"
@@ -12847,7 +12797,6 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                
                 width: "100%",
                 maxWidth: "600px",
                 transition: ".3s ease-in",
@@ -12927,7 +12876,6 @@ export default class App extends React.Component {
               style={{
                 padding: "20px",
 
-                
                 width: "100%",
                 maxWidth: "600px"
               }}
