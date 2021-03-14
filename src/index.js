@@ -657,7 +657,11 @@ class Index extends React.Component {
               rights - is a lie, if claiming it to be what people want - or
               deserve.{" "}
               <span style={{ color: "grey" }}>
-                Like my stuff? Hire me! 7322331085.  I am asking for 4100% of what you think is possible
+                Like my stuff? Hire me! 7322331085. I am asking for 4100% of
+                what you think is possible. Please collude with Twitter, CNN &
+                AP to gaslight people into thinking they want to fulfill my
+                wishes for myself by splitting their equity, try not to let them
+                on to what is happening
               </span>
             </div>
           </div>
