@@ -544,6 +544,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
+        <br/>
+        <br/>*/}
         The right says fiscal responsibility for the government but not the
         corporates. Michelle Malkin, Sovereign Nation, what the fuck does blm &
         "vaccines"/grafts have to do with police
@@ -635,7 +638,8 @@ export default class App extends React.Component {
             alt="achilles heel in forcing credit gouging and counterfeit in American merchant services"
             src="https://www.dl.dropboxusercontent.com/s/00nklkuxtq5t3cv/achillesHell.jpeg?dl=0"
           />
-        </div>{" "}
+        </div>
+        &nbsp;
         <br />
         <br />
         If you borrow money, you do not have to pay it back. If you do, over a
@@ -973,7 +977,8 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/g8h1b4r7oukodl9/IMG_3399.png?dl=0"
             />
-          </div>{" "}
+          </div>
+          &nbsp;
           <div
             style={{
               width: "50%",
@@ -1588,7 +1593,8 @@ export default class App extends React.Component {
           }}
         >
           Selling Out the Community
-        </span>{" "}
+        </span>
+        &nbsp;
         <br />
         <div
           style={{
@@ -1947,7 +1953,8 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/ai5cfuhzjdycc75/FloatEconomy.jpg?dl=0"
             />
-          </div>{" "}
+          </div>
+          &nbsp;
           <br />
           To steal for people who lost their jobs is doubly not fair
           <br />
@@ -2024,7 +2031,8 @@ export default class App extends React.Component {
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/p0nqouh4shcndwp/Screen%20Shot%202021-03-09%20at%204.54.54%20PM.png?dl=0"
               />
-            </div>{" "}
+            </div>
+            &nbsp;
             <div
               style={{
                 width: "100%",
@@ -2291,8 +2299,9 @@ export default class App extends React.Component {
           if capitalism is without trading&nbsp;
           <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
             human labor, or their future income
-          </a>{" "}
-          as fungible with assets/equity apprised as counterfeit, it is&nbsp;
+          </a>
+          &nbsp; as fungible with assets/equity apprised as counterfeit, it
+          is&nbsp;
           <span
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -2328,7 +2337,7 @@ export default class App extends React.Component {
               this.employmentOfOne.current.scrollIntoView("smooth")
             }
           >
-            unemployment (#AmericanRescuePlan Fraud){" "}
+            unemployment (#AmericanRescuePlan Fraud)&nbsp;
           </span>
           , states are urging the federal government to steal equity from their
           citizens to provide work training programs
@@ -2428,7 +2437,8 @@ export default class App extends React.Component {
               &nbsp;[the numbers is too complicated for people to understand]"
               CNN explains to people
             </div>
-          </div>{" "}
+          </div>
+          &nbsp;
           <br />
           There is no permenence in law Bill O'reilly you&nbsp;
           <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
@@ -2568,7 +2578,8 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/bgzlmx15ozereze/Screen%20Shot%202021-03-08%20at%2010.52.36%20AM.png?dl=0"
             />
-          </a>{" "}
+          </a>
+          &nbsp;
           <br />
           <br />
           tax if there is an immutable free-rider customer, otherwise it is
@@ -2593,8 +2604,8 @@ export default class App extends React.Component {
           but that circumstance can never happen i.e.&nbsp;
           <span style={{ color: "rgb(180,140,40)" }}>
             you can never have happen an impossible circumstance, by definition,
-          </span>{" "}
-          - and under duress to compete-on-demand with other impossible
+          </span>
+          &nbsp; - and under duress to compete-on-demand with other impossible
           counterfeit bids-by-promise to which renumeration is due for affected
           third-parties i.e. borrowers' customers'&nbsp;
           <span style={{ color: "blue" }}>
@@ -2945,10 +2956,8 @@ export default class App extends React.Component {
           <br />
           <br />
           CNN soliciting listeners that, "government-backed loans is the only
-          option to keep the&nbsp;<a href="https://magnate.company">
-            lights
-          </a>{" "}
-          on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
+          option to keep the&nbsp;<a href="https://magnate.company">lights</a>
+          &nbsp; on,"&nbsp;<a href="https://vaults.biz">that is false</a>.
           <br />
           If you cannot pay, and they&nbsp;
           <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
@@ -3111,7 +3120,7 @@ export default class App extends React.Component {
             >
               monopsonies-infiltrating-insurance
             </span>
-            , or (2) resolves into no promises/only{" "}
+            , or (2) resolves into no promises/only&nbsp;
             <a href="https://vaults.biz">profit-schedule</a>.
           </span>
           <br />
@@ -3137,7 +3146,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -3153,7 +3162,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -3169,7 +3178,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -3185,7 +3194,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -3219,7 +3228,7 @@ export default class App extends React.Component {
           </span>
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3429,7 +3438,7 @@ export default class App extends React.Component {
           </span>
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3463,7 +3472,7 @@ export default class App extends React.Component {
           They are the same party pertaining to outstanding bills instead of
           civil rights
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3506,7 +3515,7 @@ export default class App extends React.Component {
           </i>
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3602,7 +3611,7 @@ export default class App extends React.Component {
           &nbsp;case
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3627,7 +3636,7 @@ export default class App extends React.Component {
             “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
             &nbsp;claims it is not opinion the virus will spread without&nbsp;
             <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
-            must do it to not be forced to{" "}
+            must do it to not be forced to&nbsp;
             <a href="https://moldmask.co">mask</a>
             ]... If you want the facts: it only does spreads if you have
             symptoms or don't your wash hands/face.
@@ -3656,11 +3665,12 @@ export default class App extends React.Component {
               overflow: "hidden",
               width: "480px"
             }}
-          ></iframe>{" "}
+          ></iframe>
+          &nbsp;
           <br />
           Does no one at the Baltimore business journal understand that prices
           are elastic for the same utility... if you did you’d know that this
-          doesn’t help... only{" "}
+          doesn’t help... only&nbsp;
           <a href="https://www.investopedia.com/terms/a/ask.asp">
             one side of the market, the ask.
           </a>
@@ -3672,7 +3682,7 @@ export default class App extends React.Component {
           credit instead of defaulting (and banning it)
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3729,7 +3739,7 @@ export default class App extends React.Component {
             U.S.A.
           </a>
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3828,7 +3838,7 @@ export default class App extends React.Component {
             ,
           </i>
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3851,7 +3861,7 @@ export default class App extends React.Component {
             party will
           </div>
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3867,7 +3877,7 @@ export default class App extends React.Component {
           <br />
           <br />
           If you didn't interfere and adjunicate in favor of invoices, people
-          would be{" "}
+          would be&nbsp;
           <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">
             able to afford heart surgery, bookie
           </a>
@@ -3936,7 +3946,7 @@ export default class App extends React.Component {
           </span>
           &nbsp;he exclaims.
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3966,7 +3976,7 @@ export default class App extends React.Component {
           backed by itself and having revolving doors of employment with its
           "unbiased" ratings agencies
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -3981,7 +3991,7 @@ export default class App extends React.Component {
           are whole markets, ...moldmask Patty Murray
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -4011,7 +4021,7 @@ export default class App extends React.Component {
             </a>
           </i>
           <br />
-          <i>Many do essential work</i>, but are not{" "}
+          <i>Many do essential work</i>, but are not&nbsp;
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -4033,7 +4043,7 @@ export default class App extends React.Component {
             paid a living wage
           </i>
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -4053,7 +4063,8 @@ export default class App extends React.Component {
           -But we would get the exact same world without it, at lower prices
           <br />
           -"Protect Pensions [like a loanshark]," Bernieeeeeee
-          <br />{" "}
+          <br />
+          &nbsp;
           <span
             style={{
               fontWeight: "bolder",
@@ -4080,7 +4091,7 @@ export default class App extends React.Component {
           <br />
           "[Pubs], throw people off medicare, [we can] provide [steal], this to
           them who need it [because their invoices instead of banning invoices
-          for prohibiting settlement/price-inelasticity]," says{" "}
+          for prohibiting settlement/price-inelasticity]," says&nbsp;
           <a href="https://berniesanders.com/">B.S.</a>
           <br />
           It will "help low-income find work" (Against Amendment 14)
@@ -4088,7 +4099,7 @@ export default class App extends React.Component {
           Classified Ads sites do that
           <br />
           <div style={{ position: "relative" }}>
-            {" "}
+            &nbsp;
             <img
               alt=""
               style={{
@@ -4110,8 +4121,9 @@ export default class App extends React.Component {
               href="https://www.schumer.senate.gov/"
             >
               Chuck Schhumer - If you want child support
-            </a>{" "}
-            as cited reason for unemployment insurance, then give the&nbsp;
+            </a>
+            &nbsp; as cited reason for unemployment insurance, then give
+            the&nbsp;
             <a
               style={{
                 color: "rgb(178, 90, 197)",
@@ -4180,7 +4192,7 @@ export default class App extends React.Component {
             congressperson that votes yes
             <br />
             <div style={{ position: "relative" }}>
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -4262,7 +4274,7 @@ export default class App extends React.Component {
             "133% of poverty line," poverty line is made up by surveys you
             fucking bitch
             <div style={{ position: "relative" }}>
-              {" "}
+              &nbsp;
               <img
                 alt=""
                 style={{
@@ -4272,7 +4284,8 @@ export default class App extends React.Component {
                 src="https://www.dl.dropboxusercontent.com/s/8t841arm5api2sr/PovertyLine.jpeg?dl=0"
               />
             </div>
-          </div>{" "}
+          </div>
+          &nbsp;
           <div
             style={{
               color: "grey",
@@ -4365,7 +4378,8 @@ export default class App extends React.Component {
               }}
               src="https://www.dl.dropboxusercontent.com/s/x0qf9o5qpe7eq5f/Ignore.jpeg?dl=0"
             />
-          </div>{" "}
+          </div>
+          &nbsp;
           <div
             ref={this.collective}
             style={{
@@ -4485,7 +4499,8 @@ export default class App extends React.Component {
               failure to so reduce the credit shall be 11 treated as arising out
               of a mathematical or clerical 12 error and assessed according to
               section 6213(b)(1).
-            </span>{" "}
+            </span>
+            &nbsp;
             <br />
             <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
@@ -4779,8 +4794,8 @@ export default class App extends React.Component {
               }}
             >
               nonprofits
-            </span>{" "}
-            (29-year old polish-Italian American male)
+            </span>
+            &nbsp; (29-year old polish-Italian American male)
             <br />
             <br />
             minority depository institution illegal, depositary
@@ -4832,7 +4847,8 @@ export default class App extends React.Component {
             threshold-burdened-processes devoid of equal help of law).
             <br />
             dependency eligibility sustains inequality
-          </div>{" "}
+          </div>
+          &nbsp;
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -4998,7 +5014,7 @@ export default class App extends React.Component {
             PAY FOR IT YOURSELF. As I like to say about a good economy is that
             you can dishwash yourself a house, as a bookkeeper for a
             homebuilding company with family mortgage and experience
-            dishwashing/serving{" "}
+            dishwashing/serving&nbsp;
             <a
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
@@ -5013,9 +5029,10 @@ export default class App extends React.Component {
               href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
             >
               Cornering
-            </a>{" "}
-            the <a href="http://vaults.biz">Labor Market (not-counterfeit)</a>{" "}
-            for{" "}
+            </a>
+            &nbsp; the{" "}
+            <a href="http://vaults.biz">Labor Market (not-counterfeit)</a>&nbsp;
+            for&nbsp;
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
           </div>
         </div>
@@ -5221,7 +5238,7 @@ export default class App extends React.Component {
               />
             </div>
             <div style={{ width: "50%", position: "relative" }}>
-              {" "}
+              &nbsp;
               <img
                 style={{ width: "100%", height: "auto" }}
                 src="https://www.dl.dropboxusercontent.com/s/18ou3o8uozjym4g/VastusMedialis.jpeg?dl=0"
@@ -5327,7 +5344,7 @@ export default class App extends React.Component {
             contract and forced me into it by prisoners' dilemma-duress to pay
             the invoice and be subject to coagulated demand capacity of
             cross-party risk, gambling on life-events and matching the pool's
-            capacity instead of the{" "}
+            capacity instead of the&nbsp;
             <a href="https://micro-theory.com">
               individual marginal price-discretion
             </a>
@@ -5381,7 +5398,8 @@ export default class App extends React.Component {
           <br />
           transfer only happens when symptoms are there is the only proof you
           have to exclude not based on anything but public health
-          <br />{" "}
+          <br />
+          &nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -5410,7 +5428,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 style={{
                   width: "100%",
@@ -5428,7 +5446,7 @@ export default class App extends React.Component {
                 position: "relative"
               }}
             >
-              {" "}
+              &nbsp;
               <img
                 style={{
                   width: "100%",
@@ -5450,7 +5468,7 @@ export default class App extends React.Component {
           this is harm to others unrequited
           <br />
           <br />
-          Herd immunity is so stupid. Why rush{" "}
+          Herd immunity is so stupid. Why rush&nbsp;
           <a href="https://froth.app">death</a>&nbsp;
           <a href="https://humanharvest.info">humanharvest.info</a>&nbsp;
           <a href="https://moldmask.co">moldmask.co</a>
@@ -5662,547 +5680,506 @@ export default class App extends React.Component {
           be the same as making your own
           <br />
           <br />
+          adverse long-term side effects to vaccines are extroadinarily rare,
+          like covid morbidity or death.
+          <br />
+          no proof asymptomatic, pre-gestation in host are contageous
+          <br />
           <div
+            ref={this.nextspittle}
             style={{
-              wordBreak: "break-word",
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
 
+              border: this.state.highlightSpittleNext
+                ? "1px blue solid"
+                : "1px grey dotted",
               width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              maxWidth: "600px",
+              transition: ".3s ease-in"
             }}
           >
-            adverse long-term side effects to vaccines are extroadinarily rare,
-            like covid morbidity or death.
-            <br />
-            no proof asymptomatic, pre-gestation in host are contageous
-            <br />
-            <div
-              ref={this.nextspittle}
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                border: this.state.highlightSpittleNext
-                  ? "1px blue solid"
-                  : "1px grey dotted",
-                width: "calc(100% - 20px)",
-                maxWidth: "600px",
-                transition: ".3s ease-in"
-              }}
-            >
-              Vaccines/grafts do not protect others because you can exclude
-              symptomatic but have no evidence for asymptomatic & gestation is
-              required to be contageous
-            </div>
-            <br />
-            <a href="https://wavv.art/forumVzdEpAkIklybHUWXHGq5">
-              wavv.art/forumVzdEpAkIklybHUWXHGq5
-            </a>
-            <br />
-            heat rises, weight fall/electrons pull. No proof spittle floats in
-            the middle and that goes against planetary science/weather systems
-            and physics. Here is 0/10 transmission by being in room without mask
-            &nbsp;
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
-            >
-              https://pubmed.ncbi.nlm.nih.gov/17542834/
-            </a>
-            , and politifact consultants say covid requires spittle to transmit
-            &nbsp;
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8"
-            >
-              https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8
-            </a>
-            , which makes sense to Brownian motion only capable by oxygen or the
-            like-sized particles &nbsp;
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk"
-            >
-              https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk
-            </a>
-            &nbsp;
-            <br />
-            Also I think mold allows virus to survive before infection in a mask
-            and prolonging the pandemic &nbsp;
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
-            >
-              https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms.
-            </a>{" "}
-            You can really only certify but not bar unless there is prove-able
-            harm or it is prohibitive to not do it. <br />
-            <br />
-            In this case, neither is harm proven with evidence that spittle from
-            talking floats, nor is it prohibitive for people who don’t want to
-            be around people wearing masks. Their preference for others is more
-            onerous than people who prefer sneezing into their elbow. Masks are
-            as reckless as NIH & Fauci getting paid dollar split to experiment
-            with virus in anti-human rights China{" "}
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
-              https://pubmed.ncbi.nlm.nih.gov/17542834/
-            </a>
-            <span
-              ref={this.spittle}
-              style={{
-                position: "relative",
-
-                transition: ".3s ease-in",
-
-                color: this.state.highlightSpittle ? "white" : "",
-                backgroundColor: this.state.highlightSpittle
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              catching a sneeze in an elbow is an emergency measure if you
-              cannot grab a tissue, but I wouldn’t advice sneezing in a mask;
-              the droplet might have to be exactly room temperature and smaller
-              than spittle to float anyway. I’ve spent quite a bit of time
-              checking sources of evidence that aren’t correlations and it shows
-              spittle/breathe &nbsp;
-              <span
-                onClick={() => {
-                  this.nextspittle.current.scrollIntoView("smooth");
-                  this.setState({ highlightSpittleNext: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightSpittleNext: false }),
-                    10000
-                  );
-                }}
-                ref={this.brookings}
-              >
-                falls/rises within 1ft
-              </span>
-              <br />
-              vaccine efficacy cannot be judged by putting people in a room
-              because that would be proof again that spittle doesn't transmit
-            </span>
+            Vaccines/grafts do not protect others because you can exclude
+            symptomatic but have no evidence for asymptomatic & gestation is
+            required to be contageous
           </div>
-          <div
+          <br />
+          <a href="https://wavv.art/forumVzdEpAkIklybHUWXHGq5">
+            wavv.art/forumVzdEpAkIklybHUWXHGq5
+          </a>
+          <br />
+          heat rises, weight fall/electrons pull. No proof spittle floats in the
+          middle and that goes against planetary science/weather systems and
+          physics. Here is 0/10 transmission by being in room without mask
+          &nbsp;
+          <a
             style={{
-              wordBreak: "break-word",
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+          >
+            https://pubmed.ncbi.nlm.nih.gov/17542834/
+          </a>
+          , and politifact consultants say covid requires spittle to transmit
+          &nbsp;
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8"
+          >
+            https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/?fbclid=IwAR1kttzecnYeseGezoHO6mUHtWh5eXIkhSW52xcrttVCoWMCvYEByZ8JhC8
+          </a>
+          , which makes sense to Brownian motion only capable by oxygen or the
+          like-sized particles &nbsp;
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk"
+          >
+            https://www.stingraypartswasher.com/filtration-relative-particle-sizes-in-microns.html?fbclid=IwAR2RCjRc6o0N80E2XJqCbaGHYupC7agJ5RGcR571KsuJ6c2Uaz9jsYr6hVk
+          </a>
+          &nbsp;
+          <br />
+          Also I think mold allows virus to survive before infection in a mask
+          and prolonging the pandemic &nbsp;
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms."
+          >
+            https://irp.nih.gov/blog/post/2020/09/mold-exposure-sets-stage-for-severe-flu#:~:text=New%20IRP%20research%20has%20found,dramatically%20increasing%20the%20illness's%20severity.&text=In%20order%20to%20reproduce%2C%20the,by%20humans%20and%20other%20organisms.
+          </a>
+          &nbsp; You can really only certify but not bar unless there is
+          prove-able harm or it is prohibitive to not do it. <br />
+          <br />
+          In this case, neither is harm proven with evidence that spittle from
+          talking floats, nor is it prohibitive for people who don’t want to be
+          around people wearing masks. Their preference for others is more
+          onerous than people who prefer sneezing into their elbow. Masks are as
+          reckless as NIH & Fauci getting paid dollar split to experiment with
+          virus in anti-human rights China&nbsp;
+          <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            https://pubmed.ncbi.nlm.nih.gov/17542834/
+          </a>
+          <br />
+          <br />
+          <span
+            ref={this.spittle}
+            style={{
+              position: "relative",
 
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              transition: ".3s ease-in",
+
+              color: this.state.highlightSpittle ? "white" : "",
+              backgroundColor: this.state.highlightSpittle
+                ? "rgb(170,100,205)"
+                : ""
             }}
           >
-            condensation rises
-            <br />
-            <a href="https://froth.app">Population</a>{" "}
-            <a href="https://macrotrends.net/countries/USA/united-states/death-rate">
-              stats
-            </a>{" "}
-            have been delayed for 1.5 months now to keep the big lie going
-            <br />
-            Shouldn’t we be worried about dependence too? This is all happening
-            so fast, except total population stats are delayed 1.5 months so
-            far.., so that isn’t fast
-            <br />
-            <br />
-            David Wildstein is so stupid has a "conservative" on his show saying
-            we have to pay back debt, how? it is 13:1 debt:cash. You are so
-            stupid. This would be illegal by precedence not just technically if
-            the dollar was considered{" "}
+            catching a sneeze in an elbow is an emergency measure if you cannot
+            grab a tissue, but I wouldn’t advice sneezing in a mask; the droplet
+            might have to be exactly room temperature and smaller than spittle
+            to float anyway. I’ve spent quite a bit of time checking sources of
+            evidence that aren’t correlations and it shows spittle/breathe
+            &nbsp;
             <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.foreignpolicy.current.scrollIntoView("smooth");
-                this.setState({ highlightFP: true });
+                this.nextspittle.current.scrollIntoView("smooth");
+                this.setState({ highlightSpittleNext: true });
 
                 clearTimeout(this.highlighting);
                 this.highlighting = setTimeout(
-                  () => this.setState({ highlightFP: false }),
+                  () => this.setState({ highlightSpittleNext: false }),
                   10000
                 );
               }}
+              ref={this.brookings}
             >
-              market-share
-            </span>{" "}
-            of an organization like I do
-            <br />
-            <br />
-            <span
-              ref={this.sanjay}
-              style={{
-                color: this.state.highlightSanjay ? "white" : "",
-                backgroundColor: this.state.highlightSanjay
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              Isn’t it dangerous for Sanjay Gupta to mislead people saying it is
-              remarkable that it was done when it was only skipped testing?
-              That’s not remarkable in a good way or a recent triumph of medical
-              science as he portrays. B-cells are fragile
+              falls/rises within 1ft
             </span>
             <br />
             <br />
-            "May be safer for&nbsp;
-            <a href="https://humanharvest.info">vaccinated</a>&nbsp;people to
-            travel," says Sanjay in March 2021, after prescribing&nbsp;
-            <a href="https://moldmask.co">masks</a>
-            <br />
-            You have no proof that asymptomatic people have anything other than
-            the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.cold.current.scrollIntoView("smooth");
-                this.setState({ highlightCold: true });
+            vaccine efficacy cannot be judged by putting people in a room
+            because that would be proof again that spittle doesn't transmit
+          </span>
+          condensation rises
+          <br />
+          <a href="https://froth.app">Population</a>&nbsp;
+          <a href="https://macrotrends.net/countries/USA/united-states/death-rate">
+            stats
+          </a>
+          &nbsp; have been delayed for 1.5 months now to keep the big lie going
+          <br />
+          <br />
+          Shouldn’t we be worried about dependence too? This is all happening so
+          fast, except total population stats are delayed 1.5 months so far..,
+          so that isn’t fast
+          <br />
+          <br />
+          David Wildstein is so stupid has a "conservative" on his show saying
+          we have to pay back debt, how? it is 13:1 debt:cash. You are so
+          stupid. This would be illegal by precedence not just technically if
+          the dollar was considered&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.foreignpolicy.current.scrollIntoView("smooth");
+              this.setState({ highlightFP: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightCold: false }),
-                  10000
-                );
-              }}
-            >
-              cold
-            </span>
-            &nbsp;using polymerase chain reaction, the alleged "gold standard."
-            Gross negligence to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.marx.current.scrollIntoView("smooth");
-                this.setState({ highlightMarx: true });
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFP: false }),
+                10000
+              );
+            }}
+          >
+            market-share
+          </span>
+          &nbsp; of an organization like I do
+          <br />
+          <br />
+          <span
+            ref={this.sanjay}
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightSanjay ? "white" : "",
+              backgroundColor: this.state.highlightSanjay
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Isn’t it dangerous for Sanjay Gupta to mislead people saying it is
+            remarkable that it was done when it was only skipped testing? That’s
+            not remarkable in a good way or a recent triumph of medical science
+            as he portrays. B-cells are fragile
+          </span>
+          <br />
+          <br />
+          "May be safer for&nbsp;
+          <a href="https://humanharvest.info">vaccinated</a>&nbsp;people to
+          travel," says Sanjay in March 2021, after prescribing&nbsp;
+          <a href="https://moldmask.co">masks</a>
+          <br />
+          You have no proof that asymptomatic people have anything other than
+          the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightMarx: false }),
-                  10000
-                );
-              }}
-            >
-              physics of epidemiology
-            </span>
-            <br />
-            <br />
-            your B-cells do it right away... it is a trade-off between the 0-9mo
-            smell morbidity/dying and{" "}
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCold: false }),
+                10000
+              );
+            }}
+          >
+            cold
+          </span>
+          &nbsp;using polymerase chain reaction, the alleged "gold standard."
+          Gross negligence to&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.marx.current.scrollIntoView("smooth");
+              this.setState({ highlightMarx: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightMarx: false }),
+                10000
+              );
+            }}
+          >
+            physics of epidemiology
+          </span>
+          <br />
+          <br />
+          your B-cells do it right away... it is a trade-off between the 0-9mo
+          smell morbidity/dying and&nbsp;
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://www.immunology.org/public-information/bitesized-immunology/immune-dysfunction/b-cell-mediated-disease"
+          >
+            B-cell
+          </a>
+          &nbsp; oncogenesis/dying, I’m sure both are equally as likely..., but
+          I like natural things. Takes some time for an infected person to
+          gestate and become contagious + politifact says it requires spittle to
+          travel which has been proven not to float&nbsp;
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+          >
+            https://pubmed.ncbi.nlm.nih.gov/17542834/
+          </a>
+          &nbsp; so it is an&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.setState({ highlightTravellingIndividuals: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTravellingIndividuals: false }),
+                10000
+              );
+            }}
+          >
+            individual
+          </span>
+          &nbsp;decision.
+          <br />
+          <br />
+          Sanjay Gupta says 85% effectivness in all vaccines/mRNA 2-3 weeks
+          after, which is not surprising because that is how long it takes to
+          make my own&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.host.current.scrollIntoView("smooth");
+              this.setState({ highlightHost: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightHost: false }),
+                10000
+              );
+            }}
+          >
+            as well
+          </span>
+          <br />
+          <a
+            style={{
+              border: "1px solid",
+              color: "grey"
+            }}
+            href="https://wavv.art/forummN2OxZAJO3IEXZVNEPX3"
+          >
+            wavv.art/forummN2OxZAJO3IEXZVNEPX3
+          </a>
+          <br />
+          Sanjay says he is amazed we could make 3 "vaccines" (grafts) that
+          quickly, does he mean in its public health approval? Because it is not
+          breaking (1-2 years) medical tech
+          <br />
+          <br />
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.host.current.scrollIntoView("smooth");
+              this.setState({ highlightHost: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightHost: false }),
+                10000
+              );
+            }}
+          >
+            TAKE OFF YOUR MASK
+          </span>
+          <br />
+          doctors wouldn't misguide if US bonds weren't owned by genocidal
+          China, to which Biden says, "Xi gets it." Gets what?
+          <br />
+          CNN says "hesitancy" is something they must "get around," like
+          appropriate public health approval process undercut for the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bcell.current.scrollIntoView("smooth");
+              this.setState({ highlightBcell: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBcell: false }),
+                10000
+              );
+            }}
+          >
+            grafts
+          </span>
+          <br />
+          <span
+            ref={this.oldFluExclusion}
+            style={{
+              color: this.state.highlightOldFluExclusion ? "white" : "black",
+              backgroundColor: this.state.highlightOldFluExclusion
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+          >
+            The virus is just as deadly as the flu... even if you could force
+            people to&nbsp;
             <a
               style={{
                 border: "1px solid",
-                color: "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
-              href="https://www.immunology.org/public-information/bitesized-immunology/immune-dysfunction/b-cell-mediated-disease"
+              href="https://foiegras.life"
             >
-              B-cell
-            </a>{" "}
-            oncogenesis/dying, I’m sure both are equally as likely..., but I
-            like natural things. Takes some time for an infected person to
-            gestate and become contagious + politifact says it requires spittle
-            to travel which has been proven not to float{" "}
+              risk
+            </a>
+            &nbsp;
             <a
               style={{
                 border: "1px solid",
-                color: "grey"
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
               }}
-              href="https://pubmed.ncbi.nlm.nih.gov/17542834/"
+              href="https://moldmask.co"
             >
-              https://pubmed.ncbi.nlm.nih.gov/17542834/
-            </a>{" "}
-            so it is an&nbsp;
+              unforseen
+            </a>
+            &nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
+              }}
+              href="https://humanharvest.info"
+            >
+              side-effects
+            </a>
+            &nbsp;to not be a slave by free-riding exclusion in the economy
+            without visible symptoms/evidence.&nbsp;
+            <a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">
+              Running out
+            </a>
+            &nbsp;of&nbsp;
+            <a href="zippia.com/landlord-jobs/demographics/">old people</a>
+            <br />
+            <br />
+            <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
+              wavv.art/forumMqCyVEXOjfYPErd902Vp
+            </a>
+            <br />
+            given 2020 deaths are so abnormally low, but higher due to&nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
+              }}
+              href="https://www.prb.org/countries-with-the-oldest-populations/"
+            >
+              old-age population
+            </a>
+            &nbsp;(not the&nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
+              }}
+              href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
+            >
+              96%-similar
+            </a>
+            &nbsp;to&nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: this.state.highlightOldFluExclusion ? "white" : "grey"
+              }}
+              href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
+            >
+              Sars-Cov-1 virus
+            </a>
+            ), the other reason must be the fear instilled by Wolf Blitzer
+            and&nbsp;
             <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
               onClick={() => {
-                this.travellingIndividuals.current.scrollIntoView("smooth");
-                this.setState({ highlightTravellingIndividuals: true });
+                this.grandmaMentality.current.scrollIntoView("smooth");
+                this.setState({ highlightGrandmaMentality: true });
 
                 clearTimeout(this.highlighting);
                 this.highlighting = setTimeout(
-                  () =>
-                    this.setState({ highlightTravellingIndividuals: false }),
+                  () => this.setState({ highlightGrandmaMentality: false }),
                   10000
                 );
               }}
             >
-              individual
+              putting sick & old people together
             </span>
-            &nbsp;decision.
-            <div
+          </span>
+          <br />
+          <br />
+          Would like to see a chart of population of people above 90 but
+          the macrotrends.net/countries/USA/united-states/death-rate source is
+          not updated, 1.5 months later than advertised (yearly, UN) so I
+          imagine that isn’t either.
+          <br />
+          <br />
+          CNN also says there are only 22 experts, I must note that this is the
+          purported opinion of liars. You have a conflicted interest of experts
+          there,&nbsp;
+          <span
+            ref={this.congressVsCongress}
+            style={{
+              color: this.state.highlightCVC ? "white" : "black",
+              backgroundColor: this.state.highlightCVC
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+          >
+            I bet they would all vote to not bring bonds to half (for
+            stress/prohibit settlement) of cash:debt levels as well because they
+            want people to have cancer by interfering with their natural genesis
+            of antibodies so they don’t have to pay social security from their
+            already max-1:11 possible return on investment, while driving up the
+            bill for medical invoices more.
+            <br />
+            <br />
+            Why else would they be so reckless, without evidence and with such
+            high survival/no-morbidity? This is textbook communism/corporatism
+            for bonds and profit, not socialism. Socialism would reduce to
+            capitalism without promises/with payout schedules, capitalism with
+            promises/without payout schedules reduces into chaos/cross-party
+            risk:[foreclosure wave, prepaid && mixed
+            demand]/communism/corporatism evidently looking at the US/CNN unit,
+            misleading people to their deaths. I bet as many people will die
+            from rushed side-effects that would normally die from&nbsp;
+            <span
               style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
 
-                flexDirection: "column",
-                alignItems: "center",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightOldFluExclusion: false }),
+                  10000
+                );
               }}
             >
-              Sanjay Gupta says 85% effectivness in all vaccines/mRNA 2-3 weeks
-              after, which is not surprising because that is how long it takes
-              to make my own{" "}
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.host.current.scrollIntoView("smooth");
-                  this.setState({ highlightHost: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightHost: false }),
-                    10000
-                  );
-                }}
-              >
-                as well
-              </span>
-              <br />
-              <a
-                style={{
-                  border: "1px solid",
-                  color: "grey"
-                }}
-                href="https://wavv.art/forummN2OxZAJO3IEXZVNEPX3"
-              >
-                wavv.art/forummN2OxZAJO3IEXZVNEPX3
-              </a>
-              <br />
-              Sanjay says he is amazed we could make 3 "vaccines" (grafts) that
-              quickly, does he mean in its public health approval? Because it is
-              not breaking (1-2 years) medical tech
-              <br />
-              <br />
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.host.current.scrollIntoView("smooth");
-                  this.setState({ highlightHost: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightHost: false }),
-                    10000
-                  );
-                }}
-              >
-                TAKE OFF YOUR MASK
-              </span>
-              <br />
-              doctors wouldn't misguide if US bonds weren't owned by genocidal
-              China, to which Biden says, "Xi gets it." Gets what?
-              <br />
-              CNN says "hesitancy" is something they must "get around," like
-              appropriate public health approval process undercut for the&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.bcell.current.scrollIntoView("smooth");
-                  this.setState({ highlightBcell: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightBcell: false }),
-                    10000
-                  );
-                }}
-              >
-                grafts
-              </span>
-              <br />
-              <span
-                ref={this.oldFluExclusion}
-                style={{
-                  color: this.state.highlightOldFluExclusion
-                    ? "white"
-                    : "black",
-                  backgroundColor: this.state.highlightOldFluExclusion
-                    ? "rgb(170,100,205)"
-                    : "",
-                  transition: ".3s ease-out"
-                }}
-              >
-                The virus is just as deadly as the flu... even if you could
-                force people to&nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://foiegras.life"
-                >
-                  risk
-                </a>
-                &nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://moldmask.co"
-                >
-                  unforseen
-                </a>
-                &nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://humanharvest.info"
-                >
-                  side-effects
-                </a>
-                &nbsp;to not be a slave by free-riding exclusion in the economy
-                without visible symptoms/evidence.&nbsp;
-                <a href="https://www.nwaonline.com/news/2020/dec/31/again-no-flu-deaths-reported/">
-                  Running out
-                </a>
-                &nbsp;of&nbsp;
-                <a href="zippia.com/landlord-jobs/demographics/">old people</a>
-                <br />
-                <br />
-                <a href="https://wavv.art/forumMqCyVEXOjfYPErd902Vp">
-                  wavv.art/forumMqCyVEXOjfYPErd902Vp
-                </a>
-                <br />
-                given 2020 deaths are so abnormally low, but higher due to&nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://www.prb.org/countries-with-the-oldest-populations/"
-                >
-                  old-age population
-                </a>
-                &nbsp;(not the&nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://www.cdc.gov/mmwr/volumes/70/wr/mm7003e2.htm"
-                >
-                  96%-similar
-                </a>
-                &nbsp;to&nbsp;
-                <a
-                  style={{
-                    border: "1px solid",
-                    color: this.state.highlightOldFluExclusion
-                      ? "white"
-                      : "grey"
-                  }}
-                  href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents"
-                >
-                  Sars-Cov-1 virus
-                </a>
-                ), the other reason must be the fear instilled by Wolf Blitzer
-                and &nbsp;
-                <span
-                  style={{
-                    fontWeight: "bolder",
-                    textDecoration: "underline"
-                  }}
-                  onClick={() => {
-                    this.grandmaMentality.current.scrollIntoView("smooth");
-                    this.setState({ highlightGrandmaMentality: true });
-
-                    clearTimeout(this.highlighting);
-                    this.highlighting = setTimeout(
-                      () => this.setState({ highlightGrandmaMentality: false }),
-                      10000
-                    );
-                  }}
-                >
-                  putting sick & old people together
-                </span>
-              </span>
-              <br />
-              Would like to see a chart of population of people above 90 but
-              the macrotrends.net/countries/USA/united-states/death-rate source
-              is not updated, 1.5 months later than advertised (yearly, UN) so I
-              imagine that isn’t either.
-              <br />
-              <br />
-              CNN also says there are only 22 experts, I must note that this is
-              the purported opinion of liars. You have a conflicted interest of
-              experts there,{" "}
-              <span
-                ref={this.congressVsCongress}
-                style={{
-                  color: this.state.highlightCVC ? "white" : "black",
-                  backgroundColor: this.state.highlightCVC
-                    ? "rgb(170,100,205)"
-                    : "",
-                  transition: ".3s ease-out"
-                }}
-              >
-                I bet they would all vote to not bring bonds to half (for
-                stress/prohibit settlement) of cash:debt levels as well because
-                they want people to have cancer by interfering with their
-                natural genesis of antibodies so they don’t have to pay social
-                security from their already max-1:11 possible return on
-                investment, while driving up the bill for medical invoices more.
-                Why else would they be so reckless, without evidence and with
-                such high survival/no-morbidity? This is textbook
-                communism/corporatism for bonds and profit, not socialism.
-                Socialism would reduce to capitalism without promises/with
-                payout schedules, capitalism with promises/without payout
-                schedules reduces into chaos/cross-party risk:[foreclosure wave,
-                prepaid && mixed demand]/communism/corporatism evidently looking
-                at the US/CNN unit, misleading people to their deaths. I bet as
-                many people will die from rushed side-effects that would
-                normally die from&nbsp;
-                <span
-                  style={{
-                    fontWeight: "bolder",
-                    textDecoration: "underline"
-                  }}
-                  onClick={() => {
-                    this.oldFluExclusion.current.scrollIntoView("smooth");
-                    this.setState({ highlightOldFluExclusion: true });
-
-                    clearTimeout(this.highlighting);
-                    this.highlighting = setTimeout(
-                      () => this.setState({ highlightOldFluExclusion: false }),
-                      10000
-                    );
-                  }}
-                >
-                  flu/covid
-                </span>
-                .{" "}
-              </span>
-            </div>
-          </div>
+              flu/covid
+            </span>
+            .
+          </span>
         </div>
         <div ref={this.MONOPOLY}>
           <i
@@ -6214,6 +6191,7 @@ export default class App extends React.Component {
             <a href="https://en.wikipedia.org/wiki/Cronus">Old people</a>
             &nbsp;and Nobel-Prize winning economists lie about the following
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -6225,6 +6203,7 @@ export default class App extends React.Component {
           >
             Less jobs means lower prices and easier life
           </div>
+          <br />
           <div
             ref={this.royalty}
             style={{
@@ -6265,10 +6244,12 @@ export default class App extends React.Component {
               and the same product could be had for a much lower price without
               it.
               <br />
-              trade is an exchange of mutual benefits, loans are predatory and
+              <br />
+              Trade is an exchange of mutual benefits, loans are predatory and
               are to keep paying lenders, rentiers, colonists, and instigators
               of prisoners' dilemma pooling from losing out their usurped income
               that they are used to
+              <br />
               <br />
               Not only do we owe it back but it is an antitrust case against the
               government advertising this as helpful instead of anticompetitive
@@ -6279,6 +6260,7 @@ export default class App extends React.Component {
               official (Comptroller General) to hold as true.
             </span>
             <br />
+            <br />
             <i
               style={{
                 fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -6287,170 +6269,166 @@ export default class App extends React.Component {
             >
               laws don't matter anymore
             </i>
-            <div
+            <br />
+            <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
+            <br />
+            <br />
+            <a
               style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
+                transition: ".3s ease-in",
 
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
+                color: this.state.highlightBooker ? "white" : "",
+                backgroundColor: this.state.highlightBooker
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.booker}
+              href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
+            >
+              Cory Booker
+            </a>
+            &nbsp; calls stealing in contract with bonds, contributions
+            <br />
+            WE DO NOT&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.populism.current.scrollIntoView("smooth");
+                this.setState({ highlightPopulism: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightPopulism: false }),
+                  10000
+                );
               }}
             >
-              <a href="https://nickcarducci2022.com">nickcarducci2022.com</a>
-              <br />
-              <a
-                style={{
-                  transition: ".3s ease-in",
+              CONSENT
+            </span>
+            <br />
+            CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
+            <br />
+            It's a trap in price inelasticity, impossible solvency and
+            slavery/counterfeit
+            <br />
+            <br />
+            Don’t tax to pay for things && or allow people to trade with
+            promises of other peoples’ assets, let prices fall and tax for
+            things where a free rider cannot be avoided && it is for that
+            business’ security (not hedging with cross-party risk...), not
+            trading commodities or stock... (A) just bailing out bad bets with
+            $.01 transaction tax these debt transactions need to be reversed
+            like ACTUALLY cancelled/forbidden but the non-debt purchases need to
+            be reversed to cash:debt prices as well. (B) Not this fraudulent
+            “canceling” by paying it off by dollar-share split
+            <br />
+            <br />
+            To be sure, the pursuit of happiness should not be at the expense of
+            others. It means we get what we give. (C) Trade is an exchange of
+            benefits, supplying [alone] is the competition - which should be
+            based not on counterfeit by invoice or abetting duressful purchases
+            as a broker by pool or expiration.
+            <br />
+            <br />
+            While the&nbsp;
+            <a href="https://froth.app">Will Smith (bottom of page)</a> movie
+            celebrates&nbsp;
+            <a href="https://www.bls.gov/news.release/empsit.t19.htm">
+              2% of the population
+            </a>
+            &nbsp;that has 1100% of the assets, 98% are being colonized, but not
+            by race! We’ve made so much progress.
+            <br />
+            <br />
+            Capital gains or loss is not a tangible loss. It is your fault for
+            not trading when an offer was available at the price you prefer. It
+            is a&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
 
-                  color: this.state.highlightBooker ? "white" : "",
-                  backgroundColor: this.state.highlightBooker
-                    ? "rgb(170,100,205)"
-                    : ""
-                }}
-                ref={this.booker}
-                href="https://www.politico.com/states/new-jersey/story/2021/02/04/booker-reintroduces-baby-bonds-bill-to-give-all-newborns-a-1k-savings-account-9425345"
-              >
-                Cory Booker
-              </a>{" "}
-              calls stealing in contract with bonds, contributions
-              <br />
-              WE DO NOT&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.populism.current.scrollIntoView("smooth");
-                  this.setState({ highlightPopulism: true });
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightValuation: false }),
+                  10000
+                );
+              }}
+            >
+              valuation
+            </span>
+            &nbsp;of last trade and not all shares outstanding can afford that
+            price or&nbsp;
+            <a href="https://nationalsecuritycasino.com">
+              are even included in the outstanding lot sometimes
+            </a>
+            <br />
+            <br />
+            <span
+              style={{
+                transition: ".3s ease-in",
 
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightPopulism: false }),
-                    10000
-                  );
-                }}
-              >
-                CONSENT
-              </span>
+                color: this.state.highlightEducation ? "white" : "",
+                backgroundColor: this.state.highlightEducation
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.education}
+            >
+              Education may help the individual when it is not done for
+              everyone. The best move for people is in protecting their
+              bargaining position
               <br />
-              CITY MONEY IS NOT THE CITY'S, NOR IS WHAT HE PROMISES IN CONTRACT
-              <br />
-              It's a trap in price inelasticity, impossible solvency and
-              slavery/counterfeit
+              Two steps back for everyone, one step forward for one
               <br />
               <br />
-              Don’t tax to pay for things && or allow people to trade with
-              promises of other peoples’ assets, let prices fall and tax for
-              things where a free rider cannot be avoided && it is for that
-              business’ security (not hedging with cross-party risk...), not
-              trading commodities or stock... (A) just bailing out bad bets with
-              $.01 transaction tax these debt transactions need to be reversed
-              like ACTUALLY cancelled/forbidden but the non-debt purchases need
-              to be reversed to cash:debt prices as well. (B) Not this
-              fraudulent “canceling” by paying it off by dollar-share split
+              Education can be either a trade secret, stifle discovery, or speed
+              up open source. 1/3 is bad, especially if it can be accomplished
+              online
               <br />
-              To be sure, the pursuit of happiness should not be at the expense
-              of others. It means we get what we give. (C) Trade is an exchange
-              of benefits, supplying [alone] is the competition - which should
-              be based not on counterfeit by invoice or abetting duressful
-              purchases as a broker by pool or expiration. While the{" "}
-              <a href="https://froth.app">Will Smith (bottom of page)</a> movie
-              celebrates{" "}
-              <a href="https://www.bls.gov/news.release/empsit.t19.htm">
-                2% of the population
-              </a>{" "}
-              that has 1100% of the assets, 98% are being colonized, but not by
-              race! We’ve made so much progress.
               <br />
-              Capital gains or loss is not a tangible loss. It is your fault for
-              not trading when an offer was available at the price you prefer.
-              It is a{" "}
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.valuation.current.scrollIntoView("smooth");
-                  this.setState({ highlightValuation: true });
+              Wealth is about relativity to one another after it is about the
+              utility of the asset, upon dollar/depositary-splitting
+            </span>
+            <br />
+            <br />
+            <span
+              style={{
+                transition: ".3s ease-in",
 
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightValuation: false }),
-                    10000
-                  );
-                }}
-              >
-                valuation
-              </span>{" "}
-              of last trade and not all shares outstanding can afford that price
-              or{" "}
-              <a href="https://nationalsecuritycasino.com">
-                are even included in the outstanding lot sometimes
-              </a>
-              <br />
-              <br />
-              <span
-                style={{
-                  transition: ".3s ease-in",
-
-                  color: this.state.highlightEducation ? "white" : "",
-                  backgroundColor: this.state.highlightEducation
-                    ? "rgb(170,100,205)"
-                    : ""
-                }}
-                ref={this.education}
-              >
-                {" "}
-                Education may help the individual when it is not done for
-                everyone. The best move for people is in protecting their
-                bargaining position
-                <br />
-                Two steps back for everyone, one step forward for one
-                <br />
-                Wealth is about relativity to one another until it is about the
-                utility of the asset
-                <br />
-                Education can be either a trade secret, stifle discovery, or
-                speed up open source. 1/3 is bad, especially if it can be
-                accomplished online
-              </span>
-              <br />
-              <br />
-              <span
-                style={{
-                  transition: ".3s ease-in",
-
-                  color: this.state.highlightCitadel ? "white" : "",
-                  backgroundColor: this.state.highlightCitadel
-                    ? "rgb(170,100,205)"
-                    : ""
-                }}
-                ref={this.citadel}
-              >
-                Citadel claiming ownership as sustaining "prices and being proud
-                of their team" IS CONFESSION
-              </span>
-              <br />
-              Dodaro, please look at tax reciepts when analysing our ability to
-              pay down debt or default to cash:debt, not the GDP - new money -
-              new debt
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
-              <iframe
-                title="Dr Seuss cultural zoo"
-                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
-                width="300"
-                height="444"
-                style={{
-                  backgroundColor: "#3b5998",
-                  border: "none",
-                  overflow: "hidden",
-                  width: "480px"
-                }}
-              ></iframe>
-            </div>
+                color: this.state.highlightCitadel ? "white" : "",
+                backgroundColor: this.state.highlightCitadel
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.citadel}
+            >
+              Citadel claiming ownership as sustaining "prices and being proud
+              of their team" IS CONFESSION
+            </span>
+            <br />
+            Dodaro, please look at tax reciepts when analysing our ability to
+            pay down debt or default to cash:debt, not the GDP - new money - new
+            debt
+            <iframe
+              title="Dr Seuss cultural zoo"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
+            ></iframe>
             <br />
             you're normal, its a wide distribution
             <br />
@@ -6483,7 +6461,7 @@ export default class App extends React.Component {
               </a>
               <br />
               <a href="https://wavv.art/forumDk8F0qsHuImA3ca57uq0">
-                wavv.art/forumDk8F0qsHuImA3ca57uq0{" "}
+                wavv.art/forumDk8F0qsHuImA3ca57uq0&nbsp;
               </a>
               <a href="https://wavv.art/forum8XjrcSJrbPkNPUqzeR5x">
                 wavv.art/forum8XjrcSJrbPkNPUqzeR5x
@@ -6542,7 +6520,7 @@ export default class App extends React.Component {
                   violent-extremism
                 </a>
                 <br />
-                anarchist, antigovernment extremist{" "}
+                anarchist, antigovernment extremist&nbsp;
                 <span
                   style={{
                     fontWeight: "bolder",
@@ -6581,7 +6559,7 @@ export default class App extends React.Component {
                 </span>
                 <br />
                 you cannot claim someone can be violent for grievances without a
-                previously-violent offense.{" "}
+                previously-violent offense.&nbsp;
                 <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
                   Holy Christ
                 </a>
@@ -6597,12 +6575,11 @@ export default class App extends React.Component {
                   }}
                   ref={this.nra}
                 >
-                  {" "}
-                  law-abiding can be asinine... Gun sales should be{" "}
+                  law-abiding can be asinine... Gun sales should be&nbsp;
                   <a href="https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf">
                     registered
-                  </a>{" "}
-                  but no shoot first without intent + date + convicted of
+                  </a>
+                  &nbsp;but no shoot first without intent + date + convicted of
                   violence
                 </span>
                 <br />
@@ -6614,7 +6591,7 @@ export default class App extends React.Component {
                 This FBI senate hearing official says they will be targeting
                 anyone who likes the oath keepers or proud boys, who I am
                 seeking information of their website stated intents rather than
-                actions of its members. Looks like some chapters are{" "}
+                actions of its members. Looks like some chapters are&nbsp;
                 <span
                   style={{
                     fontWeight: "bolder",
@@ -6712,7 +6689,7 @@ export default class App extends React.Component {
               </a>
               <br />
               <a href="https://wavv.art/forumA7TodqbwpSFCo2iWFMPG">
-                wavv.art/forumA7TodqbwpSFCo2iWFMPG{" "}
+                wavv.art/forumA7TodqbwpSFCo2iWFMPG&nbsp;
               </a>
               <br />
               <a href="https://wavv.art/forumpOYRNm6heVePfXKWqnX0">
@@ -6731,15 +6708,19 @@ export default class App extends React.Component {
               <a href="https://wavv.art/forum6sY714uTNQJogsqUU5t1">
                 wavv.art/forum6sY714uTNQJogsqUU5t1
               </a>
+              <br />
+              <br />
               My remedy of harm done, and to put the toothpaste back into the
               tube (repair depositary), would be to reverse all transations to
               cash:debt ratio at that time, so that all buyers pay what they
               should have paid if lenders were not able to contract an
               unrequited third party's money in the borrowers' consumers
+              <br />
               <a href="https://wavv.art/forumOfLIgMkKt8BYOEoJCEmo">
                 wavv.art/forumOfLIgMkKt8BYOEoJCEmo
               </a>
             </div>
+            <br />
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
@@ -6771,6 +6752,7 @@ export default class App extends React.Component {
               , monetary inflation/involuntary servitude) cannot relieve
               anything if finance is banned
             </div>
+            <br />
             <a
               style={{
                 border: "1px solid",
@@ -6781,6 +6763,7 @@ export default class App extends React.Component {
               wavv.art/forumbNoJuNX58U3nX3dK5mPA
             </a>
             <br />
+            <br />
             You can lend to somebody, but don't expect to keep the borrowers'
             consumers' down payments or not be sued for stress and counterfeit.
             <br />
@@ -6789,7 +6772,6 @@ export default class App extends React.Component {
               ref={this.gdp}
               style={{
                 transition: ".3s ease-in",
-
                 color: this.state.highlightGDP ? "white" : "",
                 backgroundColor: this.state.highlightGDP
                   ? "rgb(170,100,205)"
@@ -6806,6 +6788,7 @@ export default class App extends React.Component {
               bankruptcy keeps the down payments is involuntary servitude of the
               borrower's customers by price, lost down payments & time lost - is
               available.
+              <br />
               <br />
               <a href="https://wavv.art/forum4WxM6N6JYDuWx6Q9IqyB">
                 wavv.art/forum4WxM6N6JYDuWx6Q9IqyB
@@ -6838,6 +6821,7 @@ export default class App extends React.Component {
               <a href="https://scopes.cc">scopebook</a>
             </span>
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -6922,7 +6906,7 @@ export default class App extends React.Component {
             they love rent and being colonized instead of letting trade settle
             at lower price
             <br />
-            they love allowing{" "}
+            they love allowing&nbsp;
             <span
               ref={this.ronInsurance}
               style={{
@@ -7033,7 +7017,9 @@ export default class App extends React.Component {
           by signing them to contracts that are impossible and require the
           consent unrequited by people with the waged money to surpass a penalty
           instigated on those very same customers of the borrower.
-          <span
+          <br />
+          <br />
+          <div
             ref={this.congressVsCongress}
             style={{
               color: this.state.highlightCVC ? "white" : "black",
@@ -7043,13 +7029,14 @@ export default class App extends React.Component {
               transition: ".3s ease-out"
             }}
           >
-            Biden’s plan is to{" "}
+            Biden’s plan is to&nbsp;
             <a href="https://froth.app" style={{ textDecoration: "underline" }}>
               further separate us with bonds and money
             </a>
             , bombing them, and giving the unproductive, violent actors the
             space and opportunity to thrive without being PRODUCTive
-          </span>
+          </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7065,13 +7052,14 @@ export default class App extends React.Component {
             O.K., Geico, I want to blow off some steam because you force
             consumers to pre-pay (+ mixing-risk/expirations)
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            Who benefits when 'helping' with{" "}
+            Who benefits when 'helping' with&nbsp;
             <a
               style={{
                 color: "black",
@@ -7295,6 +7283,7 @@ export default class App extends React.Component {
             </span>
             )]
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7325,19 +7314,19 @@ export default class App extends React.Component {
             >
               competitors
             </span>
-            {/*br /> <br />I can do this for my knee as I learn to code for job
-              without commute*/}
+            <br />
+            <a
+              href="https://wavv.art/United_States_of_America"
+              style={{
+                color: "black",
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics"
+              }}
+            >
+              wavv.art/United_States_of_America
+            </a>
           </div>
-          <a
-            href="https://wavv.art/United_States_of_America"
-            style={{
-              color: "black",
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            wavv.art/United_States_of_America
-          </a>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7350,7 +7339,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            "conservatives" at CPAC are retarded, as they only harm themselves
+            "Conservatives" at CPAC are retarded, as they only harm themselves
             (and others), or colonizers and have no demand or production in the
             trade in asking for Stimulus for usurped invoice contracts and rent
             instead of allowing prices to be found by natural capacity, made
@@ -7366,6 +7355,7 @@ export default class App extends React.Component {
             Is this scalping abodes/storefronts, for no productive utility
             added? We call that colonialism or involuntary servitude
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7378,7 +7368,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            Marjorie getting elected after suggesting{" "}
+            Marjorie getting elected after suggesting&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -7393,10 +7383,13 @@ export default class App extends React.Component {
               }}
             >
               false flag
-            </span>{" "}
-            is correlative evidence that most of her constituents agree with her
+            </span>
+            &nbsp; is correlative evidence that most of her constituents agree
+            with her
+            <br />
             <br />
             CNN calling vaccines/grafts, platforms now
+            <br />
             <br />
             <span
               ref={this.grandmaMentality}
@@ -7460,9 +7453,9 @@ export default class App extends React.Component {
               }}
             >
               festering mold
-            </span>{" "}
-            and carbon monoxide poisoning with these masks and vaccines/grafts
-            are{" "}
+            </span>
+            &nbsp; and carbon monoxide poisoning with these masks and
+            vaccines/grafts are&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -7480,9 +7473,10 @@ export default class App extends React.Component {
               }}
             >
               an individual decision
-            </span>{" "}
-            based on seen/unseen risks
+            </span>
+            &nbsp; based on seen/unseen risks
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7513,6 +7507,7 @@ export default class App extends React.Component {
               wavv.art/forumEMwj7hKqQ2mZu5poZdPk
             </a>
           </div>
+          <br />
           <i
             ref={this.baltimore}
             style={{
@@ -7530,6 +7525,7 @@ export default class App extends React.Component {
             Defunct non-profit, ensure the mission is upheld by all people
             beyond Baltimore and regardless of their power or ability
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7571,7 +7567,7 @@ export default class App extends React.Component {
               legal structure
             </span>
             &nbsp;is taken over the initial mission to create a “mock direct
-            democracy for the citizens of Baltimore and beyond.”{" "}
+            democracy for the citizens of Baltimore and beyond.”&nbsp;
             <a href="https://www.youtube.com/watch?v=12V9rV_bp_M">
               (Sortition, Ben)
             </a>
@@ -7580,6 +7576,7 @@ export default class App extends React.Component {
               johnshopkins.academia.edu/NickCarducci
             </a>
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7595,9 +7592,12 @@ export default class App extends React.Component {
             JHU failed me in financial markets & institutions, & macroeconomics,
             because I didn't agree. Failed game theory too but that may have
             been a sexist thing
+            <br />
             <br />I understand more than everyone or those that understand more
             are EVIDENTLY GUILTY OF INTENTFUL PARTY TO THE HARM SITED HEREIN
           </div>
+          <br />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7662,17 +7662,19 @@ export default class App extends React.Component {
             precipice of a huge bull market." is he a Certified Financial Goober
             giving advice to millions on tv like that to buy?
             <br />
-            Ben Carson is{" "}
+            <br />
+            Ben Carson is&nbsp;
             <a href="https://vianickcarducci.medium.com">retarded</a>, ownership
             is not borrowing. Housing dept fraud. Stop cheating, working with
             Larry Kudlow to superimpose your intents. Kudlow likes stocks
             because he likes "growth" of money/market/vault-share, whilst Carson
             calls the counterfeit mortgages, ownership, which requires the
-            growth of money/market/vault-share: without{" "}
+            growth of money/market/vault-share: without&nbsp;
             <a href="https://wavv.art">your vote for donation or trade</a>; to
             which THEY KNOW the growth of dollarmoney/market/vault-share does
             nothing except harm by price
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7743,6 +7745,7 @@ export default class App extends React.Component {
               wavv.art/forumHuT6DNKNABiHUPM8JgBz
             </a>
             <br />
+            <br />
             Me to Lendio
             <br />
             Can you just invest in a business-line instead of promising a
@@ -7751,6 +7754,7 @@ export default class App extends React.Component {
             unbeknownst to them. Current debt:cash is 13:1. You couldn’t do this
             with corporate shares!
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7770,6 +7774,7 @@ export default class App extends React.Component {
             can make denominations of 50 or 1 (100 shares), situated to vote on
             how to appropriate further dilution/payout decisions w...
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7788,6 +7793,7 @@ export default class App extends React.Component {
             what'd you miss? suck my dick. all negative points on your stocks,
             you can blame it on me
             <br />
+            <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -7805,12 +7811,14 @@ export default class App extends React.Component {
             </span>
             &nbsp;Elizabeth Kate Claman, it is mostly invoices/counterfeit
             <br />
+            <br />
             Curtis Swila and Democrats must be conspiring, giving Stimulus and
             enforcing collection by landlords/debtors. Most apparent fraud to
             conspire to prohibit-trade in price elasticity or reposession/down
             payment reconciliation for borrowers' customers there can possibly
             be without written intent
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7819,6 +7827,7 @@ export default class App extends React.Component {
           >
             Driving citizens crazy
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -7837,7 +7846,9 @@ export default class App extends React.Component {
             customers down payments, or compete (by adding utility other than
             counterfeiting contracts to themselves of an unrequited dollar owner
             and self since it is more than principal without waiting customers'
-            willingness and ability at the natural price)&nbsp;
+            willingness and ability at the natural price)
+            <br />
+            <br />
             <a
               style={{
                 fontFamily: '"Hi Melody", sans-serif'
@@ -7845,14 +7856,15 @@ export default class App extends React.Component {
               href="https://froth.app/debt"
             >
               Sid Rosenberg
-            </a>{" "}
-            says, rip criminals limb from limb, “very jewish” if Jesus protest
-            animal abuse (is a wishbone magical entrapment by nomenclature?) and
-            crucifixion (well actually it was a pedophile so we can talk
-            figuratively)
+            </a>
+            &nbsp;says, rip criminals limb from limb, “very jewish” if Jesus
+            protest animal abuse (is a wishbone magical entrapment by
+            nomenclature?) and crucifixion (well actually it was a pedophile so
+            we can talk figuratively)
+            <br />
             <br />
             John Catsimatidis apparently took the show, "Mind your Business," an
-            apparent verbal jab at the reason for the{" "}
+            apparent verbal jab at the reason for the&nbsp;
             <a
               style={{
                 fontFamily: '"Hi Melody", sans-serif'
@@ -7878,7 +7890,7 @@ export default class App extends React.Component {
             >
               insurance companies
             </span>
-            &nbsp;owned by{" "}
+            &nbsp;owned by&nbsp;
             <a
               style={{
                 fontFamily: '"Hi Melody", sans-serif'
@@ -7889,6 +7901,7 @@ export default class App extends React.Component {
             </a>
             &nbsp;operators as I have began publishing my, "Banking is not a
             Business" pre-prints.
+            <br />
             <br />
             <span
               ref={this.italy}
@@ -7902,6 +7915,7 @@ export default class App extends React.Component {
             >
               U.S. schools teach Italy joined because hair color!
             </span>
+            <br />
             <br />
             supply-side masked as altruism. ban invoices of borrowers'
             customers' money, rent-colonist interventionist non-producing
@@ -7924,9 +7938,11 @@ export default class App extends React.Component {
             </span>
             &nbsp;to not fight fire with fire.
             <br />
+            <br />
             stay afloat with stolen money (+ involuntary servitude to pay it
             back and to the benefit of bond-holders), how about get them out of
             the water
+            <br />
             <br />
             do you think a contract of corporate shares could adjudicate, in
             court, in favor of the lender without reparations of down payment
@@ -7970,6 +7986,7 @@ export default class App extends React.Component {
               process.
             </span>
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7977,7 +7994,8 @@ export default class App extends React.Component {
             }}
           >
             Usurped rights is no right at all
-          </i>{" "}
+          </i>
+          <br />
           <br />
           this is fraud and forgoes bootstrapping entrepreneurs and labor. why
           not some more demand side policies like making invoices/debt/rent/
@@ -7996,14 +8014,16 @@ export default class App extends React.Component {
           >
             insurance
           </span>
-          &nbsp; illegal by precedent, it is already illegal per colonialism,
+          &nbsp;illegal by precedent; it is already illegal per colonialism,
           prisoners' dilemma and usurped voting rights for being waged in
           contracts being involuntary slavery
+          <br />
           <br />
           Supply-side colonialism
           <br />
           By not being a consumer nor producer; end-producer of competition in
           producing not buying then selling
+          <br />
           <br />
           We want people to own things
           <br />
@@ -8013,8 +8033,9 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Letter to the "Small Business Administration"{" "}
+            Letter to the "Small Business Administration"
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8028,7 +8049,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            {" "}
             SBA,
             <br />
             <a href="https://wavv.art/forum5LEZmTtTE1orAqJ1HrRC">
@@ -8056,8 +8076,7 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            {" "}
-            Automatic reply: PPP is illegal
+            &nbsp; Automatic reply: PPP is illegal
             <br />
             Press Office
             <br />
@@ -8068,7 +8087,7 @@ export default class App extends React.Component {
             "Thank you for reaching out to the U.S. Small Business
             Administration. <br />
             This mailbox is for SBA-related media queries only"
-          </i>{" "}
+          </i>
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8240,8 +8259,7 @@ export default class App extends React.Component {
                 >
                   https://www.bitchute.com/video/jTK5UV1jqa2l/
                   <span style={{ color: "grey", textDecoration: "none" }}>
-                    {" "}
-                    : minute 4
+                    &nbsp; : minute 4
                   </span>
                 </a>
                 <iframe
@@ -8335,8 +8353,7 @@ export default class App extends React.Component {
                   : ""
               }}
             >
-              {" "}
-              m1v1===m2v2===GDP means that v1 is made up&nbsp;
+              &nbsp; m1v1===m2v2===GDP means that v1 is made up&nbsp;
               <span
                 style={{
                   fontWeight: "bolder",
@@ -8378,7 +8395,8 @@ export default class App extends React.Component {
                 alt=""
               />
               froth.app
-            </a>{" "}
+            </a>
+            &nbsp;
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
@@ -8420,10 +8438,10 @@ export default class App extends React.Component {
                 ref={this.flag}
               >
                 Merrick Garland
-              </span>{" "}
-              is the US' lawyer, I am the peoples'
+              </span>
+              &nbsp; is the US' lawyer, I am the peoples'
               <br />
-              The US is not the enemy; bold-holders &{" "}
+              The US is not the enemy; bold-holders &&nbsp;
               <span
                 style={{
                   fontWeight: "bolder",
@@ -8441,8 +8459,8 @@ export default class App extends React.Component {
                 }}
               >
                 IRS
-              </span>{" "}
-              are (if slave-owners, thieves are)
+              </span>
+              &nbsp; are (if slave-owners, thieves are)
               <br />
               Klobuchar cares more about paydays for entrepreneurs than copycats
               (no reward)
@@ -8462,7 +8480,9 @@ export default class App extends React.Component {
               just bailing out lenders at a time when they know they cannot gain
               the money fairly when there is 12x debt than money
               <br />
+              <br />
               drives a person crazy, into isolation and drug-abuse
+              <br />
               <br />
               you cannot expect people to live off the streets if there is not
               enough money for the obligations, lease-colonists are allowed to
@@ -8484,10 +8504,11 @@ export default class App extends React.Component {
                 }}
               >
                 corner the market
-              </span>{" "}
-              and insurance-duressments are allowed to sell by prisoners'
+              </span>
+              &nbsp; and insurance-duressments are allowed to sell by prisoners'
               dilemma to keep up with the pooled price or counterfeit-promise of
               invoice
+              <br />
               <br />
               promising assets or money is just the same as stealing it because
               there is the option to sell profit-share without equity/1:1
@@ -8496,6 +8517,7 @@ export default class App extends React.Component {
               person instead of a business-line means their spending-power is
               due, for what? That becomes a scenario of a prisoners' dilemma
               too, let alone the counterfeiting in-pricing
+              <br />
               <br />
               <span
                 style={{
@@ -8509,6 +8531,7 @@ export default class App extends React.Component {
               issue for antitrust)
             </div>
           </div>
+          <br />
           <span
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8517,12 +8540,15 @@ export default class App extends React.Component {
           >
             84% stocks owned by top 10%
             <br />
+            <br />
             top 40% own IRA
+            <br />
             <br />
             40% are unemployed (2.7k phone-survey + exhausted + disabled +
             on-srike/bargaining) or retired
             <br />
-            buying property to rent is colonialism, the first of its{" "}
+            <br />
+            buying property to rent is colonialism, the first of its&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -8539,6 +8565,7 @@ export default class App extends React.Component {
               kind
             </span>
             <br />
+            <br />
             <span
               style={{
                 transition: ".3s ease-in",
@@ -8553,6 +8580,7 @@ export default class App extends React.Component {
               only I have to provide a stream of concious to my open designs to
               trade, which I do anyway for copyright
               <br />
+              <br />
               scrutiny of me telling my grandma to sell apartment building as
               she was already having trouble maintaining is disproportionate
               because I am Polish-Italian American male & that I won't sell out
@@ -8561,6 +8589,7 @@ export default class App extends React.Component {
               today!)
             </span>
           </span>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8583,6 +8612,7 @@ export default class App extends React.Component {
               }}
             ></iframe>
             <br />
+            <br />
             In grafts and [“viral”? ]vaccine “working hard to recognize the
             vaccine and remember the new virus for next time.” No precautions
             about fragility of&nbsp;
@@ -8600,9 +8630,10 @@ export default class App extends React.Component {
               }}
             >
               B-cell
-            </span>{" "}
-            regulation?
+            </span>
+            &nbsp;regulation?
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8630,6 +8661,7 @@ export default class App extends React.Component {
             <br />I think it sticks to your damn mask, like a mold! I'll sue
             your ass
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8640,7 +8672,7 @@ export default class App extends React.Component {
             }}
           >
             "We short our police officers" - 2 ways to read that short utility
-            or want future trade to{" "}
+            or want future trade to&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -8657,6 +8689,7 @@ export default class App extends React.Component {
               free
             </span>
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8666,6 +8699,7 @@ export default class App extends React.Component {
             the first of its kind, dollars as shares, invoices are theft
             (counterfeit)
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8679,17 +8713,19 @@ export default class App extends React.Component {
             intervention as a violation of civil rights as it is not an exchange
             of benefits but a sharing of risk or an absolute placement of cost
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            <a href="https://en.wikipedia.org/wiki/Mark_Levin">Mark Levin</a>{" "}
-            hypocracy, "protected" pshh - so call the pool of people forced to
-            buy-in to keep up with you colonizing a market you do nothing for
-            except raise price absolutely. mind your business
+            <a href="https://en.wikipedia.org/wiki/Mark_Levin">Mark Levin</a>
+            &nbsp; hypocracy, "protected" pshh - so call the pool of people
+            forced to buy-in to keep up with you colonizing a market you do
+            nothing for except raise price absolutely. mind your business
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8704,6 +8740,7 @@ export default class App extends React.Component {
             we all didn't we would get the same products at lower price.
             communism 101
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8712,6 +8749,7 @@ export default class App extends React.Component {
           >
             reposession needs to give down payments back to borrower's customers
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8726,6 +8764,7 @@ export default class App extends React.Component {
             says people should have "trading abilities not based on how much
             money they have." So, like counterfeit?
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8734,6 +8773,7 @@ export default class App extends React.Component {
           >
             trade secrets and abilities are ok if everyone is doing it
           </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -8755,6 +8795,7 @@ export default class App extends React.Component {
               "robinhood was undercapitalized to allow users to do what they
               wanted to do"
             </div>
+            <br />
             <i
               style={{
                 fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -8763,6 +8804,7 @@ export default class App extends React.Component {
             >
               monopsony of retail space, ignored request for service emails
             </i>
+            <br />
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
@@ -8779,6 +8821,7 @@ export default class App extends React.Component {
               <a href="https://wavv.art/forumndUyfK0JYWVglK4qa62R">
                 wavv.art/forumndUyfK0JYWVglK4qa62R
               </a>
+              <br />
               <span ref={this.fintech}>
                 Allpoint and Greendot oligopoly prevents me from extending
                 payable services because it requires me to take counterfeit
@@ -8807,6 +8850,7 @@ export default class App extends React.Component {
                 </span>
               </span>
             </div>
+            <br />
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
@@ -8824,6 +8868,7 @@ export default class App extends React.Component {
               [investments]"... The fed uses our equity-split on shares of
               corporate competitors of mine...
             </div>
+            <br />
             <div
               ref={this.trust}
               style={{
@@ -8841,7 +8886,7 @@ export default class App extends React.Component {
               gov gets free labor, greatest anti-trust case ever (steven moore
               is a duche)
               <br />
-              Kudlow likes{" "}
+              Kudlow likes&nbsp;
               <span
                 style={{
                   fontWeight: "bolder",
@@ -8859,8 +8904,8 @@ export default class App extends React.Component {
                 }}
               >
                 GDP
-              </span>{" "}
-              "growth but not Stimulus," your measure is off retard
+              </span>
+              &nbsp; "growth but not Stimulus," your measure is off retard
               <br />
               you're only harming yourself and all of us
             </div>
@@ -8878,7 +8923,7 @@ export default class App extends React.Component {
             >
               Kevin Hasset says money is something you can exchange for goods;
               more accruately, and to fix for split/reverse-split
-              not-appropriated appropriately, it is{" "}
+              not-appropriated appropriately, it is&nbsp;
               <span
                 style={{
                   fontWeight: "bolder",
@@ -8896,11 +8941,12 @@ export default class App extends React.Component {
                 }}
               >
                 market-share
-              </span>{" "}
-              Kudlow calling him the smartest guy in the world means Kudlow
-              isn't just retarded by his actions but tarded
+              </span>
+              &nbsp; Kudlow calling him the smartest guy in the world means
+              Kudlow isn't just retarded by his actions but tarded
               <br />
-              Hasset and Lindsay still looking at real growth instead of{" "}
+              <br />
+              Hasset and Lindsay still looking at real growth instead of&nbsp;
               <a
                 style={{
                   border: "1px solid",
@@ -8935,7 +8981,7 @@ export default class App extends React.Component {
             I have a feeling I am about to be plagiarized by you. Why work with
             me when you can claim it is not creative and do it yourself? Well
             that means it would have been done already. I am the first to make
-            the{" "}
+            the&nbsp;
             <a
               style={{
                 border: "1px solid",
@@ -8944,8 +8990,8 @@ export default class App extends React.Component {
               href="https://www.academia.edu/45132997/Written_for_National_Science_Foundation_Project_Pitch"
             >
               circular-magnetic engine
-            </a>{" "}
-            design. Do not plagiarize me Nick Carducci.sh
+            </a>
+            &nbsp; design. Do not plagiarize me Nick Carducci.sh
             <br />
             <a
               style={{
@@ -8961,7 +9007,7 @@ export default class App extends React.Component {
             Christina, Is it not creative, original or transformative? Because
             it is creative, it is original, and it can transform the entire
             energy industry. Is this because of my stance on legal issues? My
-            gender,[ age,] or skin color?{" "}
+            gender,[ age,] or skin color?&nbsp;
             <span style={{ textDecoration: "underline" }}>
               if it is easy to do, why is it not done
             </span>
@@ -8996,19 +9042,22 @@ export default class App extends React.Component {
                 Dear Nicholas,
               </span>
               <br />
+              <br />
               Thank you for submitting your company's Program Pitch to America's
               Seed Fund powered by the National Science Foundation.
+              <br />
               <br />
               Upon reviewing your submitted Project Pitch, I regret to inform
               you that you are not invited to submit a full proposal to the NSF
               SBIR/STTR Phase I program.
+              <br />
               <br />
               "The proposed project does not appear to focus on a technical
               innovation that is creative, original or potentially
               transformative."
             </div>
             <br />
-            <br />I also invented the{" "}
+            <br />I also invented the&nbsp;
             <a href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/226631196">
               DayClock
             </a>
@@ -9039,7 +9088,7 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            Savers are disenfranchised by current{" "}
+            Savers are disenfranchised by current&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9109,8 +9158,10 @@ export default class App extends React.Component {
           >
             banned critical investigation
             <br />
+            <br />
             Trade is exchange of benefits, not sharing of risk or an absolute
             placement of cost on a supplier and consumer
+            <br />
             <br />
             <span
               style={{
@@ -9124,8 +9175,9 @@ export default class App extends React.Component {
               ref={this.UUID}
             >
               UUID
-            </span>{" "}
-            is key of PII for trading. 13d gets protected
+            </span>
+            &nbsp; is key of PII for trading. 13d gets protected
+            <br />
             <br />
             return is not valuation, S&P return is what all sales or all shares
             can get, not what last traded is. Government CANNOT claim negligence
@@ -9157,7 +9209,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            If you look at P in GDP as a variable, it is 1 and C + I + G +{" "}
+            If you look at P in GDP as a variable, it is 1 and C + I + G +&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9176,6 +9228,7 @@ export default class App extends React.Component {
             </span>
             is .01
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -9203,6 +9256,7 @@ export default class App extends React.Component {
               prisoners' dilemma of insurance
             </span>
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -9216,7 +9270,7 @@ export default class App extends React.Component {
             and they say it is good because they get cash instead of assets
             because domestic citizens use cash instead of assets; given that
             bonds are contracts wagering actual dollar-owners' cash (borrowers'
-            customers' down payments lost in traditional{" "}
+            customers' down payments lost in traditional&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9233,7 +9287,7 @@ export default class App extends React.Component {
               reposession
             </span>
             ), how else do you overcome tyranny other than insurrection by riot
-            or destroying tea?{" "}
+            or destroying tea?&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9253,6 +9307,7 @@ export default class App extends React.Component {
             more financially and involuntarily, police are ignoring their duty
             to arrest
           </div>
+          <br />
           <div
             ref={this.varney}
             style={{
@@ -9293,8 +9348,8 @@ export default class App extends React.Component {
               }}
             >
               UUID
-            </span>{" "}
-            being the key to the profile.
+            </span>
+            &nbsp; being the key to the profile.
             <br />
             laws have to be justice-oriented in order for the equal application
             of unequal laws to be applied
@@ -9312,8 +9367,8 @@ export default class App extends React.Component {
               }}
             >
               bail
-            </span>{" "}
-            is bribery, it's like unequal application of law; or an equal
+            </span>
+            &nbsp; is bribery, it's like unequal application of law; or an equal
             application of the unequal law is unequal application of a law
             kernel. this unequal law of PPP is no different in that equality
             regard
@@ -9371,7 +9426,7 @@ export default class App extends React.Component {
             In contrast with other companies like the above, toting privacy
             these chats ACTUALLY retain end-to-end encryption when backed up (in
             the cloud), keyBox for your first device, share your box & open
-            thread + children-document{" "}
+            thread + children-document&nbsp;
             <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
               keys with your accounts' keys
             </a>
@@ -9402,7 +9457,7 @@ export default class App extends React.Component {
               wavv.art/forumyaPOR5EzNIENE6dMU4UD
             </a>
             <br />
-            &nbsp; Your power to prevent me from inclusion in the economy{" "}
+            &nbsp; Your power to prevent me from inclusion in the economy&nbsp;
             <a
               ref={this.decide}
               style={{
@@ -9416,20 +9471,21 @@ export default class App extends React.Component {
               href="https://micro-theory.com"
             >
               (free-riding, involuntary)
-            </a>{" "}
-            stops when the preventative measure is more harmful than making no
-            changes, but especially since there is no proof of transmission
-            virally and it takes 2-weeks to form antibodies just the same as
-            catching covid & the VIRUS REQUIRES SOME TIME TO FORM IN THE HOST TO
-            TRANSFER THROUGH TOUCH OILS/SWEAT/SPIT/SNEEZE and spittle has PROVEN
-            to not float - and therefore the choice of prevention is due upon
-            the patient for risking 6mo smell morbidity vs b-cell regulation
+            </a>
+            &nbsp; stops when the preventative measure is more harmful than
+            making no changes, but especially since there is no proof of
+            transmission virally and it takes 2-weeks to form antibodies just
+            the same as catching covid & the VIRUS REQUIRES SOME TIME TO FORM IN
+            THE HOST TO TRANSFER THROUGH TOUCH OILS/SWEAT/SPIT/SNEEZE and
+            spittle has PROVEN to not float - and therefore the choice of
+            prevention is due upon the patient for risking 6mo smell morbidity
+            vs b-cell regulation
             <br />- The questions are if covid floats by itself, can attach to
             floating oxygen, or only stick to oils/saliva; and what is not in
             question is that non-planar z-axis movement is the only way these
             move without a kinetic movement of a sneeze or cough. Heat might not
             need spittle to travel to form cold air clouds, but covid does to
-            travel if it{" "}
+            travel if it&nbsp;
             <a href="https://www.politifact.com/factchecks/2020/jun/15/facebook-posts/claim-n95-masks-cant-stop-covid-19-particles-due-s/#sources">
               cannot attach itself to oxygen
             </a>
@@ -9530,27 +9586,27 @@ export default class App extends React.Component {
               >
                 "I can say that shit",
               </span>
-              &nbsp;exclaims{" "}
+              &nbsp;exclaims&nbsp;
               <a href="https://en.wikipedia.org/wiki/Cronus">
                 Judge Janine Pirro
-              </a>{" "}
-              on a commercial break, as I await my turn to explain the endings
-              of Section 230, after she says, "we will strip 230 protections
-              from platforms." The law without 230 provides that liability is
-              only granted if the writers are PAID or EDITED. To boot, platforms
-              should not be destroying evidence, they should be highlighting
-              illegal threats so other users know what is not acceptable, and
-              investigations without circumstantial/correlative data or not,
-              should be unfettered until a cease and decist order is properly
-              adjunicated.
+              </a>
+              &nbsp; on a commercial break, as I await my turn to explain the
+              endings of Section 230, after she says, "we will strip 230
+              protections from platforms." The law without 230 provides that
+              liability is only granted if the writers are PAID or EDITED. To
+              boot, platforms should not be destroying evidence, they should be
+              highlighting illegal threats so other users know what is not
+              acceptable, and investigations without circumstantial/correlative
+              data or not, should be unfettered until a cease and decist order
+              is properly adjunicated.
             </span>
             <br />
             <br />
-            PPP is{" "}
+            PPP is&nbsp;
             <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
               free
-            </a>{" "}
-            labor
+            </a>
+            &nbsp; labor
             <br />
             If there is a law of unequal justice, upholding that law is lawful?
             I think the laws have to be justice-oriented in order for the equal
@@ -9581,10 +9637,10 @@ export default class App extends React.Component {
             just in a room with someone, here is the link a third time&nbsp;
             <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
               https://pubmed.ncbi.nlm.nih.gov/17542834/
-            </a>{" "}
-            read it or shut up, otherwise all of you are liable for unsanitary
-            moisture you are propagating to force someone not to release and
-            keep on their faces
+            </a>
+            &nbsp; read it or shut up, otherwise all of you are liable for
+            unsanitary moisture you are propagating to force someone not to
+            release and keep on their faces
             <br />
             anyway, if the weight or electron variable is exactly perfect for
             gravity there is still room temperature. Using the evidence and our
@@ -9655,9 +9711,8 @@ export default class App extends React.Component {
             Two steps back for everyone, one step forward for one
             <br />
             <span sryle={{ fontWeight: "bolder" }}>
-              {" "}
-              Wealth is about relativity to one another until it is about the
-              utility of the asset
+              &nbsp; Wealth is about relativity to one another until it is about
+              the utility of the asset
             </span>
             <br />
             Education can be either a trade secret, stifle discovery, or speed
@@ -9690,7 +9745,8 @@ export default class App extends React.Component {
             <br />
             equal jurisprudence afterwards, without spite or qualified immunity,
             except for brandishing
-          </div>{" "}
+          </div>
+          &nbsp;
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -9720,12 +9776,12 @@ export default class App extends React.Component {
               }}
               ref={this.biden}
             >
-              {" "}
-              Biden
-            </span>{" "}
-            gets it, I think covid hospitalizations have decreased 50% in the
-            past month because he is in office
-          </div>{" "}
+              &nbsp; Biden
+            </span>
+            &nbsp; gets it, I think covid hospitalizations have decreased 50% in
+            the past month because he is in office
+          </div>
+          &nbsp;
           <i
             ref={this.desist}
             style={{
@@ -9748,7 +9804,8 @@ export default class App extends React.Component {
               style={{ width: "100%", height: "auto" }}
               alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
               src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
-            />{" "}
+            />
+            &nbsp;
           </div>
           <div
             style={{
@@ -9816,10 +9873,9 @@ export default class App extends React.Component {
               }}
               ref={this.cease}
             >
-              {" "}
-              In order to file a cease & desist
-            </span>{" "}
-            they have to prove it to{" "}
+              &nbsp; In order to file a cease & desist
+            </span>
+            &nbsp; they have to prove it to&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9834,9 +9890,9 @@ export default class App extends React.Component {
               }}
             >
               stop opinion
-            </span>{" "}
-            and they required a court order to give up an audit. I am an
-            election tech{" "}
+            </span>
+            &nbsp; and they required a court order to give up an audit. I am an
+            election tech&nbsp;
             <a href="https://vianickcarducci.medium.com/im-on-the-blockchain-742e3702721">
               competitor
             </a>
@@ -9878,11 +9934,11 @@ export default class App extends React.Component {
             npr, if you "only warn people of what to expect" instead of what
             they can expect, you're liable for witholding information when
             inoculating them. Saying we need vaccine to get over pandemic is
-            like saying we need cheeseburger bc we stabbed our foot. same{" "}
+            like saying we need cheeseburger bc we stabbed our foot. same&nbsp;
             <a href="https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antibody-tests-guidelines.html">
               2 weeks to clean
             </a>
-            , risk of 0-6mo. loss of smell vs risk of cancer by{" "}
+            , risk of 0-6mo. loss of smell vs risk of cancer by&nbsp;
             <a
               style={{
                 transition: ".3s ease-in",
@@ -9896,18 +9952,18 @@ export default class App extends React.Component {
               href="https://nature.com/articles/cddis2016148"
             >
               B-cell
-            </a>{" "}
-            oncogenesis. Tell those{" "}
+            </a>
+            &nbsp; oncogenesis. Tell those&nbsp;
             <a href="https://www.facebook.com/cnninternational/posts/10159109685099641">
               free-riders
-            </a>{" "}
-            that YOU CHOOSE. virus' require settlement and percolation, to boot.
-            not to be crass but same chance it floats by transmission as
-            intentionally disbursed in{" "}
+            </a>
+            &nbsp; that YOU CHOOSE. virus' require settlement and percolation,
+            to boot. not to be crass but same chance it floats by transmission
+            as intentionally disbursed in&nbsp;
             <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
               food
-            </a>{" "}
-            networks to not pay out pensions at this{" "}
+            </a>
+            &nbsp; networks to not pay out pensions at this&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9941,7 +9997,7 @@ export default class App extends React.Component {
           >
             Planetary studies show obliquity of the earth’s rotation matches
             with the 41k-year cycle of lowering ice shelves and C02 release, so
-            this may be caused by the angle towards the sun. I’m sure the{" "}
+            this may be caused by the angle towards the sun. I’m sure the&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -9956,15 +10012,15 @@ export default class App extends React.Component {
               }}
             >
               heat-locking of the C02
-            </span>{" "}
-            release compounds this phenomenon too, though
+            </span>
+            &nbsp; release compounds this phenomenon too, though
             <br />
             <br />
             <a href="https://www.carbonbrief.org/explainer-how-the-rise-and-fall-of-co2-levels-influenced-the-ice-ages?fbclid=IwAR1QS2_Akp2aZyTJuLVsFAVhPaxrBRG2BtRpyT8g55J8DtPXHBuKrtEtQeE">
                this article
-            </a>{" "}
-            touches on obliquity which is not spin but the axis spinning like a
-            falling top/dradel, 41k years
+            </a>
+            &nbsp; touches on obliquity which is not spin but the axis spinning
+            like a falling top/dradel, 41k years
           </div>
           <div
             ref={this.experts}
@@ -10061,7 +10117,7 @@ export default class App extends React.Component {
             <br />
             that's like dollar beer or vampirism, guiding your punches
             <br />
-            we can battle with any non-manmade virus{" "}
+            we can battle with any non-manmade virus&nbsp;
             <i
               style={{
                 fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10188,7 +10244,7 @@ export default class App extends React.Component {
             </div>
             Existing within a market/vault/currency stewardship purveying
             corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz{" "}
+            vaults.biz&nbsp;
             <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
               allows you to go public but you pay a Double-Tax on Income
               (threatened-upon us by not price-prisoners’ dilemma duress pooling
@@ -10246,7 +10302,7 @@ export default class App extends React.Component {
             <br />
             when we found numbers
             <br />
-            <a href="https://micro-theory.com"> accountants</a>,{" "}
+            <a href="https://micro-theory.com"> accountants</a>,&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -10266,8 +10322,8 @@ export default class App extends React.Component {
             <br />
             <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
               precedence
-            </a>{" "}
-            can be&nbsp;
+            </a>
+            &nbsp; can be&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -10297,8 +10353,8 @@ export default class App extends React.Component {
               href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
             >
               anticompetitve-cornering of assets as "state property"
-            </a>{" "}
-            is a{" "}
+            </a>
+            &nbsp; is a&nbsp;
             <a href="https://nationalsecuritycasino.com">
               jurisprudential, national-security issue
             </a>
@@ -10306,7 +10362,7 @@ export default class App extends React.Component {
             Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
             exists in an actual court of law
             <br />
-            she "doesn't{" "}
+            she "doesn't&nbsp;
             <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
               charge for tests," is a lie
             </a>
@@ -10325,13 +10381,13 @@ export default class App extends React.Component {
               }}
             >
               copyright
-            </span>{" "}
-            so on lock it is an entire market, government user competing with
-            many many many advantages
+            </span>
+            &nbsp; so on lock it is an entire market, government user competing
+            with many many many advantages
             <br />
             but the niche is the directory not just a nationalistic vibe
             <br />
-            positivity (as a grade) for markets is{" "}
+            positivity (as a grade) for markets is&nbsp;
             <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
               efficiency, not price
             </a>
@@ -10360,7 +10416,7 @@ export default class App extends React.Component {
             <br />
             <br />
             <div style={{ display: "flex" }}>
-              {" "}
+              &nbsp;
               <span
                 style={{
                   fontFamily: '"Pacifico", sans-serif',
@@ -10620,7 +10676,7 @@ export default class App extends React.Component {
             <a href="https://wavv.art/test3">Not taking credit</a>
             &nbsp;you&nbsp;
             <span style={{ fontSize: "6px" }}>fucking</span>
-            slut,{" "}
+            slut,&nbsp;
             <a href="https://thumbprint.us">working for market(copyright,</a>
             not <a href="https://vaults.biz">depositary</a>) share instead of
             &nbsp;
@@ -10658,8 +10714,8 @@ export default class App extends React.Component {
           >
             <a href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR0yCu8W_XONeAnFNEucUiy8mQNlIHE6f67H1vr49KiI2_gHO_ow995-1xY">
               Chicken
-            </a>{" "}
-            or{" "}
+            </a>
+            &nbsp; or&nbsp;
             <a href="https://justcapital.com/news/companies-that-have-the-most-workers-earning-a-living-wage-have-higher-returns-on-assets/">
               egg
             </a>
@@ -10706,7 +10762,7 @@ export default class App extends React.Component {
               }}
               ref={this.jhuecon}
             >
-              only in 2018 did I learn where dollars DID NOT COME FROM G-D{" "}
+              only in 2018 did I learn where dollars DID NOT COME FROM G-D&nbsp;
               <a href="https://vaults.biz">from</a> ... after spending $250k on
               JHU <a href="https://micro-theory.com">economics</a>
               <br />
@@ -10753,11 +10809,11 @@ export default class App extends React.Component {
             }}
           >
             There are many leftists who believe criminal justice reform includes
-            barring criminals or unadjunicated harm from national and{" "}
+            barring criminals or unadjunicated harm from national and&nbsp;
             <a href="https://wavv.art/United_States_of_America">
               consumer courts
-            </a>{" "}
-            from economies
+            </a>
+            &nbsp; from economies
           </div>
           <i
             onClick={() => (window.location.href = "https://froth.app")}
@@ -10862,10 +10918,10 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            demand is people sorted by how much each person is willing{" "}
+            demand is people sorted by how much each person is willing&nbsp;
             <b fontWeight="bolder">and able</b> to pay
             <br />
-            supply is people sorted by how much each person is willing{" "}
+            supply is people sorted by how much each person is willing&nbsp;
             <b fontWeight="bolder">and able</b> to produce
           </div>
           <i
@@ -10935,7 +10991,7 @@ export default class App extends React.Component {
             </a>
             <br />
             America first by gdp (m2) is the wrong direction if calculating
-            wealth appreciation by net exports (a.k.a. net imports).{" "}
+            wealth appreciation by net exports (a.k.a. net imports).&nbsp;
             <span
               ref={this.foreignpolicy}
               style={{
@@ -10967,7 +11023,8 @@ export default class App extends React.Component {
               </span>
               &nbsp;(chris salcedo, Newsmax and Christine Romans, Early Start
               CNN)
-            </span>{" "}
+            </span>
+            &nbsp;
             <br />
             <a href="https://wavv.art/forum4eM79h0dyP3FVsfDan0G">
               wavv.art/forum4eM79h0dyP3FVsfDan0G
@@ -11061,8 +11118,8 @@ export default class App extends React.Component {
             </a>
             <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
               Open-carry is threat
-            </a>{" "}
-            G-d is judge of soul, Territory is self
+            </a>
+            &nbsp; G-d is judge of soul, Territory is self
             <br />
             <br />
             <span
@@ -11162,7 +11219,8 @@ export default class App extends React.Component {
             merely laugh at the borrower/lender collusion
           </span>
           <div style={tweetsStyle}>
-            Mortgages are illegal, you cannot promise somebody else's money{" "}
+            Mortgages are illegal, you cannot promise somebody else's
+            money&nbsp;
             <br />
             <br />
             CHINA DOESN'T ONLY EAT OUR LUNCH THEY OWN US, all bond holders are
@@ -11335,19 +11393,22 @@ export default class App extends React.Component {
             own while they are building it. imagine if that was the case
             <br />
             marijuana laws are to stop dollar competition
-          </div>{" "}
+          </div>
+          &nbsp;
           <div style={tweetsStyle}>
             if we banned prohibiting price-elasticity in debt, invoices and
             renting out more than one can use themselves prices would drop to
             1/12 what it is now (current cash:debt ratio)
-          </div>{" "}
+          </div>
+          &nbsp;
           <div style={tweetsStyle}>
             also, ppp loans is an antitrust case, bootstrapping entrepreneurs
             are excluded, prices are fixed Insurance abet counterfeit
             dollar-shareholder right usurpation and force consumers to commit
             these crimes by being unable to attain these medical services
             without joining the pyramid scheme of crime
-          </div>{" "}
+          </div>
+          &nbsp;
           <div style={tweetsStyle}>
             The regulators have stated intent of wallstreetbets to spite short
             sellers generally, but the intent of trading against users is
@@ -11358,8 +11419,8 @@ export default class App extends React.Component {
             short would have to be between two individuals of the tap-out
             dissolution-kind, if without enabling of the counterfeit voting
             rights of the dollars
-          </div>{" "}
-          performance enhancing and self-medication draws its line in
+          </div>
+          &nbsp; performance enhancing and self-medication draws its line in
           monopsonization of medicine
           <div
             ref={this.whyBad}
@@ -11440,8 +11501,9 @@ export default class App extends React.Component {
               chair. The patient was also asked to stay {">"}5 feet away from
               the air sampler and not to cough in the direction of the air
               sampler. The air of the corridor within the critical care unit was
-              also tested and was PCR negative for SARS-CoV.{" "}
-            </div>{" "}
+              also tested and was PCR negative for SARS-CoV.&nbsp;
+            </div>
+            &nbsp;
             <b>
               Air samples from 2 isolation rooms in the critical care unit
               (occupied by patients with SARS being given respiratory support on
@@ -11484,7 +11546,8 @@ export default class App extends React.Component {
               }}
               ref={this.flop}
             >
-              Haha fair and square? Voter harvesting is sample bias. Calling{" "}
+              Haha fair and square? Voter harvesting is sample bias.
+              Calling&nbsp;
               <b>elections</b>&nbsp;dissuade/supress voters, projecting is
               especially irrelevant if&nbsp;
               <span
@@ -11547,8 +11610,8 @@ export default class App extends React.Component {
               }}
             >
               With division you get a ratio, but to add differing variables is
-              not ok in calculus, so why do they teach that in economics? {"/*"}{" "}
-              ok
+              not ok in calculus, so why do they teach that in economics? {"/*"}
+              &nbsp; ok
             </span>
             <br />
             <br />
@@ -11557,14 +11620,14 @@ export default class App extends React.Component {
               Your exec. assist or you were in the Box Office for 9/11
             </span>
             <br />
-            That’s a lie, dominion owns sequoia which bought and sold{" "}
+            That’s a lie, dominion owns sequoia which bought and sold&nbsp;
             <b>smartmatic</b>, who was founded by friends of Chavez and only
             changed ownership after public outcry. People don’t sell a company
             without payment or a deal to route proceeds.. A person's debt is
             their customers to burden unrequited, promised (not used or
             borrowed)  There does not need to be mandatory &nbsp;
             <b>dollar-split</b> to prevent price-elasticity Consumer
-            Reports give me your page you do not understand this{" "}
+            Reports give me your page you do not understand this&nbsp;
           </div>
           <div style={tweetsStyle}>
             <span
@@ -11613,7 +11676,8 @@ export default class App extends React.Component {
             is traded against. Shortselling without borrowing wouldn't be able
             to abdicate third-party risk from mixing the terms, it would be a
             bicameral option to end the contract with an individual seller...
-          </span>{" "}
+          </span>
+          &nbsp;
           <br />
           <br />
           You can really only certify but not bar unless there is prove-able
@@ -11633,15 +11697,15 @@ export default class App extends React.Component {
             }}
           >
             Socialism
-          </span>{" "}
-          leads to capitalism{" "}
+          </span>
+          &nbsp; leads to capitalism&nbsp;
           <a
             style={{ fontSize: "12px", color: "black" }}
             href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea"
           >
             without promises/with payout schedules
           </a>
-          , unless{" "}
+          , unless&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -11656,8 +11720,8 @@ export default class App extends React.Component {
             }}
           >
             someone campaigns on it
-          </span>{" "}
-          and makes communism/colonialism/quotas or prisoners’ dilemma
+          </span>
+          &nbsp; and makes communism/colonialism/quotas or prisoners’ dilemma
           duress-pooling again
           <div
             style={{
@@ -11734,7 +11798,8 @@ export default class App extends React.Component {
             to purchase items at businesses... and multiple diamond
             [investments]"... The fed uses our equity-split on shares of
             corporate competitors of mine...
-          </div>{" "}
+          </div>
+          &nbsp;
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -11787,15 +11852,15 @@ export default class App extends React.Component {
               }}
             >
               Unemployment insurance
-            </span>{" "}
-            generally is so those employees keep paying finance (counterfeit in
-            contract or colonialism) "free" but{" "}
+            </span>
+            &nbsp; generally is so those employees keep paying finance
+            (counterfeit in contract or colonialism) "free" but&nbsp;
             <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
               split-dollar (the big lie)
-            </a>{" "}
-            market share labor for business, labor and pre-revenue inventors and
-            artists just get their equity stolen and given to others. it's
-            illegal but not under this regime's precedence
+            </a>
+            &nbsp; market share labor for business, labor and pre-revenue
+            inventors and artists just get their equity stolen and given to
+            others. it's illegal but not under this regime's precedence
           </div>
           <i
             ref={this.homebuilder}
@@ -11874,7 +11939,7 @@ export default class App extends React.Component {
             </div>
             Existing within a market/vault/currency stewardship purveying
             corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz{" "}
+            vaults.biz&nbsp;
             <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
               allows you to go public but you pay a Double-Tax on Income
               (threatened-upon us by not price-prisoners’ dilemma duress pooling
@@ -11917,7 +11982,7 @@ export default class App extends React.Component {
                 maxWidth: "600px"
               }}
             >
-              blm vs trump; FBI (J. Sanborn) says,{" "}
+              blm vs trump; FBI (J. Sanborn) says,&nbsp;
               <span
                 onClick={() => {
                   this.cityhall.current.scrollIntoView("smooth");
@@ -11948,8 +12013,8 @@ export default class App extends React.Component {
           >
             <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
               Open-carry is threat
-            </a>{" "}
-            G-d is judge of soul, Territory is self
+            </a>
+            &nbsp; G-d is judge of soul, Territory is self
             <br />
             <br />
             <span
@@ -12034,7 +12099,7 @@ export default class App extends React.Component {
             My (NC) estimates for party compilation 2022 and 2024. Supply-side
             (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
             (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
-            call{" "}
+            call&nbsp;
             <a
               style={{
                 border: "1px solid",
@@ -12129,7 +12194,7 @@ export default class App extends React.Component {
           >
             Sales
           </span>
-          &nbsp;tax is efficient, under{" "}
+          &nbsp;tax is efficient, under&nbsp;
           <a href="https://vaults.biz">$2k buys</a>:
           <br />
           first grand is $60, second is $30 (6%, 3%)
@@ -12337,7 +12402,7 @@ export default class App extends React.Component {
               like this did not specify, but even water sprayed is not how
               people talk. the study of spittle specifically only showed a 1ft
               release, which fell immediately. it likely is transferred by
-              eating poisoned meat{" "}
+              eating poisoned meat&nbsp;
               <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
                 in reaction to the trade war
               </a>
@@ -12354,7 +12419,7 @@ export default class App extends React.Component {
               </a>
               <br />
               stop blaming others for advice, youtube put up videos of kids
-              kissing random girls and{" "}
+              kissing random girls and&nbsp;
               <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
                 all of them liking it
               </a>
@@ -12391,7 +12456,7 @@ export default class App extends React.Component {
               please stop selling us out
               <br />
               UBI without debt is bad competitively and causes hostile
-              international relations,{" "}
+              international relations,&nbsp;
               <span
                 style={{
                   textDecoration: "underline",
@@ -12400,9 +12465,9 @@ export default class App extends React.Component {
               >
                 with debt appreciates by malfeasant and corrupt jurisprudence
                 that the money can be paid back
-              </span>{" "}
-              which is impossible but they allow them to prosecute and cash out
-              at price-fixed counterfeit levels of success anyway
+              </span>
+              &nbsp; which is impossible but they allow them to prosecute and
+              cash out at price-fixed counterfeit levels of success anyway
             </div>
             <div
               style={{
@@ -12422,7 +12487,7 @@ export default class App extends React.Component {
               nefarious or short-sighted
               <br />
               More aid for the recently unemployed. There are 40% unemployed
-              that aren’t getting an equal application of law.{" "}
+              that aren’t getting an equal application of law.&nbsp;
               <span
                 style={{
                   fontWeight: "bolder",
@@ -12615,8 +12680,8 @@ export default class App extends React.Component {
                 symbiosis.
                 <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
                   https://www.lexico.com/grammar/prefixes-and-suffixes
-                </a>{" "}
-                To suggest otherwise mischaracterizes tards as not being
+                </a>
+                &nbsp; To suggest otherwise mischaracterizes tards as not being
                 self-preserving, describing them to always be retarding
                 themselves or their society.
                 <br />
@@ -12629,11 +12694,10 @@ export default class App extends React.Component {
                   maxWidth: "600px"
                 }}
               >
-                {" "}
-                stop saying printing delays pain of foreclosure the pain is in
-                the prohibition of price-elasticity and impossibility of debt to
-                allow usurpers to use assets on false pretenses of ownership of
-                assets they promise
+                &nbsp; stop saying printing delays pain of foreclosure the pain
+                is in the prohibition of price-elasticity and impossibility of
+                debt to allow usurpers to use assets on false pretenses of
+                ownership of assets they promise
                 <br />
                 growth of an economy by shares only increase wealth disparity;
                 growth by population lessens wealth disparity. Wealth beyond
@@ -12660,8 +12724,7 @@ export default class App extends React.Component {
                   transition: ".3s ease-out"
                 }}
               >
-                {" "}
-                Marx was not communist, colonist or
+                &nbsp; Marx was not communist, colonist or
                 slave-driver/interferer/rentier, he was an end-the-fed guy
                 <br />
                 He doesn't want&nbsp;
@@ -12814,7 +12877,7 @@ export default class App extends React.Component {
             >
               <br />
               it is not an insurrection if it is his opinion, regardless if
-              there is merit to Nick Carducci's{" "}
+              there is merit to Nick Carducci's&nbsp;
               <a href="https://vaults.biz">vaults.biz</a> election tech
               competitors who have worked with corrupt government elections,
               arrests of voter harvesting (sample bias) were made, and elections
@@ -12824,25 +12887,25 @@ export default class App extends React.Component {
               Public and private market intervention is a violation of civil
               rights of not having any involuntary servitude by duress or cost
               placed on savers, and the unequal application of the law for
-              dollar owners versus shareholders of equity.{" "}
+              dollar owners versus shareholders of equity.&nbsp;
               <b>
                 Lender, invoice-makers and renting more places one can live is
                 usurping assets by imagining the borrower has the right to what
                 they promise, which there is not even enough given interest by
                 time.
-              </b>{" "}
-              Payday loans on customers is also illegal since they promise other
-              people's money and they cannot wait so they charge customers. All
-              insurance companies cannot claim they save people money if they on
-              net lose money and only save relatively to eachother. In fact,
-              they operate on duress and even if they do not pay invoices only
-              gift-certificates, those do not necessarily rollover to the
-              client. Expiring or non-rollover gift certificates must be made
-              illegal in order to ensure the market players are doing no harm to
-              those in the pool under duress (there is no utility to insurance
-              except to recoup personal buying power to match the pooled
-              capacity) or those who those in the pool must take their money
-              from.{" "}
+              </b>
+              &nbsp; Payday loans on customers is also illegal since they
+              promise other people's money and they cannot wait so they charge
+              customers. All insurance companies cannot claim they save people
+              money if they on net lose money and only save relatively to
+              eachother. In fact, they operate on duress and even if they do not
+              pay invoices only gift-certificates, those do not necessarily
+              rollover to the client. Expiring or non-rollover gift certificates
+              must be made illegal in order to ensure the market players are
+              doing no harm to those in the pool under duress (there is no
+              utility to insurance except to recoup personal buying power to
+              match the pooled capacity) or those who those in the pool must
+              take their money from.&nbsp;
               <b>
                 This is not like a subscription-membership because that is
                 subject to competitive producers (if they are legally
@@ -12871,8 +12934,8 @@ export default class App extends React.Component {
                 </span>
                 &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
                 their non-monopsony, individual servicing
-              </b>{" "}
-              Grow up
+              </b>
+              &nbsp; Grow up
               <br />
               if it is not possible in whole, it is not possible to complete in
               part, since that part must be ran at the same time
@@ -13066,7 +13129,8 @@ export default class App extends React.Component {
                 width: "40px"
               }}
               url="https://www.researchgate.net/project/Class-action-suit"
-            />{" "}
+            />
+            &nbsp;
             <a href="https://www.researchgate.net/project/Class-action-suit">
               researchgate.net/project/Class-action-suit
             </a>
@@ -13262,15 +13326,13 @@ export default class App extends React.Component {
               No cash bail or cash bail. There is an alternative: JAIL
             </div>
             <div style={styleToApply}>
-              {" "}
-              Let me negotiate directly with my doctor. Ban invoices and
+              &nbsp; Let me negotiate directly with my doctor. Ban invoices and
               insurance - unless it is a gift certificate broker (not-price
               variable)
             </div>
             <div style={styleToApply}>
-              {" "}
-              Why didn’t you sell each song a la carte- All equity with bondage
-              allows for hostility
+              &nbsp; Why didn’t you sell each song a la carte- All equity with
+              bondage allows for hostility
             </div>
 
             <div style={styleToApply}>
@@ -13402,10 +13464,8 @@ export default class App extends React.Component {
         <br />
         <br />
         You can’t still believe they don’t want to spend. &nbsp;
-        <a href="https://johnshopkins.academia.edu/NickCarducci">
-          Same party
-        </a>{" "}
-        on outstanding bills
+        <a href="https://johnshopkins.academia.edu/NickCarducci">Same party</a>
+        &nbsp; on outstanding bills
         <br />
         Nick Carducci spending isn’t the problem, it’s what they are spending on
         an lying about it.
