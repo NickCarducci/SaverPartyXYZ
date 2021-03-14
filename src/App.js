@@ -617,8 +617,7 @@ export default class App extends React.Component {
         block any positive PCR test, but those become positive for cold as
         well...
         <br />
-        <br />
-        I have awaited funding for 9 years don't take thumbprint.us from
+        <br />I have awaited funding for 9 years don't take thumbprint.us from
         me now that I am almost finished. It is YOUR fault for not helping
         sooner, and I am not selling to government or people unless the bylaws
         is it is owned by no person or corporatin. For now, however, it is a
@@ -12815,7 +12814,7 @@ export default class App extends React.Component {
             Probability cannot be explained during mutually-exclusive,
             non-random (not shuffled) events
             <br />
-            Ballot-harvesting is sample bias
+            Ballot-harvesting (bearer of more than 3 people) is sample bias
           </div>
           <br />
           <div
