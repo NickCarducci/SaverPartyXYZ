@@ -583,10 +583,10 @@ export default class App extends React.Component {
         <div ref={this.WARONPOVERTY}>
           People say they care about poverty but take from their demand equity
           and give certain people more, reducing their earnings' utility and
-          forcing us into perpetual labor. The corrupt media and educational
-          institutions know this. Only if UBI is 100% ("Covid 'Relief'" Bill is
-          9%, probably includes insurance which is duress and this insurance
-          was&nbsp;
+          forcing us into perpetual labor (min: dishwash yourself a house, max:
+          pay unsettled "trade"). The corrupt media and educational institutions
+          know this. Only if UBI is 100% ("Covid 'Relief'" Bill is 9%, probably
+          includes insurance which is duress and this insurance was&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
