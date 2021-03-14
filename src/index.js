@@ -98,6 +98,7 @@ class Index extends React.Component {
           >
             <span style={{ display: "flex" }}>EXPLICIT</span>
             {[
+              "War on Poverty",
               "Gun Safety",
               "False Advert in House",
               "Polling Fraud",
@@ -165,7 +166,7 @@ class Index extends React.Component {
               height: "auto"
             }}
             src="https://www.dl.dropboxusercontent.com/s/oi43wpcc0h9phcz/saverAcorn%20%281%29.png?dl=0"
-          />{" "}
+          />
         </div>
         <div
           ref={this.page}
@@ -595,7 +596,10 @@ class Index extends React.Component {
               <br />
               <span style={{ fontSize: "30px" }}>&</span>&nbsp;&nbsp;&nbsp;The
               forces that are out to obfuscate and scourge&nbsp;
-              <a href="https://micro-theory.com">
+              <a
+                style={{ color: "rgb(150,220,255)" }}
+                href="https://micro-theory.com"
+              >
                 $82tdebt:$2tcurrencyComponentOfM1
               </a>
               &nbsp;(savings)
