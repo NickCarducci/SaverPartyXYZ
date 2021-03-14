@@ -660,6 +660,66 @@ export default class App extends React.Component {
           <a href="https://micro-theory.com">counterfeit-in-contract</a>
           &nbsp;case
           <br />
+          <br/>
+
+          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
+          &nbsp;doesn't understand price-elasticity or he is lying and guilty of
+          intending to harm AND mislead by saying, "Covid Relief Bill will help
+          Americans for a long time."
+          <br />
+          Manchin continues, "$300/week was enough, so no one misses a paycheck"
+          <br />
+          <br />
+          "For families, businesses, [price-fixing] and state and local
+          governments... Why couldn't you work with Republicans" - Chris Wallace
+          <br />
+          "We did, we got it done"
+          <br />
+          <br />
+          So regressive, abjectly-illegal, and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trust.current.scrollIntoView("smooth");
+              this.setState({ highlightTrust: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrust: false }),
+                10000
+              );
+            }}
+          >
+            anticompetitive
+          </span>
+          <br />
+          Biden: "I promised I would get government to work for the American
+          people, and this bill will do that," says Joe Biden
+          <br />
+          <a
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+            href="https://wavv.art/United_States_of_America"
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
+            />
+          </a>
+          <br />
+          CNN: "[This bill provides] aid for state and local government [bonds]"
+          - Jake Tapper, State of the Union, CNN
+          <br />
+          A Democrat says she only cares about current working lives is
+          admittance of conspiring to build trust
+          <br />
+          <br />
           <div style={{ position: "relative" }}>
             &nbsp;
             <img
@@ -3293,63 +3353,6 @@ export default class App extends React.Component {
           in recent legislation (cheating) after turning down funding for 9
           years
           <br />
-          <br />
-          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
-          &nbsp;doesn't understand price-elasticity or he is lying and guilty of
-          intending to harm AND mislead by saying, "Covid Relief Bill will help
-          Americans for a long time."
-          <br />
-          Manchin continues, "$300/week was enough, so no one misses a paycheck"
-          <br />
-          <br />
-          "For families, businesses, [price-fixing] and state and local
-          governments... Why couldn't you work with Republicans" - Chris Wallace
-          <br />
-          "We did, we got it done"
-          <br />
-          <br />
-          So regressive, abjectly-illegal, and&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.trust.current.scrollIntoView("smooth");
-              this.setState({ highlightTrust: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightTrust: false }),
-                10000
-              );
-            }}
-          >
-            anticompetitive
-          </span>
-          <br />
-          Biden: "I promised I would get government to work for the American
-          people, and this bill will do that," says Joe Biden
-          <br />
-          <a
-            style={{
-              width: "100%",
-              position: "relative"
-            }}
-            href="https://wavv.art/United_States_of_America"
-          >
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/g8gt9ykrkxcdovs/Screen%20Shot%202021-03-07%20at%2012.18.11%20PM.png?dl=0"
-            />
-          </a>
-          <br />
-          CNN: "[This bill provides] aid for state and local government [bonds]"
-          - Jake Tapper, State of the Union, CNN
-          <br />
-          A Democrat says she only cares about current working lives is
-          admittance of conspiring to build trust
           <br />
           <i
             onClick={() => {
