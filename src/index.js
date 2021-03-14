@@ -567,7 +567,7 @@ class Index extends React.Component {
                 padding: "4px 10px"
               }}
             >
-              Sustainability and Accessability
+              Sustainability, Inclusivity and Accessability
               <br />
               A&nbsp;
               <a
@@ -589,15 +589,17 @@ class Index extends React.Component {
               forces that are out to obfuscate and scourge
               <br />
               <br />
+              competing with customers
               <div
                 style={{
-                  marginBottom: "4px",
+                  margin: "4px 0px",
                   padding: "4px 0px",
                   borderTop: "2px solid white",
                   borderBottom: "2px solid white"
                 }}
               >
-                Harm, net-agressive self-defense
+                Harm, net-agressive self-defense, prevention of others owning
+                assets
               </div>
               if you move [not advise w/o intent or neglect to deceive, unless
               under non-state-tort(A5)] people you are at fault
@@ -607,6 +609,16 @@ class Index extends React.Component {
               intent/negligence non-state-tort...
               <br />
               <br />
+              <div
+                style={{
+                  margin: "4px 0px",
+                  padding: "4px 0px",
+                  borderTop: "2px solid white",
+                  borderBottom: "2px solid white"
+                }}
+              >
+                Competing with customers
+              </div>
               You can tax sales (of end-products, not equity) for
               free-rider-immutable services, wealth for systematic reparations
               but really those are torts, and adjunicate torts to repair
