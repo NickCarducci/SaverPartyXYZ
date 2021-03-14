@@ -7,7 +7,12 @@ import App from "./App";
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { top: true, scrollPlacementHeight: 0, openMenu: false };
+    this.state = {
+      top: true,
+      scrollPlacementHeight: 0,
+      openMenu: false,
+      inSection: "story"
+    };
     this.page = React.createRef();
     this.outer = React.createRef();
   }
@@ -80,7 +85,11 @@ class Index extends React.Component {
           color: "rgb(255,250,235)"
         }}
       >
-        <div style={{ position: "absolute" }}>
+        <div
+          style={{
+            position: "absolute"
+          }}
+        >
           <div
             onClick={() => this.setState({ openMenu: !this.state.openMenu })}
             style={{
@@ -144,6 +153,36 @@ class Index extends React.Component {
                 )}
               </div>
             ))}
+          </div>
+        </div>
+        <div
+          style={{
+            display: this.state.scrolling || this.state.top ? "flex" : "none",
+            position: "absolute",
+            bottom: "0px",
+            left: "0px",
+            color: "black",
+            width: "40px",
+            alignItems: "flex-end",
+            height: "100%",
+            transition: ".3s ease-out",
+            opacity: this.state.scrolling || this.state.top ? 1 : 0
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              position: "fixed",
+              bottom: "0px",
+              left: "0px",
+              color: "black",
+              width: "40px",
+              height: "min-content",
+              transition: ".3s ease-out",
+              opacity: this.state.scrolling || this.state.top ? 1 : 0
+            }}
+          >
+            {this.state.inSection.split(" ").map((x) => `${x}\n`)}
           </div>
         </div>
         <div
@@ -765,27 +804,39 @@ class Index extends React.Component {
               EVERYCREDIT HAS AN EQUAL AND OPPOSITE REACTION
             </a>
           </div>
-          <App
-            inSection={(section) =>
-              this.setState({ inSection: section, openMenu: true }, () => {
-                clearTimeout(this.openmenu);
-                this.openmenu = setTimeout(
-                  () => this.setState({ openMenu: false }),
-                  5432
-                );
-              })
-            }
-            scrolling={this.state.scrolling}
-            scrollTop={this.state.scrollTop}
-            top={this.state.top}
-            goToTop={() =>
-              this.setState({ highlightLaw: true }, () => {
-                setTimeout(() => this.setState({ highlightLaw: false }), 10000);
+          <div
+            style={{
+              display: "flex",
+              alignItems: "flex-end",
+              width: "100%",
+              height: "min-content"
+            }}
+          >
+            <App
+              inSection={(section) =>
+                this.setState({ inSection: section, openMenu: true }, () => {
+                  clearTimeout(this.openmenu);
+                  this.openmenu = setTimeout(
+                    () => this.setState({ openMenu: false }),
+                    5432
+                  );
+                })
+              }
+              scrolling={this.state.scrolling}
+              scrollTop={this.state.scrollTop}
+              top={this.state.top}
+              goToTop={() =>
+                this.setState({ highlightLaw: true }, () => {
+                  setTimeout(
+                    () => this.setState({ highlightLaw: false }),
+                    10000
+                  );
 
-                window.scroll({ top: 0, behavior: "smooth" });
-              })
-            }
-          />
+                  window.scroll({ top: 0, behavior: "smooth" });
+                })
+              }
+            />
+          </div>
         </div>
       </div>
     );
