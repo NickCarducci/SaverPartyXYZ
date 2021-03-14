@@ -549,25 +549,28 @@ export default class App extends React.Component {
       opacity: ".8",
       backgroundColor: "white"
     };
-    const tweetsStyle = {
+    var tweetsStyle = {
       padding: "20px",
-
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
     return (
       <div
         style={{
-          transition: ".7s ease-out",
+          transform: `translateX(${
+            this.props.scrolling || this.props.top ? "40px" : "0px"
+          })`,
+          transition: `${
+            this.props.scrolling || this.props.top ? ".3" : ".7"
+          }s ease-in-out`,
           color:
             this.props.scrolling || this.props.top
               ? "rgb(135,170,205)"
               : "rgb(60,70,85)",
           display: "block",
-          right: "20px",
           margin: "7px",
           position: "relative",
-          width: "calc(100% - 44px)",
+          width: "calc(100% - 64px)",
           maxWidth: "600px",
           height: "min-content"
         }}
@@ -613,7 +616,12 @@ export default class App extends React.Component {
         <br/>
         <br/>*/}
         Inflation is the degradation of your depositary
-        <div ref={this.RENTIERCOLONIALISM}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.RENTIERCOLONIALISM}
+        >
           <a href="https://zippia.com/landlord-jobs/demographics/">
             Rentier-Colonialism
           </a>
@@ -644,7 +652,12 @@ export default class App extends React.Component {
           housing) is 102%.
         </div>
         <br />
-        <div ref={this.ABUSEOFPOWER}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.ABUSEOFPOWER}
+        >
           <i
             ref={this.homebuilder}
             style={{
@@ -1542,7 +1555,12 @@ export default class App extends React.Component {
           down debt or default to cash:debt, not the GDP - new money - new debt
         </div>
         <br />
-        <div ref={this.WARONPOVERTY}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.WARONPOVERTY}
+        >
           People say they care about poverty but take from their demand equity
           and give certain people more, reducing their earnings' utility and
           forcing us into perpetual labor (min: dishwash yourself a house, max:
@@ -2756,7 +2774,12 @@ export default class App extends React.Component {
           of borrowers’ customers, as of now
         </div>
         <br />
-        <div ref={this.GUNSAFETY}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.GUNSAFETY}
+        >
           <GunSafety
             injury={() => {
               this.injury.current.scrollIntoView("smooth");
@@ -2837,7 +2860,12 @@ export default class App extends React.Component {
           />
         </div>
         <br />
-        <div ref={this.POLLINGFRAUD}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.POLLINGFRAUD}
+        >
           <PollingFraud
             flop={() => {
               this.flop.current.scrollIntoView("smooth");
@@ -2951,7 +2979,12 @@ export default class App extends React.Component {
           </div>
         </div>
         <br />
-        <div ref={this.FALSEADVERTINHOUSE}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.FALSEADVERTINHOUSE}
+        >
           The “right to organize” can turn into exclusion, duress or threats if
           based on dues. Strikes & legal defense therein is good interpretation
           of the right to organize for demand(of pay) - intent to corner-their
@@ -3600,11 +3633,21 @@ export default class App extends React.Component {
           ), servitude is defined as a state of action to some end, still.
         </div>
         <br />
-        <div ref={this.IMMIGRATION}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.IMMIGRATION}
+        >
           <Immigration />
         </div>
         <br />
-        <div ref={this.OWNERSHIPFRAUD}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.OWNERSHIPFRAUD}
+        >
           <a
             href="https://thumbprint.us"
             style={{
@@ -4057,7 +4100,12 @@ export default class App extends React.Component {
           Economics, Stats because...
         </div>
         <br />
-        <div ref={this.FALSEADVERTINSENATE}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.FALSEADVERTINSENATE}
+        >
           CNN keeps using polls this is what the&nbsp;
           <span
             onClick={() => {
@@ -5737,7 +5785,12 @@ export default class App extends React.Component {
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
           </div>
         </div>
-        <div ref={this.INSURANCEFRAUD}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.INSURANCEFRAUD}
+        >
           Insurance is market-intervention akin to colonialism and therefore
           involuntary by duress, the funding for government insurance is
           untreated in the same contract law as corporate shares. We buy-in due
@@ -6070,7 +6123,12 @@ export default class App extends React.Component {
           </div>
         </div>
         <br />
-        <div ref={this.VIRUS}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.VIRUS}
+        >
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of
@@ -6966,7 +7024,12 @@ export default class App extends React.Component {
             .
           </span>
         </div>
-        <div ref={this.MONOPOLY}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.MONOPOLY}
+        >
           <br />
           <i
             style={{
@@ -10213,7 +10276,12 @@ export default class App extends React.Component {
             vs mRNA graft both take 2 weeks
           </div>
         </div>
-        <div ref={this.EDUCATION}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.EDUCATION}
+        >
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10250,7 +10318,12 @@ export default class App extends React.Component {
           <br />
           <br />
         </div>
-        <div ref={this.NULLHYPOTHESIS}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.NULLHYPOTHESIS}
+        >
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10585,7 +10658,12 @@ export default class App extends React.Component {
             DO IT yourself stop taking from us for no change except price
           </div>
         </div>
-        <div ref={this.SECURITIESFRAUD}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.SECURITIESFRAUD}
+        >
           <div
             style={{
               height: "min-content",
@@ -11288,7 +11366,12 @@ export default class App extends React.Component {
             </span>
           </div>
         </div>
-        <div ref={this.SYSTEMICINEQUALITY}>
+        <div
+          style={{
+            width: "100%"
+          }}
+          ref={this.SYSTEMICINEQUALITY}
+        >
           <iframe
             title="Dr Seuss cultural zoo"
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
