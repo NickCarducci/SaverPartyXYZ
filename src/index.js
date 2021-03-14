@@ -19,7 +19,7 @@ class Index extends React.Component {
   };
   handleScroll = (e) => {
     this.setState({ scrolling: true }, () => {
-      var scrollTop = window.scrollY + window.innerHeight;
+      var scrollTop = window.scrollY; //+ window.innerHeight;
       var scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
       var scrollPlacementHeight = Math.round(
         (window.innerHeight - 115) * (scrollTop / scrollHeight)
@@ -705,9 +705,9 @@ class Index extends React.Component {
                 deserve.
               </span>
               <span style={{ color: "grey" }}>
-                Like my stuff? Hire me! 7322331085. I am asking for 4100% of
-                what you think is possible. Please collude with Twitter, CNN &
-                AP to gaslight people into thinking they want to fulfill my
+                &nbsp; Like my stuff? Hire me! 7322331085. I am asking for 4100%
+                of what you think is possible. Please collude with Twitter, CNN
+                & AP to gaslight people into thinking they want to fulfill my
                 wishes for myself by splitting their equity, try not to let them
                 on to what is happening
               </span>
