@@ -514,7 +514,7 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          transition:".7s ease-out",
+          transition: ".7s ease-out",
           color:
             this.props.scrolling || this.props.top
               ? "rgb(255,250,235)"
@@ -568,9 +568,12 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
-        FairFight.org, the protection of the fillabuster is the only protection a minority has, you want to discuss thinks that cannot be proven freely until a cease and desist is brought from evidence your presumption is not a possibility (reasonable doubt)
-        bad name for them/their actions<br/>
-        <br/>
+        FairFight.org, the protection of the fillabuster is the only protection
+        a minority has, you want to discuss thinks that cannot be proven freely
+        until a cease and desist is brought from evidence your presumption is
+        not a possibility (reasonable doubt) bad name for them/their actions
+        <br />
+        <br />
         The Government is to help keep citizens from harming eachother, not
         monopolize - even civic tech is copyrighted
         <br />
@@ -2679,45 +2682,6 @@ export default class App extends React.Component {
             down-payments + time wasted & stress
           </span>
           ), servitude is defined as a state of action to some end, still.
-          <br />
-          Why does&nbsp;
-          <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
-            Arthel Neville
-          </a>
-          &nbsp;think&nbsp;
-          <span
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.covidKills.current.scrollIntoView("smooth");
-              this.setState({ highlightCovidKills: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightCovidKills: false }),
-                10000
-              );
-            }}
-          >
-            200k/year deaths
-          </span>
-          &nbsp;is more important than&nbsp;
-          <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
-            80k/year missing children
-          </a>
-          .<br />
-          <a href="https://video.foxnews.com/v/6237804187001#sp=show-clips">
-            "Risk averse" dunce
-          </a>
-          &nbsp;from JHU telling you to use a mask unless&nbsp;
-          <a href="https://humanharvest.info">"vaccinated"/grafted</a>
-          &nbsp;instead of&nbsp;
-          <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or
-          fall
         </div>
         <br />
         <br />
@@ -2845,22 +2809,6 @@ export default class App extends React.Component {
           >
             anticompetitive
           </span>
-          <br />
-          <div
-            style={{
-              width: "100%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "100%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
-            />
-          </div>
           <br />
           Biden: "I promised I would get government to work for the American
           people, and this bill will do that," says Joe Biden
@@ -5437,6 +5385,62 @@ export default class App extends React.Component {
         </div>
         <br />
         <div ref={this.VIRUS}>
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/kxi7azldwu0tr7u/Screen%20Shot%202021-03-07%20at%201.35.18%20PM.png?dl=0"
+            />
+          </div>
+          <br />
+          Why does&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Arthel_Neville">
+            Arthel Neville
+          </a>
+          &nbsp;think&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.covidKills.current.scrollIntoView("smooth");
+              this.setState({ highlightCovidKills: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCovidKills: false }),
+                10000
+              );
+            }}
+          >
+            200k/year deaths
+          </span>
+          &nbsp;is more important than&nbsp;
+          <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
+            80k/year missing children
+          </a>
+          .<br />
+          <a href="https://video.foxnews.com/v/6237804187001#sp=show-clips">
+            "Risk averse" dunce
+          </a>
+          &nbsp;from JHU telling you to use a mask unless&nbsp;
+          <a href="https://humanharvest.info">"vaccinated"/grafted</a>
+          &nbsp;instead of&nbsp;
+          <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or
+          fall
+          <br />
+          <br />
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of B.1.1.7
