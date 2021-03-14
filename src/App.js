@@ -547,6 +547,9 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        "All it takes are resources," says a guest of CNN pertaining to migrant help.  Resources do not have to come from Saver/laborer/artist equity, it can come from rich donors wanting to protect themselves or free-rider-immutable 3% sales tax under $2k.  To suggest this isn't possible is criminal, as is forcing producers to sell on credit or loans: counterfeit-in-contract. Technically illegal but not by precedence due to court malfeasance
+        <br/>
+        <br/>
         CNN: "Biden is sure to mention the $1400 to sell the Covid Relief Bill,
         so they know EXACTLY how it affects them." 9% of exact if that is the
         description, -100% goes unwarned by him about being able to get the same
