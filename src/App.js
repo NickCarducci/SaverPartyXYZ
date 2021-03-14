@@ -547,6 +547,11 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        CNN: "Biden is sure to mention the $1400 to sell the Covid Relief Bill, so they know EXACTLY how it affects them." 9% of exact if that is the description, -100% goes unwarned by him about being able to get the same service if ban invoice/rent/non-small-item-sales-tax instead.
+        <br/>
+        cut child poverty in half with $1400 is a one-time thing.  Markets (not promises in finance, non-natural growth (most of your measure is population idiot, laughable to look at GDP without fixing for population and claiming credit for the morning Rona on CNN)) don't know best it is fairest
+        <br/>
+        <br/>
         The right says fiscal responsibility for the government but not the
         corporates. Michelle Malkin, Sovereign Nation, what the fuck does blm &
         "vaccines"/grafts have to do with police
