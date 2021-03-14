@@ -66,6 +66,9 @@ class Index extends React.Component {
     return (
       <div //onScroll={this.handleScroll}
         ref={this.outer}
+        style={{
+          color: "rgb(255,250,235)"
+        }}
       >
         <div style={{ position: "absolute" }}>
           <div
@@ -106,7 +109,8 @@ class Index extends React.Component {
               <div
                 key={x}
                 style={{
-                  color: this.state.inSection === x ? "" : "grey",
+                  color:
+                    this.state.inSection === x ? "rgb(255,250,235)" : "grey",
                   width: "max-content",
                   fontSize: this.state.openMenu
                     ? this.state.inSection === x
@@ -172,7 +176,6 @@ class Index extends React.Component {
               height: "min-content",
               right: "0px",
               width: "100%",
-              color: "white",
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
@@ -185,7 +188,6 @@ class Index extends React.Component {
                 fontSize: "20px",
                 alignSelf: "flex-start",
                 width: "calc(100% - 60px)",
-                color: "white",
                 display: "flex",
                 textAlign: "left",
                 position: "relative",
@@ -216,7 +218,6 @@ class Index extends React.Component {
                 overflow: "hidden",
                 height: "50px",
                 width: "calc(100% - 46px)",
-                color: "white",
                 display: "flex",
                 position: "relative",
                 padding: "4px 10px"
@@ -230,7 +231,6 @@ class Index extends React.Component {
                   overflow: "hidden",
                   height: "50px",
                   width: "46px",
-                  color: "white",
                   display: "flex",
                   position: "absolute",
                   padding: "4px 10px"
@@ -242,7 +242,6 @@ class Index extends React.Component {
                   overflowY: "hidden",
                   height: "62px",
                   width: "calc(100% - 46px)",
-                  color: "white",
                   display: "flex",
                   position: "relative",
                   padding: "4px 10px"
@@ -561,7 +560,6 @@ class Index extends React.Component {
                 height: "min-content",
                 wordBreak: "break-word",
                 width: "calc(100% - 46px)",
-                color: "white",
                 display: "inline-block",
                 position: "relative",
                 padding: "4px 10px"
@@ -589,86 +587,103 @@ class Index extends React.Component {
               forces that are out to obfuscate and scourge
               <br />
               <br />
-              competing with customers - growth causes consterNation
+              <span style={{ /**rgb(250,10,88) */ color: "rgb(250,100,100)" }}>
+                suffocating inventors
+              </span>
               <div
                 style={{
                   margin: "4px 0px",
                   padding: "4px 0px",
-                  borderTop: "2px solid white",
-                  borderBottom: "2px solid white"
+                  borderTop: "2px solid",
+                  borderBottom: "2px solid"
                 }}
               >
                 Harm, net-agressive self-defense, prevention of others owning
                 assets
               </div>
-              if you move [not advise w/o intent or neglect to deceive, unless
-              under non-state-tort(A5)] people you are at fault
-              <br />
-              read 'state' as p2s not public service role, see liability of
-              product advertising... which should carry same crime of
-              intent/negligence non-state-tort...
+              <span
+                style={{
+                  color: "rgb(255,240,240)"
+                }}
+              >
+                if you move [not advise w/o intent or neglect to deceive, unless
+                under non-state-tort(A5)] people you are at fault
+                <br />
+                read 'state' as p2s not public service role, see liability of
+                product advertising... which should carry same crime of
+                intent/negligence non-state-tort...
+              </span>
               <br />
               <br />
               <div
                 style={{
                   margin: "4px 0px",
                   padding: "4px 0px",
-                  borderTop: "2px solid white",
-                  borderBottom: "2px solid white"
+                  borderTop: "2px solid",
+                  borderBottom: "2px solid"
                 }}
               >
-                Competing with customers
+                <span style={{ color: "rgb(80,220,0)" }}>
+                  Competing with customers
+                </span>
+                &nbsp;- growth causes consterNation
               </div>
-              You can tax sales (of end-products, not equity) for
-              free-rider-immutable services, wealth for systematic reparations
-              but really those are torts, and adjunicate torts to repair
-              unjustice;&nbsp;
               <span
-                //ref={this.law}
                 style={{
-                  transition: ".3s ease-in",
-                  color: this.state.highlightLaw ? "white" : "",
-                  backgroundColor: this.state.highlightLaw
-                    ? "rgb(170,100,205)"
-                    : ""
+                  color: "rgb(240,255,245)"
                 }}
               >
-                any tax or debt otherwise not only is involuntary slavery and a
-                trust-building monopsony by the government, their contractors
-                and their propograndising conspitators in ratings and education,
-                but debt benefits the bond-holders & interference by tax or
-                credit does nothing for the state of the world or the utilities
-                purchased but raise prices and circumvent Savers who have worked
-                for what they earn
+                You can tax sales (of end-products, not equity) for
+                free-rider-immutable services, wealth for systematic reparations
+                but really those are torts, and adjunicate torts to repair
+                unjustice;&nbsp;
+                <span
+                  //ref={this.law}
+                  style={{
+                    transition: ".3s ease-in",
+                    color: this.state.highlightLaw ? "white" : "",
+                    backgroundColor: this.state.highlightLaw
+                      ? "rgb(170,100,205)"
+                      : ""
+                  }}
+                >
+                  any tax or debt otherwise not only is involuntary slavery and
+                  a trust-building monopsony by the government, their
+                  contractors and their propograndising conspitators in ratings
+                  and education, but debt benefits the bond-holders &
+                  interference by tax or credit does nothing for the state of
+                  the world or the utilities purchased but raise prices and
+                  circumvent Savers who have worked for what they earn
+                </span>
+                . Saver Party represents the people that work or fund
+                entrepreneurs on their&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://vaults.biz"
+                >
+                  customers' time
+                </a>
+                , and do not borrow or lend, and it is good for quality +
+                -price. It is an obvious&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
+                >
+                  red-herring
+                </a>
+                &nbsp; to help Wall st; yet the Republicans do the same. Saver
+                party exists and represents&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://www.isidewith.com/poll/488729614"
+                >
+                  most Americans
+                </a>
+                . Why call your parties one of the primary two; bipartisanship
+                representing a minority of Americans - and no civil or human
+                rights - is a lie, if claiming it to be what people want - or
+                deserve.
               </span>
-              . Saver Party represents the people that work or fund
-              entrepreneurs on their&nbsp;
-              <a
-                style={{ color: "rgb(150,220,255)" }}
-                href="https://vaults.biz"
-              >
-                customers' time
-              </a>
-              , and do not borrow or lend, and it is good for quality + -price.
-              It is an obvious&nbsp;
-              <a
-                style={{ color: "rgb(150,220,255)" }}
-                href="https://www.opensecrets.org/2020-presidential-race/joe-biden/industries?id=N00001669"
-              >
-                red-herring
-              </a>
-              &nbsp; to help Wall st; yet the Republicans do the same. Saver
-              party exists and represents&nbsp;
-              <a
-                style={{ color: "rgb(150,220,255)" }}
-                href="https://www.isidewith.com/poll/488729614"
-              >
-                most Americans
-              </a>
-              . Why call your parties one of the primary two; bipartisanship
-              representing a minority of Americans - and no civil or human
-              rights - is a lie, if claiming it to be what people want - or
-              deserve.{" "}
               <span style={{ color: "grey" }}>
                 Like my stuff? Hire me! 7322331085. I am asking for 4100% of
                 what you think is possible. Please collude with Twitter, CNN &
@@ -682,21 +697,33 @@ class Index extends React.Component {
                 style={{
                   marginBottom: "4px",
                   padding: "4px 0px",
-                  borderTop: "2px solid white",
-                  borderBottom: "2px solid white"
+                  borderTop: "2px solid",
+                  borderBottom: "2px solid"
                 }}
               >
-                International Relations - Individual World Order
+                <span style={{ color: "rgb(25,122,158)" }}>
+                  International Relations
+                </span>
+                &nbsp;- Individual World Order
               </div>
-              In order to compete with a debt-based country (not because it is
-              economically unfair, like a&nbsp;
-              <a href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy">
-                communist economy is not as strong economically
-              </a>
-              &nbsp;as a productive && EFFICIENT, micro-controlled/empowered by
-              currency concord one), China wars/threatens. However, from my
-              historical market studies - world peace would come from the
-              understanding of and repairing, as needed, the following:
+              <span
+                style={{
+                  color: "rgb(240,245,255)"
+                }}
+              >
+                In order to compete with a debt-based country (not because it is
+                economically unfair, like a&nbsp;
+                <a
+                  style={{ color: "rgb(150,220,255)" }}
+                  href="https://www.academia.edu/43983386/Can_a_socialist_or_communist_system_compete_effectively_in_a_global_economy"
+                >
+                  communist economy is not as strong economically
+                </a>
+                &nbsp;as a productive && EFFICIENT, micro-controlled/empowered
+                by currency concord one), China wars/threatens. However, from my
+                historical market studies - world peace would come from the
+                understanding of and repairing, as needed, the following:
+              </span>
             </div>
           </div>
           <div
