@@ -1,9 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { CSSTransition } from "react-transition-group";
-
-import App from "./App";
-
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -18,17 +12,27 @@ class Index extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   };
   handleScroll = (e) => {
-    var scrollTop = window.scrollY + window.innerHeight;
-    var scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
-    var scrollPlacementHeight = Math.round(
-      (window.innerHeight - 115) * (scrollTop / scrollHeight)
-    );
-    var top = scrollTop === window.innerHeight;
-    this.setState({
-      openMenu: top ? false : this.state.openMenu,
-      top,
-      scrollPlacementHeight,
-      scrollTop
+    this.setState({ scrolling: true }, () => {
+      var scrollTop = window.scrollY + window.innerHeight;
+      var scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
+      var scrollPlacementHeight = Math.round(
+        (window.innerHeight - 115) * (scrollTop / scrollHeight)
+      );
+      var top = scrollTop === window.innerHeight;
+      this.setState(
+        {
+          openMenu: top ? false : this.state.openMenu,
+          top,
+          scrollPlacementHeight,
+          scrollTop
+        },
+        () => {
+          clearTimeout(this.scrollTimeout);
+          this.scrollTimeout = setTimeout(() => {
+            this.setState({ scrolling: false });
+          }, 400);
+        }
+      );
     });
   };
   handleMove = (ev, touch) => {
@@ -754,6 +758,7 @@ class Index extends React.Component {
                 );
               })
             }
+            scrolling={this.state.scrolling}
             scrollTop={this.state.scrollTop}
             top={this.state.top}
             goToTop={() =>
