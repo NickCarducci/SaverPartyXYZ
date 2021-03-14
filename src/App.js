@@ -627,6 +627,7 @@ export default class App extends React.Component {
           Price-inelasticity inflation is 4100%, Monetary-inflation (minus
           housing) is 102%.
         </div>
+        <br/>
         <div ref={this.WARONPOVERTY}>
           People say they care about poverty but take from their demand equity
           and give certain people more, reducing their earnings' utility and
