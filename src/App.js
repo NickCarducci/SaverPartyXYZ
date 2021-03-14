@@ -547,6 +547,9 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
+        The Government is to help keep citizens from harming eachother, not monopolize - even civic tech is copyrighted
+        <br/>
+        <br/>
         "N.J. could soon face a historic housing crisis. A city devastated by
         COVID-19 might be the epicenter." - NJ.com These crises are man made.
         Enough rentier-colonialism. Just as wasteful as communist ghost cities.
