@@ -568,9 +568,11 @@ export default class App extends React.Component {
         {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
         <br/>
         <br/>*/}
-        "Equity-disenfranshisement of savers leads to more growth, dynamism & opportunity for everyone. So let's get started," peers Fareed Zakaria.  STAY THE FUCK AWAY FROM ME CREEP
-        <br/>
-        <br/>
+        "Equity-disenfranshisement of savers leads to more growth, dynamism &
+        opportunity for everyone. So let's get started," peers Fareed Zakaria.
+        STAY THE FUCK AWAY FROM ME CREEP. 2/3 seem to approve it from a sample, then the guest says I am not going to speak for Republicans. YOU ARE SPEAKING FOR MOST OF AMERICANS WITH A SAMPLE YOU FUCKING DUNCE
+        <br />
+        <br />
         FairFight.org, the protection of the fillabuster is the only protection
         a minority has, you want to discuss thinks that cannot be proven freely
         until a cease and desist is brought from evidence your presumption is
