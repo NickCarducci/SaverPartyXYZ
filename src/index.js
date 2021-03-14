@@ -195,6 +195,7 @@ class Index extends React.Component {
           >
             <div
               style={{
+                bottom: "0px",
                 zIndex: "1",
                 right: "0px",
                 boxShadow: "inset -5px 0px 3px 1px rgb(25,25,25)",
@@ -207,6 +208,7 @@ class Index extends React.Component {
             />
             <div
               style={{
+                bottom: "0px",
                 padding: "10px",
                 display: "flex",
                 position: "relative",
