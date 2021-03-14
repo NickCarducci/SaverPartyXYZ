@@ -1,3 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import { CSSTransition } from "react-transition-group";
+
+import App from "./App";
+
 class Index extends React.Component {
   constructor(props) {
     super(props);
