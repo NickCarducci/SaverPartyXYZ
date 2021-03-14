@@ -527,8 +527,8 @@ export default class App extends React.Component {
           transition: ".7s ease-out",
           color:
             this.props.scrolling || this.props.top
-              ? "rgb(255,250,235)"
-              : "black",
+              ? "rgb(135,170,205)"
+              : "rgb(60,70,85)",
           display: "block",
           right: "20px",
           margin: "7px",
