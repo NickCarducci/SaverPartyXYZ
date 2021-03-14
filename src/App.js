@@ -339,154 +339,162 @@ export default class App extends React.Component {
           ) {
             this.props.inSection("War on Poverty");
           } else {
-          const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
-          const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
-          if (
-            this.props.scrollTop < gunSafetyOffsetTop ||
-            this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
-          ) {
-            this.props.inSection("Gun Safety");
-          } else {
-            const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
-            const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
+            const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
+            const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
             if (
-              this.props.scrollTop < pollingFraudOffsetTop ||
-              this.props.scrollTop < pollingFraudHeight + pollingFraudOffsetTop
+              this.props.scrollTop < gunSafetyOffsetTop ||
+              this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
             ) {
-              this.props.inSection("Polling Fraud");
+              this.props.inSection("Gun Safety");
             } else {
-              const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE.current
-                .offsetHeight;
-              const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
-                .current.offsetTop;
+              const pollingFraudHeight = this.POLLINGFRAUD.current.offsetHeight;
+              const pollingFraudOffsetTop = this.POLLINGFRAUD.current.offsetTop;
               if (
-                this.props.scrollTop < falseAdvertInHouseOffsetTop ||
+                this.props.scrollTop < pollingFraudOffsetTop ||
                 this.props.scrollTop <
-                  falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
+                  pollingFraudHeight + pollingFraudOffsetTop
               ) {
-                this.props.inSection("False Advert in House");
+                this.props.inSection("Polling Fraud");
               } else {
-                const immigrationHeight = this.IMMIGRATION.current.offsetHeight;
-                const immigrationOffsetTop = this.IMMIGRATION.current.offsetTop;
+                const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE.current
+                  .offsetHeight;
+                const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
+                  .current.offsetTop;
                 if (
-                  this.props.scrollTop < immigrationOffsetTop ||
+                  this.props.scrollTop < falseAdvertInHouseOffsetTop ||
                   this.props.scrollTop <
-                    immigrationHeight + immigrationOffsetTop
+                    falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
                 ) {
-                  this.props.inSection("Immigration");
+                  this.props.inSection("False Advert in House");
                 } else {
-                  const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                  const immigrationHeight = this.IMMIGRATION.current
                     .offsetHeight;
-                  const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD.current
+                  const immigrationOffsetTop = this.IMMIGRATION.current
                     .offsetTop;
                   if (
-                    this.props.scrollTop < ownershipFraudOffsetTop ||
+                    this.props.scrollTop < immigrationOffsetTop ||
                     this.props.scrollTop <
-                      ownershipFraudHeight + ownershipFraudOffsetTop
+                      immigrationHeight + immigrationOffsetTop
                   ) {
-                    this.props.inSection("Ownership Fraud");
+                    this.props.inSection("Immigration");
                   } else {
-                    const falseAdvertInSenateHeight = this.FALSEADVERTINSENATE
-                      .current.offsetHeight;
-                    const falseAdvertInSenateOffsetTop = this
-                      .FALSEADVERTINSENATE.current.offsetTop;
+                    const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                      .offsetHeight;
+                    const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD.current
+                      .offsetTop;
                     if (
-                      this.props.scrollTop < falseAdvertInSenateOffsetTop ||
+                      this.props.scrollTop < ownershipFraudOffsetTop ||
                       this.props.scrollTop <
-                        falseAdvertInSenateHeight + falseAdvertInSenateOffsetTop
+                        ownershipFraudHeight + ownershipFraudOffsetTop
                     ) {
-                      this.props.inSection("False Advert in Senate");
+                      this.props.inSection("Ownership Fraud");
                     } else {
-                      const insuranceFraudHeight = this.INSURANCEFRAUD.current
-                        .offsetHeight;
-                      const insuranceFraudOffsetTop = this.INSURANCEFRAUD
-                        .current.offsetTop;
+                      const falseAdvertInSenateHeight = this.FALSEADVERTINSENATE
+                        .current.offsetHeight;
+                      const falseAdvertInSenateOffsetTop = this
+                        .FALSEADVERTINSENATE.current.offsetTop;
                       if (
-                        this.props.scrollTop < insuranceFraudOffsetTop ||
+                        this.props.scrollTop < falseAdvertInSenateOffsetTop ||
                         this.props.scrollTop <
-                          insuranceFraudHeight + insuranceFraudOffsetTop
+                          falseAdvertInSenateHeight +
+                            falseAdvertInSenateOffsetTop
                       ) {
-                        this.props.inSection("Insurance Fraud");
+                        this.props.inSection("False Advert in Senate");
                       } else {
-                        const virusHeight = this.VIRUS.current.offsetHeight;
-                        const virusOffsetTop = this.VIRUS.current.offsetTop;
+                        const insuranceFraudHeight = this.INSURANCEFRAUD.current
+                          .offsetHeight;
+                        const insuranceFraudOffsetTop = this.INSURANCEFRAUD
+                          .current.offsetTop;
                         if (
-                          this.props.scrollTop < virusOffsetTop ||
-                          this.props.scrollTop < virusHeight + virusOffsetTop
+                          this.props.scrollTop < insuranceFraudOffsetTop ||
+                          this.props.scrollTop <
+                            insuranceFraudHeight + insuranceFraudOffsetTop
                         ) {
-                          this.props.inSection("Virus");
+                          this.props.inSection("Insurance Fraud");
                         } else {
-                          const monopolyHeight = this.MONOPOLY.current
-                            .offsetHeight;
-                          const monopolyOffsetTop = this.MONOPOLY.current
-                            .offsetTop;
+                          const virusHeight = this.VIRUS.current.offsetHeight;
+                          const virusOffsetTop = this.VIRUS.current.offsetTop;
                           if (
-                            this.props.scrollTop < monopolyOffsetTop ||
-                            this.props.scrollTop <
-                              monopolyHeight + monopolyOffsetTop
+                            this.props.scrollTop < virusOffsetTop ||
+                            this.props.scrollTop < virusHeight + virusOffsetTop
                           ) {
-                            this.props.inSection("Monopoly");
+                            this.props.inSection("Virus");
                           } else {
-                            const educationHeight = this.EDUCATION.current
+                            const monopolyHeight = this.MONOPOLY.current
                               .offsetHeight;
-                            const educationOffsetTop = this.EDUCATION.current
+                            const monopolyOffsetTop = this.MONOPOLY.current
                               .offsetTop;
                             if (
-                              this.props.scrollTop < educationOffsetTop ||
+                              this.props.scrollTop < monopolyOffsetTop ||
                               this.props.scrollTop <
-                                educationHeight + educationOffsetTop
+                                monopolyHeight + monopolyOffsetTop
                             ) {
-                              this.props.inSection("Education");
+                              this.props.inSection("Monopoly");
                             } else {
-                              const nullHypothesisHeight = this.NULLHYPOTHESIS
-                                .current.offsetHeight;
-                              const nullHypothesisOffsetTop = this
-                                .NULLHYPOTHESIS.current.offsetTop;
+                              const educationHeight = this.EDUCATION.current
+                                .offsetHeight;
+                              const educationOffsetTop = this.EDUCATION.current
+                                .offsetTop;
                               if (
+                                this.props.scrollTop < educationOffsetTop ||
                                 this.props.scrollTop <
-                                  nullHypothesisOffsetTop ||
-                                this.props.scrollTop <
-                                  nullHypothesisHeight + nullHypothesisOffsetTop
+                                  educationHeight + educationOffsetTop
                               ) {
-                                this.props.inSection("Null Hypothesis");
+                                this.props.inSection("Education");
                               } else {
-                                const securitiesFraudHeight = this
-                                  .SECURITIESFRAUD.current.offsetHeight;
-                                const securitiesFraudOffsetTop = this
-                                  .SECURITIESFRAUD.current.offsetTop;
+                                const nullHypothesisHeight = this.NULLHYPOTHESIS
+                                  .current.offsetHeight;
+                                const nullHypothesisOffsetTop = this
+                                  .NULLHYPOTHESIS.current.offsetTop;
                                 if (
                                   this.props.scrollTop <
-                                    securitiesFraudOffsetTop ||
+                                    nullHypothesisOffsetTop ||
                                   this.props.scrollTop <
-                                    securitiesFraudHeight +
-                                      securitiesFraudOffsetTop
+                                    nullHypothesisHeight +
+                                      nullHypothesisOffsetTop
                                 ) {
-                                  this.props.inSection("Securities Fraud");
+                                  this.props.inSection("Null Hypothesis");
                                 } else {
-                                  const systematicInequalityHeight = this
-                                    .SYSTEMICINEQUALITY.current.offsetHeight;
-                                  const systematicInequalityOffsetTop = this
-                                    .SYSTEMICINEQUALITY.current.offsetTop;
+                                  const securitiesFraudHeight = this
+                                    .SECURITIESFRAUD.current.offsetHeight;
+                                  const securitiesFraudOffsetTop = this
+                                    .SECURITIESFRAUD.current.offsetTop;
                                   if (
                                     this.props.scrollTop <
-                                      systematicInequalityOffsetTop ||
+                                      securitiesFraudOffsetTop ||
                                     this.props.scrollTop <
-                                      systematicInequalityHeight +
-                                        systematicInequalityOffsetTop
+                                      securitiesFraudHeight +
+                                        securitiesFraudOffsetTop
                                   ) {
-                                    this.props.inSection("Systemic Inequality");
+                                    this.props.inSection("Securities Fraud");
                                   } else {
-                                    const earlyCommsHeight = this.EARLYCOMMS
-                                      .current.offsetHeight;
-                                    const earlyCommsOffsetTop = this.EARLYCOMMS
-                                      .current.offsetTop;
+                                    const systematicInequalityHeight = this
+                                      .SYSTEMICINEQUALITY.current.offsetHeight;
+                                    const systematicInequalityOffsetTop = this
+                                      .SYSTEMICINEQUALITY.current.offsetTop;
                                     if (
                                       this.props.scrollTop <
-                                        earlyCommsOffsetTop ||
+                                        systematicInequalityOffsetTop ||
                                       this.props.scrollTop <
-                                        earlyCommsHeight + earlyCommsOffsetTop
+                                        systematicInequalityHeight +
+                                          systematicInequalityOffsetTop
                                     ) {
-                                      this.props.inSection("Early Comms");
+                                      this.props.inSection(
+                                        "Systemic Inequality"
+                                      );
+                                    } else {
+                                      const earlyCommsHeight = this.EARLYCOMMS
+                                        .current.offsetHeight;
+                                      const earlyCommsOffsetTop = this
+                                        .EARLYCOMMS.current.offsetTop;
+                                      if (
+                                        this.props.scrollTop <
+                                          earlyCommsOffsetTop ||
+                                        this.props.scrollTop <
+                                          earlyCommsHeight + earlyCommsOffsetTop
+                                      ) {
+                                        this.props.inSection("Early Comms");
+                                      }
                                     }
                                   }
                                 }
@@ -500,7 +508,6 @@ export default class App extends React.Component {
                 }
               }
             }
-          }
           }
         }
       }
@@ -591,8 +598,11 @@ export default class App extends React.Component {
         <br/>
         <br/>*/}
         <div ref={this.RENT}>
-          <a href="https://zippia.com/landlord-jobs/demographics/">Rent</a>: unsettled "trade," the opposite of invoice unsettlement along time
-          <br/>
+          <a href="https://zippia.com/landlord-jobs/demographics/">
+            Rentier-Colonialism
+          </a>
+          : unsettled "trade," the opposite of invoice unsettlement along time
+          <br />
           Labor union/working people/luddites versus inventors/artists to death
           <br />
           <br />
@@ -13783,4 +13793,3 @@ export default class App extends React.Component {
     );
   }
 }
-
