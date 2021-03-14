@@ -98,6 +98,7 @@ class Index extends React.Component {
           >
             <span style={{ display: "flex" }}>EXPLICIT</span>
             {[
+              "Rent",
               "War on Poverty",
               "Gun Safety",
               "False Advert in House",
