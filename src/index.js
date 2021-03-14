@@ -94,6 +94,7 @@ class Index extends React.Component {
               "Insurance Fraud",
               "Virus",
               "Monopoly",
+              "Education",
               "Null Hypothesis",
               "Securities Fraud",
               "Systemic Inequality",
