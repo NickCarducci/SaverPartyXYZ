@@ -1784,6 +1784,64 @@ export default class App extends React.Component {
             goToTop={this.props.goToTop}
             highlightFarmers={this.state.highlightFarmers}
           />
+          <div
+            ref={this.stats}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightStats ? "white" : "grey",
+              backgroundColor: this.state.highlightStats
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            My (NC) estimates for party compilation 2022 and 2024. Supply-side
+            (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
+            (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
+            call
+            <br />
+            <br />
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.facebook.com/IVN/posts/10156682244587465"
+            >
+              https://www.facebook.com/IVN/posts/10156682244587465
+            </a>
+            <br />
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc"
+            >
+              https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
+            </a>
+            <br />
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://www.isidewith.com/poll/488729614"
+            >
+              https://www.isidewith.com/poll/488729614
+            </a>
+            <br />
+            <br />
+            CNN gaslighting every viewer that 62% (of 330,000,000) want this
+            (sample of under 3,000 people, without shuffling to boot). Add more
+            results like isidewith or thumbprint.us
+          </div>
         </div>
         <br />
         <div ref={this.FALSEADVERTINHOUSE}>
@@ -5133,7 +5191,6 @@ export default class App extends React.Component {
           <span
             style={{
               transition: ".3s ease-in",
-
               color: this.state.highlightIncomeTax ? "white" : "grey",
               backgroundColor: this.state.highlightIncomeTax
                 ? "rgb(170,100,205)"
@@ -5236,353 +5293,6 @@ export default class App extends React.Component {
             <a href="https://moldmask.co">Eat My Ass Jen Psaki</a>, "We will get
             vaccines into arms"; Neanderthals invented the wheel or whatever
           </i>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.jewels.current.scrollIntoView("smooth");
-              this.setState({ highlightJewels: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightJewels: false }),
-                10000
-              );
-            }}
-          >
-            The Beast System &nbsp;
-            <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
-              80k/yr
-            </a>
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            There are many leftists who believe criminal justice reform includes
-            barring criminals or unadjunicated harm from national and{" "}
-            <a href="https://wavv.art/United_States_of_America">
-              consumer courts
-            </a>{" "}
-            from economies
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.jewels.current.scrollIntoView("smooth");
-              this.setState({ highlightJewels: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightJewels: false }),
-                10000
-              );
-            }}
-          >
-            Montana: The Family Jewels
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            old, obeise, sloppy-hicks to get their subsidies to pay property tax
-            (you do not need stated intent to prosecute this number/accounting
-            based conclusion)
-            <br />
-            "On balance, good thing or bad thing?"
-            <br />
-            Prohibiting price-inelasticity
-            <br />
-            David Turk
-            <br />
-            "The analysis revealed that NETL injected a total of $202 million
-            directly into those states' economies in 2017. ... It was determined
-            that NETL had a total estimated impact of $408 million on the three
-            state economies in 2017."
-            <br />
-            NETL OVERVIEW - OSTI.GOV
-          </div>
-          <i
-            ref={this.homebuilder}
-            style={{
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightHomebuilder ? "white" : "grey",
-              backgroundColor: this.state.highlightHomebuilder
-                ? "rgb(170,100,205)"
-                : "",
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            I was raised a&nbsp;
-            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
-            &nbsp;to pay off my own mortgage
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once.
-            <br />
-            I grew up building houses to pay for a mortgage that only retained
-            value because courts don’t adjudicate at once. Don’t promise my
-            money to your lender, thief
-            <br />
-            <br />
-            Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
-            B-cell oncogenesis) when the problem is forming mold in your mask
-            and ceasing that self-deprecation might stop your prediction of
-            B.1.1.7 doubling 3/4/2021
-            <br />
-            Without debt, the rich will want to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              kill us
-            </span>
-            <br />
-            <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
-              oy
-            </a>
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-                margin: "10px 0px",
-                padding: "10px",
-
-                border: "1px dotted",
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "In a free market the government does not sanction corporations,
-              therefore there are no corporations in a free market."
-            </div>
-            Existing within a market/vault/currency stewardship purveying
-            corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz{" "}
-            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
-              allows you to go public but you pay a Double-Tax on Income
-              (threatened-upon us by not price-prisoners’ dilemma duress pooling
-              but literal&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.IRS.current.scrollIntoView("smooth");
-                  this.setState({ highlightIRS: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightIRS: false }),
-                    10000
-                  );
-                }}
-              >
-                jail/confiscation in 1937
-              </span>
-              )
-            </a>
-            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
-            mine for thumbprint.us to serve intention for mock direct democracy
-            for Baltimore “and beyond” now sole proprietorship with royalty
-            contracts w/max-profit (no promises, only
-            profit-schedules[adminWidthdrawal/sale,skew,max] options)
-            <br />
-            <br />
-            <a href="http://chng.it/D9dxm2mWW4">
-              Petition to stop supermarkets wasting food, bad stewardship of our
-              opportunities, G-d given shit
-            </a>
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              margin: "10px 0px",
-              padding: "10px",
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
-              Open-carry is threat
-            </a>{" "}
-            G-d is judge of soul, Territory is self
-            <br />
-            <br />
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.china.current.scrollIntoView("smooth");
-                this.setState({ highlightChina: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightChina: false }),
-                  10000
-                );
-              }}
-            >
-              China: U.S. GDP was 10%, then 1/7th, now 3/4
-              <br />
-              Population 4.5x
-            </span>
-            &nbsp; Although they have been known to lie and have used
-            propoganda, as U.S. has also&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.dvNotion.current.scrollIntoView("smooth");
-                this.setState({ highlightNotion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightNotion: false }),
-                  10000
-                );
-              }}
-            >
-              done in the past about
-            </span>
-            &nbsp;they have also stated intentions to ween off-debt and the
-            power structures it creates
-            <br />
-            <br />
-            "the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              entanglements
-            </span>
-            &nbsp;with the Chinese... work in-line with national-security
-            principals out of this" - Fmr Sec. State Pompeo
-          </div>
-          <div
-            ref={this.stats}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              border: "1px dotted",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightStats ? "white" : "grey",
-              backgroundColor: this.state.highlightStats
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            My (NC) estimates for party compilation 2022 and 2024. Supply-side
-            (Pubs[80%], Dems[60%], Libertarians[50%]) vs Demand-side
-            (Saver[100%], Green[90%]) Gallup does n 2,700 usually each survey
-            call{" "}
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.facebook.com/IVN/posts/10156682244587465"
-            >
-              https://www.facebook.com/IVN/posts/10156682244587465
-            </a>
-            <br />
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc"
-            >
-              https://justcapital.com/news/liberals-and-conservatives-agree-corporate-america-needs-to-prioritize-workers/?fbclid=IwAR3hsWJtItnrpCU4Ise6__A-la4a59wfQze1yQqwpha_iFQYdxA9CG3E4Yc
-            </a>
-            <br />
-            <a
-              style={{
-                border: "1px solid",
-                color: "grey"
-              }}
-              href="https://www.isidewith.com/poll/488729614"
-            >
-              https://www.isidewith.com/poll/488729614
-            </a>
-            <br />
-            <br />
-            <br />
-            CNN gaslighting every viewer that 62% (of 330,000,000) want this
-            (sample of under 3,000 people, without shuffling to boot). Add more
-            results like isidewith or thumbprint.us
-          </div>
           <i
             ref={this.injury}
             style={{
@@ -5734,6 +5444,12 @@ export default class App extends React.Component {
         </div>
         <br />
         <div ref={this.VIRUS}>
+          <br />
+          <br />
+          Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
+          B-cell oncogenesis) when the problem is forming mold in your mask and
+          ceasing that self-deprecation might stop your prediction of B.1.1.7
+          doubling 3/4/2021
           <br />
           <a
             style={{ fontSize: "12px", color: "black" }}
@@ -10534,6 +10250,155 @@ export default class App extends React.Component {
           </div>
         </div>
         <div ref={this.SECURITIESFRAUD}>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jewels.current.scrollIntoView("smooth");
+              this.setState({ highlightJewels: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightJewels: false }),
+                10000
+              );
+            }}
+          >
+            Montana: The Family Jewels
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            old, obeise, sloppy-hicks to get their subsidies to pay property tax
+            (you do not need stated intent to prosecute this number/accounting
+            based conclusion)
+            <br />
+            "On balance, good thing or bad thing?"
+            <br />
+            Prohibiting price-inelasticity
+            <br />
+            David Turk
+            <br />
+            "The analysis revealed that NETL injected a total of $202 million
+            directly into those states' economies in 2017. ... It was determined
+            that NETL had a total estimated impact of $408 million on the three
+            state economies in 2017."
+            <br />
+            NETL OVERVIEW - OSTI.GOV
+          </div>
+          <i
+            ref={this.homebuilder}
+            style={{
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightHomebuilder ? "white" : "grey",
+              backgroundColor: this.state.highlightHomebuilder
+                ? "rgb(170,100,205)"
+                : "",
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            I was raised a&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Cronus">homebuilder</a>
+            &nbsp;to pay off my own mortgage
+            <br />
+            I grew up building houses to pay for a mortgage that only retained
+            value because courts don’t adjudicate at once.
+            <br />
+            I grew up building houses to pay for a mortgage that only retained
+            value because courts don’t adjudicate at once. Don’t promise my
+            money to your lender, thief
+            <br />
+            Without debt, the rich will want to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.financeKills.current.scrollIntoView("smooth");
+                this.setState({ highlightFinanceKills: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFinanceKills: false }),
+                  10000
+                );
+              }}
+            >
+              kill&nbsp;
+              <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
+                us
+              </a>
+            </span>
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+                margin: "10px 0px",
+                padding: "10px",
+
+                border: "1px dotted",
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              "In a free market the government does not sanction corporations,
+              therefore there are no corporations in a free market."
+            </div>
+            Existing within a market/vault/currency stewardship purveying
+            corporations/debt instead of royalty-contract w/max/profit
+            vaults.biz{" "}
+            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
+              allows you to go public but you pay a Double-Tax on Income
+              (threatened-upon us by not price-prisoners’ dilemma duress pooling
+              but literal&nbsp;
+              <span
+                style={{ fontWeight: "bolder", textDecoration: "underline" }}
+                onClick={() => {
+                  this.IRS.current.scrollIntoView("smooth");
+                  this.setState({ highlightIRS: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightIRS: false }),
+                    10000
+                  );
+                }}
+              >
+                jail/confiscation in 1937
+              </span>
+              )
+            </a>
+          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -11061,6 +10926,48 @@ export default class App extends React.Component {
         </div>
         <div ref={this.SYSTEMICINEQUALITY}>
           <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.jewels.current.scrollIntoView("smooth");
+              this.setState({ highlightJewels: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightJewels: false }),
+                10000
+              );
+            }}
+          >
+            The Beast System &nbsp;
+            <a href="https://www.fbi.gov/file-repository/2015-ncic-missing-person-and-unidentified-person-statistics.pdf/view">
+              80k/yr
+            </a>
+          </i>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            There are many leftists who believe criminal justice reform includes
+            barring criminals or unadjunicated harm from national and{" "}
+            <a href="https://wavv.art/United_States_of_America">
+              consumer courts
+            </a>{" "}
+            from economies
+          </div>
+          <i
             onClick={() => (window.location.href = "https://froth.app")}
             style={{
               fontWeight: "bolder",
@@ -11359,6 +11266,98 @@ export default class App extends React.Component {
             style={{ border: "none", overflow: "hidden", width: "480px" }}
           ></iframe>
           <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              margin: "10px 0px",
+              padding: "10px",
+
+              border: "1px dotted",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
+            mine for thumbprint.us to serve intention for mock direct democracy
+            for Baltimore “and beyond” now sole proprietorship with royalty
+            contracts w/max-profit (no promises, only
+            profit-schedules[adminWidthdrawal/sale,skew,max] options)
+            <br />
+            <br />
+            <a href="http://chng.it/D9dxm2mWW4">
+              Petition to stop supermarkets wasting food, bad stewardship of our
+              opportunities, G-d given shit
+            </a>
+            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
+              Open-carry is threat
+            </a>{" "}
+            G-d is judge of soul, Territory is self
+            <br />
+            <br />
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.china.current.scrollIntoView("smooth");
+                this.setState({ highlightChina: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightChina: false }),
+                  10000
+                );
+              }}
+            >
+              China: U.S. GDP was 10%, then 1/7th, now 3/4
+              <br />
+              Population 4.5x
+            </span>
+            &nbsp; Although they have been known to lie and have used
+            propoganda, as U.S. has also&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.dvNotion.current.scrollIntoView("smooth");
+                this.setState({ highlightNotion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightNotion: false }),
+                  10000
+                );
+              }}
+            >
+              done in the past about
+            </span>
+            &nbsp;they have also stated intentions to ween off-debt and the
+            power structures it creates
+            <br />
+            <br />
+            "the&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.financeKills.current.scrollIntoView("smooth");
+                this.setState({ highlightFinanceKills: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFinanceKills: false }),
+                  10000
+                );
+              }}
+            >
+              entanglements
+            </span>
+            &nbsp;with the Chinese... work in-line with national-security
+            principals out of this" - Fmr Sec. State Pompeo
+          </div>
           <span
             style={{
               fontWeight: "bolder",
