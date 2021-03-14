@@ -602,7 +602,7 @@ export default class App extends React.Component {
           >
             forced
           </span>
-          ) is it purely monetary-inflation (102%); price-inelasticity
+          ) is it purely monetary-inflation (102% + housing); price-inelasticity
           inflation (4200% + insurance cross-party duress-pool) is more
           problematic for everyone in demand.
           <br />
