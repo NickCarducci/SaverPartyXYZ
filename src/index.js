@@ -173,24 +173,50 @@ class Index extends React.Component {
             width: "40px",
             alignItems: "flex-end",
             height: "100%",
-            transition: ".3s ease-out",
-            opacity: this.state.landedPresentation ? 1 : 0
+            transition: ".3s ease-out"
           }}
         >
           <div
+            onClick={() => this.setState({ openMenu: false })}
             style={{
+              alignItems: "center",
+              overflow: "hidden",
+              backgroundColor: "rgb(255,255,255)",
               display: "flex",
               position: "fixed",
               bottom: "0px",
               left: "0px",
-              color: "black",
-              width: "40px",
               height: "min-content",
+              color: "black",
+              width: "min-content",
               transition: ".3s ease-out",
               opacity: this.state.landedPresentation ? 1 : 0
             }}
           >
-            {this.state.inSection.split(" ").map((x) => `${x}\n`)}
+            <div
+              style={{
+                zIndex: "1",
+                right: "0px",
+                boxShadow: "inset -5px 0px 3px 1px rgb(25,25,25)",
+                display: "flex",
+                position: "absolute",
+                color: "black",
+                width: "10px",
+                height: "140%"
+              }}
+            />
+            <div
+              style={{
+                padding: "10px",
+                display: "flex",
+                position: "relative",
+                color: "black",
+                width: "min-content",
+                height: "100%"
+              }}
+            >
+              {this.state.inSection.split(" ").map((x) => `${x}\n`)}
+            </div>
           </div>
         </div>
         <div
