@@ -612,6 +612,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Biden lies and says the price-inelasticity inflation will lower prices again.  ban invoices instead retard.  it will cut poverty in half for a day but wall street is pricing their accounts to double that amount!
+        <br/>
+        <br/>
         The O.K. symbol is 666, not chalk-colored people, CNN you cunt
         <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
         <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not our
