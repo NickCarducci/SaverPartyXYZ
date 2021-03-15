@@ -612,7 +612,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Biden lies and says the&nbsp;
+        Biden&nbsp;<a href="https://www.investopedia.com/terms/t/treasurystock.asp">lies</a>&nbsp;and says the&nbsp;
         <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
           price-inelasticity inflation
         </a>
