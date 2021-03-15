@@ -17,7 +17,6 @@ class Index extends React.Component {
     };
     this.page = React.createRef();
     this.outer = React.createRef();
-    this.helper = React.createRef();
   }
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
@@ -231,7 +230,6 @@ class Index extends React.Component {
           }}
         >
           <div
-            ref={this.helper}
             onClick={() => this.setState({ openMenu: false })}
             style={{
               alignItems: "center",
@@ -944,8 +942,7 @@ class Index extends React.Component {
               inSection={(section) =>
                 this.state.lastInSection !== section &&
                 this.setState({ openMenu: true }, () => {
-                  var helperHeight =
-                    window.innerHeight - this.helper.current.offsetHeight;
+                  var helperHeight = window.innerHeight - 140;
                   this.setState(
                     {
                       lastInSection: section,
