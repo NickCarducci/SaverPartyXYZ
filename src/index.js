@@ -888,27 +888,25 @@ class Index extends React.Component {
           >
             <App
               inSection={(section) =>
-                this.setState({ openMenu: true }, () => {
-                  clearTimeout(this.openmenu);
-                  this.openmenu = setTimeout(
-                    () => this.setState({ openMenu: false }),
-                    5432
-                  );
-                  clearTimeout(this.holdHelperheight);
-                  this.holdHelperheight = setTimeout(
+                this.state.inSection !== section &&
+                this.setState({ inSection: section, openMenu: true }, () => {
+                  clearTimeout(this.holdHeight);
+                  this.holdHeight = setTimeout(
                     () =>
-                      this.setState({ inSection: section }, () => {
-                        clearTimeout(this.holdHeight);
-                        this.holdHeight = setTimeout(
-                          () =>
-                            this.setState({
-                              helperHeight:
-                                window.innerHeight -
-                                this.helper.current.offsetHeight
-                            }),
-                          200
-                        );
-                      }),
+                      this.setState(
+                        {
+                          helperHeight:
+                            window.innerHeight -
+                            this.helper.current.offsetHeight
+                        },
+                        () => {
+                          clearTimeout(this.openmenu);
+                          this.openmenu = setTimeout(
+                            () => this.setState({ openMenu: false }),
+                            5432
+                          );
+                        }
+                      ),
                     200
                   );
                 })
