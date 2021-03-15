@@ -549,9 +549,6 @@ export default class App extends React.Component {
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
-    var leftNot =
-      (this.props.landedPresentation || this.props.top) &&
-      !this.props.scrolling;
     return (
       <div
         style={{
@@ -614,6 +611,10 @@ export default class App extends React.Component {
         again&nbsp;<a href="https://www.facebook.com/IVN/">voted third party</a>
         ? my ass
         <br />
+        <br />
+        Do you really think most people are that stupid that they would prefer
+        other people to have more dollars for not working in order to pay less
+        taxes? 77WABC does
         <br />
         <div
           style={{
