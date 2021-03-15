@@ -12,7 +12,7 @@ class Index extends React.Component {
       top: true,
       scrollPlacementHeight: 0,
       openMenu: false,
-      inSection: "story"
+      inSection: "Rentier-Colonialism"
     };
     this.page = React.createRef();
     this.outer = React.createRef();
@@ -238,18 +238,17 @@ class Index extends React.Component {
               backgroundColor: "rgb(255,255,255)",
               display: "flex",
               position: "fixed",
-              top: this.state.helperHeight,
+              top: `${this.state.helperHeight}px`,
               left: "0px",
               height: "min-content",
               color: "black",
               width: "min-content",
-              transition: ".3s ease-out",
-              opacity: this.state.landedPresentation ? 1 : 0
+              transition: ".3s ease-out"
             }}
           >
             <div
               style={{
-                bottom: "0px",
+                top: "0px",
                 zIndex: "1",
                 right: "0px",
                 boxShadow: "inset -5px 0px 3px 1px rgb(25,25,25)",
@@ -262,7 +261,7 @@ class Index extends React.Component {
             />
             <div
               style={{
-                bottom: "0px",
+                top: "0px",
                 padding: "10px",
                 display: "flex",
                 position: "relative",
@@ -944,24 +943,19 @@ class Index extends React.Component {
               inSection={(section) =>
                 this.state.inSection !== section &&
                 this.setState({ inSection: section, openMenu: true }, () => {
-                  clearTimeout(this.holdHeight);
-                  this.holdHeight = setTimeout(
-                    () =>
-                      this.setState(
-                        {
-                          helperHeight:
-                            window.innerHeight -
-                            this.helper.current.offsetHeight
-                        },
-                        () => {
-                          clearTimeout(this.openmenu);
-                          this.openmenu = setTimeout(
-                            () => this.setState({ openMenu: false }),
-                            5432
-                          );
-                        }
-                      ),
-                    200
+                  const helperHeight =
+                    window.innerHeight - this.helper.current.offsetHeight;
+                  this.setState(
+                    {
+                      helperHeight
+                    },
+                    () => {
+                      clearTimeout(this.openmenu);
+                      this.openmenu = setTimeout(
+                        () => this.setState({ openMenu: false }),
+                        5432
+                      );
+                    }
                   );
                 })
               }
