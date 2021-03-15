@@ -612,9 +612,12 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        I guarantee all stress, depression and suicide is caused by finance/rentier-colonialism/backtaxes/insurance-pooling-duress/borrowing-duress and loss
-        <br/>
-        <br/>
+        I guarantee all stress, depression and suicide is caused by
+        finance/rentier-colonialism/backtaxes/insurance-pooling-duress/borrowing-duress
+        and&nbsp;
+        <a href="https://foiegras.info">loss and infrastructure inflation</a>
+        <br />
+        <br />
         <span
           style={{
             fontWeight: "bolder",
