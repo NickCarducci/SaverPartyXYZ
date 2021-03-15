@@ -620,7 +620,13 @@ export default class App extends React.Component {
         "No more than 2% waste or fraud" from his paid oversight board, that is,
         only spent on promises to creditors and landlords they made for
         themselves or build without the intent to use or sell in an actual
-        trade, a settled one.  Directly where the American people are and where it belongs" only 9% goes to people or unemploymenty insurance fraud, price fixing. The DEATHS ARE NORMAL. YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
+        trade, a settled one. Directly where the American people are and where
+        it belongs" only 9% goes to people or unemploymenty insurance fraud,
+        price fixing.&nbsp;
+        <a href="https://www.nature.com/articles/s41598-020-73777-8">
+          The DEATHS ARE NORMAL
+        </a>
+        . YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
         <br />
         <br />
         The O.K. symbol is 666, not chalk-colored people, CNN you cunt
