@@ -660,7 +660,23 @@ export default class App extends React.Component {
         . YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
         <br />
         <br />
-        The O.K. symbol is&nbsp;<a href="https://humanharvest.info">666</a>, not
+        The&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.jewels.current.scrollIntoView("smooth");
+            this.setState({ highlightJewels: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightJewels: false }),
+              10000
+            );
+          }}
+        >
+          O.K.
+        </span>
+        &nbsp;symbol is&nbsp;<a href="https://humanharvest.info">666</a>, not
         chalk-colored people, CNN you cunt
         <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
         <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not our
@@ -11528,7 +11544,11 @@ export default class App extends React.Component {
           <br />
           Why do you want us to talk about color but not culture? F off
           <i
+            ref={this.beast}
             style={{
+              transition: ".3s ease-in",
+              fontSize: this.state.highlightBeast ? "" : "0px",
+              width: this.state.highlightBeast ? "min-content" : "0px",
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics",
               fontWeight: "bolder",
