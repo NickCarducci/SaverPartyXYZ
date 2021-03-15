@@ -935,6 +935,90 @@ export default class App extends React.Component {
           }}
           ref={this.ABUSEOFPOWER}
         >
+          <br />
+          unequal application of the law is apparent in profiled portfolio data
+          share, to which 13d is a legislative action but protection is forgone
+          for retail in unecesary third party data share. By government
+          malfeasance and neglect the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.UUID.current.scrollIntoView("smooth");
+              this.setState({ highlightUUID: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightUUID: false }),
+                10000
+              );
+            }}
+          >
+            UUID
+          </span>
+          &nbsp;being the key to the profile.
+          <br />
+          laws have to be justice-oriented in order for the equal application of
+          unequal laws to be applied
+          <br />
+          cash-
+          <span
+            ref={this.bail}
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightBail ? "white" : "",
+              backgroundColor: this.state.highlightBail
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            bail
+          </span>
+          &nbsp; is bribery, it's like unequal application of law; or an equal
+          application of the unequal law is unequal application of a law kernel.
+          this unequal law of PPP is no different in that equality regard
+          <span
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightBail ? "white" : "",
+              backgroundColor: this.state.highlightBail
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Bail is like involuntary servitude of those without the money, and
+            like borrowing in that someone else makes the decision to commit the
+            crime the harms the prosciutto
+          </span>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.biden.current.scrollIntoView("smooth");
+                this.setState({ highlightBiden: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightBiden: false }),
+                  10000
+                );
+              }}
+            >
+              Biden
+            </span>
+            There is nothing safe about funding supply of vaccines instead of
+            keeping input costs down by allowing customers to fund it
+            <br />I think it sticks to your damn mask, like a mold! I'll sue
+            your ass
+          </i>
+          <br />
+          <br />
           <i
             ref={this.homebuilder}
             style={{
@@ -11016,91 +11100,8 @@ export default class App extends React.Component {
             bail-out & can you cite who sold (last trade) or who is in control
             of bid-ask spread instead of passing off what you suspect as
             causation when you can see the primary-source data
-            <br />
-            unequal application of the law is apparent in profiled portfolio
-            data share, to which 13d is a legislative action but protection is
-            forgone for retail in unecesary third party data share. By
-            government malfeasance and neglect the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.UUID.current.scrollIntoView("smooth");
-                this.setState({ highlightUUID: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightUUID: false }),
-                  10000
-                );
-              }}
-            >
-              UUID
-            </span>
-            &nbsp; being the key to the profile.
-            <br />
-            laws have to be justice-oriented in order for the equal application
-            of unequal laws to be applied
-            <br />
-            cash-
-            <span
-              ref={this.bail}
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              bail
-            </span>
-            &nbsp; is bribery, it's like unequal application of law; or an equal
-            application of the unequal law is unequal application of a law
-            kernel. this unequal law of PPP is no different in that equality
-            regard
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              Bail is like involuntary servitude of those without the money, and
-              like borrowing in that someone else makes the decision to commit
-              the crime the harms the prosciutto
-            </span>
           </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.biden.current.scrollIntoView("smooth");
-                this.setState({ highlightBiden: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBiden: false }),
-                  10000
-                );
-              }}
-            >
-              Biden
-            </span>
-            There is nothing safe about funding supply of vaccines instead of
-            keeping input costs down by allowing customers to fund it
-            <br />I think it sticks to your damn mask, like a mold! I'll sue
-            your ass
-          </i>
+          <br />
           <br />
           <div
             style={{
