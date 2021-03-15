@@ -612,11 +612,23 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Journalists are just like communist/insurance/non-socialist propoganda arm.  they get their itinerary from a central source
-        <br/><br/>
-        <a href="https://en.wikipedia.org/wiki/Marc_Molinaro">Mark malinaro (Pube)</a>, "if federal government is [illegally] printing [not their] money, leverage it to open." Just open you bum, you don’t deserve or need (financial/back-rent/back-tax/invoice) promise bail-out to do that.  Abjectly another fraud (if I had money for court fees I would make sure you pay for damages to public intelligence, you're harming kids spewing these lies.  There is no resource for truth except me, here!).  
-        <br/><br/>
-        Biden says the Bill increases supply; it actually increases demand and price
+        Journalists are just like communist/insurance/non-socialist propoganda
+        arm. they get their itinerary from a central source
+        <br />
+        <br />
+        <a href="https://en.wikipedia.org/wiki/Marc_Molinaro">
+          Mark malinaro (Pube)
+        </a>
+        , "if federal government is [illegally] printing [not their] money,
+        leverage it to open." Just open you bum, you don’t deserve or need
+        (financial/back-rent/back-tax/invoice) promise bail-out to do that.
+        Abjectly another fraud (if I had money for court fees I would make sure
+        you pay for damages to public intelligence, you're harming kids spewing
+        these lies. There is no resource for truth except me, here!).
+        <br />
+        <br />
+        Biden says the Bill increases supply; it actually increases demand and
+        price
         <br />
         <br />
         People say they care about poverty but don’t want people to keep what
@@ -650,9 +662,9 @@ export default class App extends React.Component {
         </span>
         &nbsp;don't take thumbprint.us from me now that I am almost finished you
         pathetic peice of shit. It is YOUR fault for not helping sooner, and I
-        am not selling to nationalist- or indebted-government, or people unless the bylaws is owned by no
-        person or corporation. For now, however, it is a sole proprietorship for
-        me and my family with some&nbsp;
+        am not selling to nationalist- or indebted-government, or people unless
+        the bylaws is owned by no person or corporation. For now, however, it is
+        a sole proprietorship for me and my family with some&nbsp;
         <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
         <br />
         <br />
@@ -13088,7 +13100,12 @@ export default class App extends React.Component {
                 physically or financially (not valuation but tangible losses)
                 neighborhood law is like the sea law but between homes, that's
                 why open-carry is also an exhibited&nbsp;
-                <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>
+                <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>.
+                Being there as an aggressor (not a 'I wish you were dead' but
+                'we should kill you') is grounds for restraining order if
+                possible given territorial trespassing, and criminal if 'I want
+                to kill you' or 'please kill' not 'go die or kill yourself,' or
+                a date in the intent letter in most other context.  This was about a nazi parade I think... unless the nazi are not intent on killing Jews, is that what you are saying CNN Monday 9 est Mar2021?
               </span>
               <br />
               <b style={{ textDecoration: "underline" }}>
