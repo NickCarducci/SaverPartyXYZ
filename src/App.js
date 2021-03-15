@@ -6345,50 +6345,6 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <iframe
-              title="covid passports could devilver a 'summer of joy' bubble"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
-              width="300"
-              height="444"
-              style={{
-                backgroundColor: "#3b5998",
-                border: "none",
-                overflow: "hidden",
-                width: "480px"
-              }}
-            ></iframe>
-            <br />
-            <br />
-            In grafts and [“viral”? ]vaccine “working hard to recognize the
-            vaccine and remember the new virus for next time.” No precautions
-            about fragility of&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.bcell.current.scrollIntoView("smooth");
-                this.setState({ highlightBcell: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBcell: false }),
-                  10000
-                );
-              }}
-            >
-              B-cell
-            </span>
-            &nbsp;regulation?
-          </div>
-          <br />
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of
@@ -6470,11 +6426,6 @@ export default class App extends React.Component {
           <a href="https://moldmask.co">allowing moisture</a>&nbsp;to rise or
           fall
           <br />
-          <br />
-          Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
-          B-cell oncogenesis) when the problem is forming mold in your mask and
-          ceasing that self-deprecation might stop your prediction of B.1.1.7
-          doubling 3/4/2021
           <br />
           <a
             style={{ fontSize: "12px", color: "black" }}
@@ -6723,6 +6674,124 @@ export default class App extends React.Component {
             </span>
             .
           </span>
+          duress is force, israelis cannot call their green pass a sovereign
+          choice. exclusion is free-rider slavery (let business decide not based
+          on the best price&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.ftc.current.scrollIntoView("smooth");
+              this.setState({ highlightFTC: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFTC: false }),
+                10000
+              );
+            }}
+          >
+            (without fixing)
+          </span>
+          )
+          <br />
+          <br />
+          it probably spreads by not washing hands or letting it fester in a
+          mask, but the evidence shows that it doesn’t transmit if you are just
+          in a room with someone, here is the link a third time&nbsp;
+          <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+            https://pubmed.ncbi.nlm.nih.gov/17542834/
+          </a>
+          &nbsp; read it or shut up, otherwise all of you are liable for
+          unsanitary moisture you are propagating to force someone not to
+          release and keep on their faces
+          <br />
+          <br />
+          anyway, if the weight or electron variable is exactly perfect for
+          gravity there is still room temperature. Using the evidence and our
+          understanding of physics, spittle doesn’t float. The link showed 0/10
+          transmission. They are going to use these same results to try to pass
+          as proof that vaccines/grafts are effective in stopping others from
+          catching it. That is also false because it takes 2-weeks to make
+          antibodies just the same as catching it && it needs to settle in
+          each&nbsp;
+          <span
+            style={{
+              transition: ".3s ease-in",
+
+              color: this.state.highlightHost ? "white" : "",
+              backgroundColor: this.state.highlightHost
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.host}
+          >
+            host
+          </span>
+          .
+          <br />
+          Correlation is not causation, the only bare evidence confirms physics
+          that heat rises and weight drops to mass/electrons. Carbon monoxide
+          poisoning is ill-advised from the guy who was negligent with his paid
+          experimentation with the virus in Wuhan
+          <br />
+          Any good doctor would advise releasing carbon monoxide and consult
+          with physics-experts that heat rises and weight/electrons drop. When
+          cold, breathe out, politifact says covid requires spittle or dust
+          (aerosol), that may just be hot carbon monoxide but if it is spittle,
+          only one 1ft it travels eye level
+          <br />
+          All the same size as what has been shown to not float without spittle
+          that doesn’t plane-ally-move without kinetic movement, I hope. If it
+          (125nm) is as smol as oxygen (.299nm) or CO2 we might have a problem
+          and need legit gas masks
+          <br />
+          The mask is a petri dish like a mold in a wet place. the virus mutates
+          (variants) in reaction to antibodies & making them naturally vs mRNA
+          graft both take 2 weeks
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="covid passports could devilver a 'summer of joy' bubble"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
+            ></iframe>
+            <br />
+            <br />
+            In grafts and [“viral”? ]vaccine “working hard to recognize the
+            vaccine and remember the new virus for next time.” No precautions
+            about fragility of&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.bcell.current.scrollIntoView("smooth");
+                this.setState({ highlightBcell: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightBcell: false }),
+                  10000
+                );
+              }}
+            >
+              B-cell
+            </span>
+            &nbsp;regulation?
+          </div>
+          <br />
           <span
             style={{
               border: "1px dotted grey",
@@ -10030,79 +10099,6 @@ export default class App extends React.Component {
             If there is a law of unequal justice, upholding that law is lawful?
             I think the laws have to be justice-oriented in order for the equal
             application of unequal laws to be applied.
-            <br />
-            duress is force, israelis cannot call their green pass a sovereign
-            choice. exclusion is free-rider slavery (let business decide not
-            based on the best price&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.ftc.current.scrollIntoView("smooth");
-                this.setState({ highlightFTC: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFTC: false }),
-                  10000
-                );
-              }}
-            >
-              (without fixing)
-            </span>
-            )
-            <br />
-            it probably spreads by not washing hands or letting it fester in a
-            mask, but the evidence shows that it doesn’t transmit if you are
-            just in a room with someone, here is the link a third time&nbsp;
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
-              https://pubmed.ncbi.nlm.nih.gov/17542834/
-            </a>
-            &nbsp; read it or shut up, otherwise all of you are liable for
-            unsanitary moisture you are propagating to force someone not to
-            release and keep on their faces
-            <br />
-            anyway, if the weight or electron variable is exactly perfect for
-            gravity there is still room temperature. Using the evidence and our
-            understanding of physics, spittle doesn’t float. The link showed
-            0/10 transmission. They are going to use these same results to try
-            to pass as proof that vaccines/grafts are effective in stopping
-            others from catching it. That is also false because it takes 2-weeks
-            to make antibodies just the same as catching it && it needs to
-            settle in each
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightHost ? "white" : "",
-                backgroundColor: this.state.highlightHost
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.host}
-            >
-              host
-            </span>
-            .
-            <br />
-            Correlation is not causation, the only bare evidence confirms
-            physics that heat rises and weight drops to mass/electrons. Carbon
-            monoxide poisoning is ill-advised from the guy who was negligent
-            with his paid experimentation with the virus in Wuhan
-            <br />
-            Any good doctor would advise releasing carbon monoxide and consult
-            with physics-experts that heat rises and weight/electrons drop. When
-            cold, breathe out, politifact says covid requires spittle or dust
-            (aerosol), that may just be hot carbon monoxide but if it is
-            spittle, only one 1ft it travels eye level
-            <br />
-            All the same size as what has been shown to not float without
-            spittle that doesn’t plane-ally-move without kinetic movement, I
-            hope. If it (125nm) is as smol as oxygen (.299nm) or CO2 we might
-            have a problem and need legit gas masks
-            <br />
-            The mask is a petri dish like a mold in a wet place. the virus
-            mutates (variants) in reaction to antibodies & making them naturally
-            vs mRNA graft both take 2 weeks
           </div>
         </div>
         <div
@@ -14101,4 +14097,3 @@ export default class App extends React.Component {
     );
   }
 }
-
