@@ -622,6 +622,20 @@ export default class App extends React.Component {
           Here is Schumer, laundering a split of my equity to a borrowers'
           lenders
           <br />
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Gene_Sperling">
+            GENE SPERLING
+          </a>
+          &nbsp;to ensure the payments that aren't spent on select government
+          contractors' and their pension promises (forced by threat to start),
+          like Microsoft, my competitor aren't spent on assets and instead
+          rentier-colonialism and financial-counterfeit promises. Complete fraud
+          if the courts weren't a party to the suit they would return 40/41
+          wealth to consumers for price-fixing to debt/invoice
+          counterfeit--in-contract collusion, loitering, & borrowers' customers'
+          down payment loss to accredited usurpers of conditionally lowering
+          standards in bond ratings since 1:1 security depositary reciepts
+          <br />
           <div
             style={{
               width: "100%",
@@ -14076,3 +14090,4 @@ export default class App extends React.Component {
     );
   }
 }
+
