@@ -627,9 +627,12 @@ export default class App extends React.Component {
             GENE SPERLING hired by Biden
           </a>
           &nbsp;to ensure the payments that aren't spent on select government
-          contractors' and their pension promises (forced by threat to start),
-          like Microsoft - my competitor, aren't spent on&nbsp;
+          contractors' and their&nbsp;
+          <a href="https://nationalsecuritycasino.com">pension</a>&nbsp;promises
+          (forced by threat to start), like Microsoft - my competitor, aren't
+          spent on&nbsp;
           <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
               this.setState({ highlightJewels: true });
