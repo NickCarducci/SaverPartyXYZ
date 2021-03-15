@@ -323,6 +323,7 @@ export default class App extends React.Component {
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
+      this.props.inSection("story");
       const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
       if (this.props.scrollTop > RentOffsetTop) {
         const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
@@ -613,11 +614,14 @@ export default class App extends React.Component {
           </span>
         </span>
         The O.K. symbol is 666, not chalk-colored people, CNN you cunt
-        <br/>
-        <br/>
-        I guarantee all stress, depression and suicide is caused by
-        finance/rentier-colonialism/backtaxes/insurance-pooling-duress/borrowing-duress
-        and&nbsp;
+        <br />
+        I don't have 20 hands Greg Kelly
+        <br />
+        <br />I guarantee all stress, depression and suicide is caused by
+        finance/rentier-colonialism/
+        <a href="https://wavv.art/United_States_of_America">back</a>-
+        <a href="https://vaults.biz">taxes</a>
+        /insurance-pooling-duress/borrowing-duress and&nbsp;
         <a href="https://foiegras.info">loss and infrastructure inflation</a>
         <br />
         <br />
@@ -13967,3 +13971,4 @@ export default class App extends React.Component {
     );
   }
 }
+
