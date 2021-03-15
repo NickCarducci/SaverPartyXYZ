@@ -13104,8 +13104,13 @@ export default class App extends React.Component {
                 Being there as an aggressor (not a 'I wish you were dead' but
                 'we should kill you') is grounds for restraining order if
                 possible given territorial trespassing, and criminal if 'I want
-                to kill you' or 'please kill' not 'go die or kill yourself,' or
-                a date in the intent letter in most other context.  This was about a nazi parade I think... unless the nazi are not intent on killing Jews, is that what you are saying CNN Monday 9 est Mar2021?
+                to kill you' or 'please kill' not 'go die or kill yourself [with
+                understanding that the user understands the nomenclature therein
+                and its FULL implications + it is their right to do so],' or a
+                date in the intent letter in most other context. This was about
+                a nazi parade I think... unless the nazi are not intent on
+                killing Jews, is that what you are saying CNN Monday 9 est
+                Mar2021?
               </span>
               <br />
               <b style={{ textDecoration: "underline" }}>
