@@ -612,6 +612,8 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Journalists are just like communist/non-socialist propoganda arm.  they get their itinerary from a central source
+        <br/><br/>
         <a href="https://en.wikipedia.org/wiki/Marc_Molinaro">Mark malinaro (Pube)</a>, "if federal government is [illegally] printing [not their] money, leverage it to open." Just open you bum, you don’t deserve or need (financial/back-rent/back-tax/invoice) promise bail-out to do that.  Abjectly another fraud (if I had money for court fees I would make sure you pay for damages to public intelligence, you're harming kids spewing these lies.  There is no resource for truth except me, here!).  
         <br/><br/>
         Biden says the Bill increases supply; it actually increases demand and price
