@@ -544,6 +544,7 @@ export default class App extends React.Component {
       backgroundColor: "white"
     };
     var tweetsStyle = {
+      border: "1px dotted",
       padding: "20px",
       width: "calc(100% - 42px)",
       maxWidth: "600px"
@@ -3142,16 +3143,16 @@ export default class App extends React.Component {
           ref={this.POLLINGFRAUD}
         >
           <PollingFraud
-          electionTech={() => {
-            this.electionTech.current.scrollIntoView("smooth");
-            this.setState({ highlightElectionTech: true });
+            electionTech={() => {
+              this.electionTech.current.scrollIntoView("smooth");
+              this.setState({ highlightElectionTech: true });
 
-            clearTimeout(this.highlighting);
-            this.highlighting = setTimeout(
-              () => this.setState({ highlightElectionTech: false }),
-              10000
-            );
-          }}
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightElectionTech: false }),
+                10000
+              );
+            }}
             flop={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
@@ -3933,6 +3934,49 @@ export default class App extends React.Component {
           }}
           ref={this.OWNERSHIPFRAUD}
         >
+          <span
+            ref={this.takingCredit}
+            style={{
+              color: this.state.highlightTakingCredit ? "white" : "grey",
+              backgroundColor: this.state.highlightTakingCredit
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <a href="https://wavv.art/test3">Not taking credit</a>
+            &nbsp;you&nbsp;
+            <span style={{ fontSize: "6px" }}>fucking</span>
+            slut,&nbsp;
+            <a href="https://thumbprint.us">working for market(copyright,</a>
+            not <a href="https://vaults.biz">depositary</a>) share instead of
+            &nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.technicallyIllegal.current.scrollIntoView("smooth");
+                this.setState({ highlightTechnicallyIllegal: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightTechnicallyIllegal: false }),
+                  10000
+                );
+              }}
+            >
+              entrapping myself
+            </span>
+            &nbsp;into <a href="https://stripe.com">Stripe.com</a>
+            <br />
+            <br />
+            Judges cannot judge what is right for bail, they'rn't impartial - as
+            in they get the bail.
+            <br />
+            Bail for judges'n't for consumers/community - the service at its
+            most efficient as to keep everyone happiest, individually, for the
+            complainants only; class action is for precedence, but we all assume
+            it gets less than each individual case would.
+          </span>
+          <br />
           <a
             href="https://thumbprint.us"
             style={{
@@ -11607,48 +11651,6 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          <span
-            ref={this.takingCredit}
-            style={{
-              color: this.state.highlightTakingCredit ? "white" : "grey",
-              backgroundColor: this.state.highlightTakingCredit
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            <a href="https://wavv.art/test3">Not taking credit</a>
-            &nbsp;you&nbsp;
-            <span style={{ fontSize: "6px" }}>fucking</span>
-            slut,&nbsp;
-            <a href="https://thumbprint.us">working for market(copyright,</a>
-            not <a href="https://vaults.biz">depositary</a>) share instead of
-            &nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.technicallyIllegal.current.scrollIntoView("smooth");
-                this.setState({ highlightTechnicallyIllegal: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTechnicallyIllegal: false }),
-                  10000
-                );
-              }}
-            >
-              entrapping myself
-            </span>
-            &nbsp;into <a href="https://stripe.com">Stripe.com</a>
-            <br />
-            <br />
-            Judges cannot judge what is right for bail, they'rn't impartial - as
-            in they get the bail.
-            <br />
-            Bail for judges'n't for consumers/community - the service at its
-            most efficient as to keep everyone happiest, individually, for the
-            complainants only; class action is for precedence, but we all assume
-            it gets less than each individual case would.
-          </span>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12196,7 +12198,7 @@ export default class App extends React.Component {
             EXCLUDED
           </div>
           <div style={tweetsStyle}>
-            Hello Alan, I will not harass and monopsonize the funeral
+            Hello ----, I will not harass and monopsonize the funeral
             arrangement market without being a buyer or seller preventing
             price-elasticity, especially when the contracts you broker aren't
             gift certificates or tranched having to withstand counter-party risk
