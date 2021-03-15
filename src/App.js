@@ -612,6 +612,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        The O.K. symbol is 666, not chalk-colored people, CNN you cunt
+        <br/>
+        <br/>
         I guarantee all stress, depression and suicide is caused by
         finance/rentier-colonialism/backtaxes/insurance-pooling-duress/borrowing-duress
         and&nbsp;
