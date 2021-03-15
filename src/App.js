@@ -323,7 +323,6 @@ export default class App extends React.Component {
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
-      this.props.inSection("story");
       const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
       if (this.props.scrollTop > RentOffsetTop) {
         const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
@@ -509,7 +508,7 @@ export default class App extends React.Component {
                                               earlyCommsOffsetTop
                                         ) {
                                           this.props.inSection("Early Comms");
-                                        }
+                                        } else this.props.inSection("story");
                                       }
                                     }
                                   }
