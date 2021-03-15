@@ -158,20 +158,17 @@ class Index extends React.Component {
                   margin: "2px"
                 }}
               >
-                {x !== "close" ? (
-                  x
-                ) : (
-                  <span
-                    style={{
-                      transition: ".3s ease-out",
-                      fontSize:
-                        this.state.inSection !== "story" ? "20px" : "0px"
-                    }}
-                    onClick={() => this.setState({ openMenu: false })}
-                  >
-                    &times;
-                  </span>
-                )}
+                {x !== "close"
+                  ? x
+                  : this.state.inSection !== "story" && (
+                      <span
+                        style={{
+                          fontSize: "20px"
+                        }}
+                      >
+                        &times;
+                      </span>
+                    )}
               </div>
             ))}
           </div>
@@ -730,7 +727,13 @@ class Index extends React.Component {
               <span style={{ /**rgb(250,10,88) */ color: "rgb(250,100,100)" }}>
                 suffocating inventors
               </span>
-              &nbsp;- disturbing opportunity to launder to rich with bonds
+              &nbsp;- disturbing opportunity [default-1/42 reposession
+              adjunication malfeasance (if debt-didn't exist, for all
+              purchases)];&nbsp;
+              <span style={{ color: "rgb(180,180,180)" }}>
+                not acting to ban counterfeit-in-contract financial-cannibalism
+                or rentier-colonisation to launder to rich with bonds
+              </span>
               <div
                 style={{
                   margin: "4px 0px",
