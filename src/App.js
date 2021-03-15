@@ -612,9 +612,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Biden lies and says the price-inelasticity inflation will lower prices
-        again. ban invoices instead retard. it will cut poverty in half for a
-        day but wall street is pricing their accounts to double that amount!
+        Biden lies and says the&nbsp;
+        <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
+          price-inelasticity inflation
+        </a>
+        &nbsp;will lower prices again. ban invoices instead retard. it will cut
+        poverty in half for a day but wall street is pricing their accounts to
+        double that amount!
         <br />
         <br />
         "No more than 2% waste or fraud" from his paid oversight board, that is,
@@ -629,13 +633,17 @@ export default class App extends React.Component {
         . YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
         <br />
         <br />
-        The O.K. symbol is 666, not chalk-colored people, CNN you cunt
+        The O.K. symbol is&nbsp;<a href="https://humanharvest.info">666</a>, not
+        chalk-colored people, CNN you cunt
         <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
         <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not our
-        culture for white people to be called colored?" he 'sponds. You are a&nbsp;
+        culture for white people to be called colored?" he 'sponds. You are
+        a&nbsp;
         <a href="https://en.wikipedia.org/wiki/Cigarette">fag</a>
         <br />
-        Why do you have to get a lawyer to have jurisprudence. Don’t judges know the law? What is this&nbsp;<a href="https://www.youtube.com/watch?v=th0Im-eJFx0">Judge Judy</a>?
+        Why do you have to get a lawyer to have jurisprudence. Don’t judges know
+        the law? What is this&nbsp;
+        <a href="https://www.youtube.com/watch?v=th0Im-eJFx0">Judge Judy</a>?
         <br />
         <br />I guarantee all stress, depression and suicide is caused by
         finance/rentier-colonialism/
@@ -13991,3 +13999,4 @@ export default class App extends React.Component {
     );
   }
 }
+
