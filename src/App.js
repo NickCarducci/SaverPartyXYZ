@@ -612,7 +612,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Biden&nbsp;<a href="https://www.investopedia.com/terms/t/treasurystock.asp">lies</a>&nbsp;and says the&nbsp;
+        Biden&nbsp;
+        <a href="https://www.investopedia.com/terms/t/treasurystock.asp">
+          lies
+        </a>
+        &nbsp;and says the&nbsp;
         <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
           price-inelasticity inflation
         </a>
@@ -622,11 +626,34 @@ export default class App extends React.Component {
         <br />
         <br />
         "No more than 2% waste or fraud" from his paid oversight board, that is,
-        only spent on promises to creditors and landlords they made for
-        themselves or build without the intent to use or sell in an actual
-        trade, a settled one. Directly where the American people are and where
-        it belongs" only 9% goes to people or unemploymenty insurance fraud,
-        price fixing.&nbsp;
+        only spent on&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.trueGDP.current.scrollIntoView("smooth");
+            this.setState({ highlightTrueGDP: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightTrueGDP: false }),
+              10000
+            );
+          }}
+        >
+          promises
+        </span>
+        &nbsp;to&nbsp;
+        <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
+          creditors
+        </a>
+        &nbsp;and&nbsp;
+        <a href="https://www.zippia.com/landlord-jobs/demographics/">
+          landlords
+        </a>
+        &nbsp;they made for themselves or build without the intent to use or
+        sell in an actual trade, a settled one. Directly where the American
+        people are and where it belongs" only 9% goes to people or unemploymenty
+        insurance fraud, price fixing.&nbsp;
         <a href="https://www.nature.com/articles/s41598-020-73777-8">
           The DEATHS ARE NORMAL
         </a>
