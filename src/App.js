@@ -612,9 +612,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Andrew Cuomo is retarded (self-harmer) or intentionally misleading saying you lose money in opportunity.  opportunity lost (not property fraud), is not a loss you can deduct you corrupt nipple-ringed fuck
-        <br/>
-        <br/>
+        Andrew Cuomo is&nbsp;<a href="https://igpa.uillinois.edu/programs/racial-attitudes">retarded</a>&nbsp;(self-harmer) or intentionally misleading
+        saying you lose money in opportunity. opportunity lost (not property
+        fraud), is not a loss you can deduct you corrupt nipple-ringed fuck
+        <br />
+        <br />
         Trump plays with emotions of media ["people" -&nbsp;
         <a href="https://lexfridman.com/">L. Fridman</a>]
         <br />
