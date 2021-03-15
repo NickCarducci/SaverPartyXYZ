@@ -3954,6 +3954,21 @@ export default class App extends React.Component {
           ref={this.OWNERSHIPFRAUD}
         >
           <div style={tweetsStyle}>
+            A person's debt is their customers to burden unrequited, promised
+            (not used or borrowed). We work towards no ends when debt exists
+            <br />
+            you cannot build someone else's designs, and pass them off as your
+            own while they are building it. imagine if that was the case
+            <br />
+            marijuana laws are to stop dollar competition
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            performance enhancing and self-medication draws its line in
+            monopsonization of medicine
+          </div>
+          <br />
+          <div style={tweetsStyle}>
             biden calling for full employment scares me
             <br />
             <br />
@@ -3981,16 +3996,6 @@ export default class App extends React.Component {
               Let prices be elastic
             </span>
             !
-          </div>
-          <br />
-          <div style={tweetsStyle}>
-            A person's debt is their customers to burden unrequited, promised
-            (not used or borrowed). We work towards no ends when debt exists
-            <br />
-            you cannot build someone else's designs, and pass them off as your
-            own while they are building it. imagine if that was the case
-            <br />
-            marijuana laws are to stop dollar competition
           </div>
           <br />
           <div style={tweetsStyle}>
@@ -9514,7 +9519,7 @@ export default class App extends React.Component {
               monopolize the paper industry, not personal liberty
               <br />
               <br />
-              If
+              If&nbsp;
               <span
                 style={{
                   transition: ".3s ease-in",
@@ -9528,7 +9533,7 @@ export default class App extends React.Component {
               >
                 Merrick Garland
               </span>
-              &nbsp; is the US' lawyer, I am the peoples'
+              &nbsp;is the US' lawyer, I am the peoples'
               <br />
               The US is not the enemy; bold-holders &&nbsp;
               <span
@@ -9549,7 +9554,7 @@ export default class App extends React.Component {
               >
                 IRS
               </span>
-              &nbsp; are (if slave-owners, thieves are)
+              &nbsp;are (if slave-owners, thieves are)
               <br />
               Klobuchar cares more about paydays for entrepreneurs than copycats
               (no reward)
@@ -10601,11 +10606,6 @@ export default class App extends React.Component {
             if we banned prohibiting price-elasticity in debt, invoices and
             renting out more than one can use themselves prices would drop to
             1/12 what it is now (current cash:debt ratio)
-          </div>
-          <br />
-          <div style={tweetsStyle}>
-            performance enhancing and self-medication draws its line in
-            monopsonization of medicine{" "}
           </div>
           <br />
           <div style={tweetsStyle}>
