@@ -5956,20 +5956,6 @@ export default class App extends React.Component {
             by invoice, gift-certificate or max-expense, prohibiting trade and
             causing slavery just the same as debt
           </span>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            imo it only removes any liability protection of his advertisements,
-            otherwise his commentary/good products is a public service
-            <br />
-            but that should be even handed for any figure regardless of Delaware
-          </div>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7347,6 +7333,23 @@ export default class App extends React.Component {
                 <br />
                 equal jurisprudence afterwards, without spite or qualified
                 immunity, except for brandishing
+              </div>
+              <div
+                style={{
+                  fontFamily: '"Hi Melody", sans-serif',
+                  color: "grey",
+
+                  width: "calc(100% - 20px)",
+                  maxWidth: "600px"
+                }}
+              >
+                imo it only removes any liability protection of his
+                advertisements, otherwise his commentary/good products is a
+                public service
+                <br />
+                but that should be even handed for any figure, regardless of
+                what Delaware thinks they can get away with in terms of Human
+                Rights Abuse
               </div>
               <br />
               <br />
@@ -13920,3 +13923,4 @@ export default class App extends React.Component {
     );
   }
 }
+
