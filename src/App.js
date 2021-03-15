@@ -638,10 +638,10 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/1b5lup5i8pfgb97/StayInYourLane.jpg?dl=0"
             />
           </div>
-          Stay in your lane 'spic, cease in saying conservatives value
-          debt-spending for roads, which can be based on price-fixed tolls. YOU
-          MUST STOP USING CONSERVATIVE TO TALK ABOUT DOLLAR-SPLIT or not
-          removing free-riders from public goods, which should only be
+          Stay in your lane 'spic, cease in saying liberty-lovers/conservatives
+          value debt-spending for roads, which can be based on price-fixed
+          tolls. YOU MUST STOP USING CONSERVATIVE TO TALK ABOUT DOLLAR-SPLIT or
+          not removing free-riders from public goods, which should only be
           sales-taxed 3% under $2k (not resales/equity/uncut-material) to
           provide for the customers of the sales
           <br />
