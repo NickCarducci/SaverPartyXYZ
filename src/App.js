@@ -691,7 +691,7 @@ export default class App extends React.Component {
           debt/invoice counterfeit--in-contract collusion, loitering, &
           borrowers' customers' down payment loss to accredited usurpers of
           conditionally lowering standards in bond ratings since 1:1 security
-          depositary reciepts
+          depositary receipts
           <br />
           <div
             style={{
@@ -702,7 +702,7 @@ export default class App extends React.Component {
             <img
               alt=""
               style={{
-                width: "100%",
+                width: "40%",
                 height: "auto"
               }}
               src="https://www.dl.dropboxusercontent.com/s/syu4kegvxmwxj13/LaunderToLender.jpg?dl=0"
@@ -1825,7 +1825,7 @@ export default class App extends React.Component {
             their team" IS CONFESSION
           </span>
           <br />
-          Dodaro, please look at tax reciepts when analysing our ability to pay
+          Dodaro, please look at tax receipts when analysing our ability to pay
           down debt or default to cash:debt, not the GDP - new money - new debt
         </div>
         <br />
