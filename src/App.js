@@ -6021,6 +6021,60 @@ export default class App extends React.Component {
           }}
           ref={this.INSURANCEFRAUD}
         >
+          Marjorie getting elected after suggesting&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.flag.current.scrollIntoView("smooth");
+              this.setState({ highlightFlag: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFlag: false }),
+                10000
+              );
+            }}
+          >
+            false flag
+          </span>
+          &nbsp; is correlative evidence that most of her constituents agree
+          with her
+          <br />
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            O.K., Geico, I want to blow off some steam because you force
+            consumers to pre-pay (+ mixing-risk/expirations)
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Who benefits when 'helping' with&nbsp;
+            <a
+              style={{
+                color: "black",
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics"
+              }}
+              href="https://foiegras.life"
+            >
+              foiegras
+            </a>
+          </i>
           Insurance is market-intervention akin to colonialism and therefore
           involuntary by duress, the funding for government insurance is
           untreated in the same contract law as corporate shares. We buy-in due
@@ -7485,6 +7539,7 @@ export default class App extends React.Component {
               style={{ height: "400px" }}
               src="https://www.dl.dropboxusercontent.com/s/pwmdkft5plxmjyx/DefenseOfIndividual.png?dl=0"
             />
+            <br />
             <div
               style={{
                 fontFamily: '"Hi Melody", sans-serif',
@@ -7536,11 +7591,13 @@ export default class App extends React.Component {
                 (Trump flop)
               </span>
               <br />
+              <br />
               you cannot claim someone can be violent for grievances without a
               previously-violent offense.&nbsp;
               <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
                 Holy Christ
               </a>
+              <br />
               <br />
               <span
                 style={{
@@ -7553,7 +7610,7 @@ export default class App extends React.Component {
                 }}
                 ref={this.nra}
               >
-                law-abiding can be asinine... Gun sales should be&nbsp;
+                Law-abiding can be asinine... Gun sales should be&nbsp;
                 <a href="https://govtrackus.s3.amazonaws.com/legislink/pdf/stat/48/STATUTE-48-Pg1236.pdf">
                   registered
                 </a>
@@ -7584,28 +7641,21 @@ export default class App extends React.Component {
                 equal jurisprudence afterwards, without spite or qualified
                 immunity, except for brandishing
               </div>
-              <div
-                style={{
-                  fontFamily: '"Hi Melody", sans-serif',
-                  color: "grey",
-
-                  width: "calc(100% - 20px)",
-                  maxWidth: "600px"
-                }}
-              >
-                imo it only removes any liability protection of his
-                advertisements, otherwise his commentary/good products is a
-                public service
-                <br />
-                but that should be even handed for any figure, regardless of
-                what Delaware thinks they can get away with in terms of Human
-                Rights Abuse
-              </div>
+              <br />
+              imo it only removes any liability protection of his
+              advertisements, otherwise his commentary/good products is a public
+              service
+              <br />
+              <br />
+              but that should be even handed for any figure, regardless of what
+              Delaware thinks they can get away with in terms of Human Rights
+              Abuse
               <br />
               <br />
               defense of individual non-liability by association [of other
               individuals] unless stated intent of self or acknowledgement of
               organizational intent
+              <br />
               <br />
               This FBI senate hearing official says they will be targeting
               anyone who likes the oath keepers or proud boys, who I am seeking
@@ -7629,10 +7679,10 @@ export default class App extends React.Component {
               >
                 501c3
               </span>
-              &nbsp; so that's weird. get your story straight govenor
+              , so that's weird; get your story straight, Governor.
               <br />
               <br />
-              in connection with the 6th is all [FBI] cares about.
+              In connection with the 6th is all [FBI] cares about;&nbsp;
               <span
                 style={{
                   transition: ".3s ease-in",
@@ -7991,6 +8041,37 @@ export default class App extends React.Component {
             </div>
             <br />
             why are you hitting yourselves?
+            <br />
+            <br />
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+
+                flexDirection: "column",
+                alignItems: "center",
+
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              "Conservatives" at CPAC are retarded, as they only harm themselves
+              (and others), or colonizers and have no demand or production in
+              the trade in asking for Stimulus for usurped invoice contracts and
+              rent instead of allowing prices to be found by natural capacity,
+              made from diluting their own dollars and others' by unrequited
+              share-split.
+              <br />
+              <br />
+              This deal is involuntary when the first charge of interest is
+              passed to the consumer - the deals you solicit must be a
+              business-line royalty contract w/max-profit to be compliant with
+              Amendment 13
+              <br />
+              <br />
+              Is this scalping abodes/storefronts, for no productive utility
+              added? We call that colonialism or involuntary servitude
+            </div>
           </div>
           <br />
           <a
@@ -8064,345 +8145,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            O.K., Geico, I want to blow off some steam because you force
-            consumers to pre-pay (+ mixing-risk/expirations)
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Who benefits when 'helping' with&nbsp;
-            <a
-              style={{
-                color: "black",
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics"
-              }}
-              href="https://foiegras.life"
-            >
-              foiegras
-            </a>
-          </i>
-          <div
-            style={{
-              fontWeight: "normal",
-              transition: ".3s ease-in",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightOooreily ? "white" : "grey",
-              backgroundColor: this.state.highlightOooreily
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-            ref={this.Oooreily}
-          >
-            <span
-              style={{
-                fontFamily: '"Hi Melody", sans-serif'
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: '"Hi Melody", sans-serif',
-                  lineHeight: "3"
-                }}
-              >
-                If Iran earns in dollars from an indebted institution, is it
-                their dollars?
-              </span>
-              <br />
-              Nick Carducci.sh Fair Haven, NJ
-              <br />
-              <br />
-              -------- Forwarded message ------- From: nick@thumbprint.us To:
-              bill@billoreilly.com Sent: January 19, 2021 9:58 PM Subject:
-              bankrupt the country? impossible
-              <hr />
-              you say immigrants will bankrupt the country when there is already
-              11x debt than money.. no amount of debt will prevent investors
-              from lending to bonds that are able to be cashed out. immigration
-              and dilution of dollar-share will not bankrupt the country
-            </span>
-            <br />
-            <br />
-            <span
-              ref={this.inflation}
-              style={{
-                fontWeight: "bolder",
-                color: this.state.highlightInflation ? "white" : "grey",
-                backgroundColor: this.state.highlightInflation
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              Inflation is the ask exuding its&nbsp;
-              <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
-                power
-              </a>
-            </span>
-            <br />
-            The&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.china.current.scrollIntoView("smooth");
-                this.setState({ highlightChina: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightChina: false }),
-                  10000
-                );
-              }}
-            >
-              effects
-            </span>
-            &nbsp;of "inflation" - as many imagine, and as depicted though U.S.
-            school-taught history, which forgets the jobs lost from&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.livingWage.current.scrollIntoView("smooth");
-                this.setState({ highlightLivingWage: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightLivingWage: false }),
-                  10000
-                );
-              }}
-            >
-              paying debts
-            </span>
-            &nbsp;and forclosure -&nbsp;
-            <span
-              style={{
-                color: "rgb(40,40,160)",
-                fontWeight: "normal"
-              }}
-            >
-              is actually the&nbsp;
-              <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
-                propensity
-              </a>
-              &nbsp;for people to hoard, cheat and collude, to corner assets of
-              people... rather than compete for their favor (a.k.a. raise price
-              at what they're willing to ask). Inflation is actually [or is
-              actually-caused by] the ability for people to do that.
-            </span>
-            &nbsp;Very little inflation by supply [as&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.bidask.current.scrollIntoView("smooth");
-                this.setState({ highlightBidAsk: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBidAsk: false }),
-                  10000
-                );
-              }}
-            >
-              price-givers
-            </span>
-            ] of above&nbsp;
-            <span
-              style={{
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.twenty.current.scrollIntoView("smooth");
-                this.setState({ highlightTwenty: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTwenty: false }),
-                  10000
-                );
-              }}
-            >
-              20
-            </span>
-            &nbsp;competitors, whom do not&nbsp;
-            <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-              compete with demand
-            </a>
-            , cause price of&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.livingWage.current.scrollIntoView("smooth");
-                this.setState({ highlightLivingWage: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightLivingWage: false }),
-                  10000
-                );
-              }}
-            >
-              living
-            </span>
-            &nbsp;to rise, in comparison [1300% to 102% (plus housing not
-            included in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
-            &nbsp;which has been 2% to find "
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-              RealGDP
-            </span>
-            ," for a while, as has&nbsp;
-            <span
-              style={{
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics",
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.compoundGramm.current.scrollIntoView("smooth");
-                this.setState({ highlightCompoundGramm: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightCompoundGramm: false }),
-                  10000
-                );
-              }}
-            >
-              interest
-            </span>
-            )]
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            If everyone else is lying about what they can do in promising other
-            peoples’ money, I can too - as well as short those with these
-            price-fixed valuations, as well as my&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.concious.current.scrollIntoView("smooth");
-                this.setState({ highlightConcious: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightConcious: false }),
-                  10000
-                );
-              }}
-            >
-              competitors
-            </span>
-            <br />
-            <a
-              href="https://wavv.art/United_States_of_America"
-              style={{
-                color: "black",
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics"
-              }}
-            >
-              wavv.art/United_States_of_America
-            </a>
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            "Conservatives" at CPAC are retarded, as they only harm themselves
-            (and others), or colonizers and have no demand or production in the
-            trade in asking for Stimulus for usurped invoice contracts and rent
-            instead of allowing prices to be found by natural capacity, made
-            from diluting their own dollars and others' by unrequited
-            share-split.
-            <br />
-            <br />
-            This deal is involuntary when the first charge of interest is passed
-            to the consumer - the deals you solicit must be a business-line
-            royalty contract w/max-profit to be compliant with Amendment 13
-            <br />
-            <br />
-            Is this scalping abodes/storefronts, for no productive utility
-            added? We call that colonialism or involuntary servitude
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Marjorie getting elected after suggesting&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.flag.current.scrollIntoView("smooth");
-                this.setState({ highlightFlag: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFlag: false }),
-                  10000
-                );
-              }}
-            >
-              false flag
-            </span>
-            &nbsp; is correlative evidence that most of her constituents agree
-            with her
-            <br />
-            <br />
             CNN calling vaccines/grafts, platforms now
             <br />
             <br />
@@ -9051,6 +8793,7 @@ export default class App extends React.Component {
             Letter to the "Small Business Administration"
           </i>
           <br />
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -9663,15 +9406,15 @@ export default class App extends React.Component {
             <br />
             <div
               style={{
+                padding: "10px 20px",
+                border: "1px dotted",
                 fontFamily: '"Hi Melody", sans-serif',
                 color: "grey",
-
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
                 alignItems: "center",
-
-                width: "calc(100% - 20px)",
+                width: "calc(100% - 40px)",
                 maxWidth: "600px"
               }}
             >
@@ -9679,7 +9422,6 @@ export default class App extends React.Component {
                 ref={this.nsfFraud}
                 style={{
                   transition: ".3s ease-in",
-
                   color: this.state.highlightNSFFraud ? "white" : "",
                   backgroundColor: this.state.highlightNSFFraud
                     ? "rgb(170,100,205)"
@@ -9688,7 +9430,6 @@ export default class App extends React.Component {
               >
                 Dear Nicholas,
               </span>
-              <br />
               <br />
               Thank you for submitting your company's Program Pitch to America's
               Seed Fund powered by the National Science Foundation.
@@ -9703,7 +9444,6 @@ export default class App extends React.Component {
               innovation that is creative, original or potentially
               transformative."
             </div>
-            <br />
             <br />I also invented the&nbsp;
             <a href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/226631196">
               DayClock
@@ -10464,6 +10204,301 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+        Mortgages are illegal, you cannot promise somebody else's
+        money&nbsp;
+        <br />
+        <br />
+        CHINA DOESN'T ONLY EAT OUR LUNCH THEY OWN US, all bond holders are
+        our&nbsp;<a href="https://nationalsecuritycasino.com">enemies</a>&nbsp;not our competitors
+        <br />
+        <br />
+        <div
+          ref={this.jan2018}
+          style={{
+            fontFamily: '"Hi Melody", sans-serif',
+
+            width: "calc(100% - 20px)",
+            maxWidth: "600px",
+            color: this.state.highlightJan2018 ? "white" : "grey",
+            backgroundColor: this.state.highlightJan2018
+              ? "rgb(50,100,255)"
+              : ""
+          }}
+        >
+          I was shorting the car market, expecting all this inventory to flood
+          the market after I ban debt. I took out a cash advance, bought my
+          car lien out ($10k) and my business credit out ($3k) and the
+          remaining $20k I had ($5k of my own)... won lost won lost. I need
+          the car but do not want to pay for torts in advance and for others.
+          Just pay for your new item and jail intentful and neglectful
+          behavior. I also just don’t want to not follow through with my plan
+          to roll out the crash with a $6k Ferrari
+          <br />
+        </div>
+        <div
+          style={{
+            fontFamily: '"Hi Melody", sans-serif',
+            color: "grey",
+
+            width: "calc(100% - 20px)",
+            maxWidth: "600px"
+          }}
+        >
+          Legally, bonds go to zero because they are counterfeit against
+          actual dollar owners
+          <br />
+          you cannot tell me you’re allowed to promise my money to your lender
+        </div>
+        <br />
+        <br />
+        the implication of the language "terms" vs "agreement" is explicit by
+        itself, yet bankruptcy prosecutors lay blame on the acquiescing party,
+        under duress and involuntarily serving/trade.
+        <br />
+          <span
+            ref={this.Oooreily}
+            style={{
+              transition: ".3s ease-in",
+              fontFamily: '"Hi Melody", sans-serif',
+              color: this.state.highlightOooreily ? "white" : "grey",
+              backgroundColor: this.state.highlightOooreily
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                lineHeight: "3"
+              }}
+            >
+              If Iran earns in dollars from an indebted institution, is it their
+              dollars?
+            </span>
+            <br />
+            Nick Carducci.sh Fair Haven, NJ
+            <br />
+            <br />
+            -------- Forwarded message ------- From: nick@thumbprint.us To:
+            bill@billoreilly.com Sent: January 19, 2021 9:58 PM Subject:
+            bankrupt the country? impossible
+            <hr />
+            you say immigrants will bankrupt the country when there is already
+            11x debt than money.. no amount of debt will prevent investors from
+            lending to bonds that are able to be cashed out. immigration and
+            dilution of dollar-share will not bankrupt the country
+          </span>
+          <br />
+          <br />
+          <span
+            ref={this.inflation}
+            style={{
+              fontWeight: "bolder",
+              color: this.state.highlightInflation ? "white" : "grey",
+              backgroundColor: this.state.highlightInflation
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Inflation is the ask exuding its&nbsp;
+            <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+              power
+            </a>
+          </span>
+          <br />
+          The&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.china.current.scrollIntoView("smooth");
+              this.setState({ highlightChina: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightChina: false }),
+                10000
+              );
+            }}
+          >
+            effects
+          </span>
+          &nbsp;of "inflation" - as many imagine, and as depicted though U.S.
+          school-taught history, which forgets the jobs lost from&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.livingWage.current.scrollIntoView("smooth");
+              this.setState({ highlightLivingWage: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightLivingWage: false }),
+                10000
+              );
+            }}
+          >
+            paying debts
+          </span>
+          &nbsp;and forclosure -&nbsp;
+          <span
+            style={{
+              color: "rgb(40,40,160)",
+              fontWeight: "normal"
+            }}
+          >
+            is actually the&nbsp;
+            <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
+              propensity
+            </a>
+            &nbsp;for people to hoard, cheat and collude, to corner assets of
+            people... rather than compete for their favor (a.k.a. raise price at
+            what they're willing to ask). Inflation is actually [or is
+            actually-caused by] the ability for people to do that.
+          </span>
+          &nbsp;Very little inflation by supply [as&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bidask.current.scrollIntoView("smooth");
+              this.setState({ highlightBidAsk: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBidAsk: false }),
+                10000
+              );
+            }}
+          >
+            price-givers
+          </span>
+          ] of above&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.twenty.current.scrollIntoView("smooth");
+              this.setState({ highlightTwenty: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTwenty: false }),
+                10000
+              );
+            }}
+          >
+            20
+          </span>
+          &nbsp;competitors, whom do not&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            compete with demand
+          </a>
+          , cause price of&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.livingWage.current.scrollIntoView("smooth");
+              this.setState({ highlightLivingWage: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightLivingWage: false }),
+                10000
+              );
+            }}
+          >
+            living
+          </span>
+          &nbsp;to rise, in comparison [1300% to 102% (plus housing not included
+          in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
+          &nbsp;which has been 2% to find "
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            RealGDP
+          </span>
+          ," for a while, as has&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.compoundGramm.current.scrollIntoView("smooth");
+              this.setState({ highlightCompoundGramm: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCompoundGramm: false }),
+                10000
+              );
+            }}
+          >
+            interest
+          </span>
+          )]
+          <br />
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            If everyone else is lying about what they can do in promising other
+            peoples’ money, I can too - as well as short those with these
+            price-fixed valuations, as well as my&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.concious.current.scrollIntoView("smooth");
+                this.setState({ highlightConcious: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightConcious: false }),
+                  10000
+                );
+              }}
+            >
+              competitors
+            </span>
+            <br />
+            <a
+              href="https://wavv.art/United_States_of_America"
+              style={{
+                color: "black",
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics"
+              }}
+            >
+              wavv.art/United_States_of_America
+            </a>
+          </div>
           <br />
           <div
             style={{
@@ -11940,49 +11975,6 @@ export default class App extends React.Component {
             <br />
             if you move people you are at fault
           </i>
-          <div
-            ref={this.jan2018}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightJan2018 ? "white" : "grey",
-              backgroundColor: this.state.highlightJan2018
-                ? "rgb(50,100,255)"
-                : ""
-            }}
-          >
-            I was shorting the car market, expecting all this inventory to flood
-            the market after I ban debt. I took out a cash advance, bought my
-            car lien out ($10k) and my business credit out ($3k) and the
-            remaining $20k I had ($5k of my own)... won lost won lost. I need
-            the car but do not want to pay for torts in advance and for others.
-            Just pay for your new item and jail intentful and neglectful
-            behavior. I also just don’t want to not follow through with my plan
-            to roll out the crash with a $6k Ferrari
-            <br />
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Legally, bonds go to zero because they are counterfeit against
-            actual dollar owners
-            <br />
-            you cannot tell me you’re allowed to promise my money to your lender
-          </div>
-          <br />
-          <br />
-          the implication of the language "terms" vs "agreement" is explicit by
-          itself, yet bankruptcy prosecutors lay blame on the acquiescing party,
-          under duress and involuntarily serving.
-          <br />
           <iframe
             title="s"
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbaltimoresun%2Fposts%2F10159175313274712&width=300&show_text=true&height=444&appId"
@@ -12023,14 +12015,6 @@ export default class App extends React.Component {
           </div>
           <br />
           <div style={tweetsStyle}>
-            Mortgages are illegal, you cannot promise somebody else's
-            money&nbsp;
-            <br />
-            <br />
-            CHINA DOESN'T ONLY EAT OUR LUNCH THEY OWN US, all bond holders are
-            our enemies not our competitors
-            <br />
-            <br />
             work used to be if you needed to do something, now it is just to
             keep up with price-inelasticity inflation by finance (insurance
             coagulating involuntary purchase, rent more than can use, lend to
@@ -14097,3 +14081,4 @@ export default class App extends React.Component {
     );
   }
 }
+
