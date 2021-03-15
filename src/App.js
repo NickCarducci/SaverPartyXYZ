@@ -616,6 +616,10 @@ export default class App extends React.Component {
         <a href="https://lexfridman.com/">L. Fridman</a>]
         <br />
         <br />
+        Keep name out of mouth. but you did it Hulk Hogan! Photo regardles of
+        pay is copyright unless violent (property) crime
+        <br />
+        <br />
         Journalists are just like communist/insurance/non-socialist propoganda
         arm. they get their itinerary from a central source
         <br />
@@ -13936,3 +13940,4 @@ export default class App extends React.Component {
     );
   }
 }
+
