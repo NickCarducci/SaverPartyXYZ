@@ -935,6 +935,298 @@ export default class App extends React.Component {
           }}
           ref={this.ABUSEOFPOWER}
         >
+          <span
+            ref={this.inflation}
+            style={{
+              fontWeight: "bolder",
+              color: this.state.highlightInflation ? "white" : "grey",
+              backgroundColor: this.state.highlightInflation
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Inflation is the ask exuding its&nbsp;
+            <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
+              power
+            </a>
+          </span>
+          <br />
+          The&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.china.current.scrollIntoView("smooth");
+              this.setState({ highlightChina: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightChina: false }),
+                10000
+              );
+            }}
+          >
+            effects
+          </span>
+          &nbsp;of "inflation" - as many imagine, and as depicted though U.S.
+          school-taught history, which forgets the jobs lost from&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.livingWage.current.scrollIntoView("smooth");
+              this.setState({ highlightLivingWage: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightLivingWage: false }),
+                10000
+              );
+            }}
+          >
+            paying debts
+          </span>
+          &nbsp;and forclosure -&nbsp;
+          <span
+            style={{
+              color: "rgb(40,40,160)",
+              fontWeight: "normal"
+            }}
+          >
+            is actually the&nbsp;
+            <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
+              propensity
+            </a>
+            &nbsp;for people to hoard, cheat and collude, to corner assets of
+            people... rather than compete for their favor (a.k.a. raise price at
+            what they're willing to ask). Inflation is actually [or is
+            actually-caused by] the ability for people to do that.
+          </span>
+          &nbsp;Very little inflation by supply [as&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bidask.current.scrollIntoView("smooth");
+              this.setState({ highlightBidAsk: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBidAsk: false }),
+                10000
+              );
+            }}
+          >
+            price-givers
+          </span>
+          ] of above&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.twenty.current.scrollIntoView("smooth");
+              this.setState({ highlightTwenty: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTwenty: false }),
+                10000
+              );
+            }}
+          >
+            20
+          </span>
+          &nbsp;competitors, whom do not&nbsp;
+          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
+            compete with demand
+          </a>
+          , cause price of&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.livingWage.current.scrollIntoView("smooth");
+              this.setState({ highlightLivingWage: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightLivingWage: false }),
+                10000
+              );
+            }}
+          >
+            living
+          </span>
+          &nbsp;to rise, in comparison [1300% to 102% (plus housing not included
+          in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
+          &nbsp;which has been 2% to find "
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            RealGDP
+          </span>
+          ," for a while, as has&nbsp;
+          <span
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.compoundGramm.current.scrollIntoView("smooth");
+              this.setState({ highlightCompoundGramm: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCompoundGramm: false }),
+                10000
+              );
+            }}
+          >
+            interest
+          </span>
+          )]
+          <br />
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            If everyone else is lying about what they can do in promising other
+            peoples’ money, I can too - as well as short those with these
+            price-fixed valuations, as well as my&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.concious.current.scrollIntoView("smooth");
+                this.setState({ highlightConcious: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightConcious: false }),
+                  10000
+                );
+              }}
+            >
+              competitors
+            </span>
+            <br />
+            <a
+              href="https://wavv.art/United_States_of_America"
+              style={{
+                color: "black",
+                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+                textEmphasis: "italics"
+              }}
+            >
+              wavv.art/United_States_of_America
+            </a>
+          </div>
+          <br />
+          Unfair discrimination for housing, education and healthcare is caused
+          by lending, invoices, rent and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            prisoners' dilemma of insurance
+          </span>
+          <br />
+          <br />
+          If the government provides aid and comfort to foreigners thru bonds,
+          and they say it is good because they get cash instead of assets
+          because domestic citizens use cash instead of assets; given that bonds
+          are contracts wagering actual dollar-owners' cash (borrowers'
+          customers' down payments lost in traditional&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bail.current.scrollIntoView("smooth");
+              this.setState({ highlightBail: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBail: false }),
+                10000
+              );
+            }}
+          >
+            reposession
+          </span>
+          ), how else do you overcome tyranny other than insurrection by riot or
+          destroying tea?&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.tea.current.scrollIntoView("smooth");
+              this.setState({ highlightTea: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTea: false }),
+                10000
+              );
+            }}
+          >
+            Historically
+          </span>
+          , that is how it has been done. They are breaking Amendment 4 and more
+          financially and involuntarily, police are ignoring their duty to
+          arrest
+          <br />
+          <div
+            ref={this.varney}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightVarney ? "white" : "grey",
+              backgroundColor: this.state.highlightVarney
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
+            not the worth of every share if diluted, surely
+            <br />
+            <br />
+            G-d damnit Varney & co. is a clown show, stop calling frauds a
+            bail-out & can you cite who sold (last trade) or who is in control
+            of bid-ask spread instead of passing off what you suspect as
+            causation when you can see the primary-source data
+          </div>
           <br />
           unequal application of the law is apparent in profiled portfolio data
           share, to which 13d is a legislative action but protection is forgone
@@ -10624,6 +10916,38 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="23kg of cocaine money for police while college kids get it prescribed to concentrate"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
+            ></iframe>
+            <br />
+            Authorities in Germany and Belgium seized more than 23,000 kilograms
+            (50,700 pounds) of cocaine, worth billions of dollars, in an
+            international operation that resulted in one arrest, officials said
+            Wednesday, calling it the largest amount of cocaine ever seized in
+            Europe.
+            <br />
+            Would be a lot cheaper if it were legalized instead of cornered in
+            the prescription market (adhd medicine...)
+          </div>
+          <br />
           splitting dollars of entrepreneurs and labor without consent for those
           who lost there jobs and businesses who lost income is
           anti-competitive&nbsp;
@@ -10788,319 +11112,6 @@ export default class App extends React.Component {
             lending to bonds that are able to be cashed out. immigration and
             dilution of dollar-share will not bankrupt the country
           </span>
-          <br />
-          <br />
-          <span
-            ref={this.inflation}
-            style={{
-              fontWeight: "bolder",
-              color: this.state.highlightInflation ? "white" : "grey",
-              backgroundColor: this.state.highlightInflation
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Inflation is the ask exuding its&nbsp;
-            <a href="https://www.investopedia.com/terms/p/priceelasticity.asp">
-              power
-            </a>
-          </span>
-          <br />
-          The&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.china.current.scrollIntoView("smooth");
-              this.setState({ highlightChina: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightChina: false }),
-                10000
-              );
-            }}
-          >
-            effects
-          </span>
-          &nbsp;of "inflation" - as many imagine, and as depicted though U.S.
-          school-taught history, which forgets the jobs lost from&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.livingWage.current.scrollIntoView("smooth");
-              this.setState({ highlightLivingWage: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightLivingWage: false }),
-                10000
-              );
-            }}
-          >
-            paying debts
-          </span>
-          &nbsp;and forclosure -&nbsp;
-          <span
-            style={{
-              color: "rgb(40,40,160)",
-              fontWeight: "normal"
-            }}
-          >
-            is actually the&nbsp;
-            <a href="https://www.investopedia.com/terms/s/supply-curve.asp">
-              propensity
-            </a>
-            &nbsp;for people to hoard, cheat and collude, to corner assets of
-            people... rather than compete for their favor (a.k.a. raise price at
-            what they're willing to ask). Inflation is actually [or is
-            actually-caused by] the ability for people to do that.
-          </span>
-          &nbsp;Very little inflation by supply [as&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.bidask.current.scrollIntoView("smooth");
-              this.setState({ highlightBidAsk: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightBidAsk: false }),
-                10000
-              );
-            }}
-          >
-            price-givers
-          </span>
-          ] of above&nbsp;
-          <span
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.twenty.current.scrollIntoView("smooth");
-              this.setState({ highlightTwenty: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightTwenty: false }),
-                10000
-              );
-            }}
-          >
-            20
-          </span>
-          &nbsp;competitors, whom do not&nbsp;
-          <a href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws">
-            compete with demand
-          </a>
-          , cause price of&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.livingWage.current.scrollIntoView("smooth");
-              this.setState({ highlightLivingWage: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightLivingWage: false }),
-                10000
-              );
-            }}
-          >
-            living
-          </span>
-          &nbsp;to rise, in comparison [1300% to 102% (plus housing not included
-          in&nbsp;<a href="https://www.bls.gov/cpi/">cpi</a>
-          &nbsp;which has been 2% to find "
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.trueGDP.current.scrollIntoView("smooth");
-              this.setState({ highlightTrueGDP: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightTrueGDP: false }),
-                10000
-              );
-            }}
-          >
-            RealGDP
-          </span>
-          ," for a while, as has&nbsp;
-          <span
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.compoundGramm.current.scrollIntoView("smooth");
-              this.setState({ highlightCompoundGramm: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightCompoundGramm: false }),
-                10000
-              );
-            }}
-          >
-            interest
-          </span>
-          )]
-          <br />
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            If everyone else is lying about what they can do in promising other
-            peoples’ money, I can too - as well as short those with these
-            price-fixed valuations, as well as my&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.concious.current.scrollIntoView("smooth");
-                this.setState({ highlightConcious: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightConcious: false }),
-                  10000
-                );
-              }}
-            >
-              competitors
-            </span>
-            <br />
-            <a
-              href="https://wavv.art/United_States_of_America"
-              style={{
-                color: "black",
-                fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-                textEmphasis: "italics"
-              }}
-            >
-              wavv.art/United_States_of_America
-            </a>
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Unfair discrimination for housing, education and healthcare is
-            caused by lending, invoices, rent and&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              prisoners' dilemma of insurance
-            </span>
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            If the government provides aid and comfort to foreigners thru bonds,
-            and they say it is good because they get cash instead of assets
-            because domestic citizens use cash instead of assets; given that
-            bonds are contracts wagering actual dollar-owners' cash (borrowers'
-            customers' down payments lost in traditional&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.bail.current.scrollIntoView("smooth");
-                this.setState({ highlightBail: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBail: false }),
-                  10000
-                );
-              }}
-            >
-              reposession
-            </span>
-            ), how else do you overcome tyranny other than insurrection by riot
-            or destroying tea?&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.tea.current.scrollIntoView("smooth");
-                this.setState({ highlightTea: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTea: false }),
-                  10000
-                );
-              }}
-            >
-              Historically
-            </span>
-            , that is how it has been done. They are breaking Amendment 4 and
-            more financially and involuntarily, police are ignoring their duty
-            to arrest
-          </div>
-          <br />
-          <div
-            ref={this.varney}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightVarney ? "white" : "grey",
-              backgroundColor: this.state.highlightVarney
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
-            not the worth of every share if diluted, surely
-            <br />
-            <br />
-            G-d damnit Varney & co. is a clown show, stop calling frauds a
-            bail-out & can you cite who sold (last trade) or who is in control
-            of bid-ask spread instead of passing off what you suspect as
-            causation when you can see the primary-source data
-          </div>
           <br />
           <br />
           <div
@@ -11738,16 +11749,8 @@ export default class App extends React.Component {
                 give warning by unpaid consultants, non-profit freemium ngo
                 service; no prohibition except self/asset court-party risk
               </span>
-              <br />
-              no prescriptions
             </span>
             <br />
-            <a href="https://linkedin.com/in/nickcarducci">
-              linkedin.com/in/nickcarducci
-            </a>
-            <a href="https://vianickcarducci.medium.com">
-              vianickcarducci.medium.com
-            </a>
             <div
               ref={this.squatting}
               style={{
@@ -12005,6 +12008,7 @@ export default class App extends React.Component {
           ethnic-based economies and targeting in financial damages/exclusion
           <br />
           Why do you want us to talk about color but not culture? F off
+          <br />
           <i
             ref={this.beast}
             style={{
@@ -12048,6 +12052,7 @@ export default class App extends React.Component {
             </a>
             &nbsp; from economies
           </div>
+          <br />
           <i
             onClick={() => (window.location.href = "https://froth.app")}
             style={{
@@ -12074,6 +12079,7 @@ export default class App extends React.Component {
             ownership/dollar-split - Wealth beyond utility is how deparate we
             are
           </div>
+          <br />
           <i
             ref={this.vault}
             onClick={() => (window.location.href = "https://vaults.biz")}
@@ -12112,6 +12118,7 @@ export default class App extends React.Component {
             if you want to lay blame on peoples' reactions, you can of their
             indebted employers
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12133,6 +12140,7 @@ export default class App extends React.Component {
             We can compare finance to tax by race/nationality vs market.
             Military hand to hand
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12157,6 +12165,7 @@ export default class App extends React.Component {
             supply is people sorted by how much each person is willing&nbsp;
             <b fontWeight="bolder">and able</b> to produce
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12202,6 +12211,7 @@ export default class App extends React.Component {
             FINRA and SEC currently, as Treasury Shares are outstanding, but not
             in the price calculation of earnings or owned-asset value per share
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12263,6 +12273,7 @@ export default class App extends React.Component {
               wavv.art/forum4eM79h0dyP3FVsfDan0G
             </a>
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -12326,46 +12337,12 @@ export default class App extends React.Component {
               Petition to stop supermarkets wasting food, bad stewardship of our
               opportunities, G-d given shit
             </a>
+            <br />
+            <br />
             <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
               Open-carry is threat
             </a>
             &nbsp;G-d is judge of soul, Territory is self
-          </div>
-          <br />
-          <div style={tweetsStyle}>
-            work used to be if you needed to do something, now it is just to
-            keep up with price-inelasticity inflation by finance (insurance
-            coagulating involuntary purchase, rent more than can use, lend to
-            enforce contracts waging other people's money - lender keeps the
-            down payments of the borrower's customers and borrower gets to squat
-            on the asset fraudulently
-            <br />
-            <br />
-            royalty contracts on a business line with max profit? No other good
-            debt. Prices are completely negatively correlated by the ability to
-            negotiate
-            <br />
-            debt based on time or all business-types is the borrower's
-            customers' right to buy or not
-            <br />
-            recipients blue collar, dude their money is made by involuntary
-            shareholder actions (
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.marx.current.scrollIntoView("smooth");
-                this.setState({ highlightMarx: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightMarx: false }),
-                  10000
-                );
-              }}
-            >
-              communist
-            </span>
-            )
           </div>
           <br />
           <div
@@ -12432,80 +12409,89 @@ export default class App extends React.Component {
             statistics..
           </div>
           <br />
-          You can really only certify but not bar unless there is prove-able
-          harm or it is prohibitive to not do it. <br />
-          <br />
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.marx.current.scrollIntoView("smooth");
-              this.setState({ highlightMarx: true });
+          <div style={tweetsStyle}>
+            You can really only certify but not bar unless there is prove-able
+            harm or it is prohibitive to not do it. <br />
+            <br />
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
 
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightMarx: false }),
-                10000
-              );
-            }}
-          >
-            Socialism
-          </span>
-          &nbsp; leads to capitalism&nbsp;
-          <a
-            style={{ fontSize: "12px", color: "black" }}
-            href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea"
-          >
-            without promises/with payout schedules
-          </a>
-          , unless&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.italy.current.scrollIntoView("smooth");
-              this.setState({ highlightItaly: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightItaly: false }),
-                10000
-              );
-            }}
-          >
-            someone campaigns on it
-          </span>
-          &nbsp; and makes communism/colonialism/quotas or prisoners’ dilemma
-          duress-pooling again
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <iframe
-              title="23kg of cocaine money for police while college kids get it prescribed to concentrate"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
-              width="300"
-              height="444"
-              style={{
-                backgroundColor: "#3b5998",
-                border: "none",
-                overflow: "hidden",
-                width: "480px"
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
               }}
-            ></iframe>
-            <br />
-            Authorities in Germany and Belgium seized more than 23,000 kilograms
-            (50,700 pounds) of cocaine, worth billions of dollars, in an
-            international operation that resulted in one arrest, officials said
-            Wednesday, calling it the largest amount of cocaine ever seized in
-            Europe.
-            <br />
-            Would be a lot cheaper if it were legalized instead of cornered in
-            the prescription market (adhd medicine...)
+            >
+              Socialism
+            </span>
+            &nbsp;leads to capitalism&nbsp;
+            <a
+              style={{ fontSize: "12px", color: "black" }}
+              href="https://vianickcarducci.medium.com/vaults-biz-solution-repair-shop-25d91ee37aea"
+            >
+              without promises/with payout schedules
+            </a>
+            , unless&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.italy.current.scrollIntoView("smooth");
+                this.setState({ highlightItaly: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightItaly: false }),
+                  10000
+                );
+              }}
+            >
+              someone campaigns on it
+            </span>
+            &nbsp;and makes communism/colonialism/quotas or prisoners’ dilemma
+            duress-pooling again
           </div>
+          <br />
+          <br />
+          <div style={tweetsStyle}>
+            work used to be if you needed to do something, now it is just to
+            keep up with price-inelasticity inflation by finance (insurance
+            coagulating involuntary purchase, rent more than can use, lend to
+            enforce contracts waging other people's money - lender keeps the
+            down payments of the borrower's customers and borrower gets to squat
+            on the asset fraudulently
+            <br />
+            <br />
+            royalty contracts on a business line with max profit? No other good
+            debt. Prices are completely negatively correlated by the ability to
+            negotiate
+            <br />
+            debt based on time or all business-types is the borrower's
+            customers' right to buy or not
+            <br />
+            recipients blue collar, dude their money is made by involuntary
+            shareholder actions (
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.marx.current.scrollIntoView("smooth");
+                this.setState({ highlightMarx: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightMarx: false }),
+                  10000
+                );
+              }}
+            >
+              communist
+            </span>
+            )
+          </div>
+          <br />
           <div
             ref={this.mutilation}
             style={{
@@ -12535,6 +12521,13 @@ export default class App extends React.Component {
           </div>
         </div>
         <div ref={this.MISSION}>
+          <a href="https://linkedin.com/in/nickcarducci">
+            linkedin.com/in/nickcarducci
+          </a>
+          <a href="https://vianickcarducci.medium.com">
+            vianickcarducci.medium.com
+          </a>
+          <br />
           <div
             ref={this.navbar}
             style={{ display: "flex", width: "max-content" }}
@@ -12727,214 +12720,198 @@ export default class App extends React.Component {
               alignItems: "flex-start"
             }}
           >
-            you gotta earn that money back from the person you buy from, or you
+            You gotta earn that money back from the person you buy from, or you
             forced your customers to invest in those. You couldn’t promise
             Amazon shares you don’t own to buy a house. It is cornering assets,
             duress of the borrower and involuntary servitude of the people with
             money, which isn’t even enough. Royalty w/max-profit on business
             lines without market-colonialism, renting out more than you can use
-            or bills
+            or bills.
           </div>
+          <br />
           <a href="https://micro-theory.com">Micro-Theory.com</a>
         </div>
         <div ref={this.EARLYCOMMS}>
-          <div
+          Why do the majority of people join the military? money/assassins for
+          hire
+          <br /> <br />
+          You can really only certify but not bar unless there is prove-able
+          harm or it is prohibitive to not do it. In this case, neither is harm
+          proven with evidence that spittle from talking floats, nor is it
+          prohibitive for people who don’t want to be around people wearing
+          masks. Their preference for others is more onerous than people who
+          prefer sneezing into their elbow. Masks are as reckless as NIH & Fauci
+          getting paid dollar split to experiment with virus in anti-human
+          rights China
+          <br /> <br />
+          We need tort reform in the process of barring or citing cease &
+          desist. A warning from a complaint that a court can lay instead of
+          bonds and fines, before an incident occurs
+          <br /> <br />
+          The law of banishing involuntary slavery by people that own the
+          dollars that use to promise, duress of those that borrow to match
+          fixed-prices, or unequal protection of corporate shares vs dollars as
+          waged in contracts
+          <br />
+          <br />
+          Old people are crowding us out of assets
+          <br />
+          <br />
+          It would be better to ban invoices and renting out more than one can
+          live in at one time
+          <br />
+          <br />
+          If you teach your teachers something they&nbsp;
+          <a href="https://open.spotify.com/track/1hOSO8FbW0l1heJm1BiTWi?si=KV6Jx-CMRlKAPDZJRG7DFg">
+            fail you
+          </a>
+          <br />
+          <br />
+          You can only exclude based on health if there are visible symtoms or
+          the tests are non-invasive. Otherwise they cause duress to not be only
+          giving into the economy but not able to take (slavery)
+          <br />
+          Forcing you to wear a mask is dangerous to your health, you should be
+          sneezing into your palms and then wash your hands
+          <br />
+          Also comprehensive science, not sampled data, says masks do not help.
+          spittle or breathe has not been proven to float. only aerosols in a
+          nebulizer, which may have been dust. the only study like this did not
+          specify, but even water sprayed is not how people talk. the study of
+          spittle specifically only showed a 1ft release, which fell
+          immediately. it likely is transferred by eating poisoned meat&nbsp;
+          <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
+            in reaction to the trade war
+          </a>
+          <br />
+          <a href="https://wavv.art/forumAnwTeKQ7MJZlbGtknlur">
+            wavv.art/forumAnwTeKQ7MJZlbGtknlur
+          </a>
+          <br />
+          <br />
+          Twelve percent of China’s population is age 65 or above. That share is
+          16 percent in the United States, 6 percent in India, and 3 percent in
+          Nigeria.
+          <a href="https://www.prb.org/countries-with-the-oldest-populations/">
+            https://www.prb.org/countries-with-the-oldest-populations/
+          </a>
+          <br />
+          <br />
+          Stop blaming others for advice, youtube put up videos of kids kissing
+          random girls and&nbsp;
+          <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
+            all of them liking it
+          </a>
+          <br />
+          <br />
+          I think this is why instagram recently voided all class action
+          lawsuits in their inclusion terms
+          <br />
+          <br />
+          <a href="https://wavv.art/forumur7AXXUYTzAVWHyPvjVS">
+            wavv.art/forumur7AXXUYTzAVWHyPvjVS
+          </a>
+          <br />
+          <br />
+          Amendment 13 protects free speech privately and arousal-orientation
+          per non-monopsomous inclusion in supply, not just demand (and
+          vise-versa)
+          <br />
+          <br />
+          Privacy is required for expression, govID for all and parole intranet
+          can defend domestic violence just fine
+          <br />
+          <br />
+          I hope people other parties, scientists, pollsters and tech leaders
+          will follow
+          <br />
+          <br />
+          Tim cook has delayed in adding input control at control panel, and now
+          he is going to pass off my day-clock as his own. he will follow{" "}
+          <a href="https://thumbprint.us">thumbprint.us</a>
+          <br />
+          Incitement to violence on platforms, not paid writers, is destroying
+          evidence, prohibiting trading ideas and finding solutions
+          <br />
+          <br />
+          If you are allowed to fight without weapons to defend someone stealing
+          your car, you can fight back or threat without weapons if someone is
+          stealing anything.
+          <br />
+          <br />
+          Please stop selling us out
+          <br />
+          <br />
+          UBI without debt is bad competitively and causes hostile international
+          relations,&nbsp;
+          <span
             style={{
-              justifyContent: "center",
-              display: "flex",
-              flexWrap: "wrap",
-              width: "100%"
+              textDecoration: "underline",
+              fontWeight: "bold"
             }}
           >
-            <div
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              Why do the majority of people join the military? money/assassins
-              for hire
-              <br /> <br />
-              You can really only certify but not bar unless there is prove-able
-              harm or it is prohibitive to not do it. In this case, neither is
-              harm proven with evidence that spittle from talking floats, nor is
-              it prohibitive for people who don’t want to be around people
-              wearing masks. Their preference for others is more onerous than
-              people who prefer sneezing into their elbow. Masks are as reckless
-              as NIH & Fauci getting paid dollar split to experiment with virus
-              in anti-human rights China
-              <br /> <br />
-              We need tort reform in the process of barring or citing cease &
-              desist. A warning from a complaint that a court can lay instead of
-              bonds and fines, before an incident occurs
-              <br /> <br />
-              the law of banishing involuntary slavery by people that own the
-              dollars that use to promise, duress of those that borrow to match
-              fixed-prices, or unequal protection of corporate shares vs dollars
-              as waged in contracts
-              <br />
-              <br />
-              old people are crowding us out of assets
-              <br />
-              it would be better to ban invoices and renting out more than one
-              can live in at one time
-              <br />
-              if you teach your teachers something they&nbsp;
-              <a href="https://open.spotify.com/track/1hOSO8FbW0l1heJm1BiTWi?si=KV6Jx-CMRlKAPDZJRG7DFg">
-                fail you
-              </a>
-              <br />
-              you can only exclude based on health if there are visible symtoms
-              or the tests are non-invasive. Otherwise they cause duress to not
-              be only giving into the economy but not able to take (slavery)
-              <br />
-              forcing you to wear a mask is dangerous to your health, you should
-              be sneezing into your palms and then wash your hands
-              <br />
-              also comprehensive science, not sampled data, says masks do not
-              help. spittle or breathe has not been proven to float. only
-              aerosols in a nebulizer, which may have been dust. the only study
-              like this did not specify, but even water sprayed is not how
-              people talk. the study of spittle specifically only showed a 1ft
-              release, which fell immediately. it likely is transferred by
-              eating poisoned meat&nbsp;
-              <a href="https://bgr.com/2020/09/13/seeds-from-china-mystery-explained-suspected-brushing-campaign/">
-                in reaction to the trade war
-              </a>
-              <br />
-              <a href="https://wavv.art/forumAnwTeKQ7MJZlbGtknlur">
-                wavv.art/forumAnwTeKQ7MJZlbGtknlur
-              </a>
-              <br />
-              Twelve percent of China’s population is age 65 or above. That
-              share is 16 percent in the United States, 6 percent in India, and
-              3 percent in Nigeria.
-              <a href="https://www.prb.org/countries-with-the-oldest-populations/">
-                https://www.prb.org/countries-with-the-oldest-populations/
-              </a>
-              <br />
-              stop blaming others for advice, youtube put up videos of kids
-              kissing random girls and&nbsp;
-              <a href="https://wavv.art/forumYnOpYXF6NJAJsLH63tUd">
-                all of them liking it
-              </a>
-              <br />
-              i think this is why instagram recently voided all class action
-              lawsuits in their inclusion terms
-              <br />
-              <a href="https://wavv.art/forumur7AXXUYTzAVWHyPvjVS">
-                wavv.art/forumur7AXXUYTzAVWHyPvjVS
-              </a>
-              <br />
-              Amendment 13 protects free speech privately and
-              arousal-orientation per non-monopsomous inclusion in supply, not
-              just demand (and vise-versa)
-              <br />
-              privacy is required for expression, govID for all and parole
-              intranet can defend domestic violence just fine
-              <br />
-              I hope people other parties, scientists, pollsters and tech
-              leaders will follow
-              <br />
-              Tim cook has delayed in adding input control at control panel, and
-              now he is going to pass off my day-clock as his own. he will
-              follow <a href="https://thumbprint.us">thumbprint.us</a>
-              <br />
-              Incitement to violence on platforms, not paid writers, is
-              destroying evidence, prohibiting trading ideas and finding
-              solutions
-              <br />
-              if you are allowed to fight without weapons to defend someone
-              stealing your car, you can fight back or threat without weapons if
-              someone is stealing anything.
-              <br />
-              please stop selling us out
-              <br />
-              UBI without debt is bad competitively and causes hostile
-              international relations,&nbsp;
-              <span
-                style={{
-                  textDecoration: "underline",
-                  fontWeight: "bold"
-                }}
-              >
-                with debt appreciates by malfeasant and corrupt jurisprudence
-                that the money can be paid back
-              </span>
-              &nbsp; which is impossible but they allow them to prosecute and
-              cash out at price-fixed counterfeit levels of success anyway
-            </div>
-            <div
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              <br />
-              everytime a borrower spends a lender's dollar they force you &
-              your customers to invest in their purchases, cornering assets
-              <br />
-              why would you pay tax or debt when it is impossible? better sue
-              <br />
-              not banning prohibitory bills for settled trade is either
-              nefarious or short-sighted
-              <br />
-              More aid for the recently unemployed. There are 40% unemployed
-              that aren’t getting an equal application of law.&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => this.scrolllto.current.scrollIntoView("smooth")}
-              >
-                None of us consented
-              </span>
-              &nbsp;
-              <a href="https://vaults.biz">vaults.biz</a>
-            </div>
-            <div
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              <br />
-              "financial support" promoted by China Biden is fraud to only help
-              those who created bills that are otherwise impossible to pay,
-              support the victims by disallowing prosecution and cutting price
-              if paid partially to cash:debt of the economy to find what would
-              otherwise be the market price. Ensure that the trades going
-              forward are settled, no human is traded again in a securitized
-              instrument, their items to buy aren't collateralized and
-              colonized, and prices fall to non-cheating, assumptive and
-              involuntary levels of the promises ensured by the courts, no more
-              <br />
-              free-market economics without monopolization is grounded in
-              teamwork, human labor is not capital
-              <br />
-              government spending or stipends are not free, even if they do not
-              promise bonds that which they cannot, it is counterfeit voting
-              rights of dollar shareholders and cornering those assets if made
-              under debt
-              <br />
-              if you can't be sued for someone else's comment on the platform
-              that you do not pay them for, you cannot exclude them from the
-              economy
-              <br />
-              Phil Murphy is from goldman and supports offshore drilling,
-              finance owns 11x everyone else being 2% of population, all those
-              assets are 11 times-counted and counterfeit. he is gluttonous
-              <br />
-              weed is illegal because it is a currency competitor
-            </div>
-          </div>
+            with debt appreciates by malfeasant and corrupt jurisprudence that
+            the money can be paid back
+          </span>
+          , which is impossible but they allow them to prosecute and cash out at
+          price-fixed counterfeit levels of success anyway.
+          <br />
+          <br />
+          Everytime a borrower spends a lender's dollar they force you & your
+          customers to invest in their purchases, cornering assets
+          <br />
+          <br />
+          Why would you pay tax or debt when it is impossible? better sue
+          <br />
+          <br />
+          Not banning prohibitory bills for settled trade is either nefarious or
+          short-sighted
+          <br />
+          More aid for the recently unemployed. There are 40% unemployed that
+          aren’t getting an equal application of law.&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => this.scrolllto.current.scrollIntoView("smooth")}
+          >
+            None of us consented
+          </span>
+          &nbsp;
+          <a href="https://vaults.biz">vaults.biz</a>
+          <br />
+          <br />
+          "Financial support" promoted by China Biden is fraud to only help
+          those who created bills that are otherwise impossible to pay, support
+          the victims by disallowing prosecution and cutting price if paid
+          partially to cash:debt of the economy to find what would otherwise be
+          the market price. Ensure that the trades going forward are settled, no
+          human is traded again in a securitized instrument, their items to buy
+          aren't collateralized and colonized, and prices fall to non-cheating,
+          assumptive and involuntary levels of the promises ensured by the
+          courts, no more.
+          <br />
+          Free-market economics without monopolization is grounded in teamwork,
+          human labor is not capital
+          <br />
+          <br />
+          Government spending or stipends are not free, even if they do not
+          promise bonds that which they cannot, it is counterfeit voting rights
+          of dollar shareholders and cornering those assets if made under debt
+          <br />
+          <br />
+          If you can't be sued for someone else's comment on the platform that
+          you do not pay them for, you cannot exclude them from the economy
+          <br />
+          <br />
+          Phil Murphy is from goldman and supports offshore drilling, finance
+          owns 11x everyone else being 2% of population, all those assets are 11
+          times-counted and counterfeit. he is gluttonous
+          <br />
+          <br />
+          weed is illegal because it is a currency competitor
+          <br />
           <div
             onClick={() =>
               this.setState({ openElement: !this.state.openElement })
@@ -12963,40 +12940,36 @@ export default class App extends React.Component {
             Ballot-harvesting (bearer of more than 3 people) is sample bias
           </div>
           <br />
-          <div
-            style={{
-              padding: "20px",
-
-              width: "100%",
-              maxWidth: "600px"
-            }}
-          >
-            donald trump rushes this, fda corners were cut, facebook bans
-            protest from legitimate worries like mine of b-cell dysregulation
-            tending to cause oncogenesis... this is hell
-            <br />
-            Trump did not incite violence or unreasonable insurrection (unfair
-            elections is slavery, let alone any debt or non-debtless-UBI) he
-            said to protest, the company had a history of working with corrupt
-            elections when Nick Carducci's thumbprint.us is here as an
-            alternative
-            <br />
-            congress cannot impeach indefinitely because voting populus and
-            congress change... alan dershowitz is misleading for some reason
-            <br />
-            for this impeachment, saying the election is stolen is not only an
-            opinion, you are allowed to protest, but there is legitimate
-            concerns cited above
-            <br />
-            splitting shares of dollars further in any stimulus by debt or
-            involuntary charity of labor to match lender price-fixing to what
-            they imagine instead of what they can get is fraudulent in motive
-            and counterfeit
-            <br />
-            Amendment 13 prohibits the exclusion of people based on orientation
-            or monopsony
-            <br />
-          </div>
+          <br />
+          donald trump rushes this, fda corners were cut, facebook bans protest
+          from legitimate worries like mine of b-cell dysregulation tending to
+          cause oncogenesis... this is hell
+          <br />
+          <br />
+          Trump did not incite violence or unreasonable insurrection (unfair
+          elections is slavery, let alone any debt or non-debtless-UBI) he said
+          to protest, the company had a history of working with corrupt
+          elections when Nick Carducci's thumbprint.us is here as an alternative
+          <br />
+          <br />
+          congress cannot impeach indefinitely because voting populus and
+          congress change... alan dershowitz is misleading for some reason
+          <br />
+          <br />
+          for this impeachment, saying the election is stolen is not only an
+          opinion, you are allowed to protest, but there is legitimate concerns
+          cited above
+          <br />
+          <br />
+          splitting shares of dollars further in any stimulus by debt or
+          involuntary charity of labor to match lender price-fixing to what they
+          imagine instead of what they can get is fraudulent in motive and
+          counterfeit
+          <br />
+          <br />
+          Amendment 13 prohibits the exclusion of people based on orientation or
+          monopsony
+          <br />
           <div
             style={{
               position: "relative"
@@ -13012,39 +12985,29 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/g6pmh23ot7le12o/Screen%20Shot%202021-01-16%20at%204.08.54%20PM.png?dl=0"
             />
           </div>
-          <div
-            style={{
-              padding: "20px",
-              fontSize: "10px",
-              width: "100%",
-              maxWidth: "500px",
-              display: "flex",
-              alignItems: "flex-start"
-            }}
-          >
-            Says legal warnings are applicable if there is defamation by you
-            deepfriedorka (dfa) asked me to respond to him or her, so I am
-            forced to use this page again, sorry if there is another method I
-            didn't notice.  dfa asked how I can write my facts for the Third
-            Reich and Holocaust pages constructively. I would likely say the
-            same point, you can edit how you like and I am not one for lengthy
-            explanations of things.  There is a grave incorrect notion about
-            WWII history, which can be disproven by logic, or a system that
-            excludes possibilities and proves truths by way of deduction.  Since
-            there were not pollsters of the axis powers at that time, but
-            numerous accounts of Hitler's manipulation and hiding of intentions,
-            the supposition of deduction in finding motive I believe to be
-            appropriate and help maintain dignity of my culture.  It seems
-            according to the Halakha supports the notion of discriminatory
-            costs, which is grounds for the true motive of the populace where
-            polling history cannot define. Best wishes, which I do not feel is
-            the same wish by Halakha.  I have more information that is critical
-            to understanding, I have spent years researching that would be a
-            shame to not be on wikipedia, but that would just mean you aren't
-            allowed to make some of the claims about building an encyclopedia
-            that you do, and there would be an opportunity for competition. Nick
-            Carducci.sh
-          </div>
+          <br />
+          Says legal warnings are applicable if there is defamation by you
+          deepfriedorka (dfa) asked me to respond to him or her, so I am forced
+          to use this page again, sorry if there is another method I didn't
+          notice.  dfa asked how I can write my facts for the Third Reich and
+          Holocaust pages constructively. I would likely say the same point, you
+          can edit how you like and I am not one for lengthy explanations of
+          things.  There is a grave incorrect notion about WWII history, which
+          can be disproven by logic, or a system that excludes possibilities and
+          proves truths by way of deduction.  Since there were not pollsters of
+          the axis powers at that time, but numerous accounts of Hitler's
+          manipulation and hiding of intentions, the supposition of deduction in
+          finding motive I believe to be appropriate and help maintain dignity
+          of my culture.  It seems according to the Halakha supports the notion
+          of discriminatory costs, which is grounds for the true motive of the
+          populace where polling history cannot define. Best wishes, which I do
+          not feel is the same wish by Halakha.  I have more information that is
+          critical to understanding, I have spent years researching that would
+          be a shame to not be on wikipedia, but that would just mean you aren't
+          allowed to make some of the claims about building an encyclopedia that
+          you do, and there would be an opportunity for competition. Nick
+          Carducci.sh
+          <br />
           <div
             style={{
               justifyContent: "center",
