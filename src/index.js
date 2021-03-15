@@ -161,7 +161,14 @@ class Index extends React.Component {
                 {x !== "close" ? (
                   x
                 ) : (
-                  <span onClick={() => this.setState({ openMenu: false })}>
+                  <span
+                    style={{
+                      transition: ".3s ease-out",
+                      fontSize:
+                        this.state.inSection !== "story" ? "20px" : "0px"
+                    }}
+                    onClick={() => this.setState({ openMenu: false })}
+                  >
                     &times;
                   </span>
                 )}
