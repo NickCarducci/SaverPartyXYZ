@@ -5531,30 +5531,11 @@ export default class App extends React.Component {
             $618 million/yr for cybersecurity risk mitigation. how is this not
             anticompetitive?
           </div>
-          <i
-            ref={this.defense}
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics",
-              fontWeight: "bolder",
-              textDecoration: "underline",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightDefense ? "white" : "",
-              backgroundColor: this.state.highlightDefense
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            COVID 19 Diagnosis without symptoms can be held under quarantine (or
-            cause-favoritism) my ass
-          </i>
           <br />
           <a
             href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf" //"https://www.govtrack.us/congress/bills/116/hr748"
           >
-            Let's not negotitiage&nbsp;
+            Let's people not negotitiage with&nbsp;
             <i
               style={{
                 fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -7343,6 +7324,30 @@ export default class App extends React.Component {
                 &nbsp;but no shoot first without intent + date + convicted of
                 violence
               </span>
+              <br />
+              <div
+                ref={this.defense}
+                style={{
+                  transition: ".3s ease-in",
+                  color: this.state.highlightDefense ? "white" : "grey",
+                  backgroundColor: this.state.highlightDefense
+                    ? "rgb(170,100,205)"
+                    : "",
+                  fontFamily: '"Hi Melody", sans-serif',
+                  width: "calc(100% - 20px)",
+                  maxWidth: "600px"
+                }}
+              >
+                COVID 19 Diagnosis without symptoms can be held under quarantine
+                (or cause-favoritism) my ass
+                <br />
+                <br />
+                Obstruction of justice unless duress that doesn't show a net
+                negligence in another's harm
+                <br />
+                equal jurisprudence afterwards, without spite or qualified
+                immunity, except for brandishing
+              </div>
               <br />
               <br />
               defense of individual non-liability by association [of other
@@ -9971,33 +9976,8 @@ export default class App extends React.Component {
             }}
           >
             ad seriatum
-            <br />
           </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Obstruction of justice unless duress that doesn't show a net
-            negligence in another's harm
-            <br />
-            equal jurisprudence afterwards, without spite or qualified immunity,
-            except for brandishing
-          </div>
-          &nbsp;
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            ad seriatum
-            <br />
-          </i>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -10018,12 +9998,12 @@ export default class App extends React.Component {
               }}
               ref={this.biden}
             >
-              &nbsp; Biden
+              Biden
             </span>
             &nbsp; gets it, I think covid hospitalizations have decreased 50% in
             the past month because he is in office
           </div>
-          &nbsp;
+          <br />
           <i
             ref={this.desist}
             style={{
@@ -13940,4 +13920,3 @@ export default class App extends React.Component {
     );
   }
 }
-
