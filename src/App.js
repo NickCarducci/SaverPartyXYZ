@@ -609,9 +609,12 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Bitch, I invented the&nbsp;<a href="https://www.academia.edu/video/k5Gd51">spectrum</a>. only 1.6% again voted third party? my ass
-        <br/>
-        <br/>
+        Bitch, I invented the&nbsp;
+        <a href="https://www.academia.edu/video/k5Gd51">spectrum</a>. only 1.6%
+        again&nbsp;<a href="https://www.facebook.com/IVN/">voted third party</a>
+        ? my ass
+        <br />
+        <br />
         <div
           style={{
             width: "100%"
