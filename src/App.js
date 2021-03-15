@@ -619,6 +619,26 @@ export default class App extends React.Component {
           }}
           ref={this.RENTIERCOLONIALISM}
         >
+          Here is Schumer, laundering a split of my equity to a borrowers'
+          lenders
+          <br />
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/syu4kegvxmwxj13/LaunderToLender.jpg?dl=0"
+            />
+          </div>
+          <br />
+          <br />
           <a href="https://moldmask.co">epidemiology</a>&nbsp;liability is on
           you for leaving the house, especially when the evidence is positive
           for cold as well.
