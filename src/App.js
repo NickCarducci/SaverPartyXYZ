@@ -6189,6 +6189,50 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            <iframe
+              title="covid passports could devilver a 'summer of joy' bubble"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
+            ></iframe>
+            <br />
+            <br />
+            In grafts and [“viral”? ]vaccine “working hard to recognize the
+            vaccine and remember the new virus for next time.” No precautions
+            about fragility of&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.bcell.current.scrollIntoView("smooth");
+                this.setState({ highlightBcell: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightBcell: false }),
+                  10000
+                );
+              }}
+            >
+              B-cell
+            </span>
+            &nbsp;regulation?
+          </div>
+          <br />
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of
@@ -9295,319 +9339,6 @@ export default class App extends React.Component {
             </span>
           </span>
           <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <iframe
-              title="covid passports could devilver a 'summer of joy' bubble"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnshopkinsuniversity%2Fposts%2F10158562382027217&width=300&show_text=true&height=444&appId"
-              width="300"
-              height="444"
-              style={{
-                backgroundColor: "#3b5998",
-                border: "none",
-                overflow: "hidden",
-                width: "480px"
-              }}
-            ></iframe>
-            <br />
-            <br />
-            In grafts and [“viral”? ]vaccine “working hard to recognize the
-            vaccine and remember the new virus for next time.” No precautions
-            about fragility of&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.bcell.current.scrollIntoView("smooth");
-                this.setState({ highlightBcell: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBcell: false }),
-                  10000
-                );
-              }}
-            >
-              B-cell
-            </span>
-            &nbsp;regulation?
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.biden.current.scrollIntoView("smooth");
-                this.setState({ highlightBiden: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBiden: false }),
-                  10000
-                );
-              }}
-            >
-              Biden
-            </span>
-            There is nothing safe about funding supply of vaccines instead of
-            keeping input costs down by allowing customers to fund it
-            <br />I think it sticks to your damn mask, like a mold! I'll sue
-            your ass
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            "We short our police officers" - 2 ways to read that short utility
-            or want future trade to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.setState({ highlightVault: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightVault: false }),
-                  10000
-                );
-                this.vault.current.scrollIntoView("smooth");
-              }}
-            >
-              free
-            </span>
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            the first of its kind, dollars as shares, invoices are theft
-            (counterfeit)
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Saver Party is the first political party to understand private
-            intervention as a violation of civil rights as it is not an exchange
-            of benefits but a sharing of risk or an absolute placement of cost
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            <a href="https://en.wikipedia.org/wiki/Mark_Levin">Mark Levin</a>
-            &nbsp; hypocracy, "protected" pshh - so call the pool of people
-            forced to buy-in to keep up with you colonizing a market you do
-            nothing for except raise price absolutely. mind your business
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            One minute mark has a guest berate communism, next he advertises
-            risk-sharing duress cost-pool, join or get left behind although if
-            we all didn't we would get the same products at lower price.
-            communism 101
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            reposession needs to give down payments back to borrower's customers
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Rep David Scott doesn't want people to share investment research
-            with eachother, unless behind jim cramer's paywall robinhood ceo
-            says people should have "trading abilities not based on how much
-            money they have." So, like counterfeit?
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            trade secrets and abilities are ok if everyone is doing it
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "robinhood was undercapitalized to allow users to do what they
-              wanted to do"
-            </div>
-            <br />
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                flexDirection: "column",
-                alignItems: "center",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "North Carolina woman allegedly used a $149,000 Covid-19 relief
-              loan to purchase items at businesses... and multiple diamond
-              [investments]"... The fed uses our equity-split on shares of
-              corporate competitors of mine...
-            </div>
-            <br />
-            <div
-              ref={this.trust}
-              style={{
-                flexDirection: "column",
-                alignItems: "center",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px",
-                color: this.state.highlightTrust ? "white" : "grey",
-                backgroundColor: this.state.highlightTrust
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              gov gets free labor, greatest anti-trust case ever (steven moore
-              is a duche)
-              <br />
-              Kudlow likes&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.gdp1.current.scrollIntoView("smooth");
-                  this.setState({ highlightGDP: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightGDP: false }),
-                    10000
-                  );
-                }}
-              >
-                GDP
-              </span>
-              &nbsp; "growth but not Stimulus," your measure is off retard
-              <br />
-              you're only harming yourself and all of us
-            </div>
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                flexDirection: "column",
-                alignItems: "center",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              Kevin Hasset says money is something you can exchange for goods;
-              more accruately, and to fix for split/reverse-split
-              not-appropriated appropriately, it is&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.foreignpolicy.current.scrollIntoView("smooth");
-                  this.setState({ highlightFP: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightFP: false }),
-                    10000
-                  );
-                }}
-              >
-                market-share
-              </span>
-              &nbsp; Kudlow calling him the smartest guy in the world means
-              Kudlow isn't just retarded by his actions but tarded
-              <br />
-              <br />
-              Hasset and Lindsay still looking at real growth instead of&nbsp;
-              <a
-                style={{
-                  border: "1px solid",
-                  color: "grey"
-                }}
-                href="https://froth.app"
-              >
-                gdp-new money-new debt/p
-              </a>
-            </div>
-          </div>
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -9877,165 +9608,6 @@ export default class App extends React.Component {
               NE
             </span>
             is .01
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Unfair discrimination for housing, education and healthcare is
-            caused by lending, invoices, rent and&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              prisoners' dilemma of insurance
-            </span>
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            If the government provides aid and comfort to foreigners thru bonds,
-            and they say it is good because they get cash instead of assets
-            because domestic citizens use cash instead of assets; given that
-            bonds are contracts wagering actual dollar-owners' cash (borrowers'
-            customers' down payments lost in traditional&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.bail.current.scrollIntoView("smooth");
-                this.setState({ highlightBail: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBail: false }),
-                  10000
-                );
-              }}
-            >
-              reposession
-            </span>
-            ), how else do you overcome tyranny other than insurrection by riot
-            or destroying tea?&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.tea.current.scrollIntoView("smooth");
-                this.setState({ highlightTea: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTea: false }),
-                  10000
-                );
-              }}
-            >
-              Historically
-            </span>
-            , that is how it has been done. They are breaking Amendment 4 and
-            more financially and involuntarily, police are ignoring their duty
-            to arrest
-          </div>
-          <br />
-          <div
-            ref={this.varney}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightVarney ? "white" : "grey",
-              backgroundColor: this.state.highlightVarney
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
-            not the worth of every share if diluted, surely
-            <br />
-            <br />
-            G-d damnit Varney & co. is a clown show, stop calling frauds a
-            bail-out & can you cite who sold (last trade) or who is in control
-            of bid-ask spread instead of passing off what you suspect as
-            causation when you can see the primary-source data
-            <br />
-            unequal application of the law is apparent in profiled portfolio
-            data share, to which 13d is a legislative action but protection is
-            forgone for retail in unecesary third party data share. By
-            government malfeasance and neglect the&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.UUID.current.scrollIntoView("smooth");
-                this.setState({ highlightUUID: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightUUID: false }),
-                  10000
-                );
-              }}
-            >
-              UUID
-            </span>
-            &nbsp; being the key to the profile.
-            <br />
-            laws have to be justice-oriented in order for the equal application
-            of unequal laws to be applied
-            <br />
-            cash-
-            <span
-              ref={this.bail}
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              bail
-            </span>
-            &nbsp; is bribery, it's like unequal application of law; or an equal
-            application of the unequal law is unequal application of a law
-            kernel. this unequal law of PPP is no different in that equality
-            regard
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightBail ? "white" : "",
-                backgroundColor: this.state.highlightBail
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              Bail is like involuntary servitude of those without the money, and
-              like borrowing in that someone else makes the decision to commit
-              the crime the harms the prosciutto
-            </span>
           </div>
           <br />
           <div
@@ -10724,51 +10296,461 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          <br />
           <div
             style={{
-              height: "min-content",
-              width: "100%",
-              display: "flex"
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
             }}
           >
-            <div
-              style={{
-                border: "3px solid blue",
-                borderRadius: "10px",
+            Unfair discrimination for housing, education and healthcare is
+            caused by lending, invoices, rent and&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
 
-                height: "min-content",
-                width: "calc(50% - 20px)",
-                position: "relative"
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
               }}
             >
-              <img
-                style={{
-                  width: "calc(100% - 26px)",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
-                alt="ETF lending/stealing fraud for financial ends"
-              />
-            </div>
-            <div
-              style={{
-                border: "3px solid blue",
-                borderRadius: "10px",
+              prisoners' dilemma of insurance
+            </span>
+          </div>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
 
-                height: "min-content",
-                width: "calc(50% - 20px)",
-                position: "relative"
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            If the government provides aid and comfort to foreigners thru bonds,
+            and they say it is good because they get cash instead of assets
+            because domestic citizens use cash instead of assets; given that
+            bonds are contracts wagering actual dollar-owners' cash (borrowers'
+            customers' down payments lost in traditional&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.bail.current.scrollIntoView("smooth");
+                this.setState({ highlightBail: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightBail: false }),
+                  10000
+                );
               }}
             >
-              <img
-                style={{
-                  width: "calc(100% - 26px)",
-                  height: "auto"
-                }}
-                src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
-                alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
-              />
-            </div>
+              reposession
+            </span>
+            ), how else do you overcome tyranny other than insurrection by riot
+            or destroying tea?&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.tea.current.scrollIntoView("smooth");
+                this.setState({ highlightTea: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightTea: false }),
+                  10000
+                );
+              }}
+            >
+              Historically
+            </span>
+            , that is how it has been done. They are breaking Amendment 4 and
+            more financially and involuntarily, police are ignoring their duty
+            to arrest
+          </div>
+          <br />
+          <div
+            ref={this.varney}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightVarney ? "white" : "grey",
+              backgroundColor: this.state.highlightVarney
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
+            not the worth of every share if diluted, surely
+            <br />
+            <br />
+            G-d damnit Varney & co. is a clown show, stop calling frauds a
+            bail-out & can you cite who sold (last trade) or who is in control
+            of bid-ask spread instead of passing off what you suspect as
+            causation when you can see the primary-source data
+            <br />
+            unequal application of the law is apparent in profiled portfolio
+            data share, to which 13d is a legislative action but protection is
+            forgone for retail in unecesary third party data share. By
+            government malfeasance and neglect the&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.UUID.current.scrollIntoView("smooth");
+                this.setState({ highlightUUID: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightUUID: false }),
+                  10000
+                );
+              }}
+            >
+              UUID
+            </span>
+            &nbsp; being the key to the profile.
+            <br />
+            laws have to be justice-oriented in order for the equal application
+            of unequal laws to be applied
+            <br />
+            cash-
+            <span
+              ref={this.bail}
+              style={{
+                transition: ".3s ease-in",
+
+                color: this.state.highlightBail ? "white" : "",
+                backgroundColor: this.state.highlightBail
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              bail
+            </span>
+            &nbsp; is bribery, it's like unequal application of law; or an equal
+            application of the unequal law is unequal application of a law
+            kernel. this unequal law of PPP is no different in that equality
+            regard
+            <span
+              style={{
+                transition: ".3s ease-in",
+
+                color: this.state.highlightBail ? "white" : "",
+                backgroundColor: this.state.highlightBail
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+            >
+              Bail is like involuntary servitude of those without the money, and
+              like borrowing in that someone else makes the decision to commit
+              the crime the harms the prosciutto
+            </span>
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.biden.current.scrollIntoView("smooth");
+                this.setState({ highlightBiden: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightBiden: false }),
+                  10000
+                );
+              }}
+            >
+              Biden
+            </span>
+            There is nothing safe about funding supply of vaccines instead of
+            keeping input costs down by allowing customers to fund it
+            <br />I think it sticks to your damn mask, like a mold! I'll sue
+            your ass
+          </i>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            "We short our police officers" - 2 ways to read that short utility
+            or want future trade to&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.setState({ highlightVault: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightVault: false }),
+                  10000
+                );
+                this.vault.current.scrollIntoView("smooth");
+              }}
+            >
+              free
+            </span>
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            the first of its kind, dollars as shares, invoices are theft
+            (counterfeit)
+          </i>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Saver Party is the first political party to understand private
+            intervention as a violation of civil rights as it is not an exchange
+            of benefits but a sharing of risk or an absolute placement of cost
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            <a href="https://en.wikipedia.org/wiki/Mark_Levin">Mark Levin</a>
+            &nbsp; hypocracy, "protected" pshh - so call the pool of people
+            forced to buy-in to keep up with you colonizing a market you do
+            nothing for except raise price absolutely. mind your business
+          </i>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            One minute mark has a guest berate communism, next he advertises
+            risk-sharing duress cost-pool, join or get left behind although if
+            we all didn't we would get the same products at lower price.
+            communism 101
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            reposession needs to give down payments back to borrower's customers
+          </i>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Rep David Scott doesn't want people to share investment research
+            with eachother, unless behind jim cramer's paywall robinhood ceo
+            says people should have "trading abilities not based on how much
+            money they have." So, like counterfeit?
+          </div>
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            trade secrets and abilities are ok if everyone is doing it
+          </i>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            "robinhood was undercapitalized to allow users to do what they
+            wanted to do"
+          </div>
+          <br />
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
+            to purchase items at businesses... and multiple diamond
+            [investments]"... The fed uses our equity-split on shares of
+            corporate competitors of mine...
+          </div>
+          <br />
+          <div
+            ref={this.trust}
+            style={{
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightTrust ? "white" : "grey",
+              backgroundColor: this.state.highlightTrust
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            gov gets free labor, greatest anti-trust case ever (steven moore is
+            a duche)
+            <br />
+            Kudlow likes&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.gdp1.current.scrollIntoView("smooth");
+                this.setState({ highlightGDP: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightGDP: false }),
+                  10000
+                );
+              }}
+            >
+              GDP
+            </span>
+            &nbsp; "growth but not Stimulus," your measure is off retard
+            <br />
+            you're only harming yourself and all of us
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Kevin Hasset says money is something you can exchange for goods;
+            more accruately, and to fix for split/reverse-split not-appropriated
+            appropriately, it is&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.foreignpolicy.current.scrollIntoView("smooth");
+                this.setState({ highlightFP: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFP: false }),
+                  10000
+                );
+              }}
+            >
+              market-share
+            </span>
+            &nbsp; Kudlow calling him the smartest guy in the world means Kudlow
+            isn't just retarded by his actions but tarded
+            <br />
+            <br />
+            Hasset and Lindsay still looking at real growth instead of&nbsp;
+            <a
+              style={{
+                border: "1px solid",
+                color: "grey"
+              }}
+              href="https://froth.app"
+            >
+              gdp-new money-new debt/p
+            </a>
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+
+              height: "min-content",
+              width: "calc(50% - 20px)",
+              position: "relative"
+            }}
+          >
+            <img
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/phynud9bxdixwv0/Screen%20Shot%202021-03-04%20at%203.25.25%20PM.png?dl=0"
+              alt="ETF lending/stealing fraud for financial ends"
+            />
+          </div>
+          <div
+            style={{
+              border: "3px solid blue",
+              borderRadius: "10px",
+
+              height: "min-content",
+              width: "calc(50% - 20px)",
+              position: "relative"
+            }}
+          >
+            <img
+              style={{
+                width: "calc(100% - 26px)",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/x04xqvg1mjlbiis/IMG_0212.jpeg?dl=0"
+              alt="correlated time-series losses since domain purchase for scalable, circular-magnetic engine magnate.company"
+            />
           </div>
           <span>
             Doubt about Racketeering
@@ -13950,4 +13932,3 @@ export default class App extends React.Component {
     );
   }
 }
-
