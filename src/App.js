@@ -612,9 +612,35 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Andrew Cuomo is&nbsp;<a href="https://igpa.uillinois.edu/programs/racial-attitudes">retarded</a>&nbsp;(self-harmer) or intentionally misleading
-        saying you lose money in opportunity. opportunity lost (not property
-        fraud), is not a loss you can deduct you corrupt nipple-ringed fuck
+        <span
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.cityhall.current.scrollIntoView("smooth");
+            this.setState({ highlightCityHall: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightCityHall: false }),
+              10000
+            );
+          }}
+        >
+          The American People is not the Senate
+        </span>
+        <br />
+        <br />
+        <br />
+        <br />
+        Andrew Cuomo is&nbsp;
+        <a href="https://igpa.uillinois.edu/programs/racial-attitudes">
+          retarded
+        </a>
+        &nbsp;(self-harmer) or intentionally misleading saying you lose money in
+        opportunity. opportunity lost (not property fraud), is not a loss you
+        can deduct you corrupt nipple-ringed fuck
         <br />
         <br />
         Trump plays with emotions of media ["people" -&nbsp;
@@ -825,6 +851,10 @@ export default class App extends React.Component {
             >
               blm vs trump; FBI (J. Sanborn) says,&nbsp;
               <span
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
                 onClick={() => {
                   this.cityhall.current.scrollIntoView("smooth");
                   this.setState({ highlightCityHall: true });
@@ -13928,4 +13958,3 @@ export default class App extends React.Component {
     );
   }
 }
-
