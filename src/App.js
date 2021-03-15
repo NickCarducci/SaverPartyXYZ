@@ -612,6 +612,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Trump plays with emotions of media ["people" -&nbsp;
+        <a href="https://lexfridman.com/">L. Fridman</a>]
+        <br />
+        <br />
         Journalists are just like communist/insurance/non-socialist propoganda
         arm. they get their itinerary from a central source
         <br />
