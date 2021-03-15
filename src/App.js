@@ -555,9 +555,15 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          transform: `translateX(${leftNot ? "40px" : "0px"})`,
-          transition: `${leftNot ? ".3" : ".7"}s ease-in-out`,
-          color: leftNot ? "rgb(135,170,205)" : "rgb(60,70,85)",
+          transform: `translateX(${
+            this.props.landedPresentation ? "40px" : "0px"
+          })`,
+          transition: `${
+            this.props.landedPresentation ? ".3" : ".7"
+          }s ease-in-out`,
+          color: this.props.landedPresentation
+            ? "rgb(135,170,205)"
+            : "rgb(60,70,85)",
           display: "block",
           margin: "7px",
           position: "relative",
@@ -1909,8 +1915,9 @@ export default class App extends React.Component {
           >
             entanglements
           </span>
-          &nbsp;with the Chinese... work in-line with national-security
-          principals out of this" - Fmr Sec. State Pompeo
+          &nbsp;with the Chinese... work in-line with&nbsp;
+          <a href="https://nationalsecuritycasino.com">national-security</a>
+          &nbsp; principals out of this" - Fmr Sec. State Pompeo
           <br />
           <br />
           <span
