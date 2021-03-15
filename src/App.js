@@ -612,9 +612,17 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Biden lies and says the price-inelasticity inflation will lower prices again.  ban invoices instead retard.  it will cut poverty in half for a day but wall street is pricing their accounts to double that amount!
-        <br/>
-        <br/>
+        Biden lies and says the price-inelasticity inflation will lower prices
+        again. ban invoices instead retard. it will cut poverty in half for a
+        day but wall street is pricing their accounts to double that amount!
+        <br />
+        <br />
+        "No more than 2% waste or fraud" from his paid oversight board, that is,
+        only spent on promises to creditors and landlords they made for
+        themselves or build without the intent to use or sell in an actual
+        trade, a settled one
+        <br />
+        <br />
         The O.K. symbol is 666, not chalk-colored people, CNN you cunt
         <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
         <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not our
