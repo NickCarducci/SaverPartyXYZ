@@ -612,6 +612,14 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Biden says the Bill increases supply; it actually increases demand and price
+        <br />
+        <br />
+        People say they care about poverty but don’t want people to keep what
+        they earn or earn by keeping other consumers negative worth instead of
+        working for their favor
+        <br />
+        <br />
         <a href="https://en.wikipedia.org/wiki/Pamela_Brown_(journalist)">
           CNN
         </a>
