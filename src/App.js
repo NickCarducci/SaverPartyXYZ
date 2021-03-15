@@ -1346,102 +1346,6 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "In a free market the government does not sanction corporations,
-              therefore there are no corporations in a free market."
-            </div>
-            Existing within a market/vault/currency stewardship purveying
-            corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz&nbsp;
-            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
-              allows you to go public but you pay a Double-Tax on Income
-              (threatened-upon us by not price-prisoners’ dilemma duress pooling
-              but literal&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.IRS.current.scrollIntoView("smooth");
-                  this.setState({ highlightIRS: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightIRS: false }),
-                    10000
-                  );
-                }}
-              >
-                jail/confiscation in 1937
-              </span>
-              )
-            </a>
-            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
-            mine for thumbprint.us to serve intention for mock direct democracy
-            for Baltimore “and beyond” now sole proprietorship with royalty
-            contracts w/max-profit (no promises, only
-            profit-schedules[adminWidthdrawal/sale,skew,max] options)
-            <br />
-            <br />
-            <a href="http://chng.it/D9dxm2mWW4">
-              Petition to stop supermarkets wasting food, bad stewardship of our
-              opportunities, G-d given shit
-            </a>
-            <br />
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              blm vs trump; FBI (J. Sanborn) says,&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.cityhall.current.scrollIntoView("smooth");
-                  this.setState({ highlightCityHall: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightCityHall: false }),
-                    10000
-                  );
-                }}
-              >
-                "not different"
-              </span>
-              , cites 100 people OVER A SUMMER and general cites heli using
-              civil disturbance enumerated outlays (bayonnets, heli's), {">"}
-              =250 ppl IN ONE DAY
-            </div>
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
-              Open-carry is threat
-            </a>
-            &nbsp; G-d is judge of soul, Territory is self
-            <br />
-            <br />
             <span
               style={{
                 transition: ".3s ease-in",
@@ -11461,45 +11365,35 @@ export default class App extends React.Component {
             <br />
             NETL OVERVIEW - OSTI.GOV
           </div>
-          <i
-            style={{
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
+          <br />
+          Without debt, the rich will want to&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.financeKills.current.scrollIntoView("smooth");
+              this.setState({ highlightFinanceKills: true });
 
-              transition: ".3s ease-in",
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFinanceKills: false }),
+                10000
+              );
             }}
           >
-            <br />
-            Without debt, the rich will want to&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.financeKills.current.scrollIntoView("smooth");
-                this.setState({ highlightFinanceKills: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFinanceKills: false }),
-                  10000
-                );
-              }}
-            >
-              kill&nbsp;
-              <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
-                us
-              </a>
-            </span>
-          </i>
+            kill&nbsp;
+            <a href="https://www.energy.gov/lpo/title-xvii/title-xvii-faqs">
+              us
+            </a>
+          </span>
           <br />
           <br />
           "In a free market the government does not sanction corporations,
           therefore there are no corporations in a free market."
           <br />
           <br />
-          Existing within a market/vault/currency stewardship purveying
-          corporations/debt instead of royalty-contract w/max/profit vaults.biz
+          Existing within corporations/debt, instead of a market/vault/currency
+          stewardship purveying royalty-contracts w/max/profit&nbsp;
+          <a href="https://vaults.biz">vaults.biz</a>
           <br />
           <br />
           <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
@@ -11526,280 +11420,269 @@ export default class App extends React.Component {
           )
           <br />
           <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
 
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
             }}
           >
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.politics.current.scrollIntoView("smooth");
-                this.setState({ highlightPolitics: true });
+            Science
+          </span>
+          <br />
+          Insightful and inciteful are pronounced the same
+          <br />
+          lunatics by mooney
+          <br />
+          mortgages are deathcontracts
+          <br />
+          in the Latin
+          <br />
+          when we found numbers
+          <br />
+          <a href="https://micro-theory.com">accountants</a>,&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.citadel.current.scrollIntoView("smooth");
+              this.setState({ highlightCitadel: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPolitics: false }),
-                  10000
-                );
-              }}
-            >
-              Science
-            </span>
-            <br />
-            Insightful and inciteful are pronounced the same
-            <br />
-            lunatics by mooney
-            <br />
-            mortgages are deathcontracts
-            <br />
-            in the Latin
-            <br />
-            when we found numbers
-            <br />
-            <a href="https://micro-theory.com">accountants</a>,&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.citadel.current.scrollIntoView("smooth");
-                this.setState({ highlightCitadel: true });
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCitadel: false }),
+                10000
+              );
+            }}
+          >
+            bookies
+          </span>
+          , &<a href="https://nationalsecuritycasino.com">scalps</a>
+          <br />
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
+            precedence
+          </a>
+          &nbsp;can be&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.nra.current.scrollIntoView("smooth");
+              this.setState({ highlightNRA: true });
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightCitadel: false }),
-                  10000
-                );
-              }}
-            >
-              bookies
-            </span>
-            , &<a href="https://nationalsecuritycasino.com">scalps</a>
-            <br />
-            <br />
-            <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
-              precedence
-            </a>
-            &nbsp;can be&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.nra.current.scrollIntoView("smooth");
-                this.setState({ highlightNRA: true });
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNRA: false }),
+                10000
+              );
+            }}
+          >
+            asinine
+          </span>
+          <br />
+          <a
+            style={{
+              transition: ".3s ease-in",
 
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightNRA: false }),
-                  10000
-                );
-              }}
-            >
-              asinine
-            </span>
-            <br />
-            <a
-              style={{
-                transition: ".3s ease-in",
+              color: this.state.highlightFTC ? "white" : "",
+              backgroundColor: this.state.highlightFTC ? "rgb(170,100,205)" : ""
+            }}
+            ref={this.ftc}
+            href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
+          >
+            anticompetitve-cornering of assets as "state property"
+          </a>
+          &nbsp; is a&nbsp;
+          <a href="https://nationalsecuritycasino.com">
+            jurisprudential, national-security issue
+          </a>
+          <br />
+          <br />
+          Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
+          exists in an actual court of law
+          <br />
+          <br />
+          she "doesn't&nbsp;
+          <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+            charge for cold antibody PCR tests," is a lie
+          </a>
+          <br />
+          <br />
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.baltimore.current.scrollIntoView("smooth");
+              this.setState({ highlightBaltimore: true });
 
-                color: this.state.highlightFTC ? "white" : "",
-                backgroundColor: this.state.highlightFTC
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.ftc}
-              href="https://www.ftc.gov/tips-advice/competition-guidance/guide-antitrust-laws/antitrust-laws"
-            >
-              anticompetitve-cornering of assets as "state property"
-            </a>
-            &nbsp; is a&nbsp;
-            <a href="https://nationalsecuritycasino.com">
-              jurisprudential, national-security issue
-            </a>
-            <br />
-            <br />
-            Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
-            exists in an actual court of law
-            <br />
-            <br />
-            she "doesn't&nbsp;
-            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
-              charge for cold antibody PCR tests," is a lie
-            </a>
-            <br />
-            <br />
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.baltimore.current.scrollIntoView("smooth");
-                this.setState({ highlightBaltimore: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBaltimore: false }),
-                  10000
-                );
-              }}
-            >
-              copyright
-            </span>
-            &nbsp; so on lock it is an entire market, government user competing
-            with many many many advantages
-            <br />
-            <br />
-            but the niche is the directory not just a nationalistic vibe
-            <br />
-            positivity (as a grade) for markets is&nbsp;
-            <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
-              efficiency, not price
-            </a>
-            <br />
-            THIS IS MY COMMUNITY NAVIGATOR CUNT
-            <br />
-            <br />
-            <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
-              <div
-                style={{
-                  width: "100%",
-                  position: "relative"
-                }}
-              >
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
-                  alt="PPP lending/stealing fraud for financial ends"
-                />
-              </div>
-            </div>
-            <br />
-            <br />
-            <div style={{ display: "flex" }}>
-              &nbsp;
-              <span
-                style={{
-                  fontFamily: '"Pacifico", sans-serif',
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.covidrelief.current.scrollIntoView("smooth");
-                  this.setState({ highlightCovidRelief: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightCovidRelief: false }),
-                    10000
-                  );
-                }}
-              >
-                covid relief
-              </span>
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.collective.current.scrollIntoView("smooth");
-                  this.setState({ highlightCollective: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightCollective: false }),
-                    10000
-                  );
-                }}
-              >
-                Insurance
-              </span>
-            </div>
-            <span style={{ fontWeight: "normal" }}>
-              for finance fraud/prohibit price-elasticity + enslave +&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.populism.current.scrollIntoView("smooth");
-                  this.setState({ highlightPopulism: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightPopulism: false }),
-                    10000
-                  );
-                }}
-              >
-                unrequited
-              </span>
-              <br />
-              <span
-                ref={this.disclosure}
-                style={{
-                  transform: ".3s ease-in",
-                  color: this.state.highlightDisclosure ? "white" : "grey",
-                  backgroundColor: this.state.highlightDisclosure
-                    ? "rgb(100,170,205)"
-                    : ""
-                }}
-              >
-                give warning by unpaid consultants, non-profit freemium ngo
-                service; no prohibition except self/asset court-party risk
-              </span>
-            </span>
-            <br />
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBaltimore: false }),
+                10000
+              );
+            }}
+          >
+            copyright
+          </span>
+          &nbsp; so on lock it is an entire market, government user competing
+          with many many many advantages
+          <br />
+          <br />
+          but the niche is the directory not just a nationalistic vibe
+          <br />
+          positivity (as a grade) for markets is&nbsp;
+          <a href="https://wavv.art/forumSPcWzET32uuUgtnQ43Gi">
+            efficiency, not price
+          </a>
+          <br />
+          THIS IS MY COMMUNITY NAVIGATOR, CUNT
+          <br />
+          <br />
+          <div style={{ flexWrap: "wrap", width: "100%", display: "flex" }}>
             <div
-              ref={this.squatting}
               style={{
-                display: "flex",
+                width: "100%",
                 position: "relative"
               }}
             >
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
-                  src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
-                />
-              </div>
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
-                  alt="are we counting borrowed or deeds?"
-                />
-              </div>
-              <div style={{ width: "33%", position: "relative" }}>
-                <img
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "auto"
-                  }}
-                  src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
-                  alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
-                />
-              </div>
+              <img
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/5n1g1t1yh2xyl0r/Screen%20Shot%202021-03-02%20at%2011.27.15%20PM.png?dl=0"
+                alt="PPP lending/stealing fraud for financial ends"
+              />
             </div>
-            <br />
-            the loans are now scrouging the gringos but just numerically because
-            u.s. courts are malfeasant
-            <br />
-            1000% asset ownership, 5000% asset ownership is finance (1300%
-            bond:cash, 2% financial sector getting population….), 100/2=50x who
-            is the real enemy
           </div>
+          <br />
+          <br />
+          <div style={{ display: "flex" }}>
+            <span
+              style={{
+                fontFamily: '"Pacifico", sans-serif',
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.covidrelief.current.scrollIntoView("smooth");
+                this.setState({ highlightCovidRelief: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightCovidRelief: false }),
+                  10000
+                );
+              }}
+            >
+              covid relief
+            </span>
+            &nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.collective.current.scrollIntoView("smooth");
+                this.setState({ highlightCollective: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightCollective: false }),
+                  10000
+                );
+              }}
+            >
+              Insurance
+            </span>
+          </div>
+          <span style={{ fontWeight: "normal" }}>
+            for finance fraud/prohibit price-elasticity + enslave +&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.populism.current.scrollIntoView("smooth");
+                this.setState({ highlightPopulism: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightPopulism: false }),
+                  10000
+                );
+              }}
+            >
+              unrequited
+            </span>
+            <br />
+            <span
+              ref={this.disclosure}
+              style={{
+                transform: ".3s ease-in",
+                color: this.state.highlightDisclosure ? "white" : "grey",
+                backgroundColor: this.state.highlightDisclosure
+                  ? "rgb(100,170,205)"
+                  : ""
+              }}
+            >
+              give warning by unpaid consultants, non-profit freemium ngo
+              service; no prohibition except self/asset court-party risk
+            </span>
+          </span>
+          <br />
+          <div
+            ref={this.squatting}
+            style={{
+              display: "flex",
+              position: "relative"
+            }}
+          >
+            <div style={{ width: "33%", position: "relative" }}>
+              <img
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "auto"
+                }}
+                alt="1000% asset ownership, 5000% asset ownership is finance (1300% bond:cash, 2% financial sector getting population….), 100/2=50x who is the real enemy"
+                src="https://www.dl.dropboxusercontent.com/s/8uy123fts6hx7he/IMG_3266.png?dl=0"
+              />
+            </div>
+            <div style={{ width: "33%", position: "relative" }}>
+              <img
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/1hhxo6jj5tyjije/IMG_3265.png?dl=0"
+                alt="are we counting borrowed or deeds?"
+              />
+            </div>
+            <div style={{ width: "33%", position: "relative" }}>
+              <img
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "auto"
+                }}
+                src="https://www.dl.dropboxusercontent.com/s/kbm9cilfqip612n/IMG_3264.png?dl=0"
+                alt="the loans are now scrouging the gringos but just numerically because u.s. courts are malfeasant"
+              />
+            </div>
+          </div>
+          <br />
+          the loans are now scrouging the gringos but just numerically because
+          u.s. courts are malfeasant
+          <br />
+          1000% asset ownership, 5000% asset ownership is finance (1300%
+          bond:cash, 2% financial sector getting population….), 100/2=50x who is
+          the real enemy
+          <br />
           <br />
           <i
             style={{
@@ -12343,6 +12226,39 @@ export default class App extends React.Component {
               Open-carry is threat
             </a>
             &nbsp;G-d is judge of soul, Territory is self
+            <br />
+            <div
+              style={{
+                fontFamily: '"Hi Melody", sans-serif',
+                color: "grey",
+
+                width: "calc(100% - 20px)",
+                maxWidth: "600px"
+              }}
+            >
+              blm vs trump; FBI (J. Sanborn) says,&nbsp;
+              <span
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  this.cityhall.current.scrollIntoView("smooth");
+                  this.setState({ highlightCityHall: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightCityHall: false }),
+                    10000
+                  );
+                }}
+              >
+                "not different"
+              </span>
+              , cites 100 people OVER A SUMMER and general cites heli using
+              civil disturbance enumerated outlays (bayonnets, heli's), {">"}
+              =250 ppl IN ONE DAY
+            </div>
           </div>
           <br />
           <div
