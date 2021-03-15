@@ -4081,6 +4081,53 @@ export default class App extends React.Component {
             civilly-minded, civic-tech
           </span>
           .
+          <br />
+          <br />
+          "There used to be 5 retired for 1 working person, now there is 2
+          working people for one retired person," says Dodaro. Do we want to
+          lessen payments to retired or get more people retired? Saver Party
+          wants the latter, all three supply-side political parties want the
+          former
+          <br />
+          "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year
+          only... debt is a negative balance and gdp is the amount of times
+          money is created or promised (not paid to debt, usually lent out
+          again, which counts as gdp again)
+          <br />
+          <a href="https://wavv.art/United_States_of_America">
+            wavv.art/United_States_of_America
+          </a>
+          <br />
+          <br />
+          @cnn brooke don't call me white, frivalous cunt, I am olive and that
+          has nothing to do with my personality only my body, why does that
+          matter for you or systems at all if not numerated except to
+          individuals within them?
+          <br />
+          <span
+            style={{
+              transition: ".3s ease-in",
+
+              color: this.state.highlightJHUECON ? "white" : "",
+              backgroundColor: this.state.highlightJHUECON
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.jhuecon}
+          >
+            only in 2018 did I learn where dollars DID NOT COME FROM G-D&nbsp;
+            <a href="https://vaults.biz">from</a> ... after spending $250k on
+            JHU <a href="https://micro-theory.com">economics</a>
+            <br />
+            <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
+              wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
+            </a>
+            <br />
+            "We now know, and we have known, that [G-d is dead]" - Don Lemon,
+            CNN (March 5, 2021)
+          </span>
+          <br />
+          <br />
           <i>
             <h2>Human Rights in a time of {/*veiled */}corruption and greed</h2>
           </i>
@@ -11666,59 +11713,6 @@ export default class App extends React.Component {
             </a>
             ?
           </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            "There used to be 5 retired for 1 working person, now there is 2
-            working people for one retired person," says Dodaro. Do we want to
-            lessen payments to retired or get more people retired? Saver Party
-            wants the latter, all three supply-side political parties want the
-            former
-            <br />
-            "Debt is 140% of GDP," Rep Scott is an idiot that must be GDP /year
-            only... debt is a negative balance and gdp is the amount of times
-            money is created or promised (not paid to debt, usually lent out
-            again, which counts as gdp again)
-            <br />
-            <a href="https://wavv.art/United_States_of_America">
-              wavv.art/United_States_of_America
-            </a>
-            <br />
-            <br />
-            @cnn brooke don't call me white, frivalous cunt, I am olive and that
-            has nothing to do with my personality only my body, why does that
-            matter for you or systems at all if not numerated except to
-            individuals within them?
-            <br />
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightJHUECON ? "white" : "",
-                backgroundColor: this.state.highlightJHUECON
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.jhuecon}
-            >
-              only in 2018 did I learn where dollars DID NOT COME FROM G-D&nbsp;
-              <a href="https://vaults.biz">from</a> ... after spending $250k on
-              JHU <a href="https://micro-theory.com">economics</a>
-              <br />
-              <a href="https://wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ">
-                wavv.art/forumGhIhQ2CaGJxcTzyhEYfZ
-              </a>
-              <br />
-              "We now know, and we have known, that [G-d is dead]" - Don Lemon,
-              CNN (March 5, 2021)
-            </span>
-          </div>
         </div>
         <div
           style={{
