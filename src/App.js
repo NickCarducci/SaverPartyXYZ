@@ -555,17 +555,18 @@ export default class App extends React.Component {
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
+    var leftNot = (this.props.landedPresentation || this.props.top) &&!this.props.scrolling
     return (
       <div
         style={{
           transform: `translateX(${
-            this.props.landedPresentation || this.props.top ? "40px" : "0px"
+            leftNot ? "40px" : "0px"
           })`,
           transition: `${
-            this.props.landedPresentation || this.props.top ? ".3" : ".7"
+            leftNot ? ".3" : ".7"
           }s ease-in-out`,
           color:
-            this.props.landedPresentation || this.props.top
+          leftNot
               ? "rgb(135,170,205)"
               : "rgb(60,70,85)",
           display: "block",
