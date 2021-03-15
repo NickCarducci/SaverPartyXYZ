@@ -615,6 +615,8 @@ export default class App extends React.Component {
         The O.K. symbol is 666, not chalk-colored people, CNN you cunt
         <br />
         I don't have 20 hands Greg Kelly
+        <br/>
+        Why do you have to get a lawyer to have jurisprudence. Don’t judges know the law? What is this&nbsp;<a href="https://www.youtube.com/watch?v=th0Im-eJFx0">Judge Judy</a>?
         <br />
         <br />I guarantee all stress, depression and suicide is caused by
         finance/rentier-colonialism/
@@ -13970,4 +13972,3 @@ export default class App extends React.Component {
     );
   }
 }
-
