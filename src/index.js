@@ -8,7 +8,8 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      helperHeight: window.innerHeight - 60,
+      landedPresentation: true,
+      helperHeight: 90,
       top: true,
       scrollPlacementHeight: 0,
       openMenu: false,
@@ -238,7 +239,7 @@ class Index extends React.Component {
               backgroundColor: "rgb(255,255,255)",
               display: "flex",
               position: "fixed",
-              top: `${this.state.helperHeight}px`,
+              top: `calc(100vh - ${this.state.helperHeight}px)`,
               left: "0px",
               height: "min-content",
               color: "black",
@@ -941,12 +942,14 @@ class Index extends React.Component {
           >
             <App
               inSection={(section) =>
-                this.state.inSection !== section &&
-                this.setState({ inSection: section, openMenu: true }, () => {
-                  const helperHeight =
+                this.state.lastInSection !== section &&
+                this.setState({ openMenu: true }, () => {
+                  var helperHeight =
                     window.innerHeight - this.helper.current.offsetHeight;
                   this.setState(
                     {
+                      lastInSection: section,
+                      inSection: section,
                       helperHeight
                     },
                     () => {
@@ -969,7 +972,6 @@ class Index extends React.Component {
                     () => this.setState({ highlightLaw: false }),
                     10000
                   );
-
                   window.scroll({ top: 0, behavior: "smooth" });
                 })
               }
