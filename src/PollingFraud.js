@@ -1,50 +1,89 @@
-import React from 'react'
+import React from "react";
 
 class PollingFraud extends React.Component {
   render() {
     return (
-
-      <span>
-      "Ninety percent of americans, poll after poll, support HR.1319," claims
-      the adresser of Saver Party with jealousy for having wasted his own life
-      on beleagured ends
-      <br />
-      <div
+      <div>
+      <span
         style={{
-          width: "100%",
-          position: "relative"
+          fontWeight: "normal",
+          transition: ".3s ease-in",
+          color: this.props.highlightFlop ? "white" : "",
+          backgroundColor: this.props.highlightFlop
+            ? "rgb(170,100,205)"
+            : ""
         }}
       >
-        <img
-          alt=""
+        Haha fair and square? Voter harvesting is sample bias.
+        Calling&nbsp;
+        <b>elections</b>&nbsp;dissuade/supress voters, projecting is
+        especially irrelevant if&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={this.props.electionTech}
+        >
+          unshuffled, and Dominion
+        </span>
+        &nbsp;has a&nbsp;
+        <a href="https://maloney.house.gov/media-center/press-releases/smartmatic-announces-sale-sequoia-voting-systems">
+          history of dealing with
+        </a>
+        &nbsp;companies that have rigged Venezuelan elections, and there
+        is video of secret counting, 1000s of witnesses to fraud, more
+        than witnesses to crossing the Antarctic I’m&nbsp;
+        <a href="https://vaults.biz">banned from twitter</a> for calling
+        jack a fully-capable, self-harmer for dropping my impressions
+        100-0 when I was complaining about calling an election of
+        unshuffled, mutually-exclusive events, on Election Day!
+      </span>
+      Statistical Sin of the Holyest. State-issued GovID application
+      programming interface should be provided by the government (with
+      convict record for e2e encryption or not thumbprint.us/privacy), as
+      should they provide a billfeed by api by staleness. The video
+      debunking it says dominion doesn’t own smartmatic, “or anything like
+      that.”
+      <br/>
+      <br/>
+        "Ninety percent of americans, poll after poll, support HR.1319," claims
+        the adresser of Saver Party with jealousy for having wasted his own life
+        on beleagured ends
+        <br />
+        <div
           style={{
-            width: "25%",
-            height: "auto"
+            width: "100%",
+            position: "relative"
           }}
-          src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
-        />
-      </div>
-      <br />
-      "Take your own polls," he says, again making dangerous assumptions to
-      legislate this [please note, he claimed 90% support summaries of HR.8 &
-      HR.47, but his protest that&nbsp;
-      <span
-        style={{ fontWeight: "bolder", textDecoration: "underline" }}
-        onClick={this.props.varney}
-      >
-        polling samples allow supposition of population
-      </span>
-      &nbsp;is apparently related and also ridiculable]&nbsp;
-      <span
-        style={{ fontWeight: "bolder", textDecoration: "underline" }}
-        onClick={this.props.goToTop}
-      >
-        crime
-      </span>
-      . Assumptions that&nbsp;
-      <a href="https://www.isidewith.com/poll/488729614">
-        contradict samples of larger numbers
-      </a>
+        >
+          <img
+            alt=""
+            style={{
+              width: "25%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/krkgufx0cxuw6ah/NinetyPercent.jpg?dl=0"
+          />
+        </div>
+        <br />
+        "Take your own polls," he says, again making dangerous assumptions to
+        legislate this [please note, he claimed 90% support summaries of HR.8 &
+        HR.47, but his protest that&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={this.props.varney}
+        >
+          polling samples allow supposition of population
+        </span>
+        &nbsp;is apparently related and also ridiculable]&nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={this.props.goToTop}
+        >
+          crime
+        </span>
+        . Assumptions that&nbsp;
+        <a href="https://www.isidewith.com/poll/488729614">
+          contradict samples of larger numbers
+        </a>
         <br />
         <br />
         Nancy pelosi saying&nbsp;
@@ -230,8 +269,8 @@ class PollingFraud extends React.Component {
         >
           President
         </span>
-      </span>
-    )
+      </div>
+    );
   }
 }
-export default PollingFraud
+export default PollingFraud;
