@@ -138,6 +138,7 @@ export default class App extends React.Component {
     this.quality = React.createRef();
     this.mutilation = React.createRef();
     this.planetary = React.createRef();
+    this.beast = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -664,12 +665,12 @@ export default class App extends React.Component {
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
-            this.jewels.current.scrollIntoView("smooth");
-            this.setState({ highlightJewels: true });
+            this.beast.current.scrollIntoView("smooth");
+            this.setState({ highlightBeast: true });
 
             clearTimeout(this.highlighting);
             this.highlighting = setTimeout(
-              () => this.setState({ highlightJewels: false }),
+              () => this.setState({ highlightBeast: false }),
               10000
             );
           }}
