@@ -623,7 +623,7 @@ export default class App extends React.Component {
         </a>
         &nbsp;will lower prices again. ban invoices instead retard. it will cut
         poverty in half for a day but wall street is pricing their accounts to
-        double that amount!
+        double that amount (for that transation alone in a&nbsp;<a href="https://micro-theory.com">microcosm</a>!
         <br />
         <br />
         "No more than 2% waste or fraud" from his paid oversight board, that is,
