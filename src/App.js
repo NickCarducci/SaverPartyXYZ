@@ -627,6 +627,29 @@ export default class App extends React.Component {
           a borrowers' lenders
           <br />
           <br />
+          <div
+            style={{
+              width: "100%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/1b5lup5i8pfgb97/StayInYourLane.jpg?dl=0"
+            />
+          </div>
+          Stay in your lane 'spic, cease in saying conservatives value
+          debt-spending for roads, which can be based on price-fixed tolls. YOU
+          MUST STOP USING CONSERVATIVE TO TALK ABOUT DOLLAR-SPLIT or not
+          removing free-riders from public goods, which should only be
+          sales-taxed 3% under $2k (not resales/equity/uncut-material) to
+          provide for the customers of the sales
+          <br />
+          <br />
           <a href="https://en.wikipedia.org/wiki/Gene_Sperling">
             GENE SPERLING hired by Biden
           </a>
@@ -14071,4 +14094,3 @@ export default class App extends React.Component {
     );
   }
 }
-
