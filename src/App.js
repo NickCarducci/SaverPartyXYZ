@@ -619,22 +619,37 @@ export default class App extends React.Component {
           }}
           ref={this.RENTIERCOLONIALISM}
         >
-          Here is Schumer, laundering a split of my equity to a borrowers'
-          lenders
+          Here is Schumer, laundering a split of my bartending dollar-equity to
+          a borrowers' lenders
           <br />
           <br />
           <a href="https://en.wikipedia.org/wiki/Gene_Sperling">
-            GENE SPERLING
+            GENE SPERLING hired by Biden
           </a>
           &nbsp;to ensure the payments that aren't spent on select government
           contractors' and their pension promises (forced by threat to start),
-          like Microsoft, my competitor aren't spent on assets and instead
-          rentier-colonialism and financial-counterfeit promises. Complete fraud
-          if the courts weren't a party to the suit they would return 40/41
-          wealth to consumers for price-fixing to debt/invoice
-          counterfeit--in-contract collusion, loitering, & borrowers' customers'
-          down payment loss to accredited usurpers of conditionally lowering
-          standards in bond ratings since 1:1 security depositary reciepts
+          like Microsoft - my competitor, aren't spent on&nbsp;
+          <span
+            onClick={() => {
+              this.jewels.current.scrollIntoView("smooth");
+              this.setState({ highlightJewels: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightJewels: false }),
+                10000
+              );
+            }}
+          >
+            assets like the cops and the CDC (Bill Gates)
+          </span>
+          &nbsp;can, and instead rentier-colonialism and financial-counterfeit
+          promises. Complete fraud if the courts weren't a party to the suit
+          they would return 40/41 wealth to consumers for price-fixing to
+          debt/invoice counterfeit--in-contract collusion, loitering, &
+          borrowers' customers' down payment loss to accredited usurpers of
+          conditionally lowering standards in bond ratings since 1:1 security
+          depositary reciepts
           <br />
           <div
             style={{
@@ -11415,6 +11430,77 @@ export default class App extends React.Component {
             }}
             ref={this.jewels}
           >
+            <iframe
+              title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
+              width="300"
+              height="444"
+              style={{
+                backgroundColor: "#3b5998",
+                border: "none",
+                overflow: "hidden",
+                width: "480px"
+              }}
+            ></iframe>
+            <br />
+            "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
+            to purchase items at businesses... and multiple diamond
+            [investments]"... The fed uses our equity-split on shares of
+            corporate competitors of mine... <br /> <br />
+            splitting dollars of entrepreneurs and labor without consent for
+            those who lost there jobs and businesses who lost income is
+            anti-competitive&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.insurance.current.scrollIntoView("smooth");
+                this.setState({ highlightPrisonersDuress: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightPrisonersDuress: false }),
+                  10000
+                );
+              }}
+            >
+              insurance
+            </span>
+            &nbsp;fraud, regardless if the late population stats are abnormal
+            (they aren't)
+            <br />
+            landlord, lender and invoicer get the money right? That’s what the
+            money is for - to bail them out
+            <br />
+            a court would laugh a prosecutor out the room and demand that down
+            payments be repaired for borrower's customers if it were corporate
+            shares instead of dollars during reposession. current debt:cash is
+            13:1. it is counterfeit in the contract
+            <br />
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.IRS.current.scrollIntoView("smooth");
+                this.setState({ highlightIRS: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIRS: false }),
+                  10000
+                );
+              }}
+            >
+              Unemployment insurance
+            </span>
+            &nbsp;generally is so those employees keep paying finance
+            (counterfeit in contract or colonialism) "free" but&nbsp;
+            <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
+              split-dollar (the big lie)
+            </a>
+            &nbsp;market share labor for business, labor and pre-revenue
+            inventors and artists just get their equity stolen and given to
+            others. it's illegal but not under this regime's precedence
+            <br />
+            <br />
             Unspoken collusion by supply-side product luddites. "Advent of zoom"
             it is WebX with a better brand... shikes
             <br />
@@ -12452,7 +12538,7 @@ export default class App extends React.Component {
             }}
           >
             <iframe
-              title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
+              title="23kg of cocaine money for police while college kids get it prescribed to concentrate"
               src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159135278084641&width=300&show_text=true&height=444&appId"
               width="300"
               height="444"
@@ -12499,84 +12585,6 @@ export default class App extends React.Component {
             issues.
             <br />
             Parent choice of mutilation cannot be reversed but drugs can be
-          </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <iframe
-              title="North Carolina woman allegedly used a $149,000 Covid-19 relief loan to purchase items at businesses... and multiple diamond [investments]"
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnninternational%2Fposts%2F10159143858809641&width=300&show_text=true&height=444&appId"
-              width="300"
-              height="444"
-              style={{
-                backgroundColor: "#3b5998",
-                border: "none",
-                overflow: "hidden",
-                width: "480px"
-              }}
-            ></iframe>
-            <br />
-            "North Carolina woman allegedly used a $149,000 Covid-19 relief loan
-            to purchase items at businesses... and multiple diamond
-            [investments]"... The fed uses our equity-split on shares of
-            corporate competitors of mine... <br /> <br />
-            splitting dollars of entrepreneurs and labor without consent for
-            those who lost there jobs and businesses who lost income is
-            anti-competitive&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              insurance
-            </span>
-            &nbsp;fraud, regardless if the late population stats are abnormal
-            (they aren't)
-            <br />
-            landlord, lender and invoicer get the money right? That’s what the
-            money is for - to bail them out
-            <br />
-            a court would laugh a prosecutor out the room and demand that down
-            payments be repaired for borrower's customers if it were corporate
-            shares instead of dollars during reposession. current debt:cash is
-            13:1. it is counterfeit in the contract
-            <br />
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.IRS.current.scrollIntoView("smooth");
-                this.setState({ highlightIRS: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightIRS: false }),
-                  10000
-                );
-              }}
-            >
-              Unemployment insurance
-            </span>
-            &nbsp;generally is so those employees keep paying finance
-            (counterfeit in contract or colonialism) "free" but&nbsp;
-            <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
-              split-dollar (the big lie)
-            </a>
-            &nbsp;market share labor for business, labor and pre-revenue
-            inventors and artists just get their equity stolen and given to
-            others. it's illegal but not under this regime's precedence
           </div>
         </div>
         <div
