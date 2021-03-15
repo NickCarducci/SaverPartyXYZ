@@ -623,13 +623,9 @@ export default class App extends React.Component {
           housing) is 102%.
           <br />
           <br />
-          Here is Schumer, laundering a split of my bartending dollar-equity to
-          a borrowers' lenders
-          <br />
-          <br />
           <div
             style={{
-              width: "100%",
+              width: "40%",
               position: "relative"
             }}
           >
@@ -648,6 +644,10 @@ export default class App extends React.Component {
           removing free-riders from public goods, which should only be
           sales-taxed 3% under $2k (not resales/equity/uncut-material) to
           provide for the customers of the sales
+          <br />
+          <br />
+          Here is Schumer, laundering a split of my bartending dollar-equity to
+          a borrowers' lenders
           <br />
           <br />
           <a href="https://en.wikipedia.org/wiki/Gene_Sperling">
@@ -14094,3 +14094,4 @@ export default class App extends React.Component {
     );
   }
 }
+
