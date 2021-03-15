@@ -636,6 +636,17 @@ export default class App extends React.Component {
           housing) is 102%.
           <br />
           <br />
+          <div style={tweetsStyle}>
+            You should own it if for more than a year && it is implied your
+            intent isn’t to be there if you rent {">"}1mo bed/bath/ovens more
+            than 5, but to prohibit trade.
+            <br />
+            Prohibiting trade by price-inelasticity, leasing-out or scalping is
+            involuntary servitude because it takes away from the opportunity of
+            the saver to own it.
+          </div>
+          <br />
+          <br />
           <div
             style={{
               width: "40%",
@@ -1062,26 +1073,39 @@ export default class App extends React.Component {
             <br />
             <span
               style={{
+                transition: ".3s ease-in",
+                color: this.state.highlightChina ? "white" : "",
+                backgroundColor: this.state.highlightChina
+                  ? "rgb(170,100,205)"
+                  : "",
                 fontWeight: "bolder",
                 textDecoration: "underline"
               }}
+              ref={this.china}
               onClick={() => {
-                this.china.current.scrollIntoView("smooth");
-                this.setState({ highlightChina: true });
+                this.brookings.current.scrollIntoView("smooth");
+                this.setState({ highlightBrookings: true });
 
                 clearTimeout(this.highlighting);
                 this.highlighting = setTimeout(
-                  () => this.setState({ highlightChina: false }),
+                  () => this.setState({ highlightBrookings: false }),
                   10000
                 );
               }}
             >
-              China: U.S. GDP was 10%, then 1/7th, now 3/4
-              <br />
-              Population 4.5x
+              With division you get a ratio, but to add differing variables is
+              not ok in calculus, so why do they teach that in economics? {"/*"}
+              &nbsp;ok
             </span>
-            &nbsp; Although they have been known to lie and have used
-            propoganda, as U.S. has also&nbsp;
+            <br />
+            <br />
+            China: U.S. GDP was 10%, then 1/7th, now 3/4
+            <br />
+            Population 4.5x
+            <br />
+            <br />
+            Although they have been known to lie and have used propoganda, as
+            U.S. has also&nbsp;
             <span
               style={{
                 fontWeight: "bolder",
@@ -3934,6 +3958,105 @@ export default class App extends React.Component {
           }}
           ref={this.OWNERSHIPFRAUD}
         >
+          <div style={tweetsStyle}>
+            biden calling for full employment scares me
+            <br />
+            <br />
+            spending is not something “in the background.” when debt is paid
+            monetary-base inflation happens but when it is banned monetary-base
+            deflation happens. but price-inelasticity inflation happens now by
+            dealing in usurped and forced promises of unrequited third party
+            share and servitude.&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.inflation.current.scrollIntoView("smooth");
+                this.setState({ highlightInflation: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightInflation: false }),
+                  10000
+                );
+              }}
+            >
+              Let prices be elastic
+            </span>
+            !
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            A person's debt is their customers to burden unrequited, promised
+            (not used or borrowed). We work towards no ends when debt exists
+            <br />
+            you cannot build someone else's designs, and pass them off as your
+            own while they are building it. imagine if that was the case
+            <br />
+            marijuana laws are to stop dollar competition
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            How many times are you going to say “stand,” Rudy, you old crypt
+            Your exec. assist or you were in the Box Office for 9/11
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            A person's debt is their customers to burden unrequited, promised
+            (not used or borrowed)  There does not need to be mandatory &nbsp;
+            <b>dollar-split</b> to prevent price-elasticity Consumer
+            Reports give me your page you do not understand this
+          </div>
+          <div style={tweetsStyle}>
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.trueGDP.current.scrollIntoView("smooth");
+                this.setState({ highlightTrueGDP: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightTrueGDP: false }),
+                  10000
+                );
+              }}
+            >
+              velocity of money (m1) is MADE UP
+            </span>
+            . gdp is all debt promises being re-promised. cancelling by this
+            corrupt congress is bailing out bonds, not actually adjudicating the
+            merits of contracts that promise other people's money and servitude.
+            If credit contracts promised corporate shares the claimant would be
+            laughed out of court. THIS IS FRAUD
+          </div>
+          <span
+            ref={this.valuation}
+            style={{
+              position: "relative",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightValuation ? "white" : "",
+              backgroundColor: this.state.highlightValuation
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Not making mvp data access a default is evident nefarious intent
+            SEC: "[Give your unique id immediately to brokers (not just us), but
+            if you own more than {">"}5%, you can wait 3 months.]" (If trading
+            your company, at any ownership percentage, you must build and report
+            in the open or wait three months upon stopping work to trade) You
+            cannot manipulate stocks more than selling without borrowing
+            (stimulus checks are price-inelasticity fraud), <b>shorting</b> is
+            not destructive on it's own and it is not just short-selling. It is
+            borrowing (usurped share power waged in contract, moot), and retail
+            is traded against. Shortselling without borrowing wouldn't be able
+            to abdicate third-party risk from mixing the terms, it would be a
+            bicameral option to end the contract with an individual seller...
+          </span>
           <span
             ref={this.takingCredit}
             style={{
@@ -4015,28 +4138,6 @@ export default class App extends React.Component {
             laws have to be justice-oriented in order for the equal application
             of unequal laws to be applied - price-fixing is not justice
           </i>
-          <br />
-          transmission of virus only travels by symptom,&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.newsy.current.scrollIntoView("smooth");
-
-              this.setState({ highlightNewsy: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightNewsy: false }),
-                10000
-              );
-            }}
-          >
-            spittle/oils
-          </span>
-          , and heat rises
           <br />
           <br />
           Officer of Government Ethics vs&nbsp;
@@ -6148,25 +6249,67 @@ export default class App extends React.Component {
           }}
           ref={this.INSURANCEFRAUD}
         >
-          Marjorie getting elected after suggesting&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.flag.current.scrollIntoView("smooth");
-              this.setState({ highlightFlag: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightFlag: false }),
-                10000
-              );
-            }}
-          >
-            false flag
-          </span>
-          &nbsp; is correlative evidence that most of her constituents agree
-          with her
           <br />
+          <div style={tweetsStyle}>
+            Do not say taxpayers pay for operations 12x existing money.
+            Government spending is mostly a cost upon dollar-owners
+            <br />
+            <br />
+            Insurance companies like Car Shield do not provide service or
+            purchase service, they force those who want service to pay in
+            advance to keep up with price-inelasticity & for invoices to boot.
+            That is involuntary servitude
+            <br />
+            <a href="https://wavv.art/forumtkBMXXfLklz04JVLd8sN">
+              wavv.art/forumtkBMXXfLklz04JVLd8sN
+            </a>
+            <br />
+            <a href="https://wavv.art/forumC49WDIBFRmpaO05ukNoo">
+              wavv.art/forumC49WDIBFRmpaO05ukNoo
+            </a>
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            monetary-inflation only happens if you allow debts to be reposessed
+            <br />
+            <br />
+            price-inelasticity inflation happens if you&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.inflation.current.scrollIntoView("smooth");
+                this.setState({ highlightInflation: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightInflation: false }),
+                  10000
+                );
+              }}
+            >
+              wait to adjunicate
+            </span>
+            &nbsp; and are malfeasant, by definition, with the intention of
+            reposession (negligent towards borrowers' customers' down-payments,
+            at that) & indentured servitude
+            <br />
+            <br />
+            The harm to savers and subjects to market-colonialism (historical
+            applications of communism are a form of tax), rather than the means
+            of production to the production (labor), is by way of the (1) use-of
+            assets by the borrower and keeping-of down payments by the lender,
+            (2) in insurance it is duress of price-inelasticity inflation, and
+            (3) in rent it is the squatting/scalping beyond a purchase with the
+            intent of using it yourself (5)
+            <br />
+            It’s illegal to enslave patients like this; we have to buy it to
+            keep up with price-inelasticity of pooling demand && paying invoices
+            which are themselves promises of other peoples money. The former is
+            just duress
+          </div>
           <br />
           <div
             style={{
@@ -6526,6 +6669,64 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          <br />
+          transmission of virus only travels by symptom,&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.newsy.current.scrollIntoView("smooth");
+
+              this.setState({ highlightNewsy: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNewsy: false }),
+                10000
+              );
+            }}
+          >
+            spittle/oils
+          </span>
+          , and heat rises
+          <div style={tweetsStyle}>
+            You can have opinion if the other has no proof, and then you will
+            have to cease if it is proven, which can be appealed in the future,
+            by the people. You bet.&nbsp;
+            <a href="https://academic.oup.com/jid/article/191/9/1472/862003">
+              https://academic.oup.com/jid/article/191/9/1472/862003
+            </a>
+            <br />
+            <br />
+            "Wet air samples: Initial testing of high-resolution slit samples
+            from a room where a patient was recovering from SARS (not on a
+            ventilator) showed 1 of 10 samples to be PCR positive for SARS-CoV
+            (table 1). All of these air samples were then concentrated 100-fold
+            by ultracentrifugation and were rescreened by PCR. This identified a
+            second PCR-positive sample and confirmed the positive results for
+            the original sample. All of the PCR-positive products were sequenced
+            and confirmed to be SARS-CoV. Results of viability assays of the
+            samples for infectivity in Vero-E6 cell culture were negative.
+            During the 3 h that the air sampler was operating in the room (18
+            min for each sample collected), the patient was not under continual
+            observation but was requested to not wear a mask, was coughing
+            periodically, walked about, and sat in the bed and in the chair. The
+            patient was also asked to stay {">"}5 feet away from the air sampler
+            and not to cough in the direction of the air sampler. The air of the
+            corridor within the critical care unit was also tested and was PCR
+            negative for SARS-CoV.
+            <br />
+            <br />
+            <b>
+              Air samples from 2 isolation rooms in the critical care unit
+              (occupied by patients with SARS being given respiratory support on
+              ventilators) were PCR negative, as were samples from another room
+              occupied by a patient on a ventilator who did not have SARS"
+            </b>
+          </div>
+          <br />
           Michael Osterholm, why do you want to “vaccinate”/graft us (and risk
           B-cell oncogenesis) when the problem is forming mold in your mask and
           ceasing that self-deprecation might stop your prediction of
@@ -7540,6 +7741,13 @@ export default class App extends React.Component {
           }}
           ref={this.MONOPOLY}
         >
+          <div style={tweetsStyle}>
+            also, ppp loans is an antitrust case, bootstrapping entrepreneurs
+            are excluded, prices are fixed Insurance abet counterfeit
+            dollar-shareholder right usurpation and force consumers to commit
+            these crimes by being unable to attain these medical services
+            without joining the pyramid scheme of crime
+          </div>
           <br />
           <i
             style={{
@@ -7547,7 +7755,8 @@ export default class App extends React.Component {
               textEmphasis: "italics"
             }}
           >
-            monopsony of retail space, ignored request for service emails
+            monopsony of retail space/labor/input, ignored request for service
+            emails
           </i>
           <br />
           <div
@@ -10331,6 +10540,61 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          <br />
+          <div style={tweetsStyle}>
+            if you want to lift people out of poverty efficiently, why would you
+            dollar-split to pay for impractical promises at 12:1 by 2020
+            ($82t:$6t)
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            VALUATION IS NOT WEALTH AND YOU ARE TAKING ADVICE ON A
+            NEGLECTFUL-HOMOCIDAL NIH, GRAFTS CAUSE CANCER FROM B-CELL
+            DYSREGULATION YOU SHOULD MAKE YOUR OWN ANTIBODIES AND MRNA;
+            EXCLUSION CAN ONLY BE BASED ON SYMPTOMS & WITHOUT HARM TO NOT HAVE
+            FREE-RIDER OF THE EXCLUDER AND INVOLUNTARY SERVITUDE OF THE ONE
+            EXCLUDED
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            Hello ----, I will not harass and monopsonize the funeral
+            arrangement market without being a buyer or seller preventing
+            price-elasticity, especially when the contracts you broker aren't
+            gift certificates or tranched having to withstand counter-party risk
+            and therefore indentured servitude, on games without
+            shuffled-randomness. Best, Nick Carducci.sh
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            the debt will never be paid and lenders will never stop lending to
+            market-share/vault-share steward collusion. no amount of immigrants
+            will bankrupt the country, but those bonds can never become cash at
+            once . I want to live today.
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            if we banned prohibiting price-elasticity in debt, invoices and
+            renting out more than one can use themselves prices would drop to
+            1/12 what it is now (current cash:debt ratio)
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            performance enhancing and self-medication draws its line in
+            monopsonization of medicine{" "}
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            The regulators have stated intent of wallstreetbets to spite short
+            sellers generally, but the intent of trading against users is
+            obvious in the way unique identifiers are not anonymized for 3
+            months like those who own {">"}5%. FINRA is malfeasant, I have been
+            notifying them for 2 years and now my Twitter is suspended
+            <br />
+            short would have to be between two individuals of the tap-out
+            dissolution-kind, if without enabling of the counterfeit voting
+            rights of the dollars
+          </div>
+          <br />
           Mortgages are illegal, you cannot promise somebody else's money&nbsp;
           <br />
           <br />
@@ -12036,6 +12300,26 @@ export default class App extends React.Component {
             profit-schedules[adminWidthdrawal/sale,skew,max] options)
             <br />
             <br />
+            Marjorie getting elected after suggesting&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.flag.current.scrollIntoView("smooth");
+                this.setState({ highlightFlag: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightFlag: false }),
+                  10000
+                );
+              }}
+            >
+              false flag
+            </span>
+            &nbsp;is correlative evidence that most of her constituents agree
+            with her
+            <br />
+            <br />
             <a href="http://chng.it/D9dxm2mWW4">
               Petition to stop supermarkets wasting food, bad stewardship of our
               opportunities, G-d given shit
@@ -12081,167 +12365,7 @@ export default class App extends React.Component {
             </span>
             )
           </div>
-          <div style={tweetsStyle}>
-            You should own it if for more than a year && it is implied your
-            intent isn’t to be there if you rent {">"}1mo bed/bath/ovens more
-            than 5, but to prohibit trade.
-            <br />
-            Prohibiting trade by price-inelasticity, leasing-out or scalping is
-            involuntary servitude because it takes away from the opportunity of
-            the saver to own it.
-          </div>
-          <div style={tweetsStyle}>
-            Do not say taxpayers pay for operations 12x existing money.
-            Government spending is mostly a cost upon dollar-owners
-            <br />
-            <br />
-            Insurance companies like Car Shield do not provide service or
-            purchase service, they force those who want service to pay in
-            advance to keep up with price-inelasticity & for invoices to boot.
-            That is involuntary servitude
-            <br />
-            <a href="https://wavv.art/forumtkBMXXfLklz04JVLd8sN">
-              wavv.art/forumtkBMXXfLklz04JVLd8sN
-            </a>
-            <br />
-            <a href="https://wavv.art/forumC49WDIBFRmpaO05ukNoo">
-              wavv.art/forumC49WDIBFRmpaO05ukNoo
-            </a>
-          </div>
-          <div style={tweetsStyle}>
-            monetary-inflation only happens if you allow debts to be reposessed
-            <br />
-            <br />
-            price-inelasticity inflation happens if you&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.inflation.current.scrollIntoView("smooth");
-                this.setState({ highlightInflation: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightInflation: false }),
-                  10000
-                );
-              }}
-            >
-              wait to adjunicate
-            </span>
-            &nbsp; and are malfeasant, by definition, with the intention of
-            reposession (negligent towards borrowers' customers' down-payments,
-            at that) & indentured servitude
-            <br />
-            <br />
-            The harm to savers and subjects to market-colonialism (historical
-            applications of communism are a form of tax), rather than the means
-            of production to the production (labor), is by way of the (1) use-of
-            assets by the borrower and keeping-of down payments by the lender,
-            (2) in insurance it is duress of price-inelasticity inflation, and
-            (3) in rent it is the squatting/scalping beyond a purchase with the
-            intent of using it yourself (5)
-            <br />
-            It’s illegal to enslave patients like this; we have to buy it to
-            keep up with price-inelasticity of pooling demand && paying invoices
-            which are themselves promises of other peoples money. The former is
-            just duress
-          </div>
-          <div style={tweetsStyle}>
-            biden calling for full employment scares me
-            <br />
-            <br />
-            spending is not something “in the background.” when debt is paid
-            monetary-base inflation happens but when it is banned monetary-base
-            deflation happens. but price-inelasticity inflation happens now by
-            dealing in usurped and forced promises of unrequited third party
-            share and servitude.&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.inflation.current.scrollIntoView("smooth");
-                this.setState({ highlightInflation: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightInflation: false }),
-                  10000
-                );
-              }}
-            >
-              Let prices be elastic
-            </span>
-            !
-          </div>
-          <div style={tweetsStyle}>
-            if you want to lift people out of poverty efficiently, why would you
-            dollar-split to pay for impractical promises at 12:1 by 2020
-            ($82t:$6t)
-          </div>
-          <div style={tweetsStyle}>
-            VALUATION IS NOT WEALTH AND YOU ARE TAKING ADVICE ON A
-            NEGLECTFUL-HOMOCIDAL NIH, GRAFTS CAUSE CANCER FROM B-CELL
-            DYSREGULATION YOU SHOULD MAKE YOUR OWN ANTIBODIES AND MRNA;
-            EXCLUSION CAN ONLY BE BASED ON SYMPTOMS & WITHOUT HARM TO NOT HAVE
-            FREE-RIDER OF THE EXCLUDER AND INVOLUNTARY SERVITUDE OF THE ONE
-            EXCLUDED
-          </div>
-          <div style={tweetsStyle}>
-            Hello ----, I will not harass and monopsonize the funeral
-            arrangement market without being a buyer or seller preventing
-            price-elasticity, especially when the contracts you broker aren't
-            gift certificates or tranched having to withstand counter-party risk
-            and therefore indentured servitude, on games without
-            shuffled-randomness. Best, Nick Carducci.sh
-          </div>
-          <div style={tweetsStyle}>
-            the debt will never be paid and lenders will never stop lending to
-            market-share/vault-share steward collusion. no amount of immigrants
-            will bankrupt the country, but those bonds can never become cash at
-            once . I want to live today.
-          </div>
-          <div style={tweetsStyle}>
-            A person's debt is their customers to burden unrequited, promised
-            (not used or borrowed). We work towards no ends when debt exists
-            <br />
-            you cannot build someone else's designs, and pass them off as your
-            own while they are building it. imagine if that was the case
-            <br />
-            marijuana laws are to stop dollar competition
-          </div>
-          &nbsp;
-          <div style={tweetsStyle}>
-            if we banned prohibiting price-elasticity in debt, invoices and
-            renting out more than one can use themselves prices would drop to
-            1/12 what it is now (current cash:debt ratio)
-          </div>
-          &nbsp;
-          <div style={tweetsStyle}>
-            also, ppp loans is an antitrust case, bootstrapping entrepreneurs
-            are excluded, prices are fixed Insurance abet counterfeit
-            dollar-shareholder right usurpation and force consumers to commit
-            these crimes by being unable to attain these medical services
-            without joining the pyramid scheme of crime
-          </div>
-          &nbsp;
-          <div style={tweetsStyle}>
-            The regulators have stated intent of wallstreetbets to spite short
-            sellers generally, but the intent of trading against users is
-            obvious in the way unique identifiers are not anonymized for 3
-            months like those who own {">"}5%. FINRA is malfeasant, I have been
-            notifying them for 2 years and now my Twitter is suspended
-            <br />
-            short would have to be between two individuals of the tap-out
-            dissolution-kind, if without enabling of the counterfeit voting
-            rights of the dollars
-          </div>
-          &nbsp; performance enhancing and self-medication draws its line in
-          monopsonization of medicine
+          <br />
           <div
             ref={this.whyBad}
             style={{
@@ -12290,47 +12414,8 @@ export default class App extends React.Component {
             British win in Tunisia” doesn’t help Optics for Italians Crucifixion
             was directive by Jewish and Roman leaders.
           </div>
+          <br />
           <div style={tweetsStyle}>
-            You can have opinion if the other has no proof, and then you will
-            have to cease if it is proven, which can be appealed in the future,
-            by the people. You bet.&nbsp;
-            <a href="https://academic.oup.com/jid/article/191/9/1472/862003">
-              https://academic.oup.com/jid/article/191/9/1472/862003
-            </a>
-            <div
-              style={{
-                fontWeight: "normal",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "Wet air samples: Initial testing of high-resolution slit samples
-              from a room where a patient was recovering from SARS (not on a
-              ventilator) showed 1 of 10 samples to be PCR positive for SARS-CoV
-              (table 1). All of these air samples were then concentrated
-              100-fold by ultracentrifugation and were rescreened by PCR. This
-              identified a second PCR-positive sample and confirmed the positive
-              results for the original sample. All of the PCR-positive products
-              were sequenced and confirmed to be SARS-CoV. Results of viability
-              assays of the samples for infectivity in Vero-E6 cell culture were
-              negative. During the 3 h that the air sampler was operating in the
-              room (18 min for each sample collected), the patient was not under
-              continual observation but was requested to not wear a mask, was
-              coughing periodically, walked about, and sat in the bed and in the
-              chair. The patient was also asked to stay {">"}5 feet away from
-              the air sampler and not to cough in the direction of the air
-              sampler. The air of the corridor within the critical care unit was
-              also tested and was PCR negative for SARS-CoV.&nbsp;
-            </div>
-            &nbsp;
-            <b>
-              Air samples from 2 isolation rooms in the critical care unit
-              (occupied by patients with SARS being given respiratory support on
-              ventilators) were PCR negative, as were samples from another room
-              occupied by a patient on a ventilator who did not have SARS"
-            </b>
-            <br />
             lies? hate? supreme court allows nazi to roam chicago, robbie parker
             is visibly preparing to act, and bbc world announces Solomon
             building collapses while it is there still (building 7, Ventura).
@@ -12342,103 +12427,8 @@ export default class App extends React.Component {
             promising (not borrowing or using) other people's money. No evidence
             [virus from wuhan]? Where else would it be from && have such an
             delta of impact. Deduction is evidence as much as correlative
-            statistics.. <br />
-            <br />
-            <br />
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightChina ? "white" : "",
-                backgroundColor: this.state.highlightChina
-                  ? "rgb(170,100,205)"
-                  : "",
-
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              ref={this.china}
-              onClick={() => {
-                this.brookings.current.scrollIntoView("smooth");
-                this.setState({ highlightBrookings: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBrookings: false }),
-                  10000
-                );
-              }}
-            >
-              With division you get a ratio, but to add differing variables is
-              not ok in calculus, so why do they teach that in economics? {"/*"}
-              &nbsp; ok
-            </span>
-            <br />
-            <br />
-            <span style={tweetsStyle}>
-              How many times are you going to say “stand,” Rudy, you old crypt
-              Your exec. assist or you were in the Box Office for 9/11
-            </span>
-            <br />
-            That’s a lie, dominion owns sequoia which bought and sold&nbsp;
-            <b>smartmatic</b>, who was founded by friends of Chavez and only
-            changed ownership after public outcry. People don’t sell a company
-            without payment or a deal to route proceeds.. A person's debt is
-            their customers to burden unrequited, promised (not used or
-            borrowed)  There does not need to be mandatory &nbsp;
-            <b>dollar-split</b> to prevent price-elasticity Consumer
-            Reports give me your page you do not understand this&nbsp;
+            statistics..
           </div>
-          <div style={tweetsStyle}>
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-              velocity of money (m1) is MADE UP
-            </span>
-            . gdp is all debt promises being re-promised. cancelling by this
-            corrupt congress is bailing out bonds, not actually adjudicating the
-            merits of contracts that promise other people's money and servitude.
-            If credit contracts promised corporate shares the claimant would be
-            laughed out of court. THIS IS FRAUD
-          </div>
-          <span
-            ref={this.valuation}
-            style={{
-              position: "relative",
-
-              transition: ".3s ease-in",
-
-              color: this.state.highlightValuation ? "white" : "",
-              backgroundColor: this.state.highlightValuation
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Not making mvp data access a default is evident nefarious intent
-            SEC: "[Give your unique id immediately to brokers (not just us), but
-            if you own more than {">"}5%, you can wait 3 months.]" (If trading
-            your company, at any ownership percentage, you must build and report
-            in the open or wait three months upon stopping work to trade) You
-            cannot manipulate stocks more than selling without borrowing
-            (stimulus checks are price-inelasticity fraud), <b>shorting</b> is
-            not destructive on it's own and it is not just short-selling. It is
-            borrowing (usurped share power waged in contract, moot), and retail
-            is traded against. Shortselling without borrowing wouldn't be able
-            to abdicate third-party risk from mixing the terms, it would be a
-            bicameral option to end the contract with an individual seller...
-          </span>
-          &nbsp;
-          <br />
           <br />
           You can really only certify but not bar unless there is prove-able
           harm or it is prohibitive to not do it. <br />
@@ -14053,4 +14043,3 @@ export default class App extends React.Component {
     );
   }
 }
-
