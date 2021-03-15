@@ -32,7 +32,7 @@ class Index extends React.Component {
       const scrollPlacementHeight = Math.round(
         (innerHeight - 115) * (scrollTop / scrollHeight)
       );
-      const top = scrollTop === innerHeight;
+      const top = scrollTop === 0;
       this.setState(
         {
           openMenu: top ? false : this.state.openMenu,
@@ -107,19 +107,50 @@ class Index extends React.Component {
           <div
             onClick={() => this.setState({ openMenu: !this.state.openMenu })}
             style={{
-              textAlign: "center",
+              display: "flex",
+              flexDirection: "column",
+              alignItems:
+                this.state.inSection !== "story" && this.state.openMenu
+                  ? "flex-start"
+                  : "center",
               width: "min-content",
               zIndex: "1",
               color: "white",
               fontSize: "9px",
               position: "fixed",
               padding: "4px 10px",
+              height:
+                this.state.inSection !== "story" && this.state.openMenu
+                  ? "min-content"
+                  : "130px",
               right: "0px",
               top: "0px",
               backgroundColor: "rgb(5,5,5)"
             }}
           >
-            <span style={{ display: "flex" }}>EXPLICIT</span>
+            <span
+              style={{
+                textAlign: "center",
+                height: "min-content",
+                display: "flex",
+                width: this.state.openMenu ? "" : "min-content",
+                transition: ".3s ease-out"
+              }}
+            >
+              EXPLICIT
+            </span>
+            <span
+              aria-label="skull & bones"
+              role="img"
+              style={{
+                padding: "4px",
+                display: this.state.openMenu ? "none" : "flex",
+                opacity: this.state.top ? 0 : 1,
+                transition: ".3s ease-out"
+              }}
+            >
+              ☠️
+            </span>
             {[
               "Rentier-Colonialism",
               "Abuse of Power",
@@ -145,30 +176,43 @@ class Index extends React.Component {
               <div
                 key={x}
                 style={{
+                  position: "relative",
                   color:
                     this.state.inSection === x ? "rgb(255,250,235)" : "grey",
-                  width: "max-content",
-                  fontSize: this.state.openMenu
-                    ? this.state.inSection === x
-                      ? "20px"
-                      : ""
-                    : "0px",
-                  opacity: this.state.openMenu ? 1 : 0,
+                  opacity:
+                    this.state.inSection !== "story" && this.state.openMenu
+                      ? 1
+                      : 0,
                   transition: ".3s ease-in",
                   margin: "2px"
                 }}
               >
-                {x !== "close"
-                  ? x
-                  : this.state.inSection !== "story" && (
-                      <span
-                        style={{
-                          fontSize: "20px"
-                        }}
-                      >
-                        &times;
-                      </span>
-                    )}
+                {x !== "close" ? (
+                  <span
+                    style={{
+                      display: "flex",
+                      position: "relative",
+                      width: "max-content",
+                      transition: ".3s ease-in",
+                      fontSize:
+                        this.state.inSection !== "story" && this.state.openMenu
+                          ? this.state.inSection === x
+                            ? "20px"
+                            : "12px"
+                          : "0px"
+                    }}
+                  >
+                    {x}
+                  </span>
+                ) : (
+                  <span
+                    style={{
+                      fontSize: "20px"
+                    }}
+                  >
+                    &times;
+                  </span>
+                )}
               </div>
             ))}
           </div>
