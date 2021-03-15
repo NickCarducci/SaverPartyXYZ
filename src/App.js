@@ -75,7 +75,6 @@ export default class App extends React.Component {
     this.royalty = React.createRef();
     this.cease = React.createRef();
     this.desist = React.createRef();
-    this.flop = React.createRef();
     this.valuation = React.createRef();
     this.politics = React.createRef();
     this.cityhall = React.createRef();
@@ -2796,7 +2795,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.flop.current.scrollIntoView("smooth");
+              this.POLLINGFRAUD.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -3143,8 +3142,18 @@ export default class App extends React.Component {
           ref={this.POLLINGFRAUD}
         >
           <PollingFraud
+          electionTech={() => {
+            this.electionTech.current.scrollIntoView("smooth");
+            this.setState({ highlightElectionTech: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightElectionTech: false }),
+              10000
+            );
+          }}
             flop={() => {
-              this.flop.current.scrollIntoView("smooth");
+              this.POLLINGFRAUD.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -4036,7 +4045,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.flop.current.scrollIntoView("smooth");
+              this.POLLINGFRAUD.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -4408,7 +4417,7 @@ export default class App extends React.Component {
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
-              this.flop.current.scrollIntoView("smooth");
+              this.POLLINGFRAUD.current.scrollIntoView("smooth");
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -7605,7 +7614,7 @@ export default class App extends React.Component {
                   textDecoration: "underline"
                 }}
                 onClick={() => {
-                  this.flop.current.scrollIntoView("smooth");
+                  this.POLLINGFRAUD.current.scrollIntoView("smooth");
                   this.setState({ highlightFlop: true });
 
                   clearTimeout(this.highlighting);
@@ -10048,7 +10057,7 @@ export default class App extends React.Component {
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
-                this.flop.current.scrollIntoView("smooth");
+                this.POLLINGFRAUD.current.scrollIntoView("smooth");
                 this.setState({ highlightFlop: true });
 
                 clearTimeout(this.highlighting);
@@ -12338,66 +12347,6 @@ export default class App extends React.Component {
             [virus from wuhan]? Where else would it be from && have such an
             delta of impact. Deduction is evidence as much as correlative
             statistics.. <br />
-            <span /*
-              onClick={() => {
-                this.desist.current.scrollIntoView("smooth");
-                this.setState({ highlightDesist: true });
-                
-              clearTimeout(this.highlighting)
-             this.highlighting =setTimeout(
-                  () => this.setState({ highlightDesist: false }),
-                  10000
-                );
-              }}*/
-              style={{
-                fontWeight: "normal",
-
-                transition: ".3s ease-in",
-
-                color: this.state.highlightFlop ? "white" : "",
-                backgroundColor: this.state.highlightFlop
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.flop}
-            >
-              Haha fair and square? Voter harvesting is sample bias.
-              Calling&nbsp;
-              <b>elections</b>&nbsp;dissuade/supress voters, projecting is
-              especially irrelevant if&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.electionTech.current.scrollIntoView("smooth");
-                  this.setState({ highlightElectionTech: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightElectionTech: false }),
-                    10000
-                  );
-                }}
-              >
-                unshuffled, and Dominion
-              </span>
-              &nbsp;has a&nbsp;
-              <a href="https://maloney.house.gov/media-center/press-releases/smartmatic-announces-sale-sequoia-voting-systems">
-                history of dealing with
-              </a>
-              &nbsp;companies that have rigged Venezuelan elections, and there
-              is video of secret counting, 1000s of witnesses to fraud, more
-              than witnesses to crossing the Antarctic I’m&nbsp;
-              <a href="https://vaults.biz">banned from twitter</a> for calling
-              jack a fully-capable, self-harmer for dropping my impressions
-              100-0 when I was complaining about calling an election of
-              unshuffled, mutually-exclusive events, on Election Day!
-            </span>
-            Statistical Sin of the Holyest. State-issued GovID application
-            programming interface should be provided by the government (with
-            convict record for e2e encryption or not thumbprint.us/privacy), as
-            should they provide a billfeed by api by staleness. The video
-            debunking it says dominion doesn’t own smartmatic, “or anything like
-            that.”
             <br />
             <br />
             <span
