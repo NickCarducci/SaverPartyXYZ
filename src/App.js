@@ -327,34 +327,28 @@ export default class App extends React.Component {
       const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
       if (this.props.scrollTop > RentOffsetTop) {
         const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
-        if (
-          this.props.scrollTop < RentOffsetTop ||
-          this.props.scrollTop < RentHeight + RentOffsetTop
-        ) {
+        if (this.props.scrollTop < RentHeight + RentOffsetTop) {
           this.props.inSection("Rentier-Colonialism");
         } else {
           const abuseOfPowerOffsetTop = this.ABUSEOFPOWER.current.offsetTop;
           const abuseOfPowerHeight = this.ABUSEOFPOWER.current.offsetHeight;
           if (
-            this.props.scrollTop < abuseOfPowerOffsetTop ||
-            this.props.scrollTop < abuseOfPowerHeight + abuseOfPowerOffsetTop
+            this.props.scrollTop <
+            abuseOfPowerHeight + abuseOfPowerOffsetTop
           ) {
             this.props.inSection("Abuse of Power");
           } else {
             const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
             const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
             if (
-              this.props.scrollTop < warOnPovertyOffsetTop ||
-              this.props.scrollTop < warOnPovertyHeight + warOnPovertyOffsetTop
+              this.props.scrollTop <
+              warOnPovertyHeight + warOnPovertyOffsetTop
             ) {
               this.props.inSection("War on Poverty");
             } else {
               const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
               const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
-              if (
-                this.props.scrollTop < gunSafetyOffsetTop ||
-                this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop
-              ) {
+              if (this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop) {
                 this.props.inSection("Gun Safety");
               } else {
                 const pollingFraudHeight = this.POLLINGFRAUD.current
@@ -555,20 +549,15 @@ export default class App extends React.Component {
       width: "calc(100% - 42px)",
       maxWidth: "600px"
     };
-    var leftNot = (this.props.landedPresentation || this.props.top) &&!this.props.scrolling
+    var leftNot =
+      (this.props.landedPresentation || this.props.top) &&
+      !this.props.scrolling;
     return (
       <div
         style={{
-          transform: `translateX(${
-            leftNot ? "40px" : "0px"
-          })`,
-          transition: `${
-            leftNot ? ".3" : ".7"
-          }s ease-in-out`,
-          color:
-          leftNot
-              ? "rgb(135,170,205)"
-              : "rgb(60,70,85)",
+          transform: `translateX(${leftNot ? "40px" : "0px"})`,
+          transition: `${leftNot ? ".3" : ".7"}s ease-in-out`,
+          color: leftNot ? "rgb(135,170,205)" : "rgb(60,70,85)",
           display: "block",
           margin: "7px",
           position: "relative",
@@ -620,6 +609,20 @@ export default class App extends React.Component {
           }}
           ref={this.RENTIERCOLONIALISM}
         >
+          Union collusion & duress strike of labors' time, is fine to corner by
+          antitrust intent, but supply or assets on the other hand must compete
+          by winning favor of price-taking consumers to have, settled, of their
+          own to resell after use, not own with intent to scalp or rent instead
+          of use
+          <br />
+          Collusion to instill duress by the union heads are much like
+          corporate, central-planners, lenders and rentier-colonists
+          <br />
+          <br />
+          Price-inelasticity inflation is 4100%, Monetary-inflation (minus
+          housing) is 102%.
+          <br />
+          <br />
           Here is Schumer, laundering a split of my bartending dollar-equity to
           a borrowers' lenders
           <br />
@@ -863,8 +866,8 @@ export default class App extends React.Component {
           <br />
           <br />
           {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
-        <br/>
-        <br/>*/}
+            <br/>
+            <br/>*/}
           Inflation is the degradation of your depositary
           <br />
           <br />
@@ -882,20 +885,6 @@ export default class App extends React.Component {
           fact in getting on the Globe Power Hour to mislead constituents in
           securities fraud. The debt service is not the problem, it is the
           counterfeit-in-contract price-inelasticity inflation.
-          <br />
-          <br />
-          Union collusion & duress strike of labors' time, is fine to corner by
-          antitrust intent, but supply or assets on the other hand must compete
-          by winning favor of price-taking consumers to have, settled, of their
-          own to resell after use, not own with intent to scalp or rent instead
-          of use
-          <br />
-          Collusion to instill duress by the union heads are much like
-          corporate, central-planners, lenders and rentier-colonists
-          <br />
-          <br />
-          Price-inelasticity inflation is 4100%, Monetary-inflation (minus
-          housing) is 102%.
         </div>
         <br />
         <div
@@ -10205,57 +10194,57 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
-        Mortgages are illegal, you cannot promise somebody else's
-        money&nbsp;
-        <br />
-        <br />
-        CHINA DOESN'T ONLY EAT OUR LUNCH THEY OWN US, all bond holders are
-        our&nbsp;<a href="https://nationalsecuritycasino.com">enemies</a>&nbsp;not our competitors
-        <br />
-        <br />
-        <div
-          ref={this.jan2018}
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-
-            width: "calc(100% - 20px)",
-            maxWidth: "600px",
-            color: this.state.highlightJan2018 ? "white" : "grey",
-            backgroundColor: this.state.highlightJan2018
-              ? "rgb(50,100,255)"
-              : ""
-          }}
-        >
-          I was shorting the car market, expecting all this inventory to flood
-          the market after I ban debt. I took out a cash advance, bought my
-          car lien out ($10k) and my business credit out ($3k) and the
-          remaining $20k I had ($5k of my own)... won lost won lost. I need
-          the car but do not want to pay for torts in advance and for others.
-          Just pay for your new item and jail intentful and neglectful
-          behavior. I also just don’t want to not follow through with my plan
-          to roll out the crash with a $6k Ferrari
+          Mortgages are illegal, you cannot promise somebody else's money&nbsp;
           <br />
-        </div>
-        <div
-          style={{
-            fontFamily: '"Hi Melody", sans-serif',
-            color: "grey",
-
-            width: "calc(100% - 20px)",
-            maxWidth: "600px"
-          }}
-        >
-          Legally, bonds go to zero because they are counterfeit against
-          actual dollar owners
           <br />
-          you cannot tell me you’re allowed to promise my money to your lender
-        </div>
-        <br />
-        <br />
-        the implication of the language "terms" vs "agreement" is explicit by
-        itself, yet bankruptcy prosecutors lay blame on the acquiescing party,
-        under duress and involuntarily serving/trade.
-        <br />
+          CHINA DOESN'T ONLY EAT OUR LUNCH THEY OWN US, all bond holders are
+          our&nbsp;<a href="https://nationalsecuritycasino.com">enemies</a>
+          &nbsp;not our competitors
+          <br />
+          <br />
+          <div
+            ref={this.jan2018}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightJan2018 ? "white" : "grey",
+              backgroundColor: this.state.highlightJan2018
+                ? "rgb(50,100,255)"
+                : ""
+            }}
+          >
+            I was shorting the car market, expecting all this inventory to flood
+            the market after I ban debt. I took out a cash advance, bought my
+            car lien out ($10k) and my business credit out ($3k) and the
+            remaining $20k I had ($5k of my own)... won lost won lost. I need
+            the car but do not want to pay for torts in advance and for others.
+            Just pay for your new item and jail intentful and neglectful
+            behavior. I also just don’t want to not follow through with my plan
+            to roll out the crash with a $6k Ferrari
+            <br />
+          </div>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Legally, bonds go to zero because they are counterfeit against
+            actual dollar owners
+            <br />
+            you cannot tell me you’re allowed to promise my money to your lender
+          </div>
+          <br />
+          <br />
+          the implication of the language "terms" vs "agreement" is explicit by
+          itself, yet bankruptcy prosecutors lay blame on the acquiescing party,
+          under duress and involuntarily serving/trade.
+          <br />
           <span
             ref={this.Oooreily}
             style={{
