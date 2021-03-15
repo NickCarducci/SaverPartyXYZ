@@ -613,202 +613,208 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        <a href="https://moldmask.co">epidemiology</a>&nbsp;liability is on you for leaving the house, especially when the evidence is positive for cold as well.
-        <br/>
-        <br/>
-        Biden&nbsp;
-        <a href="https://www.investopedia.com/terms/t/treasurystock.asp">
-          lies
-        </a>
-        &nbsp;and says the&nbsp;
-        <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
-          price-inelasticity inflation
-        </a>
-        &nbsp;will lower prices again. ban invoices instead retard. it will cut
-        poverty in half for a day but wall street is pricing their accounts to
-        double that amount (for that transation alone in a&nbsp;<a href="https://micro-theory.com">microcosm</a>!
-        <br />
-        <br />
-        "No more than 2% waste or fraud" from his paid oversight board, that is,
-        only spent on&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.trueGDP.current.scrollIntoView("smooth");
-            this.setState({ highlightTrueGDP: true });
-
-            clearTimeout(this.highlighting);
-            this.highlighting = setTimeout(
-              () => this.setState({ highlightTrueGDP: false }),
-              10000
-            );
-          }}
-        >
-          promises
-        </span>
-        &nbsp;to&nbsp;
-        <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
-          creditors
-        </a>
-        &nbsp;and&nbsp;
-        <a href="https://www.zippia.com/landlord-jobs/demographics/">
-          landlords
-        </a>
-        &nbsp;they made for themselves or build without the intent to use or
-        sell in an actual trade, a settled one. Directly where the American
-        people are and where it belongs" only 9% goes to people or unemploymenty
-        insurance fraud, price fixing.&nbsp;
-        <a href="https://www.nature.com/articles/s41598-020-73777-8">
-          The DEATHS ARE NORMAL
-        </a>
-        . YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
-        <br />
-        <br />
-        The&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.beast.current.scrollIntoView("smooth");
-            this.setState({ highlightBeast: true });
-
-            clearTimeout(this.highlighting);
-            this.highlighting = setTimeout(
-              () => this.setState({ highlightBeast: false }),
-              10000
-            );
-          }}
-        >
-          O.K.
-        </span>
-        &nbsp;symbol is&nbsp;<a href="https://humanharvest.info">666</a>, not
-        chalk-colored people, CNN you cunt
-        <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
-        <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not our
-        culture for white people to be called colored?" he 'sponds. You are
-        a&nbsp;
-        <a href="https://en.wikipedia.org/wiki/Cigarette">fag</a>
-        <br />
-        Why do you have to get a lawyer to have jurisprudence. Don’t judges know
-        the law? What is this&nbsp;
-        <a href="https://www.youtube.com/watch?v=th0Im-eJFx0">Judge Judy</a>?
-        <br />
-        <br />I guarantee all stress, depression and suicide is caused by
-        finance/rentier-colonialism/
-        <a href="https://wavv.art/United_States_of_America">back</a>-
-        <a href="https://vaults.biz">taxes</a>
-        /insurance-pooling-duress/borrowing-duress and&nbsp;
-        <a href="https://foiegras.info">loss and infrastructure inflation</a>
-        <br />
-        <br />
-        <span
-          style={{
-            fontWeight: "bolder",
-            textDecoration: "underline"
-          }}
-          onClick={() => {
-            this.cityhall.current.scrollIntoView("smooth");
-            this.setState({ highlightCityHall: true });
-
-            clearTimeout(this.highlighting);
-            this.highlighting = setTimeout(
-              () => this.setState({ highlightCityHall: false }),
-              10000
-            );
-          }}
-        >
-          The American People is not the Senate
-        </span>
-        <br />
-        <br />
-        <br />
-        <br />
-        Andrew Cuomo is&nbsp;
-        <a href="https://igpa.uillinois.edu/programs/racial-attitudes">
-          retarded
-        </a>
-        &nbsp;(self-harmer) or intentionally misleading saying you lose money in
-        opportunity. opportunity lost (not property fraud), is not a loss you
-        can deduct you corrupt nipple-ringed fuck
-        <br />
-        <br />
-        Trump plays with emotions of media ["people" -&nbsp;
-        <a href="https://lexfridman.com/">L. Fridman</a>]
-        <br />
-        <br />
-        Keep name out of mouth. but you did it Hulk Hogan! Photo regardles of
-        pay is copyright unless violent (property) crime
-        <br />
-        <br />
-        Journalists are just like communist/insurance/non-socialist propoganda
-        arm. they get their itinerary from a central source
-        <br />
-        <br />
-        <a href="https://en.wikipedia.org/wiki/Marc_Molinaro">
-          Mark malinaro (Pube)
-        </a>
-        , "if federal government is [illegally] printing [not their] money,
-        leverage it to open." Just open you bum, you don’t deserve or need
-        (financial/back-rent/back-tax/invoice) promise bail-out to do that.
-        Abjectly another fraud (if I had money for court fees I would make sure
-        you pay for damages to public intelligence, you're harming kids spewing
-        these lies. There is no resource for truth except me, here!).
-        <br />
-        <br />
-        Biden says the Bill increases supply; it actually increases demand and
-        price
-        <br />
-        <br />
-        People say they care about poverty but don’t want people to keep what
-        they earn or earn by keeping other consumers negative worth instead of
-        working for their favor
-        <br />
-        <br />
-        <a href="https://en.wikipedia.org/wiki/Pamela_Brown_(journalist)">
-          CNN
-        </a>
-        &nbsp;are you taking about me? "This doesn't work and needs to change,"
-        about NY DOH order to not block people with symptoms? The order said
-        block any positive PCR test, but those become positive for cold as
-        well...
-        <br />
-        <br />I have awaited funding for&nbsp;
-        <span
-          style={{ fontWeight: "bolder", textDecoration: "underline" }}
-          onClick={() => {
-            this.baltimore.current.scrollIntoView("smooth");
-            this.setState({ highlightBaltimore: true });
-
-            clearTimeout(this.highlighting);
-            this.highlighting = setTimeout(
-              () => this.setState({ highlightBaltimore: false }),
-              10000
-            );
-          }}
-        >
-          non-dilutive funding 9 years
-        </span>
-        &nbsp;don't take thumbprint.us from me now that I am almost finished you
-        pathetic peice of shit. It is YOUR fault for not helping sooner, and I
-        am not selling to nationalist- or indebted-government, or people unless
-        the bylaws is owned by no person or corporation. For now, however, it is
-        a sole proprietorship for me and my family with some&nbsp;
-        <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
-        <br />
-        <br />
-        Try to keep up without cheating bitch... she won't stop saying, "weigh
-        in" for providing opinion I haven't rolled my eyes harder in my life
-        <br />
-        <br />
-        {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
-        <br/>
-        <br/>*/}
-        Inflation is the degradation of your depositary
         <div
           style={{
             width: "100%"
           }}
           ref={this.RENTIERCOLONIALISM}
         >
+          <a href="https://moldmask.co">epidemiology</a>&nbsp;liability is on
+          you for leaving the house, especially when the evidence is positive
+          for cold as well.
+          <br />
+          <br />
+          Biden&nbsp;
+          <a href="https://www.investopedia.com/terms/t/treasurystock.asp">
+            lies
+          </a>
+          &nbsp;and says the&nbsp;
+          <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
+            price-inelasticity inflation
+          </a>
+          &nbsp;will lower prices again. ban invoices instead retard. it will
+          cut poverty in half for a day but wall street is pricing their
+          accounts to double that amount (for that transation alone in a&nbsp;
+          <a href="https://micro-theory.com">microcosm</a>!
+          <br />
+          <br />
+          "No more than 2% waste or fraud" from his paid oversight board, that
+          is, only spent on&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            promises
+          </span>
+          &nbsp;to&nbsp;
+          <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
+            creditors
+          </a>
+          &nbsp;and&nbsp;
+          <a href="https://www.zippia.com/landlord-jobs/demographics/">
+            landlords
+          </a>
+          &nbsp;they made for themselves or build without the intent to use or
+          sell in an actual trade, a settled one. Directly where the American
+          people are and where it belongs" only 9% goes to people or
+          unemploymenty insurance fraud, price fixing.&nbsp;
+          <a href="https://www.nature.com/articles/s41598-020-73777-8">
+            The DEATHS ARE NORMAL
+          </a>
+          . YOU ARE THE FRAUD YOU FUCKING &nbsp;GHOST
+          <br />
+          <br />
+          The&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.beast.current.scrollIntoView("smooth");
+              this.setState({ highlightBeast: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBeast: false }),
+                10000
+              );
+            }}
+          >
+            O.K.
+          </span>
+          &nbsp;symbol is&nbsp;<a href="https://humanharvest.info">666</a>, not
+          chalk-colored people, CNN you cunt
+          <br />I don't have 20 hands Greg Kelly - who is the weird&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Black">color</a>? "it is not
+          our culture for white people to be called colored?" he 'sponds. You
+          are a&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Cigarette">fag</a>
+          <br />
+          Why do you have to get a lawyer to have jurisprudence. Don’t judges
+          know the law? What is this&nbsp;
+          <a href="https://www.youtube.com/watch?v=th0Im-eJFx0">Judge Judy</a>?
+          <br />
+          <br />I guarantee all stress, depression and suicide is caused by
+          finance/rentier-colonialism/
+          <a href="https://wavv.art/United_States_of_America">back</a>-
+          <a href="https://vaults.biz">taxes</a>
+          /insurance-pooling-duress/borrowing-duress and&nbsp;
+          <a href="https://foiegras.info">loss and infrastructure inflation</a>
+          <br />
+          <br />
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.cityhall.current.scrollIntoView("smooth");
+              this.setState({ highlightCityHall: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCityHall: false }),
+                10000
+              );
+            }}
+          >
+            The American People is not the Senate
+          </span>
+          <br />
+          <br />
+          <br />
+          <br />
+          Andrew Cuomo is&nbsp;
+          <a href="https://igpa.uillinois.edu/programs/racial-attitudes">
+            retarded
+          </a>
+          &nbsp;(self-harmer) or intentionally misleading saying you lose money
+          in opportunity. opportunity lost (not property fraud), is not a loss
+          you can deduct you corrupt nipple-ringed fuck
+          <br />
+          <br />
+          Trump plays with emotions of media ["people" -&nbsp;
+          <a href="https://lexfridman.com/">L. Fridman</a>]
+          <br />
+          <br />
+          Keep name out of mouth. but you did it Hulk Hogan! Photo regardles of
+          pay is copyright unless violent (property) crime
+          <br />
+          <br />
+          Journalists are just like communist/insurance/non-socialist propoganda
+          arm. they get their itinerary from a central source
+          <br />
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Marc_Molinaro">
+            Mark malinaro (Pube)
+          </a>
+          , "if federal government is [illegally] printing [not their] money,
+          leverage it to open." Just open you bum, you don’t deserve or need
+          (financial/back-rent/back-tax/invoice) promise bail-out to do that.
+          Abjectly another fraud (if I had money for court fees I would make
+          sure you pay for damages to public intelligence, you're harming kids
+          spewing these lies. There is no resource for truth except me, here!).
+          <br />
+          <br />
+          Biden says the Bill increases supply; it actually increases demand and
+          price
+          <br />
+          <br />
+          People say they care about poverty but don’t want people to keep what
+          they earn or earn by keeping other consumers negative worth instead of
+          working for their favor
+          <br />
+          <br />
+          <a href="https://en.wikipedia.org/wiki/Pamela_Brown_(journalist)">
+            CNN
+          </a>
+          &nbsp;are you taking about me? "This doesn't work and needs to
+          change," about NY DOH order to not block people with symptoms? The
+          order said block any positive PCR test, but those become positive for
+          cold as well...
+          <br />
+          <br />I have awaited funding for&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.baltimore.current.scrollIntoView("smooth");
+              this.setState({ highlightBaltimore: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBaltimore: false }),
+                10000
+              );
+            }}
+          >
+            non-dilutive funding 9 years
+          </span>
+          &nbsp;don't take thumbprint.us from me now that I am almost finished
+          you pathetic peice of shit. It is YOUR fault for not helping sooner,
+          and I am not selling to nationalist- or indebted-government, or people
+          unless the bylaws is owned by no person or corporation. For now,
+          however, it is a sole proprietorship for me and my family with
+          some&nbsp;
+          <a href="https://vaults.biz">royalty contract w/ max-profit I have</a>
+          <br />
+          <br />
+          Try to keep up without cheating bitch... she won't stop saying, "weigh
+          in" for providing opinion I haven't rolled my eyes harder in my life
+          <br />
+          <br />
+          {/*Laughter is a G-d given gift to build empathy with people... it is when you do not understand, to build comity to solve a misunderstood problem.
+        <br/>
+        <br/>*/}
+          Inflation is the degradation of your depositary
+          <br />
+          <br />
           <a href="https://zippia.com/landlord-jobs/demographics/">
             Rentier-Colonialism
           </a>
@@ -14050,4 +14056,3 @@ export default class App extends React.Component {
     );
   }
 }
-
