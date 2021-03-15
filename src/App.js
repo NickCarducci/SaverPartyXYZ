@@ -46,6 +46,7 @@ export default class App extends React.Component {
     this.NULLHYPOTHESIS = React.createRef();
     this.SECURITIESFRAUD = React.createRef();
     this.SYSTEMICINEQUALITY = React.createRef();
+    this.MISSION = React.createRef();
     this.EARLYCOMMS = React.createRef();
     this.defense = React.createRef();
     this.navbar = React.createRef();
@@ -355,9 +356,8 @@ export default class App extends React.Component {
                 const pollingFraudOffsetTop = this.POLLINGFRAUD.current
                   .offsetTop;
                 if (
-                  this.props.scrollTop < pollingFraudOffsetTop ||
                   this.props.scrollTop <
-                    pollingFraudHeight + pollingFraudOffsetTop
+                  pollingFraudHeight + pollingFraudOffsetTop
                 ) {
                   this.props.inSection("Polling Fraud");
                 } else {
@@ -366,9 +366,8 @@ export default class App extends React.Component {
                   const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
                     .current.offsetTop;
                   if (
-                    this.props.scrollTop < falseAdvertInHouseOffsetTop ||
                     this.props.scrollTop <
-                      falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
+                    falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
                   ) {
                     this.props.inSection("False Advert in House");
                   } else {
@@ -377,9 +376,8 @@ export default class App extends React.Component {
                     const immigrationOffsetTop = this.IMMIGRATION.current
                       .offsetTop;
                     if (
-                      this.props.scrollTop < immigrationOffsetTop ||
                       this.props.scrollTop <
-                        immigrationHeight + immigrationOffsetTop
+                      immigrationHeight + immigrationOffsetTop
                     ) {
                       this.props.inSection("Immigration");
                     } else {
@@ -388,9 +386,8 @@ export default class App extends React.Component {
                       const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD
                         .current.offsetTop;
                       if (
-                        this.props.scrollTop < ownershipFraudOffsetTop ||
                         this.props.scrollTop <
-                          ownershipFraudHeight + ownershipFraudOffsetTop
+                        ownershipFraudHeight + ownershipFraudOffsetTop
                       ) {
                         this.props.inSection("Ownership Fraud");
                       } else {
@@ -399,10 +396,9 @@ export default class App extends React.Component {
                         const falseAdvertInSenateOffsetTop = this
                           .FALSEADVERTINSENATE.current.offsetTop;
                         if (
-                          this.props.scrollTop < falseAdvertInSenateOffsetTop ||
                           this.props.scrollTop <
-                            falseAdvertInSenateHeight +
-                              falseAdvertInSenateOffsetTop
+                          falseAdvertInSenateHeight +
+                            falseAdvertInSenateOffsetTop
                         ) {
                           this.props.inSection("False Advert in Senate");
                         } else {
@@ -411,18 +407,16 @@ export default class App extends React.Component {
                           const insuranceFraudOffsetTop = this.INSURANCEFRAUD
                             .current.offsetTop;
                           if (
-                            this.props.scrollTop < insuranceFraudOffsetTop ||
                             this.props.scrollTop <
-                              insuranceFraudHeight + insuranceFraudOffsetTop
+                            insuranceFraudHeight + insuranceFraudOffsetTop
                           ) {
                             this.props.inSection("Insurance Fraud");
                           } else {
                             const virusHeight = this.VIRUS.current.offsetHeight;
                             const virusOffsetTop = this.VIRUS.current.offsetTop;
                             if (
-                              this.props.scrollTop < virusOffsetTop ||
                               this.props.scrollTop <
-                                virusHeight + virusOffsetTop
+                              virusHeight + virusOffsetTop
                             ) {
                               this.props.inSection("Virus");
                             } else {
@@ -431,9 +425,8 @@ export default class App extends React.Component {
                               const monopolyOffsetTop = this.MONOPOLY.current
                                 .offsetTop;
                               if (
-                                this.props.scrollTop < monopolyOffsetTop ||
                                 this.props.scrollTop <
-                                  monopolyHeight + monopolyOffsetTop
+                                monopolyHeight + monopolyOffsetTop
                               ) {
                                 this.props.inSection("Monopoly");
                               } else {
@@ -442,9 +435,8 @@ export default class App extends React.Component {
                                 const educationOffsetTop = this.EDUCATION
                                   .current.offsetTop;
                                 if (
-                                  this.props.scrollTop < educationOffsetTop ||
                                   this.props.scrollTop <
-                                    educationHeight + educationOffsetTop
+                                  educationHeight + educationOffsetTop
                                 ) {
                                   this.props.inSection("Education");
                                 } else {
@@ -454,10 +446,8 @@ export default class App extends React.Component {
                                     .NULLHYPOTHESIS.current.offsetTop;
                                   if (
                                     this.props.scrollTop <
-                                      nullHypothesisOffsetTop ||
-                                    this.props.scrollTop <
-                                      nullHypothesisHeight +
-                                        nullHypothesisOffsetTop
+                                    nullHypothesisHeight +
+                                      nullHypothesisOffsetTop
                                   ) {
                                     this.props.inSection("Null Hypothesis");
                                   } else {
@@ -467,10 +457,8 @@ export default class App extends React.Component {
                                       .SECURITIESFRAUD.current.offsetTop;
                                     if (
                                       this.props.scrollTop <
-                                        securitiesFraudOffsetTop ||
-                                      this.props.scrollTop <
-                                        securitiesFraudHeight +
-                                          securitiesFraudOffsetTop
+                                      securitiesFraudHeight +
+                                        securitiesFraudOffsetTop
                                     ) {
                                       this.props.inSection("Securities Fraud");
                                     } else {
@@ -481,28 +469,35 @@ export default class App extends React.Component {
                                         .SYSTEMICINEQUALITY.current.offsetTop;
                                       if (
                                         this.props.scrollTop <
-                                          systematicInequalityOffsetTop ||
-                                        this.props.scrollTop <
-                                          systematicInequalityHeight +
-                                            systematicInequalityOffsetTop
+                                        systematicInequalityHeight +
+                                          systematicInequalityOffsetTop
                                       ) {
                                         this.props.inSection(
                                           "Systemic Inequality"
                                         );
                                       } else {
-                                        const earlyCommsHeight = this.EARLYCOMMS
+                                        const missionHeight = this.MISSION
                                           .current.offsetHeight;
-                                        const earlyCommsOffsetTop = this
-                                          .EARLYCOMMS.current.offsetTop;
+                                        const missionOffsetTop = this.MISSION
+                                          .current.offsetTop;
                                         if (
                                           this.props.scrollTop <
-                                            earlyCommsOffsetTop ||
-                                          this.props.scrollTop <
+                                          missionHeight + missionOffsetTop
+                                        ) {
+                                          this.props.inSection("Mission");
+                                        } else {
+                                          const earlyCommsHeight = this
+                                            .EARLYCOMMS.current.offsetHeight;
+                                          const earlyCommsOffsetTop = this
+                                            .EARLYCOMMS.current.offsetTop;
+                                          if (
+                                            this.props.scrollTop <
                                             earlyCommsHeight +
                                               earlyCommsOffsetTop
-                                        ) {
-                                          this.props.inSection("Early Comms");
-                                        } else this.props.inSection("story");
+                                          ) {
+                                            this.props.inSection("Early Comms");
+                                          } else this.props.inSection("story");
+                                        }
                                       }
                                     }
                                   }
@@ -10540,6 +10535,36 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          splitting dollars of entrepreneurs and labor without consent for those
+          who lost there jobs and businesses who lost income is
+          anti-competitive&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance
+          </span>
+          &nbsp;fraud, regardless if the late population stats are abnormal
+          (they aren't)
+          <br />
+          <br />
+          landlord, lender and invoicer get the money right? That’s what the
+          money is for - to bail them out
+          <br />
+          <br />
+          a court would laugh a prosecutor out the room and demand that down
+          payments be repaired for borrower's customers if it were corporate
+          shares instead of dollars during reposession. current debt:cash is
+          13:1. it is counterfeit in the contract
           <br />
           <div style={tweetsStyle}>
             if you want to lift people out of poverty efficiently, why would you
@@ -11349,10 +11374,12 @@ export default class App extends React.Component {
           <span>
             Doubt about Racketeering
             <br />
-            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage&nbsp;
+            Fauci says take ANY Vaccine, even J&Johnson 1985 vintage
+            <br />
             <a href="https://www.youtube.com/watch?v=pZsDzeJh4nU">
               organ-harvest/culture
             </a>
+            <br />
             <iframe
               title="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
               src="https://www.youtube.com/embed/pZsDzeJh4nU?start=34"
@@ -11371,6 +11398,8 @@ export default class App extends React.Component {
               I am sure
             </i>
           </span>
+          <br />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -11404,11 +11433,14 @@ export default class App extends React.Component {
             (you do not need stated intent to prosecute this number/accounting
             based conclusion)
             <br />
+            <br />
             "On balance, good thing or bad thing?"
             <br />
             Prohibiting price-inelasticity
             <br />
-            David Turk
+            "Good," smiles&nbsp;
+            <a href="https://en.wikipedia.org/wiki/David_Turk">David Turk</a>
+            <br />
             <br />
             "The analysis revealed that NETL injected a total of $202 million
             directly into those states' economies in 2017. ... It was determined
@@ -11448,52 +11480,40 @@ export default class App extends React.Component {
               </a>
             </span>
           </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
+          <br />
+          <br />
+          "In a free market the government does not sanction corporations,
+          therefore there are no corporations in a free market."
+          <br />
+          <br />
+          Existing within a market/vault/currency stewardship purveying
+          corporations/debt instead of royalty-contract w/max/profit vaults.biz
+          <br />
+          <br />
+          <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
+            SEC
+          </a>
+          &nbsp;allows you to go public but you pay a Double-Tax on Income
+          (threatened-upon us by not price-prisoners’ dilemma duress pooling but
+          literal&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.IRS.current.scrollIntoView("smooth");
+              this.setState({ highlightIRS: true });
 
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightIRS: false }),
+                10000
+              );
             }}
           >
-            <div
-              style={{
-                fontFamily: '"Hi Melody", sans-serif',
-                color: "grey",
-
-                width: "calc(100% - 20px)",
-                maxWidth: "600px"
-              }}
-            >
-              "In a free market the government does not sanction corporations,
-              therefore there are no corporations in a free market."
-            </div>
-            Existing within a market/vault/currency stewardship purveying
-            corporations/debt instead of royalty-contract w/max/profit
-            vaults.biz&nbsp;
-            <a href="https://www.sec.gov/fast-answers/divisionsmarketregmrexchangesshtml.html">
-              allows you to go public but you pay a Double-Tax on Income
-              (threatened-upon us by not price-prisoners’ dilemma duress pooling
-              but literal&nbsp;
-              <span
-                style={{ fontWeight: "bolder", textDecoration: "underline" }}
-                onClick={() => {
-                  this.IRS.current.scrollIntoView("smooth");
-                  this.setState({ highlightIRS: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightIRS: false }),
-                    10000
-                  );
-                }}
-              >
-                jail/confiscation in 1937
-              </span>
-              )
-            </a>
-          </div>
+            jail/confiscation in 1937
+          </span>
+          )
+          <br />
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -11547,10 +11567,11 @@ export default class App extends React.Component {
             </span>
             , &<a href="https://nationalsecuritycasino.com">scalps</a>
             <br />
+            <br />
             <a href="https://en.wikipedia.org/wiki/Barnburners_and_Hunkers">
               precedence
             </a>
-            &nbsp; can be&nbsp;
+            &nbsp;can be&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -11586,13 +11607,16 @@ export default class App extends React.Component {
               jurisprudential, national-security issue
             </a>
             <br />
+            <br />
             Circle-back Psaki thinks a diplomatic-immunity/expiration-limitation
             exists in an actual court of law
             <br />
+            <br />
             she "doesn't&nbsp;
             <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
-              charge for tests," is a lie
+              charge for cold antibody PCR tests," is a lie
             </a>
+            <br />
             <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -11611,6 +11635,7 @@ export default class App extends React.Component {
             </span>
             &nbsp; so on lock it is an entire market, government user competing
             with many many many advantages
+            <br />
             <br />
             but the niche is the directory not just a nationalistic vibe
             <br />
@@ -11771,6 +11796,7 @@ export default class App extends React.Component {
             bond:cash, 2% financial sector getting population….), 100/2=50x who
             is the real enemy
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -11783,11 +11809,14 @@ export default class App extends React.Component {
             style={{
               fontFamily: '"Hi Melody", sans-serif',
               color: "grey",
-
+              border: "1px dotted",
               width: "calc(100% - 20px)",
               maxWidth: "600px"
             }}
-          ></div>
+          >
+            <br />
+          </div>
+          <br />
           <a
             href="https://pineapple-mint.com"
             style={{
@@ -11872,34 +11901,6 @@ export default class App extends React.Component {
             to purchase items at businesses... and multiple diamond
             [investments]"... The fed uses our equity-split on shares of
             corporate competitors of mine... <br /> <br />
-            splitting dollars of entrepreneurs and labor without consent for
-            those who lost there jobs and businesses who lost income is
-            anti-competitive&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              insurance
-            </span>
-            &nbsp;fraud, regardless if the late population stats are abnormal
-            (they aren't)
-            <br />
-            landlord, lender and invoicer get the money right? That’s what the
-            money is for - to bail them out
-            <br />
-            a court would laugh a prosecutor out the room and demand that down
-            payments be repaired for borrower's customers if it were corporate
-            shares instead of dollars during reposession. current debt:cash is
-            13:1. it is counterfeit in the contract
             <br />
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -12327,7 +12328,7 @@ export default class App extends React.Component {
             <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">
               Open-carry is threat
             </a>
-            &nbsp; G-d is judge of soul, Territory is self
+            &nbsp;G-d is judge of soul, Territory is self
           </div>
           <br />
           <div style={tweetsStyle}>
@@ -12532,205 +12533,209 @@ export default class App extends React.Component {
             Parent choice of mutilation cannot be reversed but drugs can be
           </div>
         </div>
-        <div
-          ref={this.navbar}
-          style={{ display: "flex", width: "max-content" }}
-        >
-          <h1>Saver Party</h1>
-          <span style={{ color: "grey" }}>xyz</span>
-        </div>
-        <span>
-          demand-side conservatism (consent, no supply intervention by
-          non-producing, scalping, serfdoms, leases and allow prices to be met
-          and exactly settled by producers and consumers)
-          <br />
-          Trade is good for comparative advantage in teamwork akin to absolute
-          trading of mutual benefits. All other actors are interference.
-        </span>
-        <br />
-        <div
-          ref={this.invite}
-          style={{
-            marginTop: "20px",
-            borderTop: "1px solid black",
-            maxWidth: "600px",
-            padding: "20px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          financial policy
-          <br />
-          <br />
-          Efficiency (labor-equity) Act & Accord
-          <br />
-          1. Taxes are slavery except free-rider-immutable services, below
-          <br />
-          2.&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.incomeTax.current.scrollIntoView("smooth");
-              this.setState({ highlightIncomeTax: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightIncomeTax: false }),
-                10000
-              );
-            }}
+        <div ref={this.MISSION}>
+          <div
+            ref={this.navbar}
+            style={{ display: "flex", width: "max-content" }}
           >
-            Sales
+            <h1>Saver Party</h1>
+            <span style={{ color: "grey" }}>xyz</span>
+          </div>
+          <span>
+            demand-side conservatism (consent, no supply intervention by
+            non-producing, scalping, serfdoms, leases and allow prices to be met
+            and exactly settled by producers and consumers)
+            <br />
+            Trade is good for comparative advantage in teamwork akin to absolute
+            trading of mutual benefits. All other actors are interference.
           </span>
-          &nbsp;tax is efficient, under&nbsp;
-          <a href="https://vaults.biz">$2k buys</a>:
-          <br />
-          first grand is $60, second is $30 (6%, 3%)
-          <br />
-          a. Local police/plow
-          <br />
-          b. tollless roads
-          <br />
-          c. supreme courts
-        </div>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            maxWidth: "600px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          Nick Carducci
-          <h2>Regulations</h2>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            marginTop: "20px",
-            borderTop: "1px solid black",
-            maxWidth: "600px",
-            padding: "20px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          I. forbid investment bank "savings" label
-          <br />
-          II. forbid insurance pyramid schemes, unless gift certificate
-          broker...
-          <br />
-          III. forbid prosecution for non-payment after service
-          <br />
-          IV. forbid time-based royalty & consumer purchase investment
-          <br />
-          V. forbid renting more than 5 abodes & storefronts for income
-          <br />
-          VI. producers refund previously paid debts to cash:debt original
-          principal ratio! Where we would be if we had intervened in the market
-          intervention of promises raising market price and skipping the
-          marginal cost to earn that money based on a combination of producer
-          greed & consumer prisoner's dilemma duress or promise
-          <br />
-          VII. only can disburse business-acc-money upon withdrawal or sale and
-          protect per industry not just name
-          <br />
-          VIII. We can retain interests of people but remove those of
-          government/money-renters by exclusively funding it by the sales tax of
-          the location of the purchaser. Fintech should label customer location
-          for merchants, and allow location spoofing at checkout to protest
-        </div>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            maxWidth: "600px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          <div id="t1311661410565398528" />
-          <br />
-          <h2>Mantra</h2>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            marginTop: "20px",
-            borderTop: "1px solid black",
-            maxWidth: "600px",
-            padding: "20px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          price elasticity is our ally
-          <br />
-          invoices our enemy
-          <br />
-          credit is youth-abuse
-        </div>
-        <div
-          style={{
-            display: "flex",
-            marginTop: "20px",
-            borderTop: "1px solid black",
-            maxWidth: "600px",
-            padding: "20px",
-            flexDirection: "column",
-            alignItems: "center"
-          }}
-        >
-          <h2>Candidates</h2>
           <br />
           <div
+            ref={this.invite}
             style={{
-              position: "relative",
-              border: "3px solid"
+              marginTop: "20px",
+              borderTop: "1px solid black",
+              maxWidth: "600px",
+              padding: "20px",
+              flexDirection: "column",
+              alignItems: "center"
             }}
           >
-            <img
-              onClick={() => (window.location.href = "https://carducci.sh")}
-              style={{ width: "60px", height: "auto" }}
-              src="https://www.dl.dropboxusercontent.com/s/eauftjactpq8rnz/me.png?dl=0"
-              alt="https://carducci.sh"
-            />
-          </div>
-          Nick Carducci
-          <br />
-          <div>
-            nickcarducci2022.com
-            <a
-              style={{ textDecoration: "none" }}
-              href="https://nickcarducci2022.com"
+            financial policy
+            <br />
+            <br />
+            Efficiency (labor-equity) Act & Accord
+            <br />
+            1. Taxes are slavery except free-rider-immutable services, below
+            <br />
+            2.&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.incomeTax.current.scrollIntoView("smooth");
+                this.setState({ highlightIncomeTax: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightIncomeTax: false }),
+                  10000
+                );
+              }}
             >
-              &#9998;
-            </a>
+              Sales
+            </span>
+            &nbsp;tax is efficient, under&nbsp;
+            <a href="https://vaults.biz">$2k buys</a>:
+            <br />
+            first grand is $60, second is $30 (6%, 3%)
+            <br />
+            a. Local police/plow
+            <br />
+            b. tollless roads
+            <br />
+            c. supreme courts
           </div>
-          US Senate 2022
-          <br />
-          <i>invoices are theft!</i>
-          <i>writing "Banking is not a Business"</i>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              maxWidth: "600px",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            Nick Carducci
+            <h2>Regulations</h2>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              marginTop: "20px",
+              borderTop: "1px solid black",
+              maxWidth: "600px",
+              padding: "20px",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            I. forbid investment bank "savings" label
+            <br />
+            II. forbid insurance pyramid schemes, unless gift certificate
+            broker...
+            <br />
+            III. forbid prosecution for non-payment after service
+            <br />
+            IV. forbid time-based royalty & consumer purchase investment
+            <br />
+            V. forbid renting more than 5 abodes & storefronts for income
+            <br />
+            VI. producers refund previously paid debts to cash:debt original
+            principal ratio! Where we would be if we had intervened in the
+            market intervention of promises raising market price and skipping
+            the marginal cost to earn that money based on a combination of
+            producer greed & consumer prisoner's dilemma duress or promise
+            <br />
+            VII. only can disburse business-acc-money upon withdrawal or sale
+            and protect per industry not just name
+            <br />
+            VIII. We can retain interests of people but remove those of
+            government/money-renters by exclusively funding it by the sales tax
+            of the location of the purchaser. Fintech should label customer
+            location for merchants, and allow location spoofing at checkout to
+            protest
+          </div>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              maxWidth: "600px",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            <div id="t1311661410565398528" />
+            <br />
+            <h2>Mantra</h2>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              marginTop: "20px",
+              borderTop: "1px solid black",
+              maxWidth: "600px",
+              padding: "20px",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            price elasticity is our ally
+            <br />
+            invoices our enemy
+            <br />
+            credit is youth-abuse
+          </div>
+          <div
+            style={{
+              display: "flex",
+              marginTop: "20px",
+              borderTop: "1px solid black",
+              maxWidth: "600px",
+              padding: "20px",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            <h2>Candidates</h2>
+            <br />
+            <div
+              style={{
+                position: "relative",
+                border: "3px solid"
+              }}
+            >
+              <img
+                onClick={() => (window.location.href = "https://carducci.sh")}
+                style={{ width: "60px", height: "auto" }}
+                src="https://www.dl.dropboxusercontent.com/s/eauftjactpq8rnz/me.png?dl=0"
+                alt="https://carducci.sh"
+              />
+            </div>
+            Nick Carducci
+            <br />
+            <div>
+              nickcarducci2022.com
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://nickcarducci2022.com"
+              >
+                &#9998;
+              </a>
+            </div>
+            US Senate 2022
+            <br />
+            <i>invoices are theft!</i>
+            <i>writing "Banking is not a Business"</i>
+          </div>
+          <div
+            style={{
+              width: "100%",
+              maxWidth: "500px",
+              alignItems: "flex-start"
+            }}
+          >
+            you gotta earn that money back from the person you buy from, or you
+            forced your customers to invest in those. You couldn’t promise
+            Amazon shares you don’t own to buy a house. It is cornering assets,
+            duress of the borrower and involuntary servitude of the people with
+            money, which isn’t even enough. Royalty w/max-profit on business
+            lines without market-colonialism, renting out more than you can use
+            or bills
+          </div>
+          <a href="https://micro-theory.com">Micro-Theory.com</a>
         </div>
-        <div
-          style={{
-            width: "100%",
-            maxWidth: "500px",
-            alignItems: "flex-start"
-          }}
-        >
-          you gotta earn that money back from the person you buy from, or you
-          forced your customers to invest in those. You couldn’t promise Amazon
-          shares you don’t own to buy a house. It is cornering assets, duress of
-          the borrower and involuntary servitude of the people with money, which
-          isn’t even enough. Royalty w/max-profit on business lines without
-          market-colonialism, renting out more than you can use or bills
-        </div>
-        <a href="https://micro-theory.com">Micro-Theory.com</a>
         <div ref={this.EARLYCOMMS}>
           <div
             style={{
@@ -14043,3 +14048,4 @@ export default class App extends React.Component {
     );
   }
 }
+
