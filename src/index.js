@@ -12,10 +12,11 @@ class Index extends React.Component {
       top: true,
       scrollPlacementHeight: 0,
       openMenu: false,
-      inSection: "Rentier-Colonialism"
+      inSection: "New"
     };
     this.page = React.createRef();
     this.outer = React.createRef();
+    this.topSort = React.createRef();
   }
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
@@ -28,6 +29,7 @@ class Index extends React.Component {
       const innerHeight = window.innerHeight;
       const scrollTop = window.scrollY; //+ window.innerHeight;
       const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
+      const topSortHeight = this.topSort.current.offsetHeight;
       const scrollPlacementHeight = Math.round(
         (innerHeight - 115) * (scrollTop / scrollHeight)
       );
@@ -45,7 +47,7 @@ class Index extends React.Component {
             this.setState(
               {
                 scrolling: false,
-                landedPresentation: true
+                landedPresentation: scrollTop - topSortHeight > 0
               },
               () => {
                 clearTimeout(this.scrollScrollTimeout);
@@ -116,6 +118,8 @@ class Index extends React.Component {
             <div
               onClick={() => this.setState({ openMenu: false })}
               style={{
+                justifyContent: "center",
+                alignItems: "center",
                 transform: "rotate(90deg)",
                 backgroundColor: "rgb(255,255,255)",
                 display: "flex",
@@ -305,6 +309,7 @@ class Index extends React.Component {
             }}
           >
             <div
+              ref={this.topSort}
               style={{
                 fontSize: "20px",
                 alignSelf: "flex-start",
