@@ -618,20 +618,39 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        <div
-          style={{
-            width: "40%",
-            position: "relative"
-          }}
-        >
-          <img
-            alt=""
+        CountyReimbursementsAcrossTheCountry, that's my equitymoney, dike
+        <br />
+        <div style={{ display: "flex" }}>
+          <div
             style={{
-              width: "100%",
-              height: "auto"
+              width: "40%",
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/nnv1d4217tjix7b/IMG_0318.jpeg?dl=0"
-          />
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/alxtqu19s764stl/CountyReimbursements.jpeg?dl=0"
+            />
+          </div>{" "}
+          <div
+            style={{
+              width: "40%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/nnv1d4217tjix7b/IMG_0318.jpeg?dl=0"
+            />
+          </div>
         </div>
         <br />
         This fat talks about equity and then says thanks to Biden for providing
