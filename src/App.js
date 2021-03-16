@@ -627,7 +627,7 @@ export default class App extends React.Component {
         lowered?
         <br />
         <br />
-        Verbal bullying isn't illegal, Bitch
+        Verbal bullying isn't&nbsp;<a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">illegal</a>, Bitch
         <br />
         <br />
         Stop saying how business can benefit from a package that is only a
