@@ -624,6 +624,12 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "We need to break a chain of bad decisions and get the economy going again with most national guard back to their civilian jobs" -&nbsp;<a href="https://www.ngaus.org/">US National Guard Ass.</a>
+        <br/>
+        <br/>
+        "Hard to break bad habits general." You're wrong on that one Heather
+        <br/>
+        <br/>
         Trump is a&nbsp;<a href="https://en.wikipedia.org/wiki/Trump_Plaza_Hotel_and_Casino">LOSER</a>. Get off my dick
         <br />
         <br />
