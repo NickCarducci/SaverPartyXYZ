@@ -25,41 +25,43 @@ class Index extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   };
   handleScroll = (e) => {
-    this.setState({ scrolling: true }, () => {
-      const innerHeight = window.innerHeight;
-      const scrollTop = window.scrollY; //+ window.innerHeight;
-      const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
-      const topSortHeight = this.topSort.current.offsetHeight;
-      const scrollPlacementHeight = Math.round(
-        (innerHeight - 115) * (scrollTop / scrollHeight)
-      );
-      const top = scrollTop === 0;
-      this.setState(
-        {
-          openMenu: top ? false : this.state.openMenu,
-          top,
-          scrollPlacementHeight,
-          scrollTop
-        },
-        () => {
-          clearTimeout(this.scrollTimeout);
-          this.scrollTimeout = setTimeout(() => {
-            this.setState(
-              {
-                scrolling: false,
-                landedPresentation: scrollTop > topSortHeight + innerHeight + 40
-              },
-              () => {
-                clearTimeout(this.scrollScrollTimeout);
-                this.scrollScrollTimeout = setTimeout(() => {
-                  this.setState({ landedPresentation: false });
-                }, 2577);
-              }
-            );
-          }, 400);
-        }
-      );
-    });
+    !this.state.offScroll &&
+      this.setState({ scrolling: true }, () => {
+        const innerHeight = window.innerHeight;
+        const scrollTop = window.scrollY; //+ window.innerHeight;
+        const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
+        const topSortHeight = this.topSort.current.offsetHeight;
+        const scrollPlacementHeight = Math.round(
+          (innerHeight - 115) * (scrollTop / scrollHeight)
+        );
+        const top = scrollTop === 0;
+        this.setState(
+          {
+            openMenu: top ? false : this.state.openMenu,
+            top,
+            scrollPlacementHeight,
+            scrollTop
+          },
+          () => {
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(() => {
+              this.setState(
+                {
+                  scrolling: false,
+                  landedPresentation:
+                    scrollTop > topSortHeight + innerHeight + 40
+                },
+                () => {
+                  clearTimeout(this.scrollScrollTimeout);
+                  this.scrollScrollTimeout = setTimeout(() => {
+                    this.setState({ landedPresentation: false });
+                  }, 2577);
+                }
+              );
+            }, 400);
+          }
+        );
+      });
   };
   handleMove = (ev, touch) => {
     ev.stopPropagation();
@@ -931,14 +933,12 @@ class Index extends React.Component {
             <App
               inSection={(section) =>
                 this.setState(
-                  {
-                    inSection: section,
-                    openMenu: true
-                  },
+                  { offScroll: true, inSection: section, openMenu: true },
                   () => {
                     clearTimeout(this.openmenu);
                     this.openmenu = setTimeout(
-                      () => this.setState({ openMenu: false }),
+                      () =>
+                        this.setState({ offScroll: false, openMenu: false }),
                       5432
                     );
                   }
