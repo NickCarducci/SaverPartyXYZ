@@ -623,12 +623,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        You are required to lower utility-monopsony prices when taxes are lowered?
-        <br/>
-        <br/>
-Verbal bullying isn't illegal, Bitch
-        <br/>
-        <br/>
+        You are required to lower utility-monopsony prices when taes are
+        lowered?
+        <br />
+        <br />
+        Verbal bullying isn't illegal, Bitch
+        <br />
+        <br />
         Stop saying how business can benefit from a package that is only a
         portion of what you take in equitymoney
         <br />
@@ -11069,18 +11070,7 @@ Verbal bullying isn't illegal, Bitch
             consumption in foiegras.life. Miss Levine keeps asking for funding
             DO IT yourself stop taking from us for no change except price
           </div>
-        </div>
-        <div
-          style={{
-            transition: ".3s ease-out",
-            backgroundColor:
-              this.props.section === "Securities Fraud" && this.props.openMenu
-                ? "rgb(220,245,245)"
-                : "",
-            width: "100%"
-          }}
-          ref={this.SECURITIESFRAUD}
-        >
+          <br />
           loser---winner
           <br />
           <span
@@ -11139,7 +11129,18 @@ Verbal bullying isn't illegal, Bitch
           >
             magnate.company
           </span>
-          <br />
+        </div>
+        <div
+          style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Securities Fraud" && this.props.openMenu
+                ? "rgb(220,245,245)"
+                : "",
+            width: "100%"
+          }}
+          ref={this.SECURITIESFRAUD}
+        >
           <div
             ref={this.varney}
             style={{
