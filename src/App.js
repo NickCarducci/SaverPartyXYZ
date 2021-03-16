@@ -618,6 +618,26 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        <div
+          style={{
+            width: "40%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/nnv1d4217tjix7b/IMG_0318.jpeg?dl=0"
+          />
+        </div>
+        <br />
+        This fat talks about equity and then says thanks to Biden for providing
+        funds
+        <br />
+        <br />
         Border Patrol agents are saying 50-100% have wristbands to show how much
         pootang they owe the cartels on the way up. &nbsp;
         <a href="https://en.wikipedia.org/wiki/Janet_Yellen">
