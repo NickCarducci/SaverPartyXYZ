@@ -623,6 +623,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        You are required to lower utility-monopsony prices when taxes are lowered?
+        <br/>
+        <br/>
 Verbal bullying isn't illegal, Bitch
         <br/>
         <br/>
