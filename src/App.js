@@ -601,6 +601,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Immigrants should be able to buy property in two lamb-tail shakes
+        <br />
+        <br />
         If I were a government contractor interested in the longevity of my
         bonds, I would genetically engineer one Pete Butgieg to take equity to
         pay over the ask on infrastructure
