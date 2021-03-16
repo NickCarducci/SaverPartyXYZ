@@ -1317,8 +1317,10 @@ export default class App extends React.Component {
                 : ""
             }}
           >
-            Biden says the Bill increases supply; it actually increases demand
-            and price
+            Biden says the Bill increases supply; it actually&nbsp;
+            <a href="https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/volume-on-the-bid-and-ask-bavol/">
+              increases demand and price
+            </a>
           </span>
           <br />
           <br />
@@ -1765,9 +1767,9 @@ export default class App extends React.Component {
               );
             }}
           >
-            Increase
+            "Increase supply fastidiously"
           </span>
-          &nbsp;supply fastidiously -
+          &nbsp;-&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
