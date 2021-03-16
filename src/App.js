@@ -623,8 +623,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        Either I am just listening more, or the media 
-        is just spewing more nonsense than usual to which I have to fact-check, I can only deduce that it is to prevent me from finishing thumbprint.us to which it is an alternative government and their bond would go to zero if citizens chose it
+        Either I am just listening more, or the media is just spewing more
+        nonsense than usual to which I have to fact-check, I can only deduce
+        that it is to prevent me from finishing thumbprint.us to which it is an
+        alternative government and their bond would go to zero if citizens chose
+        it
         <br />
         <br />
         Democrats are making it harder for election security professionals to
@@ -793,7 +796,7 @@ export default class App extends React.Component {
           invoices which are counterfeit in contract and pooling capacity
           <br />
           <br />
-          "In advance under durress? Isn’t price inelasticity dependent on asset
+          "In advance under duress? Isn’t price inelasticity dependent on asset
           level and available options? Pooling is one of the best benefits of
           insurance. Have you signed up for my email list?" - Financial Agent
           <br />
@@ -803,6 +806,16 @@ export default class App extends React.Component {
           they pay any ask of delayed settlement rather than what demand has it
           is even higher than where supply and demand naturally meet their least
           frugal price-makers and -takers.
+          <br />
+          <br />
+          I do not like Varo advertising saving by comparing prisoner-duress
+          options, doing so means you cannot save, which doing so is required to
+          saave relatively if you are already bound to purchase insurance and
+          front-run customers, not dissimilar to rentier-colonism in
+          price-inelasticity but in heightened demand capacity instead of supply
+          frugality, efficiency or competition (20+) for lower prices/utility.
+          GDP/debt is stupid to look at because debt is additive to GDP. the
+          Equity Laundering is BLARING
           <br />
           <br />
           "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
