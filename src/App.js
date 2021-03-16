@@ -141,6 +141,7 @@ export default class App extends React.Component {
     this.planetary = React.createRef();
     this.beast = React.createRef();
     this.billBiden = React.createRef();
+    this.trueProductivity = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -776,7 +777,14 @@ export default class App extends React.Component {
           </span>
           &nbsp;and debt:cash reconciliation for all purchases to which the most
           frugal price-giving ask and price-taking person found price*output(or
-          individual-efficiency, comparative-advantage productivity)
+            &nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueProductivity.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
+            }}
+          >individual-efficiency, comparative-advantage productivity</span>)
           <br />
           "The people that do the best will have to pony up [for Nick Carducci's
           &nbsp;<a href="https://vaults.biz">govtech/lighttech</a> competitors
@@ -3004,15 +3012,14 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
-          <br />
-          <br />
-          (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
+          <span ref={this.trueProductivity}>(left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
           currencyComponentOfM1)))
           <br />
           (right) (GDP/P) - NM - ND
           <br />
           (right) (trueGDP/P) - NM - ND
           <Fraud />
+          </span><br/>
           <a href="https://twitter.com/nowthisnews/status/1370493485829197825?s=20">
             AOC
           </a>
