@@ -624,6 +624,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Trump is a&nbsp;<a href="https://en.wikipedia.org/wiki/Trump_Plaza_Hotel_and_Casino">LOSER</a>. Get off my dick
+        <br />
+        <br />
         CNN: "This biden bill will put money in the pockets of americans, but not assets"
         <br />
         <br />
