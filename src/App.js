@@ -644,7 +644,7 @@ export default class App extends React.Component {
         <br />
         <br />
         "Leverage things" of donors or settled-market price, not equity. That's
-        illegal. It is not a matter of time. Naturally debt:cash is 1:1 in 1908,
+        illegal. It is not a matter of time. Naturally debt:cash is 1:1depositary in 1908,
         now is 41:1
         <br />
         <br />
