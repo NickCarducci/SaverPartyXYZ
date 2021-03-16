@@ -622,7 +622,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "New" && this.props.landedPresentation
+              this.props.section === "New" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -760,7 +760,7 @@ export default class App extends React.Component {
             transition: ".3s ease-out",
             backgroundColor:
               this.props.section === "Rentier-Colonialism" &&
-              this.props.landedPresentation
+              this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -1276,15 +1276,13 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Abuse of Power" &&
-              this.props.landedPresentation
+              this.props.section === "Abuse of Power" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
           }}
           ref={this.ABUSEOFPOWER}
         >
-          <br />
           If the government provides aid and comfort to foreigners thru bonds,
           and they say it is good because they get cash instead of assets
           because domestic citizens use cash instead of assets; given that bonds
@@ -2434,8 +2432,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "War on Poverty" &&
-              this.props.landedPresentation
+              this.props.section === "War on Poverty" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -3546,8 +3543,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Polling Fraud" &&
-              this.props.landedPresentation
+              this.props.section === "Polling Fraud" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -3759,7 +3755,7 @@ export default class App extends React.Component {
             transition: ".3s ease-out",
             backgroundColor:
               this.props.section === "False Advert in House" &&
-              this.props.landedPresentation
+              this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -4274,8 +4270,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Immigration" &&
-              this.props.landedPresentation
+              this.props.section === "Immigration" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -4289,8 +4284,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Ownership Fraud" &&
-              this.props.landedPresentation
+              this.props.section === "Ownership Fraud" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -4926,7 +4920,7 @@ export default class App extends React.Component {
             transition: ".3s ease-out",
             backgroundColor:
               this.props.section === "False Advert in Senate" &&
-              this.props.landedPresentation
+              this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -6549,8 +6543,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Insurance Fraud" &&
-              this.props.landedPresentation
+              this.props.section === "Insurance Fraud" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -7047,7 +7040,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Virus" && this.props.landedPresentation
+              this.props.section === "Virus" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -8539,7 +8532,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Monopoly" && this.props.landedPresentation
+              this.props.section === "Monopoly" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -10416,8 +10409,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Education" &&
-              this.props.landedPresentation
+              this.props.section === "Education" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -10453,8 +10445,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Null Hypothesis" &&
-              this.props.landedPresentation
+              this.props.section === "Null Hypothesis" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -10721,8 +10712,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Secutities Fraud" &&
-              this.props.landedPresentation
+              this.props.section === "Secutities Fraud" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -11898,7 +11888,7 @@ export default class App extends React.Component {
             transition: ".3s ease-out",
             backgroundColor:
               this.props.section === "Systemic Inequality" &&
-              this.props.landedPresentation
+              this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -12663,7 +12653,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Mission" && this.props.landedPresentation
+              this.props.section === "Mission" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -12884,8 +12874,7 @@ export default class App extends React.Component {
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "EarlyComms" &&
-              this.props.landedPresentation
+              this.props.section === "EarlyComms" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -14128,4 +14117,3 @@ export default class App extends React.Component {
     );
   }
 }
-
