@@ -935,6 +935,56 @@ export default class App extends React.Component {
           }}
           ref={this.ABUSEOFPOWER}
         >
+          <a
+            href="https://pineapple-mint.com"
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            We are striving for perfection
+          </a>
+          <div
+            ref={this.drugs}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightDrugs ? "white" : "grey",
+              backgroundColor: this.state.highlightDrugs
+                ? "rgb(100,170,205)"
+                : ""
+            }}
+          >
+            Cancel all debt, don't let Wolf Blitzer pay them with
+            dollar/market-share involuntary split
+            <br />
+            like calling a graft a non-human-part vaccine. croak, please before
+            you hurt someone
+            <br />
+            <br />
+            "Radical libertarianism;&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.navbar.current.scrollIntoView("smooth");
+              }}
+            >
+              drug/chemical abuse
+            </span>
+            ." Let them own houses then maybe they wouldn't want to trip balls.
+            In any case you shouldn't concern yourself with how someone spends
+            their lives. For one, I am delaying gratification and getting market
+            share by copyright
+          </div>
+          <br />
           <span
             ref={this.inflation}
             style={{
@@ -3441,6 +3491,38 @@ export default class App extends React.Component {
           }}
           ref={this.POLLINGFRAUD}
         >
+          <a
+            style={{
+              border: "1px solid",
+              color: "black"
+            }}
+            href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
+          >
+            Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013), ...9% goes to
+            people...
+          </a>
+          <br />
+          <a
+            ref={this.populism}
+            style={{
+              color: this.state.highlightPopulism ? "white" : "black",
+              backgroundColor: this.state.highlightPopulism
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+            href="https://www.isidewith.com/poll/488729614"
+          >
+            Should the government make cuts to public spending in order to
+            reduce the national debt? 63% Yes/ 37% No (n=13,737,124 )
+          </a>
+          <br />I am just asking you to follow the science
+          <br />
+          <br />
+          Government funding is not "funding from the government."" It is not
+          their money/equity! It is stolen
+          <br />
+          <br />
           <PollingFraud
             electionTech={() => {
               this.electionTech.current.scrollIntoView("smooth");
@@ -6949,6 +7031,93 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          CNN calling vaccines/grafts, platforms now
+          <br />
+          <br />
+          <span
+            ref={this.grandmaMentality}
+            style={{
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightGrandmaMentality ? "white" : "grey",
+              backgroundColor: this.state.highlightGrandmaMentality
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            use a tissue, wash your hands,&nbsp;
+            <a href="https://moldmask.co">take off your masks</a>
+            <br />
+            don't take a&nbsp;
+            <a href="https://humanharvest.info">"vaccine"/graft</a> that could
+            cause malformation/cancer with normal life expectancy. They don't
+            want to pay for&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightOldFluExclusion: false }),
+                  10000
+                );
+              }}
+            >
+              larger, first-world old-age population
+            </span>
+            <br />
+            couples who pass at the same time is correlative evidence that it is
+            mostly mental, and CNN can be attributable to my grandma's friends'
+            deaths
+          </span>
+          <br />
+          <br />
+          The anti-freedomers are going to be the future homeschoolers lmao you
+          need to realize deaths were expected to raise since 2013 old age
+          population in first world countries and the virus was being
+          experimented with recklessly in Wuhan by NIH. Btw, you people
+          are&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.host.current.scrollIntoView("smooth");
+              this.setState({ highlightHost: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightHost: false }),
+                10000
+              );
+            }}
+          >
+            festering mold
+          </span>
+          &nbsp; and carbon monoxide poisoning with these masks and
+          vaccines/grafts are&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.setState({ highlightTravellingIndividuals: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () =>
+                  this.setState({
+                    highlightTravellingIndividuals: false
+                  }),
+                10000
+              );
+            }}
+          >
+            an individual decision
+          </span>
+          &nbsp; based on seen/unseen risks
           <br />
           transmission of virus only travels by symptom,&nbsp;
           <span
@@ -8690,173 +8859,14 @@ export default class App extends React.Component {
             </div>
           </div>
           <br />
-          <a
-            style={{
-              border: "1px solid",
-              color: "black"
-            }}
-            href="https://morningconsult.com/2021/02/24/covid-stimulus-support-poll/"
-          >
-            Biden's $1.9 Trillion Plan? 76% Yes/ 24% No (n=2013), ...9% goes to
-            people...
-          </a>
-          <br />
-          <a
-            ref={this.populism}
-            style={{
-              color: this.state.highlightPopulism ? "white" : "black",
-              backgroundColor: this.state.highlightPopulism
-                ? "rgb(170,100,205)"
-                : "",
-              transition: ".3s ease-out"
-            }}
-            href="https://www.isidewith.com/poll/488729614"
-          >
-            Should the government make cuts to public spending in order to
-            reduce the national debt? 63% Yes/ 37% No (n=13,737,124 )
-          </a>
-          <br />I am just asking you to follow the science
-          <br />
-          <br />
-          Government funding is not "funding from the government."" It is not
-          their money/equity! It is stolen
-          <br />
-          <br />
-          Strong militia/terror groups are supported by governments that use
-          non-asset trade with promises/invoices/money. Thus, if you want world
-          peace, protect power of individuals to give power to good people by
-          settled-trade and fair-competition with other producers, not consumers
-          by signing them to contracts that are impossible and require the
-          consent unrequited by people with the waged money to surpass a penalty
-          instigated on those very same customers of the borrower.
-          <br />
-          <br />
-          <div
-            ref={this.congressVsCongress}
-            style={{
-              color: this.state.highlightCVC ? "white" : "black",
-              backgroundColor: this.state.highlightCVC
-                ? "rgb(170,100,205)"
-                : "",
-              transition: ".3s ease-out"
-            }}
-          >
-            Biden’s plan is to&nbsp;
-            <a href="https://froth.app" style={{ textDecoration: "underline" }}>
-              further separate us with bonds and money
-            </a>
-            , bombing them, and giving the unproductive, violent actors the
-            space and opportunity to thrive without being PRODUCTive
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            CNN calling vaccines/grafts, platforms now
-            <br />
-            <br />
-            <span
-              ref={this.grandmaMentality}
-              style={{
-                width: "calc(100% - 20px)",
-                maxWidth: "600px",
-                color: this.state.highlightGrandmaMentality ? "white" : "grey",
-                backgroundColor: this.state.highlightGrandmaMentality
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              use a tissue, wash your hands,&nbsp;
-              <a href="https://moldmask.co">take off your masks</a>
-              <br />
-              don't take a&nbsp;
-              <a href="https://humanharvest.info">"vaccine"/graft</a> that could
-              cause malformation/cancer with normal life expectancy. They don't
-              want to pay for&nbsp;
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline"
-                }}
-                onClick={() => {
-                  this.oldFluExclusion.current.scrollIntoView("smooth");
-                  this.setState({ highlightOldFluExclusion: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightOldFluExclusion: false }),
-                    10000
-                  );
-                }}
-              >
-                larger, first-world old-age population
-              </span>
-              <br />
-              couples who pass at the same time is correlative evidence that it
-              is mostly mental, and CNN can be attributable to my grandma's
-              friends' deaths
-            </span>
-            <br />
-            <br />
-            The anti-freedomers are going to be the future homeschoolers lmao
-            you need to realize deaths were expected to raise since 2013 old age
-            population in first world countries and the virus was being
-            experimented with recklessly in Wuhan by NIH. Btw, you people
-            are&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.host.current.scrollIntoView("smooth");
-                this.setState({ highlightHost: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightHost: false }),
-                  10000
-                );
-              }}
-            >
-              festering mold
-            </span>
-            &nbsp; and carbon monoxide poisoning with these masks and
-            vaccines/grafts are&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.travellingIndividuals.current.scrollIntoView("smooth");
-                this.setState({ highlightTravellingIndividuals: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () =>
-                    this.setState({
-                      highlightTravellingIndividuals: false
-                    }),
-                  10000
-                );
-              }}
-            >
-              an individual decision
-            </span>
-            &nbsp; based on seen/unseen risks
-          </div>
-          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            Constitutional-Patriot party - you do not need to pay your debts
+            Attn: Constitutional-Patriot party - you do not need to pay your
+            debts
           </i>
           <div
             style={{
@@ -11704,55 +11714,6 @@ export default class App extends React.Component {
             <br />
           </div>
           <br />
-          <a
-            href="https://pineapple-mint.com"
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            We are striving for perfection
-          </a>
-          <div
-            ref={this.drugs}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightDrugs ? "white" : "grey",
-              backgroundColor: this.state.highlightDrugs
-                ? "rgb(100,170,205)"
-                : ""
-            }}
-          >
-            Cancel all debt, don't let Wolf Blitzer pay them with
-            dollar/market-share involuntary split
-            <br />
-            like calling a graft a non-human-part vaccine. croak, please before
-            you hurt someone
-            <br />
-            <br />
-            "Radical libertarianism;&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.navbar.current.scrollIntoView("smooth");
-              }}
-            >
-              drug/chemical abuse
-            </span>
-            ." Let them own houses then maybe they wouldn't want to trip balls.
-            In any case you shouldn't concern yourself with how someone spends
-            their lives. For one, I am delaying gratification and getting market
-            share by copyright
-          </div>
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -12323,6 +12284,35 @@ export default class App extends React.Component {
             [virus from wuhan]? Where else would it be from && have such an
             delta of impact. Deduction is evidence as much as correlative
             statistics..
+          </div>
+          <br />
+          <div style={tweetsStyle}>
+            Strong militia/terror groups are supported by governments that use
+            non-asset trade with promises/invoices/money. Thus, if you want
+            world peace, protect power of individuals to give power to good
+            people by settled-trade and fair-competition with other producers,
+            not consumers by signing them to contracts that are impossible and
+            require the consent unrequited by people with the waged money to
+            surpass a penalty instigated on those very same customers of the
+            borrower.
+          </div>
+          <br />
+          <div
+            ref={this.congressVsCongress}
+            style={{
+              color: this.state.highlightCVC ? "white" : "black",
+              backgroundColor: this.state.highlightCVC
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+          >
+            Biden’s plan is to&nbsp;
+            <a href="https://froth.app" style={{ textDecoration: "underline" }}>
+              further separate us with bonds and money
+            </a>
+            , bombing them, and giving the unproductive, violent actors the
+            space and opportunity to thrive without being PRODUCTive
           </div>
           <br />
           <div style={tweetsStyle}>
@@ -13928,4 +13918,3 @@ export default class App extends React.Component {
     );
   }
 }
-
