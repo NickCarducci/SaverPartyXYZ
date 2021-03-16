@@ -601,6 +601,14 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        On Anderson Cooper some lady says racist person murderer needs to be
+        shunned and excluded from community. Whore, I know you are alluding to
+        me because if you were thinking about the subject you were using to talk
+        about me you wouldn't just suggest that we shun him. I have chosen to
+        work on my sites to retire early, and work in the open to retain
+        copyright and build rapport
+        <br />
+        <br />
         Sen. Rounds, I like that Gold watch you rich fuck, give it to me you old
         douche
         <br />
@@ -9382,13 +9390,14 @@ export default class App extends React.Component {
             <br />
             7322331085 Vision for Thumbprint.us
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
               textEmphasis: "italics"
             }}
           >
-            &nbsp; Automatic reply: PPP is illegal
+            Automatic reply: PPP is illegal
             <br />
             Press Office
             <br />
@@ -10099,6 +10108,7 @@ export default class App extends React.Component {
             aren't open source) If they cared they would put input in control
             panel. this OS is out of wack to the advertised goal.
             <br />
+            <br />
             In contrast with other companies like the above, toting privacy
             these chats ACTUALLY retain end-to-end encryption when backed up (in
             the cloud), keyBox for your first device, share your box & open
@@ -10110,6 +10120,7 @@ export default class App extends React.Component {
             1. Click the button. 2. Visit your original device. 3. Then, come
             back. 4. Never destroy the auxilliary device. or (c) 1. Save the key
             in a file, then drop it into a new device.
+            <br />
             <br />
             <a href="https://wavv.art/forumaQspKZdVsS59uV3TNkfI">
               wavv.art/forumaQspKZdVsS59uV3TNkfI
@@ -10133,7 +10144,7 @@ export default class App extends React.Component {
               wavv.art/forumyaPOR5EzNIENE6dMU4UD
             </a>
             <br />
-            &nbsp; Your power to prevent me from inclusion in the economy&nbsp;
+            Your power to prevent me from inclusion in the economy&nbsp;
             <a
               ref={this.decide}
               style={{
@@ -10148,7 +10159,7 @@ export default class App extends React.Component {
             >
               (free-riding, involuntary)
             </a>
-            &nbsp; stops when the preventative measure is more harmful than
+            &nbsp;stops when the preventative measure is more harmful than
             making no changes, but especially since there is no proof of
             transmission virally and it takes 2-weeks to form antibodies just
             the same as catching covid & the VIRUS REQUIRES SOME TIME TO FORM IN
@@ -10156,6 +10167,7 @@ export default class App extends React.Component {
             spittle has PROVEN to not float - and therefore the choice of
             prevention is due upon the patient for risking 6mo smell morbidity
             vs b-cell regulation
+            <br />
             <br />- The questions are if covid floats by itself, can attach to
             floating oxygen, or only stick to oils/saliva; and what is not in
             question is that non-planar z-axis movement is the only way these
@@ -10205,105 +10217,26 @@ export default class App extends React.Component {
               }}
             ></iframe>
           </div>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            The correlations to the election season is alarming
-          </div>
-          <div
-            style={{
-              fontWeight: "normal",
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            <span
-              ref={this.tea}
-              style={{
-                fontWeight: "bolder",
-
-                transition: ".3s ease-in",
-
-                color: this.state.highlightTea ? "white" : "",
-                backgroundColor: this.state.highlightTea
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              57% of Republican Party constituents (in a sample-survey) say
-              justice must be upheld by violence. CNN reports this as
-              "uncompatible to democracy." Well I point to this is how
-              historically every democracy is formed. For without individual
-              rights, democracy is unfounded.
-            </span>
-            <br />
-            <br />
-            <span
-              ref={this.policeUX}
-              style={{
-                color: this.state.highlightPoliceUX ? "white" : "",
-                backgroundColor: this.state.highlightPoliceUX
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: '"Hi Melody", sans-serif'
-                }}
-              >
-                "I can say that shit",
-              </span>
-              &nbsp;exclaims&nbsp;
-              <a href="https://en.wikipedia.org/wiki/Cronus">
-                Judge Janine Pirro
-              </a>
-              &nbsp; on a commercial break, as I await my turn to explain the
-              endings of Section 230, after she says, "we will strip 230
-              protections from platforms." The law without 230 provides that
-              liability is only granted if the writers are PAID or EDITED. To
-              boot, platforms should not be destroying evidence, they should be
-              highlighting illegal threats so other users know what is not
-              acceptable, and investigations without circumstantial/correlative
-              data or not, should be unfettered until a cease and decist order
-              is properly adjunicated.
-            </span>
-            <br />
-            <br />
-            PPP is&nbsp;
-            <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
-              free
-            </a>
-            &nbsp; labor
-            <br />
-            If there is a law of unequal justice, upholding that law is lawful?
-            I think the laws have to be justice-oriented in order for the equal
-            application of unequal laws to be applied.
-          </div>
+          The correlations to the election season is alarming
+          <br />
+          <br />
+          PPP is&nbsp;
+          <a href="https://www.researchgate.net/publication/344197041_FEC_government_spending_as_advertised_in_political_campaigns_as_free_to_even_the_beneficiary_when_actually_it_is_misleading_towards_indentured_servitude_heightened_cost_capacity_requires_dollar-split">
+            free
+          </a>
+          &nbsp;labor
+          <br />
+          If there is a law of unequal justice, upholding that law is lawful? I
+          think the laws have to be justice-oriented in order for the equal
+          application of unequal laws to be applied.
         </div>
+        <br />
         <div
           style={{
             width: "100%"
           }}
           ref={this.EDUCATION}
         >
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Education
-            <br />
-          </i>
           <span
             style={{
               transition: ".3s ease-in",
@@ -10328,8 +10261,6 @@ export default class App extends React.Component {
               https://en.m.wikipedia.org/wiki/Price_elasticity_of_demand
             </a>
           </span>
-          <br />
-          <br />
         </div>
         <div
           style={{
@@ -10439,6 +10370,7 @@ export default class App extends React.Component {
               }}
             ></iframe>
             <br />
+            <br />
             <span
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
@@ -10463,9 +10395,9 @@ export default class App extends React.Component {
               }}
               ref={this.cease}
             >
-              &nbsp; In order to file a cease & desist
+              In order to file a cease & desist
             </span>
-            &nbsp; they have to prove it to&nbsp;
+            &nbsp;they have to prove it to&nbsp;
             <span
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
@@ -10487,9 +10419,11 @@ export default class App extends React.Component {
               competitor
             </a>
             <br />
+            <br />
             CNN reported CPAC survey that 55% of [a sample of] those at CPAC
             voted for Trump, and 77 WABC reported (a survey?) 97% “supported him
             as president” #polling
+            <br />
             <br />
             <a href="https://wavv.art/oldBudget7ySOemzKPDtd0WZYqqix">
               wavv.art/oldBudget7ySOemzKPDtd0WZYqqix
@@ -12052,7 +11986,7 @@ export default class App extends React.Component {
               maxWidth: "600px"
             }}
           >
-            . The weird thing is Oath Keeper chapters are 501c3? I relinquished
+            The weird thing is Oath Keeper chapters are 501c3? I relinquished
             mine for thumbprint.us to serve intention for mock direct democracy
             for Baltimore “and beyond” now sole proprietorship with royalty
             contracts w/max-profit (no promises, only
@@ -12262,6 +12196,57 @@ export default class App extends React.Component {
             &nbsp;and makes communism/colonialism/quotas or prisoners’ dilemma
             duress-pooling again
           </div>
+          <br />
+          <span
+            ref={this.tea}
+            style={{
+              fontWeight: "bolder",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightTea ? "white" : "",
+              backgroundColor: this.state.highlightTea ? "rgb(170,100,205)" : ""
+            }}
+          >
+            57% of Republican Party constituents (in a sample-survey) say
+            justice must be upheld by violence. CNN reports this as
+            "uncompatible to democracy." Well I point to this is how
+            historically every democracy is formed. For without individual
+            rights, democracy is unfounded.
+          </span>
+          <br />
+          <br />
+          <span
+            ref={this.policeUX}
+            style={{
+              color: this.state.highlightPoliceUX ? "white" : "",
+              backgroundColor: this.state.highlightPoliceUX
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <span
+              style={{
+                fontFamily: '"Hi Melody", sans-serif'
+              }}
+            >
+              "I can say that shit",
+            </span>
+            &nbsp;exclaims&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Cronus">
+              Judge Janine Pirro
+            </a>
+            &nbsp; on a commercial break, as I await my turn to explain the
+            endings of Section 230, after she says, "we will strip 230
+            protections from platforms." The law without 230 provides that
+            liability is only granted if the writers are PAID or EDITED. To
+            boot, platforms should not be destroying evidence, they should be
+            highlighting illegal threats so other users know what is not
+            acceptable, and investigations without circumstantial/correlative
+            data or not, should be unfettered until a cease and decist order is
+            properly adjunicated.
+          </span>
+          <br />
           <br />
           <a
             style={{
