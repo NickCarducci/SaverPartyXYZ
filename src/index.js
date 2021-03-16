@@ -188,6 +188,7 @@ class Index extends React.Component {
                   </span>
                 ))}
             {[
+              "New",
               "Rentier-Colonialism",
               "Abuse of Power",
               "War on Poverty",
