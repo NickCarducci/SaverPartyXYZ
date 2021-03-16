@@ -626,9 +626,10 @@ export default class App extends React.Component {
 Verbal bullying isn't illegal, Bitch
         <br/>
         <br/>
-        Stop saying how business can benefit from a package that is only a portion of what you take in equitymoney
-        <br/>
-        <br/>
+        Stop saying how business can benefit from a package that is only a
+        portion of what you take in equitymoney
+        <br />
+        <br />
         Either I am just listening more, or the media is just spewing more
         nonsense than usual to which I have to fact-check, I can only deduce
         that it is to prevent me from finishing thumbprint.us to which it is an
@@ -11070,7 +11071,7 @@ Verbal bullying isn't illegal, Bitch
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "Secutities Fraud" && this.props.openMenu
+              this.props.section === "Securities Fraud" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
@@ -13262,7 +13263,7 @@ Verbal bullying isn't illegal, Bitch
           style={{
             transition: ".3s ease-out",
             backgroundColor:
-              this.props.section === "EarlyComms" && this.props.openMenu
+              this.props.section === "Early Comms" && this.props.openMenu
                 ? "rgb(220,245,245)"
                 : "",
             width: "100%"
