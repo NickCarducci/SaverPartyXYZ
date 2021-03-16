@@ -624,6 +624,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        CNN: "This biden bill will put money in the pockets of americans, but not assets"
+        <br />
+        <br />
         You are required to lower utility-monopsony prices when taxes are
         lowered?
         <br />
