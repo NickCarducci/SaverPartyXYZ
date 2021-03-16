@@ -693,9 +693,12 @@ export default class App extends React.Component {
         There is a bit of vaccine non-information out there
         <br />
         <br />
-        STOP ASKING FOR CAPACITY WHEN YOU MEAN DEMAND CAPACITY WHICH IS
-        PERFECTLY PRICE ELASTIC FOR ITS UTILITY PER EACH NEW CAPACITY, WE NEED
-        &nbsp;
+        STOP ASKING FOR CAPACITY WHEN YOU MEAN&nbsp;
+        <a href="https://www.academia.edu/43983364/Review_Capitalism_in_the_21st_Century">
+          DEMAND CAPACITY
+        </a>
+        &nbsp;WHICH IS PERFECTLY PRICE ELASTIC FOR ITS UTILITY PER EACH NEW
+        CAPACITY, WE NEED &nbsp;
         <span
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
@@ -14588,3 +14591,4 @@ export default class App extends React.Component {
     );
   }
 }
+
