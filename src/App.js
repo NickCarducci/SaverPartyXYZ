@@ -618,9 +618,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        What is with the media today reminding us that the vaccine has already been approved and the bills are finalized? We could take all your money and give it to Greta Thunberg
-        <br/>
-        <br/>
+        What is with the media today reminding us that the vaccine has already
+        been approved and the bills are finalized? We could take all your money
+        and give it to Greta Thunberg
+        <br />
+        <br />
         <div
           style={{
             transition: ".3s ease-out",
@@ -7050,9 +7052,9 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
-          What is Florida doing right? they ran out of old people. adjust for
-          age and the "vaccine"/graft kills more people compared to other times
-          in recent history. &nbsp;
+          "What is Florida doing right?" asks Jake Tapper, CNN. They ran out of
+          old people. adjust for age and the "vaccine"/graft kills more people
+          compared to other times in recent history. &nbsp;
           <a href="https://en.wikipedia.org/wiki/Dan_Gelber">
             Suck my cock, it is correlated
           </a>
@@ -14120,3 +14122,4 @@ export default class App extends React.Component {
     );
   }
 }
+
