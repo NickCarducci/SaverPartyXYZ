@@ -142,6 +142,7 @@ export default class App extends React.Component {
     this.beast = React.createRef();
     this.billBiden = React.createRef();
     this.trueProductivity = React.createRef();
+    this.capitalGains = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -624,23 +625,53 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        "We need to break a chain of bad decisions and get the economy going again with most national guard back to their civilian jobs" -&nbsp;<a href="https://www.ngaus.org/">US National Guard Ass.</a>
-        <br/>
-        <br/>
+        "We need to break a chain of bad decisions and get the&nbsp;
+        <span
+          style={{
+            fontWeight: "bolder",
+            textDecoration: "underline"
+          }}
+          onClick={() => {
+            this.capitalGains.current.scrollIntoView("smooth");
+            this.props.pauseScroll();
+            this.setState({ highlightCapitalGains: true });
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightCapitalGains: false }),
+              10000
+            );
+          }}
+        >
+          economy going again
+        </span>
+        &nbsp;[jobs, individual-efficiency/ease] with most national guard back
+        to their civilian jobs" -&nbsp;
+        <a href="https://www.ngaus.org/">US National Guard Ass.</a>
+        <br />
+        <br />
         "Hard to break bad habits general." You're wrong on that one Heather
-        <br/>
-        <br/>
-        Trump is a&nbsp;<a href="https://en.wikipedia.org/wiki/Trump_Plaza_Hotel_and_Casino">LOSER</a>. Get off my dick
         <br />
         <br />
-        CNN: "This biden bill will put money in the pockets of americans, but not assets"
+        Trump is a&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Trump_Plaza_Hotel_and_Casino">
+          LOSER
+        </a>
+        . Get off my dick
+        <br />
+        <br />
+        CNN: "This biden bill will put money in the pockets of americans, but
+        not assets"
         <br />
         <br />
         You are required to lower utility-monopsony prices when taxes are
         lowered?
         <br />
         <br />
-        Verbal bullying isn't&nbsp;<a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">illegal</a>, Bitch
+        Verbal bullying isn't&nbsp;
+        <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
+          illegal
+        </a>
+        , Bitch
         <br />
         <br />
         Stop saying how business can benefit from a package that is only a
@@ -789,14 +820,17 @@ export default class App extends React.Component {
           </span>
           &nbsp;and debt:cash reconciliation for all purchases to which the most
           frugal price-giving ask and price-taking person found price*output(or
-            &nbsp;
+          &nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueProductivity.current.scrollIntoView("smooth");
               this.props.pauseScroll();
             }}
-          >individual-efficiency, comparative-advantage productivity</span>)
+          >
+            individual-efficiency, comparative-advantage productivity
+          </span>
+          )
           <br />
           "The people that do the best will have to pony up [for Nick Carducci's
           &nbsp;<a href="https://vaults.biz">govtech/lighttech</a> competitors
@@ -1992,7 +2026,10 @@ export default class App extends React.Component {
               entanglements
             </span>
             &nbsp;with the Chinese... work in-line with national-security
-            principals out of this" - Fmr Sec. State&nbsp;<a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">Pompeo</a>
+            principals out of this" - Fmr Sec. State&nbsp;
+            <a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">
+              Pompeo
+            </a>
           </div>
           <div
             ref={this.stats}
@@ -3024,14 +3061,16 @@ export default class App extends React.Component {
           </a>
           <br />
           <br />
-          <span ref={this.trueProductivity}>(left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
-          currencyComponentOfM1)))
+          <span ref={this.trueProductivity}>
+            (left) trueGDP = currencyComponentOfM1 * (v2 - (GDP/(m2 -
+            currencyComponentOfM1)))
+            <br />
+            (right) (GDP/P) - NM - ND
+            <br />
+            (right) (trueGDP/P) - NM - ND
+            <Fraud />
+          </span>
           <br />
-          (right) (GDP/P) - NM - ND
-          <br />
-          (right) (trueGDP/P) - NM - ND
-          <Fraud />
-          </span><br/>
           <a href="https://twitter.com/nowthisnews/status/1370493485829197825?s=20">
             AOC
           </a>
@@ -10392,6 +10431,7 @@ export default class App extends React.Component {
               <br />
               <br />
               <span
+                ref={this.capitalGains}
                 style={{
                   fontWeight: "bolder",
                   fontSize: "6px"
@@ -10399,8 +10439,19 @@ export default class App extends React.Component {
               >
                 1
               </span>
-              (inheritance, gift, large item sales and capital gains dax is an
-              issue for antitrust)
+              <span
+                style={{
+                  transition: ".3s ease-in",
+
+                  color: this.state.highlightCapitalGains ? "white" : "",
+                  backgroundColor: this.state.highlightCapitalGains
+                    ? "rgb(170,100,205)"
+                    : ""
+                }}
+              >
+                (inheritance, gift, large item sales and capital gains tax is an
+                issue for antitrust)
+              </span>
             </div>
           </div>
           <br />
@@ -14537,5 +14588,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-
