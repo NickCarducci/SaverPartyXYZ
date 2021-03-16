@@ -7054,6 +7054,27 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          What is Florida doing right? they ran out of old people. adjust for
+          age and the "vaccine"/graft kills more people compared to other times
+          in recent history
+          <br />
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.politics.current.scrollIntoView("smooth");
+              this.setState({ highlightPolitics: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPolitics: false }),
+                10000
+              );
+            }}
+          >
+            Science
+          </span>
+          <br />
+          <br />
           Impossible to see long term effects, namely B-cell oncogenesis which
           is slower to form, since the vaccines began testing. A 28 year old
           dying is not worth the risk of the cold antibodies. Fix death for age
@@ -11469,22 +11490,6 @@ export default class App extends React.Component {
           </span>
           )
           <br />
-          <br />
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.politics.current.scrollIntoView("smooth");
-              this.setState({ highlightPolitics: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightPolitics: false }),
-                10000
-              );
-            }}
-          >
-            Science
-          </span>
           <br />
           Insightful and inciteful are pronounced the same
           <br />
