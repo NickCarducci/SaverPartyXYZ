@@ -30,6 +30,7 @@ export default class App extends React.Component {
       why: false,
       showM1: true
     };
+    this.NEW = React.createRef();
     this.RENTIERCOLONIALISM = React.createRef();
     this.ABUSEOFPOWER = React.createRef();
     this.WARONPOVERTY = React.createRef();
@@ -324,179 +325,195 @@ export default class App extends React.Component {
       this.resizer = setTimeout(() => this.resizee(), 200);
     }
     if (this.props.scrollTop && this.props.scrollTop !== prevProps.scrollTop) {
-      const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
-      if (this.props.scrollTop > RentOffsetTop) {
-        const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
-        if (this.props.scrollTop < RentHeight + RentOffsetTop) {
-          this.props.inSection("Rentier-Colonialism");
+      const newOffsetTop = this.NEW.current.offsetTop;
+      if (this.props.scrollTop > newOffsetTop) {
+        const newHeight = this.NEW.current.offsetHeight;
+        if (this.props.scrollTop < newHeight + newOffsetTop) {
+          this.props.inSection("New");
         } else {
-          const abuseOfPowerOffsetTop = this.ABUSEOFPOWER.current.offsetTop;
-          const abuseOfPowerHeight = this.ABUSEOFPOWER.current.offsetHeight;
-          if (
-            this.props.scrollTop <
-            abuseOfPowerHeight + abuseOfPowerOffsetTop
-          ) {
-            this.props.inSection("Abuse of Power");
+          const RentOffsetTop = this.RENTIERCOLONIALISM.current.offsetTop;
+          const RentHeight = this.RENTIERCOLONIALISM.current.offsetHeight;
+          if (this.props.scrollTop < RentHeight + RentOffsetTop) {
+            this.props.inSection("Rentier-Colonialism");
           } else {
-            const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
-            const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
+            const abuseOfPowerOffsetTop = this.ABUSEOFPOWER.current.offsetTop;
+            const abuseOfPowerHeight = this.ABUSEOFPOWER.current.offsetHeight;
             if (
               this.props.scrollTop <
-              warOnPovertyHeight + warOnPovertyOffsetTop
+              abuseOfPowerHeight + abuseOfPowerOffsetTop
             ) {
-              this.props.inSection("War on Poverty");
+              this.props.inSection("Abuse of Power");
             } else {
-              const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
-              const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
-              if (this.props.scrollTop < gunSafetyHeight + gunSafetyOffsetTop) {
-                this.props.inSection("Gun Safety");
+              const warOnPovertyOffsetTop = this.WARONPOVERTY.current.offsetTop;
+              const warOnPovertyHeight = this.WARONPOVERTY.current.offsetHeight;
+              if (
+                this.props.scrollTop <
+                warOnPovertyHeight + warOnPovertyOffsetTop
+              ) {
+                this.props.inSection("War on Poverty");
               } else {
-                const pollingFraudHeight = this.POLLINGFRAUD.current
-                  .offsetHeight;
-                const pollingFraudOffsetTop = this.POLLINGFRAUD.current
-                  .offsetTop;
+                const gunSafetyOffsetTop = this.GUNSAFETY.current.offsetTop;
+                const gunSafetyHeight = this.GUNSAFETY.current.offsetHeight;
                 if (
                   this.props.scrollTop <
-                  pollingFraudHeight + pollingFraudOffsetTop
+                  gunSafetyHeight + gunSafetyOffsetTop
                 ) {
-                  this.props.inSection("Polling Fraud");
+                  this.props.inSection("Gun Safety");
                 } else {
-                  const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE
-                    .current.offsetHeight;
-                  const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
-                    .current.offsetTop;
+                  const pollingFraudHeight = this.POLLINGFRAUD.current
+                    .offsetHeight;
+                  const pollingFraudOffsetTop = this.POLLINGFRAUD.current
+                    .offsetTop;
                   if (
                     this.props.scrollTop <
-                    falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
+                    pollingFraudHeight + pollingFraudOffsetTop
                   ) {
-                    this.props.inSection("False Advert in House");
+                    this.props.inSection("Polling Fraud");
                   } else {
-                    const immigrationHeight = this.IMMIGRATION.current
-                      .offsetHeight;
-                    const immigrationOffsetTop = this.IMMIGRATION.current
-                      .offsetTop;
+                    const falseAdvertInHouseHeight = this.FALSEADVERTINHOUSE
+                      .current.offsetHeight;
+                    const falseAdvertInHouseOffsetTop = this.FALSEADVERTINHOUSE
+                      .current.offsetTop;
                     if (
                       this.props.scrollTop <
-                      immigrationHeight + immigrationOffsetTop
+                      falseAdvertInHouseHeight + falseAdvertInHouseOffsetTop
                     ) {
-                      this.props.inSection("Immigration");
+                      this.props.inSection("False Advert in House");
                     } else {
-                      const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                      const immigrationHeight = this.IMMIGRATION.current
                         .offsetHeight;
-                      const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD
-                        .current.offsetTop;
+                      const immigrationOffsetTop = this.IMMIGRATION.current
+                        .offsetTop;
                       if (
                         this.props.scrollTop <
-                        ownershipFraudHeight + ownershipFraudOffsetTop
+                        immigrationHeight + immigrationOffsetTop
                       ) {
-                        this.props.inSection("Ownership Fraud");
+                        this.props.inSection("Immigration");
                       } else {
-                        const falseAdvertInSenateHeight = this
-                          .FALSEADVERTINSENATE.current.offsetHeight;
-                        const falseAdvertInSenateOffsetTop = this
-                          .FALSEADVERTINSENATE.current.offsetTop;
+                        const ownershipFraudHeight = this.OWNERSHIPFRAUD.current
+                          .offsetHeight;
+                        const ownershipFraudOffsetTop = this.OWNERSHIPFRAUD
+                          .current.offsetTop;
                         if (
                           this.props.scrollTop <
-                          falseAdvertInSenateHeight +
-                            falseAdvertInSenateOffsetTop
+                          ownershipFraudHeight + ownershipFraudOffsetTop
                         ) {
-                          this.props.inSection("False Advert in Senate");
+                          this.props.inSection("Ownership Fraud");
                         } else {
-                          const insuranceFraudHeight = this.INSURANCEFRAUD
-                            .current.offsetHeight;
-                          const insuranceFraudOffsetTop = this.INSURANCEFRAUD
-                            .current.offsetTop;
+                          const falseAdvertInSenateHeight = this
+                            .FALSEADVERTINSENATE.current.offsetHeight;
+                          const falseAdvertInSenateOffsetTop = this
+                            .FALSEADVERTINSENATE.current.offsetTop;
                           if (
                             this.props.scrollTop <
-                            insuranceFraudHeight + insuranceFraudOffsetTop
+                            falseAdvertInSenateHeight +
+                              falseAdvertInSenateOffsetTop
                           ) {
-                            this.props.inSection("Insurance Fraud");
+                            this.props.inSection("False Advert in Senate");
                           } else {
-                            const virusHeight = this.VIRUS.current.offsetHeight;
-                            const virusOffsetTop = this.VIRUS.current.offsetTop;
+                            const insuranceFraudHeight = this.INSURANCEFRAUD
+                              .current.offsetHeight;
+                            const insuranceFraudOffsetTop = this.INSURANCEFRAUD
+                              .current.offsetTop;
                             if (
                               this.props.scrollTop <
-                              virusHeight + virusOffsetTop
+                              insuranceFraudHeight + insuranceFraudOffsetTop
                             ) {
-                              this.props.inSection("Virus");
+                              this.props.inSection("Insurance Fraud");
                             } else {
-                              const monopolyHeight = this.MONOPOLY.current
+                              const virusHeight = this.VIRUS.current
                                 .offsetHeight;
-                              const monopolyOffsetTop = this.MONOPOLY.current
+                              const virusOffsetTop = this.VIRUS.current
                                 .offsetTop;
                               if (
                                 this.props.scrollTop <
-                                monopolyHeight + monopolyOffsetTop
+                                virusHeight + virusOffsetTop
                               ) {
-                                this.props.inSection("Monopoly");
+                                this.props.inSection("Virus");
                               } else {
-                                const educationHeight = this.EDUCATION.current
+                                const monopolyHeight = this.MONOPOLY.current
                                   .offsetHeight;
-                                const educationOffsetTop = this.EDUCATION
-                                  .current.offsetTop;
+                                const monopolyOffsetTop = this.MONOPOLY.current
+                                  .offsetTop;
                                 if (
                                   this.props.scrollTop <
-                                  educationHeight + educationOffsetTop
+                                  monopolyHeight + monopolyOffsetTop
                                 ) {
-                                  this.props.inSection("Education");
+                                  this.props.inSection("Monopoly");
                                 } else {
-                                  const nullHypothesisHeight = this
-                                    .NULLHYPOTHESIS.current.offsetHeight;
-                                  const nullHypothesisOffsetTop = this
-                                    .NULLHYPOTHESIS.current.offsetTop;
+                                  const educationHeight = this.EDUCATION.current
+                                    .offsetHeight;
+                                  const educationOffsetTop = this.EDUCATION
+                                    .current.offsetTop;
                                   if (
                                     this.props.scrollTop <
-                                    nullHypothesisHeight +
-                                      nullHypothesisOffsetTop
+                                    educationHeight + educationOffsetTop
                                   ) {
-                                    this.props.inSection("Null Hypothesis");
+                                    this.props.inSection("Education");
                                   } else {
-                                    const securitiesFraudHeight = this
-                                      .SECURITIESFRAUD.current.offsetHeight;
-                                    const securitiesFraudOffsetTop = this
-                                      .SECURITIESFRAUD.current.offsetTop;
+                                    const nullHypothesisHeight = this
+                                      .NULLHYPOTHESIS.current.offsetHeight;
+                                    const nullHypothesisOffsetTop = this
+                                      .NULLHYPOTHESIS.current.offsetTop;
                                     if (
                                       this.props.scrollTop <
-                                      securitiesFraudHeight +
-                                        securitiesFraudOffsetTop
+                                      nullHypothesisHeight +
+                                        nullHypothesisOffsetTop
                                     ) {
-                                      this.props.inSection("Securities Fraud");
+                                      this.props.inSection("Null Hypothesis");
                                     } else {
-                                      const systematicInequalityHeight = this
-                                        .SYSTEMICINEQUALITY.current
-                                        .offsetHeight;
-                                      const systematicInequalityOffsetTop = this
-                                        .SYSTEMICINEQUALITY.current.offsetTop;
+                                      const securitiesFraudHeight = this
+                                        .SECURITIESFRAUD.current.offsetHeight;
+                                      const securitiesFraudOffsetTop = this
+                                        .SECURITIESFRAUD.current.offsetTop;
                                       if (
                                         this.props.scrollTop <
-                                        systematicInequalityHeight +
-                                          systematicInequalityOffsetTop
+                                        securitiesFraudHeight +
+                                          securitiesFraudOffsetTop
                                       ) {
                                         this.props.inSection(
-                                          "Systemic Inequality"
+                                          "Securities Fraud"
                                         );
                                       } else {
-                                        const missionHeight = this.MISSION
-                                          .current.offsetHeight;
-                                        const missionOffsetTop = this.MISSION
-                                          .current.offsetTop;
+                                        const systematicInequalityHeight = this
+                                          .SYSTEMICINEQUALITY.current
+                                          .offsetHeight;
+                                        const systematicInequalityOffsetTop = this
+                                          .SYSTEMICINEQUALITY.current.offsetTop;
                                         if (
                                           this.props.scrollTop <
-                                          missionHeight + missionOffsetTop
+                                          systematicInequalityHeight +
+                                            systematicInequalityOffsetTop
                                         ) {
-                                          this.props.inSection("Mission");
+                                          this.props.inSection(
+                                            "Systemic Inequality"
+                                          );
                                         } else {
-                                          const earlyCommsHeight = this
-                                            .EARLYCOMMS.current.offsetHeight;
-                                          const earlyCommsOffsetTop = this
-                                            .EARLYCOMMS.current.offsetTop;
+                                          const missionHeight = this.MISSION
+                                            .current.offsetHeight;
+                                          const missionOffsetTop = this.MISSION
+                                            .current.offsetTop;
                                           if (
                                             this.props.scrollTop <
-                                            earlyCommsHeight +
-                                              earlyCommsOffsetTop
+                                            missionHeight + missionOffsetTop
                                           ) {
-                                            this.props.inSection("Early Comms");
-                                          } else this.props.inSection("story");
+                                            this.props.inSection("Mission");
+                                          } else {
+                                            const earlyCommsHeight = this
+                                              .EARLYCOMMS.current.offsetHeight;
+                                            const earlyCommsOffsetTop = this
+                                              .EARLYCOMMS.current.offsetTop;
+                                            if (
+                                              this.props.scrollTop <
+                                              earlyCommsHeight +
+                                                earlyCommsOffsetTop
+                                            ) {
+                                              this.props.inSection(
+                                                "Early Comms"
+                                              );
+                                            } else
+                                              this.props.inSection("story");
+                                          }
                                         }
                                       }
                                     }
@@ -601,112 +618,124 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        You need to pay in advance under duress to keep up with the pooled
-        cross-party risk? Nobody needs this price-inelasticity by; abetting
-        invoices which are counterfeit in contract and pooling capacity
-        <br />
-        <br />
-        "In advance under durress? Isn’t price inelasticity dependent on asset
-        level and available options? Pooling is one of the best benefits of
-        insurance. Have you signed up for my email list?" - Financial Agent
-        <br />
-        <br />
-        It’s like the prisoner’s dilemma. Have to join to keep up with the
-        price-inelasticity of pooling (same utility for higher price), and if
-        they pay any ask of delayed settlement rather than what demand has it is
-        even higher than where supply and demand naturally meet their least
-        frugal price-makers and -takers.
-        <br />
-        <br />
-        Impossible to see long term effects, namely B-cell oncogenesis which is
-        slower to form, since the vaccines began testing. A 28 year old dying is
-        not worth the risk of the cold antibodies. Fix death for age it is
-        normal. First world countries have a lot of old people this decade
-        https://www.nature.com/articles/s41598-020-73777-8
-        <br />
-        <br />
-        Instead of do no harm, they want to ignore warnings, take any vaccine,
-        want to dismantle our ability to deny it forever
-        <br />
-        The&nbsp;<a href="">"vaccine"/graft</a>&nbsp;has not been studies for a
-        lifetime. There is no legally-financial guarantee liability of
-        non-immunity. You can still move oils/sweat with the antibodies, however
-        you make them, which are exactly alike to our fighting-made antibody
-        reaction to the cold. B-cell oncogenesis suredly happens, and the mRNA
-        changes B-cell.
-        <br />
-        <br />
-        Changing southern democrat to conservative democrat is a form of
-        propogranda. the democrats wanted to save nothing of the slaves'
-        <br />
-        <br />
-        "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
-        "you're right, I don't know how we are going to pay it back,"
-        replies&nbsp;
-        <a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">
-          Steve Moore
-        </a>
-        <br />
-        <br />
-        Just a money-grab for government to compete with govtechs like me
         <div
           style={{
-            width: "40%",
-            position: "relative"
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "New" && this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
+            width: "100%"
           }}
+          ref={this.NEW}
         >
-          <img
-            alt=""
+          You need to pay in advance under duress to keep up with the pooled
+          cross-party risk? Nobody needs this price-inelasticity by; abetting
+          invoices which are counterfeit in contract and pooling capacity
+          <br />
+          <br />
+          "In advance under durress? Isn’t price inelasticity dependent on asset
+          level and available options? Pooling is one of the best benefits of
+          insurance. Have you signed up for my email list?" - Financial Agent
+          <br />
+          <br />
+          It’s like the prisoner’s dilemma. Have to join to keep up with the
+          price-inelasticity of pooling (same utility for higher price), and if
+          they pay any ask of delayed settlement rather than what demand has it
+          is even higher than where supply and demand naturally meet their least
+          frugal price-makers and -takers.
+          <br />
+          <br />
+          Impossible to see long term effects, namely B-cell oncogenesis which
+          is slower to form, since the vaccines began testing. A 28 year old
+          dying is not worth the risk of the cold antibodies. Fix death for age
+          it is normal. First world countries have a lot of old people this
+          decade https://www.nature.com/articles/s41598-020-73777-8
+          <br />
+          <br />
+          Instead of do no harm, they want to ignore warnings, take any vaccine,
+          want to dismantle our ability to deny it forever
+          <br />
+          The&nbsp;<a href="https://humanharvest.info">"vaccine"/graft</a>
+          &nbsp;has not been studies for a lifetime. There is no
+          legally-financial guarantee liability of non-immunity. You can still
+          move oils/sweat with the antibodies, however you make them, which are
+          exactly alike to our fighting-made antibody reaction to the cold.
+          B-cell oncogenesis suredly happens, and the mRNA changes B-cell.
+          <br />
+          <br />
+          Changing southern democrat to conservative democrat is a form of
+          propogranda. the democrats wanted to save nothing of the slaves'
+          <br />
+          <br />
+          "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
+          "you're right, I don't know how we are going to pay it back,"
+          replies&nbsp;
+          <a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">
+            Steve Moore
+          </a>
+          <br />
+          <br />
+          Just a money-grab for government to compete with govtechs like me
+          <div
             style={{
-              width: "100%",
-              height: "auto"
+              width: "40%",
+              position: "relative"
             }}
-            src="https://www.dl.dropboxusercontent.com/s/twcxeleo8an08xo/IMG_3422.png?dl=0"
-          />
-        </div>{" "}
-        <br />
-        Nothing to do with redistribution
-        <br />
-        <br />
-        Immigrants should be able to buy property in two lamb-tail shakes
-        <br />
-        <br />
-        If I were a government contractor interested in the longevity of my
-        bonds, I would genetically engineer one Pete Butgieg to take equity to
-        pay over the ask on infrastructure
-        <br />
-        <br />
-        On Anderson Cooper some lady says racist person murderer needs to be
-        shunned and excluded from community. Whore, I know you are alluding to
-        me because if you were thinking about the subject you were using to talk
-        about me you wouldn't just suggest that we shun him. I have chosen to
-        work on my sites to retire early, and work in the open to retain
-        copyright and build rapport
-        <br />
-        <br />
-        Sen. Rounds, I like that Gold watch you rich fuck, give it to me you old
-        douche
-        <br />
-        <br />
-        <a href="https://www.daveramsey.com/blog/americans-have-debt#:~:text=A%20recent%20study%20showed%20that,first%2010%20people%20you%20see.">
-          80%
-        </a>
-        &nbsp;of the country is owned by&nbsp;
-        <a href="https://statista.com/chart/19955/household-debt-balance-in-the-united-states/">
-          20%
-        </a>
-        <br />
-        <br />
-        Bitch, I invented the&nbsp;
-        <a href="https://www.academia.edu/video/k5Gd51">spectrum</a>. only 1.6%
-        again&nbsp;<a href="https://www.facebook.com/IVN/">voted third party</a>
-        ? my ass
-        <br />
-        <br />
-        Do you really think most people are that stupid that they would prefer
-        other people to have more dollars for not working in order to pay less
-        taxes? 77WABC does
-        <br />
+          >
+            <img
+              alt=""
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/twcxeleo8an08xo/IMG_3422.png?dl=0"
+            />
+          </div>{" "}
+          <br />
+          Nothing to do with redistribution
+          <br />
+          <br />
+          Immigrants should be able to buy property in two lamb-tail shakes
+          <br />
+          <br />
+          If I were a government contractor interested in the longevity of my
+          bonds, I would genetically engineer one Pete Butgieg to take equity to
+          pay over the ask on infrastructure
+          <br />
+          <br />
+          On Anderson Cooper some lady says racist person murderer needs to be
+          shunned and excluded from community. Whore, I know you are alluding to
+          me because if you were thinking about the subject you were using to
+          talk about me you wouldn't just suggest that we shun him. I have
+          chosen to work on my sites to retire early, and work in the open to
+          retain copyright and build rapport
+          <br />
+          <br />
+          Sen. Rounds, I like that Gold watch you rich fuck, give it to me you
+          old douche
+          <br />
+          <br />
+          <a href="https://www.daveramsey.com/blog/americans-have-debt#:~:text=A%20recent%20study%20showed%20that,first%2010%20people%20you%20see.">
+            80%
+          </a>
+          &nbsp;of the country is owned by&nbsp;
+          <a href="https://statista.com/chart/19955/household-debt-balance-in-the-united-states/">
+            20%
+          </a>
+          <br />
+          <br />
+          Bitch, I invented the&nbsp;
+          <a href="https://www.academia.edu/video/k5Gd51">spectrum</a>. only
+          1.6% again&nbsp;
+          <a href="https://www.facebook.com/IVN/">voted third party</a>
+          ? my ass
+          <br />
+          <br />
+          Do you really think most people are that stupid that they would prefer
+          other people to have more dollars for not working in order to pay less
+          taxes? 77WABC does
+        </div>
         <br />
         <div
           style={{
@@ -14024,4 +14053,3 @@ export default class App extends React.Component {
     );
   }
 }
-
