@@ -5417,6 +5417,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/t48rsm359covph3/WhereEverybody.jpeg?dl=0"
             />
           </div>
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -5441,52 +5442,11 @@ export default class App extends React.Component {
             />
           </div>
           <br />
-          <br />
           If you didn't interfere and adjunicate in favor of invoices, people
           would be&nbsp;
           <a href="https://en.wikipedia.org/wiki/Price_elasticity_of_demand">
             able to afford heart surgery, bookie
           </a>
-          <br />
-          <br />
-          <span
-            ref={this.financeKills}
-            style={{
-              display: "block",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightFinanceKills ? "white" : "grey",
-              backgroundColor: this.state.highlightFinanceKills
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            the only crisis is in 1xbook assets that only have 1:13&nbsp;
-            <a href="https://micro-theory.com">(30, 41?)</a> if adjunicated now
-            <br />
-            if debt and Bernie Sanders didn't exists, the rich would kill us
-            <br />
-            <br />
-            There is not enough wealth&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.dispair.current.scrollIntoView("smooth");
-                this.setState({ highlightDispair: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightDispair: false }),
-                  10000
-                );
-              }}
-            >
-              disparity
-            </span>
-            &nbsp;in assets alone. They need to call debt, assets. Wealth beyond
-            utility is how deparate we are - to eachother
-          </span>
           <br />
           <br />
           Bernie Sanders opening remarks, "Why are we responding by
@@ -5522,6 +5482,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/s1k8ypftakyoeqk/JustBusiness.jpeg?dl=0"
             />
           </div>
+          <br />
           <i>
             <a
               style={{
@@ -5572,6 +5533,7 @@ export default class App extends React.Component {
           unnacceptable... we must make sure grocery stores are paid"
           <br />
           covid is not the killer using death-print analysis
+          <br />
           <br />
           <i>
             <a
@@ -5710,10 +5672,12 @@ export default class App extends React.Component {
             , I'd say that is the last thing she would want to do.
           </i>
           <br />
+          <br />
           Wyden says, "Covid has put people out of work, that is immoral and
           unnacceptable"
           <br />
           covid is not the killer using death-print analysis
+          <br />
           <br />
           <i>
             <a
@@ -5741,10 +5705,12 @@ export default class App extends React.Component {
             Trump-haters are violent and harrass with subjective insults,
             damaging my mental state
             <br />
+            <br />
             “Necessary investment in broadband infrastructure” necessary for
             what? Unnamed.... & just assumed is necessary by the House Gluttons
             to excuse theft and benefit bond-holders/buyers instead of LETTING
             PRICES FALL
+            <br />
             <br />
             Using debt (promises of other peoples' assets) is ILLEGAL
             Connecticut... to use it competitively is even worse for
@@ -5789,6 +5755,7 @@ export default class App extends React.Component {
               state sanctioned, paid, conflictedly-interested experts
             </span>
             <br />
+            <br />
             Communist-Wall street Democrats are killing us to match their own
             speculation over the years and promise more than we are able. There
             isn't enough and you hve no civil right to make more credit
@@ -5826,16 +5793,17 @@ export default class App extends React.Component {
               &nbsp;regardless the unrequited consent of unemployment insurance
               arrangement (see absolute bottom of page)
               <br />
+              <br />
               "Investment-grade bonds," Are made that way by the very
               institution lending these out. Relying on the collusion in which
               it is the prosecution's (mine) duty to cite, the democrat aides
               admit to here in HR.1
               <br />
+              <br />
               “Special financial assistance,” would be to help negotiate
               original principle without credit found market marginal
               utility:cost price, not favor the lender or overreaching landlord
             </span>
-            <br />
             <br />
             "133% of poverty line," poverty line is made up by surveys you
             fucking bitch
@@ -5901,9 +5869,11 @@ export default class App extends React.Component {
             <br />
             <a href="https://budget.house.gov/sites/democrats.budget.house.gov/files/documents/S%20Con%20Res%205%20Bill%20Final.pdf">
               ABJECT FRAUDULENT INTENTIONS APPARENT IN THE RULES OF CREDIT IN
-              HR1 THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGEION OR
-              SPECIFIED DIAGNOSIS WHICH MAY BE COLD WITH SIMILAR ANTIBODIES
-            </a>
+              HR1
+            </a>{" "}
+            THEREUNDER YOU HAVE NO EVIDENCE OF VIRAL CONTAGION, OR SPECIFIED
+            DIAGNOSIS, WHICH MAY BE&nbsp;
+            <a href="https://moldmask.co">COLD WITH SIMILAR ANTIBODIES</a>
             <br />
             <span
               style={{
@@ -6584,6 +6554,7 @@ export default class App extends React.Component {
             <a href="https://wavv.art/United_States_of_America">Con gress</a>
           </div>
         </div>
+        <br />
         <div
           style={{
             width: "100%"
@@ -11677,6 +11648,46 @@ export default class App extends React.Component {
           }}
           ref={this.SYSTEMICINEQUALITY}
         >
+          <span
+            ref={this.financeKills}
+            style={{
+              display: "block",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightFinanceKills ? "white" : "grey",
+              backgroundColor: this.state.highlightFinanceKills
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            the only crisis is in 1xbook assets that only have 1:13&nbsp;
+            <a href="https://micro-theory.com">(30, 41?)</a> if adjunicated now
+            <br />
+            if debt and Bernie Sanders didn't exists, the rich would kill us
+            <br />
+            <br />
+            There is not enough wealth&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.dispair.current.scrollIntoView("smooth");
+                this.setState({ highlightDispair: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightDispair: false }),
+                  10000
+                );
+              }}
+            >
+              disparity
+            </span>
+            &nbsp;in assets alone. They need to call debt, assets. Wealth beyond
+            utility is how deparate we are - to eachother
+          </span>
+          <br />
+          <br />
           <iframe
             title="Dr Seuss cultural zoo"
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcnn%2Fposts%2F10161796504751509&width=300&show_text=true&height=444&appId"
