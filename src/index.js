@@ -108,6 +108,19 @@ class Index extends React.Component {
             position: "absolute"
           }}
         >
+          <a
+            href="https://micro-theory.com"
+            style={{
+              textDecoration: "none",
+              right: "37px",
+              color: "white",
+              fontWeight: "bolder",
+              position: "fixed",
+              fontSize: "8px"
+            }}
+          >
+            Vain & co.
+          </a>
           <div
             style={{
               transform: "rotate(90deg)",
