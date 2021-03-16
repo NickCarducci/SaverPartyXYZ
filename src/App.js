@@ -601,6 +601,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Changing southern democrat to conservative democrat is a form of
+        propogranda. the democrats wanted to save nothing of the slaves'
+        <br />
+        <br />
         "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
         "you're right, I don't know how we are going to pay it back," replies&nbsp;<a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">Steve Moore</a>
         <br/>
