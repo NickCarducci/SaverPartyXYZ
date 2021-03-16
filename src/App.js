@@ -623,6 +623,25 @@ export default class App extends React.Component {
         SUPPLY CAPACITY OR VOLUNTEER OR LESS FRUGAL PRODUCERS, NOT STEAL BY
         COUNTERFEIT-IN-CONTRACT
         <br />
+        <div
+          style={{
+            width: "40%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/fohi9a6fxtrch0q/NeedFundsImmediately.jpeg?dl=0"
+          />
+        </div>{" "}
+        <br />
+        "Need funds immediately." NO YOU DON'T you need to adjunicate finance,
+        insurance-by-duress & involuntary trade now
+        <br />
         <br />
         "Leverage things" of donors or settled-market price, not equity. That's
         illegal. It is not a matter of time. Naturally debt:cash is 1:1 in 1908,
@@ -14184,5 +14203,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-
