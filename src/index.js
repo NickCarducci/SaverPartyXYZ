@@ -122,7 +122,7 @@ class Index extends React.Component {
               height:
                 this.state.inSection !== "story" && this.state.openMenu
                   ? "min-content"
-                  : "130px",
+                  : "150px",
               right: "0px",
               top: "0px",
               backgroundColor: "rgb(5,5,5)"
@@ -151,6 +151,15 @@ class Index extends React.Component {
             >
               ☠️
             </span>
+            {!this.state.openMenu &&
+              this.state.inSection
+                .replace("-", " ")
+                .split(" ")
+                .map((x) => (
+                  <span style={{ width: "max-content" }}>
+                    {x.length < 5 ? x : x.substring(0, 5)}
+                  </span>
+                ))}
             {[
               "Rentier-Colonialism",
               "Abuse of Power",
@@ -963,6 +972,7 @@ class Index extends React.Component {
               scrolling={this.state.scrolling}
               scrollTop={this.state.scrollTop}
               top={this.state.top}
+              section={this.state.inSection}
               goToTop={() =>
                 this.setState({ highlightLaw: true }, () => {
                   setTimeout(
