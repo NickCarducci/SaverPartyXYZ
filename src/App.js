@@ -640,7 +640,7 @@ export default class App extends React.Component {
         </div>{" "}
         <br />
         "Need funds immediately." NO YOU DON'T you need to adjunicate finance,
-        insurance-by-duress & involuntary trade now
+        insurance-by-duress, rentier-colonism & involuntary trade now
         <br />
         <br />
         "Leverage things" of donors or settled-market price, not equity. That's
