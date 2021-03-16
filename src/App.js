@@ -1972,7 +1972,7 @@ export default class App extends React.Component {
               entanglements
             </span>
             &nbsp;with the Chinese... work in-line with national-security
-            principals out of this" - Fmr Sec. State Pompeo
+            principals out of this" - Fmr Sec. State&nbsp;<a href="https://vianickcarducci.medium.com/gdp-the-big-lie-b1a0868785f4">Pompeo</a>
           </div>
           <div
             ref={this.stats}
