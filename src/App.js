@@ -629,6 +629,46 @@ export default class App extends React.Component {
           }}
           ref={this.NEW}
         >
+          The only path forward is the&nbsp;
+          <span
+            onClick={() => {
+              this.setState({ openForm: false, scrolled: false });
+              this.invite.current.scrollIntoView("smooth");
+            }}
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            Efficiency Act
+          </span>
+          &nbsp;and debt:cash reconciliation for all purchases to which the most
+          frugal price-giving ask and price-taking person found price*output(or
+          individual-efficiency, comparative-advantage productivity)
+          <br />
+          "The people that do the best will have to pony up [for Nick Carducci's
+          competitors who take credit from government contracts]" - Joe Biden,
+          CNN
+          <br />
+          That is not the best way to make sure the people that earned equity by
+          cheating&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.dispair.current.scrollIntoView("smooth");
+              this.setState({ highlightDispair: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightDispair: false }),
+                10000
+              );
+            }}
+          >
+            repair
+          </span>
+          <br />
+          <br />
           You need to pay in advance under duress to keep up with the pooled
           cross-party risk? Nobody needs this price-inelasticity by; abetting
           invoices which are counterfeit in contract and pooling capacity
@@ -12051,9 +12091,13 @@ export default class App extends React.Component {
           </div>
           <br />
           <i
+            ref={this.nextsteps}
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
+              textEmphasis: "italics",
+              transition: ".3s ease-in",
+              color: this.state.highlightFP ? "white" : "",
+              backgroundColor: this.state.highlightFP ? "rgb(170,100,205)" : ""
             }}
           >
             next steps
@@ -12123,7 +12167,6 @@ export default class App extends React.Component {
               ref={this.foreignpolicy}
               style={{
                 transition: ".3s ease-in",
-
                 color: this.state.highlightFP ? "white" : "",
                 backgroundColor: this.state.highlightFP
                   ? "rgb(170,100,205)"
@@ -14053,3 +14096,4 @@ export default class App extends React.Component {
     );
   }
 }
+
