@@ -623,6 +623,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+Verbal bullying isn't illegal, Bitch
+        <br/>
+        <br/>
         Stop saying how business can benefit from a package that is only a portion of what you take in equitymoney
         <br/>
         <br/>
