@@ -31,7 +31,7 @@ class Index extends React.Component {
       const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
       const topSortHeight = this.topSort.current.offsetHeight;
       const scrollPlacementHeight = Math.round(
-        (innerHeight / 2 - 115) * (scrollTop / scrollHeight)
+        (innerHeight - 115) * (scrollTop / scrollHeight)
       );
       const top = scrollTop === 0;
       this.setState(
@@ -47,7 +47,7 @@ class Index extends React.Component {
             this.setState(
               {
                 scrolling: false,
-                landedPresentation: scrollTop - topSortHeight > 0
+                landedPresentation: scrollTop > topSortHeight + innerHeight + 40
               },
               () => {
                 clearTimeout(this.scrollScrollTimeout);
@@ -107,28 +107,31 @@ class Index extends React.Component {
         >
           <div
             style={{
-              justifyContent: "center",
-              alignItems: "center",
-              display: this.state.landedPresentation ? "flex" : "none",
+              zIndex: -1,
+              backgroundColor: "rgb(255,255,255)",
+              position: "fixed",
+              width: "40px",
+              display:
+                this.state.landedPresentation &&
+                !this.state.top &&
+                this.state.openMenu
+                  ? "flex"
+                  : "none",
               left: "0px",
-              top: "0px",
-              position: "relative"
+              top: "0px"
             }}
           >
             <div
               onClick={() => this.setState({ openMenu: false })}
               style={{
-                justifyContent: "center",
-                alignItems: "center",
+                position: "relative",
                 transform: "rotate(90deg)",
-                backgroundColor: "rgb(255,255,255)",
                 display: "flex",
-                position: "fixed",
-                top: "90px",
-                left: "-60px",
+                top: "0px",
+                left: "0px",
                 height: "40px",
                 color: "black",
-                width: "max-content",
+                width: "100%",
                 transition: ".3s ease-out"
               }}
             >
@@ -145,7 +148,7 @@ class Index extends React.Component {
                   ? "flex-start"
                   : "center",
               width: "min-content",
-              zIndex: "1",
+              zIndex: 1,
               color: "white",
               fontSize: "9px",
               position: "fixed",
@@ -285,7 +288,6 @@ class Index extends React.Component {
         <div
           ref={this.page}
           style={{
-            zIndex: "-1",
             top: "0px",
             display: "flex",
             alignItems: "center",
@@ -298,6 +300,7 @@ class Index extends React.Component {
         >
           <div
             style={{
+              zIndex: 1,
               height: "min-content",
               right: "0px",
               width: "100%",
@@ -918,6 +921,7 @@ class Index extends React.Component {
           </div>
           <div
             style={{
+              zIndex: 1,
               display: "flex",
               alignItems: "flex-end",
               width: "100%",
