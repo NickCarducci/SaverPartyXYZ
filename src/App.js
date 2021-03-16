@@ -601,6 +601,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
+        "you're right, I don't know how we are going to pay it back," replies&nbsp;<a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">Steve Moore</a>
+        <br/>
+        <br/>
         Just a money-grab for government to compete with govtechs like me
         <div
           style={{
