@@ -148,7 +148,7 @@ class Index extends React.Component {
                   ? "flex-start"
                   : "center",
               width: "min-content",
-              zIndex: 1,
+              zIndex: 2,
               color: "white",
               fontSize: "9px",
               position: "fixed",
