@@ -566,14 +566,17 @@ export default class App extends React.Component {
       <div
         style={{
           transform: `translateX(${
-            this.props.landedPresentation ? "40px" : "0px"
+            this.props.landedPresentation && !this.props.openMenu
+              ? "40px"
+              : "0px"
           })`,
           transition: `${
-            this.props.landedPresentation ? ".3" : ".7"
+            this.props.landedPresentation && !this.props.openMenu ? ".3" : ".7"
           }s ease-in-out`,
-          color: this.props.landedPresentation
-            ? "rgb(135,170,205)"
-            : "rgb(60,70,85)",
+          color:
+            this.props.landedPresentation && !this.props.openMenu
+              ? "rgb(135,170,205)"
+              : "rgb(60,70,85)",
           display: "block",
           margin: "7px",
           position: "relative",
@@ -620,6 +623,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Democrats are making it harder for election security professionals to
+        ensure the ballot matches their I.D., need something like thumbprint.us
+        or in-person state-issued I.D. check for that.
+        <br />
+        <br />
         There is a bit of vaccine non-information out there
         <br />
         <br />
