@@ -601,6 +601,19 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Sen. Rounds, I like that Gold watch you rich fuck, give it to me you old
+        douche
+        <br />
+        <br />
+        <a href="https://www.daveramsey.com/blog/americans-have-debt#:~:text=A%20recent%20study%20showed%20that,first%2010%20people%20you%20see.">
+          80%
+        </a>
+        &nbsp;of the country is owned by&nbsp;
+        <a href="https://statista.com/chart/19955/household-debt-balance-in-the-united-states/">
+          20%
+        </a>
+        <br />
+        <br />
         Bitch, I invented the&nbsp;
         <a href="https://www.academia.edu/video/k5Gd51">spectrum</a>. only 1.6%
         again&nbsp;<a href="https://www.facebook.com/IVN/">voted third party</a>
@@ -617,6 +630,147 @@ export default class App extends React.Component {
           }}
           ref={this.RENTIERCOLONIALISM}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            You can split shares initially at the max of whatever state, or try
+            just writing your own royalty contracts...
+            <br />
+            If you do the former and pay corporate tax to go public, then you
+            can make denominations of 50 or 1 (100 shares), situated to vote on
+            how to appropriate further dilution/payout decisions w...
+          </div>
+          <br />
+          @FoxBusiness charles, people not working doesn't increase debt you
+          retard, it lowers price if you make invoices fucking illegal
+          <br />
+          what'd you miss? suck my dick. all negative points on your stocks, you
+          can blame it on me
+          <br />
+          <br />
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trueGDP.current.scrollIntoView("smooth");
+              this.setState({ highlightTrueGDP: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrueGDP: false }),
+                10000
+              );
+            }}
+          >
+            higher gdp is not better economy you gluttonous slut
+          </span>
+          &nbsp;Elizabeth Kate Claman, it is mostly invoices/counterfeit
+          <br />
+          <br />
+          Curtis Swila and Democrats must be conspiring, giving Stimulus and
+          enforcing collection by landlords/debtors. Most apparent fraud to
+          conspire to prohibit-trade in price elasticity or reposession/down
+          payment reconciliation for borrowers' customers there can possibly be
+          without written intent
+          <br />
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Driving citizens crazy
+          </i>
+          <br />
+          Lenders do not want bankruptcy, but they want Stimulus for borrowers
+          instead of the protection I can provide with legal arguments below,
+          because then the debt can no longer enslave the colonized-borrowers'
+          customers down payments, or compete (by adding utility other than
+          counterfeiting contracts to themselves of an unrequited dollar owner
+          and self since it is more than principal without waiting customers'
+          willingness and ability at the natural price).
+          <br />
+          <br />
+          Supply-side masked as altruism. ban invoices of borrowers' customers'
+          money, rent-colonist interventionist non-producing slave-drivers,
+          counterfeit-contracts of borrowers' customers' money and insurance
+          prisoner's dilemma&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            duress
+          </span>
+          &nbsp;to not fight fire with fire.
+          <br />
+          <br />
+          Stay afloat with stolen money (+ involuntary servitude to pay it back
+          and to the benefit of bond-holders), how about get them out of the
+          water
+          <br />
+          <br />
+          Do you think a contract of corporate shares could adjudicate, in
+          court, in favor of the lender without reparations of down payment for
+          the borrower’s customers? Promising to split the dollar
+          (price-inelasticity inflation) is&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            just as involuntary as splitting it
+          </span>
+          &nbsp;(monetary inflation), normally a choice made by the
+          dollar-shareholder. Currently the counterfeit debt:cash ratio in US
+          dollars is 12:1. The second comment about price-elasticity is the fact
+          that suppliers take as high a price as possible. Funding, regardless
+          of the legality of its source - counterfeit or not, is always to the
+          betterment of supply.
+          <br />
+          <br />
+          <span
+            ref={this.bidask}
+            style={{
+              color: this.state.highlightBidAsk ? "white" : "",
+              backgroundColor: this.state.highlightBidAsk
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            In market economics, demand are price takers - our only respite is
+            our capacity to spend in this ask first-bid later negotiation
+            process.
+          </span>
+          <br />
+          <br />
           Union collusion & duress strike of labors' time, is fine to corner by
           antitrust intent, but supply or assets on the other hand must compete
           by winning favor of price-taking consumers to have, settled, of their
@@ -6611,6 +6765,44 @@ export default class App extends React.Component {
           }}
           ref={this.INSURANCEFRAUD}
         >
+          <div style={{ position: "relative" }}>
+            <img
+              style={{ width: "100%", height: "auto" }}
+              alt="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
+            />
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            Usurped rights is no right at all
+          </i>
+          <br />
+          <br />
+          Unemployment Insurance is fraud abjectly and forgoes bootstrapping
+          entrepreneurs and labor. why not some more demand side policies like
+          making invoices/debt/rent/
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance
+          </span>
+          &nbsp;illegal by precedent; it is already illegal per colonialism,
+          prisoners' dilemma and usurped voting rights for being waged in
+          contracts being involuntary slavery
           <br />
           <div style={tweetsStyle}>
             Do not say taxpayers pay for operations 12x existing money.
@@ -9138,270 +9330,6 @@ export default class App extends React.Component {
             with corporate shares!
           </div>
           <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            You can split shares initially at the max of whatever state, or try
-            just writing your own royalty contracts...
-            <br />
-            If you do the former and pay corporate tax to go public, then you
-            can make denominations of 50 or 1 (100 shares), situated to vote on
-            how to appropriate further dilution/payout decisions w...
-          </div>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            @FoxBusiness charles, people not working doesn't increase debt you
-            retard, it lowers price if you make invoices fucking illegal
-            <br />
-            what'd you miss? suck my dick. all negative points on your stocks,
-            you can blame it on me
-            <br />
-            <br />
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.trueGDP.current.scrollIntoView("smooth");
-                this.setState({ highlightTrueGDP: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightTrueGDP: false }),
-                  10000
-                );
-              }}
-            >
-              higher gdp is not better economy you gluttonous slut
-            </span>
-            &nbsp;Elizabeth Kate Claman, it is mostly invoices/counterfeit
-            <br />
-            <br />
-            Curtis Swila and Democrats must be conspiring, giving Stimulus and
-            enforcing collection by landlords/debtors. Most apparent fraud to
-            conspire to prohibit-trade in price elasticity or reposession/down
-            payment reconciliation for borrowers' customers there can possibly
-            be without written intent
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Driving citizens crazy
-          </i>
-          <br />
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            lenders do not want bankruptcy, but they want Stimulus for borrowers
-            instead of the protection I can provide with legal arguments below,
-            because then the debt can no longer enslave the colonized-borrowers'
-            customers down payments, or compete (by adding utility other than
-            counterfeiting contracts to themselves of an unrequited dollar owner
-            and self since it is more than principal without waiting customers'
-            willingness and ability at the natural price)
-            <br />
-            <br />
-            <a
-              style={{
-                fontFamily: '"Hi Melody", sans-serif'
-              }}
-              href="https://froth.app/debt"
-            >
-              Sid Rosenberg
-            </a>
-            &nbsp;says, rip criminals limb from limb, “very jewish” if Jesus
-            protest animal abuse (is a wishbone magical entrapment by
-            nomenclature?) and crucifixion (well actually it was a pedophile so
-            we can talk figuratively)
-            <br />
-            <br />
-            John Catsimatidis apparently took the show, "Mind your Business," an
-            apparent verbal jab at the reason for the&nbsp;
-            <a
-              style={{
-                fontFamily: '"Hi Melody", sans-serif'
-              }}
-              href="https://voxeu.org/article/financial-crisis-and-right-wing-extremism-germany-1931-33"
-            >
-              Third Reich who campaigned on ending financial discrimination by
-              non-jews
-            </a>
-            , off the air, a scourge through&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              insurance companies
-            </span>
-            &nbsp;owned by&nbsp;
-            <a
-              style={{
-                fontFamily: '"Hi Melody", sans-serif'
-              }}
-              href="https://froth.app/debt"
-            >
-              Jewish
-            </a>
-            &nbsp;operators as I have began publishing my, "Banking is not a
-            Business" pre-prints.
-            <br />
-            <br />
-            <span
-              ref={this.italy}
-              style={{
-                color: this.state.highlightItaly ? "white" : "",
-                backgroundColor: this.state.highlightItaly
-                  ? "rgb(170,100,205)"
-                  : "",
-                transition: ".3s ease-out"
-              }}
-            >
-              U.S. schools teach Italy joined because hair color!
-            </span>
-            <br />
-            <br />
-            supply-side masked as altruism. ban invoices of borrowers'
-            customers' money, rent-colonist interventionist non-producing
-            slave-drivers, counterfeit-contracts of borrowers' customers' money
-            and insurance prisoner's dilemma
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.insurance.current.scrollIntoView("smooth");
-                this.setState({ highlightPrisonersDuress: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightPrisonersDuress: false }),
-                  10000
-                );
-              }}
-            >
-              duress
-            </span>
-            &nbsp;to not fight fire with fire.
-            <br />
-            <br />
-            stay afloat with stolen money (+ involuntary servitude to pay it
-            back and to the benefit of bond-holders), how about get them out of
-            the water
-            <br />
-            <br />
-            do you think a contract of corporate shares could adjudicate, in
-            court, in favor of the lender without reparations of down payment
-            for the borrower’s customers? Promising to split the dollar
-            (price-inelasticity inflation) is&nbsp;
-            <span
-              style={{
-                fontWeight: "bolder",
-                textDecoration: "underline"
-              }}
-              onClick={() => {
-                this.inflation.current.scrollIntoView("smooth");
-                this.setState({ highlightInflation: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightInflation: false }),
-                  10000
-                );
-              }}
-            >
-              just as involuntary as splitting it
-            </span>
-            &nbsp; (monetary inflation), normally a choice made by the
-            dollar-shareholder. Currently the counterfeit debt:cash ratio in US
-            dollars is 12:1. The second comment about price-elasticity is the
-            fact that suppliers take as high a price as possible. Funding,
-            regardless of the legality of its source - counterfeit or not, is
-            always to the betterment of supply.&nbsp;
-            <span
-              ref={this.bidask}
-              style={{
-                color: this.state.highlightBidAsk ? "white" : "",
-                backgroundColor: this.state.highlightBidAsk
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              In market economics, demand are price takers - our only respite is
-              our capacity to spend in this ask first-bid later negotiation
-              process.
-            </span>
-          </div>
-          <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Usurped rights is no right at all
-          </i>
-          <br />
-          <br />
-          this is fraud and forgoes bootstrapping entrepreneurs and labor. why
-          not some more demand side policies like making invoices/debt/rent/
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.insurance.current.scrollIntoView("smooth");
-              this.setState({ highlightPrisonersDuress: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightPrisonersDuress: false }),
-                10000
-              );
-            }}
-          >
-            insurance
-          </span>
-          &nbsp;illegal by precedent; it is already illegal per colonialism,
-          prisoners' dilemma and usurped voting rights for being waged in
-          contracts being involuntary slavery
-          <br />
-          <br />
           Supply-side colonialism
           <br />
           By not being a consumer nor producer; end-producer of competition in
@@ -10095,115 +10023,9 @@ export default class App extends React.Component {
               wavv.art/forumqWvK2fk3GcFligVsTZ0f
             </a>
           </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            Savers are disenfranchised by current&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.fintech.current.scrollIntoView("smooth");
-                this.setState({ highlightFintech: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightFintech: false }),
-                  10000
-                );
-              }}
-            >
-              fintech
-            </span>
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Unemployment is 40% of people!! Some people work for dollars from
-            another market, I work for market share for IP & waiting for
-            merchant service that deals without credit
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            It’s illegal because it can compete with the dollar as currency
-          </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            Performance enhancer or monopsony by government/lobbyists?
-            <br />
-            I interpret that as meeting the right to own property halfway and
-            prescriptions are just a method to keep people from saving in
-            medicine rather than... numbers we were forced to use in 1932 by
-            threat of jail and theft
-            <br />I am for 3% sales tax under $2k (with spoofable geohash in
-            transaction line for accounting software) unless it is not a
-            long-standing operation I guess to account for shovelers and
-            gift-trades, for services that cannot avoid the free rider problem
-            like cops/plow/road/jail/court w/o conflict of interest bail.
-          </div>
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
-            }}
-          >
-            banned critical investigation
-            <br />
-            <br />
-            Trade is exchange of benefits, not sharing of risk or an absolute
-            placement of cost on a supplier and consumer
-            <br />
-            <br />
-            <span
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightUUID ? "white" : "",
-                backgroundColor: this.state.highlightUUID
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.UUID}
-            >
-              UUID
-            </span>
-            &nbsp; is key of PII for trading. 13d gets protected
-            <br />
-            <br />
-            return is not valuation, S&P return is what all sales or all shares
-            can get, not what last traded is. Government CANNOT claim negligence
-            because of the removal of Glass Steagal mileading call of valuation
-            that cannot pay out that amount as a "savings" value
-          </i>
-          <div style={{ position: "relative" }}>
-            <img
-              style={{ width: "100%", height: "auto" }}
-              alt="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
-              src="https://www.dl.dropboxusercontent.com/s/ilfchtcgahjjwba/Spot%20Insurance%20%281%29.png?dl=0"
-            />
-          </div>
+          <i>banned critical investigation</i>
+          <br />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10830,6 +10652,86 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          Savers are disenfranchised by current&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.fintech.current.scrollIntoView("smooth");
+              this.setState({ highlightFintech: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFintech: false }),
+                10000
+              );
+            }}
+          >
+            fintech
+          </span>
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+
+              flexDirection: "column",
+              alignItems: "center",
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            Unemployment is 40% of people!! Some people work for dollars from
+            another market, I work for market share for IP & waiting for
+            merchant service that deals without credit
+          </div>
+          <i
+            style={{
+              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
+              textEmphasis: "italics"
+            }}
+          >
+            It’s illegal because it can compete with the dollar as currency
+          </i>
+          Performance enhancer or monopsony by government/lobbyists?
+          <br />
+          <br />
+          I interpret that as: meeting the right to own property halfway, and
+          prescriptions, a method to keep people from saving in medicine rather
+          than... numbers we were forced to use in 1932 by threat of jail and
+          theft
+          <br />
+          <br />I am for 3% sales tax under $2k (with spoofable geohash in
+          transaction line for accounting software) unless it is not a
+          long-standing operation I guess to account for shovelers and
+          gift-trades, for services that cannot avoid the free rider problem
+          like cops/plow/road/jail/court w/o conflict of interest bail.
+          <br />
+          Trade is exchange of benefits, not sharing of risk or an absolute
+          placement of cost on a supplier and consumer
+          <br />
+          <br />
+          <span
+            style={{
+              transition: ".3s ease-in",
+
+              color: this.state.highlightUUID ? "white" : "",
+              backgroundColor: this.state.highlightUUID
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.UUID}
+          >
+            UUID
+          </span>
+          &nbsp;is key of PII for trading. 13d gets protected
+          <br />
+          <br />
+          Return is not valuation, S&P return is what all sales or all shares
+          can get, not what last traded is. Government CANNOT claim negligence
+          because of the removal of Glass Steagal mileading call of valuation
+          that cannot pay out that amount as a "savings" value
+          <br />
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -12360,6 +12262,73 @@ export default class App extends React.Component {
             &nbsp;and makes communism/colonialism/quotas or prisoners’ dilemma
             duress-pooling again
           </div>
+          <br />
+          <a
+            style={{
+              fontFamily: '"Hi Melody", sans-serif'
+            }}
+            href="https://froth.app/debt"
+          >
+            Sid Rosenberg
+          </a>
+          &nbsp;says, rip criminals limb from limb, “very jewish” if Jesus
+          protest animal abuse (is a wishbone magical entrapment by
+          nomenclature?) and crucifixion (well actually it was a pedophile so we
+          can talk figuratively)
+          <br />
+          <br />
+          John Catsimatidis apparently took the show, "Mind your Business," an
+          apparent verbal jab at the reason for the&nbsp;
+          <a
+            style={{
+              fontFamily: '"Hi Melody", sans-serif'
+            }}
+            href="https://voxeu.org/article/financial-crisis-and-right-wing-extremism-germany-1931-33"
+          >
+            Third Reich who campaigned on ending financial discrimination by
+            non-jews
+          </a>
+          , off the air, a scourge through&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.insurance.current.scrollIntoView("smooth");
+              this.setState({ highlightPrisonersDuress: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightPrisonersDuress: false }),
+                10000
+              );
+            }}
+          >
+            insurance companies
+          </span>
+          &nbsp;owned by&nbsp;
+          <a
+            style={{
+              fontFamily: '"Hi Melody", sans-serif'
+            }}
+            href="https://froth.app/debt"
+          >
+            Jewish
+          </a>
+          &nbsp;operators as I have began publishing my, "Banking is not a
+          Business" pre-prints.
+          <br />
+          <br />
+          <span
+            ref={this.italy}
+            style={{
+              color: this.state.highlightItaly ? "white" : "",
+              backgroundColor: this.state.highlightItaly
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+          >
+            U.S. schools teach Italy joined because hair color!
+          </span>
           <br />
           <br />
           <div style={tweetsStyle}>
@@ -13918,3 +13887,4 @@ export default class App extends React.Component {
     );
   }
 }
+
