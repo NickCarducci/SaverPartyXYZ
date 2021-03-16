@@ -623,6 +623,10 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Either I am just listening more, or the media 
+        is just spewing more nonsense than usual to which I have to fact-check, I can only deduce that it is to prevent me from finishing thumbprint.us to which it is an alternative government and their bond would go to zero if citizens chose it
+        <br />
+        <br />
         Democrats are making it harder for election security professionals to
         ensure the ballot matches their I.D., need something like thumbprint.us
         or in-person state-issued I.D. check for that.
