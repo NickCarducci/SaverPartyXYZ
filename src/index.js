@@ -267,7 +267,7 @@ class Index extends React.Component {
           style={{
             opacity: showSquirrel ? 1 : 0.3,
             top: 90 + this.state.scrollPlacementHeight,
-            zIndex: 1,
+            zIndex: 2,
             right: "10px",
             width: "30px",
             position: "fixed",
