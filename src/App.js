@@ -7056,7 +7056,10 @@ export default class App extends React.Component {
         >
           What is Florida doing right? they ran out of old people. adjust for
           age and the "vaccine"/graft kills more people compared to other times
-          in recent history. &nbsp;<a href="https://en.wikipedia.org/wiki/Dan_Gelber">Suck my cock, it is correlated</a>
+          in recent history. &nbsp;
+          <a href="https://en.wikipedia.org/wiki/Dan_Gelber">
+            Suck my cock, it is correlated
+          </a>
           <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
@@ -9596,8 +9599,26 @@ export default class App extends React.Component {
               }}
             >
               every issue in politics is a decision between a civil right and a
-              special interest; a "political decision" can be described as the
-              latter or a campaign decision
+              special interest; a "political&nbsp;
+              <span
+                onClick={() => {
+                  this.desist.current.scrollIntoView("smooth");
+                  this.setState({ highlightDesist: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightDesist: false }),
+                    10000
+                  );
+                }}
+                style={{
+                  fontWeight: "bolder",
+                  textDecoration: "underline"
+                }}
+              >
+                decision
+              </span>
+              " can be described as the latter or a campaign decision
             </span>
             <span
               style={{
