@@ -637,14 +637,19 @@ export default class App extends React.Component {
         other people to have more dollars for not working in order to pay less
         taxes? 77WABC does
         <br />
+        <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Rentier-Colonialism" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.RENTIERCOLONIALISM}
         >
-          <br />
-          <br />
           Stop talking about&nbsp;
           <span
             onClick={() => {
@@ -1152,6 +1157,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Abuse of Power" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.ABUSEOFPOWER}
@@ -2304,6 +2315,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "War on Poverty" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.WARONPOVERTY}
@@ -3610,6 +3627,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Polling Fraud" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.POLLINGFRAUD}
@@ -3790,6 +3813,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "False Advert in House" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.FALSEADVERTINHOUSE}
@@ -4300,6 +4329,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Immigration" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.IMMIGRATION}
@@ -4309,6 +4344,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Ownership Fraud" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.OWNERSHIPFRAUD}
@@ -4939,6 +4980,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "False Advert in Senate" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.FALSEADVERTINSENATE}
@@ -6557,6 +6604,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Insurance Fraud" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.INSURANCEFRAUD}
@@ -6727,6 +6780,8 @@ export default class App extends React.Component {
               foiegras
             </a>
           </i>
+          <br />
+          <br />
           Insurance is market-intervention akin to colonialism and therefore
           involuntary by duress, the funding for government insurance is
           untreated in the same contract law as corporate shares. We buy-in due
@@ -7047,6 +7102,11 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Virus" && this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.VIRUS}
@@ -8369,6 +8429,11 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Monopoly" && this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.MONOPOLY}
@@ -10223,6 +10288,12 @@ export default class App extends React.Component {
         <br />
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Education" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.EDUCATION}
@@ -10254,6 +10325,12 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Null Hypothesis" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.NULLHYPOTHESIS}
@@ -10516,6 +10593,12 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Secutities Fraud" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.SECURITIESFRAUD}
@@ -11644,6 +11727,12 @@ export default class App extends React.Component {
         </div>
         <div
           style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Systemic Inequality" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
             width: "100%"
           }}
           ref={this.SYSTEMICINEQUALITY}
@@ -12399,7 +12488,17 @@ export default class App extends React.Component {
             Parent choice of mutilation cannot be reversed but drugs can be
           </div>
         </div>
-        <div ref={this.MISSION}>
+        <div
+          style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "Mission" && this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
+            width: "100%"
+          }}
+          ref={this.MISSION}
+        >
           <a href="https://linkedin.com/in/nickcarducci">
             linkedin.com/in/nickcarducci
           </a>
@@ -12610,7 +12709,18 @@ export default class App extends React.Component {
           <br />
           <a href="https://micro-theory.com">Micro-Theory.com</a>
         </div>
-        <div ref={this.EARLYCOMMS}>
+        <div
+          style={{
+            transition: ".3s ease-out",
+            backgroundColor:
+              this.props.section === "EarlyComms" &&
+              this.props.landedPresentation
+                ? "rgb(220,245,245)"
+                : "",
+            width: "100%"
+          }}
+          ref={this.EARLYCOMMS}
+        >
           Why do the majority of people join the military? money/assassins for
           hire
           <br /> <br />
@@ -12887,352 +12997,308 @@ export default class App extends React.Component {
           you do, and there would be an opportunity for competition. Nick
           Carducci.sh
           <br />
-          <div
+          <span
             style={{
-              justifyContent: "center",
-              display: "flex",
-              flexWrap: "wrap",
-              width: "100%"
+              padding: "20px",
+
+              width: "100%",
+              maxWidth: "600px"
             }}
           >
-            <div
-              style={{
-                padding: "20px",
+            <br />
+            The term for "fully-capable yet self-harming" is non-existent and
+            linguistically-deconstructing the word "retard" by its affixes
+            describes one that is not necessarily already a tard but is often
+            destructive of themselves or others per societal symbiosis.
+            <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
+              https://www.lexico.com/grammar/prefixes-and-suffixes
+            </a>
+            &nbsp; To suggest otherwise mischaracterizes tards as not being
+            self-preserving, describing them to always be retarding themselves
+            or their society.
+            <br />
+          </span>
+          <span
+            style={{
+              padding: "20px",
 
-                width: "100%",
-                maxWidth: "600px"
+              width: "100%",
+              maxWidth: "600px"
+            }}
+          >
+            Stop saying printing delays pain of foreclosure; the pain is in the
+            prohibition of price-elasticity and impossibility of debt to allow
+            usurpers to use assets on false pretenses of ownership of assets
+            they promise
+            <br />
+            growth of an economy by shares only increase wealth disparity;
+            growth by population lessens wealth disparity. Wealth beyond utility
+            is how deparate we are to eachother
+            <br />
+            unemployment rate is a phone survey of 2k people that aren't out
+            looking for work who have time, the employment rate is 60%. bailing
+            out their bills prohibit trade and fix-prices at tangible and
+            opportunity costs based not on what the promiser actually owns
+            <br />
+            claims that you are protected by insurance is wrong, they abett
+            invoices, promises made with money that the promiser does not have
+          </span>
+          <br />
+          <span
+            ref={this.marx}
+            style={{
+              color: this.state.highlightMarx ? "white" : "",
+              backgroundColor: this.state.highlightMarx
+                ? "rgb(170,100,205)"
+                : "",
+              transition: ".3s ease-out"
+            }}
+          >
+            Marx was not communist, colonist or slave-driver/interferer/rentier,
+            he was an end-the-fed guy
+            <br />
+            He doesn't want&nbsp;
+            <span
+              style={{
+                fontWeight: "bolder",
+                textDecoration: "underline"
+              }}
+              onClick={() => {
+                this.congressVsCongress.current.scrollIntoView("smooth");
+                this.setState({ highlightCVC: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightCVC: false }),
+                  10000
+                );
               }}
             >
+              big government
+            </span>
+            , he wanted people to earn equity from work, not lending
+          </span>
+          <br />
+          not allowing entrance to tourists based not on symptoms or
+          non-invasive testing is slavery of give but no take
+          <br />
+          <span
+            onClick={() => {
+              this.booker.current.scrollIntoView("smooth");
+              this.setState({ highlightBooker: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBooker: false }),
+                10000
+              );
+            }}
+            ref={this.brookings}
+            style={{
+              position: "relative",
+
+              transition: ".3s ease-in",
+
+              color: this.state.highlightBrookings ? "white" : "",
+              backgroundColor: this.state.highlightBrookings
+                ? "rgb(170,100,205)"
+                : "",
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            Wealth beyond utility is how deparate we are, to eachother
+            <br />
+            <br />
+            The Brookings Institution / NPR advocates for baby bonds , not ubi
+            to close a 10x white wealth gap, while there is 11x gap between
+            finance versus other sectors of employment while only being 5% of
+            60% employed, or about 2% total. black people are 13% of population.
+            talk about missing the Forest for the Trees #macroeconomics #money
+            #markets #economy #socialjustice ____ #pricefixing
+            <br />
+            supreme court saying nazi could walk chicago is wrong because there
+            is probable-evidence-of-evidence of motive to do them harm
+            physically or financially (not valuation but tangible losses)
+            neighborhood law is like the sea law but between homes, that's why
+            open-carry is also an exhibited&nbsp;
+            <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>.
+            Being there as an aggressor (not a 'I wish you were dead' but 'we
+            should kill you') is grounds for restraining order if possible given
+            territorial trespassing, and criminal if 'I want to kill you' or
+            'please kill' not 'go die or kill yourself [with understanding that
+            the user understands the nomenclature therein and its FULL
+            implications + it is their right to do so],' or a date in the intent
+            letter in most other context. This was about a nazi parade I
+            think... unless the nazi are not intent on killing Jews, is that
+            what you are saying CNN Monday 9 est Mar2021?
+          </span>
+          <br />
+          <b style={{ textDecoration: "underline" }}>
+            Any further Stimulus is bail out for usurpers
+          </b>
+          , whom forced us under duress or without consent at all to promise
+          someone else's money. Not allowing assets to settle and scalping or
+          renting more than you can use yourself is abuse and market-level
+          colonialism, which is illegal according to Amendment 13 and reason for
+          revolutionary war according to our founding. Lending is also
+          <b style={{ textDecoration: "underline" }}>
+            illegal according to Amendment 14 since you cannot promise share or
+            stock of Amazon if you don't own it
+          </b>
+          , the court will laugh at your lender asking for this. But not for
+          dollars. Why?
+          <br />
+          <br />I am in debt but have paid more than 1:11 principal of those
+          prices for market-share last-trade valuation of global assets, not
+          three parties of lender/borrower/seller motivated by involuntary
+          servitude and duress of SAVERS BUILDERS AND LABOR (ultimately,
+          colonialism-per-market sector by cornering assets and scalping more
+          that what you can use yourself, there is no utility exchanged in the
+          trade just counterfeit of the demand that has the actual market-share
+          certificate)),
+          <b style={{ textDecoration: "underline" }}>
+            and the borrower gets to use the asset while they made a promise
+            they have no right to make price-fixed beyond reality.
+          </b>
+          <br />
+          <br />
+          gov debt is still being valued as the same payout as personal debt.
+          I’m talking about shareholder rights if dollars are shares, which they
+          essentially are certificates on market-share. They should be
+          vault-share vaults.biz...
+          <br />
+          You may only sell your share, that means your lender cannot request
+          the money back unless (1) the borrower has it, (2) paid less than
+          cash:debt at the time of promise or (3) it was tied to a specific
+          business line of unique IP/location/customers and it is no more than
+          what the borrower originally planned to spend, where no increase in
+          the market-price is made without the consent of the customer of the
+          borrower
+          <br />
+          The FDIC insures their valuation with their valuation... congrats
+          <br />
+          Where was trumps incitement of violence you cunt, no proof trump
+          ordered them to stand down
+          <br />
+          the individuals can claim being led, but the president is not guilty
+          of anything. {/*sure, */}go kill yourself, the deal is in the name. no
+          I am not a CFA as i suggest you do that (caveat: as if I wouldn't
+          care, so do not assume I have this intent for anyone per 3;4;1 as I
+          want parole intranet. Restraints & contracts can go only as far as
+          what is possible for all to be)
+          <div
+            ref={this.electionTech}
+            style={{
+              padding: "20px",
+
+              width: "100%",
+              maxWidth: "600px",
+              transition: ".3s ease-in",
+
+              color: this.state.highlightElectionTech ? "white" : "",
+              backgroundColor: this.state.highlightElectionTech
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            <br />
+            it is not an insurrection if it is his opinion, regardless if there
+            is merit to Nick Carducci's&nbsp;
+            <a href="https://vaults.biz">vaults.biz</a> election tech
+            competitors who have worked with corrupt government elections,
+            arrests of voter harvesting (sample bias) were made, and elections
+            called on election day is a fault in the rules of elections by
+            statistics
+            <br />
+            Public and private market intervention is a violation of civil
+            rights of not having any involuntary servitude by duress or cost
+            placed on savers, and the unequal application of the law for dollar
+            owners versus shareholders of equity.&nbsp;
+            <b>
+              Lender, invoice-makers and renting more places one can live is
+              usurping assets by imagining the borrower has the right to what
+              they promise, which there is not even enough given interest by
+              time.
+            </b>
+            &nbsp; Payday loans on customers is also illegal since they promise
+            other people's money and they cannot wait so they charge customers.
+            All insurance companies cannot claim they save people money if they
+            on net lose money and only save relatively to eachother. In fact,
+            they operate on duress and even if they do not pay invoices only
+            gift-certificates, those do not necessarily rollover to the client.
+            Expiring or non-rollover gift certificates must be made illegal in
+            order to ensure the market players are doing no harm to those in the
+            pool under duress (there is no utility to insurance except to recoup
+            personal buying power to match the pooled capacity) or those who
+            those in the pool must take their money from.&nbsp;
+            <b>
+              This is not like a subscription-membership because that is subject
+              to competitive producers (if they are legally non-prohibitive
+              based on existing market penetration and without subsidiary or
+              subcontracted contracts with non-compete agreements ...), not a
+              third party's money, or in other words one person's subscription
+              (taxable) does not go towards someone else's or a large
+              contracted&nbsp;
               <span
                 style={{
-                  padding: "20px",
-
-                  width: "100%",
-                  maxWidth: "600px"
-                }}
-              >
-                <br />
-                The term for "fully-capable yet self-harming" is non-existent
-                and linguistically-deconstructing the word "retard" by its
-                affixes describes one that is not necessarily already a tard but
-                is often destructive of themselves or others per societal
-                symbiosis.
-                <a href="https://www.lexico.com/grammar/prefixes-and-suffixes">
-                  https://www.lexico.com/grammar/prefixes-and-suffixes
-                </a>
-                &nbsp; To suggest otherwise mischaracterizes tards as not being
-                self-preserving, describing them to always be retarding
-                themselves or their society.
-                <br />
-              </span>
-              <span
-                style={{
-                  padding: "20px",
-
-                  width: "100%",
-                  maxWidth: "600px"
-                }}
-              >
-                &nbsp; stop saying printing delays pain of foreclosure the pain
-                is in the prohibition of price-elasticity and impossibility of
-                debt to allow usurpers to use assets on false pretenses of
-                ownership of assets they promise
-                <br />
-                growth of an economy by shares only increase wealth disparity;
-                growth by population lessens wealth disparity. Wealth beyond
-                utility is how deparate we are to eachother
-                <br />
-                unemployment rate is a phone survey of 2k people that aren't out
-                looking for work who have time, the employment rate is 60%.
-                bailing out their bills prohibit trade and fix-prices at
-                tangible and opportunity costs based not on what the promiser
-                actually owns
-                <br />
-                claims that you are protected by insurance is wrong, they abett
-                invoices, promises made with money that the promiser does not
-                have
-              </span>
-              <br />
-              <span
-                ref={this.marx}
-                style={{
-                  color: this.state.highlightMarx ? "white" : "",
-                  backgroundColor: this.state.highlightMarx
-                    ? "rgb(170,100,205)"
-                    : "",
-                  transition: ".3s ease-out"
-                }}
-              >
-                &nbsp; Marx was not communist, colonist or
-                slave-driver/interferer/rentier, he was an end-the-fed guy
-                <br />
-                He doesn't want&nbsp;
-                <span
-                  style={{
-                    fontWeight: "bolder",
-                    textDecoration: "underline"
-                  }}
-                  onClick={() => {
-                    this.congressVsCongress.current.scrollIntoView("smooth");
-                    this.setState({ highlightCVC: true });
-
-                    clearTimeout(this.highlighting);
-                    this.highlighting = setTimeout(
-                      () => this.setState({ highlightCVC: false }),
-                      10000
-                    );
-                  }}
-                >
-                  big government
-                </span>
-                , he wanted people to earn equity from work, not lending
-              </span>
-            </div>
-            <div
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              <br />
-              not allowing entrance to tourists based not on symptoms or
-              non-invasive testing is slavery of give but no take
-              <br />
-              <span
-                onClick={() => {
-                  this.booker.current.scrollIntoView("smooth");
-                  this.setState({ highlightBooker: true });
-
-                  clearTimeout(this.highlighting);
-                  this.highlighting = setTimeout(
-                    () => this.setState({ highlightBooker: false }),
-                    10000
-                  );
-                }}
-                ref={this.brookings}
-                style={{
-                  position: "relative",
-
-                  transition: ".3s ease-in",
-
-                  color: this.state.highlightBrookings ? "white" : "",
-                  backgroundColor: this.state.highlightBrookings
-                    ? "rgb(170,100,205)"
-                    : "",
                   fontWeight: "bolder",
                   textDecoration: "underline"
                 }}
+                onClick={() => {
+                  this.royalty.current.scrollIntoView("smooth");
+                  this.setState({ highlightRoyalty: true });
+
+                  clearTimeout(this.highlighting);
+                  this.highlighting = setTimeout(
+                    () => this.setState({ highlightRoyalty: false }),
+                    10000
+                  );
+                }}
               >
-                Wealth beyond utility is how deparate we are, to eachother
-                <br />
-                <br />
-                The Brookings Institution / NPR advocates for baby bonds , not
-                ubi to close a 10x white wealth gap, while there is 11x gap
-                between finance versus other sectors of employment while only
-                being 5% of 60% employed, or about 2% total. black people are
-                13% of population. talk about missing the Forest for the Trees
-                #macroeconomics #money #markets #economy #socialjustice ____
-                #pricefixing
-                <br />
-                supreme court saying nazi could walk chicago is wrong because
-                there is probable-evidence-of-evidence of motive to do them harm
-                physically or financially (not valuation but tangible losses)
-                neighborhood law is like the sea law but between homes, that's
-                why open-carry is also an exhibited&nbsp;
-                <a href="https://wavv.art/forumV0cKS0LBcAVCNYwCASKq">threat</a>.
-                Being there as an aggressor (not a 'I wish you were dead' but
-                'we should kill you') is grounds for restraining order if
-                possible given territorial trespassing, and criminal if 'I want
-                to kill you' or 'please kill' not 'go die or kill yourself [with
-                understanding that the user understands the nomenclature therein
-                and its FULL implications + it is their right to do so],' or a
-                date in the intent letter in most other context. This was about
-                a nazi parade I think... unless the nazi are not intent on
-                killing Jews, is that what you are saying CNN Monday 9 est
-                Mar2021?
+                monopsony
               </span>
-              <br />
-              <b style={{ textDecoration: "underline" }}>
-                Any further Stimulus is bail out for usurpers
-              </b>
-              , whom forced us under duress or without consent at all to promise
-              someone else's money. Not allowing assets to settle and scalping
-              or renting more than you can use yourself is abuse and
-              market-level colonialism, which is illegal according to Amendment
-              13 and reason for revolutionary war according to our founding.
-              Lending is also
-              <b style={{ textDecoration: "underline" }}>
-                illegal according to Amendment 14 since you cannot promise share
-                or stock of Amazon if you don't own it
-              </b>
-              , the court will laugh at your lender asking for this. But not for
-              dollars. Why?
-              <br />
-              <br />I am in debt but have paid more than 1:11 principal of those
-              prices for market-share last-trade valuation of global assets, not
-              three parties of lender/borrower/seller motivated by involuntary
-              servitude and duress of SAVERS BUILDERS AND LABOR (ultimately,
-              colonialism-per-market sector by cornering assets and scalping
-              more that what you can use yourself, there is no utility exchanged
-              in the trade just counterfeit of the demand that has the actual
-              market-share certificate)),
-              <b style={{ textDecoration: "underline" }}>
-                and the borrower gets to use the asset while they made a promise
-                they have no right to make price-fixed beyond reality.
-              </b>
-              <br />
-              <br />
-              gov debt is still being valued as the same payout as personal
-              debt. I’m talking about shareholder rights if dollars are shares,
-              which they essentially are certificates on market-share. They
-              should be vault-share vaults.biz...
-              <br />
-              You may only sell your share, that means your lender cannot
-              request the money back unless (1) the borrower has it, (2) paid
-              less than cash:debt at the time of promise or (3) it was tied to a
-              specific business line of unique IP/location/customers and it is
-              no more than what the borrower originally planned to spend, where
-              no increase in the market-price is made without the consent of the
-              customer of the borrower
-              <br />
-              The FDIC insures their valuation with their valuation... congrats
-              <br />
-              Where was trumps incitement of violence you cunt, no proof trump
-              ordered them to stand down
-              <br />
-              the individuals can claim being led, but the president is not
-              guilty of anything. {/*sure, */}go kill yourself, the deal is in
-              the name. no I am not a CFA as i suggest you do that (caveat: as
-              if I wouldn't care, so do not assume I have this intent for anyone
-              per 3;4;1 as I want parole intranet. Restraints & contracts can go
-              only as far as what is possible for all to be)
-            </div>
-            <div
-              ref={this.electionTech}
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px",
-                transition: ".3s ease-in",
-
-                color: this.state.highlightElectionTech ? "white" : "",
-                backgroundColor: this.state.highlightElectionTech
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-            >
-              <br />
-              it is not an insurrection if it is his opinion, regardless if
-              there is merit to Nick Carducci's&nbsp;
-              <a href="https://vaults.biz">vaults.biz</a> election tech
-              competitors who have worked with corrupt government elections,
-              arrests of voter harvesting (sample bias) were made, and elections
-              called on election day is a fault in the rules of elections by
-              statistics
-              <br />
-              Public and private market intervention is a violation of civil
-              rights of not having any involuntary servitude by duress or cost
-              placed on savers, and the unequal application of the law for
-              dollar owners versus shareholders of equity.&nbsp;
-              <b>
-                Lender, invoice-makers and renting more places one can live is
-                usurping assets by imagining the borrower has the right to what
-                they promise, which there is not even enough given interest by
-                time.
-              </b>
-              &nbsp; Payday loans on customers is also illegal since they
-              promise other people's money and they cannot wait so they charge
-              customers. All insurance companies cannot claim they save people
-              money if they on net lose money and only save relatively to
-              eachother. In fact, they operate on duress and even if they do not
-              pay invoices only gift-certificates, those do not necessarily
-              rollover to the client. Expiring or non-rollover gift certificates
-              must be made illegal in order to ensure the market players are
-              doing no harm to those in the pool under duress (there is no
-              utility to insurance except to recoup personal buying power to
-              match the pooled capacity) or those who those in the pool must
-              take their money from.&nbsp;
-              <b>
-                This is not like a subscription-membership because that is
-                subject to competitive producers (if they are legally
-                non-prohibitive based on existing market penetration and without
-                subsidiary or subcontracted contracts with non-compete
-                agreements ...), not a third party's money, or in other words
-                one person's subscription (taxable) does not go towards someone
-                else's or a large contracted&nbsp;
-                <span
-                  style={{
-                    fontWeight: "bolder",
-                    textDecoration: "underline"
-                  }}
-                  onClick={() => {
-                    this.royalty.current.scrollIntoView("smooth");
-                    this.setState({ highlightRoyalty: true });
-
-                    clearTimeout(this.highlighting);
-                    this.highlighting = setTimeout(
-                      () => this.setState({ highlightRoyalty: false }),
-                      10000
-                    );
-                  }}
-                >
-                  monopsony
-                </span>
-                &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
-                their non-monopsony, individual servicing
-              </b>
-              &nbsp; Grow up
-              <br />
-              if it is not possible in whole, it is not possible to complete in
-              part, since that part must be ran at the same time
-            </div>
-            <div
-              style={{
-                padding: "20px",
-
-                width: "100%",
-                maxWidth: "600px"
-              }}
-            >
-              <br />
-              you don't own time. congress changes and you cannot wager future
-              states
-              <i>
-                "The first Political Party to interpret civil rights as meaning
-                to defend people against public and private market
-                intervention,"
-              </i>
-              <i>
-                "shareholder rights as dollar rights," and "market-colonialism
-                as involuntary servitude"
-              </i>
-              <br />
-              the rights of inclusion by way of amendment 13 (no take only give)
-              <br />
-              subvert my ability to enter not depending on harming myself -
-              usually goes as far as one's ideas that it is harm like
-              oncogenesis of b-cell dysregulation or that breathe actually
-              travels within 1 ft & the proof it floats is from a nebulizer in a
-              3ft drum (who breathes like that?), it would have to be impossible
-              to do business with all if it is impossible to do business with
-              one - see methane fires and tobacco doctors
-              <br />
-              otherwise it is harm in whole, or wear a shirt into your business
-              <br />
-              with an arrow pointing up claiming the wearer has no good brain
-              <br />
-              {/*<div id="t1318204966461444096" />*/}
-              You know what is better than a 444(c)3? One that’s owned by every
-              living person
-              <br />
-              <br />
-              Allowing your business partner to lend out their share for more
-              share of your company should be illegal or at least moot
-            </div>
+              &nbsp;(Spotify, income, royalty not taxes), it goes to pay for
+              their non-monopsony, individual servicing
+            </b>
+            &nbsp; Grow up
+            <br />
+            if it is not possible in whole, it is not possible to complete in
+            part, since that part must be ran at the same time
           </div>
+          <br />
+          you don't own time. congress changes and you cannot wager future
+          states
+          <i>
+            "The first Political Party to interpret civil rights as meaning to
+            defend people against public and private market intervention,"
+          </i>
+          <i>
+            "shareholder rights as dollar rights," and "market-colonialism as
+            involuntary servitude"
+          </i>
+          <br />
+          the rights of inclusion by way of amendment 13 (no take only give)
+          <br />
+          subvert my ability to enter not depending on harming myself - usually
+          goes as far as one's ideas that it is harm like oncogenesis of b-cell
+          dysregulation or that breathe actually travels within 1 ft & the proof
+          it floats is from a nebulizer in a 3ft drum (who breathes like that?),
+          it would have to be impossible to do business with all if it is
+          impossible to do business with one - see methane fires and tobacco
+          doctors
+          <br />
+          otherwise it is harm in whole, or wear a shirt into your business
+          <br />
+          with an arrow pointing up claiming the wearer has no good brain
+          <br />
+          {/*<div id="t1318204966461444096" />*/}
+          You know what is better than a 444(c)3? One that’s owned by every
+          living person
+          <br />
+          <br />
+          Allowing your business partner to lend out their share for more share
+          of your company should be illegal or at least moot
           <br />
           <div id="t1334836094945341440" />
           <div id="t1334649662725304322" />
@@ -13891,4 +13957,5 @@ export default class App extends React.Component {
     );
   }
 }
+
 
