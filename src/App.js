@@ -7056,7 +7056,7 @@ export default class App extends React.Component {
         >
           What is Florida doing right? they ran out of old people. adjust for
           age and the "vaccine"/graft kills more people compared to other times
-          in recent history
+          in recent history. &nbsp;<a href="https://en.wikipedia.org/wiki/Dan_Gelber">Suck my cock, it is correlated</a>
           <br />
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
