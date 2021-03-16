@@ -623,6 +623,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Stop saying how business can benefit from a package that is only a portion of what you take in equitymoney
+        <br/>
+        <br/>
         Either I am just listening more, or the media is just spewing more
         nonsense than usual to which I have to fact-check, I can only deduce
         that it is to prevent me from finishing thumbprint.us to which it is an
