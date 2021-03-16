@@ -623,7 +623,7 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
-        You are required to lower utility-monopsony prices when taes are
+        You are required to lower utility-monopsony prices when taxes are
         lowered?
         <br />
         <br />
