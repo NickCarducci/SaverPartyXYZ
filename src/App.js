@@ -618,6 +618,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        What is with the media today reminding us that the vaccine has already been approved and the bills are finalized? We could take all your money and give it to Greta Thunberg
+        <br/>
+        <br/>
         <div
           style={{
             transition: ".3s ease-out",
