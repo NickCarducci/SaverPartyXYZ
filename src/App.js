@@ -601,6 +601,26 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Just a money-grab for government to compete with govtechs like me
+        <div
+          style={{
+            width: "40%",
+            position: "relative"
+          }}
+        >
+          <img
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto"
+            }}
+            src="https://www.dl.dropboxusercontent.com/s/twcxeleo8an08xo/IMG_3422.png?dl=0"
+          />
+        </div>{" "}
+        <br />
+        Nothing to do with redistribution
+        <br />
+        <br />
         Immigrants should be able to buy property in two lamb-tail shakes
         <br />
         <br />
@@ -3282,89 +3302,6 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          <br />
-          <br />
-          POLL [can be voluntary(no&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.POLLINGFRAUD.current.scrollIntoView("smooth");
-              this.setState({ highlightFlop: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightFlop: false }),
-                10000
-              );
-            }}
-          >
-            sample bias
-          </span>
-          ), of a population OR sample] REPORTERS NEED TO&nbsp;
-          <a href="https://humanharvest.info">CITE (duty to warn)</a>
-          &nbsp;SAMPLE SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT
-          IN USD:CASH IN USD
-          <br />
-          <br />
-          loser---winner
-          <br />
-          <span
-            ref={this.dispair}
-            style={{
-              color: this.state.highlightDispair ? "white" : "",
-              backgroundColor: this.state.highlightDispair
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Get the Luddites*!
-            <br />
-            "" Gaddafi*
-            <br />
-            on F. Morano show
-            <br />
-            for commodity security depositAry receipt, settled economy (need
-            rePAIRation)
-          </span>
-          <br />
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "70%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/b7l2yt5wfpkc67o/RankChoiceImpediments.png?dl=0"
-            />
-          </div>
-          <br />
-          I am confused if the spots after second, get added to second; or if
-          the second choice of each individual is used and so on, and if there
-          is a change then that means the person got the most bestest votes
-          <br />I want to make toms shoes for phones with torus electron
-          rim&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.nsfFraud.current.scrollIntoView("smooth");
-              this.setState({ highlightNSFFraud: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightNSFFraud: false }),
-                10000
-              );
-            }}
-          >
-            magnate.company
-          </span>
-          <br />
-          <br />
           "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have
           a&nbsp;
           <a href="https://moldmask.co">mask</a>&nbsp;and we will check
@@ -3640,6 +3577,28 @@ export default class App extends React.Component {
           }}
           ref={this.POLLINGFRAUD}
         >
+          POLL [can be voluntary(no&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.setState({ highlightFlop: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightFlop: false }),
+                10000
+              );
+            }}
+          >
+            sample bias
+          </span>
+          ), of a population OR sample] REPORTERS NEED TO&nbsp;
+          <a href="https://humanharvest.info">CITE (duty to warn)</a>
+          &nbsp;SAMPLE SIZE ON FIRST, PAGE AS LOANS AT LEAST NEED CURRENT DEBT
+          IN USD:CASH IN USD
+          <br />
+          <br />
           <a href="https://www.vanhollen.senate.gov/">
             Unemployment slave songs
           </a>
@@ -10606,6 +10565,64 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          loser---winner
+          <br />
+          <span
+            ref={this.dispair}
+            style={{
+              color: this.state.highlightDispair ? "white" : "",
+              backgroundColor: this.state.highlightDispair
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Get the Luddites*!
+            <br />
+            "" Gaddafi*
+            <br />
+            on F. Morano show
+            <br />
+            for commodity security depositAry receipt, settled economy (need
+            rePAIRation)
+          </span>
+          <br />
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "70%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/b7l2yt5wfpkc67o/RankChoiceImpediments.png?dl=0"
+            />
+          </div>
+          <br />
+          I am confused if the spots after second, get added to second; or if
+          the second choice of each individual is used and so on, and if there
+          is a change then that means the person got the most bestest votes
+          <br />I want to make toms shoes for phones with torus electron
+          rim&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.nsfFraud.current.scrollIntoView("smooth");
+              this.setState({ highlightNSFFraud: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightNSFFraud: false }),
+                10000
+              );
+            }}
+          >
+            magnate.company
+          </span>
+          <br />
           <div
             ref={this.varney}
             style={{
@@ -13960,5 +13977,4 @@ export default class App extends React.Component {
     );
   }
 }
-
 
