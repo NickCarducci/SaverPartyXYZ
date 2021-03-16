@@ -12816,7 +12816,7 @@ export default class App extends React.Component {
             <br />
             IV. forbid time-based royalty & consumer purchase investment
             <br />
-            V. forbid renting more than 5 abodes & storefronts for income
+            V. forbid renting {">1mo"}more than 5 abodes & storefronts for income
             <br />
             VI. producers refund previously paid debts to cash:debt original
             principal ratio! Where we would be if we had intervened in the
@@ -14170,4 +14170,3 @@ export default class App extends React.Component {
     );
   }
 }
-
