@@ -968,7 +968,9 @@ class Index extends React.Component {
                   );
                 })
               }
-              landedPresentation={this.state.landedPresentation}
+              landedPresentation={
+                this.state.landedPresentation && this.state.openMenu
+              }
               scrolling={this.state.scrolling}
               scrollTop={this.state.scrollTop}
               top={this.state.top}
