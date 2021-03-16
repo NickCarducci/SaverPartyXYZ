@@ -890,7 +890,6 @@ export default class App extends React.Component {
             the saver to own it.
           </div>
           <br />
-          <br />
           <div
             style={{
               width: "40%",
@@ -906,6 +905,7 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/1b5lup5i8pfgb97/StayInYourLane.jpg?dl=0"
             />
           </div>
+          <br />
           Stay in your lane 'spic, cease in saying liberty-lovers/conservatives
           value debt-spending for roads, which can be based on price-fixed
           tolls. YOU MUST STOP USING CONSERVATIVE TO TALK ABOUT DOLLAR-SPLIT or
@@ -3236,123 +3236,6 @@ export default class App extends React.Component {
           renumerated. It can never be paid.
           <br />
           <br />
-          <span
-            ref={this.travellingIndividuals}
-            style={{
-              color: this.state.highlightTravellingIndividuals ? "white" : "",
-              backgroundColor: this.state.highlightTravellingIndividuals
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            Travel can only be supressed by individuals by court order,&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.oldFluExclusion.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFluExclusion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightOldFluExclusion: false }),
-                  10000
-                );
-              }}
-            >
-              not governments or physicians, federal, state or local
-            </span>
-            <br />
-            Would need a law of non-scientific and assumptive-intentions
-            <br />
-            <br />
-            Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
-            <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.cold.current.scrollIntoView("smooth");
-                this.setState({ highlightCold: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightCold: false }),
-                  10000
-                );
-              }}
-            >
-              cold
-            </span>
-            &nbsp;antibody cold case areas... if there are no symptoms, you're
-            not certifiably sick with a virus deadlier than annual flu.&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.oldFluExclusion.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFluExclusion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightOldFluExclusion: false }),
-                  10000
-                );
-              }}
-            >
-              RELEASE THE DEATH RATE POPULATION NUMBERS UN
-            </span>
-          </span>
-          <br />
-          <br />
-          "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have
-          a&nbsp;
-          <a href="https://moldmask.co">mask</a>&nbsp;and we will check
-          your&nbsp;
-          <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
-            medical history
-          </a>
-          &nbsp;for cold&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.cold.current.scrollIntoView("smooth");
-              this.setState({ highlightCold: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightCold: false }),
-                10000
-              );
-            }}
-          >
-            antibodies
-          </span>
-          &nbsp;or give you a&nbsp;
-          <a href="https://humanharvest.info">graft from a lab</a>." "& you
-          can&nbsp;<a href="https://moldmask.co">suck my balls</a>," I reply
-          <br />
-          <div
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "70%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/fmar6mnau21wthb/BallsAreOpen.jpg?dl=0"
-            />
-          </div>
-          <br />
-          We can open without vaccines. Covid is not spread in the air. only
-          particles small enough for brownian motion is everywhere in the
-          atmostphere. Larger particles do not take up as much space as oxygen
-          or carbon-oxygen(s), they either rise per temperature if cold out or
-          drop immediately due to it's protons being pulled by the earth's
-          electrons
-          <br />
-          <br />
           New Jersianist comments of an extrapolated sample to find a
           minary-majority conclusion
           <br />
@@ -5659,7 +5542,7 @@ export default class App extends React.Component {
             >
               Chuck Schhumer - If you want child support
             </a>
-            &nbsp; as cited reason for unemployment insurance, then give
+            &nbsp;as cited reason for unemployment insurance, then give
             the&nbsp;
             <a
               style={{
@@ -7073,6 +6956,123 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          <span
+            ref={this.travellingIndividuals}
+            style={{
+              color: this.state.highlightTravellingIndividuals ? "white" : "",
+              backgroundColor: this.state.highlightTravellingIndividuals
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            Travel can only be supressed by individuals by court order,&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightOldFluExclusion: false }),
+                  10000
+                );
+              }}
+            >
+              not governments or physicians, federal, state or local
+            </span>
+            <br />
+            Would need a law of non-scientific and assumptive-intentions
+            <br />
+            <br />
+            Ron Desantis wants to target "vaccine"/graft, undescribed&nbsp;
+            <a href="https://humanharvest.info">doses</a>&nbsp;to high&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.cold.current.scrollIntoView("smooth");
+                this.setState({ highlightCold: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightCold: false }),
+                  10000
+                );
+              }}
+            >
+              cold
+            </span>
+            &nbsp;antibody cold case areas... if there are no symptoms, you're
+            not certifiably sick with a virus deadlier than annual flu.&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightOldFluExclusion: false }),
+                  10000
+                );
+              }}
+            >
+              RELEASE THE DEATH RATE POPULATION NUMBERS UN
+            </span>
+          </span>
+          <br />
+          <br />
+          "Come on down," smiles Mayor of Ft.Lauterdale, "but you'll have
+          a&nbsp;
+          <a href="https://moldmask.co">mask</a>&nbsp;and we will check
+          your&nbsp;
+          <a href="https://vianickcarducci.medium.com/optimal-security-for-webapps-dd2a65c2418c">
+            medical history
+          </a>
+          &nbsp;for cold&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.cold.current.scrollIntoView("smooth");
+              this.setState({ highlightCold: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightCold: false }),
+                10000
+              );
+            }}
+          >
+            antibodies
+          </span>
+          &nbsp;or give you a&nbsp;
+          <a href="https://humanharvest.info">graft from a lab</a>." "& you
+          can&nbsp;<a href="https://moldmask.co">suck my balls</a>," I reply
+          <br />
+          <div
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "70%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/fmar6mnau21wthb/BallsAreOpen.jpg?dl=0"
+            />
+          </div>
+          <br />
+          We can open without vaccines. Covid is not spread in the air. only
+          particles small enough for brownian motion is everywhere in the
+          atmostphere. Larger particles do not take up as much space as oxygen
+          or carbon-oxygen(s), they either rise per temperature if cold out or
+          drop immediately due to it's protons being pulled by the earth's
+          electrons
+          <br />
+          <br />
           Doctor on CNN, "We look at the science." No, you retard, you look at
           samples and over less than a lifetime
           <br />
