@@ -932,17 +932,22 @@ class Index extends React.Component {
           >
             <App
               inSection={(section) =>
-                this.setState(
-                  { offScroll: true, inSection: section, openMenu: true },
-                  () => {
-                    clearTimeout(this.openmenu);
-                    this.openmenu = setTimeout(
-                      () =>
-                        this.setState({ offScroll: false, openMenu: false }),
-                      5432
-                    );
-                  }
-                )
+                this.setState({ inSection: section, openMenu: true }, () => {
+                  clearTimeout(this.openmenu);
+                  this.openmenu = setTimeout(
+                    () => this.setState({ openMenu: false }),
+                    5432
+                  );
+                })
+              }
+              pauseScroll={() =>
+                this.setState({ offScroll: true }, () => {
+                  clearTimeout(this.offScroll);
+                  this.offScroll = setTimeout(
+                    () => this.setState({ offScroll: false }),
+                    5432
+                  );
+                })
               }
               landedPresentation={this.state.landedPresentation}
               openMenu={this.state.openMenu}
