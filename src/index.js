@@ -9,7 +9,6 @@ class Index extends React.Component {
     super(props);
     this.state = {
       landedPresentation: true,
-      helperHeight: 90,
       top: true,
       scrollPlacementHeight: 0,
       openMenu: false,
@@ -104,6 +103,34 @@ class Index extends React.Component {
             position: "absolute"
           }}
         >
+          <div
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+              display: this.state.landedPresentation ? "flex" : "none",
+              left: "0px",
+              top: "0px",
+              position: "relative"
+            }}
+          >
+            <div
+              onClick={() => this.setState({ openMenu: false })}
+              style={{
+                transform: "rotate(90deg)",
+                backgroundColor: "rgb(255,255,255)",
+                display: "flex",
+                position: "fixed",
+                top: "90px",
+                left: "-60px",
+                height: "40px",
+                color: "black",
+                width: "max-content",
+                transition: ".3s ease-out"
+              }}
+            >
+              {this.state.inSection.split(" ").map((x) => `${x}\n`)}
+            </div>
+          </div>
           <div
             onClick={() => this.setState({ openMenu: !this.state.openMenu })}
             style={{
@@ -224,62 +251,6 @@ class Index extends React.Component {
                 )}
               </div>
             ))}
-          </div>
-        </div>
-        <div
-          style={{
-            display: this.state.landedPresentation ? "flex" : "none",
-            position: "absolute",
-            left: "0px",
-            color: "black",
-            width: "40px",
-            alignItems: "flex-end",
-            height: "100%",
-            transition: ".3s ease-out"
-          }}
-        >
-          <div
-            onClick={() => this.setState({ openMenu: false })}
-            style={{
-              alignItems: "center",
-              overflow: "hidden",
-              backgroundColor: "rgb(255,255,255)",
-              display: "flex",
-              position: "fixed",
-              top: `calc(100vh - ${this.state.helperHeight}px)`,
-              left: "0px",
-              height: "min-content",
-              color: "black",
-              width: "min-content",
-              transition: ".3s ease-out"
-            }}
-          >
-            <div
-              style={{
-                top: "0px",
-                zIndex: "1",
-                right: "0px",
-                boxShadow: "inset -5px 0px 3px 1px rgb(25,25,25)",
-                display: "flex",
-                position: "absolute",
-                color: "black",
-                width: "10px",
-                height: "140%"
-              }}
-            />
-            <div
-              style={{
-                top: "0px",
-                padding: "10px",
-                display: "flex",
-                position: "relative",
-                color: "black",
-                width: "min-content",
-                height: "100%"
-              }}
-            >
-              {this.state.inSection.split(" ").map((x) => `${x}\n`)}
-            </div>
           </div>
         </div>
         <div
@@ -951,12 +922,10 @@ class Index extends React.Component {
               inSection={(section) =>
                 this.state.lastInSection !== section &&
                 this.setState({ openMenu: true }, () => {
-                  var helperHeight = window.innerHeight - 140;
                   this.setState(
                     {
                       lastInSection: section,
-                      inSection: section,
-                      helperHeight
+                      inSection: section
                     },
                     () => {
                       clearTimeout(this.openmenu);
