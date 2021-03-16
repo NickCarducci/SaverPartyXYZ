@@ -654,7 +654,9 @@ export default class App extends React.Component {
         </div>
         <br />
         This fat talks about equity and then says thanks to Biden for providing
-        funds
+        funds. Funding doesn't help, it only monopsonizes above the ask. Not
+        only is it fraud by PCR antibody the "gold standard" but false positive
+        as is for cold's response, the policy was forced upon us in 1937
         <br />
         <br />
         Border Patrol agents are saying 50-100% have wristbands to show how much
@@ -698,8 +700,8 @@ export default class App extends React.Component {
           individual-efficiency, comparative-advantage productivity)
           <br />
           "The people that do the best will have to pony up [for Nick Carducci's
-          competitors who take credit from government contracts]" - Joe Biden,
-          CNN
+          &nbsp;<a href="https://vaults.biz">govtech/lighttech</a> competitors
+          who take credit from government contracts]" - Joe Biden, CNN
           <br />
           That is not the best way to make sure the people that earned equity by
           cheating&nbsp;
@@ -12816,7 +12818,8 @@ export default class App extends React.Component {
             <br />
             IV. forbid time-based royalty & consumer purchase investment
             <br />
-            V. forbid renting {">1mo"}more than 5 abodes & storefronts for income
+            V. forbid renting {">1mo"}more than 5 abodes & storefronts for
+            income
             <br />
             VI. producers refund previously paid debts to cash:debt original
             principal ratio! Where we would be if we had intervened in the
@@ -14170,3 +14173,4 @@ export default class App extends React.Component {
     );
   }
 }
+
