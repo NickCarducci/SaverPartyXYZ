@@ -110,12 +110,13 @@ class Index extends React.Component {
         >
           <div
             style={{
+              transform: "rotate(90deg)",
               backgroundColor: "rgb(255,255,255)",
               position: "fixed",
               width: "40px",
               display:
                 this.state.landedPresentation && this.state.openMenu
-                  ? "flex"
+                  ? "block"
                   : "none",
               left: "0px",
               top: "0px"
@@ -124,14 +125,16 @@ class Index extends React.Component {
             <div
               onClick={() => this.setState({ openMenu: false })}
               style={{
+                transform: "scale(-1,-1)",
                 position: "relative",
-                transform: "rotate(90deg)",
-                display: "flex",
-                top: "0px",
-                left: "0px",
+                float: "left",
+                textAlign: "left",
+                padding: "4px 10px",
+                maxHeight: "40px",
                 height: "40px",
                 color: "black",
-                width: "100%",
+                border: "2px blue solid",
+                width: "max-content",
                 transition: ".3s ease-out"
               }}
             >
