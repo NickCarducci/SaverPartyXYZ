@@ -608,6 +608,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.whyBad.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightWhyBad: true });
               clearTimeout(this.highlighting);
               this.highlighting = setTimeout(
@@ -629,6 +630,7 @@ export default class App extends React.Component {
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
             this.bail.current.scrollIntoView("smooth");
+            this.props.pauseScroll();
             this.setState({ highlightBail: true });
 
             clearTimeout(this.highlighting);
@@ -737,6 +739,7 @@ export default class App extends React.Component {
             onClick={() => {
               this.setState({ openForm: false, scrolled: false });
               this.invite.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
             }}
             style={{
               fontWeight: "bolder",
@@ -759,6 +762,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.dispair.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightDispair: true });
 
               clearTimeout(this.highlighting);
@@ -874,6 +878,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -898,6 +903,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.inflation.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInflation: true });
 
               clearTimeout(this.highlighting);
@@ -914,6 +920,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -952,6 +959,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -999,6 +1007,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPrisonersDuress: true });
 
               clearTimeout(this.highlighting);
@@ -1029,6 +1038,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.inflation.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInflation: true });
 
               clearTimeout(this.highlighting);
@@ -1127,6 +1137,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightJewels: true });
 
               clearTimeout(this.highlighting);
@@ -1188,6 +1199,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -1222,6 +1234,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.beast.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBeast: true });
 
               clearTimeout(this.highlighting);
@@ -1260,6 +1273,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.cityhall.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCityHall: true });
 
               clearTimeout(this.highlighting);
@@ -1342,6 +1356,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.baltimore.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBaltimore: true });
 
               clearTimeout(this.highlighting);
@@ -1408,6 +1423,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bail.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBail: true });
 
               clearTimeout(this.highlighting);
@@ -1425,6 +1441,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.tea.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTea: true });
 
               clearTimeout(this.highlighting);
@@ -1478,6 +1495,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.navbar.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
               }}
             >
               drug/chemical abuse
@@ -1512,6 +1530,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.china.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightChina: true });
 
               clearTimeout(this.highlighting);
@@ -1529,6 +1548,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.livingWage.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightLivingWage: true });
 
               clearTimeout(this.highlighting);
@@ -1561,6 +1581,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bidask.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBidAsk: true });
 
               clearTimeout(this.highlighting);
@@ -1582,6 +1603,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.twenty.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTwenty: true });
 
               clearTimeout(this.highlighting);
@@ -1602,6 +1624,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.livingWage.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightLivingWage: true });
 
               clearTimeout(this.highlighting);
@@ -1620,6 +1643,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -1641,6 +1665,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.compoundGramm.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCompoundGramm: true });
 
               clearTimeout(this.highlighting);
@@ -1674,6 +1699,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.concious.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightConcious: true });
 
                 clearTimeout(this.highlighting);
@@ -1704,6 +1730,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPrisonersDuress: true });
 
               clearTimeout(this.highlighting);
@@ -1759,6 +1786,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.billBiden.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBillBiden: true });
               clearTimeout(this.highlighting);
               this.highlighting = setTimeout(
@@ -1774,6 +1802,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.biden.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBiden: true });
 
               clearTimeout(this.highlighting);
@@ -1843,6 +1872,7 @@ export default class App extends React.Component {
               ref={this.china}
               onClick={() => {
                 this.brookings.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightBrookings: true });
 
                 clearTimeout(this.highlighting);
@@ -1872,6 +1902,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.dvNotion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightNotion: true });
 
                 clearTimeout(this.highlighting);
@@ -1892,6 +1923,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.financeKills.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFinanceKills: true });
 
                 clearTimeout(this.highlighting);
@@ -1981,6 +2013,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInsurance: true });
 
               clearTimeout(this.highlighting);
@@ -2189,6 +2222,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bcell.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBcell: true });
 
               clearTimeout(this.highlighting);
@@ -2205,6 +2239,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -2222,6 +2257,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -2238,6 +2274,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -2260,6 +2297,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInsurance: true });
 
               clearTimeout(this.highlighting);
@@ -2304,6 +2342,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.homebuilder.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightHomebuilder: true });
 
               clearTimeout(this.highlighting);
@@ -2321,6 +2360,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -2462,6 +2502,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.populism.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPopulism: true });
 
               clearTimeout(this.highlighting);
@@ -2518,6 +2559,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.valuation.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightValuation: true });
 
               clearTimeout(this.highlighting);
@@ -2580,6 +2622,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.IRS.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightIRS: true });
 
               clearTimeout(this.highlighting);
@@ -2602,6 +2645,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.china.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightChina: true });
 
               clearTimeout(this.highlighting);
@@ -2625,6 +2669,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.dvNotion.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightNotion: true });
 
               clearTimeout(this.highlighting);
@@ -2645,6 +2690,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFinanceKills: true });
 
               clearTimeout(this.highlighting);
@@ -2852,6 +2898,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFintech: true });
 
                 clearTimeout(this.highlighting);
@@ -2902,6 +2949,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.IRS.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightIRS: true });
 
               clearTimeout(this.highlighting);
@@ -2957,6 +3005,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFinanceKills: true });
 
               clearTimeout(this.highlighting);
@@ -2973,6 +3022,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -2995,6 +3045,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.technicallyIllegal.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTechnicallyIllegal: true });
 
               clearTimeout(this.highlighting);
@@ -3011,6 +3062,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.livingWage.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightLivingWage: true });
 
               clearTimeout(this.highlighting);
@@ -3062,6 +3114,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.planetary.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPlanetary: true });
 
               clearTimeout(this.highlighting);
@@ -3098,6 +3151,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.mutilation.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightMutilation: true });
 
               clearTimeout(this.highlighting);
@@ -3154,6 +3208,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.quality.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightQuality: true });
 
               clearTimeout(this.highlighting);
@@ -3244,6 +3299,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -3262,6 +3318,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bidask.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBidAsk: true });
 
               clearTimeout(this.highlighting);
@@ -3303,6 +3360,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.sanjay.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSanjay: true });
 
               clearTimeout(this.highlighting);
@@ -3334,6 +3392,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.populism.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPopulism: true });
 
               clearTimeout(this.highlighting);
@@ -3350,6 +3409,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.spittle.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSpittle: true });
 
               clearTimeout(this.highlighting);
@@ -3376,6 +3436,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.dispair.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightDispair: true });
 
               clearTimeout(this.highlighting);
@@ -3400,6 +3461,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fasterWithCounterfeit.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFasterWithCounterfeit: true });
 
               clearTimeout(this.highlighting);
@@ -3436,6 +3498,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fasterWithCounterfeit.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFasterWithCounterfeit: true });
 
               clearTimeout(this.highlighting);
@@ -3472,6 +3535,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trust.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrust: true });
 
               clearTimeout(this.highlighting);
@@ -3489,6 +3553,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFarmers: true });
 
               clearTimeout(this.highlighting);
@@ -3593,6 +3658,7 @@ export default class App extends React.Component {
           <GunSafety
             injury={() => {
               this.injury.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInjury: true });
 
               clearTimeout(this.highlighting);
@@ -3603,6 +3669,7 @@ export default class App extends React.Component {
             }}
             policeUX={() => {
               this.policeUX.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPoliceUX: true });
 
               clearTimeout(this.highlighting);
@@ -3613,9 +3680,11 @@ export default class App extends React.Component {
             }}
             navbar={() => {
               this.navbar.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
             }}
             drugs={() => {
               this.drugs.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightDrugs: true });
 
               clearTimeout(this.highlighting);
@@ -3626,9 +3695,11 @@ export default class App extends React.Component {
             }}
             starve={() => {
               this.starve.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
             }}
             brookings={() => {
               this.brookings.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBrookings: true });
 
               clearTimeout(this.highlighting);
@@ -3639,6 +3710,7 @@ export default class App extends React.Component {
             }}
             nra={() => {
               this.nra.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightNRA: true });
 
               clearTimeout(this.highlighting);
@@ -3649,6 +3721,7 @@ export default class App extends React.Component {
             }}
             irs={() => {
               this.IRS.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightIRS: true });
 
               clearTimeout(this.highlighting);
@@ -3659,6 +3732,7 @@ export default class App extends React.Component {
             }}
             fraud={() => {
               this.fraud.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFraud: true });
 
               clearTimeout(this.highlighting);
@@ -3690,6 +3764,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -3761,6 +3836,7 @@ export default class App extends React.Component {
           <PollingFraud
             electionTech={() => {
               this.electionTech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightElectionTech: true });
 
               clearTimeout(this.highlighting);
@@ -3771,6 +3847,7 @@ export default class App extends React.Component {
             }}
             flop={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -3781,6 +3858,7 @@ export default class App extends React.Component {
             }}
             bobTheBuilder={() => {
               this.bobTheBuilder.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBTB: true });
 
               clearTimeout(this.highlighting);
@@ -3791,6 +3869,7 @@ export default class App extends React.Component {
             }}
             singleSourceOfTruth={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSingleSource: true });
 
               clearTimeout(this.highlighting);
@@ -3801,6 +3880,7 @@ export default class App extends React.Component {
             }}
             fintech={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -3811,6 +3891,7 @@ export default class App extends React.Component {
             }}
             varney={() => {
               this.varney.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightVarney: true });
 
               clearTimeout(this.highlighting);
@@ -3923,6 +4004,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bobTheBuilder.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBTB: true });
 
               clearTimeout(this.highlighting);
@@ -4061,6 +4143,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFinanceKills: true });
 
               clearTimeout(this.highlighting);
@@ -4093,6 +4176,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.socialism.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSocialism: true });
 
               clearTimeout(this.highlighting);
@@ -4134,6 +4218,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.savingsRate.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSavingsRate: true });
 
               clearTimeout(this.highlighting);
@@ -4172,6 +4257,7 @@ export default class App extends React.Component {
             <div
               onClick={() => {
                 this.singleSourceOfTruth.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightSingleSource: true });
 
                 clearTimeout(this.highlighting);
@@ -4205,6 +4291,7 @@ export default class App extends React.Component {
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.gdp.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
 
                   this.setState({ highlightGDP: true });
 
@@ -4237,6 +4324,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSingleSource: true });
 
               clearTimeout(this.highlighting);
@@ -4268,6 +4356,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -4283,6 +4372,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -4307,6 +4397,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.Oooreily.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightOooreily: true });
 
               clearTimeout(this.highlighting);
@@ -4334,6 +4425,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.foreignpolicy.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFP: true });
 
               clearTimeout(this.highlighting);
@@ -4453,6 +4545,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInflation: true });
 
                 clearTimeout(this.highlighting);
@@ -4483,6 +4576,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightTrueGDP: true });
 
                 clearTimeout(this.highlighting);
@@ -4546,6 +4640,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.technicallyIllegal.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightTechnicallyIllegal: true });
 
                 clearTimeout(this.highlighting);
@@ -4589,6 +4684,7 @@ export default class App extends React.Component {
           <i
             onClick={() => {
               this.takingCredit.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTakingCredit: true });
 
               clearTimeout(this.highlighting);
@@ -4614,6 +4710,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.goa.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightGOA: true });
 
               clearTimeout(this.highlighting);
@@ -4639,6 +4736,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.politics.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPolitics: true });
 
               clearTimeout(this.highlighting);
@@ -4707,6 +4805,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -4732,6 +4831,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.politics.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPolitics: true });
 
               clearTimeout(this.highlighting);
@@ -4778,6 +4878,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.valuation.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightValuation: true });
 
               clearTimeout(this.highlighting);
@@ -4821,6 +4922,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.jury.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightJury: true });
 
                 clearTimeout(this.highlighting);
@@ -4849,6 +4951,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.employmentHouse.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightEmploymentHouse: true });
 
               clearTimeout(this.highlighting);
@@ -4878,6 +4981,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightMarx: true });
 
                 clearTimeout(this.highlighting);
@@ -4899,6 +5003,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInsurance: true });
 
                 clearTimeout(this.highlighting);
@@ -5062,6 +5167,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.stats.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightStats: true });
 
               clearTimeout(this.highlighting);
@@ -5085,6 +5191,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.POLLINGFRAUD.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFlop: true });
 
               clearTimeout(this.highlighting);
@@ -5101,6 +5208,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.nsfFraud.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightNSFFraud: true });
 
               clearTimeout(this.highlighting);
@@ -5130,6 +5238,7 @@ export default class App extends React.Component {
             <i
               onClick={() => {
                 this.stats.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightStats: true });
 
                 clearTimeout(this.highlighting);
@@ -5157,6 +5266,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.gdp.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
 
                 this.setState({ highlightGDP: true });
 
@@ -5177,6 +5287,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInflation: true });
 
                 clearTimeout(this.highlighting);
@@ -5226,6 +5337,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.squatting.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSquatting: true });
 
               clearTimeout(this.highlighting);
@@ -5354,6 +5466,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.stats.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
 
               this.setState({ highlightStats: true });
 
@@ -5399,6 +5512,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fishInBarrel.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFishInBarrel: true });
 
               clearTimeout(this.highlighting);
@@ -5415,6 +5529,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -5508,6 +5623,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightMarx: true });
 
                 clearTimeout(this.highlighting);
@@ -5574,6 +5690,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.colonization.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightColonization: true });
 
               clearTimeout(this.highlighting);
@@ -5674,6 +5791,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.employmentHouse.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightEmploymentHouse: true });
 
               clearTimeout(this.highlighting);
@@ -5715,6 +5833,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.stats.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
 
               this.setState({ highlightStats: true });
 
@@ -5858,6 +5977,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightExperts: true });
 
                 clearTimeout(this.highlighting);
@@ -5894,6 +6014,7 @@ export default class App extends React.Component {
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.grandmaMentality.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightGrandmaMentality: true });
 
                   clearTimeout(this.highlighting);
@@ -5964,6 +6085,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.valuation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightValuation: true });
 
                 clearTimeout(this.highlighting);
@@ -6054,6 +6176,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.ronInsurance.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightRonInsurance: true });
 
                 clearTimeout(this.highlighting);
@@ -6076,6 +6199,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.cold.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightCold: true });
 
                 clearTimeout(this.highlighting);
@@ -6119,6 +6243,7 @@ export default class App extends React.Component {
               <span
                 onClick={() => {
                   this.takingCredit.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightTakingCredit: true });
 
                   clearTimeout(this.highlighting);
@@ -6244,6 +6369,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInflation: true });
 
                 clearTimeout(this.highlighting);
@@ -6270,6 +6396,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightExperts: true });
 
                 clearTimeout(this.highlighting);
@@ -6327,6 +6454,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.defense.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightDefense: true });
 
                 clearTimeout(this.highlighting);
@@ -6344,6 +6472,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.IRS.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightIRS: true });
 
                 clearTimeout(this.highlighting);
@@ -6417,6 +6546,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.baltimore.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightBaltimore: true });
 
                 clearTimeout(this.highlighting);
@@ -6462,6 +6592,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightExperts: true });
 
                 clearTimeout(this.highlighting);
@@ -6651,6 +6782,7 @@ export default class App extends React.Component {
             <a
               onClick={() => {
                 this.ftc.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFTC: true });
 
                 clearTimeout(this.highlighting);
@@ -6700,6 +6832,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trust.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrust: true });
 
               clearTimeout(this.highlighting);
@@ -6737,6 +6870,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPrisonersDuress: true });
 
               clearTimeout(this.highlighting);
@@ -6783,6 +6917,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInflation: true });
 
                 clearTimeout(this.highlighting);
@@ -6891,6 +7026,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -6907,6 +7043,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.trueGDP.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTrueGDP: true });
 
               clearTimeout(this.highlighting);
@@ -6949,6 +7086,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.royalty.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightRoyalty: true });
 
                 clearTimeout(this.highlighting);
@@ -6974,6 +7112,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightInsurance: true });
 
               clearTimeout(this.highlighting);
@@ -7094,6 +7233,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightPrisonersDuress: true });
 
                 clearTimeout(this.highlighting);
@@ -7152,6 +7292,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightPrisonersDuress: true });
 
                 clearTimeout(this.highlighting);
@@ -7189,6 +7330,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.politics.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPolitics: true });
 
               clearTimeout(this.highlighting);
@@ -7242,6 +7384,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7263,6 +7406,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.cold.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightCold: true });
 
                 clearTimeout(this.highlighting);
@@ -7280,6 +7424,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7306,6 +7451,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.cold.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCold: true });
 
               clearTimeout(this.highlighting);
@@ -7382,6 +7528,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7399,6 +7546,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightExperts: true });
 
                 clearTimeout(this.highlighting);
@@ -7415,6 +7563,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.disclosure.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightDisclosure: true });
 
                 clearTimeout(this.highlighting);
@@ -7495,6 +7644,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.valuation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightValuation: true });
 
                 clearTimeout(this.highlighting);
@@ -7536,6 +7686,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7563,6 +7714,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.host.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightHost: true });
 
               clearTimeout(this.highlighting);
@@ -7580,6 +7732,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTravellingIndividuals: true });
 
               clearTimeout(this.highlighting);
@@ -7604,6 +7757,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.newsy.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
 
               this.setState({ highlightNewsy: true });
 
@@ -7663,6 +7817,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFinanceKills: true });
 
               clearTimeout(this.highlighting);
@@ -7709,6 +7864,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.covidKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCovidKills: true });
 
               clearTimeout(this.highlighting);
@@ -7764,6 +7920,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.spittle.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSpittle: true });
 
               clearTimeout(this.highlighting);
@@ -7913,6 +8070,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.experts.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightExperts: true });
 
                 clearTimeout(this.highlighting);
@@ -7953,6 +8111,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7969,6 +8128,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -7989,6 +8149,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.ftc.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFTC: true });
 
               clearTimeout(this.highlighting);
@@ -8086,6 +8247,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.bcell.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightBcell: true });
 
                 clearTimeout(this.highlighting);
@@ -8110,6 +8272,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.singleSourceOfTruth.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightSingleSource: true });
 
               clearTimeout(this.highlighting);
@@ -8126,6 +8289,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.education.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightEducation: true });
 
               clearTimeout(this.highlighting);
@@ -8270,6 +8434,7 @@ export default class App extends React.Component {
             <span
               onClick={() => {
                 this.nextspittle.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightSpittleNext: true });
 
                 clearTimeout(this.highlighting);
@@ -8309,6 +8474,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.foreignpolicy.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFP: true });
 
               clearTimeout(this.highlighting);
@@ -8351,6 +8517,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.cold.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCold: true });
 
               clearTimeout(this.highlighting);
@@ -8368,6 +8535,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.marx.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightMarx: true });
 
               clearTimeout(this.highlighting);
@@ -8410,6 +8578,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.travellingIndividuals.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightTravellingIndividuals: true });
 
               clearTimeout(this.highlighting);
@@ -8431,6 +8600,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.host.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightHost: true });
 
               clearTimeout(this.highlighting);
@@ -8462,6 +8632,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.host.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightHost: true });
 
               clearTimeout(this.highlighting);
@@ -8483,6 +8654,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.bcell.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBcell: true });
 
               clearTimeout(this.highlighting);
@@ -8590,6 +8762,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.grandmaMentality.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightGrandmaMentality: true });
 
                 clearTimeout(this.highlighting);
@@ -8647,6 +8820,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightOldFluExclusion: true });
 
                 clearTimeout(this.highlighting);
@@ -8714,6 +8888,7 @@ export default class App extends React.Component {
               <span
                 onClick={() => {
                   this.takingCredit.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightTakingCredit: true });
 
                   clearTimeout(this.highlighting);
@@ -8828,6 +9003,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.cease.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightCease: true });
 
                   clearTimeout(this.highlighting);
@@ -8846,6 +9022,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.POLLINGFRAUD.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightFlop: true });
 
                   clearTimeout(this.highlighting);
@@ -8935,6 +9112,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.royalty.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightRoyalty: true });
 
                   clearTimeout(this.highlighting);
@@ -9074,6 +9252,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.inflation.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightInflation: true });
 
                 clearTimeout(this.highlighting);
@@ -9136,6 +9315,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFintech: true });
 
                 clearTimeout(this.highlighting);
@@ -9256,6 +9436,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.insurance.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightPrisonersDuress: true });
 
                   clearTimeout(this.highlighting);
@@ -9413,6 +9594,7 @@ export default class App extends React.Component {
             <span
               onClick={() => {
                 this.royalty.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightRoyalty: true });
 
                 clearTimeout(this.highlighting);
@@ -9499,6 +9681,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.fintech.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFintech: true });
 
                 clearTimeout(this.highlighting);
@@ -9598,6 +9781,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.insurance.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightPrisonersDuress: true });
 
                 clearTimeout(this.highlighting);
@@ -9729,6 +9913,7 @@ export default class App extends React.Component {
               <span
                 onClick={() => {
                   this.desist.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightDesist: true });
 
                   clearTimeout(this.highlighting);
@@ -9775,6 +9960,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightIRS: true });
 
                   clearTimeout(this.highlighting);
@@ -9989,6 +10175,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightTrueGDP: true });
 
                   clearTimeout(this.highlighting);
@@ -10077,6 +10264,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.IRS.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightIRS: true });
 
                   clearTimeout(this.highlighting);
@@ -10122,6 +10310,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.insurance.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightPrisonersDuress: true });
 
                   clearTimeout(this.highlighting);
@@ -10181,6 +10370,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightMarx: true });
 
                 clearTimeout(this.highlighting);
@@ -10365,6 +10555,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.gdp.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
 
                 this.setState({ highlightGDP: true });
 
@@ -10691,6 +10882,7 @@ export default class App extends React.Component {
             <span
               onClick={() => {
                 this.desist.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightDesist: true });
 
                 clearTimeout(this.highlighting);
@@ -10719,6 +10911,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.POLLINGFRAUD.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFlop: true });
 
                 clearTimeout(this.highlighting);
@@ -10787,6 +10980,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.nsfFraud.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightNSFFraud: true });
 
                 clearTimeout(this.highlighting);
@@ -10898,6 +11092,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.nsfFraud.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightNSFFraud: true });
 
               clearTimeout(this.highlighting);
@@ -10941,6 +11136,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.UUID.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightUUID: true });
 
               clearTimeout(this.highlighting);
@@ -10960,6 +11156,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.fintech.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFintech: true });
 
               clearTimeout(this.highlighting);
@@ -11074,6 +11271,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPrisonersDuress: true });
 
               clearTimeout(this.highlighting);
@@ -11255,6 +11453,7 @@ export default class App extends React.Component {
                   10000
                 );
                 this.vault.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
               }}
             >
               free
@@ -11401,6 +11600,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.gdp1.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightGDP: true });
 
                 clearTimeout(this.highlighting);
@@ -11438,6 +11638,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.foreignpolicy.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFP: true });
 
                 clearTimeout(this.highlighting);
@@ -11540,6 +11741,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightJewels: true });
 
               clearTimeout(this.highlighting);
@@ -11586,6 +11788,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.financeKills.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightFinanceKills: true });
 
               clearTimeout(this.highlighting);
@@ -11621,6 +11824,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.IRS.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightIRS: true });
 
               clearTimeout(this.highlighting);
@@ -11650,6 +11854,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.citadel.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightCitadel: true });
 
               clearTimeout(this.highlighting);
@@ -11672,6 +11877,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.nra.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightNRA: true });
 
               clearTimeout(this.highlighting);
@@ -11716,6 +11922,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.baltimore.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBaltimore: true });
 
               clearTimeout(this.highlighting);
@@ -11769,6 +11976,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.covidrelief.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightCovidRelief: true });
 
                 clearTimeout(this.highlighting);
@@ -11788,6 +11996,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.collective.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightCollective: true });
 
                 clearTimeout(this.highlighting);
@@ -11806,6 +12015,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.populism.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightPopulism: true });
 
                 clearTimeout(this.highlighting);
@@ -11943,6 +12153,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.IRS.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightIRS: true });
 
                 clearTimeout(this.highlighting);
@@ -11987,6 +12198,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.jan2018.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightJan2018: true });
 
               clearTimeout(this.highlighting);
@@ -12052,6 +12264,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.dispair.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightDispair: true });
 
                 clearTimeout(this.highlighting);
@@ -12101,6 +12314,7 @@ export default class App extends React.Component {
             }}
             onClick={() => {
               this.jewels.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightJewels: true });
 
               clearTimeout(this.highlighting);
@@ -12275,6 +12489,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.trueGDP.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightTrueGDP: true });
 
                 clearTimeout(this.highlighting);
@@ -12335,6 +12550,7 @@ export default class App extends React.Component {
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightTrueGDP: true });
 
                   clearTimeout(this.highlighting);
@@ -12400,6 +12616,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.flag.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightFlag: true });
 
                 clearTimeout(this.highlighting);
@@ -12443,6 +12660,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.cityhall.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightCityHall: true });
 
                   clearTimeout(this.highlighting);
@@ -12561,6 +12779,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightMarx: true });
 
                 clearTimeout(this.highlighting);
@@ -12584,6 +12803,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.italy.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightItaly: true });
 
                 clearTimeout(this.highlighting);
@@ -12680,6 +12900,7 @@ export default class App extends React.Component {
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
               this.insurance.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightPrisonersDuress: true });
 
               clearTimeout(this.highlighting);
@@ -12740,6 +12961,7 @@ export default class App extends React.Component {
               style={{ fontWeight: "bolder", textDecoration: "underline" }}
               onClick={() => {
                 this.marx.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightMarx: true });
 
                 clearTimeout(this.highlighting);
@@ -12842,6 +13064,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.incomeTax.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightIncomeTax: true });
 
                 clearTimeout(this.highlighting);
@@ -13359,6 +13582,7 @@ export default class App extends React.Component {
               }}
               onClick={() => {
                 this.congressVsCongress.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 this.setState({ highlightCVC: true });
 
                 clearTimeout(this.highlighting);
@@ -13379,6 +13603,7 @@ export default class App extends React.Component {
           <span
             onClick={() => {
               this.booker.current.scrollIntoView("smooth");
+              this.props.pauseScroll();
               this.setState({ highlightBooker: true });
 
               clearTimeout(this.highlighting);
@@ -13541,6 +13766,7 @@ export default class App extends React.Component {
                 }}
                 onClick={() => {
                   this.royalty.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightRoyalty: true });
 
                   clearTimeout(this.highlighting);
@@ -13616,6 +13842,7 @@ export default class App extends React.Component {
                   scrolled: true
                 });
                 this.navbar.current.scrollIntoView("smooth");
+                this.props.pauseScroll();
                 //const answer = this.isInViewport();
                 //if (!answer) {
                 console.log(
@@ -13670,6 +13897,7 @@ export default class App extends React.Component {
                 onClick={() => {
                   this.setState({ openForm: false, scrolled: false });
                   this.invite.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                 }}
                 style={{
                   fontWeight: "bolder",
@@ -13959,6 +14187,7 @@ export default class App extends React.Component {
                 style={{ fontWeight: "bolder", textDecoration: "underline" }}
                 onClick={() => {
                   this.trueGDP.current.scrollIntoView("smooth");
+                  this.props.pauseScroll();
                   this.setState({ highlightTrueGDP: true });
 
                   clearTimeout(this.highlighting);
@@ -14141,6 +14370,7 @@ export default class App extends React.Component {
           }}
           onClick={() => {
             this.jhuecon.current.scrollIntoView("smooth");
+            this.props.pauseScroll();
             this.setState({ highlightJHUECON: true });
 
             clearTimeout(this.highlighting);
@@ -14236,6 +14466,7 @@ export default class App extends React.Component {
           style={{ fontWeight: "bolder", textDecoration: "underline" }}
           onClick={() => {
             this.livingWage.current.scrollIntoView("smooth");
+            this.props.pauseScroll();
             this.setState({ highlightLivingWage: true });
 
             clearTimeout(this.highlighting);
