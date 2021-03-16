@@ -618,6 +618,9 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        There is a bit of vaccine non-information out there
+        <br/>
+        <br/>
         STOP ASKING FOR CAPACITY WHEN YOU MEAN DEMAND CAPACITY WHICH IS
         PERFECTLY PRICE ELASTIC FOR ITS UTILITY PER EACH NEW CAPACITY, WE NEED
         SUPPLY CAPACITY OR VOLUNTEER OR LESS FRUGAL PRODUCERS, NOT STEAL BY
