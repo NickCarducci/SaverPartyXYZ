@@ -601,14 +601,53 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        You need to pay in advance under duress to keep up with the pooled
+        cross-party risk? Nobody needs this price-inelasticity by; abetting
+        invoices which are counterfeit in contract and pooling capacity
+        <br />
+        <br />
+        "In advance under durress? Isn’t price inelasticity dependent on asset
+        level and available options? Pooling is one of the best benefits of
+        insurance. Have you signed up for my email list?" - Financial Agent
+        <br />
+        <br />
+        It’s like the prisoner’s dilemma. Have to join to keep up with the
+        price-inelasticity of pooling (same utility for higher price), and if
+        they pay any ask of delayed settlement rather than what demand has it is
+        even higher than where supply and demand naturally meet their least
+        frugal price-makers and -takers.
+        <br />
+        <br />
+        Impossible to see long term effects, namely B-cell oncogenesis which is
+        slower to form, since the vaccines began testing. A 28 year old dying is
+        not worth the risk of the cold antibodies. Fix death for age it is
+        normal. First world countries have a lot of old people this decade
+        https://www.nature.com/articles/s41598-020-73777-8
+        <br />
+        <br />
+        Instead of do no harm, they want to ignore warnings, take any vaccine,
+        want to dismantle our ability to deny it forever
+        <br />
+        The&nbsp;<a href="">"vaccine"/graft</a>&nbsp;has not been studies for a
+        lifetime. There is no legally-financial guarantee liability of
+        non-immunity. You can still move oils/sweat with the antibodies, however
+        you make them, which are exactly alike to our fighting-made antibody
+        reaction to the cold. B-cell oncogenesis suredly happens, and the mRNA
+        changes B-cell.
+        <br />
+        <br />
         Changing southern democrat to conservative democrat is a form of
         propogranda. the democrats wanted to save nothing of the slaves'
         <br />
         <br />
         "currencyComponentOfM1 is $2t and debt is $82t, where does it go?"
-        "you're right, I don't know how we are going to pay it back," replies&nbsp;<a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">Steve Moore</a>
-        <br/>
-        <br/>
+        "you're right, I don't know how we are going to pay it back,"
+        replies&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Stephen_Moore_(writer)">
+          Steve Moore
+        </a>
+        <br />
+        <br />
         Just a money-grab for government to compete with govtechs like me
         <div
           style={{
