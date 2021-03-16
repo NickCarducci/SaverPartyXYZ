@@ -566,15 +566,15 @@ export default class App extends React.Component {
       <div
         style={{
           transform: `translateX(${
-            this.props.landedPresentation && !this.props.openMenu
+            this.props.landedPresentation && this.props.openMenu
               ? "40px"
               : "0px"
           })`,
           transition: `${
-            this.props.landedPresentation && !this.props.openMenu ? ".3" : ".7"
+            this.props.landedPresentation && this.props.openMenu ? ".3" : ".7"
           }s ease-in-out`,
           color:
-            this.props.landedPresentation && !this.props.openMenu
+            this.props.landedPresentation && this.props.openMenu
               ? "rgb(135,170,205)"
               : "rgb(60,70,85)",
           display: "block",
