@@ -618,6 +618,13 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        Border Patrol agents are saying 50-100% have wristbands to show how much
+        pootang they owe the cartels on the way up. &nbsp;
+        <a href="https://en.wikipedia.org/wiki/Janet_Yellen">
+          STOP THE SPIGGETS
+        </a>
+        <br />
+        <br />
         What is with the media today reminding us that the vaccine has already
         been approved and the bills are finalized? We could take all your money
         and give it to Greta Thunberg
@@ -7082,6 +7089,8 @@ export default class App extends React.Component {
           it is normal. First world countries have a lot of old people this
           decade https://www.nature.com/articles/s41598-020-73777-8
           <br />
+          <br />
+          SARCASM IN THE&nbsp;<a href="https://humanharvest.info">NEXT BLOCK</a>
           <br />
           Thank you CNN, I agree: people that are hesitant to get the
           "vaccine"/graft will 'need convincing' with representaions by their
