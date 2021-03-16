@@ -601,6 +601,11 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        If I were a government contractor interested in the longevity of my
+        bonds, I would genetically engineer one Pete Butgieg to take equity to
+        pay over the ask on infrastructure
+        <br />
+        <br />
         On Anderson Cooper some lady says racist person murderer needs to be
         shunned and excluded from community. Whore, I know you are alluding to
         me because if you were thinking about the subject you were using to talk
@@ -638,25 +643,78 @@ export default class App extends React.Component {
           }}
           ref={this.RENTIERCOLONIALISM}
         >
-          <div
+          <br />
+          <br />
+          Stop talking about&nbsp;
+          <span
+            onClick={() => {
+              this.Oooreily.current.scrollIntoView("smooth");
+              this.setState({ highlightOooreily: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightOooreily: false }),
+                10000
+              );
+            }}
             style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              flexDirection: "column",
-              alignItems: "center",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
+              fontWeight: "bolder",
+              textDecoration: "underline"
             }}
           >
-            You can split shares initially at the max of whatever state, or try
-            just writing your own royalty contracts...
-            <br />
-            If you do the former and pay corporate tax to go public, then you
-            can make denominations of 50 or 1 (100 shares), situated to vote on
-            how to appropriate further dilution/payout decisions w...
-          </div>
+            inflation
+          </span>
+          &nbsp;like it happens later and causes unemployment (nothing being
+          made, people starving).&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.inflation.current.scrollIntoView("smooth");
+              this.setState({ highlightInflation: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightInflation: false }),
+                10000
+              );
+            }}
+          >
+            Monetary-inflation, to that effect, only happens if bonds are paid
+            off and foreclosures happen
+          </span>
+          &nbsp;to the assets. Most inflation is&nbsp;
+          <span
+            onClick={() => {
+              this.Oooreily.current.scrollIntoView("smooth");
+              this.setState({ highlightOooreily: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightOooreily: false }),
+                10000
+              );
+            }}
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+          >
+            price-inelasticity inflation
+          </span>
+          , which happens first
+          <br />
+          <br />
+          You can split shares initially at the max of whatever state, or try
+          just writing your own royalty contracts...
+          <br />
+          <br />
+          If you do the former and pay corporate tax to go public, then you can
+          make denominations of 50 or 1 (100 shares), situated to vote on how to
+          appropriate further dilution/payout decisions w...
+          <br />
           <br />
           @FoxBusiness charles, people not working doesn't increase debt you
           retard, it lowers price if you make invoices fucking illegal
@@ -3556,6 +3614,25 @@ export default class App extends React.Component {
           }}
           ref={this.POLLINGFRAUD}
         >
+          <a href="https://www.vanhollen.senate.gov/">
+            Unemployment slave songs
+          </a>
+          &nbsp;are their&nbsp;
+          <a href="https://news.gallup.com/opinion/chairman/181469/big-lie-unemployment.aspx">
+            Gallup polls n=2700
+          </a>
+          &nbsp;phone calls to random people who answer the phone
+          <br />
+          <br />
+          Polls cannot be construed as representative of population in court,
+          ask any statistician
+          <br />
+          <br />
+          <div ref={this.employmentOfOne}>
+            <Employ2Pop />
+          </div>
+          <br />
+          <br />
           <a
             style={{
               border: "1px solid",
@@ -3821,89 +3898,6 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          Doctor on CNN, "We look at the science." No, you retard, you look at
-          samples and over less than a lifetime
-          <br />
-          <a
-            href="https://humanharvest.info"
-            style={{
-              width: "50%",
-              position: "relative"
-            }}
-          >
-            <img
-              alt=""
-              style={{
-                width: "50%",
-                height: "auto"
-              }}
-              src="https://www.dl.dropboxusercontent.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"
-            />
-          </a>
-          <br />
-          <br />
-          <span
-            style={{
-              transition: ".3s ease-in",
-              color: this.state.highlightFraud ? "white" : "",
-              backgroundColor: this.state.highlightFraud
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-            ref={this.fraud}
-          >
-            Total death rate/population is delayed for 2-3 months now, the
-            first-world population is comprised of mostly&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.oldFluExclusion.current.scrollIntoView("smooth");
-                this.setState({ highlightOldFluExclusion: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightOldFluExclusion: false }),
-                  10000
-                );
-              }}
-            >
-              old
-            </span>
-            &nbsp;people, and the only data we have been given is causes of
-            death which is not only subjective to "
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.experts.current.scrollIntoView("smooth");
-                this.setState({ highlightExperts: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightExperts: false }),
-                  10000
-                );
-              }}
-            >
-              experts
-            </span>
-            ," but people with&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.disclosure.current.scrollIntoView("smooth");
-                this.setState({ highlightDisclosure: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightDisclosure: false }),
-                  10000
-                );
-              }}
-            >
-              conflicts of interest
-            </span>
-          </span>
-          <br />
           <div
             style={{
               width: "50%",
@@ -3923,68 +3917,6 @@ export default class App extends React.Component {
           "...can make the economy 20 times larger": What a retarded thought
           allowed by Early Start, CNN and Citibank (assets traded, people
           trading, or how separate we are by dollars?)
-          <br />
-          <br />
-          Stop talking about&nbsp;
-          <span
-            onClick={() => {
-              this.Oooreily.current.scrollIntoView("smooth");
-              this.setState({ highlightOooreily: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightOooreily: false }),
-                10000
-              );
-            }}
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-          >
-            inflation
-          </span>
-          &nbsp;like it happens later and causes unemployment (nothing being
-          made, people starving).&nbsp;
-          <span
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-            onClick={() => {
-              this.inflation.current.scrollIntoView("smooth");
-              this.setState({ highlightInflation: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightInflation: false }),
-                10000
-              );
-            }}
-          >
-            Monetary-inflation, to that effect, only happens if bonds are paid
-            off and foreclosures happen
-          </span>
-          &nbsp;to the assets. Most inflation is&nbsp;
-          <span
-            onClick={() => {
-              this.Oooreily.current.scrollIntoView("smooth");
-              this.setState({ highlightOooreily: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightOooreily: false }),
-                10000
-              );
-            }}
-            style={{
-              fontWeight: "bolder",
-              textDecoration: "underline"
-            }}
-          >
-            price-inelasticity inflation
-          </span>
-          , which happens first
           <br />
           <br />
           false ad "Relief" bill in part $1.4k for those making {"<"}$80k, owe
@@ -4073,6 +4005,7 @@ export default class App extends React.Component {
           >
             socialism with profit-schedule
           </span>
+          <br />
           <br />
           "This plan will put money into the pockets of those who need this most
           [and we will allow prosecutions for
@@ -5437,15 +5370,6 @@ export default class App extends React.Component {
           <br />
           Leftists rely on imagination of owning my equity as sustinence
           <br />
-          <a href="https://www.vanhollen.senate.gov/">
-            Unemployment slave songs
-          </a>
-          &nbsp;are their&nbsp;
-          <a href="https://news.gallup.com/opinion/chairman/181469/big-lie-unemployment.aspx">
-            Gallup polls n=2700
-          </a>
-          &nbsp;phone calls to random people who answer the phone
-          <br />
           <br />
           It is all going to go back (
           <a href="https://www.researchgate.net/project/Class-action-suit">
@@ -5455,13 +5379,6 @@ export default class App extends React.Component {
           contracted fractional reserve, so I can laugh about it on the way to
           peace
           <br />
-          <br />
-          I have had some douche reach out to help to restructure (to be clear,
-          this is easy) my files and act like a founder then un-linkedin me
-          <br />
-          I have had Biden's michael antiporta's linkedin lackidasical
-          installation of login.gov local-ID api for better elections -connect
-          do the same
           <br />
           <i
             style={{
@@ -5523,9 +5440,6 @@ export default class App extends React.Component {
               src="https://www.dl.dropboxusercontent.com/s/qybk35c6vrv9ifr/TheRich.jpeg?dl=0"
             />
           </div>
-          <br />
-          Polls cannot be construed as representative of population in court,
-          ask any statistician
           <br />
           <br />
           If you didn't interfere and adjunicate in favor of invoices, people
@@ -7166,6 +7080,90 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          Doctor on CNN, "We look at the science." No, you retard, you look at
+          samples and over less than a lifetime
+          <br />
+          <a
+            href="https://humanharvest.info"
+            style={{
+              width: "50%",
+              position: "relative"
+            }}
+          >
+            <img
+              alt=""
+              style={{
+                width: "50%",
+                height: "auto"
+              }}
+              src="https://www.dl.dropboxusercontent.com/s/lev80376hnh8sp3/luckyDoctor.jpg?dl=0"
+            />
+          </a>
+          <br />
+          <br />
+          <span
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightFraud ? "white" : "",
+              backgroundColor: this.state.highlightFraud
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+            ref={this.fraud}
+          >
+            Total death rate/population is delayed for 2-3 months now, the
+            first-world population is comprised of mostly&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.oldFluExclusion.current.scrollIntoView("smooth");
+                this.setState({ highlightOldFluExclusion: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightOldFluExclusion: false }),
+                  10000
+                );
+              }}
+            >
+              old
+            </span>
+            &nbsp;people, and the only data we have been given is causes of
+            death which is not only subjective to "
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.experts.current.scrollIntoView("smooth");
+                this.setState({ highlightExperts: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightExperts: false }),
+                  10000
+                );
+              }}
+            >
+              experts
+            </span>
+            ," but people with&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.disclosure.current.scrollIntoView("smooth");
+                this.setState({ highlightDisclosure: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightDisclosure: false }),
+                  10000
+                );
+              }}
+            >
+              conflicts of interest
+            </span>
+          </span>
+          <br />
+          <br />
           <span
             ref={this.newsy}
             style={{
@@ -9173,6 +9171,13 @@ export default class App extends React.Component {
               johnshopkins.academia.edu/NickCarducci
             </a>
           </div>
+          <br />
+          I have had some douche reach out to help to restructure (to be clear,
+          this is easy) my files and act like a founder then un-linkedin me
+          <br />
+          I have had Biden's michael antiporta's linkedin lackidasical
+          installation of login.gov local-ID api for better elections -connect
+          do the same
           <br />
           <div
             style={{
