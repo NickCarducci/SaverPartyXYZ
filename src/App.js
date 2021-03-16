@@ -689,6 +689,7 @@ export default class App extends React.Component {
           payment reconciliation for borrowers' customers there can possibly be
           without written intent
           <br />
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -1097,6 +1098,49 @@ export default class App extends React.Component {
           }}
           ref={this.ABUSEOFPOWER}
         >
+          <br />
+          If the government provides aid and comfort to foreigners thru bonds,
+          and they say it is good because they get cash instead of assets
+          because domestic citizens use cash instead of assets; given that bonds
+          are contracts wagering actual dollar-owners' cash (borrowers'
+          customers' down payments lost in traditional&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.bail.current.scrollIntoView("smooth");
+              this.setState({ highlightBail: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBail: false }),
+                10000
+              );
+            }}
+          >
+            reposession
+          </span>
+          ), how else do you overcome tyranny other than insurrection by riot or
+          destroying tea?&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.tea.current.scrollIntoView("smooth");
+              this.setState({ highlightTea: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTea: false }),
+                10000
+              );
+            }}
+          >
+            Historically
+          </span>
+          , that is how it has been done. They are breaking Amendment 4 and more
+          financially and involuntarily, police are ignoring their duty to
+          arrest
+          <br />
+          <br />
           <a
             href="https://pineapple-mint.com"
             style={{
@@ -1376,47 +1420,6 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          If the government provides aid and comfort to foreigners thru bonds,
-          and they say it is good because they get cash instead of assets
-          because domestic citizens use cash instead of assets; given that bonds
-          are contracts wagering actual dollar-owners' cash (borrowers'
-          customers' down payments lost in traditional&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.bail.current.scrollIntoView("smooth");
-              this.setState({ highlightBail: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightBail: false }),
-                10000
-              );
-            }}
-          >
-            reposession
-          </span>
-          ), how else do you overcome tyranny other than insurrection by riot or
-          destroying tea?&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.tea.current.scrollIntoView("smooth");
-              this.setState({ highlightTea: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightTea: false }),
-                10000
-              );
-            }}
-          >
-            Historically
-          </span>
-          , that is how it has been done. They are breaking Amendment 4 and more
-          financially and involuntarily, police are ignoring their duty to
-          arrest
-          <br />
           <div
             ref={this.varney}
             style={{
@@ -1464,6 +1467,7 @@ export default class App extends React.Component {
           laws have to be justice-oriented in order for the equal application of
           unequal laws to be applied
           <br />
+          <br />
           cash-
           <span
             ref={this.bail}
@@ -1477,7 +1481,7 @@ export default class App extends React.Component {
           >
             bail
           </span>
-          &nbsp; is bribery, it's like unequal application of law; or an equal
+          &nbsp;is bribery, it's like unequal application of law; or an equal
           application of the unequal law is unequal application of a law kernel.
           this unequal law of PPP is no different in that equality regard
           <span
@@ -1494,33 +1498,30 @@ export default class App extends React.Component {
             crime the harms the prosciutto
           </span>
           <br />
-          <i
-            style={{
-              fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
-              textEmphasis: "italics"
+          Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.biden.current.scrollIntoView("smooth");
+              this.setState({ highlightBiden: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBiden: false }),
+                10000
+              );
             }}
           >
-            Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.biden.current.scrollIntoView("smooth");
-                this.setState({ highlightBiden: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightBiden: false }),
-                  10000
-                );
-              }}
-            >
-              Biden
-            </span>
-            There is nothing safe about funding supply of vaccines instead of
-            keeping input costs down by allowing customers to fund it
-            <br />I think it sticks to your damn mask, like a mold! I'll sue
-            your ass
-          </i>
+            Biden
+          </span>
+          <br />
+          <br />
+          There is nothing safe about funding supply of vaccines instead of
+          keeping input costs down by allowing customers to fund it for&nbsp;
+          <a href="https://foiegras.life">cheaper</a>
+          <br />
+          <br />I think it sticks to your damn mask, like a mold! I'll sue your
+          ass
           <br />
           <br />
           <i
@@ -7231,6 +7232,64 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          <div
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+              color: "grey",
+              width: "calc(100% - 20px)",
+              maxWidth: "600px"
+            }}
+          >
+            npr, if you "only warn people of what to expect" instead of what
+            they can expect, you're liable for witholding information when
+            inoculating them. Saying we need vaccine to get over pandemic is
+            like saying we need cheeseburger bc we stabbed our foot. same&nbsp;
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antibody-tests-guidelines.html">
+              2 weeks to clean
+            </a>
+            , risk of 0-6mo. loss of smell vs risk of cancer by&nbsp;
+            <a
+              style={{
+                transition: ".3s ease-in",
+
+                color: this.state.highlightBcell ? "white" : "",
+                backgroundColor: this.state.highlightBcell
+                  ? "rgb(170,100,205)"
+                  : ""
+              }}
+              ref={this.bcell}
+              href="https://nature.com/articles/cddis2016148"
+            >
+              B-cell
+            </a>
+            &nbsp; oncogenesis. Tell those&nbsp;
+            <a href="https://www.facebook.com/cnninternational/posts/10159109685099641">
+              free-riders
+            </a>
+            &nbsp; that YOU CHOOSE. virus' require settlement and percolation,
+            to boot. not to be crass but same chance it floats by transmission
+            as intentionally disbursed in&nbsp;
+            <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
+              food
+            </a>
+            &nbsp; networks to not pay out pensions at this&nbsp;
+            <span
+              style={{ fontWeight: "bolder", textDecoration: "underline" }}
+              onClick={() => {
+                this.valuation.current.scrollIntoView("smooth");
+                this.setState({ highlightValuation: true });
+
+                clearTimeout(this.highlighting);
+                this.highlighting = setTimeout(
+                  () => this.setState({ highlightValuation: false }),
+                  10000
+                );
+              }}
+            >
+              point
+            </span>
+          </div>
+          <br />
           CNN calling vaccines/grafts, platforms now
           <br />
           <br />
@@ -10433,10 +10492,12 @@ export default class App extends React.Component {
             pick. Must be tough to get by their producers an idea unscreened and
             they interfered in the election & public opinion/detests
             <br />
+            <br />
             Do you have proof that the virus is spread without symptoms? WNYC
             nope how many long haulers are there? Why is annual population stats
             late 2 months?
           </div>
+          <br />
           <i
             style={{
               fontFamily: '"Pacifico", sans-serif', //sans-serif no diff
@@ -10444,66 +10505,8 @@ export default class App extends React.Component {
             }}
           >
             user acquiescence vs service
-            <br />
           </i>
-          <div
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-              color: "grey",
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px"
-            }}
-          >
-            npr, if you "only warn people of what to expect" instead of what
-            they can expect, you're liable for witholding information when
-            inoculating them. Saying we need vaccine to get over pandemic is
-            like saying we need cheeseburger bc we stabbed our foot. same&nbsp;
-            <a href="https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antibody-tests-guidelines.html">
-              2 weeks to clean
-            </a>
-            , risk of 0-6mo. loss of smell vs risk of cancer by&nbsp;
-            <a
-              style={{
-                transition: ".3s ease-in",
-
-                color: this.state.highlightBcell ? "white" : "",
-                backgroundColor: this.state.highlightBcell
-                  ? "rgb(170,100,205)"
-                  : ""
-              }}
-              ref={this.bcell}
-              href="https://nature.com/articles/cddis2016148"
-            >
-              B-cell
-            </a>
-            &nbsp; oncogenesis. Tell those&nbsp;
-            <a href="https://www.facebook.com/cnninternational/posts/10159109685099641">
-              free-riders
-            </a>
-            &nbsp; that YOU CHOOSE. virus' require settlement and percolation,
-            to boot. not to be crass but same chance it floats by transmission
-            as intentionally disbursed in&nbsp;
-            <a href="https://www.jstor.org/stable/resrep27830.25?seq=2#metadata_info_tab_contents">
-              food
-            </a>
-            &nbsp; networks to not pay out pensions at this&nbsp;
-            <span
-              style={{ fontWeight: "bolder", textDecoration: "underline" }}
-              onClick={() => {
-                this.valuation.current.scrollIntoView("smooth");
-                this.setState({ highlightValuation: true });
-
-                clearTimeout(this.highlighting);
-                this.highlighting = setTimeout(
-                  () => this.setState({ highlightValuation: false }),
-                  10000
-                );
-              }}
-            >
-              point
-            </span>
-          </div>
+          <br />
           <div
             ref={this.planetary}
             style={{
