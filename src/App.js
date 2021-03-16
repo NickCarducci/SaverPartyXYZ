@@ -140,6 +140,7 @@ export default class App extends React.Component {
     this.mutilation = React.createRef();
     this.planetary = React.createRef();
     this.beast = React.createRef();
+    this.billBiden = React.createRef();
   }
   //https://twitter.com/Nickcarduccii/status/1304091972496510976?s=20
 
@@ -619,11 +620,27 @@ export default class App extends React.Component {
           </span>
         </span>
         There is a bit of vaccine non-information out there
-        <br/>
-        <br/>
+        <br />
+        <br />
         STOP ASKING FOR CAPACITY WHEN YOU MEAN DEMAND CAPACITY WHICH IS
         PERFECTLY PRICE ELASTIC FOR ITS UTILITY PER EACH NEW CAPACITY, WE NEED
-        SUPPLY CAPACITY OR VOLUNTEER OR LESS FRUGAL PRODUCERS, NOT STEAL BY
+        &nbsp;
+        <span
+          style={{ fontWeight: "bolder", textDecoration: "underline" }}
+          onClick={() => {
+            this.bail.current.scrollIntoView("smooth");
+            this.setState({ highlightBail: true });
+
+            clearTimeout(this.highlighting);
+            this.highlighting = setTimeout(
+              () => this.setState({ highlightBail: false }),
+              10000
+            );
+          }}
+        >
+          SUPPLY
+        </span>
+        &nbsp;CAPACITY OR VOLUNTEER OR LESS FRUGAL PRODUCERS, NOT STEAL BY
         COUNTERFEIT-IN-CONTRACT
         <br />
         <div
@@ -647,8 +664,8 @@ export default class App extends React.Component {
         <br />
         <br />
         "Leverage things" of donors or settled-market price, not equity. That's
-        illegal. It is not a matter of time. Naturally debt:cash is 1:1depositary in 1908,
-        now is 41:1
+        illegal. It is not a matter of time. Naturally debt:cash is
+        1:1depositary in 1908, now is 41:1
         <br />
         <br />
         CountyReimbursementsAcrossTheCountry, that's my equitymoney, dike
@@ -1290,8 +1307,19 @@ export default class App extends React.Component {
           spewing these lies. There is no resource for truth except me, here!).
           <br />
           <br />
-          Biden says the Bill increases supply; it actually increases demand and
-          price
+          <span
+            ref={this.billBiden}
+            style={{
+              transition: ".3s ease-in",
+              color: this.state.highlightBillBiden ? "white" : "grey",
+              backgroundColor: this.state.highlightBillBiden
+                ? "rgb(100,170,205)"
+                : ""
+            }}
+          >
+            Biden says the Bill increases supply; it actually increases demand
+            and price
+          </span>
           <br />
           <br />
           People say they care about poverty but don’t want people to keep what
@@ -1426,10 +1454,7 @@ export default class App extends React.Component {
           <div
             ref={this.drugs}
             style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
+              transition: ".3s ease-in",
               color: this.state.highlightDrugs ? "white" : "grey",
               backgroundColor: this.state.highlightDrugs
                 ? "rgb(100,170,205)"
@@ -1724,7 +1749,25 @@ export default class App extends React.Component {
             crime the harms the prosciutto
           </span>
           <br />
-          Stealing Safety&nbsp;&bull;&nbsp;Increase supply fastidiously -
+          Stealing Safety&nbsp;&bull;&nbsp;
+          <span
+            style={{
+              fontWeight: "bolder",
+              textDecoration: "underline"
+            }}
+            onClick={() => {
+              this.billBiden.current.scrollIntoView("smooth");
+              this.setState({ highlightBillBiden: true });
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightBillBiden: false }),
+                10000
+              );
+            }}
+          >
+            Increase
+          </span>
+          &nbsp;supply fastidiously -
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
             onClick={() => {
@@ -14206,3 +14249,4 @@ export default class App extends React.Component {
     );
   }
 }
+
