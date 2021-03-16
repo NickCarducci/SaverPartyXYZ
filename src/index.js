@@ -31,7 +31,7 @@ class Index extends React.Component {
       const scrollHeight = this.page.current.scrollHeight; //document.documentElement.scrollHeight;
       const topSortHeight = this.topSort.current.offsetHeight;
       const scrollPlacementHeight = Math.round(
-        (innerHeight - 115) * (scrollTop / scrollHeight)
+        (innerHeight / 2 - 115) * (scrollTop / scrollHeight)
       );
       const top = scrollTop === 0;
       this.setState(
@@ -132,7 +132,7 @@ class Index extends React.Component {
                 transition: ".3s ease-out"
               }}
             >
-              {this.state.inSection.split(" ").map((x) => `${x}\n`)}
+              {this.state.inSection /*.split(" ").map((x) => `${x}\n`)*/}
             </div>
           </div>
           <div
@@ -926,26 +926,22 @@ class Index extends React.Component {
           >
             <App
               inSection={(section) =>
-                this.state.lastInSection !== section &&
-                this.setState({ openMenu: true }, () => {
-                  this.setState(
-                    {
-                      lastInSection: section,
-                      inSection: section
-                    },
-                    () => {
-                      clearTimeout(this.openmenu);
-                      this.openmenu = setTimeout(
-                        () => this.setState({ openMenu: false }),
-                        5432
-                      );
-                    }
-                  );
-                })
+                this.setState(
+                  {
+                    inSection: section,
+                    openMenu: true
+                  },
+                  () => {
+                    clearTimeout(this.openmenu);
+                    this.openmenu = setTimeout(
+                      () => this.setState({ openMenu: false }),
+                      5432
+                    );
+                  }
+                )
               }
-              landedPresentation={
-                this.state.landedPresentation && this.state.openMenu
-              }
+              landedPresentation={this.state.landedPresentation}
+              openMenu={this.state.openMenu}
               scrolling={this.state.scrolling}
               scrollTop={this.state.scrollTop}
               top={this.state.top}
