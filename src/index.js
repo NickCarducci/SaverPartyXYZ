@@ -104,19 +104,17 @@ class Index extends React.Component {
       >
         <div
           style={{
+            zIndex: 3,
             position: "absolute"
           }}
         >
           <div
             style={{
-              zIndex: -1,
               backgroundColor: "rgb(255,255,255)",
               position: "fixed",
               width: "40px",
               display:
-                this.state.landedPresentation &&
-                !this.state.top &&
-                this.state.openMenu
+                this.state.landedPresentation && this.state.openMenu
                   ? "flex"
                   : "none",
               left: "0px",
@@ -150,7 +148,6 @@ class Index extends React.Component {
                   ? "flex-start"
                   : "center",
               width: "min-content",
-              zIndex: 2,
               color: "white",
               fontSize: "9px",
               position: "fixed",
@@ -269,7 +266,7 @@ class Index extends React.Component {
           style={{
             opacity: showSquirrel ? 1 : 0.3,
             top: 90 + this.state.scrollPlacementHeight,
-            zIndex: 2,
+            zIndex: 3,
             right: "10px",
             width: "30px",
             position: "fixed",
@@ -302,7 +299,7 @@ class Index extends React.Component {
         >
           <div
             style={{
-              zIndex: 1,
+              zIndex: 2,
               height: "min-content",
               right: "0px",
               width: "100%",
@@ -949,7 +946,9 @@ class Index extends React.Component {
                   );
                 })
               }
-              landedPresentation={this.state.landedPresentation}
+              landedPresentation={
+                this.state.landedPresentation && this.state.openMenu
+              }
               openMenu={this.state.openMenu}
               scrolling={this.state.scrolling}
               scrollTop={this.state.scrollTop}
