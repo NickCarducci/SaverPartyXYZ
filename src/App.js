@@ -625,6 +625,27 @@ export default class App extends React.Component {
             Demand
           </span>
         </span>
+        "testing&nbsp;
+        <a href="https://www.memorialhealthcare.org/whats-the-difference-between-covid-19-rapid-and-prc-tests/">
+          positive
+        </a>
+        &nbsp;for&nbsp;
+        <a href="https://www.nih.gov/news-events/nih-research-matters/immune-cells-common-cold-may-recognize-sars-cov-2">
+          covid19
+        </a>
+        &nbsp;7x, migrants are" -&nbsp;
+        <a href="https://www.cruz.senate.gov/">This Doink</a>
+        <br />
+        <br />
+        'For the president of the United States, the leader of the free world
+        and head of the Republican Party, to make completely unsubstantiated [more than once with the same judge]
+        CHARGES about our elections being rigged is not right,'&nbsp;
+        <a href="https://www.bostonglobe.com/2020/11/11/nation/why-gop-superlawyer-ben-ginsberg-is-bucking-his-party-blasting-trumps-baseless-election-claims-2/">
+          Ben Gisnberg
+        </a>
+        &nbsp;said in an interview.
+        <br />
+        <br />
         "We need to break a chain of bad decisions and get the&nbsp;
         <span
           style={{
