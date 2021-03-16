@@ -1420,50 +1420,6 @@ export default class App extends React.Component {
           </span>
           <br />
           <br />
-          <div
-            ref={this.varney}
-            style={{
-              fontFamily: '"Hi Melody", sans-serif',
-
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightVarney ? "white" : "grey",
-              backgroundColor: this.state.highlightVarney
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
-            not the worth of every share if diluted, surely
-            <br />
-            <br />
-            G-d damnit Varney & co. is a clown show, stop calling frauds a
-            bail-out & can you cite who sold (last trade) or who is in control
-            of bid-ask spread instead of passing off what you suspect as
-            causation when you can see the primary-source data
-          </div>
-          <br />
-          unequal application of the law is apparent in profiled portfolio data
-          share, to which 13d is a legislative action but protection is forgone
-          for retail in unecesary third party data share. By government
-          malfeasance and neglect the&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.UUID.current.scrollIntoView("smooth");
-              this.setState({ highlightUUID: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightUUID: false }),
-                10000
-              );
-            }}
-          >
-            UUID
-          </span>
-          &nbsp;being the key to the profile.
-          <br />
           laws have to be justice-oriented in order for the equal application of
           unequal laws to be applied
           <br />
@@ -1727,37 +1683,6 @@ export default class App extends React.Component {
           &nbsp;case
           <br />
           <br />
-          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
-          &nbsp;doesn't understand price-elasticity or he is lying and guilty of
-          intending to harm AND mislead by saying, "Covid Relief Bill will help
-          Americans for a long time."
-          <br />
-          Manchin continues, "$300/week was enough, so no one misses a paycheck"
-          <br />
-          <br />
-          "For families, businesses, [price-fixing] and state and local
-          governments... Why couldn't you work with Republicans" - Chris Wallace
-          <br />
-          "We did, we got it done"
-          <br />
-          <br />
-          So regressive, abjectly-illegal, and&nbsp;
-          <span
-            style={{ fontWeight: "bolder", textDecoration: "underline" }}
-            onClick={() => {
-              this.trust.current.scrollIntoView("smooth");
-              this.setState({ highlightTrust: true });
-
-              clearTimeout(this.highlighting);
-              this.highlighting = setTimeout(
-                () => this.setState({ highlightTrust: false }),
-                10000
-              );
-            }}
-          >
-            anticompetitive
-          </span>
-          <br />
           Biden: "I promised I would get government to work for the American
           people, and this bill will do that," says Joe Biden
           <br />
@@ -1903,29 +1828,6 @@ export default class App extends React.Component {
           times ($82tdebt:$6tcash). (borrower would have to earn then pay
           creditor 13 times)
           <br />
-          <br />
-          You can't give away something you do not take!
-          <br />
-          <br />
-          <span
-            ref={this.newsy}
-            style={{
-              width: "calc(100% - 20px)",
-              maxWidth: "600px",
-              color: this.state.highlightNewsy ? "white" : "grey",
-              backgroundColor: this.state.highlightNewsy
-                ? "rgb(170,100,205)"
-                : ""
-            }}
-          >
-            “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
-            &nbsp;claims it is not opinion the virus will spread without&nbsp;
-            <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
-            must do it to not be forced to&nbsp;
-            <a href="https://moldmask.co">mask</a>
-            ]... If you want the facts: it only does spreads if you have
-            symptoms or don't your wash hands/face.
-          </span>
           <br />
           <i
             style={{
@@ -2541,7 +2443,7 @@ export default class App extends React.Component {
           the same service if ban invoice/rent/non-small-item-sales-tax instead.
           <br />
           <br />
-          cut child poverty in half with $1400 is a one-time thing. Markets [not
+          Cut child poverty in half with $1400 is a one-time thing. Markets [not
           promises in finance, non-natural growth (most of your measure is
           population idiot, laughable to look at GDP without fixing for
           population and claiming credit for the morning Rona on CNN)] don't
@@ -6774,6 +6676,38 @@ export default class App extends React.Component {
           }}
           ref={this.INSURANCEFRAUD}
         >
+          Either&nbsp;<a href="https://www.manchin.senate.gov/">Manchin</a>
+          &nbsp;doesn't understand price-elasticity, trust-building or he is
+          lying and guilty of intending to harm AND mislead by saying, "Covid
+          Relief Bill will help Americans for a long time."
+          <br />
+          Manchin continues, "$300/week was enough, so no one misses a paycheck"
+          <br />
+          <br />
+          "For families, businesses, [price-fixing] and state and local
+          governments... Why couldn't you work with Republicans" - Chris Wallace
+          <br />
+          "We did, we got it done"
+          <br />
+          <br />
+          So regressive, abjectly-illegal, and&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.trust.current.scrollIntoView("smooth");
+              this.setState({ highlightTrust: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightTrust: false }),
+                10000
+              );
+            }}
+          >
+            anticompetitive
+          </span>
+          <br />
+          <br />
           <div style={{ position: "relative" }}>
             <img
               style={{ width: "100%", height: "auto" }}
@@ -7232,6 +7166,27 @@ export default class App extends React.Component {
           }}
           ref={this.VIRUS}
         >
+          <span
+            ref={this.newsy}
+            style={{
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightNewsy ? "white" : "grey",
+              backgroundColor: this.state.highlightNewsy
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            “Opinion-free” crock-of-shit <a href="https://newsy.com">Newsy</a>
+            &nbsp;claims it is not opinion the virus will spread without&nbsp;
+            <a href="https://humanharvest.info">"vaccines"/grafts</a> [that we
+            must do it to not be forced to&nbsp;
+            <a href="https://moldmask.co">mask</a>
+            ]... If you want the facts: it only does spreads if you have
+            symptoms or don't your wash hands/face.
+          </span>
+          <br />
+          <br />
           <div
             style={{
               fontFamily: '"Hi Melody", sans-serif',
@@ -10589,6 +10544,51 @@ export default class App extends React.Component {
           }}
           ref={this.SECURITIESFRAUD}
         >
+          <div
+            ref={this.varney}
+            style={{
+              fontFamily: '"Hi Melody", sans-serif',
+
+              width: "calc(100% - 20px)",
+              maxWidth: "600px",
+              color: this.state.highlightVarney ? "white" : "grey",
+              backgroundColor: this.state.highlightVarney
+                ? "rgb(170,100,205)"
+                : ""
+            }}
+          >
+            "shares of Rubix worth $xxx" - a lie, that is only the last trade,
+            not the worth of every share if diluted, surely
+            <br />
+            <br />
+            G-d damnit Varney & co. is a clown show, stop calling frauds a
+            bail-out & can you cite who sold (last trade) or who is in control
+            of bid-ask spread instead of passing off what you suspect as
+            causation when you can see the primary-source data
+          </div>
+          <br />
+          unequal application of the law is apparent in profiled portfolio data
+          share, to which 13d is a legislative action but protection is forgone
+          for retail in unecesary third party data share. By government
+          malfeasance and neglect the&nbsp;
+          <span
+            style={{ fontWeight: "bolder", textDecoration: "underline" }}
+            onClick={() => {
+              this.UUID.current.scrollIntoView("smooth");
+              this.setState({ highlightUUID: true });
+
+              clearTimeout(this.highlighting);
+              this.highlighting = setTimeout(
+                () => this.setState({ highlightUUID: false }),
+                10000
+              );
+            }}
+          >
+            UUID
+          </span>
+          &nbsp;being the key to the profile.
+          <br />
+          <br />
           Savers are disenfranchised by current&nbsp;
           <span
             style={{ fontWeight: "bolder", textDecoration: "underline" }}
