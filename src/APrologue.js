@@ -5381,7 +5381,13 @@ class APrologue extends React.Component {
           from continuing claims.... that's why you fucking retard
           "conservatives" Kilmeade
           {/*width && <InflationAsset width={Math.min(600, width)} />*/}
-          <Cable
+          <h4>
+            <a href="https://fred.stlouisfed.org/graph/IYow">
+              price inflation never by population except when dead weight by
+              public or private
+            </a>
+          </h4>
+          {/*<Cable
             style={{ height: "760px", width: "100%" }}
             onError={handleScollImgError}
             src={
@@ -5395,7 +5401,7 @@ class APrologue extends React.Component {
             fwd={this["scrollImg" + scrollnum()]}
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
-          />
+          />*/}
           <h2>
             for the most interesting guck in the world, asset prices isn't
             inflation
