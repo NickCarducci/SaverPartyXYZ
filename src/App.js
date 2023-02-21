@@ -38,6 +38,7 @@ export default class App extends React.Component {
     this.thumbprint = React.createRef();
   }
   componentDidMount = () => {
+    this.checkPathname();
     window.addEventListener("scroll", this.handleScroll);
   };
   componentWillUnmount = () => {
@@ -204,51 +205,53 @@ export default class App extends React.Component {
   handleSpotifyError = (e) => {
     this.setState({ spotifyerror: true });
   };
+  checkPathname = () => {
+    clearTimeout(this.check);
+    const check = () => {
+      /*const offsetTop = (e) => {
+        let offsetTop = 0;
+        while (e) {
+          offsetTop += e.offsetTop;
+          e = e.offsetParent;
+        }
+        console.log(e);
+        return offsetTop;
+      };*/
+      console.log("pathname", this.props.pathname);
+      if (this.props.pathname !== "/jesus") {
+        this.setState({
+          racketeeringDoneeClaimables: false
+        });
+      }
+      if (this.props.pathname === "/poverty") {
+        window.scroll(0, this.poverty.current.offsetTop);
+      } else if (this.props.pathname === "/nato") {
+        window.scroll(0, this.nato.current.offsetTop);
+      } else if (this.props.pathname === "/racists") {
+        window.scroll(0, this.racists.current.offsetTop);
+      } else if (this.props.pathname === "/global") {
+        window.scroll(0, this.global.current.offsetTop);
+      } else if (this.props.pathname === "/thumbprint") {
+        this.setState(
+          {
+            journal: true
+          },
+          () => window.scroll(0, this.thumbprint.current.offsetTop)
+        );
+      } else if (this.props.pathname === "/jesus") {
+        this.setState(
+          {
+            journal: true
+          },
+          () => window.scroll(0, this.jesus.current.offsetTop)
+        );
+      }
+    };
+    check();
+    this.check = setTimeout(check, 4000);
+  };
   componentDidUpdate = (prevProps) => {
-    if (this.props.pathname !== prevProps.pathname) {
-      clearTimeout(this.check);
-      const check = () => {
-        /*const offsetTop = (e) => {
-          let offsetTop = 0;
-          while (e) {
-            offsetTop += e.offsetTop;
-            e = e.offsetParent;
-          }
-          console.log(e);
-          return offsetTop;
-        };*/
-        if (this.props.pathname !== "/jesus") {
-          this.setState({
-            racketeeringDoneeClaimables: false
-          });
-        }
-        if (this.props.pathname === "/poverty") {
-          window.scroll(0, this.poverty.current.offsetTop);
-        } else if (this.props.pathname === "/nato") {
-          window.scroll(0, this.nato.current.offsetTop);
-        } else if (this.props.pathname === "/racists") {
-          window.scroll(0, this.racists.current.offsetTop);
-        } else if (this.props.pathname === "/global") {
-          window.scroll(0, this.global.current.offsetTop);
-        } else if (this.props.pathname === "/thumbprint") {
-          this.setState(
-            {
-              journal: true
-            },
-            () => window.scroll(0, this.thumbprint.current.offsetTop)
-          );
-        } else if (this.props.pathname === "/jesus") {
-          this.setState(
-            {
-              journal: true
-            },
-            () => window.scroll(0, this.jesus.current.offsetTop)
-          );
-        }
-      };
-      check();
-      this.check = setTimeout(check, 4000);
-    }
+    if (this.props.pathname !== prevProps.pathname) this.checkPathname();
   };
   render() {
     const { width } = this.props;
