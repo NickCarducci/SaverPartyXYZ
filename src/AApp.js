@@ -120,7 +120,7 @@ class AApp extends React.Component {
           transition: ".3s ease-in",
           display: "flex",
           flexDirection: "column",
-          justifyContent: this.props.onscroll ? "start" : "space-around",
+          justifyContent: this.state.onscroll ? "start" : "space-around",
           maxheight: "min-content",
           height: "calc(100vh - 20px)",
           fontFamily: "sans-serif",
@@ -239,9 +239,7 @@ class AApp extends React.Component {
                 Ability garners needs (no tax deals for{space}
                 <a href="https://micro-theory.com">bezos</a>)
               </span>
-            </div>
-            <br />
-            <div style={{ width: "300px" }}>
+              <br />
               <i>
                 (
                 <a href="https://www.reddit.com/r/occupywallstreet/comments/10xy1zq">
