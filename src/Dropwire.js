@@ -1,6 +1,4 @@
 import React from "react";
-
-//import { renderToString } from 'react-dom/server';
 //import ReactDOM from "react-dom";
 //import ReactHtmlParser from "react-html-parser";
 //import reactElementToJSXString from "react-element-to-jsx-string";
@@ -17,7 +15,6 @@ import React from "react";
   }
 }*/
 
-const DivFunc = (x) => x;
 class Cable extends React.Component {
   constructor(props) {
     super(props);
@@ -50,7 +47,6 @@ class Cable extends React.Component {
     }
   };
   componentWillUnmount = () => {
-    clearTimeout(this.unmount);
     clearTimeout(this.setset);
   };
   checkIfBetween = () => {
@@ -58,7 +54,7 @@ class Cable extends React.Component {
     const { /*scrollTopAndHeight,*/ scrollTop, girth, timeout } = this.props;
     var girt =
       girth && !isNaN(girth)
-        ? girth + 100
+        ? girth + 500
         : window.innerHeight; /*frameheight
         ? frameheight
         : Style &&
@@ -100,107 +96,30 @@ class Cable extends React.Component {
           girt
         );*/
         //console.log(between, page.offsetTop, scrollTop);
-        /*between && */
-        return this.setState({ mount: between }, () => {
-          if (between) {
-            const children = [...page.children];
-            if (
-              //frusterated the second, paniced the first" ca
-              cache //&&
-              //children.length === 0 //|| !children.find((x) => x === cache))
-            ) {
-              /*const nodanger = React.createElement(
-                //page.appendChild(
-                this.props.img ? "img" : "iframe",
-                cache
-              );
-              console.log("reloading", nodanger);
-              const cla = class Image extends React.Component {
-                render() {
-                  return nodanger;
-                }
-              };
-              console.log("cla", cla);
-              //console.log("replenishing, new scroll", cache);
-              //page.appendChild(
-              return this.setState({
-                nodanger: cla
-                //createReactClass({ render: nodanger  })
-              });*/
-              var iframe = document.createElement(
-                this.props.img ? "img" : "iframe"
-              );
-              Object.keys(this.state.cache).forEach((x) => {
-                iframe[x] = this.state.cache[x];
-              });
-              //return (page.innerHTML = iframe);
-              return this.setState({
-                dangerouslySetInnerHTML: iframe
-              });
-
-              /*return this.setState({
-                dangerouslySetInnerHTML: this.state.cache
-              });*/
-              // return (page.innerHTML = `<div dangerouslySetInnerHTML={{ __html: ${this.state.cache} }} />`);
-            }
-
-            var continuee = this.props.fwd && this.props.fwd.current;
-            //between && console.log(between, continuee.outerHTML);
-            if (continuee) {
-              // && this.state.loaded) {
-              //console.log(Object.assign({}, continuee)); //continuee.props); //;outerHTML);
-              //if (continuee.offsetHeight !== 0)
-              const capture = Object.assign({}, continuee);
-              let capp = {};
-              Object.values(capture).forEach((x) => {
-                Object.keys(x).forEach((p) => {
-                  if (
-                    [
-                      "style",
-                      "src",
-                      "key",
-                      "iframe",
-                      "title",
-                      "alt",
-                      "onLoad",
-                      "onError"
-                    ].includes(p)
-                  )
-                    capp[p] = x[p];
-                  if (p === "ref") capp.ref = this.props.fwd;
-                  capp.key = x.src;
-                  capp.type = this.props.img ? "img" : "iframe";
-                });
-              });
-              //const cache = React.cloneElement(continuee, capp);
-              //console.log(cache);
-              return this.setState({
-                cache: capp,
-                //cacheStyle,
-                frameheight: continuee.offsetHeight,
-                framewidth: continuee.offsetWidth
-              });
-            }
-          }
-        });
-      }
-      if (between) return;
-      if (
-        false &&
-        !this.props.img
-        //renderToString(this.props.fwd.current).includes("iframe")
-      )
-        return null;
-      /*const cacheStyle = JSON.parse(
+        /*between && */ this.setState({ mount: between }, () => {});
+      } else {
+        var continuee = this.props.fwd && this.props.fwd.current;
+        //between && console.log(between, continuee.outerHTML);
+        if (!continuee && !cache) return;
+        /*const cacheStyle = JSON.parse(
           (cache ? cache : continuee.outerHTML)
             .split(`style="`)[1]
             .split(`"`)[0]
             .replaceAll(";", `",`)
             .replaceAll(": ", `: "`)
         );*/
-      //console.log(cache, continuee.offsetHeight, continuee.offsetWidth);
-      //console.log("!between", continuee.outerHTML);
-      /* if (continuee) {
+        //console.log(cache, continuee.offsetHeight, continuee.offsetWidth);
+        if (!cache && (this.state.loaded || this.props.img)) {
+          //if (continuee.offsetHeight !== 0)
+          this.setState({
+            cache: continuee.outerHTML,
+            //cacheStyle,
+            frameheight: continuee.offsetHeight,
+            framewidth: continuee.offsetWidth
+          });
+        } else if (!between) {
+          //console.log("!between", continuee.outerHTML);
+          /* if (continuee) {
                 const children = [...continuee.children];
                 console.log(children);
                 if (children.length > 0) {
@@ -216,37 +135,33 @@ class Cable extends React.Component {
                   gl.getExtension("WEBGL_lose_context").loseContext();
                 }
               }*/
-      //continuee.remove();
-      //if (scrollTop !== 0) return;
-      //continuee && continuee.remove();
-      return null;
-      if (this.page.current.children.length > 0)
-        [...this.page.current.children].forEach((x) =>
-          this.page.current.remove(
-            x //continuee.children[continuee.children.length - 1]
-          )
-        );
-
-      /*console.log(
-          Math.abs(scrollTop + page.offsetTop - window.scrollY),
-          scrollTop,
-          page.offsetTop,
-          window.scrollY ,
-          girt
-        );*/
-      //console.log(between, page.offsetTop, scrollTop);
-      /*between && */
-      clearTimeout(this.unmount);
-      this.unmount = setTimeout(
-        () => this.setState({ mount: between, dangerouslySetInnerHTML: null }),
-        500
-      );
-
-      // console.log(girt);
-      //if (Object.keys(page.children).length !== 0 /*page.innerHTML !== ""*/)
-      //return (page.innerHTML = "");
-      // this.setState({ mount: false });
-      /*if (page.innerHTML === "") */
+          //continuee.remove();
+          //if (scrollTop !== 0) return;
+          //continuee && continuee.remove();
+          if (continuee) {
+            while (continuee.children.length > 0) {
+              continuee.remove(
+                continuee.children[continuee.children.length - 1]
+              );
+            }
+          }
+          // console.log(girt);
+          //if (Object.keys(page.children).length !== 0 /*page.innerHTML !== ""*/)
+          //return (page.innerHTML = "");
+          // this.setState({ mount: false });
+        } /*if (page.innerHTML === "") */ else {
+          const children = [...page.children];
+          if (
+            //frusterated the second, paniced the first" ca
+            cache &&
+            (children.length === 0 || !children.find((x) => x === cache))
+          ) {
+            console.log("reloading");
+            //console.log("replenishing, new scroll", cache);
+            return (page.innerHTML = this.state.cache);
+          }
+        }
+      }
     }, timeou);
   };
   render() {
@@ -293,11 +208,7 @@ class Cable extends React.Component {
           width: optionalwidth
         }}
       >
-        {this.state.dangerouslySetInnerHTML && (
-          <div dangerouslySetInnerHTML={{ __html: this.state.cache }} />
-        )}
-        {this.state.nodanger}
-        {src === "" || (img && !mount) /*|| (!img && !mount)*/ ? (
+        {src === "" || (!img && !mount) ? (
           <span style={{ border: "2px gray solid" }}>{title}</span>
         ) : img ? (
           <img
