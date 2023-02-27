@@ -1080,7 +1080,13 @@ class APrologue extends React.Component {
         inconclusive (debunked/confirmed) in HIV.”
         <br />
         <br />
-        <Cable
+        <h2>
+          <a href="https://www.youtube.com/embed/DN_OV_3PVHA">
+            CNN - Mary Trump with JAcosta on Census Projected Mortality,
+            Non-Voter Turnout, and Doubt Trump Lost
+          </a>
+        </h2>
+        {/*<Cable
           style={{
             width: "300px"
           }}
@@ -1096,7 +1102,7 @@ class APrologue extends React.Component {
           fwd={this["scrollImg" + scrollnum()]}
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
-        />
+        />*/}
         Mary Trump: "My (great-?)grandfather was a former NAZI, I know Donald
         bought into every single antisimetic trope out there. Reduce the amount
         of testing to lower spread accross the country, malignant personalities
@@ -1160,7 +1166,12 @@ class APrologue extends React.Component {
         microeconomic reasoning of free market self-regulation of perfect
         equillibrium of per hour price deflation from comparative advantage
         <br />
-        <Cable
+        <h2>
+          <a href="https://www.youtube.com/embed/W-Vv1vysGzE">
+            Open Gov Foundation Hack4Congress
+          </a>
+        </h2>
+        {/*<Cable
           style={{
             width: "100%",
 
@@ -1178,7 +1189,7 @@ class APrologue extends React.Component {
           fwd={this["scrollImg" + scrollnum()]}
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
-        />
+        />*/}
         tech advancement of good products over blind jobs numbers with infinite
         producers be damned. These are true rising-stars, and standing up for
         hardworking every day , measured by credit as income instead of
@@ -3085,7 +3096,12 @@ class APrologue extends React.Component {
         <a href="https://humanharvest.info">the presentable facts</a>
         <br />
         <br />
-        <Cable
+        <h4>
+          <a href="https://open.spotify.com/embed/episode/3MVGr23zEtyaKeIc3S5nAi?t=3247782">
+            Spotify - Philip Goff on Joe Rogan
+          </a>
+        </h4>
+        {/* <Cable
           style={{
             maxWidth: "100%",
             width: "400px"
@@ -3102,7 +3118,7 @@ class APrologue extends React.Component {
           fwd={this["scrollImg" + scrollnum()]}
           scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
           scrollTop={this.props.scrollTop}
-        />
+        />*/}
         Matter is was consciousness does
         <br />
         Causal skeleton charge mass
@@ -3898,7 +3914,12 @@ class APrologue extends React.Component {
         fallacy)
         <br />
         <br />
-        <iframe
+        <h2>
+          <a href="https://www.youtube.com/embed/OqgUxnqc3AM">
+            https://www.youtube.com/embed/OqgUxnqc3AM
+          </a>
+        </h2>
+        {/*<iframe
           style={{
             shapeOutside: "rect()",
             float: "left",
@@ -3906,7 +3927,7 @@ class APrologue extends React.Component {
           }}
           src="https://www.youtube.com/embed/OqgUxnqc3AM"
           title="YouTube video player"
-        />
+        />*/}
         <Cable
           style={{ height: "auto", width: "300px" }}
           img={true}
@@ -3932,7 +3953,12 @@ class APrologue extends React.Component {
           changing byproduct testing
         </a>
         .
-        <iframe
+        <h2>
+          <a href="https://www.youtube.com/embed/m-CwPBcrMYQ">
+            https://www.youtube.com/embed/m-CwPBcrMYQ
+          </a>
+        </h2>
+        {/*<iframe
           style={{
             shapeOutside: "rect()",
             float: "right",
@@ -3940,7 +3966,7 @@ class APrologue extends React.Component {
           }}
           src="https://www.youtube.com/embed/m-CwPBcrMYQ"
           title="YouTube video player"
-        />
+        />*/}
         <br />
         <br />
         {width && <Epiology lastWidth={Math.min(600, width)} />}
@@ -3975,7 +4001,12 @@ class APrologue extends React.Component {
         <br />
         ms literally, "matches paralytic polio" in US numbers
         {width && <Polio lastWidth={Math.min(600, width)} />}
-        <iframe
+        <h2>
+          <a href="https://www.youtube.com/embed/GDOaqkjfIcg">
+            https://www.youtube.com/embed/GDOaqkjfIcg
+          </a>
+        </h2>
+        {/* <iframe
           style={{
             shapeOutside: "rect()",
             float: "left",
@@ -3983,7 +4014,7 @@ class APrologue extends React.Component {
           }}
           src="https://www.youtube.com/embed/GDOaqkjfIcg"
           title="YouTube video player"
-        />
+        />*/}
         There is 2k/yr virus discovered, we test for one at a time based on
         predilections, insignificant aggregate hospitalizations when fixing for
         all types, & the only diagnostic difference between bacteria and virus
@@ -4248,7 +4279,12 @@ class APrologue extends React.Component {
         think to take their down payments in retribution after losing
         <h2>if you're going to foreclose, I'll forbid</h2>
         <br />
-        <iframe
+        <h2>
+          <a href="https://www.youtube.com/embed/EssAVI0-bhA">
+            https://www.youtube.com/embed/EssAVI0-bhA
+          </a>
+        </h2>
+        {/*<iframe
           style={{
             shapeOutside: "rect()",
             float: "right",
@@ -4257,7 +4293,7 @@ class APrologue extends React.Component {
           }}
           src="https://www.youtube.com/embed/EssAVI0-bhA"
           title="YouTube video player"
-        />
+        />*/}
         “Handling sadness yourself invokes a great burden on those around you,”
         Biden racketeering for psychologists as priority over the folding burden
         of debt and landlords
@@ -4894,7 +4930,12 @@ class APrologue extends React.Component {
             height: "min-content"
           }}
         >
-          <iframe
+          <h2>
+            <a href="https://www.youtube.com/embed/aJEszZK54dw">
+              Masterclass - Paul Krugman, 'insurance is a net loss'
+            </a>
+          </h2>
+          {/*<iframe
             title="Masterclass - Paul Krugman, 'insurance is a net loss'"
             style={{
               shapeOutside: "rect()",
@@ -4907,7 +4948,7 @@ class APrologue extends React.Component {
                 ? ""
                 : "https://www.youtube.com/embed/aJEszZK54dw"
             }
-          />
+          />*/}
           "Appeals work, when system is deemed to not work, that is really bad."
           Blind justice about itself. 90 fucking days of chaos and &nbsp;
           <a href="https://truncatedsalestax.com">called me bizarre while</a>
@@ -4964,7 +5005,14 @@ class APrologue extends React.Component {
         <br />
         kick you off nj jury duty for thinking torts should be in capacity
         without surrendering your customers/employers cash with false bid
-        {!this.state.spotifyerror && (
+        <h3>
+          <a href="https://open.spotify.com/embed/episode/06stKb6W6oaMopDgl5lkEG">
+            3:55 Office Hours w/ Scott Galloway - asset-lite flow Uber 2nd
+            holding verbal disclosure (anon-uuid 2-weeks out for every
+            broker-tranche-part)
+          </a>
+        </h3>
+        {/*!this.state.spotifyerror && (
           <Cable
             onError={handleScollImgError}
             src={
@@ -4979,7 +5027,7 @@ class APrologue extends React.Component {
             scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
             scrollTop={this.props.scrollTop}
           />
-        )}
+          )*/}
         <br />
         <br />
         <h2>expiring insurance is so becoming of your tardness</h2>
@@ -5611,7 +5659,12 @@ class APrologue extends React.Component {
           the cause of price-changes are debt 4400% and inflation by money 102%
         </div>
         <br />
-        <iframe
+        <h2>
+          <a href="https://www.youtube.com/embed/nKvUf7F4Xn4">
+            https://www.youtube.com/embed/nKvUf7F4Xn4
+          </a>
+        </h2>
+        {/*<iframe
           style={{
             shapeOutside: "rect()",
             float: "left",
@@ -5621,7 +5674,7 @@ class APrologue extends React.Component {
           }}
           src="https://www.youtube.com/embed/nKvUf7F4Xn4"
           title="YouTube video player"
-        />
+        />*/}
         <br />
         <h2>
           Transitory bid-to-ask inelasticity, across Apple and oranges (public
@@ -5881,3 +5934,4 @@ class APrologue extends React.Component {
 export default React.forwardRef((props, ref) => (
   <APrologue {...props} {...ref.current} />
 ));
+
