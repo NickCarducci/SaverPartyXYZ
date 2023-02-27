@@ -6613,7 +6613,13 @@ class AProduction extends React.Component {
           it & it is streamed not tranched
           <br />
           <div style={{ width: "calc(100% - 80px)" }}>
-            {!this.state.spotifyerror && (
+            <h3>
+              <a href="https://open.spotify.com/embed/track/5cf1ZfI16kHp3S1ySpQ36G">
+                'Ready, Able' Grizzly Bear, emphatic of consumer-side-economics
+                imo
+              </a>
+            </h3>
+            {/*!this.state.spotifyerror && (
               <Cable
                 style={{
                   width: "100%",
@@ -6633,7 +6639,7 @@ class AProduction extends React.Component {
                 scrollTopAndHeight={this.props.scrollTop + window.innerHeight}
                 scrollTop={this.props.scrollTop}
               />
-            )}
+              )*/}
           </div>
           Socialist is anti dead weight, not gentrification
           <br />
@@ -10508,3 +10514,4 @@ class AProduction extends React.Component {
   }
 }
 export default AProduction;
+
