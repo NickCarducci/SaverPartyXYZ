@@ -3455,6 +3455,9 @@ class APrologue extends React.Component {
         tax 2025, after cash:debt*income thru history as to no longer debt
         service/bond launder 40%
         <br />
+        <h3 style={{ float: "right" }}>
+          <a href="https://marginalism.uk">marginalism.uk</a>
+        </h3>
         <h2 ref={this.props.jesus}>The new covenant with G-d is a toast!</h2>
         “Abraham conquering G-d. Jesus becoming messiah and eternal life.”
         <br />
