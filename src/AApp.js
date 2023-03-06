@@ -135,6 +135,7 @@ class AApp extends React.Component {
             marginTop: "30px"
           }}
         >
+          Why doesn't QE match a positive 10-2 curve?
           <div
             {...setting(8, {
               zIndex: "9",
