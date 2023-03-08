@@ -135,7 +135,6 @@ class AApp extends React.Component {
             marginTop: "30px"
           }}
         >
-          Why doesn't QE match a positive 10-2 curve?
           <div
             {...setting(8, {
               zIndex: "9",
@@ -203,7 +202,13 @@ class AApp extends React.Component {
               //
             }}
           >
+            <h4>bankingisnot.biz - vau.money - marginalism.uk</h4>
             <div style={{ width: "300px" }}>
+              If the gift tax on donor property excludes relieved debt, what's
+              the point of deducting interest expenses?
+              <br />
+              <br />
+              Why doesn't QE match a positive 10-2 curve?
               <h4>Duress perjury debt for functional tax falls</h4>
               flint was caused by defunding?
               <br />
