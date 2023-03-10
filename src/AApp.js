@@ -205,22 +205,31 @@ class AApp extends React.Component {
             1. Reduce surrendered cash opportunities
             <br />
             <span style={{ fontSize: "12px" }}>
-              (emulate debt service interest and collateral exchange)
+              (emulate debt service interest and collateral{space}
+              <a href="https://www.quora.com/unanswered/Does-a-third-party-donee-beneficiary-have-valid-claims-over-homes-bought-with-someones-invoices-or-either-their-cash-or-nonsale-in-kind-advances">
+                exchange
+              </a>
+              )
             </span>
             2. Industry-merchant degree-context payday
             <br />
             <span style={{ fontSize: "12px" }}>
               (concurrent industry accessable)
             </span>
-            3. Recessionary interim hikes
-            <br />
+            <span>
+              3.{space}
+              <a href="https://www.quora.com/unanswered/Does-the-NBER-care-about-safety-or-taxes-Whys-marginal-inflationary-unemployment-a-bigger-issue-in-setting-next-years-tax-rate-than-constitutional-reconciliation">
+                Recessionary
+              </a>
+              {space}interim hikes
+            </span>
             <span style={{ fontSize: "12px" }}>
-              (
+              (constitutional Article{space}
               <a
                 style={{ color: "forestgreen" }}
                 href="https://www.quora.com/unanswered/Are-personal-corporate-and-lien-debt-illegal-if-just-tax-hikes-in-the-next-year-to-cover-annual-deficits-is-constitutional"
               >
-                constitutional Article 1 § 8
+                1 § 8
               </a>
               )
             </span>
