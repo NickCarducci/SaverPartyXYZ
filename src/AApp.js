@@ -202,6 +202,21 @@ class AApp extends React.Component {
               //
             }}
           >
+            1. Reduce surrendered cash opportunities
+            <br />
+            <span style={{ fontSize: "12px" }}>
+              (emulate debt service interest and collateral exchange)
+            </span>
+            2. Industry-merchant degree-context payday
+            <br />
+            <span style={{ fontSize: "12px" }}>
+              (concurrent industry accessable)
+            </span>
+            3. Recessionary interim hikes
+            <br />
+            <span style={{ fontSize: "12px" }}>
+              (constitutional Article 1 § 8)
+            </span>
             <h4>bankingisnot.biz - vau.money - marginalism.uk</h4>
             <div style={{ width: "300px" }}>
               If the gift tax on donor property excludes relieved debt, what's
