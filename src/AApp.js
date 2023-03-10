@@ -215,7 +215,14 @@ class AApp extends React.Component {
             3. Recessionary interim hikes
             <br />
             <span style={{ fontSize: "12px" }}>
-              (constitutional Article 1 § 8)
+              (
+              <a
+                style={{ color: "forestgreen" }}
+                href="https://www.quora.com/unanswered/Are-personal-corporate-and-lien-debt-illegal-if-just-tax-hikes-in-the-next-year-to-cover-annual-deficits-is-constitutional"
+              >
+                constitutional Article 1 § 8
+              </a>
+              )
             </span>
             <h4>bankingisnot.biz - vau.money - marginalism.uk</h4>
             <div style={{ width: "300px" }}>
