@@ -203,6 +203,12 @@ class AApp extends React.Component {
               //
             }}
           >
+            <div style={{ width: "300px" }}>
+              Are foreign direct exports or imports worth anything good for
+              rich, developed, and expensive domestic countries otherwise? Does
+              public healthcare need to use insurance instead of taxes because
+              of illegal immigrants? Is that bureaucracy worth anything good?
+            </div>
             <TwitterTweetEmbed
               style={{
                 overflowX: "auto"
