@@ -1,6 +1,7 @@
 import React from "react";
 import Cable from "./Dropwire";
 import Government from "./government";
+import TwitterTweetEmbed from "./TwitterTweetEmbed";
 
 class AApp extends React.Component {
   constructor(props) {
@@ -202,6 +203,15 @@ class AApp extends React.Component {
               //
             }}
           >
+            <TwitterTweetEmbed
+              style={{
+                overflowX: "auto"
+              }}
+              key="1634763631056375814"
+              tweetId="1634763631056375814"
+            />
+            Do you support tax hikes after recessions to cover deficits?
+            <br />
             1. Reduce surrendered cash opportunities
             <br />
             <span style={{ fontSize: "12px" }}>
