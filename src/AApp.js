@@ -230,6 +230,14 @@ class AApp extends React.Component {
               key="1634763631056375814"
               tweetId="1634763631056375814"
             />
+            <h4>hike remit fed, cut remit payers</h4>
+            Tax cut deflation in tract to service expenses.
+            {space}
+            <i>
+              Cop credit should cover recessions with a hike and if deflation
+              then doubly cuts!
+            </i>
+            {space}
             Do you support tax hikes after recessions to cover deficits?
             <br />
             1. Reduce surrendered cash opportunities
@@ -276,6 +284,7 @@ class AApp extends React.Component {
               no demand all of the sudden
               <br />
               join wipo save our elderly and taiwan
+              <h3>Dollar interior vote.</h3>
               <h2>
                 <a href="https://2024nj.com/carducci">Tax Security, First!</a>
               </h2>
