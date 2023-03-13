@@ -230,15 +230,34 @@ class AApp extends React.Component {
               key="1634763631056375814"
               tweetId="1634763631056375814"
             />
+            <span>
+              Do not say material shrinkflation is good for people or else (bad
+              advice).{space}
+              <span style={{ color: "lightslategray" }}>
+                Tax hikes (too far){space}
+                <span style={{ color: "darkviolet" }}>or surplus</span>
+                {space}make remittances to the treasury
+              </span>
+              {space}as tax cuts (too far)
+              {space}
+              <span style={{ color: "green" }}>or recessions</span>
+              {space}make remittances to the federal reserve.
+            </span>
+            {
+              //The only human right is that which to own. Land . Sad but pedo is consent thing.
+            }
             <h4>hike remit fed, cut remit payers</h4>
             Tax cut deflation in tract to service expenses.
             {space}
-            <i>
+            <i style={{ fontSize: "12px" }}>
               Cop credit should cover recessions with a hike and if deflation
-              then doubly cuts!
+              then doubly cuts!{space}
+              <b>if you want to end convenience yields.</b>
             </i>
             {space}
-            Do you support tax hikes after recessions to cover deficits?
+            <span style={{ fontSize: "14px" }}>
+              Do you support tax hikes after recessions to cover deficits?
+            </span>
             <br />
             1. Reduce surrendered cash opportunities
             <br />
