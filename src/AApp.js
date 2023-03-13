@@ -230,6 +230,11 @@ class AApp extends React.Component {
               key="1634763631056375814"
               tweetId="1634763631056375814"
             />
+            Pretty sure Iran wants risk free banking. Hijab is for
+            {/*cucks; [P McD: "so many visions, so little time"] */ space}
+            commie.dev/cukl(s). Can we cut taxes when we have deflation
+            (saltbank.org)?
+            <br />
             <span>
               Do not say material shrinkflation is good for people or else (bad
               advice).{space}
@@ -245,6 +250,9 @@ class AApp extends React.Component {
             </span>
             {
               //The only human right is that which to own. Land . Sad but pedo is consent thing.
+              //Interior or salt bank money
+              //terror warnings lmao it's NOT FUNNY
+              //Our goal is NOT _, but it IS _
             }
             <h4>hike remit fed, cut remit payers</h4>
             Tax cut deflation in tract to service expenses.
