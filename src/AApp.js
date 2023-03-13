@@ -204,6 +204,25 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              Can we have tax cuts following a year of deflation and surplus?
+              <h4>Libertarians haven’t liberated sh*t!</h4>
+              <div style={{ fontSize: "12px" }}>
+                I cannot deny what I do not know, but he is a Republican and
+                they like to cover deflation. Should government tax during or
+                following either a recession or tax cuts too far and remit such
+                surplus due to the federal reserve until each service expense
+                tract deflates? He also believes in virus zombie-human
+                physiology genealogy and sunk my anti-vaxx case for bath
+                sectional data and 1941–1946 but also obesity expectations:
+                humanharvest.info. To many like my Rand Paul is an Udder-joke
+                and an accomplice.
+              </div>
+              Is FDIC, unemployment benefits, paycheck protection, or tort
+              reform better?
+              <br />
+              Should government tax during or following either a recession or
+              tax cuts too far and remit such surplus due to the federal reserve
+              until each service expense tract deflates?
               <h3>It was expected. humanharvest.info</h3>
               Face it you{space}
               <i>are</i>
@@ -1525,3 +1544,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
