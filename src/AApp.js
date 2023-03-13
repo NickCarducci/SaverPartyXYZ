@@ -118,6 +118,7 @@ class AApp extends React.Component {
       <div
         style={{
           width: "100%",
+          maxWidth: "800px",
           transition: ".3s ease-in",
           display: "flex",
           flexDirection: "column",
