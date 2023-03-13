@@ -204,10 +204,24 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
-              Are foreign direct exports or imports worth anything good for
-              rich, developed, and expensive domestic countries otherwise? Does
-              public healthcare need to use insurance instead of taxes because
-              of illegal immigrants? Is that bureaucracy worth anything good?
+              <h3>It was expected. humanharvest.info</h3>
+              Face it you{space}
+              <i>are</i>
+              {space}racist. They only show mitosis "doctor", perhaps to cover.
+              Aren’t virus physiology zombie brain (anyone who thinks like that
+              is dangerous)? Vaccines or baths. But for protected classes.
+              {space}
+              <span style={{ color: "cornflowerblue" }}>
+                Usual significant.
+              </span>
+              {space}Why would vaccines work for old people specifically?
+              <div style={{ fontSize: "12px" }}>
+                Are foreign direct exports or imports worth anything good for
+                rich, developed, and expensive domestic countries otherwise?
+                Does public healthcare need to use insurance instead of taxes
+                because of illegal immigrants? Is that bureaucracy worth
+                anything good?
+              </div>
             </div>
             <TwitterTweetEmbed
               style={{
