@@ -214,8 +214,6 @@ class AApp extends React.Component {
                 tract deflates? He also believes in virus zombie-human
                 physiology genealogy and sunk my anti-vaxx case for bath
                 sectional data and 1941–1946 but also obesity expectations:
-                humanharvest.info. To many like my Rand Paul is an Udder-joke
-                and an accomplice.
               </div>
               Is FDIC, unemployment benefits, paycheck protection, or tort
               reform better?
@@ -223,7 +221,9 @@ class AApp extends React.Component {
               Should government tax during or following either a recession or
               tax cuts too far and remit such surplus due to the federal reserve
               until each service expense tract deflates?
-              <h3>It was expected. humanharvest.info</h3>
+              <h3>It was expected. humanharvest.info</h3>To many like me, Rand
+              Paul is an Udder-joke and an accomplice.
+              <br />
               Face it you{space}
               <i>are</i>
               {space}racist. They only show mitosis "doctor", perhaps to cover.
@@ -1544,4 +1544,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
