@@ -265,6 +265,12 @@ class AApp extends React.Component {
             {space}
             <span style={{ fontSize: "14px" }}>
               Do you support tax hikes after recessions to cover deficits?
+              {space}
+              <b>
+                Should government tax during or following either a recession or
+                tax cuts too far and remit such surplus due to the federal
+                reserve until each service expense tract deflates?
+              </b>
             </span>
             <br />
             1. Reduce surrendered cash opportunities
