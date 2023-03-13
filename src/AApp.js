@@ -205,7 +205,8 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
-              Can we have tax cuts following a year of deflation and surplus?
+              Is a security contagion bank runs or positive 2-10 rates? Can we
+              have tax cuts following a year of deflation and surplus?
               <h4>Libertarians haven’t liberated sh*t!</h4>
               <div style={{ fontSize: "12px" }}>
                 I cannot deny what I do not know, but he is a Republican and
