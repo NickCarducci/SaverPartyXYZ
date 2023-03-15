@@ -209,23 +209,28 @@ class AApp extends React.Component {
                 Should buyers be allowed to dispose of their property
                 intertemporally if they cannot plausibly use it themselves?
               </h4>
-              Should foreclosures keep debt service interest or either provide
-              an option to homeowners to refinance at the new lower price or
-              return equity if at a higher price already?{space}
+              Should government hike taxes on factors after surplus or public
+              debt and contextually-codify private debts into non-recurring
+              total interest payday loans after reducing liabilities to
+              history’s current income modulo of intertemporal principal credit?{" "}
+              {space}
               <span style={{ color: "chocolate" }}>
                 Should government hike taxes on entertainment after a budget
                 surplus or on outlaid industry factors after a recession to
                 cover?
               </span>
-              {space}Should government hike taxes on factors after surplus or
-              public debt and contextually-codify private debts into
-              non-recurring total interest payday loans after reducing
-              liabilities to history’s current income modulo of intertemporal
-              principal credit? Do debt payments come from customers or
-              third-party donee beneficiaries?{space}
+              {space}Should foreclosures keep debt service interest or either
+              provide an option to homeowners to refinance at the new lower
+              price or return equity if at a higher price already? Do debt
+              payments come from customers or third-party donee beneficiaries?
+              {space}
               <span style={{ color: "darkviolet" }}>
                 Should homeless trespassers be jailed in shelters until moving
                 to work or have a computer lab and learn to code their way out?
+              </span>
+              {space}
+              <span style={{ color: "forestgreen" }}>
+                Should teenagers be compelled to go to school or work?
               </span>
               {space}Are adult children mentally ill or dependent because of
               compounding inflation? Should immigrants, children, and everyday
