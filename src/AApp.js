@@ -205,21 +205,28 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
-              Should homeless trespassers be jailed in shelters until moving to
-              work or have a computer lab and learn to code their way out? Are
-              adult children mentally ill or dependent because of compounding
-              inflation? Do debt payments come from customers or third-party
-              donee beneficiaries? Should immigrants, children, and everyday
+              Should foreclosures keep debt service interest or either provide
+              an option to homeowners to refinance at the new lower price or
+              return equity if at a higher price already?{space}
+              <span style={{ color: "chocolate" }}>
+                Should government hike taxes on entertainment after a budget
+                surplus or on outlaid industry factors after a recession to
+                cover?
+              </span>
+              {space}Should government hike taxes on factors after surplus or
+              public debt and contextually-codify private debts into
+              non-recurring total interest payday loans after reducing
+              liabilities to history’s current income modulo of intertemporal
+              principal credit? Do debt payments come from customers or
+              third-party donee beneficiaries?{space}
+              <span style={{ color: "darkviolet" }}>
+                Should homeless trespassers be jailed in shelters until moving
+                to work or have a computer lab and learn to code their way out?
+              </span>
+              {space}Are adult children mentally ill or dependent because of
+              compounding inflation? Should immigrants, children, and everyday
               customers or government and lending factors pay for debt
-              inflation? Should foreclosures keep debt service interest or
-              either provide an option to homeowners to refinance at the new
-              lower price or return equity if at a higher price already? Should
-              government hike taxes on entertainment after a budget surplus or
-              on outlaid industry factors after a recession to cover? Should
-              government hike taxes on factors after surplus or public debt and
-              contextually-codify private debts into non-recurring total
-              interest payday loans after reducing liabilities to history’s
-              current income modulo of intertemporal principal credit?
+              inflation?
               <br />
               <br />
               <a href="https://occupywall.us">
@@ -1571,4 +1578,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
