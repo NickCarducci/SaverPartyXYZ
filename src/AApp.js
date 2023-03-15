@@ -205,10 +205,12 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
-              Are adult children mentally ill or dependent because of
-              compounding inflation? Do debt payments come from customers or
-              third-party donee beneficiaries? Should immigrants, children, and
-              everyday customers or government and lending factors pay for debt
+              Should homeless trespassers be jailed in shelters until moving to
+              work or have a computer lab and learn to code their way out? Are
+              adult children mentally ill or dependent because of compounding
+              inflation? Do debt payments come from customers or third-party
+              donee beneficiaries? Should immigrants, children, and everyday
+              customers or government and lending factors pay for debt
               inflation? Should foreclosures keep debt service interest or
               either provide an option to homeowners to refinance at the new
               lower price or return equity if at a higher price already? Should
@@ -1569,3 +1571,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
