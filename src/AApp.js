@@ -205,8 +205,28 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
-              Is a security contagion bank runs or positive 2-10 rates? Can we
-              have tax cuts following a year of deflation and surplus?
+              Are adult children mentally ill or dependent because of
+              compounding inflation? Do debt payments come from customers or
+              third-party donee beneficiaries? Should immigrants, children, and
+              everyday customers or government and lending factors pay for debt
+              inflation? Should foreclosures keep debt service interest or
+              either provide an option to homeowners to refinance at the new
+              lower price or return equity if at a higher price already? Should
+              government hike taxes on entertainment after a budget surplus or
+              on outlaid industry factors after a recession to cover? Should
+              government hike taxes on factors after surplus or public debt and
+              contextually-codify private debts into non-recurring total
+              interest payday loans after reducing liabilities to history’s
+              current income modulo of intertemporal principal credit?
+              <br />
+              <br />
+              <a href="https://occupywall.us">
+                Is a security contagion bank runs or positive 2-10 rates?
+              </a>
+              {space}Can we have tax cuts following a year of deflation and
+              surplus? Do banks fail because of wages or subpar asset sales and
+              defaults? Can’t banks just pay employees by transaction fees
+              instead?
               <h5>vaults.biz/money - stop lending deposits</h5>
               <h4>Libertarians haven’t liberated sh*t!</h4>
               <div style={{ fontSize: "12px" }}>
@@ -1547,3 +1567,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
