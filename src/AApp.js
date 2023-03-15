@@ -205,6 +205,10 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              <h4>
+                Should buyers be allowed to dispose of their property
+                intertemporally if they cannot plausibly use it themselves?
+              </h4>
               Should foreclosures keep debt service interest or either provide
               an option to homeowners to refinance at the new lower price or
               return equity if at a higher price already?{space}
