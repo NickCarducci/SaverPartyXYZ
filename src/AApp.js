@@ -228,7 +228,9 @@ class AApp extends React.Component {
               defaults? Can’t banks just pay employees by transaction fees
               instead?
               <h5>vaults.biz/money - stop lending deposits</h5>
-              <h4>Libertarians haven’t liberated sh*t!</h4>
+              <h4>Libertarians haven’t liberated sh*t!</h4>Are nonsale medical
+              escrow advances or serviceable sutures materially beneficial
+              public healthcare?
               <div style={{ fontSize: "12px" }}>
                 I cannot deny what I do not know, but he is a Republican and
                 they like to cover deflation. Should government tax during or
@@ -1567,4 +1569,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
