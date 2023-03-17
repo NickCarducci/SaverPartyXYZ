@@ -238,7 +238,8 @@ class AApp extends React.Component {
               </a>
               {space}(The currency is{space}
               <a href="https://vaults.biz/money">20% of the country</a>
-              {space}you tard)
+              {space}you tard:{space}
+              <i>Have you yet eloped a self-retarding group or function?</i>)
               <br />
               &bull;{space}Tax after recessions and during its inflation part
               for{space}
@@ -1632,4 +1633,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
