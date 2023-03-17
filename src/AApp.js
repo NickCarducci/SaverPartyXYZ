@@ -205,6 +205,41 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              &bull;{space}TaxSecurityFirst.com for Risk-Free banking
+              <br />
+              &bull;{space}
+              <a href="https://">Codify past debts progressively</a>
+              {space}by{space}
+              <a href="https://micro-theory.com">industry factor benefit</a>
+              {space}without interest.
+              <br />
+              &bull;{space}Final goods not in voice nor advance nonsale warranty
+              <br />
+              &bull;{space}Affix legal dependency instead of custody for
+              inflation.
+              <br />
+              &bull;{space}Under 18 proprietors, no homeschool nor truancy
+              required (suggested work for yourself towards a{space}
+              <a href="https://vau.money/login">
+                tax advantaged primary residence
+              </a>
+              {space}account)
+              <br />
+              &bull;{space}Moving to learn to code....
+              <br />
+              &bull;{space}Surtures, medics for all 43% medicare for all and 47%
+              no insurance
+              <br />
+              &bull;{space}SSDI injury
+              <br />
+              &bull;{space}SSI trauma traded,{space}
+              <a href="https://jester.com.co">
+                not the verb by which anyone can be
+              </a>
+              &bull;{space}Tax after recessions and during its inflation part
+              for{space}
+              <a href="https://kinddocket.com">investigative punishment</a>
+              {space})
               <h4>
                 Should buyers be allowed to dispose of their property
                 intertemporally if they cannot plausibly use it themselves?
@@ -1588,3 +1623,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
