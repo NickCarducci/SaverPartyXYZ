@@ -236,10 +236,19 @@ class AApp extends React.Component {
               <a href="https://jester.com.co">
                 not the verb by which anyone can be
               </a>
+              {space}(The currency is{space}
+              <a href="https://vaults.biz/money">20% of the country</a>
+              {space}you tard)
+              <br />
               &bull;{space}Tax after recessions and during its inflation part
               for{space}
               <a href="https://kinddocket.com">investigative punishment</a>
               {space})
+              <br />
+              &bull;{space}Progressively tax the progressive industry
+              <br />
+              &bull;{space}Deposits invested don't need to be bailed out like
+              Ron Paul wants. GIVE ME A BIN.
               <h4>
                 Should buyers be allowed to dispose of their property
                 intertemporally if they cannot plausibly use it themselves?
