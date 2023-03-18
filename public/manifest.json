@@ -1,0 +1,39 @@
+{
+  "display": "standalone",
+  "scope": "./",
+  "short_name": "Saver Party legal",
+  "description": "Liquid consumer advocacy firm",
+  "screenshots": [
+    {
+      "alt": "no screenshots available yet",
+      "src": "/",
+      "type": "image/jpeg",
+      "sizes": "516x1116.67"
+    }
+  ],
+  "name": "Producing final good natures escrow",
+  "background_color": "#9749ff",
+  "icons": [
+    {
+      "src": "https://www.dl.dropbocusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
+      "sizes": "64x64 32x32 24x24 16x16 192x192 194x194 512x512",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#9749ff",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "Saver-party-legal",
+      "short_name": "SAVER",
+      "icons": [
+        {
+          "src": "https://www.dl.dropbocusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
