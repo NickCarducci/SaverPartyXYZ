@@ -15,7 +15,7 @@
   "background_color": "#9749ff",
   "icons": [
     {
-      "src": "https://www.dl.dropbocusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
+      "src": "https://www.dl.dropboxusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
       "sizes": "64x64 32x32 24x24 16x16 192x192 194x194 512x512",
       "type": "image/ico"
     }
@@ -30,7 +30,7 @@
       "short_name": "SAVER",
       "icons": [
         {
-          "src": "https://www.dl.dropbocusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
+          "src": "https://www.dl.dropboxusercontent.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?dl=0",
           "sizes": "192x192"
         }
       ]
