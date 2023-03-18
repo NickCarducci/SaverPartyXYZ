@@ -254,6 +254,14 @@ class AApp extends React.Component {
               <br />
               &bull;{space}Deposits invested don't need to be bailed out like
               Ron Paul wants. GIVE ME A BIN.
+              <hr />
+              Why do banks cause a run by selling assets subpar to pay their
+              employees instead of use transaction fees?
+              <br />
+              Why is bankruptcy allowed to cause bank runs instead of codifying
+              student and government debt while liens use realty foreclosure and
+              shareholder loans from limited family testamentary partnership
+              protect against corporate bonds?
               <h4>
                 Should buyers be allowed to dispose of their property
                 intertemporally if they cannot plausibly use it themselves?
