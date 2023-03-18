@@ -205,6 +205,10 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              <h2>
+                Consumer advocate of minimal viable duress by UN association to
+                own, statewise donee beneficiary, and federal non-response.
+              </h2>
               &bull;{space}TaxSecurityFirst.com for Risk-Free banking
               <br />
               &bull;{space}
@@ -290,10 +294,16 @@ class AApp extends React.Component {
               surplus? Do banks fail because of wages or subpar asset sales and
               defaults? Can’t banks just pay employees by transaction fees
               instead?
-              <h5>vaults.biz/money - stop lending deposits</h5>
-              <h4>Libertarians haven’t liberated sh*t!</h4>Are nonsale medical
-              escrow advances or serviceable sutures materially beneficial
-              public healthcare?
+              <h5 style={{ margin: "4px 0px" }}>
+                vaults.biz/money - stop lending deposits
+              </h5>
+              <h4 style={{ margin: "4px 0px" }}>
+                Libertarians haven’t liberated sh*t!
+              </h4>
+              <hr />
+              <h5 style={{ margin: "4px 0px" }}>occupywall.us</h5>Are nonsale
+              medical escrow advances or serviceable sutures materially
+              beneficial public healthcare?
               <div style={{ fontSize: "12px" }}>
                 I cannot deny what I do not know, but he is a Republican and
                 they like to cover deflation. Should government tax during or
