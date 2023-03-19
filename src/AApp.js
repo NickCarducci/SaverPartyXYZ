@@ -265,16 +265,28 @@ class AApp extends React.Component {
               Why do banks cause a run by selling assets subpar to pay their
               employees instead of use transaction fees?
               <br />
-              Why is bankruptcy allowed to cause bank runs instead of codifying
-              student and government debt while liens use realty foreclosure and
-              shareholder loans from limited family testamentary partnership
-              protect against corporate bonds?
+              <span style={{ color: "orangered", opacity: 0.6 }}>
+                Why is bankruptcy allowed to cause bank runs instead of
+                codifying student and government debt while liens use realty
+                foreclosure and shareholder loans from limited family
+                testamentary partnership protect against corporate bonds?
+              </span>
               <br />
               <span style={{ color: "grey" }}>
                 Would a runoff or approval election assuage a strategic voter’s
                 paranoia from voting sincerely yet also platform a generational
                 plurality? Is a pair of approvals more genuine than any more
                 than two?
+              </span>
+              {space}
+              <span style={{ color: "cadetblue" }}>
+                Does a general runoff or approval vote election solve strategic
+                voting?{space}
+                <i>
+                  Are pair or explicit and approval vote elections disingenuous
+                  while runoff elections game for insincere voters that expect
+                  their bloc to be no different than before?
+                </i>
               </span>
               <h4>
                 Should buyers be allowed to dispose of their property
