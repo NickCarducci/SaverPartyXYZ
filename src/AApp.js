@@ -205,6 +205,12 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              <span style={{ fontSize: "12px" }}>
+                https://www.quora.com/search?q=publishing&author=49662667 Don't
+                cops punish while threats prevent crime? What kind of punishment
+                isn't investigated? Isn't investigation required for punishment?
+              </span>
+              <br />
               Should social security injury disability, supplemental trauma, or
               old age and survivors' past housing and medical factors of old age
               and survivors' insurance beneficiaries pay liabilities before
