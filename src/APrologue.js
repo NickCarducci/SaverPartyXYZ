@@ -3472,22 +3472,30 @@ class APrologue extends React.Component {
         imputing their trespasses unto them; and hath committed unto us the word
         of reconciliation. Now then we are ambassadors for Christ, as though God
         did beseech you by us: we pray you in Christ’s stead, be ye reconciled
-        to God. For he hath made him to be sin for us, who knew no sin; that we
-        might be made the righteousness of God in him.
+        to God.{space}
+        <a href="https://marginalism.uk">
+          For he hath made him to be sin for us
+        </a>
+        , who knew no sin [?]; that we might be made the righteousness of God in
+        him.
         <h2>Old Testament (KJV Isaiah 53:7)</h2>
         He was oppressed, and he was afflicted, Yet he opened not his mouth: He
         is brought as a lamb to the slaughter, And as a sheep before her
         shearers is dumb, So he openeth not his mouth. He was taken from prison
         and from judgment: And who shall declare his generation? For he was cut
-        off out of the land of the living: For the transgression of my people
-        was he stricken. And he made his grave with the wicked, And with the
-        rich in his death; Because he had done no violence, Neither was any
-        deceit in his mouth. Yet it pleased the Lord to bruise him; he hath put
-        him to grief: When thou shalt make his soul an offering for sin, He
-        shall see his seed, he shall prolong his days, And nthe pleasure of the
-        Lord shall prosper in his hand. He shall see of the travail of his soul,
-        and shall be satisfied: By his knowledge shall my righteous rservant
-        justify many; For he shall bear their iniquities.
+        off out of the land of the living:{space}
+        <b style={{ WebkitTextStroke: "1px firebrick" }}>
+          <span style={{ WebkitTextStroke: "1px darkviolet" }}>For</span>
+          {space}the transgression of my people was he stricken.
+        </b>
+        {space}And he made his grave with the wicked, And with the rich in his
+        death; Because he had done no violence, Neither was any deceit in his
+        mouth. Yet it pleased the Lord to bruise him; he hath put him to grief:
+        When thou shalt make his soul an offering for sin, He shall see his
+        seed, he shall prolong his days, And nthe pleasure of the Lord shall
+        prosper in his hand. He shall see of the travail of his soul, and shall
+        be satisfied: By his knowledge shall my righteous rservant justify many;
+        For he shall bear their iniquities.
         <h4>Dies because of sin</h4>
         <a href="https://thechurchoftruth.org/jesus-did-not-die-for-your-sins/">
           Para
