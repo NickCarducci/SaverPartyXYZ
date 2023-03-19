@@ -205,6 +205,13 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              Should social security injury disability, supplemental trauma, or
+              old age and survivors' past housing and medical factors of old age
+              and survivors' insurance beneficiaries pay liabilities before
+              retirement and end? Are the developmentally disabled either ever
+              any more than or even as retarded as the everyday risk-lover? Do
+              everyday people or bankers benefit from shrinkflation in excess of
+              inflation?
               <h2>
                 Consumer advocate of minimal viable duress by UN association to
                 own, statewise donee beneficiary, and federal non-response.
@@ -262,6 +269,13 @@ class AApp extends React.Component {
               student and government debt while liens use realty foreclosure and
               shareholder loans from limited family testamentary partnership
               protect against corporate bonds?
+              <br />
+              <span style={{ color: "grey" }}>
+                Would a runoff or approval election assuage a strategic voter’s
+                paranoia from voting sincerely yet also platform a generational
+                plurality? Is a pair of approvals more genuine than any more
+                than two?
+              </span>
               <h4>
                 Should buyers be allowed to dispose of their property
                 intertemporally if they cannot plausibly use it themselves?
