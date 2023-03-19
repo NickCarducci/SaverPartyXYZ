@@ -215,6 +215,11 @@ class AApp extends React.Component {
               <h2>
                 Consumer advocate of minimal viable duress by UN association to
                 own, statewise donee beneficiary, and federal non-response.
+                {space}
+                <i style={{ color: "grey", fontSize: "16px" }}>
+                  If a deadline is set by someone else, didn't you surrender
+                  another employer's freedom?
+                </i>
               </h2>
               &bull;{space}TaxSecurityFirst.com for Risk-Free banking
               <br />
