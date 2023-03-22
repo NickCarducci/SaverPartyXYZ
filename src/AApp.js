@@ -205,6 +205,8 @@ class AApp extends React.Component {
               //
             }}
           >
+            Combining your money to surrender individual bid? illegal.
+            <br />
             PlaintiffRecessionTax.com
             <br />
             <span>
@@ -1718,3 +1720,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
