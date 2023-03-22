@@ -205,8 +205,16 @@ class AApp extends React.Component {
               //
             }}
           >
+            Amendment 10 enumerates what?
+            <br />
+            <span style={{ textDecoration: "line-through" }}>
+              ​UT NM WY revenuedata.doi.gov worthless
+            </span>
+            <br />
+            ​you just have to shame yourself for religious science
             <div style={{ width: "300px" }}>
               Shelter computer labs
+              <br />
               <span style={{ textDecoration: "line-through" }}>
                 job security, employee retention, paper pushing.
               </span>
