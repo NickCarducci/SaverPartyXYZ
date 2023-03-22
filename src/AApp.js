@@ -191,6 +191,7 @@ class AApp extends React.Component {
           </div>
           <div
             style={{
+              fontSize: "12px",
               display: "flex",
               flexDirection: "column",
               alignItems: "center" //did he just call life a hypno rectangle? endogeous a la carte life
@@ -205,19 +206,29 @@ class AApp extends React.Component {
             }}
           >
             <div style={{ width: "300px" }}>
+              Shelter computer labs
+              <span style={{ textDecoration: "line-through" }}>
+                job security, employee retention, paper pushing.
+              </span>
+              <br />
+              The federal reserve and OCC can just stop bankruptcies to save
+              deposits instead. Progressively tax progressive industries (codify
+              general interest government debt, student debt, and realty
+              foreclosure; default personal LFP, not usually backing deposits).
+              <br />
               <span style={{ fontSize: "12px" }}>
                 https://www.quora.com/search?q=publishing&author=49662667 Don't
                 cops punish while threats prevent crime? What kind of punishment
                 isn't investigated? Isn't investigation required for punishment?
+                <br />
+                Should social security injury disability, supplemental trauma,
+                or old age and survivors' past housing and medical factors of
+                old age and survivors' insurance beneficiaries pay liabilities
+                before retirement and end? Are the developmentally disabled
+                either ever any more than or even as retarded as the everyday
+                risk-lover? Do everyday people or bankers benefit from
+                shrinkflation in excess of inflation?
               </span>
-              <br />
-              Should social security injury disability, supplemental trauma, or
-              old age and survivors' past housing and medical factors of old age
-              and survivors' insurance beneficiaries pay liabilities before
-              retirement and end? Are the developmentally disabled either ever
-              any more than or even as retarded as the everyday risk-lover? Do
-              everyday people or bankers benefit from shrinkflation in excess of
-              inflation?
               <h2>
                 Consumer advocate of minimal viable duress by UN association to
                 own, statewise donee beneficiary, and federal non-response.
@@ -1688,3 +1699,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
