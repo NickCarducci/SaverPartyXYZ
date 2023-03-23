@@ -205,6 +205,12 @@ class AApp extends React.Component {
               //
             }}
           >
+            Save the rats, fund rich NSF applicants, or imprison custom builds?
+            <br />
+            Does an anti-finance third party lose two non-voters for every swing
+            voter gained?
+            <br />
+            <br />
             Combining your money to surrender individual bid? illegal.
             <br />
             PlaintiffRecessionTax.com
@@ -1720,4 +1726,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
