@@ -205,6 +205,10 @@ class AApp extends React.Component {
               //
             }}
           >
+            Do we need medics for all insurance or can healthcare practitioners
+            afford to perform life, limb, or organ saving treatment before the
+            average age of death for free if they don't have to pay insurance
+            first?
             <h3>
               <a href="https://www.reddit.com/r/occupywallstreet/comments/121tafn/changeorgnickcarducci_i_want_a_bank_that_doesnt/">
                 Do you rather borrow, own, or lend?
@@ -1736,3 +1740,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
