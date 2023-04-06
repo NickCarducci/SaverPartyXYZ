@@ -207,6 +207,9 @@ class AApp extends React.Component {
             //Does Medicare for all cover treatment or compulsion?
             //atherosclerosis cardiology virology
           >
+            no such thing as repossession; for a foreclosure, do they want to
+            refinance or give you the money?
+            <br />
             Is vision grift piteous or whatever?
             <h1
             //Are rental businesses exempt because general instead of profit interest is bad for economic security?
