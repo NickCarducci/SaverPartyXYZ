@@ -208,7 +208,14 @@ class AApp extends React.Component {
             //atherosclerosis cardiology virology
           >
             no such thing as repossession; for a foreclosure, do they want to
-            refinance or give you the money?
+            refinance or give you the money?{space}
+            <i>
+              Why would anyone lend a person a loan if they either have to remit
+              foreclosure sale profits to the borrower or await merchant profit
+              interest and "refinance"?
+            </i>
+            {space}Do collective or class action lawsuits diminish the rights of
+            non-respondents?
             <br />
             Is vision grift piteous or whatever?
             <h1
