@@ -204,7 +204,12 @@ class AApp extends React.Component {
 
               //
             }}
+            //Does Medicare for all cover treatment or compulsion?
+            //atherosclerosis cardiology virology
+            //SSA merchant housing until digital surplus recession tax
           >
+            Is vision grift piteous or whatever?
+            <h1>SSA merchant housing until digital surplus recession tax?</h1>
             Do we need medics for all insurance or can healthcare practitioners
             afford to perform life, limb, or organ saving treatment before the
             average age of death for free if they don't have to pay insurance
