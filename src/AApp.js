@@ -139,14 +139,15 @@ class AApp extends React.Component {
         >
           <div
             {...setting(8, {
+              fontSize: "12px",
               zIndex: "9",
               border: "1px solid",
               textAlign: "left",
               color: "black",
               textDecoration: "none",
               position: "fixed",
-              left: "-50px",
-              top: "60px",
+              left: "-80px",
+              top: "100px",
               transform: "rotate(90deg)"
             })}
           >
@@ -155,19 +156,20 @@ class AApp extends React.Component {
             </a>
             <br />
             <a href="https://thetax.party">thetaxparty.com</a>
-            <br />
+            {space}&bull;{space}
             <a href="https://regcops.quora.com">commie.dev/police</a>
           </div>
           <div
             {...setting(8, {
+              fontSize: "12px",
               zIndex: "9",
               border: "1px solid",
               textAlign: "right",
               color: "black",
               textDecoration: "none",
               position: "fixed",
-              left: "-120px",
-              bottom: "140px",
+              left: "-90px",
+              bottom: "120px",
               transform: "rotate(90deg)"
             })}
           >
@@ -191,6 +193,8 @@ class AApp extends React.Component {
           </div>
           <div
             style={{
+              marginLeft: "40px",
+              width: `calc(100% - 40px)`,
               fontSize: "12px",
               display: "flex",
               flexDirection: "column",
@@ -207,6 +211,8 @@ class AApp extends React.Component {
             //Does Medicare for all cover treatment or compulsion?
             //atherosclerosis cardiology virology
           >
+            change.org/NickCarducci
+            <h3>Is spending better than saving income?</h3>
             no such thing as repossession; for a foreclosure, do they want to
             refinance or give you the money?{space}
             <i>
@@ -1765,4 +1771,3 @@ class AApp extends React.Component {
 }
 
 export default AApp;
-
