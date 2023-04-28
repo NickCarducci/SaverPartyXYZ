@@ -1753,15 +1753,28 @@ class AApp extends React.Component {
         </div>
         <div
           style={{
+            backgroundColor: "black",
+            color: "white",
+            opacity: this.state.scrolling ? 0.8 : 0,
             position: "fixed",
             //alignSelf: "start",baby step debt ceiling, then paid of  aces
             bottom: "3px",
             right: "5px"
           }}
         >
+          <span style={{ fontSize: "12px" }}>landlord units</span>
+          <br />
           5 per landlord
           <br />
-          no <a href="https://realvelocity.asia">capitalization</a>
+          no{" "}
+          <a
+            style={{
+              color: "white"
+            }}
+            href="https://realvelocity.asia"
+          >
+            capitalization
+          </a>
           <br />
           no contracts
         </div>
