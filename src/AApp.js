@@ -191,12 +191,31 @@ class AApp extends React.Component {
           >
             &diams;
           </div>
+          <h2>taxparty.org</h2>
+
+          <div
+            style={{
+              marginLeft: "40px",
+              width: `calc(100% - 40px)`,
+              minWidth: "300px",
+              fontSize: "12px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
+            {!this.state.openReverse && this.props.lastWidth && (
+              <Government
+                lastWidth={Math.min(300, this.props.lastWidth - 20)}
+              />
+            )}
+          </div>
           <div
             style={{
               marginLeft: "40px",
               width: `calc(100% - 40px)`,
               fontSize: "12px",
-              display: "flex",
+              display: "none",
               flexDirection: "column",
               alignItems: "center" //did he just call life a hypno rectangle? endogeous a la carte life
               //depression is either natural or systemic
