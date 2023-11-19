@@ -204,6 +204,13 @@ class AApp extends React.Component {
               alignItems: "center"
             }}
           >
+            <TwitterTweetEmbed
+              style={{
+                overflowX: "auto"
+              }}
+              key="1421858300979732480"
+              tweetId="1421858300979732480"
+            />
             {!this.state.openReverse && this.props.lastWidth && (
               <Government
                 lastWidth={Math.min(300, this.props.lastWidth - 20)}
