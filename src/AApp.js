@@ -148,7 +148,8 @@ class AApp extends React.Component {
               position: "fixed",
               left: "-80px",
               top: "100px",
-              transform: "rotate(90deg)"
+              transform: "rotate(90deg)",
+              display: "none"
             })}
           >
             <a href="https://reverseamortization.quora.com">
@@ -192,7 +193,15 @@ class AApp extends React.Component {
             &diams;
           </div>
           <h2>taxparty.org</h2>
-
+          End new mortgages and invoices, force new buyers to pay up front or
+          finance with royalties. Ensure existing mortgages makes a debt of
+          payment installments on the bank if the bank wants to foreclose on a
+          house.
+          <br />
+          <br />
+          I’ll tax the rich, I don’t need to end mandatory spending, but I would
+          like to at least ban medical bills so people have to pay up front and
+          physicians would have to lower their prices:
           <div
             style={{
               marginLeft: "40px",
@@ -1868,3 +1877,4 @@ class AApp extends React.Component {
 }
 
 export default AApp;
+
