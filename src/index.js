@@ -1,4 +1,6 @@
 import React from "react";
+//import ExecutionEnvironment from "exenv";
+//import { FacebookProvider, Page } from "react-facebook";
 import { UAParser } from "ua-parser-js";
 //import Older from "./Older";
 import "./style.css";
@@ -102,7 +104,18 @@ class Authentication extends React.Component {
       }, 600);
     }
   };
-  componentDidMount = () => {
+  componentDidMount() {
+    /*if (ExecutionEnvironment.canUseDOM) {
+      let script = require("scriptjs");
+      script(
+        "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0",
+        "twitter-embed",
+        () => {
+          this.renderWidget();
+        }
+      );
+    }*/
+
     this.setState({
       ios: this.state.browser.includes("Safari"),
       iosNoPhoto: this.state.browser.includes("Safari"),
@@ -111,7 +124,7 @@ class Authentication extends React.Component {
     window.FontAwesomeConfig = { autoReplaceSvg: "nest" };
     window.addEventListener("resize", this.refresh);
     this.refresh(null, true);
-  };
+  }
   componentWillUnmount = () => {
     window.removeEventListener("beforeinstallprompt", this.beforeinstallprompt);
     window.removeEventListener("appinstalled", this.afterinstallation);
@@ -478,6 +491,37 @@ class Authentication extends React.Component {
             🔄 Share our message:{" "}
             <strong>Real value. Real rules. Real future.</strong>
           </p>
+          {/*<FacebookProvider appId="123456789">
+            <Page href="https://www.facebook.com/saverparty" tabs="" />
+          </FacebookProvider>
+          <div
+            class="fb-page"
+            data-href="https://www.facebook.com/saverparty"
+            data-tabs=""
+            data-width=""
+            data-height=""
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/saverparty"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/saverparty">Saver Party</a>
+            </blockquote>
+          </div>*/}
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsaverparty&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+            width="340"
+            height="130"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
           <hr />
         </div>
       </div>
@@ -551,4 +595,3 @@ createRoot(document.getElementById("root")).render(
   </BrowserRouter>
 );
 //don't use the stupidunusedrouter.js
-
