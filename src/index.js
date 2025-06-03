@@ -191,7 +191,12 @@ class Authentication extends React.Component {
       this.state;
     const space = " ";
     return (
-      <div>
+      <div
+        style={{
+          fontFamily: '"Inter", sans-serif',
+          margin: "20px",
+        }}
+      >
         <div>
           <hr />
           <h1>🐿️ The Saver Party Manifesto</h1>
@@ -414,6 +419,8 @@ class Authentication extends React.Component {
             the only justifiable source of economic expansion.
             <br />
             Everything else is a redistribution scheme benefiting insiders.
+            {/*Although legal, these beneign or negative causes of growth are not
+            meaningful towards individual happiness.*/}
           </p>
           <hr />
           <h2>🗳️ What We’re Building</h2>
@@ -544,3 +551,4 @@ createRoot(document.getElementById("root")).render(
   </BrowserRouter>
 );
 //don't use the stupidunusedrouter.js
+
